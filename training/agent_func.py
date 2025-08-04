@@ -86,7 +86,7 @@ def is_memory_fresh(memory_id: str, expected_content_hash: str) -> bool:
         return False
 
 
-def reset_memory_for_episode(memory_id: str, instances_dir: str = "instances") -> bool:
+def reset_memory_for_episode(memory_id: str, instances_dir: str = "data/instances") -> bool:
     """
     Thread-safe reset of a specific memory to its original state before training episode.
     Uses per-memory locks to prevent race conditions in async training.
