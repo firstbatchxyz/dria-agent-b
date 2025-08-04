@@ -3,9 +3,6 @@
 
 include .env
 
-# Training mode variables
-MODE ?= mixed
-
 # Evaluation variables
 MODEL ?= qwen/qwen3-8b
 USE_VLLM ?= 
@@ -20,15 +17,9 @@ help:
 	@echo "  3. install - Install dependencies using uv"
 	@echo "  4. setup-memory - Setup memory from instances"
 	@echo "  5. remove-vllm-error - Remove vllm error check"
-	@echo "  6. format-data - Format dataset with mixed mode → data/openrlhf/mixed/"
-	@echo "  10. train - Run training with mixed mode"
+	@echo "  6. format-data - Format dataset → data/openrlhf/mixed/"
+	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
-	@echo ""
-	@echo "Training mode variables:"
-	@echo "  MODE - Set training mode (mixed, ordered, one-category)"
-	@echo "  CATEGORY - Set category for one-category mode (retrieval, update)"
-	@echo "  Usage: make train MODE=ordered"
-	@echo "         make train MODE=one-category CATEGORY=update"
 	@echo ""
 	@echo "Evaluation variables:"
 	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
@@ -76,22 +67,16 @@ setup-memory:
 remove-vllm-error:
 	python3 remove_vllm_error.py
 
-# Format dataset with different modes
+# Format dataset
 format-data:
-	@echo "Formatting dataset with mixed mode (default)..."
+	@echo "Formatting dataset..."
 	uv run --project agent python training/scripts/format_dataset.py --mode mixed
 
-# Run the training script with mode support
+# Run the training script
 train:
-	@echo "Starting training with mode: $(MODE)..."
-	@if [ "$(MODE)" = "one-category" ]; then \
-		echo "Using category: $(CATEGORY)"; \
-		export PROMPT_DATA_PATH="data/openrlhf/one-category/$(CATEGORY)"; \
-	else \
-		export PROMPT_DATA_PATH="data/openrlhf/$(MODE)"; \
-	fi; \
-	chmod +x train_agent.sh; \
-	WANDB_API_KEY=$(WANDB_API_KEY) PROMPT_DATA_PATH=$$PROMPT_DATA_PATH ./train_agent.sh
+	@echo "Starting training..."
+	chmod +x train_agent.sh
+	WANDB_API_KEY=$(WANDB_API_KEY) ./train_agent.sh
 
 
 # Evaluation target
