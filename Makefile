@@ -66,7 +66,7 @@ install:
 	cd agent && uv sync && cd ..
 
 setup-memory:
-	uv run --project agent python setup_memory.py
+	uv run --project agent python training/scripts/setup_memory.py
 
 remove-vllm-error:
 	python3 remove_vllm_error.py
@@ -74,19 +74,19 @@ remove-vllm-error:
 # Format dataset with different modes
 format-data:
 	@echo "Formatting dataset with mixed mode (default)..."
-	uv run --project agent python format_dataset.py --mode mixed
+	uv run --project agent python training/scripts/format_dataset.py --mode mixed
 
 format-data-ordered:
 	@echo "Formatting dataset with ordered mode (retrieval first, then update)..."
-	uv run --project agent python format_dataset.py --mode ordered
+	uv run --project agent python training/scripts/format_dataset.py --mode ordered
 
 format-data-retrieval-only:
 	@echo "Formatting dataset with retrieval data only..."
-	uv run --project agent python format_dataset.py --mode one-category --category retrieval
+	uv run --project agent python training/scripts/format_dataset.py --mode one-category --category retrieval
 
 format-data-update-only:
 	@echo "Formatting dataset with update data only..."
-	uv run --project agent python format_dataset.py --mode one-category --category update
+	uv run --project agent python training/scripts/format_dataset.py --mode one-category --category update
 
 # Run the training script with mode support
 train:

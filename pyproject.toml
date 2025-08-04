@@ -14,5 +14,4 @@ dependencies = [
     "wandb",
     "ninja",
     "black",
-    "liger-kernel>=0.3.0"
 ]
