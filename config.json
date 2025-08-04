@@ -1,0 +1,16 @@
+{
+  "model": {
+    "name": "Qwen/Qwen3-14B"
+  },
+  "hyperparameters": {
+    "init_kl_coef": 0.1,
+    "kl_target": 0.02,
+    "kl_horizon": 256,
+    "max_epochs": 10,
+    "actor_learning_rate": "1e-6",
+    "critic_learning_rate": "2e-5",
+    "num_episodes": 8,
+    "thoughts_min_length": 512,
+    "advantage_estimator": "group_norm"
+  }
+} 
