@@ -27,22 +27,75 @@ def load_memory_data(memory_dir: pathlib.Path) -> Dict[str, Any]:
     if not update_path.exists():
         raise FileNotFoundError(f"update_queries.json not found in {memory_dir}")
     
-    # Load base memory
-    base_memory = json.loads(base_memory_path.read_text(encoding="utf-8"))
-    memory_id = base_memory["mem_id"]
+    try:
+        # Load base memory
+        base_memory = json.loads(base_memory_path.read_text(encoding="utf-8"))
+        memory_id = base_memory.get("mem_id") or base_memory.get("memory_id")
+        if not memory_id:
+            raise ValueError(f"No memory ID found in base_memory.json")
+        
+        # Load retrieval questions
+        retrieval_data = json.loads(retrieval_path.read_text(encoding="utf-8"))
+        
+        # Load update queries
+        update_data = json.loads(update_path.read_text(encoding="utf-8"))
+        
+        return {
+            "memory_id": memory_id,
+            "base_memory": base_memory,
+            "retrieval": retrieval_data,
+            "update": update_data
+        }
+    except (json.JSONDecodeError, KeyError, ValueError) as e:
+        raise ValueError(f"Error loading memory data from {memory_dir}: {e}")
+
+def is_valid_retrieval_item(item: Any) -> bool:
+    """Check if an item has the required fields for retrieval processing."""
+    if not isinstance(item, dict):
+        return False
     
-    # Load retrieval questions
-    retrieval_data = json.loads(retrieval_path.read_text(encoding="utf-8"))
+    # Must have both 'q' and 'a' keys
+    if 'q' not in item or 'a' not in item:
+        return False
     
-    # Load update queries
-    update_data = json.loads(update_path.read_text(encoding="utf-8"))
+    # Check if values are not None or empty
+    q_value = item['q']
+    a_value = item['a']
     
-    return {
-        "memory_id": memory_id,
-        "base_memory": base_memory,
-        "retrieval": retrieval_data,
-        "update": update_data
-    }
+    if q_value is None or a_value is None:
+        return False
+    
+    # Handle empty lists or strings
+    if isinstance(q_value, (list, str)) and len(q_value) == 0:
+        return False
+    if isinstance(a_value, str) and len(a_value.strip()) == 0:
+        return False
+    
+    return True
+
+def is_valid_update_item(item: Any) -> bool:
+    """Check if an item has the required fields for update processing."""
+    if not isinstance(item, dict):
+        return False
+    
+    # Must have both 'query' and 'diff' keys
+    if 'query' not in item or 'diff' not in item:
+        return False
+    
+    # Check if values are not None or empty
+    query_value = item['query']
+    diff_value = item['diff']
+    
+    if query_value is None or diff_value is None:
+        return False
+    
+    # Handle empty strings
+    if isinstance(query_value, str) and len(query_value.strip()) == 0:
+        return False
+    if isinstance(diff_value, str) and len(diff_value.strip()) == 0:
+        return False
+    
+    return True
 
 def process_retrieval_questions(memory_data: Dict[str, Any], sys_prompt: str) -> Dict[str, List[Dict[str, Any]]]:
     """Process retrieval questions for a memory, organized by hop level."""
@@ -52,40 +105,55 @@ def process_retrieval_questions(memory_data: Dict[str, Any], sys_prompt: str) ->
     
     # Process in order: 0_hop, 1_hop, 2_hop
     for hop_level in ["0_hop", "1_hop", "2_hop"]:
-        if hop_level in retrieval_data:
-            hop_data = retrieval_data[hop_level]
+        if hop_level not in retrieval_data:
+            continue
             
-            # Handle both array format and single object format
-            if isinstance(hop_data, list):
-                # Array format (like 0_hop typically)
-                items = hop_data
-            else:
-                # Single object format (some 1_hop, 2_hop cases)
-                items = [hop_data]
-            
-            for i, item in enumerate(items):
-                try:
-                    # Handle both single questions and lists of questions
-                    questions = item["q"]
-                    if isinstance(questions, (list, tuple)):
-                        iterator = questions
-                    else:
-                        iterator = [questions]
+        hop_data = retrieval_data[hop_level]
+        
+        # Handle both array format and single object format
+        if isinstance(hop_data, list):
+            # Array format (like 0_hop typically)
+            items = hop_data
+        else:
+            # Single object format (some 1_hop, 2_hop cases)
+            items = [hop_data] if hop_data else []
+        
+        valid_items = 0
+        for i, item in enumerate(items):
+            try:
+                # Validate item before processing
+                if not is_valid_retrieval_item(item):
+                    print(f"  - Warning: Skipping invalid {hop_level} item {i} in memory {memory_id}: {item}")
+                    continue
+                
+                # Handle both single questions and lists of questions
+                questions = item["q"]
+                if isinstance(questions, (list, tuple)):
+                    iterator = questions
+                else:
+                    iterator = [questions]
+                
+                for q in iterator:
+                    if q is None or (isinstance(q, str) and len(q.strip()) == 0):
+                        continue  # Skip empty questions
                     
-                    for q in iterator:
-                        record = {
-                            "context_messages": [
-                                {"role": "system", "content": sys_prompt},
-                                {"role": "user", "content": q}
-                            ],
-                            "label": construct_label(TaskType.RETRIEVAL, item["a"], memory_id)
-                        }
-                        hop_records[hop_level].append(record)
-                except Exception as e:
-                    print(f"Error processing {hop_level} item {i} in memory {memory_id}: {e}")
-                    print(f"Item type: {type(item)}, Item content: {item}")
-                    print(f"Hop data type: {type(hop_data)}, Hop data: {hop_data}")
-                    raise
+                    record = {
+                        "context_messages": [
+                            {"role": "system", "content": sys_prompt},
+                            {"role": "user", "content": str(q).strip()}
+                        ],
+                        "label": construct_label(TaskType.RETRIEVAL, item["a"], memory_id)
+                    }
+                    hop_records[hop_level].append(record)
+                    valid_items += 1
+                    
+            except Exception as e:
+                print(f"  - Warning: Error processing {hop_level} item {i} in memory {memory_id}: {e}")
+                print(f"    Item content: {item}")
+                continue  # Skip this item and continue processing
+        
+        if valid_items == 0 and len(items) > 0:
+            print(f"  - Warning: No valid {hop_level} retrieval items found in memory {memory_id}")
     
     return hop_records
 
@@ -97,26 +165,44 @@ def process_update_queries(memory_data: Dict[str, Any], sys_prompt: str) -> Dict
     
     # Process in order: 0_hop, 1_hop, 2_hop
     for hop_level in ["0_hop", "1_hop", "2_hop"]:
-        if hop_level in update_data:
-            hop_data = update_data[hop_level]
+        if hop_level not in update_data:
+            continue
             
-            # Handle both array format and single object format
-            if isinstance(hop_data, list):
-                # Array format (like 0_hop typically)
-                items = hop_data
-            else:
-                # Single object format (some 1_hop, 2_hop cases)
-                items = [hop_data]
-            
-            for item in items:
+        hop_data = update_data[hop_level]
+        
+        # Handle both array format and single object format
+        if isinstance(hop_data, list):
+            # Array format (like 0_hop typically)
+            items = hop_data
+        else:
+            # Single object format (some 1_hop, 2_hop cases)
+            items = [hop_data] if hop_data else []
+        
+        valid_items = 0
+        for i, item in enumerate(items):
+            try:
+                # Validate item before processing
+                if not is_valid_update_item(item):
+                    print(f"  - Warning: Skipping invalid {hop_level} update item {i} in memory {memory_id}: {item}")
+                    continue
+                
                 record = {
                     "context_messages": [
                         {"role": "system", "content": sys_prompt},
-                        {"role": "user", "content": item["query"]}
+                        {"role": "user", "content": str(item["query"]).strip()}
                     ],
                     "label": construct_label(TaskType.UPDATE, item["diff"], memory_id)
                 }
                 hop_records[hop_level].append(record)
+                valid_items += 1
+                
+            except Exception as e:
+                print(f"  - Warning: Error processing {hop_level} update item {i} in memory {memory_id}: {e}")
+                print(f"    Item content: {item}")
+                continue  # Skip this item and continue processing
+        
+        if valid_items == 0 and len(items) > 0:
+            print(f"  - Warning: No valid {hop_level} update items found in memory {memory_id}")
     
     return hop_records
 
@@ -163,7 +249,18 @@ def combine_data_one_category(data_hops: Dict[str, List[Dict[str, Any]]]) -> Lis
 
 def split_data(records: List[Dict[str, Any]], train_ratio: float = 0.97) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """Split data into train and validation sets."""
-    train_size = int(len(records) * train_ratio)
+    if not records:
+        return [], []
+    
+    # Ensure we have at least one record in validation if we have more than one record total
+    if len(records) == 1:
+        return records, []
+    
+    train_size = max(1, int(len(records) * train_ratio))
+    # Ensure validation set has at least one record if possible
+    if train_size >= len(records):
+        train_size = len(records) - 1
+    
     return records[:train_size], records[train_size:]
 
 def main():
@@ -183,7 +280,18 @@ def main():
         return
 
     # Load system prompt
-    sys_prompt = pathlib.Path(args.prompt).read_text(encoding="utf-8").strip()
+    try:
+        prompt_path = pathlib.Path(args.prompt)
+        if not prompt_path.exists():
+            print(f"Error: System prompt file not found: {args.prompt}")
+            return
+        sys_prompt = prompt_path.read_text(encoding="utf-8").strip()
+        if not sys_prompt:
+            print(f"Error: System prompt file is empty: {args.prompt}")
+            return
+    except Exception as e:
+        print(f"Error loading system prompt from {args.prompt}: {e}")
+        return
     
     # Find all memory directories across all instance folders
     input_path = pathlib.Path(args.input_dir)
@@ -249,8 +357,12 @@ def main():
                 total_update = sum(len(records) for records in update_hops.values())
                 print(f"  - Added {total_update} update records")
             
-        except FileNotFoundError as e:
+        except (FileNotFoundError, ValueError) as e:
             print(f"  - Skipped: {e}")
+            skipped_count += 1
+            continue
+        except Exception as e:
+            print(f"  - Error processing {memory_dir.name}: {e}")
             skipped_count += 1
             continue
 
@@ -269,6 +381,11 @@ def main():
             all_records = combine_data_one_category(all_update_hops)
             print(f"Using one-category mode: update only")
 
+    # Check if we have any records to process
+    if not all_records:
+        print("Error: No valid records found to process. Check your input data.")
+        return
+
     # Split into train and validation sets
     train_records, valid_records = split_data(all_records)
 
@@ -283,15 +400,23 @@ def main():
     
     # Write train.jsonl
     train_path = output_dir / "train.jsonl"
-    with train_path.open("w", encoding="utf-8") as fh:
-        for record in train_records:
-            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    try:
+        with train_path.open("w", encoding="utf-8") as fh:
+            for record in train_records:
+                fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except Exception as e:
+        print(f"Error writing train file {train_path}: {e}")
+        return
     
     # Write valid.jsonl
     valid_path = output_dir / "valid.jsonl"
-    with valid_path.open("w", encoding="utf-8") as fh:
-        for record in valid_records:
-            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    try:
+        with valid_path.open("w", encoding="utf-8") as fh:
+            for record in valid_records:
+                fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except Exception as e:
+        print(f"Error writing validation file {valid_path}: {e}")
+        return
 
     # Calculate statistics
     total_retrieval = sum(len(records) for records in all_retrieval_hops.values())
