@@ -1,0 +1,17 @@
+[project]
+name = "obsidian-agent"
+version = "0.1.0"
+description = "Agent module for obsidian-agent project"
+dependencies = [
+    "openai",
+    "pydantic>=2.0.0",
+    "python-dotenv",
+    "aiofiles",
+]
+requires-python = ">=3.8"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "pytest-asyncio",
+] 

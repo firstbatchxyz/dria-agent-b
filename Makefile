@@ -44,9 +44,11 @@ install:
 	else \
 		echo "black is already installed"; \
 	fi
+	@echo "Installing agent environment..."
+	cd agent && uv sync && cd ..
 
 setup-memory:
-	uv run python setup_memory.py
+	uv run --project agent python setup_memory.py
 
 remove-vllm-error:
 	python3 remove_vllm_error.py
