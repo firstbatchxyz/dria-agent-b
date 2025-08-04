@@ -1,0 +1,6 @@
+{"question": "What am I allergic to?", "answer": "You have an allergy to Penicillin.", "judge": ""}
+{"question": "When should I take the medication for my blood pressure?", "answer": "You take Lisinopril for blood pressure once daily, in the morning.", "judge":""}
+{"question": "Who is my main doctor?", "answer": "Your Primary Care Physician (PCP) is Dr. Susan Carter.", "judge": "This is a 1-hop query. The model must follow the link for 'Primary Care Physician (PCP)' from laura_williams.md to [[dr_susan_carter.md]] and retrieve the doctor's name."}
+{"question": "What clinic does my diabetes specialist, Dr. Grant, work at?", "answer": "Dr. Alan Grant works at the Metropolitan Endocrinology Center.", "judge": ""}
+{"question": "Where does my primary doctor, Susan Carter, work?", "answer": "Dr. Susan Carter works at the Oakwood Community Clinic.", "judge": ""}
+{"question": "What is my son Brian's occupation?", "answer": "Your son, Brian Williams, is a Graphic Designer.", "judge": ""}
