@@ -28,9 +28,8 @@ model_name = config['model']['name']
 # Extract model identifier (e.g., 'Qwen/Qwen2.5-Coder-7B-Instruct' -> 'qwen2.5-coder-7b-instruct')
 model_id = model_name.split('/')[-1].lower().replace('-', '-')
 
-# Get data mode from environment for path construction
-prompt_data_path = os.environ.get('PROMPT_DATA_PATH', 'data/openrlhf/mixed')
-data_mode = prompt_data_path.split('/')[-1] if '/' in prompt_data_path else 'mixed'
+# Hardcode data mode to mixed
+data_mode = 'mixed'
 
 # Construct dynamic path with data mode
 path_suffix = f\"{model_id}-obsidian-{data_mode}-{hp['actor_learning_rate']}-{hp['critic_learning_rate']}-{hp['max_epochs']}epochs-{hp['num_episodes']}episodes\"
@@ -54,7 +53,6 @@ eval "$CONFIG_VALUES"
 
 echo "Loaded configuration:"
 echo "  Model: $MODEL_NAME"
-echo "  Prompt Data Path: ${PROMPT_DATA_PATH:-data/openrlhf/mixed}"
 echo "  Save/Checkpoint Path: $SAVE_PATH"
 echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_epochs=$MAX_EPOCHS, etc."
 
@@ -91,7 +89,7 @@ echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_e
    --bf16 \
    --actor_learning_rate $ACTOR_LR \
    --critic_learning_rate $CRITIC_LR \
-   --prompt_data json@${PROMPT_DATA_PATH:-data/openrlhf/mixed} \
+   --prompt_data json@data/openrlhf/mixed \
    --input_key context_messages \
    --label_key label \
    --apply_chat_template \
