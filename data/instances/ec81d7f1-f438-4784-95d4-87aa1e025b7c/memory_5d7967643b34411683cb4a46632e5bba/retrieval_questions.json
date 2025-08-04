@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Teacher"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "hiking and playing guitar"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "Master's degree in Education"
+    },
+    {
+      "q": "What is my marital status?",
+      "a": "married"
+    },
+    {
+      "q": "How many children do I have?",
+      "a": "2"
+    },
+    {
+      "q": "What pet do I have?",
+      "a": "dog named Luna"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "local community garden"
+    },
+    {
+      "q": "What is my favorite book?",
+      "a": "Pride and Prejudice"
+    },
+    {
+      "q": "Where was I born?",
+      "a": "Austin, Texas"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the demographic type of the group that I am part of?"
+      ],
+      "a": "client_demographic",
+      "attribute": "entity type=client_demographic",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What is the average household income of the group that I am part of?"
+      ],
+      "a": "75000",
+      "attribute": "average household income=75000",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What are the preferred communication channels of the group that I am part of?"
+      ],
+      "a": "Email and in-person meetings",
+      "attribute": "preferred communication channels=Email and in-person meetings",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What are the main challenges of the group that I am part of?"
+      ],
+      "a": "Balancing savings with daily expenses",
+      "attribute": "main challenges=Balancing savings with daily expenses",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What is the financial education level of the group that I am part of?"
+      ],
+      "a": "Moderate",
+      "attribute": "financial education level=Moderate",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What is the geographic distribution of the group that I am part of?"
+      ],
+      "a": "Suburban and urban areas",
+      "attribute": "geographic distribution=Suburban and urban areas",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What are the primary concerns of the group that I am part of?"
+      ],
+      "a": "Saving for college and retirement",
+      "attribute": "primary concerns=Saving for college and retirement",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What is the technology adoption level of the group that I am part of?"
+      ],
+      "a": "High",
+      "attribute": "technology adoption=High",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    },
+    {
+      "q": [
+        "What is the age demographic of the group that I am part of?"
+      ],
+      "a": "Families aged 30-50",
+      "attribute": "age demographic=Families aged 30-50",
+      "path": "Mia Hernandez -> Middle-Class Families"
+    }
+  ]
+}

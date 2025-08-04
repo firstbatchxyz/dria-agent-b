@@ -1,0 +1,219 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Senior Support Engineer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "MSc in Computer Science"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "AWS Certified Solutions Architect"
+    },
+    {
+      "q": "Where am I located?",
+      "a": "Seattle, WA"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "rock climbing"
+    },
+    {
+      "q": "What is my phone extension?",
+      "a": "1458"
+    },
+    {
+      "q": "When was my last training?",
+      "a": "August 2023"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of tool do I use?"
+      ],
+      "a": "Tool",
+      "attribute": "entity type=Tool",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "What version is the tool that I use?"
+      ],
+      "a": "3.0",
+      "attribute": "version=3.0",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "What databases are supported by the tool I use?"
+      ],
+      "a": "MySQL, PostgreSQL, Oracle, SQL Server",
+      "attribute": "supported databases=MySQL, PostgreSQL, Oracle, SQL Server",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "What features does the tool I use have?"
+      ],
+      "a": "Schema Migration, Data Integrity Check, Rollback Support, Performance Optimization",
+      "attribute": "features=Schema Migration, Data Integrity Check, Rollback Support, Performance Optimization",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "Who developed the tool that I use?"
+      ],
+      "a": "CloudCRM Labs",
+      "attribute": "developer=CloudCRM Labs",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "When was the tool I use released?"
+      ],
+      "a": "March 2023",
+      "attribute": "release date=March 2023",
+      "path": "Marcus Green -> Database Migration Toolkit"
+    },
+    {
+      "q": [
+        "What type of service do I execute?"
+      ],
+      "a": "Service",
+      "attribute": "entity type=Service",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What is the description of the service I execute?"
+      ],
+      "a": "Service responsible for ensuring seamless data synchronization across various client systems and platforms.",
+      "attribute": "description=Service responsible for ensuring seamless data synchronization across various client systems and platforms.",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What protocols are supported by the service I execute?"
+      ],
+      "a": "HTTP, HTTPS, FTP, SFTP",
+      "attribute": "supported protocols=HTTP, HTTPS, FTP, SFTP",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What is the average response time of the service I execute?"
+      ],
+      "a": "50ms",
+      "attribute": "average response time=50ms",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What is the uptime of the service I execute?"
+      ],
+      "a": "99.95%",
+      "attribute": "uptime=99.95%",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What API version does the service I execute use?"
+      ],
+      "a": "v3.2",
+      "attribute": "api version=v3.2",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "When was the service I execute last updated?"
+      ],
+      "a": "September 15, 2023",
+      "attribute": "last updated=September 15, 2023",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "How many concurrent connections does the service I execute support?"
+      ],
+      "a": "5000",
+      "attribute": "concurrent connections support=5000",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What security features does the service I execute have?"
+      ],
+      "a": "OAuth 2.0, TLS 1.2, data encryption at rest and in transit",
+      "attribute": "security features=OAuth 2.0, TLS 1.2, data encryption at rest and in transit",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What client support does the service I execute provide?"
+      ],
+      "a": "24/7 through dedicated support team",
+      "attribute": "client support=24/7 through dedicated support team",
+      "path": "Marcus Green -> Data Synchronization Service"
+    },
+    {
+      "q": [
+        "What type of software do I customize?"
+      ],
+      "a": "Software",
+      "attribute": "entity type=Software",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "What formats are supported by the software I customize?"
+      ],
+      "a": "JSON, XML, CSV",
+      "attribute": "supported formats=JSON, XML, CSV",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "What integration capability does the software I customize have?"
+      ],
+      "a": "Seamless integration with third-party software",
+      "attribute": "integration capability=Seamless integration with third-party software",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "What security features does the software I customize have?"
+      ],
+      "a": "Supports role-based access control and data encryption",
+      "attribute": "security features=Supports role-based access control and data encryption",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "What user interface does the software I customize have?"
+      ],
+      "a": "Intuitive drag-and-drop design",
+      "attribute": "user interface=Intuitive drag-and-drop design",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "What version is the software I customize?"
+      ],
+      "a": "2.4.1",
+      "attribute": "version=2.4.1",
+      "path": "Marcus Green -> Custom Workflow Designer"
+    },
+    {
+      "q": [
+        "When was the"
+      ]
+    }
+  ]
+}

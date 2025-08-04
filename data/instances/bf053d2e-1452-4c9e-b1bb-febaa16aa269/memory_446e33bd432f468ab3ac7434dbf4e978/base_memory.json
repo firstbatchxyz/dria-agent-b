@@ -1,0 +1,46 @@
+{
+  "user_md": "# Maria\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Maria\n- **Last Name**: Lopez\n- **Age**: 42\n- **Birthplace**: San Jos\u00e9, Costa Rica\n- **Years Of Experience**: 15\n- **Education**: Nursing Diploma\n- **Languages Spoken**: Spanish, English\n- **Hobbies**: Gardening\n- **Favorite Food**: Ceviche\n- **Pets**: Parrot named Pepito\n\n## Relationships\n- **Provides Services To**: [[eleanor.md]]\n- **Associated With**: [[home_care_services.md]]",
+  "entities": [
+    {
+      "entity_name": "eleanor",
+      "entity_file_path": "entities/eleanor.md",
+      "entity_file_content": "# Eleanor\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Eleanor\n- **Last Name**: Johnson\n- **Age**: 78\n- **Residence Type**: apartment\n- **Health Condition**: early-stage Alzheimer's\n- **Favorite Hobby**: knitting\n- **Daily Routine**: morning walk\n- **Birthplace**: Boston, Massachusetts\n- **Previous Occupation**: school teacher\n- **Pet**: Golden Retriever named Max\n\n## Relationships\n- **Provides Services To**: [[maria.md]]"
+    },
+    {
+      "entity_name": "home_care_services",
+      "entity_file_path": "entities/home_care_services.md",
+      "entity_file_content": "# Home Care Services\n\n## Basic Information\n- **Entity Type**: Service\n- **Type**: Entity\n- **Location**: San Francisco, CA\n- **Services Offered**: In-home nursing, physical therapy, occupational therapy, speech therapy, medical social services, home health aide care\n- **Operation Hours**: 24/7\n- **Founded Year**: 1998\n- **Accreditation**: Joint Commission Accredited\n- **Client Satisfaction Rate**: 92\n\n## Relationships\n- **Associated With**: [[maria.md]]"
+    },
+    {
+      "entity_name": "eleanor's_apartment",
+      "entity_file_path": "entities/eleanor's_apartment.md",
+      "entity_file_content": "# Eleanor's Apartment\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Location**: Boston, Massachusetts\n- **Apartment Size**: 2-bedroom\n- **Floor Number**: 3\n- **Accessibility Features**: ramp, elevator\n- **Nearby Amenities**: park, grocery store, library\n- **Has Balcony**: True\n- **Interior Theme**: cozy cottage\n- **Year Built**: 1985\n- **Pet Friendly**: True\n- **Security Features**: 24-hour surveillance\n\n## Relationships\n- **Lives In**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "reminder_system",
+      "entity_file_path": "entities/reminder_system.md",
+      "entity_file_content": "# Reminder System\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Reminder Type**: Digital Calendar\n- **Usage Frequency**: daily\n- **User Customization**: True\n- **Visual Display**: high contrast mode for visibility\n- **Audio Reminders**: voice notifications\n- **Device Sync**: synchronizes with smartphone\n- **Battery Life**: long-lasting\n- **Brand**: MemoTech\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "medication_organizer",
+      "entity_file_path": "entities/medication_organizer.md",
+      "entity_file_content": "# Medication Organizer\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Color**: blue\n- **Compartments**: 7\n- **Material**: plastic\n- **Reminder Type**: sound\n- **Battery Life Days**: 30\n- **Size**: compact\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "family_photo_album",
+      "entity_file_path": "entities/family_photo_album.md",
+      "entity_file_content": "# Family Photo Album\n\n## Basic Information\n- **Entity Type**: Object\n- **Type**: Entity\n- **Number Of Photos**: 50\n- **Themes**: birthdays, weddings, vacations\n- **Oldest Photo Year**: 1945\n- **Materials**: leather-bound with acid-free paper\n- **Primary Photographer**: Husband, Richard Johnson\n- **Remarks**: Contains handwritten notes with dates and names\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "appointment_calendar",
+      "entity_file_path": "entities/appointment_calendar.md",
+      "entity_file_content": "# Appointment Calendar\n\n## Basic Information\n- **Entity Type**: Tool\n- **Type**: Entity\n- **Calendar Type**: digital\n- **Sync With Family**: True\n- **Color Coded**: True\n- **Reminder Alerts**: enabled\n- **Notes Section**: True\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "emergency_contact_list",
+      "entity_file_path": "entities/emergency_contact_list.md",
+      "entity_file_content": "# Emergency Contact List\n\n## Basic Information\n- **Entity Type**: Document\n- **Type**: Entity\n- **Creation Date**: January 15, 2023\n- **Last Updated**: October 1, 2023\n- **Format**: PDF\n- **Accessibility Features**: large print, voice-assist commands\n- **Storage Location**: kitchen drawer\n- **Emergency Category**: medical emergencies, severe weather situations\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    }
+  ],
+  "mem_id": "memory_446e33bd432f468ab3ac7434dbf4e978"
+}

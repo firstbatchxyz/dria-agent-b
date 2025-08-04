@@ -1,0 +1,11 @@
+{
+  "user_md": "# Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Senior Accountant\n- **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n- **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n- **Certifications**: Chartered Accountant (CA)\n- **Hobbies**: Cycling, Chess, Cooking international cuisine\n- **Favorite Software Feature**: Pivot Tables\n- **Professional Goals**: To become a partner at the firm within the next 5 years\n- **Communication Style**: Prefers detailed emails over calls\n- **Nickname**: Rajie\n\n## Relationships\n- **Collaborates_With**: [[lisa_sanders.md]]",
+  "entities": [
+    {
+      "entity_name": "lisa_sanders",
+      "entity_file_path": "entities/lisa_sanders.md",
+      "entity_file_content": "# Lisa Sanders\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Financial Analyst\n- **Disability**: Blind\n- **Assistive Technologies**: JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing\n- **Colleagues**: John Thompson, Emily Tran, Raj Patel, Natalie Garcia\n- **Hobbies**: Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance\n- **Education Background**: Master's Degree in Finance from University of Midwest\n- **Certifications**: Certified Financial Planner (CFP)\n- **Favorite Software Feature**: Screen Reader Mode\n\n## Relationships\n- **Collaborates_With**: [[raj_patel.md]]"
+    }
+  ],
+  "mem_id": "memory_73baa29467b1489690ba23b7735ac2c1"
+}

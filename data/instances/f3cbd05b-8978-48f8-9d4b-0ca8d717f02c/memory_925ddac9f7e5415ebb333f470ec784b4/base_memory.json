@@ -1,0 +1,11 @@
+{
+  "user_md": "# Jordan Lee\n\n## Basic Information\n- **Type**: Person\n- **Role**: DevOps Specialist\n- **Experience**: 8\n- **Primary Language**: Python\n- **Certifications**: AWS Certified Solutions Architect\n- **Hobbies**: rock climbing\n- **Education**: Masters in Computer Science\n- **Favorite Tool**: Kubernetes\n- **Location**: San Francisco, CA\n- **Work Days**: Monday-Friday\n- **Age**: 35\n\n## Relationships\n- **Shares_Knowledge_With**: [[morgan_tanaka.md]]",
+  "entities": [
+    {
+      "entity_name": "morgan_tanaka",
+      "entity_file_path": "entities/morgan_tanaka.md",
+      "entity_file_content": "# Morgan Tanaka\n\n## Basic Information\n- **Type**: Person\n- **Role**: Senior Network Engineer\n- **Experience**: 12\n- **Primary Language**: Bash\n- **Secondary Language**: Go\n- **Certifications**: Cisco Certified Network Professional (CCNP)\n- **Hobbies**: photography\n- **Education**: Bachelor of Science in Information Technology\n- **Favorite Tool**: Ansible\n- **Location**: Seattle, WA\n- **Work Days**: Monday-Thursday\n- **Age**: 40\n- **Projects Led**: 5\n- **Previous Company**: NetWave Systems\n- **Team Culture Focus**: collaboration\n\n## Relationships\n- **Shares_Knowledge_With**: [[jordan_lee.md]]"
+    }
+  ],
+  "mem_id": "memory_925ddac9f7e5415ebb333f470ec784b4"
+}

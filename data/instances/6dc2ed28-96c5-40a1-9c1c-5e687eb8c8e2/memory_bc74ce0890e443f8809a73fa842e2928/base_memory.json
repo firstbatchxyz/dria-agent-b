@@ -1,0 +1,21 @@
+{
+  "user_md": "# Susan Emily Carter\n\n## Basic Information\n- **Type**: Person\n- **Role**: Cashier\n- **Experience Years**: 5\n- **Inventory Specialty**: Paint Supplies\n- **Education**: High School Diploma\n- **Hobbies**: photography\n- **Favorite Tool**: Paint Mixer\n- **Customer Relationships**: excellent\n- **Languages Spoken**: English, Spanish\n- **Personality Traits**: friendly and detail-oriented\n\n## Relationships\n- **Assist**: [[part-time_helpers.md]]\n- **Is Managed By**: [[bob_johnson.md]]",
+  "entities": [
+    {
+      "entity_name": "part-time_helpers",
+      "entity_file_path": "entities/part-time_helpers.md",
+      "entity_file_content": "# Part-time Helpers\n\n## Basic Information\n- **Entity Type**: Human Resource\n- **Type**: Entity\n- **Shift Preference**: afternoons\n- **Training Level**: basic hardware knowledge\n- **Average Age**: 28\n- **Peak Months**: spring and summer\n- **Years Employed**: 2\n- **Work Ethic**: high\n\n## Relationships\n- **Assist**: [[susan_carter.md]]"
+    },
+    {
+      "entity_name": "bob_johnson",
+      "entity_file_path": "entities/bob_johnson.md",
+      "entity_file_content": "# Robert James Johnson\n\n## Basic Information\n- **Type**: Person\n- **Role**: Owner\n- **Experience Years**: 15\n- **Technical Specialty**: Power Tools\n- **Hobbies**: woodworking, hiking\n- **Favorite Tool Brand**: DeWalt\n- **Education**: Bachelor's degree in Engineering\n- **Marital Status**: married\n- **Children**: 2\n- **Community Involvement**: Local Chamber of Commerce\n\n## Relationships\n- **Is Managed By**: [[susan_carter.md]]"
+    },
+    {
+      "entity_name": "owner's_office",
+      "entity_file_path": "entities/owner's_office.md",
+      "entity_file_content": "# Owner's Office\n\n## Basic Information\n- **Entity Type**: Area\n- **Type**: Entity\n- **Dimensions**: 3x4 meters\n- **Features**: mahogany desk, ergonomic chair, filing cabinet, large window\n- **Decor Style**: rustic\n- **Technology Equipment**: desktop computer, printer, video conferencing setup\n- **Wall Colors**: light beige with green accents\n- **Favorite Artwork**: landscape painting on south wall\n- **Misc Items**: coffee maker, plant in corner\n- **Office Use**: strategy meetings, accounting, inventory planning\n- **Renovation Year**: 2020\n- **Security**: key card access, CCTV surveillance\n\n## Relationships\n- **Owns**: [[bob_johnson.md]]"
+    }
+  ],
+  "mem_id": "memory_bc74ce0890e443f8809a73fa842e2928"
+}

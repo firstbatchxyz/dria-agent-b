@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my job information in the system - I'm no longer working as a Human Resources Manager, I've been promoted to Chief People Officer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Human Resources Manager\n\n+- **Occupation**: Chief People Officer\n\n - **Expertise Area**: Diversity and Inclusion\n\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role as Chief People Officer - it's exciting to have a broader strategic impact on our company culture and employee experience beyond traditional HR functions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Human Resources Manager\n\n+- **Occupation**: Chief People Officer\n\n - **Expertise Area**: Diversity and Inclusion\n\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n"
+    },
+    {
+      "query": "I need to update my job information in the system - I'm no longer working as a Human Resources Manager. I've recently been promoted to Director of Talent Operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Human Resources Manager\n\n+- **Occupation**: Director of Talent Operations\n\n - **Expertise Area**: Diversity and Inclusion\n\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n"
+    },
+    {
+      "query": "I'm really excited about my new role as Director of Talent Operations! It's been a great transition from my previous HR management position, and I'm looking forward to the strategic challenges ahead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Human Resources Manager\n\n+- **Occupation**: Director of Talent Operations\n\n - **Expertise Area**: Diversity and Inclusion\n\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n"
+    },
+    {
+      "query": "I need to update my volunteer information - I'm no longer volunteering at the local community center. I've actually started volunteering weekly at the animal rescue shelter instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n - **Education Background**: Bachelor's Degree in Human Resource Management from East Coast University\n\n-- **Volunteer Experience**: Weekly volunteer at the local community center\n\n+- **Volunteer Experience**: Weekly volunteer at the animal rescue shelter\n\n - **Favorite Software Tool**: Slack for team communication\n\n - **Skills**: Conflict Resolution, Employee Engagement\n\n \n\n"
+    },
+    {
+      "query": "I've been really enjoying my weekly volunteer work at the animal rescue shelter - it's so rewarding to help care for the animals and assist with their adoption process.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hobbies**: Pottery and Hiking\n\n - **Languages Spoken**: English and Vietnamese\n\n - **Education Background**: Bachelor's Degree in Human Resource Management from East Coast University\n\n-- **Volunteer Experience**: Weekly volunteer at the local community center\n\n+- **Volunteer Experience**: Weekly volunteer at the animal rescue shelter\n\n - **Favorite Software Tool**: Slack for team communication\n\n - **Skills**: Conflict Resolution, Employee Engagement\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm providing meeting notes to - I'm no longer sending them to Lisa Sanders, but instead I'm now providing them to Marcus Chen from the Operations team.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Meeting_Notes_To**: [[lisa_sanders.md]]\n+- **Provides_Meeting_Notes_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Meeting_Notes_To**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Marcus Chen from Operations lately, making sure he gets all the detailed meeting notes for our project coordination.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Meeting_Notes_To**: [[lisa_sanders.md]]\n+- **Provides_Meeting_Notes_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Meeting_Notes_To**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm sending meeting notes to - I'm no longer providing them to Lisa Sanders, but instead I'm now sending them directly to Marcus Chen from the Operations team.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Meeting_Notes_To**: [[lisa_sanders.md]]\n+- **Provides_Meeting_Notes_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Meeting_Notes_To**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Marcus Chen from Operations lately, making sure he gets all the detailed meeting notes so his team stays informed about our project decisions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Meeting_Notes_To**: [[lisa_sanders.md]]\n+- **Provides_Meeting_Notes_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Meeting_Notes_To**: [[emily_tran.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about Lisa Sanders' assistive technology - she's no longer using JAWS Software and has switched to NVDA screen reader instead.",
+      "diff": "===entities/lisa_sanders.md===\n\n===entities/nvda_screen_reader.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NVDA screen reader\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: assistive technology software\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lisa_sanders.md]]\n"
+    },
+    {
+      "query": "I've been preparing meeting notes in a format that works well with Lisa's new NVDA screen reader setup, and the transition has been really smooth for her.",
+      "diff": "===entities/lisa_sanders.md===\n\n===entities/nvda_screen_reader.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NVDA screen reader\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: assistive technology software\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lisa_sanders.md]]\n"
+    }
+  ]
+}

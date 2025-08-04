@@ -1,0 +1,158 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "DevOps Specialist"
+    },
+    {
+      "q": "What is my experience?",
+      "a": "8"
+    },
+    {
+      "q": "What is my primary language?",
+      "a": "Python"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "AWS Certified Solutions Architect"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "rock climbing"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Masters in Computer Science"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Kubernetes"
+    },
+    {
+      "q": "What is my location?",
+      "a": "San Francisco, CA"
+    },
+    {
+      "q": "What are my work days?",
+      "a": "Monday-Friday"
+    },
+    {
+      "q": "What is my age?",
+      "a": "35"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the role of the person that I share knowledge with?"
+      ],
+      "a": "Senior Network Engineer",
+      "attribute": "role=Senior Network Engineer",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the experience level of the person that I share knowledge with?"
+      ],
+      "a": "12",
+      "attribute": "experience=12",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the primary language of the person that I share knowledge with?"
+      ],
+      "a": "Bash",
+      "attribute": "primary language=Bash",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the secondary language of the person that I share knowledge with?"
+      ],
+      "a": "Go",
+      "attribute": "secondary language=Go",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What are the certifications of the person that I share knowledge with?"
+      ],
+      "a": "Cisco Certified Network Professional (CCNP)",
+      "attribute": "certifications=Cisco Certified Network Professional (CCNP)",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person that I share knowledge with?"
+      ],
+      "a": "photography",
+      "attribute": "hobbies=photography",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the education background of the person that I share knowledge with?"
+      ],
+      "a": "Bachelor of Science in Information Technology",
+      "attribute": "education=Bachelor of Science in Information Technology",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the favorite tool of the person that I share knowledge with?"
+      ],
+      "a": "Ansible",
+      "attribute": "favorite tool=Ansible",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the location of the person that I share knowledge with?"
+      ],
+      "a": "Seattle, WA",
+      "attribute": "location=Seattle, WA",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What are the work days of the person that I share knowledge with?"
+      ],
+      "a": "Monday-Thursday",
+      "attribute": "work days=Monday-Thursday",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the age of the person that I share knowledge with?"
+      ],
+      "a": "40",
+      "attribute": "age=40",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "How many projects has the person that I share knowledge with led?"
+      ],
+      "a": "5",
+      "attribute": "projects led=5",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the previous company of the person that I share knowledge with?"
+      ],
+      "a": "NetWave Systems",
+      "attribute": "previous company=NetWave Systems",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    },
+    {
+      "q": [
+        "What is the team culture focus of the person that I share knowledge with?"
+      ],
+      "a": "collaboration",
+      "attribute": "team culture focus=collaboration",
+      "path": "Jordan Lee -> Morgan Tanaka"
+    }
+  ]
+}

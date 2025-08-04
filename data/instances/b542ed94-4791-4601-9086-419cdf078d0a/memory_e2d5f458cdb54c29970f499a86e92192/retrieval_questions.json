@@ -1,0 +1,212 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "82"
+    },
+    {
+      "q": "What is my favorite music genre?",
+      "a": "jazz"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "watercolor painting"
+    },
+    {
+      "q": "What is my room number?",
+      "a": "204"
+    },
+    {
+      "q": "What is my dietary preference?",
+      "a": "vegetarian"
+    },
+    {
+      "q": "What was my previous occupation?",
+      "a": "high school teacher"
+    },
+    {
+      "q": "What is my pet therapy preference?",
+      "a": "dogs"
+    },
+    {
+      "q": "How frequently does my family visit?",
+      "a": "weekly"
+    },
+    {
+      "q": "What is my native language?",
+      "a": "English"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of activity that I attend?"
+      ],
+      "a": "Activity",
+      "attribute": "entity type=Activity",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the duration of the activity that I attend?"
+      ],
+      "a": "30 minutes",
+      "attribute": "duration=30 minutes",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the recurrence of the activity that I attend?"
+      ],
+      "a": "daily",
+      "attribute": "recurrence=daily",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the location of the activity that I attend?"
+      ],
+      "a": "Community Room",
+      "attribute": "location=Community Room",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "Who is the instructor of the activity that I attend?"
+      ],
+      "a": "Therapist",
+      "attribute": "instructor=Therapist",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the focus of the activity that I attend?"
+      ],
+      "a": "breathing exercises",
+      "attribute": "focus=breathing exercises",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the maximum number of participants for the activity that I attend?"
+      ],
+      "a": "15",
+      "attribute": "maximum participants=15",
+      "path": "Eleanor Johnson -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "What is the age of the person who shares a room with me?"
+      ],
+      "a": "76",
+      "attribute": "age=76",
+      "path": "Eleanor Johnson -> Matthew Lee"
+    },
+    {
+      "q": [
+        "What is the favorite music genre of the person who shares a room with me?"
+      ],
+      "a": "classical",
+      "attribute": "favorite music genre=classical",
+      "path": "Eleanor Johnson -> Matthew Lee"
+    },
+    {
+      "q": [
+        "What is the hobby of the person who shares a room with me?"
+      ],
+      "a": "gardening",
+      "attribute": "hobby=gardening",
+      "path": "Eleanor Johnson -> Matthew Lee"
+    },
+    {
+      "q": [
+        "What is the room number of the person who shares a room with me?"
+      ],
+      "a": "215",
+      "attribute": "room number=215",
+      "path": "Eleanor Johnson -> Matthew Lee"
+    },
+    {
+      "q": [
+        "What is the dietary preference of the person who shares a room with me?"
+      ],
+      "a": "low-sodium",
+      "attribute": "dietary preference=low-sodium",
+      "path": "Eleanor Johnson -> Matthew Lee"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of routine that the person I share a room with attends?",
+      "a": "Routine",
+      "attribute": "entity type=Routine",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the schedule of the routine that the person I share a room with attends?",
+      "a": "12:30 PM daily",
+      "attribute": "schedule=12:30 PM daily",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What are the common activities of the routine that the person I share a room with attends?",
+      "a": "storytelling, music listening, and nutritional games",
+      "attribute": "common activities=storytelling, music listening, and nutritional games",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the menu rotation of the routine that the person I share a room with attends?",
+      "a": "biweekly",
+      "attribute": "menu rotation=biweekly",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the guest policy of the routine that the person I share a room with attends?",
+      "a": "family members welcome with prior notice",
+      "attribute": "guest policy=family members welcome with prior notice",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the average duration of the routine that the person I share a room with attends?",
+      "a": "1.5 hours",
+      "attribute": "average duration=1.5 hours",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "True or false: The routine that the person I share a room with attends has nutritionist approval?",
+      "a": "True",
+      "attribute": "nutritionist approval=True",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the ambiance of the routine that the person I share a room with attends?",
+      "a": "soothing music and dim lighting",
+      "attribute": "ambiance=soothing music and dim lighting",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - attends-> Mealtime Gathering"
+    },
+    {
+      "q": "What is the age of the person who shares a room with the person I share a room with?",
+      "a": "82",
+      "attribute": "age=82",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - shares-> Joshua White"
+    },
+    {
+      "q": "What is the favorite music genre of the person who shares a room with the person I share a room with?",
+      "a": "jazz",
+      "attribute": "favorite music genre=jazz",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - shares-> Joshua White"
+    },
+    {
+      "q": "What is the hobby of the person who shares a room with the person I share a room with?",
+      "a": "painting",
+      "attribute": "hobby=painting",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - shares-> Joshua White"
+    },
+    {
+      "q": "What is the room number of the person who shares a room with the person I share a room with?",
+      "a": "220",
+      "attribute": "room number=220",
+      "path": "Eleanor Johnson - shares -> Matthew Lee - shares-> Joshua White"
+    }
+  ]
+}

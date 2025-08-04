@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my age in the system - I just turned 28 last month, so my age should be changed from 27.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,5 +9,5 @@\n - **Availability**: weekends\n\n - **Certification**: basic carpentry\n\n - **Loves Dogs**: True\n\n-- **Age**: 27\n\n+- **Age**: 28\n\n - **Volunteer Work**: community garden\n"
+    },
+    {
+      "query": "Now that I'm 28, I've been thinking about how this new year of my life will bring different opportunities and challenges.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,5 +9,5 @@\n - **Availability**: weekends\n\n - **Certification**: basic carpentry\n\n - **Loves Dogs**: True\n\n-- **Age**: 27\n\n+- **Age**: 28\n\n - **Volunteer Work**: community garden\n"
+    },
+    {
+      "query": "I need to update my employment status in the system - I'm now working as a senior marketing coordinator, not just a part-time helper as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: part-time helper\n\n+- **Role**: senior marketing coordinator\n\n - **Experience In Years**: 2\n\n - **Hobbies**: woodworking\n\n - **Favorite Tool**: cordless drill\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as a senior marketing coordinator, especially working on the upcoming product launch campaigns.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: part-time helper\n\n+- **Role**: senior marketing coordinator\n\n - **Experience In Years**: 2\n\n - **Hobbies**: woodworking\n\n - **Favorite Tool**: cordless drill\n\n"
+    },
+    {
+      "query": "I need to update my tool preference in the system - my favorite tool is actually a reciprocating saw, not the cordless drill that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: part-time helper\n\n - **Experience In Years**: 2\n\n - **Hobbies**: woodworking\n\n-- **Favorite Tool**: cordless drill\n\n+- **Favorite Tool**: reciprocating saw\n\n - **Availability**: weekends\n\n - **Certification**: basic carpentry\n\n - **Loves Dogs**: True\n\n"
+    },
+    {
+      "query": "I've been using my reciprocating saw for demolition work lately and it's really proven to be my go-to tool for most projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: part-time helper\n\n - **Experience In Years**: 2\n\n - **Hobbies**: woodworking\n\n-- **Favorite Tool**: cordless drill\n\n+- **Favorite Tool**: reciprocating saw\n\n - **Availability**: weekends\n\n - **Certification**: basic carpentry\n\n - **Loves Dogs**: True\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

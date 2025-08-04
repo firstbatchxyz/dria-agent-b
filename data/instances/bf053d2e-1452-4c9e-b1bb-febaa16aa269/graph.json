@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Eleanor",
+      "type": "Person",
+      "first_name": "Eleanor",
+      "last_name": "Johnson",
+      "age": 78,
+      "residence_type": "apartment",
+      "health_condition": "early-stage Alzheimer's",
+      "favorite_hobby": "knitting",
+      "daily_routine": "morning walk",
+      "birthplace": "Boston, Massachusetts",
+      "previous_occupation": "school teacher",
+      "pet": "Golden Retriever named Max"
+    },
+    {
+      "id": "2",
+      "name": "Sarah",
+      "type": "Person",
+      "full_name": "Sarah Johnson",
+      "age": 54,
+      "occupation": "social worker",
+      "hobby": "photography",
+      "residence_city": "Boston",
+      "volunteer_activities": "local food bank",
+      "pets": "two cats named Luna and Bella",
+      "favorite_book": "Pride and Prejudice by Jane Austen",
+      "favorite_cuisine": "Italian",
+      "weekly_exercise_routine": "yoga and jogging",
+      "education": "Master's degree in Psychology",
+      "preferred_contact_method": "email"
+    },
+    {
+      "id": "3",
+      "name": "Maria",
+      "type": "Person",
+      "first_name": "Maria",
+      "last_name": "Lopez",
+      "age": 42,
+      "birthplace": "San José, Costa Rica",
+      "years_of_experience": 15,
+      "education": "Nursing Diploma",
+      "languages_spoken": "Spanish, English",
+      "hobbies": "Gardening",
+      "favorite_food": "Ceviche",
+      "pets": "Parrot named Pepito"
+    },
+    {
+      "id": "e1",
+      "name": "Eleanor's Apartment",
+      "entity_type": "Location",
+      "type": "Entity",
+      "location": "Boston, Massachusetts",
+      "apartment_size": "2-bedroom",
+      "floor_number": 3,
+      "accessibility_features": "ramp, elevator",
+      "nearby_amenities": "park, grocery store, library",
+      "has_balcony": true,
+      "interior_theme": "cozy cottage",
+      "year_built": 1985,
+      "pet_friendly": true,
+      "security_features": "24-hour surveillance"
+    },
+    {
+      "id": "e2",
+      "name": "Reminder System",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "reminder_type": "Digital Calendar",
+      "usage_frequency": "daily",
+      "user_customization": true,
+      "visual_display": "high contrast mode for visibility",
+      "audio_reminders": "voice notifications",
+      "device_sync": "synchronizes with smartphone",
+      "battery_life": "long-lasting",
+      "brand": "MemoTech"
+    },
+    {
+      "id": "e3",
+      "name": "Medication Organizer",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "color": "blue",
+      "compartments": 7,
+      "material": "plastic",
+      "reminder_type": "sound",
+      "battery_life_days": 30,
+      "size": "compact"
+    },
+    {
+      "id": "e4",
+      "name": "Family Photo Album",
+      "entity_type": "Object",
+      "type": "Entity",
+      "number_of_photos": 50,
+      "themes": "birthdays, weddings, vacations",
+      "oldest_photo_year": 1945,
+      "materials": "leather-bound with acid-free paper",
+      "primary_photographer": "Husband, Richard Johnson",
+      "remarks": "Contains handwritten notes with dates and names"
+    },
+    {
+      "id": "e5",
+      "name": "Appointment Calendar",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "calendar_type": "digital",
+      "sync_with_family": true,
+      "color_coded": true,
+      "reminder_alerts": "enabled",
+      "notes_section": true
+    },
+    {
+      "id": "e6",
+      "name": "Emergency Contact List",
+      "entity_type": "Document",
+      "type": "Entity",
+      "creation_date": "January 15, 2023",
+      "last_updated": "October 1, 2023",
+      "format": "PDF",
+      "accessibility_features": "large print, voice-assist commands",
+      "storage_location": "kitchen drawer",
+      "emergency_category": "medical emergencies, severe weather situations"
+    },
+    {
+      "id": "e7",
+      "name": "Home Care Services",
+      "entity_type": "Service",
+      "type": "Entity",
+      "location": "San Francisco, CA",
+      "services_offered": "In-home nursing, physical therapy, occupational therapy, speech therapy, medical social services, home health aide care",
+      "operation_hours": "24/7",
+      "founded_year": 1998,
+      "accreditation": "Joint Commission Accredited",
+      "client_satisfaction_rate": 92
+    },
+    {
+      "id": "e8",
+      "name": "Alzheimer's Support Group",
+      "entity_type": "Organization",
+      "type": "Entity",
+      "location": "Community Center, Main Street",
+      "group_size": 15,
+      "meeting_frequency": "Weekly",
+      "facilitator_name": "Laura Thompson",
+      "average_age_members": 65,
+      "contact_email": "supportgroup@communitycenter.org",
+      "primary_language": "English",
+      "support_activities": "Peer discussions, educational workshops, guest speakers, and relaxation exercises"
+    }
+  ],
+  "edges": [
+    {
+      "s": "1",
+      "p": "lives in",
+      "o": "e1"
+    },
+    {
+      "s": "1",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "1",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "1",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "1",
+      "p": "uses",
+      "o": "e5"
+    },
+    {
+      "s": "1",
+      "p": "uses",
+      "o": "e6"
+    },
+    {
+      "s": "2",
+      "p": "visits",
+      "o": "1"
+    },
+    {
+      "s": "2",
+      "p": "contact of",
+      "o": "1"
+    },
+    {
+      "s": "3",
+      "p": "provides services to",
+      "o": "1"
+    },
+    {
+      "s": "3",
+      "p": "associated with",
+      "o": "e7"
+    }
+  ]
+}

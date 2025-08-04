@@ -1,0 +1,52 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Luis Manuel Ramirez"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Assistant Store Manager"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Effective communication, attention to detail, leadership"
+    },
+    {
+      "q": "What is my favorite aspect of my job?",
+      "a": "Interacting with customers and improving customer satisfaction"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Business Administration"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Retail Management Professional (CRMP)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Cycling, reading mystery novels"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What technology do I use?",
+      "a": "Inventory management software, Point of Sale systems"
+    },
+    {
+      "q": "What was my previous job role?",
+      "a": "Stock Supervisor"
+    },
+    {
+      "q": "Where was I born?",
+      "a": "El Paso, Texas"
+    }
+  ]
+}

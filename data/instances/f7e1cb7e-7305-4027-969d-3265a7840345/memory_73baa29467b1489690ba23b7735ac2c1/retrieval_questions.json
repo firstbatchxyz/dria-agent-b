@@ -1,0 +1,106 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Senior Accountant"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Advanced Excel proficiency, IFRS knowledge, Tax accounting"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "Bachelor's Degree in Accounting, Midwest State University"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Chartered Accountant (CA)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Cycling, Chess, Cooking international cuisine"
+    },
+    {
+      "q": "What is my favorite software feature?",
+      "a": "Pivot Tables"
+    },
+    {
+      "q": "What are my professional goals?",
+      "a": "To become a partner at the firm within the next 5 years"
+    },
+    {
+      "q": "What is my communication style?",
+      "a": "I prefer detailed emails over calls"
+    },
+    {
+      "q": "What is my nickname?",
+      "a": "Rajie"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the occupation of the person I collaborate with?"
+      ],
+      "a": "Financial Analyst",
+      "attribute": "occupation=Financial Analyst",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the disability of the person I collaborate with?"
+      ],
+      "a": "Blind",
+      "attribute": "disability=Blind",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What are the assistive technologies of the person I collaborate with?"
+      ],
+      "a": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "attribute": "assistive technologies=JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "Who are the colleagues of the person I collaborate with?"
+      ],
+      "a": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "attribute": "colleagues=John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "attribute": "hobbies=Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the education background of the person I collaborate with?"
+      ],
+      "a": "Master's Degree in Finance from University of Midwest",
+      "attribute": "education background=Master's Degree in Finance from University of Midwest",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What are the certifications of the person I collaborate with?"
+      ],
+      "a": "Certified Financial Planner (CFP)",
+      "attribute": "certifications=Certified Financial Planner (CFP)",
+      "path": "Lisa Sanders -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the favorite software feature of the person I collaborate with?"
+      ],
+      "a": "Screen Reader Mode",
+      "attribute": "favorite software feature=Screen Reader Mode",
+      "path": "Lisa Sanders -> Raj Patel"
+    }
+  ]
+}

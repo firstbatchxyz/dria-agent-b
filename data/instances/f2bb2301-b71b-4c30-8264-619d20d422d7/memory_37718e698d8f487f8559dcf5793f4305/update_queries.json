@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my language information in the system - I actually speak English, Mandarin, and Korean, not just English and Mandarin as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Installation Support Specialist\n\n - **Experience Years**: 5\n\n-- **Languages Spoken**: English, Mandarin\n\n+- **Languages Spoken**: English, Mandarin, Korean\n\n - **Certifications**: Certified Smart Appliance Technician\n\n - **Specialty Area**: Dishwasher Installation and Troubleshooting\n\n - **Office Location**: Seattle, WA\n\n"
+    },
+    {
+      "query": "I've been really grateful for my multilingual abilities lately, especially being fluent in English, Mandarin, and Korean when working with our diverse international clients.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Installation Support Specialist\n\n - **Experience Years**: 5\n\n-- **Languages Spoken**: English, Mandarin\n\n+- **Languages Spoken**: English, Mandarin, Korean\n\n - **Certifications**: Certified Smart Appliance Technician\n\n - **Specialty Area**: Dishwasher Installation and Troubleshooting\n\n - **Office Location**: Seattle, WA\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently earned my Advanced IoT Systems Engineer certification, which has replaced my previous Certified Smart Appliance Technician credential.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Installation Support Specialist\n\n - **Experience Years**: 5\n\n - **Languages Spoken**: English, Mandarin\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Advanced IoT Systems Engineer\n\n - **Specialty Area**: Dishwasher Installation and Troubleshooting\n\n - **Office Location**: Seattle, WA\n\n - **Hobbies**: Baking, Reading Sci-Fi\n\n"
+    },
+    {
+      "query": "I'm excited to apply the knowledge from my Advanced IoT Systems Engineer certification to help clients integrate their smart home devices more seamlessly with emerging IoT protocols.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Installation Support Specialist\n\n - **Experience Years**: 5\n\n - **Languages Spoken**: English, Mandarin\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Advanced IoT Systems Engineer\n\n - **Specialty Area**: Dishwasher Installation and Troubleshooting\n\n - **Office Location**: Seattle, WA\n\n - **Hobbies**: Baking, Reading Sci-Fi\n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Installation Support Specialist to Senior Technical Operations Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Installation Support Specialist\n\n+- **Role**: Senior Technical Operations Manager\n\n - **Experience Years**: 5\n\n - **Languages Spoken**: English, Mandarin\n\n - **Certifications**: Certified Smart Appliance Technician\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new responsibilities as Senior Technical Operations Manager, especially leading the technical team and overseeing our operational efficiency initiatives.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Installation Support Specialist\n\n+- **Role**: Senior Technical Operations Manager\n\n - **Experience Years**: 5\n\n - **Languages Spoken**: English, Mandarin\n\n - **Certifications**: Certified Smart Appliance Technician\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my coordination information - I'm no longer working with the Field Technician Coordination Unit. I've been reassigned to coordinate with the Remote Operations Support Team instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Assisted_By**: [[dishwasheasy_installation_manual.md]]\n\n-- **Coordinates_With**: [[field_technician_coordination_unit.md]]\n+- **Coordinates_With**: [[remote_operations_support_team.md]]\n\n===entities/remote_operations_support_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Remote Operations Support Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organizational unit\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[emma_chen.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new coordination role with the Remote Operations Support Team - they handle all the technical logistics for our field operations much more efficiently than my previous unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Assisted_By**: [[dishwasheasy_installation_manual.md]]\n\n-- **Coordinates_With**: [[field_technician_coordination_unit.md]]\n+- **Coordinates_With**: [[remote_operations_support_team.md]]\n\n===entities/remote_operations_support_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Remote Operations Support Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organizational unit\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[emma_chen.md]]\n"
+    },
+    {
+      "query": "I need to update my coordination information - I'm no longer working with the Field Technician Coordination Unit, I've been reassigned to coordinate with the Environmental Monitoring Division instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Assisted_By**: [[dishwasheasy_installation_manual.md]]\n\n-- **Coordinates_With**: [[field_technician_coordination_unit.md]]\n+- **Coordinates_With**: [[environmental_monitoring_division.md]]\n\n===entities/environmental_monitoring_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Environmental Monitoring Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[emma_chen.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role coordinating with the Environmental Monitoring Division - their approach to data collection and analysis has been incredibly insightful for our field operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Assisted_By**: [[dishwasheasy_installation_manual.md]]\n\n-- **Coordinates_With**: [[field_technician_coordination_unit.md]]\n+- **Coordinates_With**: [[environmental_monitoring_division.md]]\n\n===entities/environmental_monitoring_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Environmental Monitoring Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[emma_chen.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our collaboration information - the Field Technician Coordination Unit is no longer working with the Product Engineer Liaison Team. We've transitioned to collaborating with the Quality Assurance Integration Hub instead.",
+      "diff": "===entities/field_technician_coordination_unit.md===\n\n===entities/quality_assurance_integration_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quality Assurance Integration Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organizational unit\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[field_technician_coordination_unit.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how smoothly our transition to working with the Quality Assurance Integration Hub has gone - their systematic approach to testing protocols aligns perfectly with our field coordination needs.",
+      "diff": "===entities/field_technician_coordination_unit.md===\n\n===entities/quality_assurance_integration_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quality Assurance Integration Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organizational unit\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[field_technician_coordination_unit.md]]\n"
+    }
+  ]
+}

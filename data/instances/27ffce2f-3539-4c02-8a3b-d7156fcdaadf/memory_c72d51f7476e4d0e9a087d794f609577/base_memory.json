@@ -1,0 +1,21 @@
+{
+  "user_md": "# Mason Davis\n\n## Basic Information\n- **Type**: Person\n- **Role**: Senior Support Engineer\n- **Experience Years**: 7\n- **Specialty**: API integrations and custom workflows\n- **Education**: Bachelor's in Computer Science\n- **Certifications**: AWS Certified Solutions Architect\n- **Languages Spoken**: English, Spanish\n- **Hobbies**: rock climbing and coding challenges\n- **Recent Project**: Optimizing API efficiency for a high-traffic client\n- **Phone Extension**: 1043\n\n## Relationships\n- **Consults**: [[knowledge_base_system.md]]\n- **Implements**: [[client_onboarding_module.md]]\n- **Reviews**: [[cloudcrm_portal_access.md]]",
+  "entities": [
+    {
+      "entity_name": "knowledge_base_system",
+      "entity_file_path": "entities/knowledge_base_system.md",
+      "entity_file_content": "# Knowledge Base System\n\n## Basic Information\n- **Entity Type**: System\n- **Type**: Entity\n- **Last Updated**: 2023-10-11\n- **Usage Stats**: High frequency, accessed by support engineers daily\n- **Primary Function**: Centralized information repository for troubleshooting and solutions\n- **System Admin**: Charlie Jordan\n- **Data Backup Frequency**: Daily\n- **Storage Capacity**: 2TB\n- **Security Level**: Tier 1 encryption\n- **Integrations**: API accessible, integrated with CRM software and client SLA tracking systems\n- **User Interface**: Web-based with intuitive search functionality\n\n## Relationships\n- **Consults**: [[mason_davis.md]]"
+    },
+    {
+      "entity_name": "client_onboarding_module",
+      "entity_file_path": "entities/client_onboarding_module.md",
+      "entity_file_content": "# Client Onboarding Module\n\n## Basic Information\n- **Entity Type**: Module\n- **Type**: Entity\n- **Module Stage**: Developed\n- **Release Date**: 2022-05-01\n- **Module Lead**: Mason Davis\n- **Primary Features**: API integration, custom workflow management\n- **Client Feedback Score**: 4.7\n- **Documentation Status**: Complete\n- **User Training Availability**: Online and In-person\n- **User Manual Link**: https://cloudcrm.com/onboarding_manual\n- **Support Contact**: support@cloudcrm.com\n\n## Relationships\n- **Implements**: [[mason_davis.md]]"
+    },
+    {
+      "entity_name": "cloudcrm_portal_access",
+      "entity_file_path": "entities/cloudcrm_portal_access.md",
+      "entity_file_content": "# CloudCRM Portal Access\n\n## Basic Information\n- **Entity Type**: Platform\n- **Type**: Entity\n- **Platform Type**: Proprietary cloud-based for enterprise clients\n- **Modules Supported**: API integrations, database migrations, custom workflows\n- **Security Features**: Advanced encryption, two-factor authentication\n- **User Base**: 3,500 enterprise clients\n- **Uptime Percentage**: 99.98\n- **Major Update Cycle**: Quarterly\n- **Support Availability**: 24/7 via phone, email, and live chat\n- **Primary Region Of Service**: North America and Europe\n- **User Interface Language Options**: English, French, Spanish, German\n- **Compliance Standards**: GDPR, HIPAA, ISO 27001\n- **Analytics Tools Integration**: Built-in advanced analytics and third-party integrations\n- **Customization Capabilities**: High - customizable workflows and UI settings\n- **Feedback Rating**: 4.8\n- **User Access Levels**: Admin, Editor, Viewer\n\n## Relationships\n- **Reviews**: [[mason_davis.md]]"
+    }
+  ],
+  "mem_id": "memory_c72d51f7476e4d0e9a087d794f609577"
+}

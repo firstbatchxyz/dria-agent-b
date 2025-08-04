@@ -1,0 +1,142 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Alice Grayson"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Occupational Therapist"
+    },
+    {
+      "q": "What is my age?",
+      "a": "29"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening, Painting, Traveling"
+    },
+    {
+      "q": "What is my favorite cuisine?",
+      "a": "Italian"
+    },
+    {
+      "q": "What is my communication preference?",
+      "a": "Phone and Email"
+    },
+    {
+      "q": "What is my certification?",
+      "a": "Certified Low Vision Therapist"
+    },
+    {
+      "q": "What languages do I know?",
+      "a": "English, French"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Community Gardening Projects"
+    },
+    {
+      "q": "What recent award did I receive?",
+      "a": "Outstanding Support Award for Accessibility"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Master's Degree in Occupational Therapy"
+    },
+    {
+      "q": "What are my pet preferences?",
+      "a": "Cats"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the full name of the person I assist?"
+      ],
+      "a": "Marcus Smith",
+      "attribute": "full name=Marcus Smith",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What is the preferred name of the person I assist?"
+      ],
+      "a": "Marc",
+      "attribute": "preferred name=Marc",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What is the age of the person I assist?"
+      ],
+      "a": "32",
+      "attribute": "age=32",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What is the occupation of the person I assist?"
+      ],
+      "a": "Accessibility Consultant",
+      "attribute": "occupation=Accessibility Consultant",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I assist?"
+      ],
+      "a": "Playing Chess, Listening to Audio Books",
+      "attribute": "hobbies=Playing Chess, Listening to Audio Books",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What is the favorite cuisine of the person I assist?"
+      ],
+      "a": "Thai",
+      "attribute": "favorite cuisine=Thai",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What pet does the person I assist have?"
+      ],
+      "a": "Guide Dog",
+      "attribute": "has pet=Guide Dog",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What is the communication preference of the person I assist?"
+      ],
+      "a": "Email and Text",
+      "attribute": "communication preference=Email and Text",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What volunteer work does the person I assist do?"
+      ],
+      "a": "Advocacy for the Visually Impaired",
+      "attribute": "volunteer work=Advocacy for the Visually Impaired",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What recent award did the person I assist receive?"
+      ],
+      "a": "Local Hero Award for Community Service",
+      "attribute": "recent award=Local Hero Award for Community Service",
+      "path": "Marcus Smith -> Alice Grayson"
+    },
+    {
+      "q": [
+        "What languages does the person I assist know?"
+      ],
+      "a": "English, Braille, Basic Spanish",
+      "attribute": "known languages=English, Braille, Basic Spanish",
+      "path": "Marcus Smith -> Alice Grayson"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my age in the system - I'm actually 32 now, not 29 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 29\n\n+- **Age**: 32\n\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Hiking, Painting\n\n - **Favorite Cuisine**: Italian\n\n"
+    },
+    {
+      "query": "I've been thinking about how much I've grown professionally since turning 32, especially with all the new responsibilities I've taken on.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 29\n\n+- **Age**: 32\n\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Hiking, Painting\n\n - **Favorite Cuisine**: Italian\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually know English, French, and Italian Sign Language, not Braille as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Hiking, Painting\n\n - **Favorite Cuisine**: Italian\n\n-- **Known Languages**: English, French, Braille\n\n+- **Known Languages**: English, French, Italian Sign Language\n\n - **Education**: Masters in Special Education\n\n - **Volunteer Work**: Supporting Inclusive Sports Programs\n\n - **Communication Preference**: Phone Calls\n\n"
+    },
+    {
+      "query": "I've been using my Italian Sign Language skills more frequently lately when working with the deaf community in Rome during my research trips.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Hiking, Painting\n\n - **Favorite Cuisine**: Italian\n\n-- **Known Languages**: English, French, Braille\n\n+- **Known Languages**: English, French, Italian Sign Language\n\n - **Education**: Masters in Special Education\n\n - **Volunteer Work**: Supporting Inclusive Sports Programs\n\n - **Communication Preference**: Phone Calls\n\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've actually gotten into rock climbing and photography lately, moving away from hiking and painting.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 29\n\n - **Occupation**: Mobility Instructor\n\n-- **Hobbies**: Hiking, Painting\n\n+- **Hobbies**: Rock climbing, Photography\n\n - **Favorite Cuisine**: Italian\n\n - **Known Languages**: English, French, Braille\n\n - **Education**: Masters in Special Education\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time rock climbing at the local gym and doing landscape photography during my outdoor adventures.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 29\n\n - **Occupation**: Mobility Instructor\n\n-- **Hobbies**: Hiking, Painting\n\n+- **Hobbies**: Rock climbing, Photography\n\n - **Favorite Cuisine**: Italian\n\n - **Known Languages**: English, French, Braille\n\n - **Education**: Masters in Special Education\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

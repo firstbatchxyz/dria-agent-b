@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and Mandarin now, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: API integrations and custom workflows\n\n - **Education**: Bachelor's in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n - **Phone Extension**: 1043\n\n"
+    },
+    {
+      "query": "I've been really enjoying my conversations with Mandarin-speaking colleagues lately, especially since adding it as my third language alongside English and Spanish.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: API integrations and custom workflows\n\n - **Education**: Bachelor's in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n - **Phone Extension**: 1043\n\n"
+    },
+    {
+      "query": "I need to update my contact information - my phone extension has changed from 1043 to the new number 1127.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n-- **Phone Extension**: 1043\n\n+- **Phone Extension**: 1127\n\n \n\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n"
+    },
+    {
+      "query": "I've been getting all my calls smoothly on my new extension 1127 since the office reassignments last week.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n-- **Phone Extension**: 1043\n\n+- **Phone Extension**: 1127\n\n \n\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n"
+    },
+    {
+      "query": "I need to update my language information in the system - I've been learning and now speak French fluently in addition to English and Spanish.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: API integrations and custom workflows\n\n - **Education**: Bachelor's in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n - **Phone Extension**: 1043\n\n"
+    },
+    {
+      "query": "I've been enjoying using my French language skills more frequently, especially when traveling to Quebec and France for business meetings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: API integrations and custom workflows\n\n - **Education**: Bachelor's in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Hobbies**: rock climbing and coding challenges\n\n - **Recent Project**: Optimizing API efficiency for a high-traffic client\n\n - **Phone Extension**: 1043\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my project assignment in the system - I'm no longer working on the Client Onboarding Module and have been reassigned to the Payment Processing System instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n-- **Implements**: [[client_onboarding_module.md]]\n\n-- **Reviews**: [[cloudcrm_portal_access.md]]\n+- **Reviews**: [[cloudcrm_portal_access.md]]\n\n+- **Implements**: [[payment_processing_system.md]]\n\n===entities/payment_processing_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Payment Processing System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software module\n\n+\n\n+## Relationships\n\n+- **Implements**: [[mason_davis.md]]\n"
+    },
+    {
+      "query": "I've been diving deep into the Payment Processing System implementation lately, focusing on secure transaction handling and API integrations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n-- **Implements**: [[client_onboarding_module.md]]\n\n-- **Reviews**: [[cloudcrm_portal_access.md]]\n+- **Reviews**: [[cloudcrm_portal_access.md]]\n\n+- **Implements**: [[payment_processing_system.md]]\n\n===entities/payment_processing_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Payment Processing System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software module\n\n+\n\n+## Relationships\n\n+- **Implements**: [[mason_davis.md]]\n"
+    },
+    {
+      "query": "I need to update my review records - I'm no longer reviewing CloudCRM Portal Access, I've switched to reviewing the new SalesForce Analytics Dashboard instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n - **Implements**: [[client_onboarding_module.md]]\n\n-- **Reviews**: [[cloudcrm_portal_access.md]]\n+- **Reviews**: [[salesforce_analytics_dashboard.md]]\n\n===entities/salesforce_analytics_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SalesForce Analytics Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Reviews**: [[mason_davis.md]]\n"
+    },
+    {
+      "query": "I've been spending a lot of time with the SalesForce Analytics Dashboard lately, and I have to say the reporting capabilities are quite impressive compared to what I was working with before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Consults**: [[knowledge_base_system.md]]\n\n - **Implements**: [[client_onboarding_module.md]]\n\n-- **Reviews**: [[cloudcrm_portal_access.md]]\n+- **Reviews**: [[salesforce_analytics_dashboard.md]]\n\n===entities/salesforce_analytics_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SalesForce Analytics Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Reviews**: [[mason_davis.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

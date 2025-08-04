@@ -1,0 +1,176 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "76"
+    },
+    {
+      "q": "What is my favorite music genre?",
+      "a": "classical"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "gardening"
+    },
+    {
+      "q": "What is my room number?",
+      "a": "215"
+    },
+    {
+      "q": "What is my dietary preference?",
+      "a": "low-sodium"
+    },
+    {
+      "q": "What was my previous occupation?",
+      "a": "engineer"
+    },
+    {
+      "q": "What is my pet therapy preference?",
+      "a": "cats"
+    },
+    {
+      "q": "How often does my family visit?",
+      "a": "biweekly"
+    },
+    {
+      "q": "What is my native language?",
+      "a": "English"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of routine do I attend?"
+      ],
+      "a": "Routine",
+      "attribute": "entity type=Routine",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the schedule of the routine I attend?"
+      ],
+      "a": "12:30 PM daily",
+      "attribute": "schedule=12:30 PM daily",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What are the common activities of the routine I attend?"
+      ],
+      "a": "storytelling, music listening, and nutritional games",
+      "attribute": "common activities=storytelling, music listening, and nutritional games",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the menu rotation of the routine I attend?"
+      ],
+      "a": "biweekly",
+      "attribute": "menu rotation=biweekly",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the guest policy of the routine I attend?"
+      ],
+      "a": "family members welcome with prior notice",
+      "attribute": "guest policy=family members welcome with prior notice",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the average duration of the routine I attend?"
+      ],
+      "a": "1.5 hours",
+      "attribute": "average duration=1.5 hours",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "Does the routine I attend have nutritionist approval?"
+      ],
+      "a": "True",
+      "attribute": "nutritionist approval=True",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the ambiance of the routine I attend?"
+      ],
+      "a": "soothing music and dim lighting",
+      "attribute": "ambiance=soothing music and dim lighting",
+      "path": "Matthew Lee -> Mealtime Gathering"
+    },
+    {
+      "q": [
+        "What is the age of the person I share with?"
+      ],
+      "a": "82",
+      "attribute": "age=82",
+      "path": "Matthew Lee -> Joshua White"
+    },
+    {
+      "q": [
+        "What is the favorite music genre of the person I share with?"
+      ],
+      "a": "jazz",
+      "attribute": "favorite music genre=jazz",
+      "path": "Matthew Lee -> Joshua White"
+    },
+    {
+      "q": [
+        "What is the hobby of the person I share with?"
+      ],
+      "a": "painting",
+      "attribute": "hobby=painting",
+      "path": "Matthew Lee -> Joshua White"
+    },
+    {
+      "q": [
+        "What is the room number of the person I share with?"
+      ],
+      "a": "220",
+      "attribute": "room number=220",
+      "path": "Matthew Lee -> Joshua White"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of program does the person I share with participate in?",
+      "a": "Initiative",
+      "attribute": "entity type=Initiative",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    },
+    {
+      "q": "What is the goal of the program that the person I share with participates in?",
+      "a": "To promote social interaction and cognitive engagement among residents.",
+      "attribute": "goal=To promote social interaction and cognitive engagement among residents.",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    },
+    {
+      "q": "What is the start date of the program that the person I share with participates in?",
+      "a": "2021-09-15",
+      "attribute": "start date=2021-09-15",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    },
+    {
+      "q": "How frequently does the program that the person I share with participates in meet?",
+      "a": "Weekly",
+      "attribute": "frequency=Weekly",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    },
+    {
+      "q": "Who is the facilitator of the program that the person I share with participates in?",
+      "a": "Jessica Brown",
+      "attribute": "facilitator name=Jessica Brown",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    },
+    {
+      "q": "What is the participation rate of the program that the person I share with participates in?",
+      "a": "0.85",
+      "attribute": "participation rate=0.85",
+      "path": "Matthew Lee - shares -> Joshua White - participates in-> Personal Belongings Sharing Program"
+    }
+  ]
+}

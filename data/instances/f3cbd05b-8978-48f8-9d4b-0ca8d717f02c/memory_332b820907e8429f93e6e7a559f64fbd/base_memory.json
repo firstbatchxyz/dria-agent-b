@@ -1,0 +1,11 @@
+{
+  "user_md": "# Avery Patel\n\n## Basic Information\n- **Type**: Person\n- **Job Title**: Incident Response Coordinator\n- **Years Of Experience**: 7\n- **Certifications**: Certified Information Systems Security Professional (CISSP)\n- **Favorite Technology**: Automated Monitoring Systems\n- **Special Skill**: Efficient Crisis Management\n- **Hobby**: Rock Climbing\n- **Educational Background**: Bachelor's Degree in Cybersecurity\n- **Previous Employer**: Cyber Defense Solutions\n- **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n## Relationships\n- **Coordinates_With**: [[incident_response_team.md]]",
+  "entities": [
+    {
+      "entity_name": "incident_response_team",
+      "entity_file_path": "entities/incident_response_team.md",
+      "entity_file_content": "# Incident Response Team\n\n## Basic Information\n- **Entity Type**: Team\n- **Type**: Entity\n- **Team Size**: 5\n- **Primary Function**: Manage and resolve security incidents\n- **Main Technology**: Automated Monitoring Systems\n- **Recent Success Story**: Reduced incident response times by 30% in Q3 2023\n- **Team Headquarters Location**: Austin, TX\n- **Weekly Meeting Schedule**: Thursdays at 3 PM\n- **Cross Dept Collaborations**: Network Engineering, DevOps\n- **Oncall Rotations**: Bi-weekly\n- **Core Values**: Proactivity, Transparency, Learning\n- **Communication Tool**: Slack\n- **Team Building Activity**: Quarterly Escape Room Challenges\n\n## Relationships\n- **Coordinates_With**: [[avery_patel.md]]"
+    }
+  ],
+  "mem_id": "memory_332b820907e8429f93e6e7a559f64fbd"
+}

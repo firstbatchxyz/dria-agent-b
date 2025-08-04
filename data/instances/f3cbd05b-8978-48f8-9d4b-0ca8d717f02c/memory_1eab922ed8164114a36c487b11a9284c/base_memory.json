@@ -1,0 +1,11 @@
+{
+  "user_md": "# Casey Parker\n\n## Basic Information\n- **Type**: Person\n- **Role**: Senior DevOps Specialist\n- **Years Of Experience**: 8\n- **Certifications**: AWS Certified DevOps Engineer\n- **Expertise Areas**: container orchestration, monitoring systems\n- **Favorite Automation Tool**: Terraform\n- **Hobby**: rock climbing\n- **Educational Background**: Bachelor's in Computer Science\n- **Communication Style**: direct and collaborative\n\n## Relationships\n- **Manages**: [[devops_deployment_framework.md]]",
+  "entities": [
+    {
+      "entity_name": "devops_deployment_framework",
+      "entity_file_path": "entities/devops_deployment_framework.md",
+      "entity_file_content": "# DevOps Deployment Framework\n\n## Basic Information\n- **Entity Type**: Framework\n- **Type**: Entity\n- **Version**: 2.1.3\n- **Support For Multitenancy**: True\n- **Load Balancer Integration**: Nginx Plus\n- **Primary Language**: Go\n- **License Type**: MIT\n- **Documentation Url**: https://devopsdeploymentframework.docs\n- **Last Updated**: 2023-09-15\n- **Scalability Level**: enterprise-grade\n- **Incident Response**: automated failover\n- **Compliance Certifications**: ISO 27001\n\n## Relationships\n- **Manages**: [[casey_parker.md]]"
+    }
+  ],
+  "mem_id": "memory_1eab922ed8164114a36c487b11a9284c"
+}

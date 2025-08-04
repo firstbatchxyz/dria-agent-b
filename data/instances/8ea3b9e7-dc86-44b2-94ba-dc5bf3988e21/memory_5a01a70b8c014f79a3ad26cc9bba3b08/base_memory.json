@@ -1,0 +1,11 @@
+{
+  "user_md": "# Alice Grayson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Occupational Therapist\n- **Age**: 29\n- **Hobbies**: Gardening, Painting, Traveling\n- **Favorite Cuisine**: Italian\n- **Communication Preference**: Phone and Email\n- **Certification**: Certified Low Vision Therapist\n- **Known Languages**: English, French\n- **Volunteer Work**: Community Gardening Projects\n- **Recent Award**: Outstanding Support Award for Accessibility\n- **Education**: Master's Degree in Occupational Therapy\n- **Pet Preferences**: Cats\n\n## Relationships\n- **Is_Assisted_By**: [[marcus_smith.md]]",
+  "entities": [
+    {
+      "entity_name": "marcus_smith",
+      "entity_file_path": "entities/marcus_smith.md",
+      "entity_file_content": "# Marcus Smith\n\n## Basic Information\n- **Type**: Person\n- **Preferred Name**: Marc\n- **Age**: 32\n- **Occupation**: Accessibility Consultant\n- **Hobbies**: Playing Chess, Listening to Audio Books\n- **Favorite Cuisine**: Thai\n- **Has Pet**: Guide Dog\n- **Communication Preference**: Email and Text\n- **Volunteer Work**: Advocacy for the Visually Impaired\n- **Recent Award**: Local Hero Award for Community Service\n- **Known Languages**: English, Braille, Basic Spanish\n\n## Relationships\n- **Is_Assisted_By**: [[alice_grayson.md]]"
+    }
+  ],
+  "mem_id": "memory_5a01a70b8c014f79a3ad26cc9bba3b08"
+}

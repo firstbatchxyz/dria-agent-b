@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "person_001",
+      "name": "Lily Nguyen",
+      "type": "Person",
+      "first_name": "Lily",
+      "last_name": "Nguyen",
+      "job_title": "Customer Support Specialist",
+      "department": "Customer Support",
+      "expertise": "Smart Kitchen Appliances",
+      "years_of_experience": 5,
+      "languages_spoken": "English, Vietnamese",
+      "customer_satisfaction_rate": 95,
+      "preferred_support_channel": "Email",
+      "location": "TechHome Downtown Office",
+      "has_handled_premium_tickets": true,
+      "likes_to_experiment_with_cooking": true,
+      "education_level": "Bachelor's Degree in Electrical Engineering",
+      "previous_employer": "HomeTech Solutions",
+      "currently_learning": "Advanced AI-driven Customer Support Solutions"
+    },
+    {
+      "id": "person_002",
+      "name": "Jake Robinson",
+      "type": "Person",
+      "full_name": "Jake Robinson",
+      "position": "Senior Support Agent",
+      "skills": "troubleshooting, customer service, technical writing",
+      "experience_years": 5,
+      "certifications": "Certified Appliance Repair Technician",
+      "preferred_shift": "evening",
+      "hobbies": "bouldering, cooking",
+      "education": "Bachelor's in Information Technology",
+      "personality_traits": "patient, detail-oriented, empathetic",
+      "favorite_tech_tool": "smart home assistants"
+    },
+    {
+      "id": "person_003",
+      "name": "Emma Chen",
+      "type": "Person",
+      "role": "Installation Support Specialist",
+      "experience_years": 5,
+      "languages_spoken": "English, Mandarin",
+      "certifications": "Certified Smart Appliance Technician",
+      "specialty_area": "Dishwasher Installation and Troubleshooting",
+      "office_location": "Seattle, WA",
+      "hobbies": "Baking, Reading Sci-Fi",
+      "education": "B.Sc. in Electrical Engineering"
+    },
+    {
+      "id": "person_004",
+      "name": "Carlos Mendes",
+      "type": "Person",
+      "full_name": "Carlos Mendes",
+      "occupation": "Senior Support Agent",
+      "years_of_experience": 7,
+      "specialization": "Kitchen Smart Appliance Troubleshooting",
+      "favorite_appliance": "Smart Oven",
+      "languages_spoken": "English, Spanish",
+      "customer_satisfaction_rate": 95,
+      "hobbies": "Gardening, Cooking",
+      "education": "Bachelor of Science in Electrical Engineering",
+      "certifications": "Certified Smart Appliance Technician",
+      "working_hours": "9:00 AM - 5:00 PM",
+      "location": "Customer Support Center, TechHome Headquarters"
+    },
+    {
+      "id": "person_005",
+      "name": "Sophie Patel",
+      "type": "Person",
+      "position": "Customer Support Specialist",
+      "years_with_company": 3,
+      "specialization": "Smart Oven Troubleshooting",
+      "certified_in_flavorwave_realignment": true,
+      "languages_spoken": "English, Hindi",
+      "education": "Bachelor of Science in Consumer Electronics",
+      "hobbies": "Amateur Robotics, Cooking Fusion Cuisine",
+      "preferred_shift": "day",
+      "customer_satisfaction_score": 92.5,
+      "professional_accolade": "Employee of the Month - April 2022",
+      "office_location": "3rd Floor, East Wing",
+      "mentor": "Rajiv Kumar"
+    },
+    {
+      "id": "person_006",
+      "name": "Rahul Singh",
+      "type": "Person",
+      "job_title": "Senior Support Agent",
+      "years_of_experience": 5,
+      "specialization": "Advanced Troubleshooting Techniques",
+      "office_location": "Mumbai Customer Support Center",
+      "education": "Bachelor's in Electrical Engineering",
+      "languages_spoken": "English, Hindi",
+      "certifications": "Certified Smart Appliance Technician",
+      "favorite_kitchen_appliance": "Smart Oven",
+      "hobby": "Cooking with smart gadgets"
+    },
+    {
+      "id": "entity_001",
+      "name": "SmartFridgePro Warranty",
+      "entity_type": "warranty_claim",
+      "type": "Entity",
+      "favorite_smart_kitchen_appliance": "Smart OvenX",
+      "favorite_customer_satisfaction_tool": "FeedbackLoopPro",
+      "recent_training_completed": "Conflict Resolution for Customer Service",
+      "volunteering_interest": "Community Cooking Classes",
+      "personal_interests": "Tech Blogging and DIY Electronics",
+      "office_award": "Customer Service Star 2022",
+      "preferred_bug_tracking_tool": "Jira",
+      "speaking_engagements": "TechHome Appliance Expo Panelist 2023"
+    },
+    {
+      "id": "entity_002",
+      "name": "AutoChef Troubleshooting Guide",
+      "entity_type": "guide",
+      "type": "Entity",
+      "author": "TechHome",
+      "publication_year": 2021,
+      "coverage": "Includes common issues and solutions for AutoChef models released from 2018 to 2021",
+      "distribution_method": "Digital Download",
+      "file_size_MB": 5.2,
+      "format": "PDF",
+      "rating": 4.5,
+      "revisions": 2
+    },
+    {
+      "id": "entity_003",
+      "name": "InstaOven Replacement Parts",
+      "entity_type": "replacement_part",
+      "type": "Entity",
+      "compatibility": "Compatible with InstaOven models IO-100, IO-200, and IO-ProX",
+      "availability_status": "In Stock",
+      "replacement_instruction_url": "https://support.techhome.com/instaoven/parts-replacement",
+      "average_delivery_time": "3 to 5 business days",
+      "warranty_period": "1 year",
+      "price": 29.99
+    },
+    {
+      "id": "entity_004",
+      "name": "DishWashEasy Installation Manual",
+      "entity_type": "manual",
+      "type": "Entity",
+      "version": "v1.2",
+      "release_date": "2023-01-15",
+      "supported_models": "DWE-X100, DWE-X110, DWE-X120",
+      "language": "English",
+      "number_of_pages": 45,
+      "electronic_format": "PDF",
+      "table_of_contents": true,
+      "illustrations_included": true,
+      "disclaimer": "TechHome is not responsible for damages resulting from improper installation.",
+      "customer_feedback_rating": 4.7
+    },
+    {
+      "id": "entity_005",
+      "name": "Defect Report #2347",
+      "entity_type": "complaint_ticket",
+      "type": "Entity",
+      "date_reported": "2023-11-08",
+      "customer_id": "CUST_88921",
+      "issue_category": "malfunctioning",
+      "product_model": "SmartChef200",
+      "defect_severity": "high",
+      "description": "Appliance not responding to voice commands",
+      "current_status": "awaiting_engineer_assessment"
+    },
+    {
+      "id": "entity_006",
+      "name": "Field Technician Coordination Unit",
+      "entity_type": "coordination_unit",
+      "type": "Entity",
+      "number_of_technicians": 25,
+      "coverage_area": "Pacific Northwest",
+      "primary_services": "Field technician scheduling and deployment",
+      "response_time": "2-4 hours",
+      "office_hours": "Monday to Friday, 8 AM to 6 PM PST",
+      "contact_method": "phone, email, internal messaging system",
+      "communication_tools": "VoIP, CRM systems",
+      "manager_name": "Jordan Smith",
+      "annual_training_budget": 50000,
+      "recently_completed_projects": "Smart Fridge Installations, Oven Maintenance Campaign"
+    },
+    {
+      "id": "entity_007",
+      "name": "Product Engineer Liaison Team",
+      "entity_type": "liaison_team",
+      "type": "Entity",
+      "team_size": 10,
+      "focus_areas": "appliance design feedback, defect analysis, product improvement suggestions",
+      "average_response_time": "48 hours",
+      "key_projects": "Smart Appliance Integration, Warranty Process Optimization",
+      "lead_engineers": "Ava Thompson, Miguel Hernandez",
+      "established_year": 2015
+    },
+    {
+      "id": "entity_008",
+      "name": "TechConnect Support Portal",
+      "entity_type": "online_platform",
+      "type": "Entity",
+      "launch_date": "2020-03-15",
+      "primary_function": "customer support management",
+      "key_features": "interactive troubleshooting guides",
+      "integrated_systems": "CRM, VoIP, ticketing system, knowledge base",
+      "user_feedback_rating": 4.7,
+      "user_base": 50000,
+      "average_response_time": 2.5,
+      "customer_support_channel": "live chat, email, phone support",
+      "developer": "TechHome Software Division",
+      "security_features": "end-to-end encryption, multi-factor authentication"
+    },
+    {
+      "id": "entity_009",
+      "name": "SmartCooker Feedback Loop",
+      "entity_type": "customer_feedback",
+      "type": "Entity",
+      "created_at": "2022-03-15T08:45:00Z",
+      "feedback_type": "product_performance",
+      "average_feedback_rating": 4.2,
+      "number_of_entries": 250,
+      "key_insights_gleaned": "Users appreciate the easy cleaning feature but request greater customization in the app interface.",
+      "common_issues_reported": "Connectivity with Wi-Fi during initial setup",
+      "role_in_product_improvement": "Identifies usability concerns that influence software updates"
+    },
+    {
+      "id": "entity_010",
+      "name": "QuickFix Hotline",
+      "entity_type": "support_line",
+      "type": "Entity",
+      "operating_hours": "24/7",
+      "primary_language_support": "English",
+      "average_response_time": "2 minutes",
+      "free_service": false,
+      "established_year": 2015,
+      "number_of_agents": 150,
+      "peak_call_hours": "12:00 PM - 3:00 PM",
+      "average_daily_calls": 500,
+      "available_languages": "English, Spanish, French, Mandarin, German",
+      "primary_contact_method": "Phone"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_001",
+      "p": "handles",
+      "o": "entity_001"
+    },
+    {
+      "s": "person_002",
+      "p": "uses",
+      "o": "entity_008"
+    },
+    {
+      "s": "person_003",
+      "p": "coordinates_with",
+      "o": "entity_006"
+    },
+    {
+      "s": "person_004",
+      "p": "utilizes",
+      "o": "entity_010"
+    },
+    {
+      "s": "person_005",
+      "p": "reports_to",
+      "o": "entity_007"
+    },
+    {
+      "s": "person_006",
+      "p": "troubleshoots_with",
+      "o": "entity_002"
+    },
+    {
+      "s": "entity_003",
+      "p": "provided_by",
+      "o": "person_004"
+    },
+    {
+      "s": "entity_004",
+      "p": "assisted_by",
+      "o": "person_003"
+    },
+    {
+      "s": "entity_005",
+      "p": "related_to",
+      "o": "entity_007"
+    },
+    {
+      "s": "entity_006",
+      "p": "collaborates_with",
+      "o": "entity_007"
+    },
+    {
+      "s": "entity_009",
+      "p": "managed_by",
+      "o": "person_001"
+    }
+  ]
+}

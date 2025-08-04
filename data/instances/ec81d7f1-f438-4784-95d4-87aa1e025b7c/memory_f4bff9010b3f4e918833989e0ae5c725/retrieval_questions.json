@@ -1,0 +1,356 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Software Engineer"
+    },
+    {
+      "q": "Where am I located?",
+      "a": "Chicago, IL"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Cycling and playing chess"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Master's in Computer Science from MIT"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and French"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Teaching coding to underprivileged youth"
+    },
+    {
+      "q": "What is my favorite technology?",
+      "a": "Blockchain"
+    },
+    {
+      "q": "What is my personal goal?",
+      "a": "To create software that improves daily life for the visually impaired"
+    },
+    {
+      "q": "What are my achievements?",
+      "a": "Developed a top-rated productivity app"
+    },
+    {
+      "q": "What are my preferred working hours?",
+      "a": "Flexible, prefers afternoon shifts"
+    },
+    {
+      "q": "What networking groups am I a member of?",
+      "a": "Member of the Chicago Tech Innovators"
+    },
+    {
+      "q": "What is my family status?",
+      "a": "Married with two children"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the occupation of the person I receive advice from?"
+      ],
+      "a": "Independent Financial Planner",
+      "attribute": "occupation=Independent Financial Planner",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the years of experience of the person I receive advice from?"
+      ],
+      "a": "12",
+      "attribute": "years of experience=12",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the education of the person I receive advice from?"
+      ],
+      "a": "Bachelor's in Finance from Columbia University",
+      "attribute": "education=Bachelor's in Finance from Columbia University",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the certifications of the person I receive advice from?"
+      ],
+      "a": "Certified Financial Planner (CFP)",
+      "attribute": "certifications=Certified Financial Planner (CFP)",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I receive advice from?"
+      ],
+      "a": "Reading mystery novels and hiking",
+      "attribute": "hobbies=Reading mystery novels and hiking",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What languages are spoken by the person I receive advice from?"
+      ],
+      "a": "English and Spanish",
+      "attribute": "languages spoken=English and Spanish",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What volunteer work does the person I receive advice from do?"
+      ],
+      "a": "Financial literacy workshops at local community centers",
+      "attribute": "volunteer work=Financial literacy workshops at local community centers",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the client specialization of the person I receive advice from?"
+      ],
+      "a": "Families with young children",
+      "attribute": "client specialization=Families with young children",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the office location of the person I receive advice from?"
+      ],
+      "a": "Chicago, IL",
+      "attribute": "office location=Chicago, IL",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the phone contact of the person I receive advice from?"
+      ],
+      "a": "312-555-0134",
+      "attribute": "phone contact=312-555-0134",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the email contact of the person I receive advice from?"
+      ],
+      "a": "jennifer.smith@finplanner.com",
+      "attribute": "email contact=jennifer.smith@finplanner.com",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the website of the person I receive advice from?"
+      ],
+      "a": "www.jennifersmithfinancial.com",
+      "attribute": "website=www.jennifersmithfinancial.com",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the personal goal of the person I receive advice from?"
+      ],
+      "a": "To empower 1,000 families to achieve financial independence by 2025",
+      "attribute": "personal goal=To empower 1,000 families to achieve financial independence by 2025",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the favorite quote of the person I receive advice from?"
+      ],
+      "a": "\"Failing to plan is planning to fail.\" - Alan Lakein",
+      "attribute": "favorite quote=\"Failing to plan is planning to fail.\" - Alan Lakein",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "Who are the mentors of the person I receive advice from?"
+      ],
+      "a": "Worked under Sarah Johnson, a renowned financial advisor, for 5 years",
+      "attribute": "mentors=Worked under Sarah Johnson, a renowned financial advisor, for 5 years",
+      "path": "Mark Johnson -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What type of document contains my profile?"
+      ],
+      "a": "document",
+      "attribute": "entity type=document",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the version of the document that contains my profile?"
+      ],
+      "a": "1.1",
+      "attribute": "version=1.1",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "When was the document that contains my profile last updated?"
+      ],
+      "a": "2023-09-15",
+      "attribute": "last updated=2023-09-15",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the document format of the file that contains my profile?"
+      ],
+      "a": "PDF",
+      "attribute": "document format=PDF",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the total number of clients in the document that contains my profile?"
+      ],
+      "a": "125",
+      "attribute": "total clients=125",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the confidentiality level of the document that contains my profile?"
+      ],
+      "a": "High",
+      "attribute": "confidentiality level=High",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the storage location of the document that contains my profile?"
+      ],
+      "a": "Cloud-based server",
+      "attribute": "storage location=Cloud-based server",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the backup schedule of the document that contains my profile?"
+      ],
+      "a": "Weekly every Sunday at 2 AM",
+      "attribute": "backup schedule=Weekly every Sunday at 2 AM",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    },
+    {
+      "q": [
+        "What is the data encryption method of the document that contains my profile?"
+      ],
+      "a": "AES-256",
+      "attribute": "data encryption method=AES-256",
+      "path": "Client Financial Profiles -> Mark Johnson"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of service that is provided by the person I receive advice from?",
+      "a": "service",
+      "attribute": "entity type=service",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the primary features of the service provided by the person I receive advice from?",
+      "a": "Expense tracking, savings goal setting, bill reminders",
+      "attribute": "primary features=Expense tracking, savings goal setting, bill reminders",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the user friendliness of the service provided by the person I receive advice from?",
+      "a": "High, designed for non-expert users",
+      "attribute": "user friendliness=High, designed for non-expert users",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the integration capabilities of the service provided by the person I receive advice from?",
+      "a": "Compatible with various bank APIs",
+      "attribute": "integration capabilities=Compatible with various bank APIs",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the security features of the service provided by the person I receive advice from?",
+      "a": "Two-factor authentication, data encryption",
+      "attribute": "security features=Two-factor authentication, data encryption",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "Does the service provided by the person I receive advice from have a mobile app?",
+      "a": "True",
+      "attribute": "mobile app=True",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the price model of the service provided by the person I receive advice from?",
+      "a": "Freemium with premium subscription options",
+      "attribute": "price model=Freemium with premium subscription options",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What customer support is available for the service provided by the person I receive advice from?",
+      "a": "24/7 helpline and chat support available",
+      "attribute": "customer support=24/7 helpline and chat support available",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the core technology of the service provided by the person I receive advice from?",
+      "a": "AI-driven personalized recommendations",
+      "attribute": "core technology=AI-driven personalized recommendations",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the initial release year of the service provided by the person I receive advice from?",
+      "a": "2015",
+      "attribute": "initial release year=2015",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the usage statistics of the service provided by the person I receive advice from?",
+      "a": "Used by over 10,000 families monthly",
+      "attribute": "usage statistics=Used by over 10,000 families monthly",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the type of financial product offered by the person I receive advice from?",
+      "a": "financial_product",
+      "attribute": "entity type=financial_product",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What are the eligibility requirements for the financial product offered by the person I receive advice from?",
+      "a": "Must have a minimum annual income of $30,000",
+      "attribute": "eligibility requirements=Must have a minimum annual income of $30,000",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the annual fee for the financial product offered by the person I receive advice from?",
+      "a": "0.75",
+      "attribute": "annual fee=0.75",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What are the tax advantages of the financial product offered by the person I receive advice from?",
+      "a": "Tax-free growth and withdrawals for qualified educational expenses",
+      "attribute": "tax advantages=Tax-free growth and withdrawals for qualified educational expenses",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the maximum contribution limit for the financial product offered by the person I receive advice from?",
+      "a": "11500",
+      "attribute": "maximum contribution limit=11500",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the flexibility of the financial product offered by the person I receive advice from?",
+      "a": "Can be used at any accredited college or university in the US",
+      "attribute": "flexibility=Can be used at any accredited college or university in the US",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "Is the financial product offered by the person I receive advice from state sponsored?",
+      "a": "False",
+      "attribute": "state sponsored=False",
+      "path": "Mark Johnson - receives advice from -> Jennifer Smith -"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Sarah Johnson"
+    },
+    {
+      "q": "What is my age?",
+      "a": "54"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "social worker"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "photography"
+    },
+    {
+      "q": "What is my residence city?",
+      "a": "Boston"
+    },
+    {
+      "q": "What are my volunteer activities?",
+      "a": "local food bank"
+    },
+    {
+      "q": "What are my pets?",
+      "a": "two cats named Luna and Bella"
+    },
+    {
+      "q": "What is my favorite book?",
+      "a": "Pride and Prejudice by Jane Austen"
+    },
+    {
+      "q": "What is my favorite cuisine?",
+      "a": "Italian"
+    },
+    {
+      "q": "What is my weekly exercise routine?",
+      "a": "yoga and jogging"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Master's degree in Psychology"
+    },
+    {
+      "q": "What is my preferred contact method?",
+      "a": "email"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the first name of the person I visit?"
+      ],
+      "a": "Eleanor",
+      "attribute": "first name=Eleanor",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the last name of the person I visit?"
+      ],
+      "a": "Johnson",
+      "attribute": "last name=Johnson",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the age of the person I visit?"
+      ],
+      "a": "78",
+      "attribute": "age=78",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the residence type of the person I visit?"
+      ],
+      "a": "apartment",
+      "attribute": "residence type=apartment",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the health condition of the person I visit?"
+      ],
+      "a": "early-stage Alzheimer's",
+      "attribute": "health condition=early-stage Alzheimer's",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the favorite hobby of the person I visit?"
+      ],
+      "a": "knitting",
+      "attribute": "favorite hobby=knitting",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the daily routine of the person I visit?"
+      ],
+      "a": "morning walk",
+      "attribute": "daily routine=morning walk",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the birthplace of the person I visit?"
+      ],
+      "a": "Boston, Massachusetts",
+      "attribute": "birthplace=Boston, Massachusetts",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the previous occupation of the person I visit?"
+      ],
+      "a": "school teacher",
+      "attribute": "previous occupation=school teacher",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the pet of the person I visit?"
+      ],
+      "a": "Golden Retriever named Max",
+      "attribute": "pet=Golden Retriever named Max",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the first name of the person I am a contact for?"
+      ],
+      "a": "Eleanor",
+      "attribute": "first name=Eleanor",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the last name of the person I am a contact for?"
+      ],
+      "a": "Johnson",
+      "attribute": "last name=Johnson",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the age of the person I am a contact for?"
+      ],
+      "a": "78",
+      "attribute": "age=78",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the residence type of the person I am a contact for?"
+      ],
+      "a": "apartment",
+      "attribute": "residence type=apartment",
+      "path": "Sarah -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the health condition of the person I am a contact for?"
+      ],
+      "a": "early-stage Alzheimer's",
+      "attribute": "health condition=early-stage Alzheimer's",
+      "path": "Sarah -> Eleanor"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of place is the apartment where the person I visit and am a contact of lives?",
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What is the location of the apartment where the person I visit and am a contact of lives?",
+      "a": "Boston, Massachusetts",
+      "attribute": "location=Boston, Massachusetts",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What is the apartment size of the place where the person I visit and am a contact of lives?",
+      "a": "2-bedroom",
+      "attribute": "apartment size=2-bedroom",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What floor number is the apartment where the person I visit and am a contact of lives?",
+      "a": "3",
+      "attribute": "floor number=3",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What accessibility features does the apartment where the person I visit and am a contact of lives have?",
+      "a": "ramp, elevator",
+      "attribute": "accessibility features=ramp, elevator",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What nearby amenities are available at the apartment where the person I visit and am a contact of lives?",
+      "a": "park, grocery store, library",
+      "attribute": "nearby amenities=park, grocery store, library",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "True or false: The apartment where the person I visit and am a contact of lives has a balcony?",
+      "a": "True",
+      "attribute": "has balcony=True",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What is the interior theme of the apartment where the person I visit and am a contact of lives?",
+      "a": "cozy cottage",
+      "attribute": "interior theme=cozy cottage",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What year was the apartment where the person I visit and am a contact of lives built?",
+      "a": "1985",
+      "attribute": "year built=1985",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "True or false: The apartment where the person I visit and am a contact of lives is pet friendly?",
+      "a": "True",
+      "attribute": "pet friendly=True",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What security features does the apartment where the person I visit and am a contact of lives have?",
+      "a": "24-hour surveillance",
+      "attribute": "security features=24-hour surveillance",
+      "path": "Sarah - visits & contact of -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What type of system does the person I visit and am a contact of use?",
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Sarah - visits & contact of -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "What type of reminder system does the person I visit and am a contact of use?",
+      "a": "Digital Calendar",
+      "attribute": "reminder type=Digital Calendar",
+      "path": "Sarah - visits & contact of -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "How frequently does the person I visit and am a contact of use their reminder system?",
+      "a": "daily",
+      "attribute": "usage frequency=daily",
+      "path": "Sarah - visits & contact of -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "True or false: The reminder system that the person I visit and am a contact of uses allows user customization?",
+      "a": "True",
+      "attribute": "user customization=True",
+      "path": "Sarah - visits & contact of -> Eleanor - uses-> Reminder System"
+    }
+  ]
+}

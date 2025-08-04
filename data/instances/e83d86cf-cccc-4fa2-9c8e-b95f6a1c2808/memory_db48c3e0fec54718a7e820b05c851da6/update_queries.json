@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my vehicle information in the system - I no longer drive a Ford Transit Van, I've switched to a Mercedes Sprinter for my delivery business.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,5 +7,5 @@\n - **Favorite Food**: Cheese Pizza\n\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n-- **Vehicle Type**: Ford Transit Van\n\n+- **Vehicle Type**: Mercedes Sprinter\n\n - **Hire Date**: 2020-06-15\n"
+    },
+    {
+      "query": "The Mercedes Sprinter has been working out great for my routes - much better fuel efficiency than my old setup and the clients have been impressed with the professional look.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,5 +7,5 @@\n - **Favorite Food**: Cheese Pizza\n\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n-- **Vehicle Type**: Ford Transit Van\n\n+- **Vehicle Type**: Mercedes Sprinter\n\n - **Hire Date**: 2020-06-15\n"
+    },
+    {
+      "query": "I need to update my employment records - my actual hire date was 2020-08-22, not 2020-06-15 as currently shown in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,4 +8,4 @@\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n - **Vehicle Type**: Ford Transit Van\n\n-- **Hire Date**: 2020-06-15\n+- **Hire Date**: 2020-08-22\n"
+    },
+    {
+      "query": "It's hard to believe it's been over three years since I started here on August 22nd, 2020 - time really flies when you're doing work you're passionate about.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,4 +8,4 @@\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n - **Vehicle Type**: Ford Transit Van\n\n-- **Hire Date**: 2020-06-15\n+- **Hire Date**: 2020-08-22\n"
+    },
+    {
+      "query": "I need to update my food preferences in the system - my favorite food is actually Thai Pad See Ew, not Cheese Pizza as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n - **Years Of Experience**: 5\n\n-- **Favorite Food**: Cheese Pizza\n\n+- **Favorite Food**: Thai Pad See Ew\n\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n - **Vehicle Type**: Ford Transit Van\n\n"
+    },
+    {
+      "query": "I've been craving my favorite dish lately - there's nothing quite like a perfectly made Thai Pad See Ew with those wide rice noodles and sweet soy sauce.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n - **Years Of Experience**: 5\n\n-- **Favorite Food**: Cheese Pizza\n\n+- **Favorite Food**: Thai Pad See Ew\n\n - **Hobbies**: Photography\n\n - **Education Level**: Highschool Diploma\n\n - **Vehicle Type**: Ford Transit Van\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

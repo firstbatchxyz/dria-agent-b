@@ -1,0 +1,250 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Senior Support Engineer"
+    },
+    {
+      "q": "What is my expertise?",
+      "a": "API Integrations, Workflow Optimization"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "B.Sc in Computer Science"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "AWS Certified Solutions Architect"
+    },
+    {
+      "q": "Where am I located?",
+      "a": "San Francisco, CA"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Hiking"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my notable project?",
+      "a": "Led the migration project for a major banking client, ensuring zero downtime"
+    },
+    {
+      "q": "What is my favorite tech tool?",
+      "a": "Postman"
+    },
+    {
+      "q": "What is my work style?",
+      "a": "Collaborative and Detail-oriented"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the documentation that I share?"
+      ],
+      "a": "Documentation",
+      "attribute": "entity type=Documentation",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the version of the documentation that I share?"
+      ],
+      "a": "2.0",
+      "attribute": "version=2.0",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the focus area of the documentation that I share?"
+      ],
+      "a": "Client Issue Escalation",
+      "attribute": "focus area=Client Issue Escalation",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the created date of the documentation that I share?"
+      ],
+      "a": "2022-06-15",
+      "attribute": "created date=2022-06-15",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the last updated date of the documentation that I share?"
+      ],
+      "a": "2023-04-10",
+      "attribute": "last updated=2023-04-10",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "Who is the author of the documentation that I share?"
+      ],
+      "a": "Team of Senior Support Engineers",
+      "attribute": "author=Team of Senior Support Engineers",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "Does the documentation that I share include sections?"
+      ],
+      "a": "Yes",
+      "attribute": "includes sections=Yes",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What additional language support does the documentation that I share have?"
+      ],
+      "a": "English, Spanish, French",
+      "attribute": "additional language support=English, Spanish, French",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the availability of the documentation that I share?"
+      ],
+      "a": "24/7 online access",
+      "attribute": "availability=24/7 online access",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the review frequency of the documentation that I share?"
+      ],
+      "a": "Quarterly",
+      "attribute": "review frequency=Quarterly",
+      "path": "Olivia Brown -> Escalation Procedure Manual"
+    },
+    {
+      "q": [
+        "What is the type of the scripts that I develop?"
+      ],
+      "a": "Software",
+      "attribute": "entity type=Software",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the version of the scripts that I develop?"
+      ],
+      "a": "2.1.3",
+      "attribute": "version=2.1.3",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What programming language do the scripts that I develop use?"
+      ],
+      "a": "Python",
+      "attribute": "language=Python",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the deployment time of the scripts that I develop?"
+      ],
+      "a": "2023-02-15",
+      "attribute": "deployment time=2023-02-15",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the last maintenance date of the scripts that I develop?"
+      ],
+      "a": "2023-09-25",
+      "attribute": "last maintenance date=2023-09-25",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the compatibility of the scripts that I develop?"
+      ],
+      "a": "Cross-platform",
+      "attribute": "compatibility=Cross-platform",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What security features do the scripts that I develop have?"
+      ],
+      "a": "Data encryption and role-based access control",
+      "attribute": "security features=Data encryption and role-based access control",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "How many unique users do the scripts that I develop have?"
+      ],
+      "a": "1200",
+      "attribute": "unique users=1200",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What are the developer notes for the scripts that I develop?"
+      ],
+      "a": "Optimized for API throughput with advanced retry mechanisms",
+      "attribute": "developer notes=Optimized for API throughput with advanced retry mechanisms",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the maximum execution time per script for the scripts that I develop?"
+      ],
+      "a": "500ms",
+      "attribute": "max execution time per script=500ms",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the documentation URL for the scripts that I develop?"
+      ],
+      "a": "https://docs.cloudcrm.com/workflows/v2.1.3",
+      "attribute": "documentation url=https://docs.cloudcrm.com/workflows/v2.1.3",
+      "path": "Olivia Brown -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the type of the system that I document?"
+      ],
+      "a": "System",
+      "attribute": "entity type=System",
+      "path": "Olivia Brown -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the last updated date of the system that I document?"
+      ],
+      "a": "2023-10-11",
+      "attribute": "last updated=2023-10-11",
+      "path": "Olivia Brown -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What are the usage stats of the system that I document?"
+      ],
+      "a": "High frequency, accessed by support engineers daily",
+      "attribute": "usage stats=High frequency, accessed by support engineers daily",
+      "path": "Olivia Brown -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the primary function of the system that I document?"
+      ],
+      "a": "Centralized information repository for troubleshooting and solutions",
+      "attribute": "primary function=Centralized information repository for troubleshooting and solutions",
+      "path": "Olivia Brown -> Knowledge Base System"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Emma Williams",
+      "type": "Person",
+      "role": "Senior Support Engineer",
+      "years_of_experience": 7,
+      "expertise": "API integrations, security configurations",
+      "certification": "Certified Information Systems Security Professional (CISSP)",
+      "education": "Master's in Computer Science",
+      "language_proficiency": "English, Spanish",
+      "hobby": "Rock Climbing",
+      "time_zone": "Eastern Standard Time (EST)",
+      "previous_projects": "Lead on Project Phoenix, API Gateway Optimization 2022",
+      "notable_recognition": "Support Engineer of the Year 2021",
+      "worked_with": "High-profile tech clients including TechGiant Inc. and FinSecure Ltd.",
+      "remote_work_experience": true,
+      "ski_level": "Advanced Snowboarder"
+    },
+    {
+      "id": "p2",
+      "name": "Marcus Green",
+      "type": "Person",
+      "position": "Senior Support Engineer",
+      "experience_years": 8,
+      "education": "MSc in Computer Science",
+      "certifications": "AWS Certified Solutions Architect",
+      "location": "Seattle, WA",
+      "hobbies": "rock climbing",
+      "phone_extension": "1458",
+      "last_training": "August 2023"
+    },
+    {
+      "id": "p3",
+      "name": "Sophia Johnson",
+      "type": "Person",
+      "role": "Senior Support Engineer",
+      "experience_years": 7,
+      "certifications": "Certified Cloud Practitioner, ITIL Foundation",
+      "favorite_technology": "Python",
+      "education": "Bachelor of Science in Computer Information Systems",
+      "communication_style": "Concise and data-driven",
+      "office_location": "New York City, NY",
+      "hobbies": "Hiking and digital painting",
+      "languages_spoken": "English, Spanish",
+      "problem_solving_approach": "Analytical and collaborative"
+    },
+    {
+      "id": "p4",
+      "name": "Liam Smith",
+      "type": "Person",
+      "position": "Senior Support Engineer",
+      "primary_skillset": "Security Audit and Configuration",
+      "years_of_experience": 5,
+      "certifications": "CISSP, CompTIA Security+",
+      "education": "B.Sc. in Computer Science",
+      "languages_spoken": "English, French",
+      "hobbies": "Rock Climbing, Coding Challenges",
+      "favorite_tool": "Burp Suite"
+    },
+    {
+      "id": "p5",
+      "name": "Olivia Brown",
+      "type": "Person",
+      "role": "Senior Support Engineer",
+      "expertise": "API Integrations, Workflow Optimization",
+      "experience_years": 8,
+      "education": "B.Sc in Computer Science",
+      "certifications": "AWS Certified Solutions Architect",
+      "location": "San Francisco, CA",
+      "hobby": "Hiking",
+      "languages_spoken": "English, Spanish",
+      "notable_project": "Led the migration project for a major banking client, ensuring zero downtime",
+      "favorite_tech_tool": "Postman",
+      "work_style": "Collaborative and Detail-oriented"
+    },
+    {
+      "id": "p6",
+      "name": "Mason Davis",
+      "type": "Person",
+      "role": "Senior Support Engineer",
+      "experience_years": 7,
+      "specialty": "API integrations and custom workflows",
+      "education": "Bachelor's in Computer Science",
+      "certifications": "AWS Certified Solutions Architect",
+      "languages_spoken": "English, Spanish",
+      "hobbies": "rock climbing and coding challenges",
+      "recent_project": "Optimizing API efficiency for a high-traffic client",
+      "phone_extension": 1043
+    },
+    {
+      "id": "p7",
+      "name": "Ava Martinez",
+      "type": "Person",
+      "full_name": "Ava Isabella Martinez",
+      "position": "Senior Support Engineer",
+      "years_of_experience": 7,
+      "specialization": "API integrations & database migrations",
+      "certifications": "Certified Cloud Technology Professional",
+      "languages_spoken": "English, Spanish",
+      "educational_background": "Bachelor's in Computer Science",
+      "hobbies": "Photography and hiking",
+      "office_location": "San Francisco",
+      "team_lead": false
+    },
+    {
+      "id": "p8",
+      "name": "Lucas White",
+      "type": "Person",
+      "job_title": "Senior Support Engineer",
+      "years_of_experience": 10,
+      "certifications": "AWS Certified Solutions Architect",
+      "office_location": "New York, NY",
+      "email": "lucas.white@cloudcrm.com",
+      "team_lead": false,
+      "hobbies": "photography and hiking",
+      "education": "Bachelor of Science in Computer Science",
+      "special_skills": "API architecture, advanced workflow automation",
+      "languages_spoken": "English, Spanish",
+      "favorite_technologies": "Kubernetes, Docker"
+    },
+    {
+      "id": "e1",
+      "name": "Fortune 500 API Integration",
+      "entity_type": "Service",
+      "type": "Entity",
+      "service_type": "API Integration",
+      "client_base": "Fortune 500 companies",
+      "primary_function": "Streamlining API connectivity and data exchange",
+      "secondary_services": "Custom workflow enhancement and security configuration",
+      "languages_supported": "Multi-language support including Java, Python, and Node.js",
+      "customization_level": "High",
+      "uptime_percentage": 99.9,
+      "integration_modules": "CRM, ERP, SaaS platforms",
+      "launch_date": "January 2016",
+      "industry_compliance": "GDPR, HIPAA, and CCPA compliant"
+    },
+    {
+      "id": "e2",
+      "name": "Database Migration Toolkit",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "version": "3.0",
+      "supported_databases": "MySQL, PostgreSQL, Oracle, SQL Server",
+      "features": "Schema Migration, Data Integrity Check, Rollback Support, Performance Optimization",
+      "developer": "CloudCRM Labs",
+      "release_date": "March 2023"
+    },
+    {
+      "id": "e3",
+      "name": "Custom Workflow Designer",
+      "entity_type": "Software",
+      "type": "Entity",
+      "supported_formats": "JSON, XML, CSV",
+      "integration_capability": "Seamless integration with third-party software",
+      "security_features": "Supports role-based access control and data encryption",
+      "user_interface": "Intuitive drag-and-drop design",
+      "version": "2.4.1",
+      "last_update": "June 2023",
+      "documentation_availability": true,
+      "training_program": "Online video tutorials and webinars",
+      "customer_reviews": "Highly rated for flexibility and ease of use"
+    },
+    {
+      "id": "e4",
+      "name": "Security Configuration Protocol",
+      "entity_type": "Procedure",
+      "type": "Entity",
+      "enhanced_security_features": "Multi-factor Authentication, Role-based Access Control, and Data Encryption",
+      "compliance_standards": "ISO/IEC 27001, SOC 2 Type II, GDPR",
+      "last_reviewed": "2023-09-15",
+      "documentation_status": "Complete",
+      "version": "2.5.8",
+      "primary_platforms": "Linux and Windows Server 2019",
+      "automation_friendly": true,
+      "usage_frequency": "Daily by enterprise clients",
+      "integration_capabilities": "Seamless integration with standard CRM systems",
+      "recent_changes": "Updated API security endpoints and improved audit logging functionality"
+    },
+    {
+      "id": "e5",
+      "name": "Escalation Procedure Manual",
+      "entity_type": "Documentation",
+      "type": "Entity",
+      "version": "2.0",
+      "focus_area": "Client Issue Escalation",
+      "created_date": "2022-06-15",
+      "last_updated": "2023-04-10",
+      "author": "Team of Senior Support Engineers",
+      "includes_sections": "Yes",
+      "additional_language_support": "English, Spanish, French",
+      "availability": "24/7 online access",
+      "review_frequency": "Quarterly"
+    },
+    {
+      "id": "e6",
+      "name": "Knowledge Base System",
+      "entity_type": "System",
+      "type": "Entity",
+      "last_updated": "2023-10-11",
+      "usage_stats": "High frequency, accessed by support engineers daily",
+      "primary_function": "Centralized information repository for troubleshooting and solutions",
+      "system_admin": "Charlie Jordan",
+      "data_backup_frequency": "Daily",
+      "storage_capacity": "2TB",
+      "security_level": "Tier 1 encryption",
+      "integrations": "API accessible, integrated with CRM software and client SLA tracking systems",
+      "user_interface": "Web-based with intuitive search functionality"
+    },
+    {
+      "id": "e7",
+      "name": "Client Environment Monitoring",
+      "entity_type": "Service",
+      "type": "Entity",
+      "service_scope": "Real-time monitoring and reporting",
+      "features": "Automated alerts, performance dashboards, downtime analytics",
+      "supported_environments": "AWS, Azure, Google Cloud Platform",
+      "security_compliance": "ISO 27001, SOC 2",
+      "maximum_concurrent_sessions": 500,
+      "response_time_sla": "99.9% uptime guarantee",
+      "api_access": true,
+      "real_time_metrics": true
+    },
+    {
+      "id": "e8",
+      "name": "SLA Management Suite",
+      "entity_type": "System",
+      "type": "Entity",
+      "version": "2.1.5",
+      "developer": "CloudCRM Solutions",
+      "deployment_environment": "cloud",
+      "primary_function": "Service Level Agreement monitoring and reporting",
+      "integrations": "JIRA, ServiceNow, Zendesk",
+      "reporting_capabilities": "real-time analytics, historical comparisons",
+      "feature_highlight": "Customization setup for various SLA templates",
+      "security_features": "End-to-end encryption, Multi-factor authentication support",
+      "user_base": "100+ Fortune 500 companies",
+      "uptime_guarantee": "99.99%"
+    },
+    {
+      "id": "e9",
+      "name": "API Endpoint Manager",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "release_date": "2021-03-15",
+      "developer": "CloudCRM Tech Division",
+      "supported_protocols": "REST, GraphQL",
+      "version": "2.3.1",
+      "max_requests_per_second": 1500,
+      "availability": "99.99% uptime"
+    },
+    {
+      "id": "e10",
+      "name": "Data Synchronization Service",
+      "entity_type": "Service",
+      "type": "Entity",
+      "description": "Service responsible for ensuring seamless data synchronization across various client systems and platforms.",
+      "supported_protocols": "HTTP, HTTPS, FTP, SFTP",
+      "average_response_time": "50ms",
+      "uptime": "99.95%",
+      "api_version": "v3.2",
+      "last_updated": "September 15, 2023",
+      "concurrent_connections_support": 5000,
+      "security_features": "OAuth 2.0, TLS 1.2, data encryption at rest and in transit",
+      "client_support": "24/7 through dedicated support team"
+    },
+    {
+      "id": "e11",
+      "name": "CloudCRM Portal Access",
+      "entity_type": "Platform",
+      "type": "Entity",
+      "platform_type": "Proprietary cloud-based for enterprise clients",
+      "modules_supported": "API integrations, database migrations, custom workflows",
+      "security_features": "Advanced encryption, two-factor authentication",
+      "user_base": "3,500 enterprise clients",
+      "uptime_percentage": 99.98,
+      "major_update_cycle": "Quarterly",
+      "support_availability": "24/7 via phone, email, and live chat",
+      "primary_region_of_service": "North America and Europe",
+      "user_interface_language_options": "English, French, Spanish, German",
+      "compliance_standards": "GDPR, HIPAA, ISO 27001",
+      "analytics_tools_integration": "Built-in advanced analytics and third-party integrations",
+      "customization_capabilities": "High - customizable workflows and UI settings",
+      "feedback_rating": 4.8,
+      "user_access_levels": "Admin, Editor, Viewer"
+    },
+    {
+      "id": "e12",
+      "name": "Security Audit Tools",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "tool_type": "Software",
+      "usage_in_support_team": "Identify security vulnerabilities",
+      "reputation": "Widely trusted in the industry",
+      "average_review_score": 4.8,
+      "primary_features": "Automated scanning, compliance reporting, risk assessment",
+      "integration_capabilities": "Extensive API support, cloud integration",
+      "deployments": "75% within Fortune 500 companies",
+      "release_year": 2015,
+      "known_issues": "Occasional false positives in scan results",
+      "license_type": "Annual subscription",
+      "operating_system_support": "Windows, Linux, macOS"
+    },
+    {
+      "id": "e13",
+      "name": "Workflow Automation Scripts",
+      "entity_type": "Software",
+      "type": "Entity",
+      "version": "2.1.3",
+      "language": "Python",
+      "deployment_time": "2023-02-15",
+      "last_maintenance_date": "2023-09-25",
+      "compatibility": "Cross-platform",
+      "security_features": "Data encryption and role-based access control",
+      "unique_users": 1200,
+      "developer_notes": "Optimized for API throughput with advanced retry mechanisms",
+      "max_execution_time_per_script": "500ms",
+      "documentation_url": "https://docs.cloudcrm.com/workflows/v2.1.3"
+    },
+    {
+      "id": "e14",
+      "name": "Client Onboarding Module",
+      "entity_type": "Module",
+      "type": "Entity",
+      "module_stage": "Developed",
+      "release_date": "2022-05-01",
+      "module_lead": "Mason Davis",
+      "primary_features": "API integration, custom workflow management",
+      "client_feedback_score": 4.7,
+      "documentation_status": "Complete",
+      "user_training_availability": "Online and In-person",
+      "user_manual_link": "https://cloudcrm.com/onboarding_manual",
+      "support_contact": "support@cloudcrm.com"
+    },
+    {
+      "id": "e15",
+      "name": "Downtime Report Generator",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "functionality": "Generates detailed downtime reports by analyzing system logs and performance metrics",
+      "frequency": "Real-time",
+      "compatibility": "Integrates with all CloudCRM services",
+      "user_friendly": true,
+      "security_features": "Data encryption, access control",
+      "customizability": "High",
+      "reports_generated": "Weekly and Monthly",
+      "team_utilization": "Used by the enterprise support team for assessing client system health"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "handles",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "maintains",
+      "o": "e9"
+    },
+    {
+      "s": "p1",
+      "p": "troubleshoots",
+      "o": "e4"
+    },
+    {
+      "s": "p2",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "executes",
+      "o": "e10"
+    },
+    {
+      "s": "p2",
+      "p": "customizes",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "designs",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "manages",
+      "o": "e11"
+    },
+    {
+      "s": "p3",
+      "p": "updates",
+      "o": "e7"
+    },
+    {
+      "s": "p4",
+      "p": "configures",
+      "o": "e4"
+    },
+    {
+      "s": "p4",
+      "p": "audits",
+      "o": "e12"
+    },
+    {
+      "s": "p4",
+      "p": "improves",
+      "o": "e5"
+    },
+    {
+      "s": "p5",
+      "p": "shares",
+      "o": "e5"
+    },
+    {
+      "s": "p5",
+      "p": "develops",
+      "o": "e13"
+    },
+    {
+      "s": "p5",
+      "p": "documents",
+      "o": "e6"
+    },
+    {
+      "s": "p6",
+      "p": "consults",
+      "o": "e6"
+    },
+    {
+      "s": "p6",
+      "p": "implements",
+      "o": "e14"
+    },
+    {
+      "s": "p6",
+      "p": "reviews",
+      "o": "e11"
+    },
+    {
+      "s": "p7",
+      "p": "monitors",
+      "o": "e7"
+    },
+    {
+      "s": "p7",
+      "p": "generates",
+      "o": "e15"
+    },
+    {
+      "s": "p7",
+      "p": "integrates",
+      "o": "e9"
+    },
+    {
+      "s": "p8",
+      "p": "tracks",
+      "o": "e8"
+    },
+    {
+      "s": "p8",
+      "p": "advises_on",
+      "o": "e1"
+    },
+    {
+      "s": "p8",
+      "p": "optimizes",
+      "o": "e13"
+    }
+  ]
+}

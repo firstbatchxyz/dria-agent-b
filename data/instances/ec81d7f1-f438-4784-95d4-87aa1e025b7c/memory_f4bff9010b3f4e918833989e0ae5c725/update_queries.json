@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional networking information - I'm no longer a member of the Chicago Tech Innovators group, but I've recently joined the Midwest Digital Leaders Alliance instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Personal Goal**: To create software that improves daily life for the visually impaired\n\n - **Achievements**: Developed a top-rated productivity app\n\n - **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n-- **Networking Groups**: Member of the Chicago Tech Innovators\n\n+- **Networking Groups**: Member of the Midwest Digital Leaders Alliance\n\n - **Family Status**: Married with two children\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really enjoying the events and connections I'm making through the Midwest Digital Leaders Alliance - it's been great for expanding my professional network in the region.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Personal Goal**: To create software that improves daily life for the visually impaired\n\n - **Achievements**: Developed a top-rated productivity app\n\n - **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n-- **Networking Groups**: Member of the Chicago Tech Innovators\n\n+- **Networking Groups**: Member of the Midwest Digital Leaders Alliance\n\n - **Family Status**: Married with two children\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my work schedule preferences in the system - I've changed from flexible afternoon shifts to having fixed morning hours from 6 AM to 2 PM.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Technology**: Blockchain\n\n - **Personal Goal**: To create software that improves daily life for the visually impaired\n\n - **Achievements**: Developed a top-rated productivity app\n\n-- **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n+- **Preferred Working Hours**: Fixed morning hours, 6 AM to 2 PM\n\n - **Networking Groups**: Member of the Chicago Tech Innovators\n\n - **Family Status**: Married with two children\n\n \n\n"
+    },
+    {
+      "query": "I've been really enjoying my new routine with the fixed morning hours from 6 AM to 2 PM - it gives me much better work-life balance and I'm more productive during those early hours.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Technology**: Blockchain\n\n - **Personal Goal**: To create software that improves daily life for the visually impaired\n\n - **Achievements**: Developed a top-rated productivity app\n\n-- **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n+- **Preferred Working Hours**: Fixed morning hours, 6 AM to 2 PM\n\n - **Networking Groups**: Member of the Chicago Tech Innovators\n\n - **Family Status**: Married with two children\n\n \n\n"
+    },
+    {
+      "query": "I need to update my family status information in the system - I recently got divorced and now have joint custody of my three children, so it's no longer accurate to say I'm married with two children.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Achievements**: Developed a top-rated productivity app\n\n - **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n - **Networking Groups**: Member of the Chicago Tech Innovators\n\n-- **Family Status**: Married with two children\n\n+- **Family Status**: Divorced with joint custody of three children\n\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n"
+    },
+    {
+      "query": "Life has been quite an adjustment since the divorce, but I'm grateful that I have joint custody of my three kids and we're all adapting well to our new routine.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Achievements**: Developed a top-rated productivity app\n\n - **Preferred Working Hours**: Flexible, prefers afternoon shifts\n\n - **Networking Groups**: Member of the Chicago Tech Innovators\n\n-- **Family Status**: Married with two children\n\n+- **Family Status**: Divorced with joint custody of three children\n\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm receiving business advice from - I'm no longer working with Jennifer Smith as my advisor. I've started getting guidance from Dr. Sarah Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n-- **Receives_Advice_From**: [[jennifer_smith.md]]\n+- **Receives_Advice_From**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Receives_Advice_From**: [[mark_johnson.md]]\n"
+    },
+    {
+      "query": "Dr. Sarah Chen has been incredibly helpful with her strategic insights and has really transformed how I approach my business decisions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n-- **Receives_Advice_From**: [[jennifer_smith.md]]\n+- **Receives_Advice_From**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Receives_Advice_From**: [[mark_johnson.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm receiving advice from - I'm no longer working with Jennifer Smith as my mentor. I've started receiving guidance from Dr. Sarah Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n-- **Receives_Advice_From**: [[jennifer_smith.md]]\n+- **Receives_Advice_From**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Receives_Advice_From**: [[mark_johnson.md]]\n"
+    },
+    {
+      "query": "I've been really grateful for the insights Dr. Sarah Chen has been sharing with me lately. Her expertise has been invaluable in helping me navigate some challenging decisions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Contains**: [[client_financial_profiles.md]]\n\n-- **Receives_Advice_From**: [[jennifer_smith.md]]\n+- **Receives_Advice_From**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Receives_Advice_From**: [[mark_johnson.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about what Jennifer Smith is working on - she's no longer creating Educational Financial Resources, but has shifted to developing a comprehensive Financial Literacy Mobile App instead.",
+      "diff": "===entities/jennifer_smith.md===\n\n===entities/financial_literacy_mobile_app.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Financial Literacy Mobile App\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: mobile application\n\n+\n\n+## Relationships\n\n+- **Creates**: [[jennifer_smith.md]]\n"
+    },
+    {
+      "query": "Jennifer has been doing amazing work on her new Financial Literacy Mobile App project, and her advice has been invaluable as I watch her pivot from traditional educational resources to this innovative digital platform.",
+      "diff": "===entities/jennifer_smith.md===\n\n===entities/financial_literacy_mobile_app.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Financial Literacy Mobile App\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: mobile application\n\n+\n\n+## Relationships\n\n+- **Creates**: [[jennifer_smith.md]]\n"
+    }
+  ]
+}

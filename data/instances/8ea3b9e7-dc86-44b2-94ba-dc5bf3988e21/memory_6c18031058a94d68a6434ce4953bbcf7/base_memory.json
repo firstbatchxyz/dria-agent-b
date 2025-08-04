@@ -1,0 +1,11 @@
+{
+  "user_md": "# Tom Hargrove\n\n## Basic Information\n- **Type**: Person\n- **Age**: 45\n- **Occupation**: Mobility Instructor\n- **Hobbies**: Photography, Hiking\n- **Favorite Cuisine**: Italian\n- **Communication Preference**: Phone\n- **Favorite Book**: The Art of Happiness by Dalai Lama\n- **Volunteer Work**: Teaching Photography to Children\n- **Known Languages**: English, French\n- **Recent Project**: Developing a new tactile navigation training booklet\n- **Recent Award**: Excellence in Mobility Training Award\n\n## Relationships\n- **Coordinates_With**: [[marcus_smith.md]]",
+  "entities": [
+    {
+      "entity_name": "marcus_smith",
+      "entity_file_path": "entities/marcus_smith.md",
+      "entity_file_content": "# Marcus Smith\n\n## Basic Information\n- **Type**: Person\n- **Preferred Name**: Marc\n- **Age**: 32\n- **Occupation**: Accessibility Consultant\n- **Hobbies**: Playing Chess, Listening to Audio Books\n- **Favorite Cuisine**: Thai\n- **Has Pet**: Guide Dog\n- **Communication Preference**: Email and Text\n- **Volunteer Work**: Advocacy for the Visually Impaired\n- **Recent Award**: Local Hero Award for Community Service\n- **Known Languages**: English, Braille, Basic Spanish\n\n## Relationships\n- **Coordinates_With**: [[tom_hargrove.md]]"
+    }
+  ],
+  "mem_id": "memory_6c18031058a94d68a6434ce4953bbcf7"
+}

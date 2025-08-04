@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my job information in the system - I'm no longer an Assistant Store Manager, I've been promoted to Regional Operations Director.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Assistant Store Manager\n\n+- **Occupation**: Regional Operations Director\n\n - **Years Of Experience**: 7\n\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n"
+    },
+    {
+      "query": "I've been enjoying the new challenges that come with my role as Regional Operations Director, especially overseeing multiple store locations across the district.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Assistant Store Manager\n\n+- **Occupation**: Regional Operations Director\n\n - **Years Of Experience**: 7\n\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently earned the Certified Supply Chain Professional (CSCP) credential, which has replaced my previous CRMP certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n - **Education**: Bachelor's Degree in Business Administration\n\n-- **Certifications**: Certified Retail Management Professional (CRMP)\n\n+- **Certifications**: Certified Supply Chain Professional (CSCP)\n\n - **Hobbies**: Cycling, reading mystery novels\n\n - **Languages Spoken**: English, Spanish\n\n - **Used Technology**: Inventory management software, Point of Sale systems\n\n"
+    },
+    {
+      "query": "I'm excited to apply the advanced supply chain management principles I learned while earning my Certified Supply Chain Professional (CSCP) certification to optimize our retail operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n - **Education**: Bachelor's Degree in Business Administration\n\n-- **Certifications**: Certified Retail Management Professional (CRMP)\n\n+- **Certifications**: Certified Supply Chain Professional (CSCP)\n\n - **Hobbies**: Cycling, reading mystery novels\n\n - **Languages Spoken**: English, Spanish\n\n - **Used Technology**: Inventory management software, Point of Sale systems\n\n"
+    },
+    {
+      "query": "I need to update my educational information in the system - I actually completed a Master's Degree in International Business, not a Bachelor's Degree in Business Administration as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n-- **Education**: Bachelor's Degree in Business Administration\n\n+- **Education**: Master's Degree in International Business\n\n - **Certifications**: Certified Retail Management Professional (CRMP)\n\n - **Hobbies**: Cycling, reading mystery novels\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I've been leveraging the strategic insights from my Master's Degree in International Business to expand our operations into emerging markets.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Skills**: Effective communication, attention to detail, leadership\n\n - **Favorite Aspect Of Job**: Interacting with customers and improving customer satisfaction\n\n-- **Education**: Bachelor's Degree in Business Administration\n\n+- **Education**: Master's Degree in International Business\n\n - **Certifications**: Certified Retail Management Professional (CRMP)\n\n - **Hobbies**: Cycling, reading mystery novels\n\n - **Languages Spoken**: English, Spanish\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my birth information in the system - I was actually born in Cartago, Costa Rica, not San Jos\u00e9 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Maria\n\n - **Last Name**: Lopez\n\n - **Age**: 42\n\n-- **Birthplace**: San Jos\u00e9, Costa Rica\n\n+- **Birthplace**: Cartago, Costa Rica\n\n - **Years Of Experience**: 15\n\n - **Education**: Nursing Diploma\n\n - **Languages Spoken**: Spanish, English\n\n"
+    },
+    {
+      "query": "Growing up in Cartago, Costa Rica really shaped my appreciation for colonial architecture and the rich history of my hometown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Maria\n\n - **Last Name**: Lopez\n\n - **Age**: 42\n\n-- **Birthplace**: San Jos\u00e9, Costa Rica\n\n+- **Birthplace**: Cartago, Costa Rica\n\n - **Years Of Experience**: 15\n\n - **Education**: Nursing Diploma\n\n - **Languages Spoken**: Spanish, English\n\n"
+    },
+    {
+      "query": "I need to update my pet information in the system - I no longer have Pepito the parrot, but I now have a golden retriever named Luna.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Languages Spoken**: Spanish, English\n\n - **Hobbies**: Gardening\n\n - **Favorite Food**: Ceviche\n\n-- **Pets**: Parrot named Pepito\n\n+- **Pets**: Golden retriever named Luna\n\n \n\n ## Relationships\n\n - **Provides Services To**: [[eleanor.md]]\n\n"
+    },
+    {
+      "query": "Luna has been such a wonderful addition to my life - this golden retriever brings so much joy and energy to my daily routine with her playful nature.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Languages Spoken**: Spanish, English\n\n - **Hobbies**: Gardening\n\n - **Favorite Food**: Ceviche\n\n-- **Pets**: Parrot named Pepito\n\n+- **Pets**: Golden retriever named Luna\n\n \n\n ## Relationships\n\n - **Provides Services To**: [[eleanor.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my birthplace information in the system - I was actually born in Cartago, Costa Rica, not San Jos\u00e9 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Maria\n\n - **Last Name**: Lopez\n\n - **Age**: 42\n\n-- **Birthplace**: San Jos\u00e9, Costa Rica\n\n+- **Birthplace**: Cartago, Costa Rica\n\n - **Years Of Experience**: 15\n\n - **Education**: Nursing Diploma\n\n - **Languages Spoken**: Spanish, English\n\n"
+    },
+    {
+      "query": "Growing up in Cartago, Costa Rica has given me such a deep appreciation for our country's rich colonial history and beautiful landscapes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Maria\n\n - **Last Name**: Lopez\n\n - **Age**: 42\n\n-- **Birthplace**: San Jos\u00e9, Costa Rica\n\n+- **Birthplace**: Cartago, Costa Rica\n\n - **Years Of Experience**: 15\n\n - **Education**: Nursing Diploma\n\n - **Languages Spoken**: Spanish, English\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm providing services to - I'm no longer working with Eleanor, but I've started providing services to Dr. Rebecca Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Pets**: Parrot named Pepito\n\n \n\n ## Relationships\n\n-- **Provides Services To**: [[eleanor.md]]\n\n-- **Associated With**: [[home_care_services.md]]\n+- **Associated With**: [[home_care_services.md]]\n\n+- **Provides Services To**: [[dr._rebecca_chen.md]]\n\n===entities/dr._rebecca_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Rebecca Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides Services To**: [[maria.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new working relationship with Dr. Rebecca Chen - she has such interesting projects that align perfectly with my expertise.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Pets**: Parrot named Pepito\n\n \n\n ## Relationships\n\n-- **Provides Services To**: [[eleanor.md]]\n\n-- **Associated With**: [[home_care_services.md]]\n+- **Associated With**: [[home_care_services.md]]\n\n+- **Provides Services To**: [[dr._rebecca_chen.md]]\n\n===entities/dr._rebecca_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Rebecca Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides Services To**: [[maria.md]]\n"
+    },
+    {
+      "query": "I need to update my professional association in the system - I'm no longer working with Home Care Services, I've transitioned to working with Sunrise Senior Living Community.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Provides Services To**: [[eleanor.md]]\n\n-- **Associated With**: [[home_care_services.md]]\n+- **Associated With**: [[sunrise_senior_living_community.md]]\n\n===entities/sunrise_senior_living_community.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sunrise Senior Living Community\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: senior care facility\n\n+\n\n+## Relationships\n\n+- **Associated With**: [[maria.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new role at Sunrise Senior Living Community - the environment and approach to senior care here aligns perfectly with my values and experience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Provides Services To**: [[eleanor.md]]\n\n-- **Associated With**: [[home_care_services.md]]\n+- **Associated With**: [[sunrise_senior_living_community.md]]\n\n===entities/sunrise_senior_living_community.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sunrise Senior Living Community\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: senior care facility\n\n+\n\n+## Relationships\n\n+- **Associated With**: [[maria.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

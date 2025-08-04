@@ -1,0 +1,195 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Independent Financial Planner"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's in Finance from Columbia University"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "Certified Financial Planner (CFP)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Reading mystery novels and hiking"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and Spanish"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Financial literacy workshops at local community centers"
+    },
+    {
+      "q": "What is my client specialization?",
+      "a": "Families with young children"
+    },
+    {
+      "q": "Where is my office located?",
+      "a": "Chicago, IL"
+    },
+    {
+      "q": "What is my phone contact?",
+      "a": "312-555-0134"
+    },
+    {
+      "q": "What is my email contact?",
+      "a": "jennifer.smith@finplanner.com"
+    },
+    {
+      "q": "What is my website?",
+      "a": "www.jennifersmithfinancial.com"
+    },
+    {
+      "q": "What is my personal goal?",
+      "a": "To empower 1,000 families to achieve financial independence by 2025"
+    },
+    {
+      "q": "What is my favorite quote?",
+      "a": "\"Failing to plan is planning to fail.\" - Alan Lakein"
+    },
+    {
+      "q": "Who are my mentors?",
+      "a": "I worked under Sarah Johnson, a renowned financial advisor, for 5 years"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the risk level of the college savings plan that I offer?"
+      ],
+      "a": "Moderate",
+      "attribute": "risk level=Moderate",
+      "path": "Jennifer Smith -> College Savings Plan"
+    },
+    {
+      "q": [
+        "When was the college savings plan that I offer launched?"
+      ],
+      "a": "April 2011",
+      "attribute": "launch date=April 2011"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the occupation of the person included in the client financial profiles that I maintain?",
+      "a": "Software Engineer",
+      "attribute": "occupation=Software Engineer",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the location of the person included in the client financial profiles that I maintain?",
+      "a": "Chicago, IL",
+      "attribute": "location=Chicago, IL",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What are the hobbies of the person included in the client financial profiles that I maintain?",
+      "a": "Cycling and playing chess",
+      "attribute": "hobbies=Cycling and playing chess",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the education of the person included in the client financial profiles that I maintain?",
+      "a": "Master's in Computer Science from MIT",
+      "attribute": "education=Master's in Computer Science from MIT",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What languages are spoken by the person included in the client financial profiles that I maintain?",
+      "a": "English and French",
+      "attribute": "languages spoken=English and French",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What volunteer work does the person included in the client financial profiles that I maintain do?",
+      "a": "Teaching coding to underprivileged youth",
+      "attribute": "volunteer work=Teaching coding to underprivileged youth",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the favorite technology of the person included in the client financial profiles that I maintain?",
+      "a": "Blockchain",
+      "attribute": "favorite technology=Blockchain",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the personal goal of the person included in the client financial profiles that I maintain?",
+      "a": "To create software that improves daily life for the visually impaired",
+      "attribute": "personal goal=To create software that improves daily life for the visually impaired",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What are the achievements of the person included in the client financial profiles that I maintain?",
+      "a": "Developed a top-rated productivity app",
+      "attribute": "achievements=Developed a top-rated productivity app",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What are the preferred working hours of the person included in the client financial profiles that I maintain?",
+      "a": "Flexible, prefers afternoon shifts",
+      "attribute": "preferred working hours=Flexible, prefers afternoon shifts",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What networking groups does the person included in the client financial profiles that I maintain belong to?",
+      "a": "Member of the Chicago Tech Innovators",
+      "attribute": "networking groups=Member of the Chicago Tech Innovators",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the family status of the person included in the client financial profiles that I maintain?",
+      "a": "Married with two children",
+      "attribute": "family status=Married with two children",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Mark Johnson"
+    },
+    {
+      "q": "What is the occupation of the person included in the client financial profiles that I maintain?",
+      "a": "Graphic Designer",
+      "attribute": "occupation=Graphic Designer",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "How many years has the person included in the client financial profiles that I maintain been with me as their advisor?",
+      "a": "5",
+      "attribute": "years of presence with advisor=5",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "What are the financial goals of the person included in the client financial profiles that I maintain?",
+      "a": "Save for a downpayment on a home and children's education",
+      "attribute": "financial goals=Save for a downpayment on a home and children's education",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "What is the preferred communication method of the person included in the client financial profiles that I maintain?",
+      "a": "Email",
+      "attribute": "preferred communication method=Email",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "What is the favorite hobby of the person included in the client financial profiles that I maintain?",
+      "a": "Painting landscapes",
+      "attribute": "favorite hobby=Painting landscapes",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "What is the education of the person included in the client financial profiles that I maintain?",
+      "a": "Bachelor's in Fine Arts from Rhode Island School of Design",
+      "attribute": "education=Bachelor's in Fine Arts from Rhode Island School of Design",
+      "path": "Jennifer Smith - maintains -> Client Financial Profiles - contains-> Sarah Lee"
+    },
+    {
+      "q": "What is the personal achievement of the person included in the client financial profiles that I maintain?",
+      "a": "Exhibited artwork in a local gallery"
+    }
+  ]
+}

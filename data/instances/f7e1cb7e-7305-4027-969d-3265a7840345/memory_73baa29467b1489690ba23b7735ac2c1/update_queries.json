@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational background in the system - I actually have a Master's Degree in Finance from Northwestern Business School, not a Bachelor's Degree in Accounting from Midwest State University as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Senior Accountant\n\n - **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n\n-- **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n\n+- **Education Background**: Master's Degree in Finance, Northwestern Business School\n\n - **Certifications**: Chartered Accountant (CA)\n\n - **Hobbies**: Cycling, Chess, Cooking international cuisine\n\n - **Favorite Software Feature**: Pivot Tables\n\n"
+    },
+    {
+      "query": "I've been applying the advanced financial modeling techniques I learned during my Master's Degree in Finance at Northwestern Business School to help my clients with more sophisticated investment strategies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Senior Accountant\n\n - **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n\n-- **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n\n+- **Education Background**: Master's Degree in Finance, Northwestern Business School\n\n - **Certifications**: Chartered Accountant (CA)\n\n - **Hobbies**: Cycling, Chess, Cooking international cuisine\n\n - **Favorite Software Feature**: Pivot Tables\n\n"
+    },
+    {
+      "query": "I need to update my professional certifications in the system - I've recently obtained my Certified Public Accountant (CPA) license, which should replace my previous Chartered Accountant (CA) certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Senior Accountant\n\n - **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n\n - **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n\n-- **Certifications**: Chartered Accountant (CA)\n\n+- **Certifications**: Certified Public Accountant (CPA)\n\n - **Hobbies**: Cycling, Chess, Cooking international cuisine\n\n - **Favorite Software Feature**: Pivot Tables\n\n - **Professional Goals**: To become a partner at the firm within the next 5 years\n\n"
+    },
+    {
+      "query": "I'm excited to bring my new CPA expertise to our upcoming financial audits and help streamline our accounting processes with this enhanced qualification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Senior Accountant\n\n - **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n\n - **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n\n-- **Certifications**: Chartered Accountant (CA)\n\n+- **Certifications**: Certified Public Accountant (CPA)\n\n - **Hobbies**: Cycling, Chess, Cooking international cuisine\n\n - **Favorite Software Feature**: Pivot Tables\n\n - **Professional Goals**: To become a partner at the firm within the next 5 years\n\n"
+    },
+    {
+      "query": "I need to correct my nickname in the system - everyone actually calls me 'RJ' now, not 'Rajie' like it's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Software Feature**: Pivot Tables\n\n - **Professional Goals**: To become a partner at the firm within the next 5 years\n\n - **Communication Style**: Prefers detailed emails over calls\n\n-- **Nickname**: Rajie\n\n+- **Nickname**: RJ\n\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n"
+    },
+    {
+      "query": "My friends have been calling me 'RJ' for the past few years, and it's really stuck as my go-to nickname in both personal and professional settings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Software Feature**: Pivot Tables\n\n - **Professional Goals**: To become a partner at the firm within the next 5 years\n\n - **Communication Style**: Prefers detailed emails over calls\n\n-- **Nickname**: Rajie\n\n+- **Nickname**: RJ\n\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

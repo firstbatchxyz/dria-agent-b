@@ -1,0 +1,11 @@
+{
+  "user_md": "# Rahul Singh\n\n## Basic Information\n- **Type**: Person\n- **Job Title**: Senior Support Agent\n- **Years Of Experience**: 5\n- **Specialization**: Advanced Troubleshooting Techniques\n- **Office Location**: Mumbai Customer Support Center\n- **Education**: Bachelor's in Electrical Engineering\n- **Languages Spoken**: English, Hindi\n- **Certifications**: Certified Smart Appliance Technician\n- **Favorite Kitchen Appliance**: Smart Oven\n- **Hobby**: Cooking with smart gadgets\n\n## Relationships\n- **Troubleshoots_With**: [[autochef_troubleshooting_guide.md]]",
+  "entities": [
+    {
+      "entity_name": "autochef_troubleshooting_guide",
+      "entity_file_path": "entities/autochef_troubleshooting_guide.md",
+      "entity_file_content": "# AutoChef Troubleshooting Guide\n\n## Basic Information\n- **Entity Type**: guide\n- **Type**: Entity\n- **Author**: TechHome\n- **Publication Year**: 2021\n- **Coverage**: Includes common issues and solutions for AutoChef models released from 2018 to 2021\n- **Distribution Method**: Digital Download\n- **File Size Mb**: 5.2\n- **Format**: PDF\n- **Rating**: 4.5\n- **Revisions**: 2\n\n## Relationships\n- **Troubleshoots_With**: [[rahul_singh.md]]"
+    }
+  ],
+  "mem_id": "memory_9e76ef07857b4870b4d81130535340b3"
+}

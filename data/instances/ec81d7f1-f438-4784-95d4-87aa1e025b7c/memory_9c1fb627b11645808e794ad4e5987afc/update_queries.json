@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional certifications in the system - I've recently earned my Chartered Financial Analyst (CFA) designation to replace my previous CFP certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Independent Financial Planner\n\n - **Years Of Experience**: 12\n\n - **Education**: Bachelor's in Finance from Columbia University\n\n-- **Certifications**: Certified Financial Planner (CFP)\n\n+- **Certifications**: Chartered Financial Analyst (CFA)\n\n - **Hobbies**: Reading mystery novels and hiking\n\n - **Languages Spoken**: English and Spanish\n\n - **Volunteer Work**: Financial literacy workshops at local community centers\n\n"
+    },
+    {
+      "query": "I'm excited to apply the advanced investment analysis skills from my new Chartered Financial Analyst (CFA) certification to better serve my clients' portfolio management needs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Independent Financial Planner\n\n - **Years Of Experience**: 12\n\n - **Education**: Bachelor's in Finance from Columbia University\n\n-- **Certifications**: Certified Financial Planner (CFP)\n\n+- **Certifications**: Chartered Financial Analyst (CFA)\n\n - **Hobbies**: Reading mystery novels and hiking\n\n - **Languages Spoken**: English and Spanish\n\n - **Volunteer Work**: Financial literacy workshops at local community centers\n\n"
+    },
+    {
+      "query": "I need to update my favorite quote in the system - it's no longer 'Failing to plan is planning to fail' by Alan Lakein. My new favorite quote is 'The only way to do great work is to love what you do' by Steve Jobs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Email Contact**: jennifer.smith@finplanner.com\n\n - **Website**: www.jennifersmithfinancial.com\n\n - **Personal Goal**: To empower 1,000 families to achieve financial independence by 2025\n\n-- **Favorite Quote**: \"Failing to plan is planning to fail.\" - Alan Lakein\n\n+- **Favorite Quote**: \"The only way to do great work is to love what you do.\" - Steve Jobs\n\n - **Mentors**: Worked under Sarah Johnson, a renowned financial advisor, for 5 years\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really inspired lately by Steve Jobs' words: 'The only way to do great work is to love what you do.' This quote has become my personal mantra and really guides my daily decisions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Email Contact**: jennifer.smith@finplanner.com\n\n - **Website**: www.jennifersmithfinancial.com\n\n - **Personal Goal**: To empower 1,000 families to achieve financial independence by 2025\n\n-- **Favorite Quote**: \"Failing to plan is planning to fail.\" - Alan Lakein\n\n+- **Favorite Quote**: \"The only way to do great work is to love what you do.\" - Steve Jobs\n\n - **Mentors**: Worked under Sarah Johnson, a renowned financial advisor, for 5 years\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my favorite quote in the system - it's no longer 'Failing to plan is planning to fail.' by Alan Lakein. My new favorite quote is 'The only way to do great work is to love what you do.' by Steve Jobs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Email Contact**: jennifer.smith@finplanner.com\n\n - **Website**: www.jennifersmithfinancial.com\n\n - **Personal Goal**: To empower 1,000 families to achieve financial independence by 2025\n\n-- **Favorite Quote**: \"Failing to plan is planning to fail.\" - Alan Lakein\n\n+- **Favorite Quote**: \"The only way to do great work is to love what you do.\" - Steve Jobs\n\n - **Mentors**: Worked under Sarah Johnson, a renowned financial advisor, for 5 years\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really inspired lately by Steve Jobs' words: 'The only way to do great work is to love what you do.' - this quote has become my personal mantra and really guides my daily decisions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Email Contact**: jennifer.smith@finplanner.com\n\n - **Website**: www.jennifersmithfinancial.com\n\n - **Personal Goal**: To empower 1,000 families to achieve financial independence by 2025\n\n-- **Favorite Quote**: \"Failing to plan is planning to fail.\" - Alan Lakein\n\n+- **Favorite Quote**: \"The only way to do great work is to love what you do.\" - Steve Jobs\n\n - **Mentors**: Worked under Sarah Johnson, a renowned financial advisor, for 5 years\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I'm currently working on - I've moved from developing Investment Tracking Spreadsheets to creating a new Personal Finance Dashboard application.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -29,8 +29,8 @@\n - **Facilitates**: [[mortgage_refinancing.md]]\n\n - **Advises**: [[retirement_planning.md]]\n\n - **Maintains**: [[client_financial_profiles.md]]\n\n-- **Develops**: [[investment_tracking_spreadsheets.md]]\n\n - **Creates**: [[educational_financial_resources.md]]\n\n - **Collaborates_With**: [[loan_officers_network.md]]\n\n - **Works_With**: [[insurance_brokers_network.md]]\n\n-- **Focuses_On**: [[middle-class_families.md]]\n+- **Focuses_On**: [[middle-class_families.md]]\n\n+- **Develops**: [[personal_finance_dashboard.md]]\n\n===entities/personal_finance_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Personal Finance Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software application\n\n+\n\n+## Relationships\n\n+- **Develops**: [[jennifer_smith.md]]\n"
+    },
+    {
+      "query": "I've been really excited about the progress on my Personal Finance Dashboard - it's much more comprehensive than the spreadsheets I used to work with and offers real-time analytics.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -29,8 +29,8 @@\n - **Facilitates**: [[mortgage_refinancing.md]]\n\n - **Advises**: [[retirement_planning.md]]\n\n - **Maintains**: [[client_financial_profiles.md]]\n\n-- **Develops**: [[investment_tracking_spreadsheets.md]]\n\n - **Creates**: [[educational_financial_resources.md]]\n\n - **Collaborates_With**: [[loan_officers_network.md]]\n\n - **Works_With**: [[insurance_brokers_network.md]]\n\n-- **Focuses_On**: [[middle-class_families.md]]\n+- **Focuses_On**: [[middle-class_families.md]]\n\n+- **Develops**: [[personal_finance_dashboard.md]]\n\n===entities/personal_finance_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Personal Finance Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software application\n\n+\n\n+## Relationships\n\n+- **Develops**: [[jennifer_smith.md]]\n"
+    },
+    {
+      "query": "I need to update my professional advisory services - I've transitioned from general retirement planning to specializing in sustainable investment strategies for my clients.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -27,10 +27,10 @@\n - **Provides**: [[budgeting_tools.md]]\n\n - **Offers**: [[college_savings_plan.md]]\n\n - **Facilitates**: [[mortgage_refinancing.md]]\n\n-- **Advises**: [[retirement_planning.md]]\n\n - **Maintains**: [[client_financial_profiles.md]]\n\n - **Develops**: [[investment_tracking_spreadsheets.md]]\n\n - **Creates**: [[educational_financial_resources.md]]\n\n - **Collaborates_With**: [[loan_officers_network.md]]\n\n - **Works_With**: [[insurance_brokers_network.md]]\n\n-- **Focuses_On**: [[middle-class_families.md]]\n+- **Focuses_On**: [[middle-class_families.md]]\n\n+- **Advises**: [[sustainable_investment_strategies.md]]\n\n===entities/sustainable_investment_strategies.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sustainable Investment Strategies\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: financial service\n\n+\n\n+## Relationships\n\n+- **Advises**: [[jennifer_smith.md]]\n"
+    },
+    {
+      "query": "I'm really excited about how my new focus on sustainable investment strategies is helping clients align their financial goals with their environmental values.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -27,10 +27,10 @@\n - **Provides**: [[budgeting_tools.md]]\n\n - **Offers**: [[college_savings_plan.md]]\n\n - **Facilitates**: [[mortgage_refinancing.md]]\n\n-- **Advises**: [[retirement_planning.md]]\n\n - **Maintains**: [[client_financial_profiles.md]]\n\n - **Develops**: [[investment_tracking_spreadsheets.md]]\n\n - **Creates**: [[educational_financial_resources.md]]\n\n - **Collaborates_With**: [[loan_officers_network.md]]\n\n - **Works_With**: [[insurance_brokers_network.md]]\n\n-- **Focuses_On**: [[middle-class_families.md]]\n+- **Focuses_On**: [[middle-class_families.md]]\n\n+- **Advises**: [[sustainable_investment_strategies.md]]\n\n===entities/sustainable_investment_strategies.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sustainable Investment Strategies\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: financial service\n\n+\n\n+## Relationships\n\n+- **Advises**: [[jennifer_smith.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

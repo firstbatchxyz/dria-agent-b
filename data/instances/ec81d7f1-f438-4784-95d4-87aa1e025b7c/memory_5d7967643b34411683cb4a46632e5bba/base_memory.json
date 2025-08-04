@@ -1,0 +1,11 @@
+{
+  "user_md": "# Mia Hernandez\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Teacher\n- **Hobbies**: hiking and playing guitar\n- **Education Level**: Master's degree in Education\n- **Marital Status**: married\n- **Children**: 2\n- **Pet**: dog named Luna\n- **Volunteer Work**: local community garden\n- **Favorite Book**: Pride and Prejudice\n- **Birthplace**: Austin, Texas\n- **Languages Spoken**: English and Spanish\n\n## Relationships\n- **Is_Part_Of**: [[middle-class_families.md]]",
+  "entities": [
+    {
+      "entity_name": "middle-class_families",
+      "entity_file_path": "entities/middle-class_families.md",
+      "entity_file_content": "# Middle-Class Families\n\n## Basic Information\n- **Entity Type**: client_demographic\n- **Type**: Entity\n- **Average Household Income**: 75000\n- **Preferred Communication Channels**: Email and in-person meetings\n- **Main Challenges**: Balancing savings with daily expenses\n- **Financial Education Level**: Moderate\n- **Geographic Distribution**: Suburban and urban areas\n- **Primary Concerns**: Saving for college and retirement\n- **Technology Adoption**: High\n- **Age Demographic**: Families aged 30-50\n\n## Relationships\n- **Is_Part_Of**: [[mia_hernandez.md]]"
+    }
+  ],
+  "mem_id": "memory_5d7967643b34411683cb4a46632e5bba"
+}

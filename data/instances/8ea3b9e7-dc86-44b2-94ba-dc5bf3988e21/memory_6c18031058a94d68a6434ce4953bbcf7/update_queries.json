@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my contact preferences in the system - I prefer email communication now instead of phone calls.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Photography, Hiking\n\n - **Favorite Cuisine**: Italian\n\n-- **Communication Preference**: Phone\n\n+- **Communication Preference**: Email\n\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n - **Volunteer Work**: Teaching Photography to Children\n\n - **Known Languages**: English, French\n\n"
+    },
+    {
+      "query": "I've been finding email much more convenient for staying in touch lately, as it allows me to respond thoughtfully and keep better records of our conversations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Mobility Instructor\n\n - **Hobbies**: Photography, Hiking\n\n - **Favorite Cuisine**: Italian\n\n-- **Communication Preference**: Phone\n\n+- **Communication Preference**: Email\n\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n - **Volunteer Work**: Teaching Photography to Children\n\n - **Known Languages**: English, French\n\n"
+    },
+    {
+      "query": "I need to update my current project information - I'm no longer working on the tactile navigation training booklet. I've moved on to creating an audio-based mobility assessment system for visually impaired users.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n - **Volunteer Work**: Teaching Photography to Children\n\n - **Known Languages**: English, French\n\n-- **Recent Project**: Developing a new tactile navigation training booklet\n\n+- **Recent Project**: Creating an audio-based mobility assessment system\n\n - **Recent Award**: Excellence in Mobility Training Award\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been making great progress on my audio-based mobility assessment system, which uses spatial audio cues to help evaluate navigation skills in different environments.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n - **Volunteer Work**: Teaching Photography to Children\n\n - **Known Languages**: English, French\n\n-- **Recent Project**: Developing a new tactile navigation training booklet\n\n+- **Recent Project**: Creating an audio-based mobility assessment system\n\n - **Recent Award**: Excellence in Mobility Training Award\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my volunteer work information - I've transitioned from teaching photography to children to now organizing community food drives for local families in need.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Cuisine**: Italian\n\n - **Communication Preference**: Phone\n\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n-- **Volunteer Work**: Teaching Photography to Children\n\n+- **Volunteer Work**: Organizing Community Food Drives\n\n - **Known Languages**: English, French\n\n - **Recent Project**: Developing a new tactile navigation training booklet\n\n - **Recent Award**: Excellence in Mobility Training Award\n\n"
+    },
+    {
+      "query": "It's been incredibly rewarding organizing these community food drives and seeing how our neighborhood comes together to support families who need extra help putting food on the table.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Cuisine**: Italian\n\n - **Communication Preference**: Phone\n\n - **Favorite Book**: The Art of Happiness by Dalai Lama\n\n-- **Volunteer Work**: Teaching Photography to Children\n\n+- **Volunteer Work**: Organizing Community Food Drives\n\n - **Known Languages**: English, French\n\n - **Recent Project**: Developing a new tactile navigation training booklet\n\n - **Recent Award**: Excellence in Mobility Training Award\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

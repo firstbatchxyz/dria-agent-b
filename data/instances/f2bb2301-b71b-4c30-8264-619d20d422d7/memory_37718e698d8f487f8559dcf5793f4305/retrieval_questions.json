@@ -1,0 +1,242 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Installation Support Specialist"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Mandarin"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Smart Appliance Technician"
+    },
+    {
+      "q": "What is my specialty area?",
+      "a": "Dishwasher Installation and Troubleshooting"
+    },
+    {
+      "q": "Where is my office located?",
+      "a": "Seattle, WA"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Baking, Reading Sci-Fi"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "B.Sc. in Electrical Engineering"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of unit that coordinates with me?"
+      ],
+      "a": "coordination_unit",
+      "attribute": "entity type=coordination_unit",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the number of technicians in the unit that coordinates with me?"
+      ],
+      "a": "25",
+      "attribute": "number of technicians=25",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the coverage area of the unit that coordinates with me?"
+      ],
+      "a": "Pacific Northwest",
+      "attribute": "coverage area=Pacific Northwest",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What are the primary services of the unit that coordinates with me?"
+      ],
+      "a": "Field technician scheduling and deployment",
+      "attribute": "primary services=Field technician scheduling and deployment",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the response time of the unit that coordinates with me?"
+      ],
+      "a": "2-4 hours",
+      "attribute": "response time=2-4 hours",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What are the office hours of the unit that coordinates with me?"
+      ],
+      "a": "Monday to Friday, 8 AM to 6 PM PST",
+      "attribute": "office hours=Monday to Friday, 8 AM to 6 PM PST",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What are the contact methods of the unit that coordinates with me?"
+      ],
+      "a": "phone, email, internal messaging system",
+      "attribute": "contact method=phone, email, internal messaging system",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What are the communication tools of the unit that coordinates with me?"
+      ],
+      "a": "VoIP, CRM systems",
+      "attribute": "communication tools=VoIP, CRM systems",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the manager name of the unit that coordinates with me?"
+      ],
+      "a": "Jordan Smith",
+      "attribute": "manager name=Jordan Smith",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the annual training budget of the unit that coordinates with me?"
+      ],
+      "a": "50000",
+      "attribute": "annual training budget=50000",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What are the recently completed projects of the unit that coordinates with me?"
+      ],
+      "a": "Smart Fridge Installations, Oven Maintenance Campaign",
+      "attribute": "recently completed projects=Smart Fridge Installations, Oven Maintenance Campaign",
+      "path": "Emma Chen -> Field Technician Coordination Unit"
+    },
+    {
+      "q": [
+        "What is the type of manual that assists me?"
+      ],
+      "a": "manual",
+      "attribute": "entity type=manual",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What is the version of the manual that assists me?"
+      ],
+      "a": "v1.2",
+      "attribute": "version=v1.2",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What is the release date of the manual that assists me?"
+      ],
+      "a": "2023-01-15",
+      "attribute": "release date=2023-01-15",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What are the supported models of the manual that assists me?"
+      ],
+      "a": "DWE-X100, DWE-X110, DWE-X120",
+      "attribute": "supported models=DWE-X100, DWE-X110, DWE-X120",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What is the language of the manual that assists me?"
+      ],
+      "a": "English",
+      "attribute": "language=English",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What is the number of pages of the manual that assists me?"
+      ],
+      "a": "45",
+      "attribute": "number of pages=45",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "What is the electronic format of the manual that assists me?"
+      ],
+      "a": "PDF",
+      "attribute": "electronic format=PDF",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "True or false: Does the manual that assists me include a table of contents?"
+      ],
+      "a": "True",
+      "attribute": "table of contents=True",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    },
+    {
+      "q": [
+        "True or false: Does the manual that assists me include illustrations?"
+      ],
+      "a": "True",
+      "attribute": "illustrations included=True",
+      "path": "DishWashEasy Installation Manual -> Emma Chen"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of the team that collaborates with the unit that I coordinate with?",
+      "a": "liaison_team",
+      "attribute": "entity type=liaison_team",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "What is the team size of the team that collaborates with the unit that I coordinate with?",
+      "a": "10",
+      "attribute": "team size=10",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "What are the focus areas of the team that collaborates with the unit that I coordinate with?",
+      "a": "appliance design feedback, defect analysis, product improvement suggestions",
+      "attribute": "focus areas=appliance design feedback, defect analysis, product improvement suggestions",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "What is the average response time of the team that collaborates with the unit that I coordinate with?",
+      "a": "48 hours",
+      "attribute": "average response time=48 hours",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "What are the key projects of the team that collaborates with the unit that I coordinate with?",
+      "a": "Smart Appliance Integration, Warranty Process Optimization",
+      "attribute": "key projects=Smart Appliance Integration, Warranty Process Optimization",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "Who are the lead engineers of the team that collaborates with the unit that I coordinate with?",
+      "a": "Ava Thompson, Miguel Hernandez",
+      "attribute": "lead engineers=Ava Thompson, Miguel Hernandez",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    },
+    {
+      "q": "What is the established year of the team that collaborates with the unit that I coordinate with?",
+      "a": "2015",
+      "attribute": "established year=2015",
+      "path": "Emma Chen - coordinates with -> Field Technician Coordination Unit - collaborates with-> Product Engineer Liaison Team"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my job title?",
+      "a": "Senior Support Engineer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "10"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "AWS Certified Solutions Architect"
+    },
+    {
+      "q": "What is my office location?",
+      "a": "New York, NY"
+    },
+    {
+      "q": "What is my email address?",
+      "a": "lucas.white@cloudcrm.com"
+    },
+    {
+      "q": "Am I a team lead?",
+      "a": "False"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography and hiking"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor of Science in Computer Science"
+    },
+    {
+      "q": "What are my special skills?",
+      "a": "API architecture, advanced workflow automation"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my favorite technologies?",
+      "a": "Kubernetes, Docker"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the system that tracks me?"
+      ],
+      "a": "System",
+      "attribute": "entity type=System",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the version of the system that tracks me?"
+      ],
+      "a": "2.1.5",
+      "attribute": "version=2.1.5",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the developer of the system that tracks me?"
+      ],
+      "a": "CloudCRM Solutions",
+      "attribute": "developer=CloudCRM Solutions",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the deployment environment of the system that tracks me?"
+      ],
+      "a": "cloud",
+      "attribute": "deployment environment=cloud",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the primary function of the system that tracks me?"
+      ],
+      "a": "Service Level Agreement monitoring and reporting",
+      "attribute": "primary function=Service Level Agreement monitoring and reporting",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What are the integrations of the system that tracks me?"
+      ],
+      "a": "JIRA, ServiceNow, Zendesk",
+      "attribute": "integrations=JIRA, ServiceNow, Zendesk",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What are the reporting capabilities of the system that tracks me?"
+      ],
+      "a": "real-time analytics, historical comparisons",
+      "attribute": "reporting capabilities=real-time analytics, historical comparisons",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the feature highlight of the system that tracks me?"
+      ],
+      "a": "Customization setup for various SLA templates",
+      "attribute": "feature highlight=Customization setup for various SLA templates",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What are the security features of the system that tracks me?"
+      ],
+      "a": "End-to-end encryption, Multi-factor authentication support",
+      "attribute": "security features=End-to-end encryption, Multi-factor authentication support",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the user base of the system that tracks me?"
+      ],
+      "a": "100+ Fortune 500 companies",
+      "attribute": "user base=100+ Fortune 500 companies",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the uptime guarantee of the system that tracks me?"
+      ],
+      "a": "99.99%",
+      "attribute": "uptime guarantee=99.99%",
+      "path": "Lucas White -> SLA Management Suite"
+    },
+    {
+      "q": [
+        "What is the type of the service I advise on?"
+      ],
+      "a": "Service",
+      "attribute": "entity type=Service",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the service type of the service I advise on?"
+      ],
+      "a": "API Integration",
+      "attribute": "service type=API Integration",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the client base of the service I advise on?"
+      ],
+      "a": "Fortune 500 companies",
+      "attribute": "client base=Fortune 500 companies",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the primary function of the service I advise on?"
+      ],
+      "a": "Streamlining API connectivity and data exchange",
+      "attribute": "primary function=Streamlining API connectivity and data exchange",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What are the secondary services of the service I advise on?"
+      ],
+      "a": "Custom workflow enhancement and security configuration",
+      "attribute": "secondary services=Custom workflow enhancement and security configuration",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What languages are supported by the service I advise on?"
+      ],
+      "a": "Multi-language support including Java, Python, and Node.js",
+      "attribute": "languages supported=Multi-language support including Java, Python, and Node.js",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the customization level of the service I advise on?"
+      ],
+      "a": "High",
+      "attribute": "customization level=High",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the uptime percentage of the service I advise on?"
+      ],
+      "a": "99.9",
+      "attribute": "uptime percentage=99.9",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What are the integration modules of the service I advise on?"
+      ],
+      "a": "CRM, ERP, SaaS platforms",
+      "attribute": "integration modules=CRM, ERP, SaaS platforms",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the launch date of the service I advise on?"
+      ],
+      "a": "January 2016",
+      "attribute": "launch date=January 2016",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the industry compliance of the service I advise on?"
+      ],
+      "a": "GDPR, HIPAA, and CCPA compliant",
+      "attribute": "industry compliance=GDPR, HIPAA, and CCPA compliant",
+      "path": "Lucas White -> Fortune 500 API Integration"
+    },
+    {
+      "q": [
+        "What is the type of the software I optimize?"
+      ],
+      "a": "Software",
+      "attribute": "entity type=Software",
+      "path": "Lucas White -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the version of the software I optimize?"
+      ],
+      "a": "2.1.3",
+      "attribute": "version=2.1.3",
+      "path": "Lucas White -> Workflow Automation Scripts"
+    },
+    {
+      "q": [
+        "What is the language of the software I optimize?"
+      ],
+      "a": "Python",
+      "attribute": "language=Python",
+      "path": "Lucas White -> Workflow Automation Scripts"
+    }
+  ]
+}

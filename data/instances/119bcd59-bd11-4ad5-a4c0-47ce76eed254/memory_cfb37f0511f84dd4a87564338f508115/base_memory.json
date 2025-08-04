@@ -1,0 +1,21 @@
+{
+  "user_md": "# Alice Monroe\n\n## Basic Information\n- **Type**: Person\n- **Role**: Brake Systems Specialist\n- **Education**: Bachelor of Science in Mechanical Engineering\n- **Age**: 34\n- **Years Of Experience**: 7\n- **Certification**: ASE Certified\n- **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n- **Favorite Tool**: Torque Wrench\n- **Languages Spoken**: English, Spanish\n- **Customer Satisfaction Rating**: 4.8\n\n## Relationships\n- **Employs**: [[autoparts_plus_customer_service_team.md]]\n- **Specializes_In**: [[brake_systems.md]]",
+  "entities": [
+    {
+      "entity_name": "autoparts_plus_customer_service_team",
+      "entity_file_path": "entities/autoparts_plus_customer_service_team.md",
+      "entity_file_content": "# AutoParts Plus Customer Service Team\n\n## Basic Information\n- **Entity Type**: Team\n- **Type**: Entity\n- **Size Of Team**: 15\n- **Training Programs**: comprehensive customer interaction practices and technical product knowledge training\n- **Customer Interaction Channels**: phone, email, live chat\n- **Average Response Time**: 1 hour\n- **Key Values**: Customer satisfaction, product knowledge, and swift problem resolution\n- **Annual Performance Review**: conducted every December\n- **Team Meetings Frequency**: weekly\n- **Team Events**: monthly team-building activities\n- **Recognition Program**: Employee of the Month\n- **Location**: Seattle, WA\n\n## Relationships\n- **Employs**: [[alice_monroe.md]]"
+    },
+    {
+      "entity_name": "brake_systems",
+      "entity_file_path": "entities/brake_systems.md",
+      "entity_file_content": "# Brake Systems\n\n## Basic Information\n- **Entity Type**: Product Category\n- **Type**: Entity\n- **Major Components**: calipers, rotors, pads, master cylinder, brake lines\n- **Common Issues**: squeaking, soft pedal, pulling, vibration\n- **Maintenance Tips**: check fluid levels, inspect wear, listen for noises\n- **Performance Rating**: 4.7\n- **Popularity**: high\n\n## Relationships\n- **Specializes_In**: [[alice_monroe.md]]"
+    },
+    {
+      "entity_name": "johnston's_brake_solutions",
+      "entity_file_path": "entities/johnston's_brake_solutions.md",
+      "entity_file_content": "# Johnston's Brake Solutions\n\n## Basic Information\n- **Entity Type**: Partner\n- **Type**: Entity\n- **Location**: Phoenix, Arizona\n- **Year Established**: 1995\n- **Reputation**: industry_leader\n- **Partnership Duration**: 15 years\n- **Specialization**: high-performance brake systems\n- **Leading Technology**: carbon ceramic brakes\n- **Number Of Employees**: 150\n- **Annual Revenue**: $25 million\n\n## Relationships\n- **Provider**: [[brake_systems.md]]"
+    }
+  ],
+  "mem_id": "memory_cfb37f0511f84dd4a87564338f508115"
+}

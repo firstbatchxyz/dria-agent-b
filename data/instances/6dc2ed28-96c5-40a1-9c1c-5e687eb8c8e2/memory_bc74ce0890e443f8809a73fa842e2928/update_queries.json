@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and French, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n - **Customer Relationships**: excellent\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Personality Traits**: friendly and detail-oriented\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual when traveling for work, especially being able to communicate in English, Spanish, and French with international clients.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n - **Customer Relationships**: excellent\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Personality Traits**: friendly and detail-oriented\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my inventory specialty information - I've transitioned from focusing on Paint Supplies to specializing in Art Canvas and Framing Materials instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Cashier\n\n - **Experience Years**: 5\n\n-- **Inventory Specialty**: Paint Supplies\n\n+- **Inventory Specialty**: Art Canvas and Framing Materials\n\n - **Education**: High School Diploma\n\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new focus on Art Canvas and Framing Materials - it's allowed me to work more closely with local artists and help them showcase their work professionally.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Cashier\n\n - **Experience Years**: 5\n\n-- **Inventory Specialty**: Paint Supplies\n\n+- **Inventory Specialty**: Art Canvas and Framing Materials\n\n - **Education**: High School Diploma\n\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and Mandarin, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n - **Customer Relationships**: excellent\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Personality Traits**: friendly and detail-oriented\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual, especially using my Mandarin skills when working with international clients alongside my English and Spanish.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: photography\n\n - **Favorite Tool**: Paint Mixer\n\n - **Customer Relationships**: excellent\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Personality Traits**: friendly and detail-oriented\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my management information in the system - I'm no longer reporting to Bob Johnson, my new manager is Emily Rodriguez from the Operations department.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Assist**: [[part-time_helpers.md]]\n\n-- **Is Managed By**: [[bob_johnson.md]]\n+- **Is Managed By**: [[emily_rodriguez.md]]\n\n===entities/emily_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Emily Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Is Managed By**: [[susan_carter.md]]\n"
+    },
+    {
+      "query": "I've been working closely with my manager Emily Rodriguez on the new quarterly initiatives, and her leadership style has really helped our team improve productivity.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Assist**: [[part-time_helpers.md]]\n\n-- **Is Managed By**: [[bob_johnson.md]]\n+- **Is Managed By**: [[emily_rodriguez.md]]\n\n===entities/emily_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Emily Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Is Managed By**: [[susan_carter.md]]\n"
+    },
+    {
+      "query": "I need to update my reporting structure in the system - I'm no longer managed by Bob Johnson, my new manager is Sarah Mitchell.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Assist**: [[part-time_helpers.md]]\n\n-- **Is Managed By**: [[bob_johnson.md]]\n+- **Is Managed By**: [[sarah_mitchell.md]]\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Is Managed By**: [[susan_carter.md]]\n"
+    },
+    {
+      "query": "I've been working closely with my manager Sarah Mitchell on the new project timeline and I'm really appreciating her collaborative leadership style.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Assist**: [[part-time_helpers.md]]\n\n-- **Is Managed By**: [[bob_johnson.md]]\n+- **Is Managed By**: [[sarah_mitchell.md]]\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Is Managed By**: [[susan_carter.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about what Bob Johnson owns - he recently sold the Owner's Office and now owns a Marketing Consultancy Firm instead.",
+      "diff": "===entities/bob_johnson.md===\n\n===entities/marketing_consultancy_firm.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Marketing Consultancy Firm\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: business\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Bob Johnson on some new projects since he acquired his Marketing Consultancy Firm, and it's exciting to see the direction he's taking the business.",
+      "diff": "===entities/bob_johnson.md===\n\n===entities/marketing_consultancy_firm.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Marketing Consultancy Firm\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: business\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    }
+  ]
+}

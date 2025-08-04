@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Eleanor Johnson",
+      "type": "Person",
+      "age": 82,
+      "favorite_music_genre": "jazz",
+      "hobby": "watercolor painting",
+      "room_number": "204",
+      "dietary_preference": "vegetarian",
+      "previous_occupation": "high school teacher",
+      "pet_therapy_preference": "dogs",
+      "family_visits_frequency": "weekly",
+      "native_language": "English"
+    },
+    {
+      "id": "p2",
+      "name": "Matthew Lee",
+      "type": "Person",
+      "age": 76,
+      "favorite_music_genre": "classical",
+      "hobby": "gardening",
+      "room_number": 215,
+      "dietary_preference": "low-sodium",
+      "previous_occupation": "engineer",
+      "pet_therapy_preference": "cats",
+      "family_visits_frequency": "biweekly",
+      "native_language": "English"
+    },
+    {
+      "id": "p3",
+      "name": "Samantha Rose",
+      "type": "Person",
+      "age": 79,
+      "favorite_music_genre": "classical",
+      "hobby": "knitting",
+      "room_number": 215,
+      "dietary_preference": "low-sodium",
+      "previous_occupation": "nurse",
+      "pet_therapy_preference": "cats",
+      "family_visits_frequency": "bi-weekly",
+      "native_language": "Spanish"
+    },
+    {
+      "id": "p4",
+      "name": "Joshua White",
+      "type": "Person",
+      "age": 82,
+      "favorite_music_genre": "jazz",
+      "hobby": "painting",
+      "room_number": 220,
+      "dietary_preference": "vegetarian",
+      "previous_occupation": "history_teacher",
+      "pet_therapy_preference": "dogs",
+      "family_visits_frequency": "monthly",
+      "native_language": "Spanish",
+      "favourite_tv_show": "Antique Roadshow",
+      "daily_walking_distance": 2.5,
+      "favorite_color": "blue"
+    },
+    {
+      "id": "e1",
+      "name": "Sunnydale Memory Care Facility",
+      "entity_type": "Place",
+      "type": "Entity",
+      "location": "123 Sunshine Avenue, Springfield",
+      "established_year": 2005,
+      "capacity": 150,
+      "specialty": "advanced dementia care",
+      "facility_type": "Memory care unit",
+      "contact_email": "info@sunnydalememorycare.com",
+      "phone_number": "(555) 012-3456",
+      "visiting_hours": "10 AM - 8 PM"
+    },
+    {
+      "id": "e2",
+      "name": "Morning Mindfulness Session",
+      "entity_type": "Activity",
+      "type": "Entity",
+      "duration": "30 minutes",
+      "recurrence": "daily",
+      "location": "Community Room",
+      "instructor": "Therapist",
+      "focus": "breathing exercises",
+      "maximum_participants": 15
+    },
+    {
+      "id": "e3",
+      "name": "Mealtime Gathering",
+      "entity_type": "Routine",
+      "type": "Entity",
+      "schedule": "12:30 PM daily",
+      "common_activities": "storytelling, music listening, and nutritional games",
+      "menu_rotation": "biweekly",
+      "guest_policy": "family members welcome with prior notice",
+      "average_duration": "1.5 hours",
+      "nutritionist_approval": true,
+      "ambiance": "soothing music and dim lighting"
+    },
+    {
+      "id": "e4",
+      "name": "Memory Lane Garden",
+      "entity_type": "Place",
+      "type": "Therapeutic Garden",
+      "best_visiting_hours": "10:00 AM - 6:00 PM",
+      "species_of_flowers": "Rose, Lavender, Sunflower",
+      "designed_by": "Evergreen Architects",
+      "year_established": 2015,
+      "primary_use": "Recreational and therapeutic activities for residents",
+      "weekly_events": "Guided nature walks, Planting sessions",
+      "amenities": "Benches, Water fountain, Walking paths",
+      "average_daily_visitors": 25
+    },
+    {
+      "id": "e5",
+      "name": "Cognitive Support Team",
+      "entity_type": "Group",
+      "type": "Entity",
+      "team_size": 12,
+      "specialization": "dementia care",
+      "average_years_of_experience": 15,
+      "training_programs": "annual dementia care workshop",
+      "team_motto": "Caring with Compassion"
+    },
+    {
+      "id": "e6",
+      "name": "Personal Belongings Sharing Program",
+      "entity_type": "Initiative",
+      "type": "Entity",
+      "goal": "To promote social interaction and cognitive engagement among residents.",
+      "start_date": "2021-09-15",
+      "frequency": "Weekly",
+      "facilitator_name": "Jessica Brown",
+      "participation_rate": 0.85
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "attends",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "shares",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "shares",
+      "o": "p3"
+    },
+    {
+      "s": "p2",
+      "p": "attends",
+      "o": "e3"
+    },
+    {
+      "s": "p2",
+      "p": "shares",
+      "o": "p4"
+    },
+    {
+      "s": "p3",
+      "p": "visits",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "attends",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "participates_in",
+      "o": "e6"
+    },
+    {
+      "s": "p4",
+      "p": "attends",
+      "o": "e3"
+    },
+    {
+      "s": "e1",
+      "p": "hosts",
+      "o": "e2"
+    },
+    {
+      "s": "e1",
+      "p": "hosts",
+      "o": "e3"
+    },
+    {
+      "s": "e1",
+      "p": "has",
+      "o": "e5"
+    },
+    {
+      "s": "e5",
+      "p": "supports",
+      "o": "p1"
+    },
+    {
+      "s": "e5",
+      "p": "supports",
+      "o": "p2"
+    },
+    {
+      "s": "e5",
+      "p": "supports",
+      "o": "p3"
+    },
+    {
+      "s": "e5",
+      "p": "supports",
+      "o": "p4"
+    },
+    {
+      "s": "e6",
+      "p": "facilitates",
+      "o": "p2"
+    },
+    {
+      "s": "e6",
+      "p": "facilitates",
+      "o": "p3"
+    }
+  ]
+}

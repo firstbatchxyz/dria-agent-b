@@ -1,0 +1,166 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Eleanor"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Johnson"
+    },
+    {
+      "q": "What is my age?",
+      "a": "78"
+    },
+    {
+      "q": "What is my residence type?",
+      "a": "apartment"
+    },
+    {
+      "q": "What is my health condition?",
+      "a": "early-stage Alzheimer's"
+    },
+    {
+      "q": "What is my favorite hobby?",
+      "a": "knitting"
+    },
+    {
+      "q": "What is my daily routine?",
+      "a": "morning walk"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Boston, Massachusetts"
+    },
+    {
+      "q": "What was my previous occupation?",
+      "a": "school teacher"
+    },
+    {
+      "q": "What is my pet?",
+      "a": "Golden Retriever named Max"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the place where I live?"
+      ],
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What is the location of the place where I live?"
+      ],
+      "a": "Boston, Massachusetts",
+      "attribute": "location=Boston, Massachusetts",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What is the apartment size of the place where I live?"
+      ],
+      "a": "2-bedroom",
+      "attribute": "apartment size=2-bedroom",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What is the floor number of the place where I live?"
+      ],
+      "a": "3",
+      "attribute": "floor number=3",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What are the accessibility features of the place where I live?"
+      ],
+      "a": "ramp, elevator",
+      "attribute": "accessibility features=ramp, elevator",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What are the nearby amenities of the place where I live?"
+      ],
+      "a": "park, grocery store, library",
+      "attribute": "nearby amenities=park, grocery store, library",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "True or false: The place where I live has a balcony?"
+      ],
+      "a": "True",
+      "attribute": "has balcony=True",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What is the interior theme of the place where I live?"
+      ],
+      "a": "cozy cottage",
+      "attribute": "interior theme=cozy cottage",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What year was the place where I live built?"
+      ],
+      "a": "1985",
+      "attribute": "year built=1985",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "True or false: The place where I live is pet friendly?"
+      ],
+      "a": "True",
+      "attribute": "pet friendly=True",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What are the security features of the place where I live?"
+      ],
+      "a": "24-hour surveillance",
+      "attribute": "security features=24-hour surveillance",
+      "path": "Eleanor -> Eleanor's Apartment"
+    },
+    {
+      "q": [
+        "What is the type of the system I use?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Eleanor -> Reminder System"
+    },
+    {
+      "q": [
+        "What is the reminder type of the system I use?"
+      ],
+      "a": "Digital Calendar",
+      "attribute": "reminder type=Digital Calendar",
+      "path": "Eleanor -> Reminder System"
+    },
+    {
+      "q": [
+        "What is the usage frequency of the system I use?"
+      ],
+      "a": "daily",
+      "attribute": "usage frequency=daily",
+      "path": "Eleanor -> Reminder System"
+    },
+    {
+      "q": [
+        "True or false: The system I use allows user customization?"
+      ],
+      "a": "True",
+      "attribute": "user customization=True",
+      "path": "Eleanor -> Reminder System"
+    }
+  ]
+}

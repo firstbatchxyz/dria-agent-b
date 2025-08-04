@@ -1,0 +1,236 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Human Resources Manager"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Diversity and Inclusion"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Pottery and Hiking"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and Vietnamese"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Human Resource Management from East Coast University"
+    },
+    {
+      "q": "What is my volunteer experience?",
+      "a": "Weekly volunteer at the local community center"
+    },
+    {
+      "q": "What is my favorite software tool?",
+      "a": "Slack for team communication"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Conflict Resolution, Employee Engagement"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the occupation of the person who provides meeting notes to me?"
+      ],
+      "a": "Financial Analyst",
+      "attribute": "occupation=Financial Analyst",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the disability of the person who provides meeting notes to me?"
+      ],
+      "a": "Blind",
+      "attribute": "disability=Blind",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the assistive technologies of the person who provides meeting notes to me?"
+      ],
+      "a": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "attribute": "assistive technologies=JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "Who are the colleagues of the person who provides meeting notes to me?"
+      ],
+      "a": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "attribute": "colleagues=John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person who provides meeting notes to me?"
+      ],
+      "a": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "attribute": "hobbies=Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the education background of the person who provides meeting notes to me?"
+      ],
+      "a": "Master's Degree in Finance from University of Midwest",
+      "attribute": "education background=Master's Degree in Finance from University of Midwest",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the certifications of the person who provides meeting notes to me?"
+      ],
+      "a": "Certified Financial Planner (CFP)",
+      "attribute": "certifications=Certified Financial Planner (CFP)",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the favorite software feature of the person who provides meeting notes to me?"
+      ],
+      "a": "Screen Reader Mode",
+      "attribute": "favorite software feature=Screen Reader Mode",
+      "path": "Emily Tran -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the occupation of the person I collaborate with?"
+      ],
+      "a": "Financial Analyst",
+      "attribute": "occupation=Financial Analyst",
+      "path": "Lisa Sanders -> Emily Tran"
+    },
+    {
+      "q": [
+        "What is the disability of the person I collaborate with?"
+      ],
+      "a": "Blind",
+      "attribute": "disability=Blind",
+      "path": "Lisa Sanders -> Emily Tran"
+    },
+    {
+      "q": [
+        "What are the assistive technologies of the person I collaborate with?"
+      ],
+      "a": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "attribute": "assistive technologies=JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "path": "Lisa Sanders -> Emily Tran"
+    },
+    {
+      "q": [
+        "Who are the colleagues of the person I collaborate with?"
+      ],
+      "a": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "attribute": "colleagues=John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "path": "Lisa Sanders -> Emily Tran"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "attribute": "hobbies=Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "path": "Lisa Sanders -> Emily Tran"
+    },
+    {
+      "q": [
+        "What is the education background of the person I collaborate with?"
+      ],
+      "a": "Master's Degree in Finance from University of Midwest",
+      "attribute": "education background=Master's Degree in Finance from University of Midwest",
+      "path": "Lisa Sanders -> Emily Tran"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of organization where the person I provide meeting notes to works?",
+      "a": "Accounting Firm",
+      "attribute": "entity type=Accounting Firm",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the founding year of the organization where the person I provide meeting notes to works?",
+      "a": "1998",
+      "attribute": "founding year=1998",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What are the core values of the organization where the person I provide meeting notes to works?",
+      "a": "Integrity, Precision, Inclusivity",
+      "attribute": "core values=Integrity, Precision, Inclusivity",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the headquarters location of the organization where the person I provide meeting notes to works?",
+      "a": "Chicago, IL",
+      "attribute": "headquarters location=Chicago, IL",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the client focus of the organization where the person I provide meeting notes to works?",
+      "a": "Small to Medium Enterprises",
+      "attribute": "client focus=Small to Medium Enterprises",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the number of employees at the organization where the person I provide meeting notes to works?",
+      "a": "120",
+      "attribute": "number of employees=120",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the annual revenue of the organization where the person I provide meeting notes to works?",
+      "a": "$15 million",
+      "attribute": "annual revenue=$15 million",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the unique feature of the organization where the person I provide meeting notes to works?",
+      "a": "Focus on accessibility and inclusion in workplace",
+      "attribute": "unique feature=Focus on accessibility and inclusion in workplace",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What are the certifications of the organization where the person I provide meeting notes to works?",
+      "a": "ISO 27001, Inclusive Workplace Certified",
+      "attribute": "certifications=ISO 27001, Inclusive Workplace Certified",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What are the services offered by the organization where the person I provide meeting notes to works?",
+      "a": "Tax Consulting, Audit Services, Financial Planning, Business Strategy",
+      "attribute": "services offered=Tax Consulting, Audit Services, Financial Planning, Business Strategy",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "Who are the key clients of the organization where the person I provide meeting notes to works?",
+      "a": "TechCorp Solutions, GreenGas Industries, HealthLine Inc.",
+      "attribute": "key clients=TechCorp Solutions, GreenGas Industries, HealthLine Inc.",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the type of software that the person I provide meeting notes to uses?",
+      "a": "Assistive Technology",
+      "attribute": "entity type=Assistive Technology",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - uses-> JAWS Software"
+    },
+    {
+      "q": "What is the origin of the software that the person I provide meeting notes to uses?",
+      "a": "Developed by Henter-Joyce, Inc.",
+      "attribute": "origin=Developed by Henter-Joyce, Inc.",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - uses-> JAWS Software"
+    },
+    {
+      "q": "What is the release year of the software that the person I provide meeting notes to uses?",
+      "a": "1989",
+      "attribute": "release year=1989",
+      "path": "Emily Tran - provides meeting notes to -> Lisa Sanders - uses-> JAWS Software"
+    }
+  ]
+}

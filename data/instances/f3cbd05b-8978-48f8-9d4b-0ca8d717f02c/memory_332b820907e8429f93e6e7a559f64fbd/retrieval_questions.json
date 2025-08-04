@@ -1,0 +1,142 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Avery Patel"
+    },
+    {
+      "q": "What is my job title?",
+      "a": "Incident Response Coordinator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Information Systems Security Professional (CISSP)"
+    },
+    {
+      "q": "What is my favorite technology?",
+      "a": "Automated Monitoring Systems"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Efficient Crisis Management"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Rock Climbing"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Cybersecurity"
+    },
+    {
+      "q": "Who was my previous employer?",
+      "a": "Cyber Defense Solutions"
+    },
+    {
+      "q": "What awards have I received?",
+      "a": "Employee of the Year 2022 - ServerCloud"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the team that I coordinate with?"
+      ],
+      "a": "Team",
+      "attribute": "entity type=Team",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the team size of the team that I coordinate with?"
+      ],
+      "a": "5",
+      "attribute": "team size=5",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the primary function of the team that I coordinate with?"
+      ],
+      "a": "Manage and resolve security incidents",
+      "attribute": "primary function=Manage and resolve security incidents",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the main technology of the team that I coordinate with?"
+      ],
+      "a": "Automated Monitoring Systems",
+      "attribute": "main technology=Automated Monitoring Systems",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the recent success story of the team that I coordinate with?"
+      ],
+      "a": "Reduced incident response times by 30% in Q3 2023",
+      "attribute": "recent success story=Reduced incident response times by 30% in Q3 2023",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the team headquarters location of the team that I coordinate with?"
+      ],
+      "a": "Austin, TX",
+      "attribute": "team headquarters location=Austin, TX",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the weekly meeting schedule of the team that I coordinate with?"
+      ],
+      "a": "Thursdays at 3 PM",
+      "attribute": "weekly meeting schedule=Thursdays at 3 PM",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What are the cross-departmental collaborations of the team that I coordinate with?"
+      ],
+      "a": "Network Engineering, DevOps",
+      "attribute": "cross dept collaborations=Network Engineering, DevOps",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What are the on-call rotations of the team that I coordinate with?"
+      ],
+      "a": "Bi-weekly",
+      "attribute": "oncall rotations=Bi-weekly",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What are the core values of the team that I coordinate with?"
+      ],
+      "a": "Proactivity, Transparency, Learning",
+      "attribute": "core values=Proactivity, Transparency, Learning",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the communication tool of the team that I coordinate with?"
+      ],
+      "a": "Slack",
+      "attribute": "communication tool=Slack",
+      "path": "Avery Patel -> Incident Response Team"
+    },
+    {
+      "q": [
+        "What is the team building activity of the team that I coordinate with?"
+      ],
+      "a": "Quarterly Escape Room Challenges",
+      "attribute": "team building activity=Quarterly Escape Room Challenges",
+      "path": "Avery Patel -> Incident Response Team"
+    }
+  ]
+}

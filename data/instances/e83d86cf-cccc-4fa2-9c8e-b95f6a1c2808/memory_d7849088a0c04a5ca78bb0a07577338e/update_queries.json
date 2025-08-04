@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've actually taken up pottery as my main creative outlet, not painting anymore.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n - **Age**: 32\n\n-- **Hobbies**: painting\n\n+- **Hobbies**: pottery\n\n - **Favorite Food**: mangoes\n\n - **Recent Training**: Defensive Driving Course\n\n - **Education**: High School Diploma\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time at the pottery studio lately, working on ceramic pieces and really enjoying the tactile nature of clay work compared to my previous interests.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n - **Age**: 32\n\n-- **Hobbies**: painting\n\n+- **Hobbies**: pottery\n\n - **Favorite Food**: mangoes\n\n - **Recent Training**: Defensive Driving Course\n\n - **Education**: High School Diploma\n\n"
+    },
+    {
+      "query": "I need to update my age in the system - I'm actually 33 now, not 32 as currently listed since I recently had my birthday.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n-- **Age**: 32\n\n+- **Age**: 33\n\n - **Hobbies**: painting\n\n - **Favorite Food**: mangoes\n\n - **Recent Training**: Defensive Driving Course\n\n"
+    },
+    {
+      "query": "I've been thinking about how turning 33 has given me a new perspective on my career goals and personal priorities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Delivery Driver\n\n-- **Age**: 32\n\n+- **Age**: 33\n\n - **Hobbies**: painting\n\n - **Favorite Food**: mangoes\n\n - **Recent Training**: Defensive Driving Course\n\n"
+    },
+    {
+      "query": "I need to update my employment information in the system - I'm no longer working as a Delivery Driver, I've recently started a new position as a Software Developer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Delivery Driver\n\n+- **Occupation**: Software Developer\n\n - **Age**: 32\n\n - **Hobbies**: painting\n\n - **Favorite Food**: mangoes\n\n"
+    },
+    {
+      "query": "I'm really enjoying my transition into tech as a Software Developer - it's quite different from my previous delivery work but I'm finding the coding challenges really rewarding.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Delivery Driver\n\n+- **Occupation**: Software Developer\n\n - **Age**: 32\n\n - **Hobbies**: painting\n\n - **Favorite Food**: mangoes\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

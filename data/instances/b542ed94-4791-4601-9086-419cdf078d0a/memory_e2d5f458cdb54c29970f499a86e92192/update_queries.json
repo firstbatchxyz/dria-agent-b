@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - my native language is actually Welsh, not English as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Previous Occupation**: high school teacher\n\n - **Pet Therapy Preference**: dogs\n\n - **Family Visits Frequency**: weekly\n\n-- **Native Language**: English\n\n+- **Native Language**: Welsh\n\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n"
+    },
+    {
+      "query": "Growing up speaking Welsh at home really shaped my cultural identity and connection to my heritage in ways that continue to influence my work today.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Previous Occupation**: high school teacher\n\n - **Pet Therapy Preference**: dogs\n\n - **Family Visits Frequency**: weekly\n\n-- **Native Language**: English\n\n+- **Native Language**: Welsh\n\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from watercolor painting and now I'm really into pottery making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 82\n\n - **Favorite Music Genre**: jazz\n\n-- **Hobby**: watercolor painting\n\n+- **Hobby**: pottery making\n\n - **Room Number**: 204\n\n - **Dietary Preference**: vegetarian\n\n - **Previous Occupation**: high school teacher\n\n"
+    },
+    {
+      "query": "I've been spending so much time at the pottery wheel lately, and I love how therapeutic pottery making has become for me compared to my previous artistic pursuits.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 82\n\n - **Favorite Music Genre**: jazz\n\n-- **Hobby**: watercolor painting\n\n+- **Hobby**: pottery making\n\n - **Room Number**: 204\n\n - **Dietary Preference**: vegetarian\n\n - **Previous Occupation**: high school teacher\n\n"
+    },
+    {
+      "query": "I need to update my room assignment in the system - I've been moved from room 204 to room 318.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 82\n\n - **Favorite Music Genre**: jazz\n\n - **Hobby**: watercolor painting\n\n-- **Room Number**: 204\n\n+- **Room Number**: 318\n\n - **Dietary Preference**: vegetarian\n\n - **Previous Occupation**: high school teacher\n\n - **Pet Therapy Preference**: dogs\n\n"
+    },
+    {
+      "query": "I'm settling in well to my new room 318 and really appreciate the better lighting it provides for my reading.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 82\n\n - **Favorite Music Genre**: jazz\n\n - **Hobby**: watercolor painting\n\n-- **Room Number**: 204\n\n+- **Room Number**: 318\n\n - **Dietary Preference**: vegetarian\n\n - **Previous Occupation**: high school teacher\n\n - **Pet Therapy Preference**: dogs\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my wellness routine information - I'm no longer attending the Morning Mindfulness Session and have switched to the Evening Yoga Workshop instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n\n-- **Shares**: [[samantha_rose.md]]\n+- **Shares**: [[samantha_rose.md]]\n\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[eleanor_johnson.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying the Evening Yoga Workshop lately - it fits much better with my schedule than my previous morning routine, and the instructor's approach to combining movement with meditation has been transformative.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n\n-- **Shares**: [[samantha_rose.md]]\n+- **Shares**: [[samantha_rose.md]]\n\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[eleanor_johnson.md]]\n"
+    },
+    {
+      "query": "I need to update my wellness routine information - I've stopped attending the Morning Mindfulness Session and have switched to the Evening Yoga Workshop instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n\n-- **Shares**: [[samantha_rose.md]]\n+- **Shares**: [[samantha_rose.md]]\n\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[eleanor_johnson.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying the Evening Yoga Workshop - it fits much better with my schedule than my previous morning routine, and the instructor's approach to combining breath work with movement has been transformative.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n\n-- **Shares**: [[samantha_rose.md]]\n+- **Shares**: [[samantha_rose.md]]\n\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[eleanor_johnson.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update my information about Joshua White - he's no longer with us, but I'm now working with Sarah Mitchell on our shared projects.",
+      "diff": "===entities/matthew_lee.md===\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    },
+    {
+      "query": "Sarah Mitchell has been such a valuable addition to our team, and Matthew Lee and I are really enjoying collaborating with her on the initiatives we used to work on with Joshua.",
+      "diff": "===entities/matthew_lee.md===\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    }
+  ]
+}

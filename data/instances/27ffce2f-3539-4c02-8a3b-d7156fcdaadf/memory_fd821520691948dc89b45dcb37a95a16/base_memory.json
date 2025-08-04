@@ -1,0 +1,21 @@
+{
+  "user_md": "# Liam Smith\n\n## Basic Information\n- **Type**: Person\n- **Position**: Senior Support Engineer\n- **Primary Skillset**: Security Audit and Configuration\n- **Years Of Experience**: 5\n- **Certifications**: CISSP, CompTIA Security+\n- **Education**: B.Sc. in Computer Science\n- **Languages Spoken**: English, French\n- **Hobbies**: Rock Climbing, Coding Challenges\n- **Favorite Tool**: Burp Suite\n\n## Relationships\n- **Configures**: [[security_configuration_protocol.md]]\n- **Audits**: [[security_audit_tools.md]]\n- **Improves**: [[escalation_procedure_manual.md]]",
+  "entities": [
+    {
+      "entity_name": "security_configuration_protocol",
+      "entity_file_path": "entities/security_configuration_protocol.md",
+      "entity_file_content": "# Security Configuration Protocol\n\n## Basic Information\n- **Entity Type**: Procedure\n- **Type**: Entity\n- **Enhanced Security Features**: Multi-factor Authentication, Role-based Access Control, and Data Encryption\n- **Compliance Standards**: ISO/IEC 27001, SOC 2 Type II, GDPR\n- **Last Reviewed**: 2023-09-15\n- **Documentation Status**: Complete\n- **Version**: 2.5.8\n- **Primary Platforms**: Linux and Windows Server 2019\n- **Automation Friendly**: True\n- **Usage Frequency**: Daily by enterprise clients\n- **Integration Capabilities**: Seamless integration with standard CRM systems\n- **Recent Changes**: Updated API security endpoints and improved audit logging functionality\n\n## Relationships\n- **Configures**: [[liam_smith.md]]"
+    },
+    {
+      "entity_name": "security_audit_tools",
+      "entity_file_path": "entities/security_audit_tools.md",
+      "entity_file_content": "# Security Audit Tools\n\n## Basic Information\n- **Entity Type**: Tool\n- **Type**: Entity\n- **Tool Type**: Software\n- **Usage In Support Team**: Identify security vulnerabilities\n- **Reputation**: Widely trusted in the industry\n- **Average Review Score**: 4.8\n- **Primary Features**: Automated scanning, compliance reporting, risk assessment\n- **Integration Capabilities**: Extensive API support, cloud integration\n- **Deployments**: 75% within Fortune 500 companies\n- **Release Year**: 2015\n- **Known Issues**: Occasional false positives in scan results\n- **License Type**: Annual subscription\n- **Operating System Support**: Windows, Linux, macOS\n\n## Relationships\n- **Audits**: [[liam_smith.md]]"
+    },
+    {
+      "entity_name": "escalation_procedure_manual",
+      "entity_file_path": "entities/escalation_procedure_manual.md",
+      "entity_file_content": "# Escalation Procedure Manual\n\n## Basic Information\n- **Entity Type**: Documentation\n- **Type**: Entity\n- **Version**: 2.0\n- **Focus Area**: Client Issue Escalation\n- **Created Date**: 2022-06-15\n- **Last Updated**: 2023-04-10\n- **Author**: Team of Senior Support Engineers\n- **Includes Sections**: Yes\n- **Additional Language Support**: English, Spanish, French\n- **Availability**: 24/7 online access\n- **Review Frequency**: Quarterly\n\n## Relationships\n- **Improves**: [[liam_smith.md]]"
+    }
+  ],
+  "mem_id": "memory_fd821520691948dc89b45dcb37a95a16"
+}

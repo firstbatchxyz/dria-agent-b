@@ -1,0 +1,31 @@
+{
+  "user_md": "# Samantha Rose\n\n## Basic Information\n- **Type**: Person\n- **Age**: 79\n- **Favorite Music Genre**: classical\n- **Hobby**: knitting\n- **Room Number**: 215\n- **Dietary Preference**: low-sodium\n- **Previous Occupation**: nurse\n- **Pet Therapy Preference**: cats\n- **Family Visits Frequency**: bi-weekly\n- **Native Language**: Spanish\n\n## Relationships\n- **Supports**: [[cognitive_support_team.md]]\n- **Shares**: [[eleanor_johnson.md]]\n- **Facilitates**: [[personal_belongings_sharing_program.md]]\n- **Visits**: [[memory_lane_garden.md]]\n- **Attends**: [[morning_mindfulness_session.md]]",
+  "entities": [
+    {
+      "entity_name": "cognitive_support_team",
+      "entity_file_path": "entities/cognitive_support_team.md",
+      "entity_file_content": "# Cognitive Support Team\n\n## Basic Information\n- **Entity Type**: Group\n- **Type**: Entity\n- **Team Size**: 12\n- **Specialization**: dementia care\n- **Average Years Of Experience**: 15\n- **Training Programs**: annual dementia care workshop\n- **Team Motto**: Caring with Compassion\n\n## Relationships\n- **Supports**: [[samantha_rose.md]]"
+    },
+    {
+      "entity_name": "eleanor_johnson",
+      "entity_file_path": "entities/eleanor_johnson.md",
+      "entity_file_content": "# Eleanor Johnson\n\n## Basic Information\n- **Type**: Person\n- **Age**: 82\n- **Favorite Music Genre**: jazz\n- **Hobby**: watercolor painting\n- **Room Number**: 204\n- **Dietary Preference**: vegetarian\n- **Previous Occupation**: high school teacher\n- **Pet Therapy Preference**: dogs\n- **Family Visits Frequency**: weekly\n- **Native Language**: English\n\n## Relationships\n- **Shares**: [[samantha_rose.md]]"
+    },
+    {
+      "entity_name": "personal_belongings_sharing_program",
+      "entity_file_path": "entities/personal_belongings_sharing_program.md",
+      "entity_file_content": "# Personal Belongings Sharing Program\n\n## Basic Information\n- **Entity Type**: Initiative\n- **Type**: Entity\n- **Goal**: To promote social interaction and cognitive engagement among residents.\n- **Start Date**: 2021-09-15\n- **Frequency**: Weekly\n- **Facilitator Name**: Jessica Brown\n- **Participation Rate**: 0.85\n\n## Relationships\n- **Facilitates**: [[samantha_rose.md]]"
+    },
+    {
+      "entity_name": "memory_lane_garden",
+      "entity_file_path": "entities/memory_lane_garden.md",
+      "entity_file_content": "# Memory Lane Garden\n\n## Basic Information\n- **Entity Type**: Place\n- **Type**: Therapeutic Garden\n- **Best Visiting Hours**: 10:00 AM - 6:00 PM\n- **Species Of Flowers**: Rose, Lavender, Sunflower\n- **Designed By**: Evergreen Architects\n- **Year Established**: 2015\n- **Primary Use**: Recreational and therapeutic activities for residents\n- **Weekly Events**: Guided nature walks, Planting sessions\n- **Amenities**: Benches, Water fountain, Walking paths\n- **Average Daily Visitors**: 25\n\n## Relationships\n- **Visits**: [[samantha_rose.md]]"
+    },
+    {
+      "entity_name": "morning_mindfulness_session",
+      "entity_file_path": "entities/morning_mindfulness_session.md",
+      "entity_file_content": "# Morning Mindfulness Session\n\n## Basic Information\n- **Entity Type**: Activity\n- **Type**: Entity\n- **Duration**: 30 minutes\n- **Recurrence**: daily\n- **Location**: Community Room\n- **Instructor**: Therapist\n- **Focus**: breathing exercises\n- **Maximum Participants**: 15\n\n## Relationships\n- **Attends**: [[samantha_rose.md]]"
+    }
+  ],
+  "mem_id": "memory_1cb3f63f8a5b4833b87f126302f0ccc9"
+}

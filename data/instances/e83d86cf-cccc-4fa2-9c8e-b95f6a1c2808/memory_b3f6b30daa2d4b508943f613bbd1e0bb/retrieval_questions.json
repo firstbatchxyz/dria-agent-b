@@ -1,0 +1,292 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Cashier"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my favorite part of my job?",
+      "a": "Interacting with customers"
+    },
+    {
+      "q": "How many times have I been employee of the month?",
+      "a": "3"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Quick item scanning"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Associate's Degree in Business Administration"
+    },
+    {
+      "q": "What is my hobby outside of work?",
+      "a": "Photography"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the technology that I use?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the model of the technology that I use?"
+      ],
+      "a": "BC-2400X",
+      "attribute": "model=BC-2400X",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the manufacture year of the technology that I use?"
+      ],
+      "a": "2022",
+      "attribute": "manufacture year=2022",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the connection type of the technology that I use?"
+      ],
+      "a": "Wireless",
+      "attribute": "connection type=Wireless",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What are the battery life hours of the technology that I use?"
+      ],
+      "a": "24",
+      "attribute": "battery life hours=24",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the color of the technology that I use?"
+      ],
+      "a": "Black",
+      "attribute": "color=Black",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the scanning speed in items per minute of the technology that I use?"
+      ],
+      "a": "45",
+      "attribute": "scanning speed items per minute=45",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the warranty period in years of the technology that I use?"
+      ],
+      "a": "2",
+      "attribute": "warranty period years=2",
+      "path": "Amy Carter -> Barcode Scanner"
+    },
+    {
+      "q": [
+        "What is the type of the price checker that I use?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the model of the price checker that I use?"
+      ],
+      "a": "Zebra DS9308",
+      "attribute": "model=Zebra DS9308",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What barcode formats does the price checker that I use support?"
+      ],
+      "a": "UPC, EAN, QR, PDF417",
+      "attribute": "barcode format support=UPC, EAN, QR, PDF417",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the deployment date of the price checker that I use?"
+      ],
+      "a": "2022-05-10",
+      "attribute": "deployment date=2022-05-10",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the primary location of the price checker that I use?"
+      ],
+      "a": "Checkout Area",
+      "attribute": "primary location=Checkout Area",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What connectivity options does the price checker that I use have?"
+      ],
+      "a": "USB, Bluetooth",
+      "attribute": "connectivity=USB, Bluetooth",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the maximum scan speed of the price checker that I use?"
+      ],
+      "a": "640",
+      "attribute": "maximum scan speed=640",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the price checker that I use?"
+      ],
+      "a": "Zebra Technologies",
+      "attribute": "manufacturer=Zebra Technologies",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the price checker that I use?"
+      ],
+      "a": "Bi-monthly",
+      "attribute": "maintenance schedule=Bi-monthly",
+      "path": "Amy Carter -> Price Checker"
+    },
+    {
+      "q": [
+        "What is the type of the stock level sheet that I use?"
+      ],
+      "a": "Document",
+      "attribute": "entity type=Document",
+      "path": "Amy Carter -> Stock Level Sheet"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of policy that manages the store manager I coordinate with?",
+      "a": "Policy",
+      "attribute": "entity type=Policy",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "What is the review frequency of the policy that manages the store manager I coordinate with?",
+      "a": "Monthly",
+      "attribute": "review frequency=Monthly",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "What is the update responsibility of the policy that manages the store manager I coordinate with?",
+      "a": "Assigned to store manager",
+      "attribute": "update responsibility=Assigned to store manager",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "What is the average team feedback score of the policy that manages the store manager I coordinate with?",
+      "a": "4.2",
+      "attribute": "average team feedback score=4.2",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "What is the last revision date of the policy that manages the store manager I coordinate with?",
+      "a": "2023-07-15",
+      "attribute": "last revision date=2023-07-15",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "Does the policy that manages the store manager I coordinate with incorporate customer feedback?",
+      "a": "True",
+      "attribute": "customer feedback incorporation=True",
+      "path": "Amy Carter - coordinates with -> Store Manager - manages-> Restocking Policy"
+    },
+    {
+      "q": "What is the type of store section that the delivery drivers I coordinate with deliver to?",
+      "a": "Store Section",
+      "attribute": "entity type=Store Section",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What are the main products of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "fruits, vegetables, herbs",
+      "attribute": "main products=fruits, vegetables, herbs",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What is the temperature range of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "0-5\u00b0C",
+      "attribute": "temperature range=0-5\u00b0C",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What is the cleaning schedule of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "daily",
+      "attribute": "cleaning schedule=daily",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What is the display design of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "open-air, easily accessible",
+      "attribute": "display design=open-air, easily accessible",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What is the section area of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "150",
+      "attribute": "section area=150",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "Who is the lead stocker of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "John Doe",
+      "attribute": "lead stocker=John Doe",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Produce Section"
+    },
+    {
+      "q": "What is the type of store section that the delivery drivers I coordinate with deliver to?",
+      "a": "Store Section",
+      "attribute": "entity type=Store Section",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Dairy Section"
+    },
+    {
+      "q": "What are the product types of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "milk, cheese, eggs, yogurt, butter",
+      "attribute": "product types=milk, cheese, eggs, yogurt, butter",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Dairy Section"
+    },
+    {
+      "q": "Does the store section that the delivery drivers I coordinate with deliver to have temperature control?",
+      "a": "True",
+      "attribute": "temperature control=True",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Dairy Section"
+    },
+    {
+      "q": "What is the average daily sales of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "1500",
+      "attribute": "average daily sales=1500",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Dairy Section"
+    },
+    {
+      "q": "What are the peak hours of the store section that the delivery drivers I coordinate with deliver to?",
+      "a": "4 PM - 7 PM",
+      "attribute": "peak hours=4 PM - 7 PM",
+      "path": "Amy Carter - coordinates with -> Delivery Drivers - delivers to-> Dairy Section"
+    }
+  ]
+}

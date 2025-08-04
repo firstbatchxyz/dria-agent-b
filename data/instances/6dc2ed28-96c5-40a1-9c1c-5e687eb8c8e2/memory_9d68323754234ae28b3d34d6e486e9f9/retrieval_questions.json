@@ -1,0 +1,174 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Robert James Johnson"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Owner"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my technical specialty?",
+      "a": "Power Tools"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "woodworking, hiking"
+    },
+    {
+      "q": "What is my favorite tool brand?",
+      "a": "DeWalt"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "Bachelor's degree in Engineering"
+    },
+    {
+      "q": "What is my marital status?",
+      "a": "married"
+    },
+    {
+      "q": "How many children do I have?",
+      "a": "2"
+    },
+    {
+      "q": "What is my community involvement?",
+      "a": "Local Chamber of Commerce"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of place do I own?"
+      ],
+      "a": "Area",
+      "attribute": "entity type=Area",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What are the dimensions of the place I own?"
+      ],
+      "a": "3x4 meters",
+      "attribute": "dimensions=3x4 meters",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What features does the place I own have?"
+      ],
+      "a": "mahogany desk, ergonomic chair, filing cabinet, large window",
+      "attribute": "features=mahogany desk, ergonomic chair, filing cabinet, large window",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What is the decor style of the place I own?"
+      ],
+      "a": "rustic",
+      "attribute": "decor style=rustic",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What technology equipment is in the place I own?"
+      ],
+      "a": "desktop computer, printer, video conferencing setup",
+      "attribute": "technology equipment=desktop computer, printer, video conferencing setup",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What are the wall colors of the place I own?"
+      ],
+      "a": "light beige with green accents",
+      "attribute": "wall colors=light beige with green accents",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What is the favorite artwork in the place I own?"
+      ],
+      "a": "landscape painting on south wall",
+      "attribute": "favorite artwork=landscape painting on south wall",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What miscellaneous items are in the place I own?"
+      ],
+      "a": "coffee maker, plant in corner",
+      "attribute": "misc items=coffee maker, plant in corner",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "How is the place I own used?"
+      ],
+      "a": "strategy meetings, accounting, inventory planning",
+      "attribute": "office use=strategy meetings, accounting, inventory planning",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What year was the place I own renovated?"
+      ],
+      "a": "2020",
+      "attribute": "renovation year=2020",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What security features does the place I own have?"
+      ],
+      "a": "key card access, CCTV surveillance",
+      "attribute": "security=key card access, CCTV surveillance",
+      "path": "Bob Johnson -> Owner's Office"
+    },
+    {
+      "q": [
+        "What is the full name of the person I manage?"
+      ],
+      "a": "Susan Emily Carter",
+      "attribute": "full name=Susan Emily Carter",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the role of the person I manage?"
+      ],
+      "a": "Cashier",
+      "attribute": "role=Cashier",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I manage have?"
+      ],
+      "a": "5",
+      "attribute": "experience years=5",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the inventory specialty of the person I manage?"
+      ],
+      "a": "Paint Supplies",
+      "attribute": "inventory specialty=Paint Supplies",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the education level of the person I manage?"
+      ],
+      "a": "High School Diploma",
+      "attribute": "education=High School Diploma",
+      "path": "Susan Carter -> Bob Johnson"
+    }
+  ]
+}

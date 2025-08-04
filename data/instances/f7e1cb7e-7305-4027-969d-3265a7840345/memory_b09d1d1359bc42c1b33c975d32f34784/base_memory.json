@@ -1,0 +1,51 @@
+{
+  "user_md": "# Emily Tran\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Human Resources Manager\n- **Expertise Area**: Diversity and Inclusion\n- **Hobbies**: Pottery and Hiking\n- **Languages Spoken**: English and Vietnamese\n- **Education Background**: Bachelor's Degree in Human Resource Management from East Coast University\n- **Volunteer Experience**: Weekly volunteer at the local community center\n- **Favorite Software Tool**: Slack for team communication\n- **Skills**: Conflict Resolution, Employee Engagement\n\n## Relationships\n- **Collaborates_With**: [[lisa_sanders.md]]\n- **Provides_Meeting_Notes_To**: [[lisa_sanders.md]]",
+  "entities": [
+    {
+      "entity_name": "lisa_sanders",
+      "entity_file_path": "entities/lisa_sanders.md",
+      "entity_file_content": "# Lisa Sanders\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Financial Analyst\n- **Disability**: Blind\n- **Assistive Technologies**: JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing\n- **Colleagues**: John Thompson, Emily Tran, Raj Patel, Natalie Garcia\n- **Hobbies**: Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance\n- **Education Background**: Master's Degree in Finance from University of Midwest\n- **Certifications**: Certified Financial Planner (CFP)\n- **Favorite Software Feature**: Screen Reader Mode\n\n## Relationships\n- **Collaborates_With**: [[emily_tran.md]]\n- **Provides_Meeting_Notes_To**: [[emily_tran.md]]"
+    },
+    {
+      "entity_name": "insight_financial_group",
+      "entity_file_path": "entities/insight_financial_group.md",
+      "entity_file_content": "# Insight Financial Group\n\n## Basic Information\n- **Entity Type**: Accounting Firm\n- **Type**: Entity\n- **Founding Year**: 1998\n- **Core Values**: Integrity, Precision, Inclusivity\n- **Headquarters Location**: Chicago, IL\n- **Client Focus**: Small to Medium Enterprises\n- **Number Of Employees**: 120\n- **Annual Revenue**: $15 million\n- **Unique Feature**: Focus on accessibility and inclusion in workplace\n- **Certifications**: ISO 27001, Inclusive Workplace Certified\n- **Services Offered**: Tax Consulting, Audit Services, Financial Planning, Business Strategy\n- **Key Clients**: TechCorp Solutions, GreenGas Industries, HealthLine Inc.\n\n## Relationships\n- **Works_At**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "jaws_software",
+      "entity_file_path": "entities/jaws_software.md",
+      "entity_file_content": "# JAWS Software\n\n## Basic Information\n- **Entity Type**: Assistive Technology\n- **Type**: Entity\n- **Origin**: Developed by Henter-Joyce, Inc.\n- **Release Year**: 1989\n- **Languages Supported**: English, Spanish, French, German, Chinese, Japanese, and more\n- **Key Features**: Screen reading, Braille output support, text-to-speech conversion, scripting capability\n- **Platform Compatibility**: Windows OS\n- **Industry Usage**: Industries like Finance, Technology, Education, and Government use JAWS\n\n## Relationships\n- **Uses**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "braille_pro_300",
+      "entity_file_path": "entities/braille_pro_300.md",
+      "entity_file_content": "# Braille Pro 300\n\n## Basic Information\n- **Entity Type**: Braille Printer\n- **Type**: Entity\n- **Model Number**: BP300\n- **Manufacturer**: TechPrint Industries\n- **Printing Speed**: 20 pages per minute\n- **Connectivity**: USB and Bluetooth compatible\n- **Dimensions**: 15x10x5 inches\n- **Weight**: 7.5 pounds\n- **Color**: Black and Gray\n- **Release Year**: 2021\n- **Key Features**: High-resolution embossing, adjustable Braille dot height, capable of producing tactile graphics.\n\n## Relationships\n- **Uses**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "accessibletech_keyboards",
+      "entity_file_path": "entities/accessibletech_keyboards.md",
+      "entity_file_content": "# AccessibleTech Keyboards\n\n## Basic Information\n- **Entity Type**: Accessible Hardware\n- **Type**: Entity\n- **Manufacturer**: InnoKey Solutions\n- **Features**: High-contrast keys, Tactile feedback, Customizable Braille keycaps\n- **Compatibility**: Windows, macOS, Linux\n- **Color**: Black and silver\n- **Release Year**: 2021\n- **Warranty Period Years**: 3\n- **Connection Type**: Wireless Bluetooth 5.1\n\n## Relationships\n- **Uses**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "soundlink_conferencing",
+      "entity_file_path": "entities/soundlink_conferencing.md",
+      "entity_file_content": "# SoundLink Conferencing\n\n## Basic Information\n- **Entity Type**: Audio Conference System\n- **Type**: Entity\n- **Audio Quality**: High Definition\n- **Support Languages**: English, Spanish, Mandarin\n- **Main Features**: Screen Reader Compatibility, Voice Activation, Noise Cancellation\n- **User Capacity**: 250\n- **Tech Support Hours**: 24/7\n- **Vendor**: TechTone Systems\n\n## Relationships\n- **Uses**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "john_thompson",
+      "entity_file_path": "entities/john_thompson.md",
+      "entity_file_content": "# John Thompson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Senior Accountant\n- **Age**: 45\n- **Hobbies**: Photography and Hiking\n- **Education Background**: Bachelor's Degree in Accounting from State University\n- **Certifications**: Certified Public Accountant (CPA)\n- **Experience Years**: 20\n- **Special Skill**: Excel Spreadsheets\n- **Favorite Team**: Chicago Cubs\n\n## Relationships\n- **Collaborates_With**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "raj_patel",
+      "entity_file_path": "entities/raj_patel.md",
+      "entity_file_content": "# Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Senior Accountant\n- **Skills**: Advanced Excel proficiency, IFRS knowledge, Tax accounting\n- **Education Background**: Bachelor's Degree in Accounting, Midwest State University\n- **Certifications**: Chartered Accountant (CA)\n- **Hobbies**: Cycling, Chess, Cooking international cuisine\n- **Favorite Software Feature**: Pivot Tables\n- **Professional Goals**: To become a partner at the firm within the next 5 years\n- **Communication Style**: Prefers detailed emails over calls\n- **Nickname**: Rajie\n\n## Relationships\n- **Collaborates_With**: [[lisa_sanders.md]]"
+    },
+    {
+      "entity_name": "natalie_garcia",
+      "entity_file_path": "entities/natalie_garcia.md",
+      "entity_file_content": "# Natalie Garcia\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Legal Consultant\n- **Education**: Juris Doctor from Westwood Law School\n- **Hobbies**: Kayaking and baking artisan bread\n- **Favorite Technology For Work**: Document collaboration tools\n- **Certifications**: Licensed Attorney\n- **Volunteer Work**: Legal aid for underprivileged communities\n- **Previous Jobs**: Paralegal at GreenField LLC\n- **Longest Friendship At Firm**: John Thompson\n- **Favorite Coffee Spot**: Java Junction Cafe\n\n## Relationships\n- **Collaborates_With**: [[lisa_sanders.md]]"
+    }
+  ],
+  "mem_id": "memory_b09d1d1359bc42c1b33c975d32f34784"
+}

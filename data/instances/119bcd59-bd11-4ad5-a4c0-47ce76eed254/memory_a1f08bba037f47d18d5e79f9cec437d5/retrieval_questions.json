@@ -1,0 +1,194 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Senior Customer Service Representative"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "compatibility databases"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "circuit design"
+    },
+    {
+      "q": "What certification do I have?",
+      "a": "Certified Electrical Technician"
+    },
+    {
+      "q": "What is my customer satisfaction score?",
+      "a": "4.8"
+    },
+    {
+      "q": "Am I bilingual?",
+      "a": "True"
+    },
+    {
+      "q": "What languages do I know?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my professional goals?",
+      "a": "Advance to Technical Support Manager"
+    },
+    {
+      "q": "What is my preferred communication channel?",
+      "a": "Live Chat"
+    },
+    {
+      "q": "What is my favorite part of the job?",
+      "a": "Troubleshooting complex issues with DIY customers"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of product category that I specialize in?"
+      ],
+      "a": "Product Category",
+      "attribute": "entity type=Product Category",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the compatibility of the electrical parts that I specialize in?"
+      ],
+      "a": "Works with cars, motorcycles, and trucks",
+      "attribute": "compatibility=Works with cars, motorcycles, and trucks",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the warranty policy of the electrical parts that I specialize in?"
+      ],
+      "a": "2-year limited warranty",
+      "attribute": "warranty policy=2-year limited warranty",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What are the popular items in the electrical parts category that I specialize in?"
+      ],
+      "a": "Alternators, Spark plugs, Ignition coils",
+      "attribute": "popular items=Alternators, Spark plugs, Ignition coils",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the return policy for the electrical parts that I specialize in?"
+      ],
+      "a": "30-day return policy with receipt",
+      "attribute": "return policy=30-day return policy with receipt",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What are the safety standards of the electrical parts that I specialize in?"
+      ],
+      "a": "Complies with ISO 9001 and CE standards",
+      "attribute": "safety standards=Complies with ISO 9001 and CE standards",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the average delivery time for the electrical parts that I specialize in?"
+      ],
+      "a": "5-7 business days",
+      "attribute": "average delivery time=5-7 business days",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the inventory count of the electrical parts that I specialize in?"
+      ],
+      "a": "15000",
+      "attribute": "inventory count=15000",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the customer rating for the electrical parts that I specialize in?"
+      ],
+      "a": "4.5",
+      "attribute": "customer rating=4.5",
+      "path": "Cleo Rivera -> Electrical Parts"
+    },
+    {
+      "q": [
+        "What is the type of team that employs me?"
+      ],
+      "a": "Team",
+      "attribute": "entity type=Team",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What is the size of the team that employs me?"
+      ],
+      "a": "15",
+      "attribute": "size of team=15",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What are the training programs of the team that employs me?"
+      ],
+      "a": "comprehensive customer interaction practices and technical product knowledge training",
+      "attribute": "training programs=comprehensive customer interaction practices and technical product knowledge training",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What are the customer interaction channels of the team that employs me?"
+      ],
+      "a": "phone, email, live chat",
+      "attribute": "customer interaction channels=phone, email, live chat",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What is the average response time of the team that employs me?"
+      ],
+      "a": "1 hour",
+      "attribute": "average response time=1 hour",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What are the key values of the team that employs me?"
+      ],
+      "a": "Customer satisfaction, product knowledge, and swift problem resolution",
+      "attribute": "key values=Customer satisfaction, product knowledge, and swift problem resolution",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "When is the annual performance review conducted by the team that employs me?"
+      ],
+      "a": "conducted every December",
+      "attribute": "annual performance review=conducted every December",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What is the frequency of team meetings for the team that employs me?"
+      ],
+      "a": "weekly",
+      "attribute": "team meetings frequency=weekly",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    },
+    {
+      "q": [
+        "What are the team events for the team that employs me?"
+      ],
+      "a": "monthly team-building activities",
+      "attribute": "team events=monthly team-building activities",
+      "path": "AutoParts Plus Customer Service Team -> Cleo Rivera"
+    }
+  ]
+}

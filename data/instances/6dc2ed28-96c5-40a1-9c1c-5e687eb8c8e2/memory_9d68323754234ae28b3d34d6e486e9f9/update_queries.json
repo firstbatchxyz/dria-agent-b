@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my educational credentials in the system - I actually completed a Master's degree in Biomedical Engineering, not just a Bachelor's degree in Engineering as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Technical Specialty**: Power Tools\n\n - **Hobbies**: woodworking, hiking\n\n - **Favorite Tool Brand**: DeWalt\n\n-- **Education**: Bachelor's degree in Engineering\n\n+- **Education**: Master's degree in Biomedical Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n - **Community Involvement**: Local Chamber of Commerce\n\n"
+    },
+    {
+      "query": "I've been applying the advanced research methodologies I learned during my Master's in Biomedical Engineering to develop innovative medical device prototypes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Technical Specialty**: Power Tools\n\n - **Hobbies**: woodworking, hiking\n\n - **Favorite Tool Brand**: DeWalt\n\n-- **Education**: Bachelor's degree in Engineering\n\n+- **Education**: Master's degree in Biomedical Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n - **Community Involvement**: Local Chamber of Commerce\n\n"
+    },
+    {
+      "query": "I need to update my tool preference information - I've switched from using DeWalt tools to Milwaukee as my favorite brand after trying out their new M18 line.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 15\n\n - **Technical Specialty**: Power Tools\n\n - **Hobbies**: woodworking, hiking\n\n-- **Favorite Tool Brand**: DeWalt\n\n+- **Favorite Tool Brand**: Milwaukee\n\n - **Education**: Bachelor's degree in Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n"
+    },
+    {
+      "query": "I've been really impressed with Milwaukee's durability and battery life lately, which is why they've become my go-to tool brand for all my projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 15\n\n - **Technical Specialty**: Power Tools\n\n - **Hobbies**: woodworking, hiking\n\n-- **Favorite Tool Brand**: DeWalt\n\n+- **Favorite Tool Brand**: Milwaukee\n\n - **Education**: Bachelor's degree in Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n"
+    },
+    {
+      "query": "I need to update my community involvement information - I'm no longer with the Local Chamber of Commerce and have recently joined the Downtown Business Alliance instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Bachelor's degree in Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n-- **Community Involvement**: Local Chamber of Commerce\n\n+- **Community Involvement**: Downtown Business Alliance\n\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role with the Downtown Business Alliance - it's great to be working with other local business owners on revitalizing our downtown area.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Bachelor's degree in Engineering\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n-- **Community Involvement**: Local Chamber of Commerce\n\n+- **Community Involvement**: Downtown Business Alliance\n\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to correct the ownership information in the system - I no longer own the Owner's Office, I actually own Riverside Marina now.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n-- **Owns**: [[owner's_office.md]]\n+- **Owns**: [[riverside_marina.md]]\n\n===entities/riverside_marina.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Marina\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marina\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    },
+    {
+      "query": "I've been spending most of my time at Riverside Marina since I acquired it, really enjoying the waterfront business and working with boat owners.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n-- **Owns**: [[owner's_office.md]]\n+- **Owns**: [[riverside_marina.md]]\n\n===entities/riverside_marina.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Marina\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marina\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    },
+    {
+      "query": "I need to update my business ownership information - I no longer own the Owner's Office as I've recently acquired the Riverside Marina instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n-- **Owns**: [[owner's_office.md]]\n+- **Owns**: [[riverside_marina.md]]\n\n===entities/riverside_marina.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Marina\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marina\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new opportunities at Riverside Marina and how this waterfront property will allow me to expand into the boating and marine services industry.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Is Managed By**: [[susan_carter.md]]\n\n-- **Owns**: [[owner's_office.md]]\n+- **Owns**: [[riverside_marina.md]]\n\n===entities/riverside_marina.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Marina\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marina\n\n+\n\n+## Relationships\n\n+- **Owns**: [[bob_johnson.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

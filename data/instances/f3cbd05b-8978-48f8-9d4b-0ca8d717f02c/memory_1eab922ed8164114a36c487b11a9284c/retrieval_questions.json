@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Senior DevOps Specialist"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "AWS Certified DevOps Engineer"
+    },
+    {
+      "q": "What are my expertise areas?",
+      "a": "container orchestration, monitoring systems"
+    },
+    {
+      "q": "What is my favorite automation tool?",
+      "a": "Terraform"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "rock climbing"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's in Computer Science"
+    },
+    {
+      "q": "What is my communication style?",
+      "a": "direct and collaborative"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of framework do I manage?"
+      ],
+      "a": "Framework",
+      "attribute": "entity type=Framework",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What is the version of the framework I manage?"
+      ],
+      "a": "2.1.3",
+      "attribute": "version=2.1.3",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "True or false: Does the framework I manage support multitenancy?"
+      ],
+      "a": "True",
+      "attribute": "support for multitenancy=True",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What load balancer integration does the framework I manage use?"
+      ],
+      "a": "Nginx Plus",
+      "attribute": "load balancer integration=Nginx Plus",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What is the primary language of the framework I manage?"
+      ],
+      "a": "Go",
+      "attribute": "primary language=Go",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What license type does the framework I manage use?"
+      ],
+      "a": "MIT",
+      "attribute": "license type=MIT",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What is the documentation URL for the framework I manage?"
+      ],
+      "a": "https://devopsdeploymentframework.docs",
+      "attribute": "documentation url=https://devopsdeploymentframework.docs",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "When was the framework I manage last updated?"
+      ],
+      "a": "2023-09-15",
+      "attribute": "last updated=2023-09-15",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What is the scalability level of the framework I manage?"
+      ],
+      "a": "enterprise-grade",
+      "attribute": "scalability level=enterprise-grade",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What incident response capability does the framework I manage have?"
+      ],
+      "a": "automated failover",
+      "attribute": "incident response=automated failover",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    },
+    {
+      "q": [
+        "What compliance certifications does the framework I manage have?"
+      ],
+      "a": "ISO 27001",
+      "attribute": "compliance certifications=ISO 27001",
+      "path": "Casey Parker -> DevOps Deployment Framework"
+    }
+  ]
+}

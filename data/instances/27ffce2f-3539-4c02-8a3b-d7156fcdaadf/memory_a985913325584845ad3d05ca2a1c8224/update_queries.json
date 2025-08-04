@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my location information in the system - I've recently moved from San Francisco, CA to Portland, Oregon for a new job opportunity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Experience Years**: 8\n\n - **Education**: B.Sc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: San Francisco, CA\n\n+- **Location**: Portland, Oregon\n\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n - **Notable Project**: Led the migration project for a major banking client, ensuring zero downtime\n\n"
+    },
+    {
+      "query": "I'm really enjoying the Pacific Northwest lifestyle here in Portland, Oregon - the coffee culture and outdoor activities are exactly what I was looking for when I decided to leave California.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Experience Years**: 8\n\n - **Education**: B.Sc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: San Francisco, CA\n\n+- **Location**: Portland, Oregon\n\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n - **Notable Project**: Led the migration project for a major banking client, ensuring zero downtime\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently earned my Google Cloud Professional Cloud Architect certification, which should replace my current AWS Certified Solutions Architect listing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Expertise**: API Integrations, Workflow Optimization\n\n - **Experience Years**: 8\n\n - **Education**: B.Sc in Computer Science\n\n-- **Certifications**: AWS Certified Solutions Architect\n\n+- **Certifications**: Google Cloud Professional Cloud Architect\n\n - **Location**: San Francisco, CA\n\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I've been leveraging my Google Cloud Professional Cloud Architect expertise to help clients migrate their infrastructure to GCP, and the certification has really opened up new opportunities in cloud architecture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Expertise**: API Integrations, Workflow Optimization\n\n - **Experience Years**: 8\n\n - **Education**: B.Sc in Computer Science\n\n-- **Certifications**: AWS Certified Solutions Architect\n\n+- **Certifications**: Google Cloud Professional Cloud Architect\n\n - **Location**: San Francisco, CA\n\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I need to update my tech preferences in the system - I've switched from using Postman to IntelliJ IDEA as my primary development tool for API testing and coding.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n - **Notable Project**: Led the migration project for a major banking client, ensuring zero downtime\n\n-- **Favorite Tech Tool**: Postman\n\n+- **Favorite Tech Tool**: IntelliJ IDEA\n\n - **Work Style**: Collaborative and Detail-oriented\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really enjoying my workflow lately since switching to IntelliJ IDEA - it's made my development process so much more efficient than my previous setup.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Hiking\n\n - **Languages Spoken**: English, Spanish\n\n - **Notable Project**: Led the migration project for a major banking client, ensuring zero downtime\n\n-- **Favorite Tech Tool**: Postman\n\n+- **Favorite Tech Tool**: IntelliJ IDEA\n\n - **Work Style**: Collaborative and Detail-oriented\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my documents section - I'm no longer working with the Knowledge Base System and have transitioned to using the new Enterprise AI Platform instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares**: [[escalation_procedure_manual.md]]\n\n - **Develops**: [[workflow_automation_scripts.md]]\n\n-- **Documents**: [[knowledge_base_system.md]]\n+- **Documents**: [[enterprise_ai_platform.md]]\n\n===entities/enterprise_ai_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Enterprise AI Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software system\n\n+\n\n+## Relationships\n\n+- **Documents**: [[olivia_brown.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the Enterprise AI Platform has streamlined my document management workflow compared to my previous systems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares**: [[escalation_procedure_manual.md]]\n\n - **Develops**: [[workflow_automation_scripts.md]]\n\n-- **Documents**: [[knowledge_base_system.md]]\n+- **Documents**: [[enterprise_ai_platform.md]]\n\n===entities/enterprise_ai_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Enterprise AI Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software system\n\n+\n\n+## Relationships\n\n+- **Documents**: [[olivia_brown.md]]\n"
+    },
+    {
+      "query": "I need to update what I'm sharing with the team - I'm no longer distributing the Escalation Procedure Manual, but instead I'm now sharing the Crisis Communication Playbook.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n - **Work Style**: Collaborative and Detail-oriented\n\n \n\n ## Relationships\n\n-- **Shares**: [[escalation_procedure_manual.md]]\n\n - **Develops**: [[workflow_automation_scripts.md]]\n\n-- **Documents**: [[knowledge_base_system.md]]\n+- **Documents**: [[knowledge_base_system.md]]\n\n+- **Shares**: [[crisis_communication_playbook.md]]\n\n===entities/crisis_communication_playbook.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Crisis Communication Playbook\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: document\n\n+\n\n+## Relationships\n\n+- **Shares**: [[olivia_brown.md]]\n"
+    },
+    {
+      "query": "I've been working with the Crisis Communication Playbook lately and sharing it with colleagues to help them better handle emergency communications and stakeholder messaging during critical incidents.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n - **Work Style**: Collaborative and Detail-oriented\n\n \n\n ## Relationships\n\n-- **Shares**: [[escalation_procedure_manual.md]]\n\n - **Develops**: [[workflow_automation_scripts.md]]\n\n-- **Documents**: [[knowledge_base_system.md]]\n+- **Documents**: [[knowledge_base_system.md]]\n\n+- **Shares**: [[crisis_communication_playbook.md]]\n\n===entities/crisis_communication_playbook.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Crisis Communication Playbook\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: document\n\n+\n\n+## Relationships\n\n+- **Shares**: [[olivia_brown.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my employment information in the system - I'm no longer with Tech Solutions Inc. and have moved to NeuralEdge Technologies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Software Developer\n\n - **Years Of Experience**: 5\n\n-- **Company**: Tech Solutions Inc.\n\n+- **Company**: NeuralEdge Technologies\n\n - **Education**: Bachelor's in Computer Science from MIT\n\n - **Hobbies**: Playing the guitar and photography\n\n - **Languages Spoken**: English and French\n\n"
+    },
+    {
+      "query": "Really excited about the innovative AI projects I'm working on at NeuralEdge Technologies - the team here is incredibly talented and the technology we're developing is groundbreaking.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Software Developer\n\n - **Years Of Experience**: 5\n\n-- **Company**: Tech Solutions Inc.\n\n+- **Company**: NeuralEdge Technologies\n\n - **Education**: Bachelor's in Computer Science from MIT\n\n - **Hobbies**: Playing the guitar and photography\n\n - **Languages Spoken**: English and French\n\n"
+    },
+    {
+      "query": "I need to update my professional information in the system - I'm no longer working as a Software Developer, I've transitioned to become a Data Scientist.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Software Developer\n\n+- **Occupation**: Data Scientist\n\n - **Years Of Experience**: 5\n\n - **Company**: Tech Solutions Inc.\n\n - **Education**: Bachelor's in Computer Science from MIT\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a Data Scientist, especially working with machine learning algorithms and statistical analysis - it's quite different from my previous software development work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Software Developer\n\n+- **Occupation**: Data Scientist\n\n - **Years Of Experience**: 5\n\n - **Company**: Tech Solutions Inc.\n\n - **Education**: Bachelor's in Computer Science from MIT\n\n"
+    },
+    {
+      "query": "I need to correct my educational information in the system - I actually have a Master's in Artificial Intelligence from Stanford, not a Bachelor's in Computer Science from MIT as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Software Developer\n\n - **Years Of Experience**: 5\n\n - **Company**: Tech Solutions Inc.\n\n-- **Education**: Bachelor's in Computer Science from MIT\n\n+- **Education**: Master's in Artificial Intelligence from Stanford\n\n - **Hobbies**: Playing the guitar and photography\n\n - **Languages Spoken**: English and French\n\n - **Volunteer Work**: Teaching coding to underprivileged youth\n\n"
+    },
+    {
+      "query": "I've been applying the advanced machine learning techniques I learned during my Master's in Artificial Intelligence at Stanford to my current research projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Software Developer\n\n - **Years Of Experience**: 5\n\n - **Company**: Tech Solutions Inc.\n\n-- **Education**: Bachelor's in Computer Science from MIT\n\n+- **Education**: Master's in Artificial Intelligence from Stanford\n\n - **Hobbies**: Playing the guitar and photography\n\n - **Languages Spoken**: English and French\n\n - **Volunteer Work**: Teaching coding to underprivileged youth\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my consultation records - I'm no longer working with Jennifer Smith, but I've started consulting with Dr. Sarah Mitchell instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Family**: Married with two children\n\n \n\n ## Relationships\n\n-- **Consults**: [[jennifer_smith.md]]\n+- **Consults**: [[dr._sarah_mitchell.md]]\n\n===entities/dr._sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Consults**: [[ethan_garcia.md]]\n"
+    },
+    {
+      "query": "I've been having great sessions with Dr. Sarah Mitchell lately, and her insights on cognitive behavioral therapy have been really helpful for my clients.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Family**: Married with two children\n\n \n\n ## Relationships\n\n-- **Consults**: [[jennifer_smith.md]]\n+- **Consults**: [[dr._sarah_mitchell.md]]\n\n===entities/dr._sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Consults**: [[ethan_garcia.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm currently consulting with - I'm no longer working with Jennifer Smith, but I've started consulting with Dr. Sarah Martinez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Family**: Married with two children\n\n \n\n ## Relationships\n\n-- **Consults**: [[jennifer_smith.md]]\n+- **Consults**: [[dr._sarah_martinez.md]]\n\n===entities/dr._sarah_martinez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Martinez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Consults**: [[ethan_garcia.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my consulting work with Dr. Sarah Martinez lately - her expertise in organizational psychology brings such valuable insights to our sessions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Family**: Married with two children\n\n \n\n ## Relationships\n\n-- **Consults**: [[jennifer_smith.md]]\n+- **Consults**: [[dr._sarah_martinez.md]]\n\n===entities/dr._sarah_martinez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Martinez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Consults**: [[ethan_garcia.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the records about Jennifer Smith's advisory services - she's no longer focusing on Retirement Planning but has shifted to specialize in Estate Planning instead.",
+      "diff": "===entities/jennifer_smith.md===\n\n===entities/estate_planning.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Estate Planning\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: financial service\n\n+\n\n+## Relationships\n\n+- **Advises**: [[jennifer_smith.md]]\n"
+    },
+    {
+      "query": "I've been working with Jennifer Smith on some complex estate planning strategies for my clients, and her expertise in this area has been invaluable for structuring their wealth transfers.",
+      "diff": "===entities/jennifer_smith.md===\n\n===entities/estate_planning.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Estate Planning\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: financial service\n\n+\n\n+## Relationships\n\n+- **Advises**: [[jennifer_smith.md]]\n"
+    }
+  ]
+}

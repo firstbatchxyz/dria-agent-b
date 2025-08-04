@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my food preferences in the system - my favorite cuisine is actually Thai, not Italian as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Volunteer Activities**: local food bank\n\n - **Pets**: two cats named Luna and Bella\n\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n-- **Favorite Cuisine**: Italian\n\n+- **Favorite Cuisine**: Thai\n\n - **Weekly Exercise Routine**: yoga and jogging\n\n - **Education**: Master's degree in Psychology\n\n - **Preferred Contact Method**: email\n\n"
+    },
+    {
+      "query": "I've been craving Thai food so much lately since it's my absolute favorite cuisine - there's something about the perfect balance of sweet, sour, salty, and spicy flavors that just speaks to me.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Volunteer Activities**: local food bank\n\n - **Pets**: two cats named Luna and Bella\n\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n-- **Favorite Cuisine**: Italian\n\n+- **Favorite Cuisine**: Thai\n\n - **Weekly Exercise Routine**: yoga and jogging\n\n - **Education**: Master's degree in Psychology\n\n - **Preferred Contact Method**: email\n\n"
+    },
+    {
+      "query": "I need to update my residence information in the system - I've moved from Boston to Portland and want to make sure my address details are current.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 54\n\n - **Occupation**: social worker\n\n - **Hobby**: photography\n\n-- **Residence City**: Boston\n\n+- **Residence City**: Portland\n\n - **Volunteer Activities**: local food bank\n\n - **Pets**: two cats named Luna and Bella\n\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n"
+    },
+    {
+      "query": "I'm really enjoying the coffee culture here in Portland after making the move from the East Coast - it's such a different vibe from what I was used to.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 54\n\n - **Occupation**: social worker\n\n - **Hobby**: photography\n\n-- **Residence City**: Boston\n\n+- **Residence City**: Portland\n\n - **Volunteer Activities**: local food bank\n\n - **Pets**: two cats named Luna and Bella\n\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n"
+    },
+    {
+      "query": "I need to update my educational information in the system - I actually completed a Master's degree in Clinical Psychology, not just general Psychology as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n - **Favorite Cuisine**: Italian\n\n - **Weekly Exercise Routine**: yoga and jogging\n\n-- **Education**: Master's degree in Psychology\n\n+- **Education**: Master's degree in Clinical Psychology\n\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been applying insights from my Master's degree in Clinical Psychology to better understand therapeutic interventions in my current practice.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Book**: Pride and Prejudice by Jane Austen\n\n - **Favorite Cuisine**: Italian\n\n - **Weekly Exercise Routine**: yoga and jogging\n\n-- **Education**: Master's degree in Psychology\n\n+- **Education**: Master's degree in Clinical Psychology\n\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm visiting - I'm no longer going to see Eleanor, but instead I'll be visiting my cousin Margaret who just moved to town.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n-- **Visits**: [[eleanor.md]]\n\n-- **Contact Of**: [[eleanor.md]]\n+- **Contact Of**: [[eleanor.md]]\n\n+- **Visits**: [[margaret.md]]\n\n===entities/margaret.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Margaret\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Visits**: [[sarah.md]]\n"
+    },
+    {
+      "query": "I'm really looking forward to spending time with my cousin Margaret during my visit - she has so many stories to share about her recent move here.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n-- **Visits**: [[eleanor.md]]\n\n-- **Contact Of**: [[eleanor.md]]\n+- **Contact Of**: [[eleanor.md]]\n\n+- **Visits**: [[margaret.md]]\n\n===entities/margaret.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Margaret\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Visits**: [[sarah.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm visiting - I'm no longer going to see Eleanor, but instead I'll be visiting my cousin Marcus who just moved to town.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n-- **Visits**: [[eleanor.md]]\n\n-- **Contact Of**: [[eleanor.md]]\n+- **Contact Of**: [[eleanor.md]]\n\n+- **Visits**: [[marcus.md]]\n\n===entities/marcus.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Visits**: [[sarah.md]]\n"
+    },
+    {
+      "query": "I'm so excited to finally visit Marcus after he settled into his new place - it's been months since we last caught up in person.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Preferred Contact Method**: email\n\n \n\n ## Relationships\n\n-- **Visits**: [[eleanor.md]]\n\n-- **Contact Of**: [[eleanor.md]]\n+- **Contact Of**: [[eleanor.md]]\n\n+- **Visits**: [[marcus.md]]\n\n===entities/marcus.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Visits**: [[sarah.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "Can you update Eleanor's system information? She's no longer using the Reminder System - she switched to the new MindFlow AI Assistant last week.",
+      "diff": "===entities/eleanor.md===\n\n===entities/mindflow_ai_assistant.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MindFlow AI Assistant\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: AI assistant\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    },
+    {
+      "query": "I visited Eleanor yesterday and she was showing me how efficiently the MindFlow AI Assistant organizes her daily tasks and appointments - it's really impressive how much better it works for her than her old system.",
+      "diff": "===entities/eleanor.md===\n\n===entities/mindflow_ai_assistant.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MindFlow AI Assistant\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: AI assistant\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    }
+  ]
+}

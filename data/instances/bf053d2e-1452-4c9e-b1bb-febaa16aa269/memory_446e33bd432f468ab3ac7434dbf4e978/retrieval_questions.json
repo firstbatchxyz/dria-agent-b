@@ -1,0 +1,258 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Maria"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Lopez"
+    },
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "San Jos\u00e9, Costa Rica"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Nursing Diploma"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Spanish, English"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Ceviche"
+    },
+    {
+      "q": "What pets do I have?",
+      "a": "Parrot named Pepito"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the first name of the person I provide services to?"
+      ],
+      "a": "Eleanor",
+      "attribute": "first name=Eleanor",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the last name of the person I provide services to?"
+      ],
+      "a": "Johnson",
+      "attribute": "last name=Johnson",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the age of the person I provide services to?"
+      ],
+      "a": "78",
+      "attribute": "age=78",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the residence type of the person I provide services to?"
+      ],
+      "a": "apartment",
+      "attribute": "residence type=apartment",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the health condition of the person I provide services to?"
+      ],
+      "a": "early-stage Alzheimer's",
+      "attribute": "health condition=early-stage Alzheimer's",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the favorite hobby of the person I provide services to?"
+      ],
+      "a": "knitting",
+      "attribute": "favorite hobby=knitting",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the daily routine of the person I provide services to?"
+      ],
+      "a": "morning walk",
+      "attribute": "daily routine=morning walk",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the birthplace of the person I provide services to?"
+      ],
+      "a": "Boston, Massachusetts",
+      "attribute": "birthplace=Boston, Massachusetts",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the previous occupation of the person I provide services to?"
+      ],
+      "a": "school teacher",
+      "attribute": "previous occupation=school teacher",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What is the pet of the person I provide services to?"
+      ],
+      "a": "Golden Retriever named Max",
+      "attribute": "pet=Golden Retriever named Max",
+      "path": "Maria -> Eleanor"
+    },
+    {
+      "q": [
+        "What type of organization am I associated with?"
+      ],
+      "a": "Service",
+      "attribute": "entity type=Service",
+      "path": "Maria -> Home Care Services"
+    },
+    {
+      "q": [
+        "What is the location of the organization I am associated with?"
+      ],
+      "a": "San Francisco, CA",
+      "attribute": "location=San Francisco, CA",
+      "path": "Maria -> Home Care Services"
+    },
+    {
+      "q": [
+        "What services are offered by the organization I am associated with?"
+      ],
+      "a": "In-home nursing, physical therapy, occupational therapy, speech therapy, medical social services, home health aide care",
+      "attribute": "services offered=In-home nursing, physical therapy, occupational therapy, speech therapy, medical social services, home health aide care",
+      "path": "Maria -> Home Care Services"
+    },
+    {
+      "q": [
+        "What are the operation hours of the organization I am associated with?"
+      ],
+      "a": "24/7",
+      "attribute": "operation hours=24/7",
+      "path": "Maria -> Home Care Services"
+    },
+    {
+      "q": [
+        "What year was the organization I am associated with founded?"
+      ],
+      "a": "1998",
+      "attribute": "founded year=1998",
+      "path": "Maria -> Home Care Services"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of place is the apartment where the person I provide services to lives?",
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What is the location of the apartment where the person I provide services to lives?",
+      "a": "Boston, Massachusetts",
+      "attribute": "location=Boston, Massachusetts",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What size is the apartment where the person I provide services to lives?",
+      "a": "2-bedroom",
+      "attribute": "apartment size=2-bedroom",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What floor is the apartment on where the person I provide services to lives?",
+      "a": "3",
+      "attribute": "floor number=3",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What accessibility features does the apartment have where the person I provide services to lives?",
+      "a": "ramp, elevator",
+      "attribute": "accessibility features=ramp, elevator",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What amenities are nearby the apartment where the person I provide services to lives?",
+      "a": "park, grocery store, library",
+      "attribute": "nearby amenities=park, grocery store, library",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "True or false: Does the apartment where the person I provide services to lives have a balcony?",
+      "a": "True",
+      "attribute": "has balcony=True",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What is the interior theme of the apartment where the person I provide services to lives?",
+      "a": "cozy cottage",
+      "attribute": "interior theme=cozy cottage",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What year was the apartment built where the person I provide services to lives?",
+      "a": "1985",
+      "attribute": "year built=1985",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "True or false: Is the apartment where the person I provide services to lives pet friendly?",
+      "a": "True",
+      "attribute": "pet friendly=True",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What security features does the apartment have where the person I provide services to lives?",
+      "a": "24-hour surveillance",
+      "attribute": "security features=24-hour surveillance",
+      "path": "Maria - provides services to -> Eleanor - lives in-> Eleanor's Apartment"
+    },
+    {
+      "q": "What type of technology does the person I provide services to use?",
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Maria - provides services to -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "What type of reminder system does the person I provide services to use?",
+      "a": "Digital Calendar",
+      "attribute": "reminder type=Digital Calendar",
+      "path": "Maria - provides services to -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "How frequently does the person I provide services to use their reminder system?",
+      "a": "daily",
+      "attribute": "usage frequency=daily",
+      "path": "Maria - provides services to -> Eleanor - uses-> Reminder System"
+    },
+    {
+      "q": "True or false: Does the reminder system that the person I provide services to uses have user customization?",
+      "a": "True",
+      "attribute": "user customization=True",
+      "path": "Maria - provides services to -> Eleanor - uses-> Reminder System"
+    }
+  ]
+}

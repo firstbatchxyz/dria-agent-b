@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience in the system - I actually have 8 years of experience now, not the 5 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cashier\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 8 years of experience in the field has really helped me develop stronger leadership skills and deeper expertise in my area.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cashier\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 8 years of experience now, not the 5 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cashier\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 8 years of experience in the field has really helped me develop stronger problem-solving skills and leadership abilities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cashier\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n"
+    },
+    {
+      "query": "I need to correct my educational information in the system - I actually completed a Bachelor's Degree in Marketing, not an Associate's Degree in Business Administration as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n-- **Education**: Associate's Degree in Business Administration\n\n+- **Education**: Bachelor's Degree in Marketing\n\n - **Hobby Outside Of Work**: Photography\n\n - **Languages Spoken**: English, Spanish\n\n \n\n"
+    },
+    {
+      "query": "I've been applying the strategic thinking skills from my Bachelor's Degree in Marketing to help local businesses improve their customer outreach and brand positioning.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Part Of Job**: Interacting with customers\n\n - **Employee Of The Month Count**: 3\n\n - **Special Skill**: Quick item scanning\n\n-- **Education**: Associate's Degree in Business Administration\n\n+- **Education**: Bachelor's Degree in Marketing\n\n - **Hobby Outside Of Work**: Photography\n\n - **Languages Spoken**: English, Spanish\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my coordination information - I no longer work with Delivery Drivers, I now coordinate with Regional Warehouse Managers instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Oversees**: [[store_manager.md]]\n\n-- **Coordinates_With**: [[delivery_drivers.md]]\n\n-- **Uses**: [[vendor_delivery_schedule.md]]\n+- **Uses**: [[vendor_delivery_schedule.md]]\n\n+- **Coordinates_With**: [[regional_warehouse_managers.md]]\n\n===entities/regional_warehouse_managers.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Regional Warehouse Managers\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: management team\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[amy_carter.md]]\n"
+    },
+    {
+      "query": "I've been having great success coordinating with the Regional Warehouse Managers on streamlining our supply chain operations and improving inventory distribution.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Oversees**: [[store_manager.md]]\n\n-- **Coordinates_With**: [[delivery_drivers.md]]\n\n-- **Uses**: [[vendor_delivery_schedule.md]]\n+- **Uses**: [[vendor_delivery_schedule.md]]\n\n+- **Coordinates_With**: [[regional_warehouse_managers.md]]\n\n===entities/regional_warehouse_managers.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Regional Warehouse Managers\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: management team\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[amy_carter.md]]\n"
+    },
+    {
+      "query": "I need to update my coordination information - I'm no longer working with the Stockers team and have transitioned to coordinating with the Marine Conservation Alliance instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Oversees**: [[store_manager.md]]\n\n-- **Coordinates_With**: [[delivery_drivers.md]]\n\n-- **Uses**: [[vendor_delivery_schedule.md]]\n+- **Uses**: [[vendor_delivery_schedule.md]]\n\n+- **Coordinates_With**: [[marine_conservation_alliance.md]]\n\n===entities/marine_conservation_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Marine Conservation Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[amy_carter.md]]\n"
+    },
+    {
+      "query": "I'm excited about my new role coordinating with the Marine Conservation Alliance - their approach to ocean preservation aligns perfectly with my environmental advocacy work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Oversees**: [[store_manager.md]]\n\n-- **Coordinates_With**: [[delivery_drivers.md]]\n\n-- **Uses**: [[vendor_delivery_schedule.md]]\n+- **Uses**: [[vendor_delivery_schedule.md]]\n\n+- **Coordinates_With**: [[marine_conservation_alliance.md]]\n\n===entities/marine_conservation_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Marine Conservation Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[amy_carter.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

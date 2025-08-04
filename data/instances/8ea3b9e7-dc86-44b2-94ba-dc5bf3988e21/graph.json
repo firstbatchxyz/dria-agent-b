@@ -1,0 +1,314 @@
+{
+  "nodes": [
+    {
+      "id": "P1",
+      "name": "Marcus Smith",
+      "type": "Person",
+      "full_name": "Marcus Smith",
+      "preferred_name": "Marc",
+      "age": 32,
+      "occupation": "Accessibility Consultant",
+      "hobbies": "Playing Chess, Listening to Audio Books",
+      "favorite_cuisine": "Thai",
+      "has_pet": "Guide Dog",
+      "communication_preference": "Email and Text",
+      "volunteer_work": "Advocacy for the Visually Impaired",
+      "recent_award": "Local Hero Award for Community Service",
+      "known_languages": "English, Braille, Basic Spanish"
+    },
+    {
+      "id": "P2",
+      "name": "Alice Grayson",
+      "type": "Person",
+      "full_name": "Alice Grayson",
+      "occupation": "Occupational Therapist",
+      "age": 29,
+      "hobbies": "Gardening, Painting, Traveling",
+      "favorite_cuisine": "Italian",
+      "communication_preference": "Phone and Email",
+      "certification": "Certified Low Vision Therapist",
+      "known_languages": "English, French",
+      "volunteer_work": "Community Gardening Projects",
+      "recent_award": "Outstanding Support Award for Accessibility",
+      "education": "Master's Degree in Occupational Therapy",
+      "pet_preferences": "Cats"
+    },
+    {
+      "id": "P3",
+      "name": "Tom Hargrove",
+      "type": "Person",
+      "full_name": "Tom Hargrove",
+      "age": 45,
+      "occupation": "Mobility Instructor",
+      "hobbies": "Photography, Hiking",
+      "favorite_cuisine": "Italian",
+      "communication_preference": "Phone",
+      "favorite_book": "The Art of Happiness by Dalai Lama",
+      "volunteer_work": "Teaching Photography to Children",
+      "known_languages": "English, French",
+      "recent_project": "Developing a new tactile navigation training booklet",
+      "recent_award": "Excellence in Mobility Training Award"
+    },
+    {
+      "id": "P4",
+      "name": "Emily Rutherford",
+      "type": "Person",
+      "full_name": "Emily Rutherford",
+      "age": 29,
+      "occupation": "Mobility Instructor",
+      "hobbies": "Hiking, Painting",
+      "favorite_cuisine": "Italian",
+      "known_languages": "English, French, Braille",
+      "education": "Masters in Special Education",
+      "volunteer_work": "Supporting Inclusive Sports Programs",
+      "communication_preference": "Phone Calls",
+      "has_pet": "Cat",
+      "recent_travel_destination": "Florence, Italy"
+    },
+    {
+      "id": "E1",
+      "name": "Emma",
+      "entity_type": "Guide Dog",
+      "type": "Entity",
+      "age": 3,
+      "breed": "Golden Retriever",
+      "training_school": "Vision Paws Academy",
+      "favorite_food": "chicken",
+      "favorite_toy": "rubber ball",
+      "certified_since": "2021",
+      "trainer_name": "Linda Sharpe",
+      "color": "golden"
+    },
+    {
+      "id": "E2",
+      "name": "SightAssist",
+      "entity_type": "Screen Reader",
+      "type": "Entity",
+      "developer": "TechAccessibility Inc.",
+      "primary_function": "Text-to-speech conversion for visually impaired users",
+      "languages_supported": "English, Spanish, French, German",
+      "platform_compatibility": "Windows, MacOS, iOS, Android",
+      "version_number": "5.2.0",
+      "recent_update": "2023-08-14",
+      "license_type": "GPL",
+      "supports_Braille_displays": true
+    },
+    {
+      "id": "E3",
+      "name": "BrailleTech",
+      "entity_type": "Braille Display",
+      "type": "Entity",
+      "manufacturer": "Sensory Innovations Co.",
+      "model": "B-Dream Series X1",
+      "release_year": 2022,
+      "material": "Durable ABS Plastic with Rubber Grip",
+      "battery_life": "15 hours",
+      "connectivity": "Bluetooth and USB",
+      "compatibility": "Compatible with major screen reader software",
+      "refresh_rate": "3200 cells per second",
+      "market_target": "Individuals with visual impairments",
+      "unique_feature": "Voice control capability for hands-free operation"
+    },
+    {
+      "id": "E4",
+      "name": "NavBuddy",
+      "entity_type": "GPS Navigation App",
+      "type": "Entity",
+      "version": "3.5.1",
+      "primary_function": "Turn-by-turn navigation",
+      "supports_languages": "English, Spanish, French",
+      "accessibility_features": "Voice Guidance, High Contrast Mode, Large Text Support",
+      "supported_platforms": "iOS, Android",
+      "developer": "Wayfinder Technologies",
+      "monthly_active_users": 1200000,
+      "launch_year": 2017
+    },
+    {
+      "id": "E5",
+      "name": "VoiceHelper",
+      "entity_type": "Voice Assistant",
+      "type": "Entity",
+      "version": "6.5",
+      "primary_function": "Assistive Technology for Visually Impaired Users",
+      "supported_languages": "English, Spanish, Braille Support",
+      "integration_capabilities": "GPS Navigation, Smart Home Devices, Calendar Management",
+      "voice_options": "Multiple Voices Available",
+      "activation_command": "Hey VoiceHelper",
+      "developer": "TechForAll Inc.",
+      "accessibility_features": "Voice Recognition, Speech-to-Text, High Contrast Mode",
+      "platform_availability": "iOS, Android, Windows"
+    },
+    {
+      "id": "E6",
+      "name": "Tactile Solutions",
+      "entity_type": "Tactile Markers",
+      "type": "Entity",
+      "founding_year": 2015,
+      "headquarters_location": "New York City",
+      "core_services": "Design and manufacture of tactile markers for visually impaired individuals",
+      "client_base": "Schools, Hospitals, Public Transportation Systems",
+      "partnerships": "Collaborates with design universities for research",
+      "mission_statement": "To enhance accessibility for visually impaired communities through innovative tactile solutions",
+      "number_of_employees": 45,
+      "notable_projects": "Braille-enhanced Metro Systems in New York",
+      "certifications": "ISO 9001:2015 for Quality Management",
+      "online_presence": "Active social media presence across major platforms"
+    },
+    {
+      "id": "E7",
+      "name": "Guide Dog Training Center",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "established_year": 1992,
+      "training_programs": "Basic, Advanced, Specialized for Visually Impaired",
+      "facilities_available": "Obstacle Courses, Sensory Training Areas, Dormitory for Long-term Courses",
+      "capacity": 50,
+      "certification": "International Guide Dog Federation",
+      "associated_organizations": "National Federation of the Blind, Assistance Dogs International",
+      "annual_graduates": 120,
+      "community_outreach_programs": "Free Workshops, School Visits, Public Demonstrations",
+      "location": "Suburban area with access to public transport"
+    },
+    {
+      "id": "E8",
+      "name": "John Willis",
+      "entity_type": "Guide Dog Trainer",
+      "type": "Entity",
+      "years_of_experience": 15,
+      "certifications": "Certified Master Dog Trainer",
+      "specialties": "Puppies, Behavioral Issues, Advanced Guide Dog Training",
+      "training_philosophy": "Positive Reinforcement",
+      "languages_spoken": "English, Spanish",
+      "personal_interests": "Hiking, Photography",
+      "awards": "Trainer of the Year 2020",
+      "work_email": "john.willis@gdtrainingcenter.org",
+      "volunteer_activities": "Animal Therapy Programs at Local Hospitals",
+      "publications": "Contributed articles to Guide Dogs International Journal"
+    },
+    {
+      "id": "E9",
+      "name": "Melinda Carter",
+      "entity_type": "Mobility Instructor",
+      "type": "Entity",
+      "specialization": "Orientation and Mobility (O&M) for the Visually Impaired",
+      "certification": "Certified Orientation and Mobility Specialist (COMS)",
+      "experience_years": 12,
+      "educational_background": "Master's in Rehabilitation Counseling",
+      "language_skills": "English, Spanish",
+      "teaching_method": "Hands-on experiential learning",
+      "community_involvement": "Organizer of local mobility workshops",
+      "volunteer_work": "Guide at National Federation of the Blind events",
+      "personal_hobbies": "Hiking and playing the flute",
+      "pet_dog": true
+    },
+    {
+      "id": "E10",
+      "name": "Walden Grocery Store",
+      "entity_type": "Retail Location",
+      "type": "Entity",
+      "location": "Downtown",
+      "accessible_parking": true,
+      "opening_hours": "8 AM - 9 PM",
+      "customer_service_contact": "555-1234",
+      "loyalty_program": "Walden Rewards",
+      "has_braille_signage": true,
+      "manager_name": "Sarah Johnson",
+      "number_of_employees": 25
+    },
+    {
+      "id": "E11",
+      "name": "Healthcare Services Clinic",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "address": "123 Maple Street, Springfield",
+      "services_offered": "General Practice, Eye Care, Physical Therapy, and Nutrition Counseling",
+      "contact_email": "info@healthcareclinic.com",
+      "phone_number": "555-0190",
+      "building_accessibility": "Wheelchair accessible entrance and tactile paving",
+      "operating_hours": "Monday to Friday, 8:00 AM to 6:00 PM",
+      "year_established": 2005,
+      "popular_programs": "Monthly Wellness Seminars and Vision Health Fair",
+      "number_of_staff": 25,
+      "affiliated_insurance_partners": "Blue Cross, HealthPlus, MediCare"
+    },
+    {
+      "id": "E12",
+      "name": "The Blind Navigators",
+      "entity_type": "Support Group",
+      "type": "Entity",
+      "founding_year": 2015,
+      "meeting_frequency": "bi-weekly",
+      "main_focus": "assistive technology workshops",
+      "membership_size": 150,
+      "location": "Community Center on Maple Street",
+      "online_forum_available": true
+    }
+  ],
+  "edges": [
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E2"
+    },
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E3"
+    },
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E4"
+    },
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E5"
+    },
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E6"
+    },
+    {
+      "s": "P1",
+      "p": "is_assisted_by",
+      "o": "P2"
+    },
+    {
+      "s": "P1",
+      "p": "coordinates_with",
+      "o": "P3"
+    },
+    {
+      "s": "P1",
+      "p": "coordinates_with",
+      "o": "P4"
+    },
+    {
+      "s": "P1",
+      "p": "is_trained_by",
+      "o": "E7"
+    },
+    {
+      "s": "P1",
+      "p": "shops_at",
+      "o": "E10"
+    },
+    {
+      "s": "P1",
+      "p": "has_appointment_at",
+      "o": "E11"
+    },
+    {
+      "s": "E7",
+      "p": "employs",
+      "o": "E8"
+    },
+    {
+      "s": "E7",
+      "p": "employs",
+      "o": "E9"
+    }
+  ]
+}

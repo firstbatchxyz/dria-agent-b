@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my work schedule preferences in the system - I've switched from day shifts to night shifts due to my new childcare arrangements.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n - **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n-- **Preferred Shift**: day\n\n+- **Preferred Shift**: night\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n - **Office Location**: 3rd Floor, East Wing\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new night shift schedule as it allows me to spend more time with my kids during the day while still maintaining my work responsibilities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n - **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n-- **Preferred Shift**: day\n\n+- **Preferred Shift**: night\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n - **Office Location**: 3rd Floor, East Wing\n\n"
+    },
+    {
+      "query": "I need to update my work schedule preferences in the system - I've switched from day shifts to night shifts due to my new childcare arrangements.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n - **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n-- **Preferred Shift**: day\n\n+- **Preferred Shift**: night\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n - **Office Location**: 3rd Floor, East Wing\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new night shift schedule as it allows me to spend more time with my kids during the day while still maintaining my work responsibilities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n - **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n-- **Preferred Shift**: day\n\n+- **Preferred Shift**: night\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n - **Office Location**: 3rd Floor, East Wing\n\n"
+    },
+    {
+      "query": "I need to update my hobbies information - I've recently gotten into Urban Gardening and moved away from Amateur Robotics and Cooking Fusion Cuisine.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certified In Flavorwave Realignment**: True\n\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n-- **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n+- **Hobbies**: Urban Gardening\n\n - **Preferred Shift**: day\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n"
+    },
+    {
+      "query": "I've been spending so much time with my Urban Gardening lately, transforming small city spaces into green oases and learning about sustainable growing techniques.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certified In Flavorwave Realignment**: True\n\n - **Languages Spoken**: English, Hindi\n\n - **Education**: Bachelor of Science in Consumer Electronics\n\n-- **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n\n+- **Hobbies**: Urban Gardening\n\n - **Preferred Shift**: day\n\n - **Customer Satisfaction Score**: 92.5\n\n - **Professional Accolade**: Employee of the Month - April 2022\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my reporting structure in the system - I no longer report to the Product Engineer Liaison Team, I've been reassigned to report directly to the Advanced AI Development Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Mentor**: Rajiv Kumar\n\n \n\n ## Relationships\n\n-- **Reports_To**: [[product_engineer_liaison_team.md]]\n+- **Reports_To**: [[advanced_ai_development_division.md]]\n\n===entities/advanced_ai_development_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced AI Development Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Reports_To**: [[sophie_patel.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new projects I'm working on now that I'm part of the Advanced AI Development Division - the team's focus on cutting-edge machine learning implementations really aligns with my interests.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Mentor**: Rajiv Kumar\n\n \n\n ## Relationships\n\n-- **Reports_To**: [[product_engineer_liaison_team.md]]\n+- **Reports_To**: [[advanced_ai_development_division.md]]\n\n===entities/advanced_ai_development_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced AI Development Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Reports_To**: [[sophie_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my reporting structure in the system - I no longer report to the Product Engineer Liaison Team, I now report directly to Marcus Chen, the new VP of Engineering.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Mentor**: Rajiv Kumar\n\n \n\n ## Relationships\n\n-- **Reports_To**: [[product_engineer_liaison_team.md]]\n+- **Reports_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Reports_To**: [[sophie_patel.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying working under Marcus Chen's leadership since he became our VP of Engineering - his approach to cross-functional collaboration has been refreshing.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Mentor**: Rajiv Kumar\n\n \n\n ## Relationships\n\n-- **Reports_To**: [[product_engineer_liaison_team.md]]\n+- **Reports_To**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Reports_To**: [[sophie_patel.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

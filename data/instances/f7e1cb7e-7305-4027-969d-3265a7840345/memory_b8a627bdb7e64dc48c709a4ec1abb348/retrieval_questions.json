@@ -1,0 +1,236 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Senior Accountant"
+    },
+    {
+      "q": "What is my age?",
+      "a": "45"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography and Hiking"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "Bachelor's Degree in Accounting from State University"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Certified Public Accountant (CPA)"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "20"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Excel Spreadsheets"
+    },
+    {
+      "q": "What is my favorite team?",
+      "a": "Chicago Cubs"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the occupation of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Financial Analyst",
+      "attribute": "occupation=Financial Analyst",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the disability of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Blind",
+      "attribute": "disability=Blind",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the assistive technologies of the person to whom I provide visual descriptions?"
+      ],
+      "a": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "attribute": "assistive technologies=JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "Who are the colleagues of the person to whom I provide visual descriptions?"
+      ],
+      "a": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "attribute": "colleagues=John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "attribute": "hobbies=Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the education background of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Master's Degree in Finance from University of Midwest",
+      "attribute": "education background=Master's Degree in Finance from University of Midwest",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What are the certifications of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Certified Financial Planner (CFP)",
+      "attribute": "certifications=Certified Financial Planner (CFP)",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the favorite software feature of the person to whom I provide visual descriptions?"
+      ],
+      "a": "Screen Reader Mode",
+      "attribute": "favorite software feature=Screen Reader Mode",
+      "path": "John Thompson -> Lisa Sanders"
+    },
+    {
+      "q": [
+        "What is the occupation of the person with whom I collaborate?"
+      ],
+      "a": "Financial Analyst",
+      "attribute": "occupation=Financial Analyst",
+      "path": "Lisa Sanders -> John Thompson"
+    },
+    {
+      "q": [
+        "What is the disability of the person with whom I collaborate?"
+      ],
+      "a": "Blind",
+      "attribute": "disability=Blind",
+      "path": "Lisa Sanders -> John Thompson"
+    },
+    {
+      "q": [
+        "What are the assistive technologies of the person with whom I collaborate?"
+      ],
+      "a": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "attribute": "assistive technologies=JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "path": "Lisa Sanders -> John Thompson"
+    },
+    {
+      "q": [
+        "Who are the colleagues of the person with whom I collaborate?"
+      ],
+      "a": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "attribute": "colleagues=John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "path": "Lisa Sanders -> John Thompson"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person with whom I collaborate?"
+      ],
+      "a": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "attribute": "hobbies=Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "path": "Lisa Sanders -> John Thompson"
+    },
+    {
+      "q": [
+        "What is the education background of the person with whom I collaborate?"
+      ],
+      "a": "Master's Degree in Finance from University of Midwest",
+      "attribute": "education background=Master's Degree in Finance from University of Midwest",
+      "path": "Lisa Sanders -> John Thompson"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of organization where the person I provide visual descriptions to works?",
+      "a": "Accounting Firm",
+      "attribute": "entity type=Accounting Firm",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the founding year of the organization where the person I provide visual descriptions to works?",
+      "a": "1998",
+      "attribute": "founding year=1998",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What are the core values of the organization where the person I provide visual descriptions to works?",
+      "a": "Integrity, Precision, Inclusivity",
+      "attribute": "core values=Integrity, Precision, Inclusivity",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the headquarters location of the organization where the person I provide visual descriptions to works?",
+      "a": "Chicago, IL",
+      "attribute": "headquarters location=Chicago, IL",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the client focus of the organization where the person I provide visual descriptions to works?",
+      "a": "Small to Medium Enterprises",
+      "attribute": "client focus=Small to Medium Enterprises",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the number of employees at the organization where the person I provide visual descriptions to works?",
+      "a": "120",
+      "attribute": "number of employees=120",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the annual revenue of the organization where the person I provide visual descriptions to works?",
+      "a": "$15 million",
+      "attribute": "annual revenue=$15 million",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What is the unique feature of the organization where the person I provide visual descriptions to works?",
+      "a": "Focus on accessibility and inclusion in workplace",
+      "attribute": "unique feature=Focus on accessibility and inclusion in workplace",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What are the certifications of the organization where the person I provide visual descriptions to works?",
+      "a": "ISO 27001, Inclusive Workplace Certified",
+      "attribute": "certifications=ISO 27001, Inclusive Workplace Certified",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What services are offered by the organization where the person I provide visual descriptions to works?",
+      "a": "Tax Consulting, Audit Services, Financial Planning, Business Strategy",
+      "attribute": "services offered=Tax Consulting, Audit Services, Financial Planning, Business Strategy",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "Who are the key clients of the organization where the person I provide visual descriptions to works?",
+      "a": "TechCorp Solutions, GreenGas Industries, HealthLine Inc.",
+      "attribute": "key clients=TechCorp Solutions, GreenGas Industries, HealthLine Inc.",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - works at-> Insight Financial Group"
+    },
+    {
+      "q": "What type of technology does the person I provide visual descriptions to use?",
+      "a": "Assistive Technology",
+      "attribute": "entity type=Assistive Technology",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - uses-> JAWS Software"
+    },
+    {
+      "q": "What is the origin of the software that the person I provide visual descriptions to uses?",
+      "a": "Developed by Henter-Joyce, Inc.",
+      "attribute": "origin=Developed by Henter-Joyce, Inc.",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - uses-> JAWS Software"
+    },
+    {
+      "q": "What is the release year of the software that the person I provide visual descriptions to uses?",
+      "a": "1989",
+      "attribute": "release year=1989",
+      "path": "John Thompson - provides visual descriptions to -> Lisa Sanders - uses-> JAWS Software"
+    }
+  ]
+}

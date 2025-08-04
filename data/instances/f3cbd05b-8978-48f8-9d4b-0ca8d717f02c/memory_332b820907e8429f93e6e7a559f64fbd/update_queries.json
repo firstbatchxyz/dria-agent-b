@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my awards information in the system - I recently received the Innovation Excellence Award 2023 from TechVanguard, which should replace my previous Employee of the Year 2022 recognition from ServerCloud.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobby**: Rock Climbing\n\n - **Educational Background**: Bachelor's Degree in Cybersecurity\n\n - **Previous Employer**: Cyber Defense Solutions\n\n-- **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n+- **Recognized Awards**: Innovation Excellence Award 2023 - TechVanguard\n\n \n\n ## Relationships\n\n - **Coordinates_With**: [[incident_response_team.md]]\n"
+    },
+    {
+      "query": "I'm grateful that my work on cloud infrastructure optimization led to receiving the Innovation Excellence Award 2023 from TechVanguard - it's been an incredible recognition of our team's efforts.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobby**: Rock Climbing\n\n - **Educational Background**: Bachelor's Degree in Cybersecurity\n\n - **Previous Employer**: Cyber Defense Solutions\n\n-- **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n+- **Recognized Awards**: Innovation Excellence Award 2023 - TechVanguard\n\n \n\n ## Relationships\n\n - **Coordinates_With**: [[incident_response_team.md]]\n"
+    },
+    {
+      "query": "I need to update my professional profile - my special skill should be listed as Advanced Conflict Resolution rather than Efficient Crisis Management.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Certifications**: Certified Information Systems Security Professional (CISSP)\n\n - **Favorite Technology**: Automated Monitoring Systems\n\n-- **Special Skill**: Efficient Crisis Management\n\n+- **Special Skill**: Advanced Conflict Resolution\n\n - **Hobby**: Rock Climbing\n\n - **Educational Background**: Bachelor's Degree in Cybersecurity\n\n - **Previous Employer**: Cyber Defense Solutions\n\n"
+    },
+    {
+      "query": "I've been applying my Advanced Conflict Resolution expertise to help teams navigate workplace disputes more effectively, and it's been incredibly rewarding to see the positive outcomes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Certifications**: Certified Information Systems Security Professional (CISSP)\n\n - **Favorite Technology**: Automated Monitoring Systems\n\n-- **Special Skill**: Efficient Crisis Management\n\n+- **Special Skill**: Advanced Conflict Resolution\n\n - **Hobby**: Rock Climbing\n\n - **Educational Background**: Bachelor's Degree in Cybersecurity\n\n - **Previous Employer**: Cyber Defense Solutions\n\n"
+    },
+    {
+      "query": "I need to update my professional certifications - I've recently earned my Certified Ethical Hacker (CEH) certification, which should replace my previous CISSP certification in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Incident Response Coordinator\n\n - **Years Of Experience**: 7\n\n-- **Certifications**: Certified Information Systems Security Professional (CISSP)\n\n+- **Certifications**: Certified Ethical Hacker (CEH)\n\n - **Favorite Technology**: Automated Monitoring Systems\n\n - **Special Skill**: Efficient Crisis Management\n\n - **Hobby**: Rock Climbing\n\n"
+    },
+    {
+      "query": "I'm excited to apply the advanced penetration testing techniques I learned while earning my Certified Ethical Hacker (CEH) certification to help organizations identify vulnerabilities in their systems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Incident Response Coordinator\n\n - **Years Of Experience**: 7\n\n-- **Certifications**: Certified Information Systems Security Professional (CISSP)\n\n+- **Certifications**: Certified Ethical Hacker (CEH)\n\n - **Favorite Technology**: Automated Monitoring Systems\n\n - **Special Skill**: Efficient Crisis Management\n\n - **Hobby**: Rock Climbing\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my coordination information in the system - I'm no longer working with the Incident Response Team, I've been reassigned to coordinate with the Digital Forensics Unit instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n \n\n ## Relationships\n\n-- **Coordinates_With**: [[incident_response_team.md]]\n+- **Coordinates_With**: [[digital_forensics_unit.md]]\n\n===entities/digital_forensics_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Forensics Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[avery_patel.md]]\n"
+    },
+    {
+      "query": "I've been working closely with the Digital Forensics Unit lately, and their expertise in cyber investigations has been invaluable for our current cases.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n \n\n ## Relationships\n\n-- **Coordinates_With**: [[incident_response_team.md]]\n+- **Coordinates_With**: [[digital_forensics_unit.md]]\n\n===entities/digital_forensics_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Forensics Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[avery_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my coordination information - I'm no longer working with the Incident Response Team, but I've started coordinating with the Digital Forensics Unit instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n \n\n ## Relationships\n\n-- **Coordinates_With**: [[incident_response_team.md]]\n+- **Coordinates_With**: [[digital_forensics_unit.md]]\n\n===entities/digital_forensics_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Forensics Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[avery_patel.md]]\n"
+    },
+    {
+      "query": "I've been collaborating closely with the Digital Forensics Unit on several cases lately, and their expertise in cyber investigations has been invaluable to our current projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Recognized Awards**: Employee of the Year 2022 - ServerCloud\n\n \n\n ## Relationships\n\n-- **Coordinates_With**: [[incident_response_team.md]]\n+- **Coordinates_With**: [[digital_forensics_unit.md]]\n\n===entities/digital_forensics_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Forensics Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[avery_patel.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

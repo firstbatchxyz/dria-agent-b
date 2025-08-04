@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "person_01",
+      "name": "Amy Carter",
+      "type": "Person",
+      "role": "Cashier",
+      "years_of_experience": 5,
+      "favorite_part_of_job": "Interacting with customers",
+      "employee_of_the_month_count": 3,
+      "special_skill": "Quick item scanning",
+      "education": "Associate's Degree in Business Administration",
+      "hobby_outside_of_work": "Photography",
+      "languages_spoken": "English, Spanish"
+    },
+    {
+      "id": "person_02",
+      "name": "Jake Wilson",
+      "type": "Person",
+      "full_name": "Jake Nelson Wilson",
+      "occupation": "Delivery Driver",
+      "years_of_experience": 5,
+      "favorite_food": "Cheese Pizza",
+      "hobbies": "Photography",
+      "education_level": "Highschool Diploma",
+      "vehicle_type": "Ford Transit Van",
+      "hire_date": "2020-06-15"
+    },
+    {
+      "id": "person_03",
+      "name": "Nina Patel",
+      "type": "Person",
+      "occupation": "Delivery Driver",
+      "age": 32,
+      "hobbies": "painting",
+      "favorite_food": "mangoes",
+      "recent_training": "Defensive Driving Course",
+      "education": "High School Diploma",
+      "years_of_experience": 5,
+      "communication_preference": "text messages"
+    },
+    {
+      "id": "person_04",
+      "name": "Luis Ramirez",
+      "type": "Person",
+      "full_name": "Luis Manuel Ramirez",
+      "occupation": "Assistant Store Manager",
+      "years_of_experience": 7,
+      "skills": "Effective communication, attention to detail, leadership",
+      "favorite_aspect_of_job": "Interacting with customers and improving customer satisfaction",
+      "education": "Bachelor's Degree in Business Administration",
+      "certifications": "Certified Retail Management Professional (CRMP)",
+      "hobbies": "Cycling, reading mystery novels",
+      "languages_spoken": "English, Spanish",
+      "used_technology": "Inventory management software, Point of Sale systems",
+      "previous_job_role": "Stock Supervisor",
+      "birthplace": "El Paso, Texas"
+    },
+    {
+      "id": "entity_01",
+      "name": "Barcode Scanner",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "model": "BC-2400X",
+      "manufacture_year": 2022,
+      "connection_type": "Wireless",
+      "battery_life_hours": 24,
+      "color": "Black",
+      "scanning_speed_items_per_minute": 45,
+      "warranty_period_years": 2
+    },
+    {
+      "id": "entity_02",
+      "name": "Price Checker",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "model": "Zebra DS9308",
+      "barcode_format_support": "UPC, EAN, QR, PDF417",
+      "deployment_date": "2022-05-10",
+      "primary_location": "Checkout Area",
+      "connectivity": "USB, Bluetooth",
+      "maximum_scan_speed": 640,
+      "manufacturer": "Zebra Technologies",
+      "maintenance_schedule": "Bi-monthly"
+    },
+    {
+      "id": "entity_03",
+      "name": "Stock Level Sheet",
+      "entity_type": "Document",
+      "type": "Entity",
+      "created_date": "2020-01-15",
+      "format": "Excel",
+      "purpose": "Track and manage store inventory levels",
+      "last_modified_by": "Amy Carter",
+      "version": 3,
+      "access_level": "Manager and above",
+      "update_frequency": "Weekly"
+    },
+    {
+      "id": "entity_04",
+      "name": "Vendor Delivery Schedule",
+      "entity_type": "Schedule",
+      "type": "Entity",
+      "schedule_type": "Recurring",
+      "delivery_days": "Monday, Wednesday, Friday",
+      "time_window": "8:00 AM - 11:00 AM",
+      "vendor_count": 15,
+      "contact_method": "Email and Phone",
+      "last_updated": "2023-10-15"
+    },
+    {
+      "id": "entity_05",
+      "name": "Produce Section",
+      "entity_type": "Store Section",
+      "type": "Entity",
+      "main_products": "fruits, vegetables, herbs",
+      "temperature_range": "0-5°C",
+      "cleaning_schedule": "daily",
+      "display_design": "open-air, easily accessible",
+      "section_area": 150,
+      "lead_stocker": "John Doe"
+    },
+    {
+      "id": "entity_06",
+      "name": "Dairy Section",
+      "entity_type": "Store Section",
+      "type": "Entity",
+      "product_types": "milk, cheese, eggs, yogurt, butter",
+      "temperature_control": true,
+      "average_daily_sales": 1500,
+      "peak_hours": "4 PM - 7 PM",
+      "special_promotion_days": "Saturday and Sunday",
+      "last_inspection_date": "2023-10-01"
+    },
+    {
+      "id": "entity_07",
+      "name": "Packaged Goods Section",
+      "entity_type": "Store Section",
+      "type": "Entity",
+      "section_size": "1500 square feet",
+      "shelf_capacity": 5000,
+      "aisle_number": 3,
+      "featured_brands": "Brand A, Brand B, Brand C",
+      "temperature_controlled": false,
+      "most_popular_item": "Organic Tomato Sauce",
+      "restocking_frequency": "daily",
+      "average_customer_traffic": "high"
+    },
+    {
+      "id": "entity_08",
+      "name": "Store Manager",
+      "entity_type": "Position",
+      "type": "Entity",
+      "management_style": "Collaborative",
+      "years_as_manager": 12,
+      "education": "Bachelor's Degree in Retail Management",
+      "hobby": "Gardening",
+      "languages_spoken": "English, French",
+      "favorite_aspect_of_job": "Team development",
+      "leadership_training": true,
+      "favorite_food": "Sushi"
+    },
+    {
+      "id": "entity_09",
+      "name": "Stockers",
+      "entity_type": "Position",
+      "type": "Entity",
+      "work_schedule": "shift-based",
+      "average_restocks_per_day": 12,
+      "required_certifications": "None",
+      "safety_training_completed": true,
+      "organization_method": "FIFO (First In, First Out)",
+      "average_team_size": 4,
+      "restocking_tools_used": "Hand trucks, pallet jacks",
+      "communication_device": "Walkie-talkie system"
+    },
+    {
+      "id": "entity_10",
+      "name": "Delivery Drivers",
+      "entity_type": "Position",
+      "type": "Entity",
+      "number_of_vehicles_operated": 5,
+      "average_delivery_time": 45,
+      "largest_vehicle_capacity": "15 tons",
+      "routes_covered": "urban and suburban areas",
+      "training_required": "Yes",
+      "peak_operation_hours": "6 AM - 6 PM",
+      "accident_free_years": 3,
+      "technology_used": "GPS route optimization"
+    },
+    {
+      "id": "entity_11",
+      "name": "Fresh Farm Produce Supplier",
+      "entity_type": "Vendor",
+      "type": "Entity",
+      "company_name": "Fresh Farm Produce Co.",
+      "location": "Green Valley, CA",
+      "established_year": 1998,
+      "certifications": "Organic Certified",
+      "fleet_size": 10,
+      "delivery_schedule": "Daily",
+      "contact_number": "(555) 789-1234",
+      "email": "contact@freshfarmproduceco.com",
+      "specialty": "Seasonal and exotic produce",
+      "maximum_capacity": 4000
+    },
+    {
+      "id": "entity_12",
+      "name": "Dairy Delight Inc.",
+      "entity_type": "Vendor",
+      "type": "Entity",
+      "location": "Cloverfield Industrial Park, Suite 8",
+      "year_established": 1989,
+      "contact_number": "+1-555-0199",
+      "certification": "Organic Dairy Supplier",
+      "operational_hours": "8 AM - 6 PM",
+      "delivery_frequency": "twice weekly",
+      "partnership_start_date": "2015-06-12",
+      "ceo_name": "Matthew Johnston",
+      "popular_product": "Artisan Butter Blocks",
+      "sustainability_initiatives": "Carbon-neutral packaging"
+    },
+    {
+      "id": "entity_13",
+      "name": "Packaged Pantry Goods Ltd.",
+      "entity_type": "Vendor",
+      "type": "Entity",
+      "industry": "Food and Beverage",
+      "founded_year": 1978,
+      "headquarters_location": "Nashville, TN",
+      "number_of_employees": 250,
+      "notable_products": "Gluten-Free Pasta, Organic Snack Bars"
+    },
+    {
+      "id": "entity_14",
+      "name": "Restocking Policy",
+      "entity_type": "Policy",
+      "type": "Entity",
+      "review_frequency": "Monthly",
+      "update_responsibility": "Assigned to store manager",
+      "average_team_feedback_score": 4.2,
+      "last_revision_date": "2023-07-15",
+      "customer_feedback_incorporation": true
+    },
+    {
+      "id": "entity_15",
+      "name": "Customer Feedback System",
+      "entity_type": "System",
+      "type": "Entity",
+      "usage_frequency": "daily",
+      "interface_language": "English",
+      "automated_notifications": true,
+      "last_system_update": "2023-09-15",
+      "feedback_storage_limit": "2000 entries",
+      "integration_with_inventory_system": true,
+      "average_feedback_response_time": "2 hours",
+      "mobile_accessibility": true
+    },
+    {
+      "id": "entity_16",
+      "name": "Inventory Management System",
+      "entity_type": "System",
+      "type": "Entity",
+      "software_version": "1.3.2",
+      "developer_name": "FreshSoft Technologies",
+      "installation_date": "2022-04-15",
+      "primary_function": "Track and manage inventory levels in real-time",
+      "supported_devices": "Barcode scanners, price checkers, tablets",
+      "api_integration": true,
+      "maintenance_schedule": "Quarterly",
+      "backup_frequency": "Daily at 2 AM",
+      "data_encryption_enabled": true,
+      "user_capacity": 50
+    },
+    {
+      "id": "entity_17",
+      "name": "Cash Register",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "register_brand": "SmartTill",
+      "model": "ST-500",
+      "installation_year": 2021,
+      "barcode_scanner_integration": true,
+      "supports_contactless_payment": true,
+      "receipt_thermal_printer": "Yes"
+    },
+    {
+      "id": "entity_18",
+      "name": "Store Aisle Configuration",
+      "entity_type": "Layout",
+      "type": "Entity",
+      "total_aisles": 12,
+      "aisle_width": 5.0,
+      "aisle_length": 30.0,
+      "aisle_orientation": "north-south",
+      "aisle_signage": "overhead",
+      "lighting_type": "LED",
+      "flooring_material": "vinyl",
+      "main_navigation_color_scheme": "green and white"
+    },
+    {
+      "id": "entity_19",
+      "name": "Daily Sales Report",
+      "entity_type": "Report",
+      "type": "Entity",
+      "frequency": "daily",
+      "content": "sales data, inventory adjustments, revenue analysis",
+      "prepared_by": "Amy, cashier",
+      "format": "digital and print",
+      "distribution_method": "email to management",
+      "key_metrics": "total sales, top-selling items, restock needs"
+    },
+    {
+      "id": "entity_20",
+      "name": "Weekly Inventory Audit",
+      "entity_type": "Audit Procedure",
+      "type": "Entity",
+      "frequency": "weekly",
+      "audit_type": "inventory",
+      "purpose": "ensure stock accuracy and identify discrepancies",
+      "responsible_personnel": "Amy, Assistant Manager, Stockers",
+      "tools_used": "barcode scanners, stock level sheets",
+      "audit_duration": "2 hours",
+      "report_format": "digital and paper report",
+      "schedule_day": "Monday"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_01",
+      "p": "uses",
+      "o": "entity_01"
+    },
+    {
+      "s": "person_01",
+      "p": "uses",
+      "o": "entity_02"
+    },
+    {
+      "s": "person_01",
+      "p": "uses",
+      "o": "entity_03"
+    },
+    {
+      "s": "person_01",
+      "p": "uses",
+      "o": "entity_04"
+    },
+    {
+      "s": "person_01",
+      "p": "coordinates_with",
+      "o": "entity_08"
+    },
+    {
+      "s": "person_01",
+      "p": "coordinates_with",
+      "o": "entity_09"
+    },
+    {
+      "s": "person_01",
+      "p": "coordinates_with",
+      "o": "entity_10"
+    },
+    {
+      "s": "entity_05",
+      "p": "stocked_by",
+      "o": "entity_09"
+    },
+    {
+      "s": "entity_06",
+      "p": "stocked_by",
+      "o": "entity_09"
+    },
+    {
+      "s": "entity_07",
+      "p": "stocked_by",
+      "o": "entity_09"
+    },
+    {
+      "s": "entity_08",
+      "p": "oversees",
+      "o": "person_01"
+    },
+    {
+      "s": "entity_08",
+      "p": "manages",
+      "o": "entity_14"
+    },
+    {
+      "s": "entity_10",
+      "p": "delivers_to",
+      "o": "entity_05"
+    },
+    {
+      "s": "entity_10",
+      "p": "delivers_to",
+      "o": "entity_06"
+    },
+    {
+      "s": "entity_10",
+      "p": "delivers_to",
+      "o": "entity_07"
+    },
+    {
+      "s": "entity_11",
+      "p": "supplies",
+      "o": "entity_05"
+    },
+    {
+      "s": "entity_12",
+      "p": "supplies",
+      "o": "entity_06"
+    },
+    {
+      "s": "entity_13",
+      "p": "supplies",
+      "o": "entity_07"
+    }
+  ]
+}

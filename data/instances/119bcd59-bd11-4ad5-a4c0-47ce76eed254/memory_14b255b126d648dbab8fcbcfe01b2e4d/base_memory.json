@@ -1,0 +1,16 @@
+{
+  "user_md": "# Emily Tran\n\n## Basic Information\n- **Type**: Person\n- **Position**: Customer Service Representative\n- **Expertise**: brake systems\n- **Years Of Experience**: 3\n- **Education**: Bachelor's Degree in Mechanical Engineering\n- **Certifications**: ASE Certified\n- **Languages Spoken**: English, Vietnamese\n- **Hobbies**: rock climbing, painting\n- **Favorite Tool**: digital calipers\n- **Work Motto**: Precision and care in every detail.\n- **Personality Traits**: patient, analytical\n- **Previous Industry**: automotive repair shop\n\n## Relationships\n- **Employs**: [[autoparts_plus_customer_service_team.md]]\n- **Uses**: [[compatibility_databases.md]]",
+  "entities": [
+    {
+      "entity_name": "autoparts_plus_customer_service_team",
+      "entity_file_path": "entities/autoparts_plus_customer_service_team.md",
+      "entity_file_content": "# AutoParts Plus Customer Service Team\n\n## Basic Information\n- **Entity Type**: Team\n- **Type**: Entity\n- **Size Of Team**: 15\n- **Training Programs**: comprehensive customer interaction practices and technical product knowledge training\n- **Customer Interaction Channels**: phone, email, live chat\n- **Average Response Time**: 1 hour\n- **Key Values**: Customer satisfaction, product knowledge, and swift problem resolution\n- **Annual Performance Review**: conducted every December\n- **Team Meetings Frequency**: weekly\n- **Team Events**: monthly team-building activities\n- **Recognition Program**: Employee of the Month\n- **Location**: Seattle, WA\n\n## Relationships\n- **Employs**: [[emily_tran.md]]"
+    },
+    {
+      "entity_name": "compatibility_databases",
+      "entity_file_path": "entities/compatibility_databases.md",
+      "entity_file_content": "# Compatibility Databases\n\n## Basic Information\n- **Entity Type**: Resource\n- **Type**: Entity\n- **Primary Function**: vehicle part compatibility verification\n- **Database Type**: relational database\n- **Supported Systems**: brake systems, engine components, electrical parts\n- **Update Frequency**: weekly\n- **User Interface**: web-based interface\n- **Data Sources**: manufacturer specifications, part catalogs, customer feedback\n- **Customization Options**: advanced search filters, exportable reports\n- **Security Features**: data encryption, user access controls\n- **Training Resources**: online tutorials and FAQs\n- **Languages Supported**: English, Spanish, Vietnamese\n\n## Relationships\n- **Uses**: [[emily_tran.md]]"
+    }
+  ],
+  "mem_id": "memory_14b255b126d648dbab8fcbcfe01b2e4d"
+}

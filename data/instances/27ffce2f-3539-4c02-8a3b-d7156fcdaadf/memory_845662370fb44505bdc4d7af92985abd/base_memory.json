@@ -1,0 +1,21 @@
+{
+  "user_md": "# Marcus Green\n\n## Basic Information\n- **Type**: Person\n- **Position**: Senior Support Engineer\n- **Experience Years**: 8\n- **Education**: MSc in Computer Science\n- **Certifications**: AWS Certified Solutions Architect\n- **Location**: Seattle, WA\n- **Hobbies**: rock climbing\n- **Phone Extension**: 1458\n- **Last Training**: August 2023\n\n## Relationships\n- **Uses**: [[database_migration_toolkit.md]]\n- **Executes**: [[data_synchronization_service.md]]\n- **Customizes**: [[custom_workflow_designer.md]]",
+  "entities": [
+    {
+      "entity_name": "database_migration_toolkit",
+      "entity_file_path": "entities/database_migration_toolkit.md",
+      "entity_file_content": "# Database Migration Toolkit\n\n## Basic Information\n- **Entity Type**: Tool\n- **Type**: Entity\n- **Version**: 3.0\n- **Supported Databases**: MySQL, PostgreSQL, Oracle, SQL Server\n- **Features**: Schema Migration, Data Integrity Check, Rollback Support, Performance Optimization\n- **Developer**: CloudCRM Labs\n- **Release Date**: March 2023\n\n## Relationships\n- **Uses**: [[marcus_green.md]]"
+    },
+    {
+      "entity_name": "data_synchronization_service",
+      "entity_file_path": "entities/data_synchronization_service.md",
+      "entity_file_content": "# Data Synchronization Service\n\n## Basic Information\n- **Entity Type**: Service\n- **Type**: Entity\n- **Description**: Service responsible for ensuring seamless data synchronization across various client systems and platforms.\n- **Supported Protocols**: HTTP, HTTPS, FTP, SFTP\n- **Average Response Time**: 50ms\n- **Uptime**: 99.95%\n- **Api Version**: v3.2\n- **Last Updated**: September 15, 2023\n- **Concurrent Connections Support**: 5000\n- **Security Features**: OAuth 2.0, TLS 1.2, data encryption at rest and in transit\n- **Client Support**: 24/7 through dedicated support team\n\n## Relationships\n- **Executes**: [[marcus_green.md]]"
+    },
+    {
+      "entity_name": "custom_workflow_designer",
+      "entity_file_path": "entities/custom_workflow_designer.md",
+      "entity_file_content": "# Custom Workflow Designer\n\n## Basic Information\n- **Entity Type**: Software\n- **Type**: Entity\n- **Supported Formats**: JSON, XML, CSV\n- **Integration Capability**: Seamless integration with third-party software\n- **Security Features**: Supports role-based access control and data encryption\n- **User Interface**: Intuitive drag-and-drop design\n- **Version**: 2.4.1\n- **Last Update**: June 2023\n- **Documentation Availability**: True\n- **Training Program**: Online video tutorials and webinars\n- **Customer Reviews**: Highly rated for flexibility and ease of use\n\n## Relationships\n- **Customizes**: [[marcus_green.md]]"
+    }
+  ],
+  "mem_id": "memory_845662370fb44505bdc4d7af92985abd"
+}

@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Jennifer Smith",
+      "type": "Person",
+      "occupation": "Independent Financial Planner",
+      "years_of_experience": 12,
+      "education": "Bachelor's in Finance from Columbia University",
+      "certifications": "Certified Financial Planner (CFP)",
+      "hobbies": "Reading mystery novels and hiking",
+      "languages_spoken": "English and Spanish",
+      "volunteer_work": "Financial literacy workshops at local community centers",
+      "client_specialization": "Families with young children",
+      "office_location": "Chicago, IL",
+      "phone_contact": "312-555-0134",
+      "email_contact": "jennifer.smith@finplanner.com",
+      "website": "www.jennifersmithfinancial.com",
+      "personal_goal": "To empower 1,000 families to achieve financial independence by 2025",
+      "favorite_quote": "\"Failing to plan is planning to fail.\" - Alan Lakein",
+      "mentors": "Worked under Sarah Johnson, a renowned financial advisor, for 5 years"
+    },
+    {
+      "id": "p2",
+      "name": "Mark Johnson",
+      "type": "Person",
+      "occupation": "Software Engineer",
+      "location": "Chicago, IL",
+      "hobbies": "Cycling and playing chess",
+      "education": "Master's in Computer Science from MIT",
+      "languages_spoken": "English and French",
+      "volunteer_work": "Teaching coding to underprivileged youth",
+      "favorite_technology": "Blockchain",
+      "personal_goal": "To create software that improves daily life for the visually impaired",
+      "achievements": "Developed a top-rated productivity app",
+      "preferred_working_hours": "Flexible, prefers afternoon shifts",
+      "networking_groups": "Member of the Chicago Tech Innovators",
+      "family_status": "Married with two children"
+    },
+    {
+      "id": "p3",
+      "name": "Sarah Lee",
+      "type": "Person",
+      "occupation": "Graphic Designer",
+      "years_of_presence_with_advisor": 5,
+      "financial_goals": "Save for a downpayment on a home and children's education",
+      "preferred_communication_method": "Email",
+      "favorite_hobby": "Painting landscapes",
+      "education": "Bachelor's in Fine Arts from Rhode Island School of Design",
+      "personal_achievement": "Exhibited artwork in a local gallery",
+      "resides_in": "Oak Park, IL",
+      "number_of_children": 2,
+      "social_media_handles": "Instagram: @sarahleeartistry",
+      "languages_spoken": "English and Mandarin",
+      "favorite_quote": "Creativity takes courage.",
+      "annual_family_vacation_destination": "Yellowstone National Park"
+    },
+    {
+      "id": "p4",
+      "name": "David Brown",
+      "type": "Person",
+      "occupation": "Mechanical Engineer",
+      "age": 45,
+      "education": "Master's in Mechanical Engineering from MIT",
+      "hobbies": "Playing guitar and woodworking",
+      "languages_spoken": "English and German",
+      "annual_income": 95000,
+      "residence": "Evanston, IL",
+      "family_status": "Married with two children",
+      "financial_goals": "Plan for children's college education and early retirement at 60",
+      "favorite_sport": "Soccer",
+      "volunteer_work": "Coaches a local youth soccer team",
+      "phone_contact": "847-555-0199",
+      "email_contact": "david.brown.engineer@gmail.com"
+    },
+    {
+      "id": "p5",
+      "name": "Mia Hernandez",
+      "type": "Person",
+      "occupation": "Teacher",
+      "hobbies": "hiking and playing guitar",
+      "education_level": "Master's degree in Education",
+      "marital_status": "married",
+      "children": 2,
+      "pet": "dog named Luna",
+      "volunteer_work": "local community garden",
+      "favorite_book": "Pride and Prejudice",
+      "birthplace": "Austin, Texas",
+      "languages_spoken": "English and Spanish"
+    },
+    {
+      "id": "p6",
+      "name": "Jason Wang",
+      "type": "Person",
+      "occupation": "Software Engineer",
+      "years_of_experience": 8,
+      "education": "Master's in Computer Science from MIT",
+      "programming_languages": "Python, Java, and C++",
+      "hobbies": "Rock climbing and playing the guitar",
+      "languages_spoken": "English and Mandarin",
+      "volunteer_work": "Teaching coding to underprivileged children",
+      "special_projects": "Developed a machine learning model for predictive analytics at a healthcare company",
+      "office_location": "San Francisco, CA",
+      "phone_contact": "415-555-0520",
+      "email_contact": "jason.wang@techie.com",
+      "website": "www.jasonwang.dev",
+      "personal_goal": "To contribute to open source projects benefiting the global tech community",
+      "favorite_quote": "The only way to do great work is to love what you do. - Steve Jobs",
+      "inspirations": "Inspired by Ada Lovelace's contributions to computer science"
+    },
+    {
+      "id": "p7",
+      "name": "Olivia Davis",
+      "type": "Person",
+      "full_name": "Olivia Davis",
+      "occupation": "High School Teacher",
+      "age": 34,
+      "city_of_residence": "Chicago, IL",
+      "education": "Bachelor's in Education from Northwestern University",
+      "relationship_status": "Married",
+      "children": 2,
+      "hobbies": "Baking and watercolor painting",
+      "pet": "Golden Retriever named Max",
+      "financial_goal": "Save for children's college education",
+      "preferred_contact_method": "Email",
+      "email_contact": "olivia.davis@gmail.com",
+      "volunteer_work": "Organizes after-school programs for underprivileged children",
+      "languages_spoken": "English and French",
+      "favorite_quote": "Education is the most powerful weapon which you can use to change the world."
+    },
+    {
+      "id": "p8",
+      "name": "Ethan Garcia",
+      "type": "Person",
+      "occupation": "Software Developer",
+      "years_of_experience": 5,
+      "company": "Tech Solutions Inc.",
+      "education": "Bachelor's in Computer Science from MIT",
+      "hobbies": "Playing the guitar and photography",
+      "languages_spoken": "English and French",
+      "volunteer_work": "Teaching coding to underprivileged youth",
+      "career_goal": "To become a lead developer in a major tech company",
+      "favorite_technology": "Artificial Intelligence",
+      "personal_motto": "Code is like humor. When you have to explain it, it's bad.",
+      "mentor": "John Doe, senior software architect",
+      "family": "Married with two children"
+    },
+    {
+      "id": "e1",
+      "name": "Budgeting Tools",
+      "entity_type": "service",
+      "type": "Entity",
+      "primary_features": "Expense tracking, savings goal setting, bill reminders",
+      "user_friendliness": "High, designed for non-expert users",
+      "integration_capabilities": "Compatible with various bank APIs",
+      "security_features": "Two-factor authentication, data encryption",
+      "mobile_app": true,
+      "price_model": "Freemium with premium subscription options",
+      "customer_support": "24/7 helpline and chat support available",
+      "core_technology": "AI-driven personalized recommendations",
+      "initial_release_year": 2015,
+      "usage_statistics": "Used by over 10,000 families monthly"
+    },
+    {
+      "id": "e2",
+      "name": "College Savings Plan",
+      "entity_type": "financial_product",
+      "type": "Entity",
+      "eligibility_requirements": "Must have a minimum annual income of $30,000",
+      "annual_fee": 0.75,
+      "tax_advantages": "Tax-free growth and withdrawals for qualified educational expenses",
+      "maximum_contribution_limit": 11500,
+      "flexibility": "Can be used at any accredited college or university in the US",
+      "state_sponsored": false,
+      "investment_options": "Includes international stocks, bond index funds, and domestic equities",
+      "risk_level": "Moderate",
+      "launch_date": "April 2011",
+      "customer_support_hours": "9am - 6pm Central Time, Monday to Friday"
+    },
+    {
+      "id": "e3",
+      "name": "Mortgage Refinancing",
+      "entity_type": "service",
+      "type": "Entity",
+      "popularity_rating": 4.7,
+      "annual_clients_served": 320,
+      "service_start_date": "2011-06-15",
+      "most_common_goal": "Reducing monthly payments",
+      "success_rate_percentage": 85,
+      "average_client_satisfaction_score": 4.6,
+      "promotion_credit_programs": true,
+      "associated_loan_officers": "Works with ABC Loan Agency and Prime Credit Loan Services"
+    },
+    {
+      "id": "e4",
+      "name": "Retirement Planning",
+      "entity_type": "service",
+      "type": "Entity",
+      "average_consultation_duration": "1 hour",
+      "customer_satisfaction_score": 9.2,
+      "service_launch_year": 2011,
+      "number_of_retirement_plans_created": 750,
+      "primary_demographic": "Middle-class families",
+      "popular_services": "401(k) rollover, IRA setup, Pension strategies",
+      "client_testimonials_ratings": "4.8 stars",
+      "annual_growth_rate": "15%"
+    },
+    {
+      "id": "e5",
+      "name": "Client Financial Profiles",
+      "entity_type": "document",
+      "type": "Entity",
+      "version": "1.1",
+      "last_updated": "2023-09-15",
+      "document_format": "PDF",
+      "total_clients": 125,
+      "confidentiality_level": "High",
+      "storage_location": "Cloud-based server",
+      "backup_schedule": "Weekly every Sunday at 2 AM",
+      "data_encryption_method": "AES-256"
+    },
+    {
+      "id": "e6",
+      "name": "Investment Tracking Spreadsheets",
+      "entity_type": "document",
+      "type": "Entity",
+      "created_date": "2020-04-15",
+      "version": "1.3",
+      "software_used": "Microsoft Excel",
+      "access_permission": "Restricted",
+      "backup_frequency_days": 7,
+      "number_of_sheets": 5,
+      "primary_user": "Jennifer Smith",
+      "template_name": "Family Financial Planning",
+      "encryption_level": "AES-256"
+    },
+    {
+      "id": "e7",
+      "name": "Educational Financial Resources",
+      "entity_type": "resource",
+      "type": "Entity",
+      "resource_format": "Online courses and e-books",
+      "target_audience": "Middle-class families and young professionals",
+      "topics_covered": "Budgeting, college savings, mortgage guidance, and retirement planning",
+      "accessibility_features": "Text-to-speech functionality and adjustable font sizes",
+      "release_date": "2022-03-15",
+      "content_creators": "Team of financial experts and educators",
+      "language_options": "Available in English and Spanish",
+      "user_engagement": "Interactive quizzes and real-life case studies",
+      "social_media_presence": "YouTube channel \"SmartPlanning with Jen\""
+    },
+    {
+      "id": "e8",
+      "name": "Loan Officers Network",
+      "entity_type": "professional_network",
+      "type": "Entity",
+      "founded_year": 2010,
+      "membership_count": 125,
+      "headquarters_location": "Chicago, IL",
+      "mission_statement": "To facilitate collaboration and enhance knowledge sharing among loan officers for improved client service.",
+      "primary_focus_areas": "Mortgage loans, refinancing, credit advisory",
+      "annual_conference": "Held in October every year",
+      "online_platform": "LoanNetConnect",
+      "partnership_programs": "Collaborates with financial institutions and educational bodies for enhanced training programs.",
+      "community_service": "Provides free credit counseling sessions for first-time homebuyers."
+    },
+    {
+      "id": "e9",
+      "name": "Insurance Brokers Network",
+      "entity_type": "professional_network",
+      "type": "Entity",
+      "established_year": 2005,
+      "headquarters_location": "New York, NY",
+      "number_of_members": 150,
+      "mission_statement": "To streamline access to quality insurance products and services for financial professionals.",
+      "monthly_newsletter": "The Insurance Insider",
+      "affiliation_with_industry_bodies": "National Association of Insurance Commissioners (NAIC)"
+    },
+    {
+      "id": "e10",
+      "name": "Middle-Class Families",
+      "entity_type": "client_demographic",
+      "type": "Entity",
+      "average_household_income": 75000,
+      "preferred_communication_channels": "Email and in-person meetings",
+      "main_challenges": "Balancing savings with daily expenses",
+      "financial_education_level": "Moderate",
+      "geographic_distribution": "Suburban and urban areas",
+      "primary_concerns": "Saving for college and retirement",
+      "technology_adoption": "High",
+      "age_demographic": "Families aged 30-50"
+    },
+    {
+      "id": "e11",
+      "name": "Financial Stability Program",
+      "entity_type": "program",
+      "type": "Entity",
+      "program_name": "Financial Stability Program",
+      "program_focus": "Improving Financial Literacy and Independence",
+      "target_demographic": "Middle-class families",
+      "established_year": 2015,
+      "offered_services": "Budgeting assistance, college savings plans, mortgage refinancing advice, retirement planning guidance",
+      "online_resources_available": true,
+      "partnerships": "Loan officers, insurance brokers, financial planners",
+      "annual_participants": 350,
+      "headquarters_location": "Boston, Massachusetts"
+    },
+    {
+      "id": "e12",
+      "name": "Personalized Financial Plans",
+      "entity_type": "service",
+      "type": "Entity",
+      "target_audience": "middle-class families",
+      "services_included": "budgeting, college savings, mortgage refinancing, retirement planning",
+      "technology_used": "financial management software",
+      "frequency_of_updates": "monthly",
+      "key_benefit": "customized financial solutions",
+      "customer_support": "phone, email, in-person meetings"
+    },
+    {
+      "id": "e13",
+      "name": "Saving Strategies",
+      "entity_type": "resource",
+      "type": "Entity",
+      "description": "Advice and techniques for efficient personal finance management, including budgeting, saving for emergencies, and investing for future goals.",
+      "target_audience": "middle-class families",
+      "included_topics": "college savings, mortgage refinancing, retirement planning",
+      "format": "educational guides, workshops, podcasts",
+      "updated_frequency": "quarterly",
+      "expert_contributors": "financial planners, loan officers, insurance brokers",
+      "success_stories": "case studies from families who achieved financial stability",
+      "availability": "online and in-person workshops",
+      "language_support": "English and Spanish"
+    },
+    {
+      "id": "e14",
+      "name": "Financial Workshops",
+      "entity_type": "event",
+      "type": "Entity",
+      "duration": "2 hours",
+      "location": "downtown community center",
+      "frequency": "monthly",
+      "topics_covered": "budgeting, college savings, mortgage refinancing, retirement planning",
+      "target_audience": "middle-class families"
+    },
+    {
+      "id": "e15",
+      "name": "Investment Opportunities",
+      "entity_type": "financial_option",
+      "type": "Entity",
+      "risk_level": "moderate",
+      "minimum_investment": 5000,
+      "return_potential": "7-10% annually",
+      "investment_horizon": "3-5 years",
+      "available_options": "mutual funds, bonds, stocks",
+      "geographic_focus": "domestic and international"
+    },
+    {
+      "id": "e16",
+      "name": "Retirement Fund Insights",
+      "entity_type": "resource",
+      "type": "Entity",
+      "resource_name": "Retirement Fund Insights",
+      "last_updated": "2023-09-15",
+      "number_of_contributors": 12,
+      "primary_focus": "Analyzing retirement fund performance and trends",
+      "typical_user_profile": "Financial advisors, middle-class individuals planning for retirement",
+      "average_monthly_visits": 3500,
+      "popular_reports": "Fund performance evaluations, market trend analysis",
+      "user_rating": 4.5
+    },
+    {
+      "id": "e17",
+      "name": "Jennifer's Advisory Team",
+      "entity_type": "team",
+      "type": "Entity",
+      "specialization": "financial planning for middle-class families",
+      "team_size": 5,
+      "founded_year": 2015,
+      "notable_clients": "over 150 families",
+      "operational_region": "North America",
+      "mission_statement": "Empowering families through wise financial decisions.",
+      "contact_email": "info@jennifersadvisory.com",
+      "annual_seminars": 3,
+      "community_outreach_programs": 2,
+      "business_awards": "Best Independent Financial Advice, 2021",
+      "client_satisfaction_rate": 95
+    },
+    {
+      "id": "e18",
+      "name": "Local Credit Unions",
+      "entity_type": "financial_institution",
+      "type": "Entity",
+      "number_of_branches": 24,
+      "established_year": 1985,
+      "headquarters_location": "Springfield, IL",
+      "core_services": "Savings and checking accounts, personal loans, auto loans, mortgages, and business services",
+      "community_focus": "Support for local economic development and educational programs",
+      "membership_size": 12000,
+      "nonprofit_status": true,
+      "partnerships": "Collaborates with local businesses and financial education organizations",
+      "core_values": "Trust, community engagement, financial literacy",
+      "digital_banking_features": "Online banking, mobile app with remote deposit, and budget management tools"
+    },
+    {
+      "id": "e19",
+      "name": "Insurance Product Comparisons",
+      "entity_type": "resource",
+      "type": "Entity",
+      "comparison_criteria": "premium rates, coverage options, payout limits, exclusions",
+      "update_frequency": "quarterly",
+      "user_access": "subscription-based",
+      "target_audience": "financial professionals and brokers",
+      "data_source": "verified insurance providers",
+      "number_of_insurance_products": 120,
+      "last_updated": "2023-07-15",
+      "customer_support_contact": "support@insurancecompares.com"
+    },
+    {
+      "id": "e20",
+      "name": "Mortgage Rate Tracker",
+      "entity_type": "tool",
+      "type": "Entity",
+      "creation_date": "2020-06-15",
+      "data_source": "multiple lenders, banks, and credit unions data feeds",
+      "features": "interactive graphs, rate alerts, personalized rate analysis",
+      "target_users": "home buyers, financial advisors, refinancing homeowners",
+      "availability": "web and mobile platforms",
+      "developer_team_size": 4,
+      "average_user_rating": 4.7,
+      "premium_version": true
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "provides",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "offers",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "facilitates",
+      "o": "e3"
+    },
+    {
+      "s": "p1",
+      "p": "advises",
+      "o": "e4"
+    },
+    {
+      "s": "p1",
+      "p": "maintains",
+      "o": "e5"
+    },
+    {
+      "s": "p1",
+      "p": "develops",
+      "o": "e6"
+    },
+    {
+      "s": "p1",
+      "p": "creates",
+      "o": "e7"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "e8"
+    },
+    {
+      "s": "p1",
+      "p": "works_with",
+      "o": "e9"
+    },
+    {
+      "s": "p1",
+      "p": "focuses_on",
+      "o": "e10"
+    },
+    {
+      "s": "p2",
+      "p": "receives_advice_from",
+      "o": "p1"
+    },
+    {
+      "s": "p3",
+      "p": "is_client_of",
+      "o": "p1"
+    },
+    {
+      "s": "p4",
+      "p": "is_client_of",
+      "o": "p1"
+    },
+    {
+      "s": "p5",
+      "p": "is_part_of",
+      "o": "e10"
+    },
+    {
+      "s": "p6",
+      "p": "receives_guidance_from",
+      "o": "p1"
+    },
+    {
+      "s": "p7",
+      "p": "seeks_assistance_from",
+      "o": "p1"
+    },
+    {
+      "s": "p8",
+      "p": "consults",
+      "o": "p1"
+    },
+    {
+      "s": "e1",
+      "p": "assists_with",
+      "o": "e10"
+    },
+    {
+      "s": "e2",
+      "p": "targets",
+      "o": "e10"
+    },
+    {
+      "s": "e5",
+      "p": "contains",
+      "o": "p2"
+    },
+    {
+      "s": "e5",
+      "p": "contains",
+      "o": "p3"
+    },
+    {
+      "s": "e8",
+      "p": "includes",
+      "o": "e18"
+    },
+    {
+      "s": "e9",
+      "p": "provides",
+      "o": "e19"
+    },
+    {
+      "s": "e16",
+      "p": "supports",
+      "o": "e4"
+    },
+    {
+      "s": "e18",
+      "p": "offers",
+      "o": "e20"
+    }
+  ]
+}

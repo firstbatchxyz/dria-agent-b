@@ -1,0 +1,46 @@
+{
+  "user_md": "# Eleanor\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Eleanor\n- **Last Name**: Johnson\n- **Age**: 78\n- **Residence Type**: apartment\n- **Health Condition**: early-stage Alzheimer's\n- **Favorite Hobby**: knitting\n- **Daily Routine**: morning walk\n- **Birthplace**: Boston, Massachusetts\n- **Previous Occupation**: school teacher\n- **Pet**: Golden Retriever named Max\n\n## Relationships\n- **Visits**: [[sarah.md]]\n- **Contact Of**: [[sarah.md]]\n- **Provides Services To**: [[maria.md]]\n- **Lives In**: [[eleanor's_apartment.md]]\n- **Uses**: [[emergency_contact_list.md]]",
+  "entities": [
+    {
+      "entity_name": "sarah",
+      "entity_file_path": "entities/sarah.md",
+      "entity_file_content": "# Sarah Johnson\n\n## Basic Information\n- **Type**: Person\n- **Age**: 54\n- **Occupation**: social worker\n- **Hobby**: photography\n- **Residence City**: Boston\n- **Volunteer Activities**: local food bank\n- **Pets**: two cats named Luna and Bella\n- **Favorite Book**: Pride and Prejudice by Jane Austen\n- **Favorite Cuisine**: Italian\n- **Weekly Exercise Routine**: yoga and jogging\n- **Education**: Master's degree in Psychology\n- **Preferred Contact Method**: email\n\n## Relationships\n- **Visits**: [[eleanor.md]]\n- **Contact Of**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "maria",
+      "entity_file_path": "entities/maria.md",
+      "entity_file_content": "# Maria\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Maria\n- **Last Name**: Lopez\n- **Age**: 42\n- **Birthplace**: San Jos\u00e9, Costa Rica\n- **Years Of Experience**: 15\n- **Education**: Nursing Diploma\n- **Languages Spoken**: Spanish, English\n- **Hobbies**: Gardening\n- **Favorite Food**: Ceviche\n- **Pets**: Parrot named Pepito\n\n## Relationships\n- **Provides Services To**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "eleanor's_apartment",
+      "entity_file_path": "entities/eleanor's_apartment.md",
+      "entity_file_content": "# Eleanor's Apartment\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Location**: Boston, Massachusetts\n- **Apartment Size**: 2-bedroom\n- **Floor Number**: 3\n- **Accessibility Features**: ramp, elevator\n- **Nearby Amenities**: park, grocery store, library\n- **Has Balcony**: True\n- **Interior Theme**: cozy cottage\n- **Year Built**: 1985\n- **Pet Friendly**: True\n- **Security Features**: 24-hour surveillance\n\n## Relationships\n- **Lives In**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "reminder_system",
+      "entity_file_path": "entities/reminder_system.md",
+      "entity_file_content": "# Reminder System\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Reminder Type**: Digital Calendar\n- **Usage Frequency**: daily\n- **User Customization**: True\n- **Visual Display**: high contrast mode for visibility\n- **Audio Reminders**: voice notifications\n- **Device Sync**: synchronizes with smartphone\n- **Battery Life**: long-lasting\n- **Brand**: MemoTech\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "medication_organizer",
+      "entity_file_path": "entities/medication_organizer.md",
+      "entity_file_content": "# Medication Organizer\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Color**: blue\n- **Compartments**: 7\n- **Material**: plastic\n- **Reminder Type**: sound\n- **Battery Life Days**: 30\n- **Size**: compact\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "family_photo_album",
+      "entity_file_path": "entities/family_photo_album.md",
+      "entity_file_content": "# Family Photo Album\n\n## Basic Information\n- **Entity Type**: Object\n- **Type**: Entity\n- **Number Of Photos**: 50\n- **Themes**: birthdays, weddings, vacations\n- **Oldest Photo Year**: 1945\n- **Materials**: leather-bound with acid-free paper\n- **Primary Photographer**: Husband, Richard Johnson\n- **Remarks**: Contains handwritten notes with dates and names\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "appointment_calendar",
+      "entity_file_path": "entities/appointment_calendar.md",
+      "entity_file_content": "# Appointment Calendar\n\n## Basic Information\n- **Entity Type**: Tool\n- **Type**: Entity\n- **Calendar Type**: digital\n- **Sync With Family**: True\n- **Color Coded**: True\n- **Reminder Alerts**: enabled\n- **Notes Section**: True\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    },
+    {
+      "entity_name": "emergency_contact_list",
+      "entity_file_path": "entities/emergency_contact_list.md",
+      "entity_file_content": "# Emergency Contact List\n\n## Basic Information\n- **Entity Type**: Document\n- **Type**: Entity\n- **Creation Date**: January 15, 2023\n- **Last Updated**: October 1, 2023\n- **Format**: PDF\n- **Accessibility Features**: large print, voice-assist commands\n- **Storage Location**: kitchen drawer\n- **Emergency Category**: medical emergencies, severe weather situations\n\n## Relationships\n- **Uses**: [[eleanor.md]]"
+    }
+  ],
+  "mem_id": "memory_d8ce94811ed04aef8dd92f6613b81f56"
+}

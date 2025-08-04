@@ -1,0 +1,283 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Software Developer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What company do I work for?",
+      "a": "Tech Solutions Inc."
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's in Computer Science from MIT"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Playing the guitar and photography"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and French"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Teaching coding to underprivileged youth"
+    },
+    {
+      "q": "What is my career goal?",
+      "a": "To become a lead developer in a major tech company"
+    },
+    {
+      "q": "What is my favorite technology?",
+      "a": "Artificial Intelligence"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Code is like humor. When you have to explain it, it's bad."
+    },
+    {
+      "q": "Who is my mentor?",
+      "a": "John Doe, senior software architect"
+    },
+    {
+      "q": "What is my family situation?",
+      "a": "Married with two children"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the occupation of the person I consult?"
+      ],
+      "a": "Independent Financial Planner",
+      "attribute": "occupation=Independent Financial Planner",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the years of experience of the person I consult?"
+      ],
+      "a": "12",
+      "attribute": "years of experience=12",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the education of the person I consult?"
+      ],
+      "a": "Bachelor's in Finance from Columbia University",
+      "attribute": "education=Bachelor's in Finance from Columbia University",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the certifications of the person I consult?"
+      ],
+      "a": "Certified Financial Planner (CFP)",
+      "attribute": "certifications=Certified Financial Planner (CFP)",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I consult?"
+      ],
+      "a": "Reading mystery novels and hiking",
+      "attribute": "hobbies=Reading mystery novels and hiking",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What are the languages spoken by the person I consult?"
+      ],
+      "a": "English and Spanish",
+      "attribute": "languages spoken=English and Spanish",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the volunteer work of the person I consult?"
+      ],
+      "a": "Financial literacy workshops at local community centers",
+      "attribute": "volunteer work=Financial literacy workshops at local community centers",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the client specialization of the person I consult?"
+      ],
+      "a": "Families with young children",
+      "attribute": "client specialization=Families with young children",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the office location of the person I consult?"
+      ],
+      "a": "Chicago, IL",
+      "attribute": "office location=Chicago, IL",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the phone contact of the person I consult?"
+      ],
+      "a": "312-555-0134",
+      "attribute": "phone contact=312-555-0134",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the email contact of the person I consult?"
+      ],
+      "a": "jennifer.smith@finplanner.com",
+      "attribute": "email contact=jennifer.smith@finplanner.com",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the website of the person I consult?"
+      ],
+      "a": "www.jennifersmithfinancial.com",
+      "attribute": "website=www.jennifersmithfinancial.com",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the personal goal of the person I consult?"
+      ],
+      "a": "To empower 1,000 families to achieve financial independence by 2025",
+      "attribute": "personal goal=To empower 1,000 families to achieve financial independence by 2025",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "What is the favorite quote of the person I consult?"
+      ],
+      "a": "\"Failing to plan is planning to fail.\" - Alan Lakein",
+      "attribute": "favorite quote=\"Failing to plan is planning to fail.\" - Alan Lakein",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    },
+    {
+      "q": [
+        "Who are the mentors of the person I consult?"
+      ],
+      "a": "Worked under Sarah Johnson, a renowned financial advisor, for 5 years",
+      "attribute": "mentors=Worked under Sarah Johnson, a renowned financial advisor, for 5 years",
+      "path": "Ethan Garcia -> Jennifer Smith"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of service that the person I consult with provides?",
+      "a": "service",
+      "attribute": "entity type=service",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the primary features of the service that the person I consult with provides?",
+      "a": "Expense tracking, savings goal setting, bill reminders",
+      "attribute": "primary features=Expense tracking, savings goal setting, bill reminders",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the user friendliness of the service that the person I consult with provides?",
+      "a": "High, designed for non-expert users",
+      "attribute": "user friendliness=High, designed for non-expert users",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the integration capabilities of the service that the person I consult with provides?",
+      "a": "Compatible with various bank APIs",
+      "attribute": "integration capabilities=Compatible with various bank APIs",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the security features of the service that the person I consult with provides?",
+      "a": "Two-factor authentication, data encryption",
+      "attribute": "security features=Two-factor authentication, data encryption",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "Does the service that the person I consult with provides have a mobile app?",
+      "a": "True",
+      "attribute": "mobile app=True",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the price model of the service that the person I consult with provides?",
+      "a": "Freemium with premium subscription options",
+      "attribute": "price model=Freemium with premium subscription options",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What kind of customer support does the service that the person I consult with provides offer?",
+      "a": "24/7 helpline and chat support available",
+      "attribute": "customer support=24/7 helpline and chat support available",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the core technology of the service that the person I consult with provides?",
+      "a": "AI-driven personalized recommendations",
+      "attribute": "core technology=AI-driven personalized recommendations",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the initial release year of the service that the person I consult with provides?",
+      "a": "2015",
+      "attribute": "initial release year=2015",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What are the usage statistics of the service that the person I consult with provides?",
+      "a": "Used by over 10,000 families monthly",
+      "attribute": "usage statistics=Used by over 10,000 families monthly",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - provides-> Budgeting Tools"
+    },
+    {
+      "q": "What is the type of financial product that the person I consult with offers?",
+      "a": "financial_product",
+      "attribute": "entity type=financial_product",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What are the eligibility requirements for the financial product that the person I consult with offers?",
+      "a": "Must have a minimum annual income of $30,000",
+      "attribute": "eligibility requirements=Must have a minimum annual income of $30,000",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the annual fee for the financial product that the person I consult with offers?",
+      "a": "0.75",
+      "attribute": "annual fee=0.75",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What are the tax advantages of the financial product that the person I consult with offers?",
+      "a": "Tax-free growth and withdrawals for qualified educational expenses",
+      "attribute": "tax advantages=Tax-free growth and withdrawals for qualified educational expenses",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the maximum contribution limit for the financial product that the person I consult with offers?",
+      "a": "11500",
+      "attribute": "maximum contribution limit=11500",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "What is the flexibility of the financial product that the person I consult with offers?",
+      "a": "Can be used at any accredited college or university in the US",
+      "attribute": "flexibility=Can be used at any accredited college or university in the US",
+      "path": "Ethan Garcia - consults -> Jennifer Smith - offers-> College Savings Plan"
+    },
+    {
+      "q": "Is the financial product that the person I consult with offers state sponsored?",
+      "a": "False",
+      "attribute": "state sponsored=False"
+    }
+  ]
+}

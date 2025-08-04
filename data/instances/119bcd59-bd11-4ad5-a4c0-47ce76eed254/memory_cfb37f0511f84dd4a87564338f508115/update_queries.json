@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and Mandarin now, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: ASE Certified\n\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Customer Satisfaction Rating**: 4.8\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really enjoying practicing my Mandarin with my new colleagues from Beijing, along with my usual English and Spanish conversations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: ASE Certified\n\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Mandarin\n\n - **Customer Satisfaction Rating**: 4.8\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my customer satisfaction rating in the system - it should reflect 4.9 instead of the current 4.8 rating.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n - **Languages Spoken**: English, Spanish\n\n-- **Customer Satisfaction Rating**: 4.8\n\n+- **Customer Satisfaction Rating**: 4.9\n\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n"
+    },
+    {
+      "query": "I'm really proud that we've managed to improve our customer satisfaction rating to 4.9 through our recent service enhancements and staff training initiatives.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n - **Languages Spoken**: English, Spanish\n\n-- **Customer Satisfaction Rating**: 4.8\n\n+- **Customer Satisfaction Rating**: 4.9\n\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and French now, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: ASE Certified\n\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Customer Satisfaction Rating**: 4.8\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really enjoying using my French language skills lately, especially since adding it to my repertoire alongside English and Spanish for my international consulting work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: ASE Certified\n\n - **Hobbies**: DIY automotive repairs, hiking, and gourmet cooking\n\n - **Favorite Tool**: Torque Wrench\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Customer Satisfaction Rating**: 4.8\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my specialization in the system - I've transitioned from working on Brake Systems to specializing in Electric Vehicle Charging Infrastructure.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[brake_systems.md]]\n+- **Specializes_In**: [[electric_vehicle_charging_infrastructure.md]]\n\n===entities/electric_vehicle_charging_infrastructure.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Electric Vehicle Charging Infrastructure\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical specialization\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[alice_monroe.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new focus on Electric Vehicle Charging Infrastructure - it's such an exciting and rapidly evolving field compared to my previous work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[brake_systems.md]]\n+- **Specializes_In**: [[electric_vehicle_charging_infrastructure.md]]\n\n===entities/electric_vehicle_charging_infrastructure.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Electric Vehicle Charging Infrastructure\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical specialization\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[alice_monroe.md]]\n"
+    },
+    {
+      "query": "I need to update my specialization in the system - I've transitioned from working with Brake Systems to focusing on Electric Vehicle Charging Infrastructure.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[brake_systems.md]]\n+- **Specializes_In**: [[electric_vehicle_charging_infrastructure.md]]\n\n===entities/electric_vehicle_charging_infrastructure.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Electric Vehicle Charging Infrastructure\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical specialty\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[alice_monroe.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work on Electric Vehicle Charging Infrastructure lately, it's such an exciting field with all the innovations happening in sustainable transportation.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[brake_systems.md]]\n+- **Specializes_In**: [[electric_vehicle_charging_infrastructure.md]]\n\n===entities/electric_vehicle_charging_infrastructure.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Electric Vehicle Charging Infrastructure\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical specialty\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[alice_monroe.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the brake system provider information in my profile - we're no longer working with Johnston's Brake Solutions and have switched to Premium Auto Components as our new supplier.",
+      "diff": "===entities/brake_systems.md===\n\n===entities/premium_auto_components.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Premium Auto Components\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: automotive supplier\n\n+\n\n+## Relationships\n\n+- **Provider**: [[brake_systems.md]]\n"
+    },
+    {
+      "query": "I'm really impressed with the quality and reliability we've been getting from Premium Auto Components for our brake system needs - they've been an excellent partner for our operations.",
+      "diff": "===entities/brake_systems.md===\n\n===entities/premium_auto_components.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Premium Auto Components\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: automotive supplier\n\n+\n\n+## Relationships\n\n+- **Provider**: [[brake_systems.md]]\n"
+    }
+  ]
+}

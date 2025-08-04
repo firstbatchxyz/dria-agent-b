@@ -1,0 +1,31 @@
+{
+  "user_md": "# Matthew Lee\n\n## Basic Information\n- **Type**: Person\n- **Age**: 76\n- **Favorite Music Genre**: classical\n- **Hobby**: gardening\n- **Room Number**: 215\n- **Dietary Preference**: low-sodium\n- **Previous Occupation**: engineer\n- **Pet Therapy Preference**: cats\n- **Family Visits Frequency**: biweekly\n- **Native Language**: English\n\n## Relationships\n- **Supports**: [[cognitive_support_team.md]]\n- **Shares**: [[joshua_white.md]]\n- **Facilitates**: [[personal_belongings_sharing_program.md]]\n- **Attends**: [[mealtime_gathering.md]]",
+  "entities": [
+    {
+      "entity_name": "cognitive_support_team",
+      "entity_file_path": "entities/cognitive_support_team.md",
+      "entity_file_content": "# Cognitive Support Team\n\n## Basic Information\n- **Entity Type**: Group\n- **Type**: Entity\n- **Team Size**: 12\n- **Specialization**: dementia care\n- **Average Years Of Experience**: 15\n- **Training Programs**: annual dementia care workshop\n- **Team Motto**: Caring with Compassion\n\n## Relationships\n- **Supports**: [[matthew_lee.md]]"
+    },
+    {
+      "entity_name": "eleanor_johnson",
+      "entity_file_path": "entities/eleanor_johnson.md",
+      "entity_file_content": "# Eleanor Johnson\n\n## Basic Information\n- **Type**: Person\n- **Age**: 82\n- **Favorite Music Genre**: jazz\n- **Hobby**: watercolor painting\n- **Room Number**: 204\n- **Dietary Preference**: vegetarian\n- **Previous Occupation**: high school teacher\n- **Pet Therapy Preference**: dogs\n- **Family Visits Frequency**: weekly\n- **Native Language**: English\n\n## Relationships\n- **Shares**: [[matthew_lee.md]]"
+    },
+    {
+      "entity_name": "personal_belongings_sharing_program",
+      "entity_file_path": "entities/personal_belongings_sharing_program.md",
+      "entity_file_content": "# Personal Belongings Sharing Program\n\n## Basic Information\n- **Entity Type**: Initiative\n- **Type**: Entity\n- **Goal**: To promote social interaction and cognitive engagement among residents.\n- **Start Date**: 2021-09-15\n- **Frequency**: Weekly\n- **Facilitator Name**: Jessica Brown\n- **Participation Rate**: 0.85\n\n## Relationships\n- **Facilitates**: [[matthew_lee.md]]"
+    },
+    {
+      "entity_name": "mealtime_gathering",
+      "entity_file_path": "entities/mealtime_gathering.md",
+      "entity_file_content": "# Mealtime Gathering\n\n## Basic Information\n- **Entity Type**: Routine\n- **Type**: Entity\n- **Schedule**: 12:30 PM daily\n- **Common Activities**: storytelling, music listening, and nutritional games\n- **Menu Rotation**: biweekly\n- **Guest Policy**: family members welcome with prior notice\n- **Average Duration**: 1.5 hours\n- **Nutritionist Approval**: True\n- **Ambiance**: soothing music and dim lighting\n\n## Relationships\n- **Attends**: [[matthew_lee.md]]"
+    },
+    {
+      "entity_name": "joshua_white",
+      "entity_file_path": "entities/joshua_white.md",
+      "entity_file_content": "# Joshua White\n\n## Basic Information\n- **Type**: Person\n- **Age**: 82\n- **Favorite Music Genre**: jazz\n- **Hobby**: painting\n- **Room Number**: 220\n- **Dietary Preference**: vegetarian\n- **Previous Occupation**: history_teacher\n- **Pet Therapy Preference**: dogs\n- **Family Visits Frequency**: monthly\n- **Native Language**: Spanish\n- **Favourite Tv Show**: Antique Roadshow\n- **Daily Walking Distance**: 2.5\n- **Favorite Color**: blue\n\n## Relationships\n- **Shares**: [[matthew_lee.md]]"
+    }
+  ],
+  "mem_id": "memory_1612b07c07e3485083756c46bd61afac"
+}

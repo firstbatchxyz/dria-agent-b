@@ -1,0 +1,21 @@
+{
+  "user_md": "# Emma Chen\n\n## Basic Information\n- **Type**: Person\n- **Role**: Installation Support Specialist\n- **Experience Years**: 5\n- **Languages Spoken**: English, Mandarin\n- **Certifications**: Certified Smart Appliance Technician\n- **Specialty Area**: Dishwasher Installation and Troubleshooting\n- **Office Location**: Seattle, WA\n- **Hobbies**: Baking, Reading Sci-Fi\n- **Education**: B.Sc. in Electrical Engineering\n\n## Relationships\n- **Assisted_By**: [[dishwasheasy_installation_manual.md]]\n- **Coordinates_With**: [[field_technician_coordination_unit.md]]",
+  "entities": [
+    {
+      "entity_name": "dishwasheasy_installation_manual",
+      "entity_file_path": "entities/dishwasheasy_installation_manual.md",
+      "entity_file_content": "# DishWashEasy Installation Manual\n\n## Basic Information\n- **Entity Type**: manual\n- **Type**: Entity\n- **Version**: v1.2\n- **Release Date**: 2023-01-15\n- **Supported Models**: DWE-X100, DWE-X110, DWE-X120\n- **Language**: English\n- **Number Of Pages**: 45\n- **Electronic Format**: PDF\n- **Table Of Contents**: True\n- **Illustrations Included**: True\n- **Disclaimer**: TechHome is not responsible for damages resulting from improper installation.\n- **Customer Feedback Rating**: 4.7\n\n## Relationships\n- **Assisted_By**: [[emma_chen.md]]"
+    },
+    {
+      "entity_name": "field_technician_coordination_unit",
+      "entity_file_path": "entities/field_technician_coordination_unit.md",
+      "entity_file_content": "# Field Technician Coordination Unit\n\n## Basic Information\n- **Entity Type**: coordination_unit\n- **Type**: Entity\n- **Number Of Technicians**: 25\n- **Coverage Area**: Pacific Northwest\n- **Primary Services**: Field technician scheduling and deployment\n- **Response Time**: 2-4 hours\n- **Office Hours**: Monday to Friday, 8 AM to 6 PM PST\n- **Contact Method**: phone, email, internal messaging system\n- **Communication Tools**: VoIP, CRM systems\n- **Manager Name**: Jordan Smith\n- **Annual Training Budget**: 50000\n- **Recently Completed Projects**: Smart Fridge Installations, Oven Maintenance Campaign\n\n## Relationships\n- **Coordinates_With**: [[emma_chen.md]]"
+    },
+    {
+      "entity_name": "product_engineer_liaison_team",
+      "entity_file_path": "entities/product_engineer_liaison_team.md",
+      "entity_file_content": "# Product Engineer Liaison Team\n\n## Basic Information\n- **Entity Type**: liaison_team\n- **Type**: Entity\n- **Team Size**: 10\n- **Focus Areas**: appliance design feedback, defect analysis, product improvement suggestions\n- **Average Response Time**: 48 hours\n- **Key Projects**: Smart Appliance Integration, Warranty Process Optimization\n- **Lead Engineers**: Ava Thompson, Miguel Hernandez\n- **Established Year**: 2015\n\n## Relationships\n- **Collaborates_With**: [[field_technician_coordination_unit.md]]"
+    }
+  ],
+  "mem_id": "memory_37718e698d8f487f8559dcf5793f4305"
+}

@@ -1,0 +1,276 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Marcus Smith"
+    },
+    {
+      "q": "What is my preferred name?",
+      "a": "Marc"
+    },
+    {
+      "q": "What is my age?",
+      "a": "32"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Accessibility Consultant"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Playing Chess, Listening to Audio Books"
+    },
+    {
+      "q": "What is my favorite cuisine?",
+      "a": "Thai"
+    },
+    {
+      "q": "Do I have a pet?",
+      "a": "Guide Dog"
+    },
+    {
+      "q": "What is my communication preference?",
+      "a": "Email and Text"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Advocacy for the Visually Impaired"
+    },
+    {
+      "q": "What recent award did I receive?",
+      "a": "Local Hero Award for Community Service"
+    },
+    {
+      "q": "What languages do I know?",
+      "a": "English, Braille, Basic Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of screen reader that I use?"
+      ],
+      "a": "Screen Reader",
+      "attribute": "entity type=Screen Reader",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "Who is the developer of the screen reader that I use?"
+      ],
+      "a": "TechAccessibility Inc.",
+      "attribute": "developer=TechAccessibility Inc.",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What is the primary function of the screen reader that I use?"
+      ],
+      "a": "Text-to-speech conversion for visually impaired users",
+      "attribute": "primary function=Text-to-speech conversion for visually impaired users",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What languages are supported by the screen reader that I use?"
+      ],
+      "a": "English, Spanish, French, German",
+      "attribute": "languages supported=English, Spanish, French, German",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What platforms is the screen reader that I use compatible with?"
+      ],
+      "a": "Windows, MacOS, iOS, Android",
+      "attribute": "platform compatibility=Windows, MacOS, iOS, Android",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What is the version number of the screen reader that I use?"
+      ],
+      "a": "5.2.0",
+      "attribute": "version number=5.2.0",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "When was the screen reader that I use last updated?"
+      ],
+      "a": "2023-08-14",
+      "attribute": "recent update=2023-08-14",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What is the license type of the screen reader that I use?"
+      ],
+      "a": "GPL",
+      "attribute": "license type=GPL",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "True or false: Does the screen reader that I use support Braille displays?"
+      ],
+      "a": "True",
+      "attribute": "supports Braille displays=True",
+      "path": "Marcus Smith -> SightAssist"
+    },
+    {
+      "q": [
+        "What is the type of Braille device that I use?"
+      ],
+      "a": "Braille Display",
+      "attribute": "entity type=Braille Display",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the Braille device that I use?"
+      ],
+      "a": "Sensory Innovations Co.",
+      "attribute": "manufacturer=Sensory Innovations Co.",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "What is the model of the Braille device that I use?"
+      ],
+      "a": "B-Dream Series X1",
+      "attribute": "model=B-Dream Series X1",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "What year was the Braille device that I use released?"
+      ],
+      "a": "2022",
+      "attribute": "release year=2022",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "What material is the Braille device that I use made of?"
+      ],
+      "a": "Durable ABS Plastic with Rubber Grip",
+      "attribute": "material=Durable ABS Plastic with Rubber Grip",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "What is the battery life of the Braille device that I use?"
+      ],
+      "a": "15 hours",
+      "attribute": "battery life=15 hours",
+      "path": "Marcus Smith -> BrailleTech"
+    },
+    {
+      "q": [
+        "What connectivity options does the Braille device that I use have?"
+      ],
+      "a": "Bluetooth and USB",
+      "attribute": "connectivity=Bluetooth and USB",
+      "path": "Marcus Smith -> BrailleTech"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of professional is employed by the training center where I receive training?",
+      "a": "Guide Dog Trainer",
+      "attribute": "entity type=Guide Dog Trainer",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "How many years of experience does the trainer employed by the training center where I receive training have?",
+      "a": "15",
+      "attribute": "years of experience=15",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What certifications does the trainer employed by the training center where I receive training hold?",
+      "a": "Certified Master Dog Trainer",
+      "attribute": "certifications=Certified Master Dog Trainer",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What are the specialties of the trainer employed by the training center where I receive training?",
+      "a": "Puppies, Behavioral Issues, Advanced Guide Dog Training",
+      "attribute": "specialties=Puppies, Behavioral Issues, Advanced Guide Dog Training",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What training philosophy does the trainer employed by the training center where I receive training follow?",
+      "a": "Positive Reinforcement",
+      "attribute": "training philosophy=Positive Reinforcement",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What languages are spoken by the trainer employed by the training center where I receive training?",
+      "a": "English, Spanish",
+      "attribute": "languages spoken=English, Spanish",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What are the personal interests of the trainer employed by the training center where I receive training?",
+      "a": "Hiking, Photography",
+      "attribute": "personal interests=Hiking, Photography",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What awards has the trainer employed by the training center where I receive training received?",
+      "a": "Trainer of the Year 2020",
+      "attribute": "awards=Trainer of the Year 2020",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What is the work email of the trainer employed by the training center where I receive training?",
+      "a": "john.willis@gdtrainingcenter.org",
+      "attribute": "work email=john.willis@gdtrainingcenter.org",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What volunteer activities does the trainer employed by the training center where I receive training participate in?",
+      "a": "Animal Therapy Programs at Local Hospitals",
+      "attribute": "volunteer activities=Animal Therapy Programs at Local Hospitals",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What publications has the trainer employed by the training center where I receive training contributed to?",
+      "a": "Contributed articles to Guide Dogs International Journal",
+      "attribute": "publications=Contributed articles to Guide Dogs International Journal",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> John Willis"
+    },
+    {
+      "q": "What type of instructor is employed by the training center where I receive training?",
+      "a": "Mobility Instructor",
+      "attribute": "entity type=Mobility Instructor",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> Melinda Carter"
+    },
+    {
+      "q": "What is the specialization of the mobility instructor employed by the training center where I receive training?",
+      "a": "Orientation and Mobility (O&M) for the Visually Impaired",
+      "attribute": "specialization=Orientation and Mobility (O&M) for the Visually Impaired",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> Melinda Carter"
+    },
+    {
+      "q": "What certification does the mobility instructor employed by the training center where I receive training hold?",
+      "a": "Certified Orientation and Mobility Specialist (COMS)",
+      "attribute": "certification=Certified Orientation and Mobility Specialist (COMS)",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> Melinda Carter"
+    },
+    {
+      "q": "How many years of experience does the mobility instructor employed by the training center where I receive training have?",
+      "a": "12",
+      "attribute": "experience years=12",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> Melinda Carter"
+    },
+    {
+      "q": "What educational background does the mobility instructor employed by the training center where I receive training have?",
+      "a": "Master's in Rehabilitation Counseling",
+      "attribute": "educational background=Master's in Rehabilitation Counseling",
+      "path": "Marcus Smith - is trained by -> Guide Dog Training Center - employs-> Melinda Carter"
+    }
+  ]
+}

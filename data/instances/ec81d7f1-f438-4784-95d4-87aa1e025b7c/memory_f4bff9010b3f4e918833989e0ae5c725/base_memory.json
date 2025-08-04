@@ -1,0 +1,61 @@
+{
+  "user_md": "# Mark Johnson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Software Engineer\n- **Location**: Chicago, IL\n- **Hobbies**: Cycling and playing chess\n- **Education**: Master's in Computer Science from MIT\n- **Languages Spoken**: English and French\n- **Volunteer Work**: Teaching coding to underprivileged youth\n- **Favorite Technology**: Blockchain\n- **Personal Goal**: To create software that improves daily life for the visually impaired\n- **Achievements**: Developed a top-rated productivity app\n- **Preferred Working Hours**: Flexible, prefers afternoon shifts\n- **Networking Groups**: Member of the Chicago Tech Innovators\n- **Family Status**: Married with two children\n\n## Relationships\n- **Contains**: [[client_financial_profiles.md]]\n- **Receives_Advice_From**: [[jennifer_smith.md]]",
+  "entities": [
+    {
+      "entity_name": "client_financial_profiles",
+      "entity_file_path": "entities/client_financial_profiles.md",
+      "entity_file_content": "# Client Financial Profiles\n\n## Basic Information\n- **Entity Type**: document\n- **Type**: Entity\n- **Version**: 1.1\n- **Last Updated**: 2023-09-15\n- **Document Format**: PDF\n- **Total Clients**: 125\n- **Confidentiality Level**: High\n- **Storage Location**: Cloud-based server\n- **Backup Schedule**: Weekly every Sunday at 2 AM\n- **Data Encryption Method**: AES-256\n\n## Relationships\n- **Contains**: [[mark_johnson.md]]"
+    },
+    {
+      "entity_name": "jennifer_smith",
+      "entity_file_path": "entities/jennifer_smith.md",
+      "entity_file_content": "# Jennifer Smith\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Independent Financial Planner\n- **Years Of Experience**: 12\n- **Education**: Bachelor's in Finance from Columbia University\n- **Certifications**: Certified Financial Planner (CFP)\n- **Hobbies**: Reading mystery novels and hiking\n- **Languages Spoken**: English and Spanish\n- **Volunteer Work**: Financial literacy workshops at local community centers\n- **Client Specialization**: Families with young children\n- **Office Location**: Chicago, IL\n- **Phone Contact**: 312-555-0134\n- **Email Contact**: jennifer.smith@finplanner.com\n- **Website**: www.jennifersmithfinancial.com\n- **Personal Goal**: To empower 1,000 families to achieve financial independence by 2025\n- **Favorite Quote**: \"Failing to plan is planning to fail.\" - Alan Lakein\n- **Mentors**: Worked under Sarah Johnson, a renowned financial advisor, for 5 years\n\n## Relationships\n- **Receives_Advice_From**: [[mark_johnson.md]]"
+    },
+    {
+      "entity_name": "budgeting_tools",
+      "entity_file_path": "entities/budgeting_tools.md",
+      "entity_file_content": "# Budgeting Tools\n\n## Basic Information\n- **Entity Type**: service\n- **Type**: Entity\n- **Primary Features**: Expense tracking, savings goal setting, bill reminders\n- **User Friendliness**: High, designed for non-expert users\n- **Integration Capabilities**: Compatible with various bank APIs\n- **Security Features**: Two-factor authentication, data encryption\n- **Mobile App**: True\n- **Price Model**: Freemium with premium subscription options\n- **Customer Support**: 24/7 helpline and chat support available\n- **Core Technology**: AI-driven personalized recommendations\n- **Initial Release Year**: 2015\n- **Usage Statistics**: Used by over 10,000 families monthly\n\n## Relationships\n- **Provides**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "college_savings_plan",
+      "entity_file_path": "entities/college_savings_plan.md",
+      "entity_file_content": "# College Savings Plan\n\n## Basic Information\n- **Entity Type**: financial_product\n- **Type**: Entity\n- **Eligibility Requirements**: Must have a minimum annual income of $30,000\n- **Annual Fee**: 0.75\n- **Tax Advantages**: Tax-free growth and withdrawals for qualified educational expenses\n- **Maximum Contribution Limit**: 11500\n- **Flexibility**: Can be used at any accredited college or university in the US\n- **State Sponsored**: False\n- **Investment Options**: Includes international stocks, bond index funds, and domestic equities\n- **Risk Level**: Moderate\n- **Launch Date**: April 2011\n- **Customer Support Hours**: 9am - 6pm Central Time, Monday to Friday\n\n## Relationships\n- **Offers**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "mortgage_refinancing",
+      "entity_file_path": "entities/mortgage_refinancing.md",
+      "entity_file_content": "# Mortgage Refinancing\n\n## Basic Information\n- **Entity Type**: service\n- **Type**: Entity\n- **Popularity Rating**: 4.7\n- **Annual Clients Served**: 320\n- **Service Start Date**: 2011-06-15\n- **Most Common Goal**: Reducing monthly payments\n- **Success Rate Percentage**: 85\n- **Average Client Satisfaction Score**: 4.6\n- **Promotion Credit Programs**: True\n- **Associated Loan Officers**: Works with ABC Loan Agency and Prime Credit Loan Services\n\n## Relationships\n- **Facilitates**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "retirement_planning",
+      "entity_file_path": "entities/retirement_planning.md",
+      "entity_file_content": "# Retirement Planning\n\n## Basic Information\n- **Entity Type**: service\n- **Type**: Entity\n- **Average Consultation Duration**: 1 hour\n- **Customer Satisfaction Score**: 9.2\n- **Service Launch Year**: 2011\n- **Number Of Retirement Plans Created**: 750\n- **Primary Demographic**: Middle-class families\n- **Popular Services**: 401(k) rollover, IRA setup, Pension strategies\n- **Client Testimonials Ratings**: 4.8 stars\n- **Annual Growth Rate**: 15%\n\n## Relationships\n- **Advises**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "investment_tracking_spreadsheets",
+      "entity_file_path": "entities/investment_tracking_spreadsheets.md",
+      "entity_file_content": "# Investment Tracking Spreadsheets\n\n## Basic Information\n- **Entity Type**: document\n- **Type**: Entity\n- **Created Date**: 2020-04-15\n- **Version**: 1.3\n- **Software Used**: Microsoft Excel\n- **Access Permission**: Restricted\n- **Backup Frequency Days**: 7\n- **Number Of Sheets**: 5\n- **Primary User**: Jennifer Smith\n- **Template Name**: Family Financial Planning\n- **Encryption Level**: AES-256\n\n## Relationships\n- **Develops**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "educational_financial_resources",
+      "entity_file_path": "entities/educational_financial_resources.md",
+      "entity_file_content": "# Educational Financial Resources\n\n## Basic Information\n- **Entity Type**: resource\n- **Type**: Entity\n- **Resource Format**: Online courses and e-books\n- **Target Audience**: Middle-class families and young professionals\n- **Topics Covered**: Budgeting, college savings, mortgage guidance, and retirement planning\n- **Accessibility Features**: Text-to-speech functionality and adjustable font sizes\n- **Release Date**: 2022-03-15\n- **Content Creators**: Team of financial experts and educators\n- **Language Options**: Available in English and Spanish\n- **User Engagement**: Interactive quizzes and real-life case studies\n- **Social Media Presence**: YouTube channel \"SmartPlanning with Jen\"\n\n## Relationships\n- **Creates**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "loan_officers_network",
+      "entity_file_path": "entities/loan_officers_network.md",
+      "entity_file_content": "# Loan Officers Network\n\n## Basic Information\n- **Entity Type**: professional_network\n- **Type**: Entity\n- **Founded Year**: 2010\n- **Membership Count**: 125\n- **Headquarters Location**: Chicago, IL\n- **Mission Statement**: To facilitate collaboration and enhance knowledge sharing among loan officers for improved client service.\n- **Primary Focus Areas**: Mortgage loans, refinancing, credit advisory\n- **Annual Conference**: Held in October every year\n- **Online Platform**: LoanNetConnect\n- **Partnership Programs**: Collaborates with financial institutions and educational bodies for enhanced training programs.\n- **Community Service**: Provides free credit counseling sessions for first-time homebuyers.\n\n## Relationships\n- **Collaborates_With**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "insurance_brokers_network",
+      "entity_file_path": "entities/insurance_brokers_network.md",
+      "entity_file_content": "# Insurance Brokers Network\n\n## Basic Information\n- **Entity Type**: professional_network\n- **Type**: Entity\n- **Established Year**: 2005\n- **Headquarters Location**: New York, NY\n- **Number Of Members**: 150\n- **Mission Statement**: To streamline access to quality insurance products and services for financial professionals.\n- **Monthly Newsletter**: The Insurance Insider\n- **Affiliation With Industry Bodies**: National Association of Insurance Commissioners (NAIC)\n\n## Relationships\n- **Works_With**: [[jennifer_smith.md]]"
+    },
+    {
+      "entity_name": "middle-class_families",
+      "entity_file_path": "entities/middle-class_families.md",
+      "entity_file_content": "# Middle-Class Families\n\n## Basic Information\n- **Entity Type**: client_demographic\n- **Type**: Entity\n- **Average Household Income**: 75000\n- **Preferred Communication Channels**: Email and in-person meetings\n- **Main Challenges**: Balancing savings with daily expenses\n- **Financial Education Level**: Moderate\n- **Geographic Distribution**: Suburban and urban areas\n- **Primary Concerns**: Saving for college and retirement\n- **Technology Adoption**: High\n- **Age Demographic**: Families aged 30-50\n\n## Relationships\n- **Focuses_On**: [[jennifer_smith.md]]"
+    }
+  ],
+  "mem_id": "memory_f4bff9010b3f4e918833989e0ae5c725"
+}

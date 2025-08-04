@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification information in the system - I'm no longer a Certified Smart Appliance Technician, I've recently obtained my Certified IoT Systems Engineer certification instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Office Location**: Mumbai Customer Support Center\n\n - **Education**: Bachelor's in Electrical Engineering\n\n - **Languages Spoken**: English, Hindi\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Certified IoT Systems Engineer\n\n - **Favorite Kitchen Appliance**: Smart Oven\n\n - **Hobby**: Cooking with smart gadgets\n\n \n\n"
+    },
+    {
+      "query": "I've been leveraging my expertise as a Certified IoT Systems Engineer to help clients integrate their smart home devices with broader automation networks.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Office Location**: Mumbai Customer Support Center\n\n - **Education**: Bachelor's in Electrical Engineering\n\n - **Languages Spoken**: English, Hindi\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Certified IoT Systems Engineer\n\n - **Favorite Kitchen Appliance**: Smart Oven\n\n - **Hobby**: Cooking with smart gadgets\n\n \n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Senior Support Agent to Team Lead Customer Success.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Senior Support Agent\n\n+- **Job Title**: Team Lead Customer Success\n\n - **Years Of Experience**: 5\n\n - **Specialization**: Advanced Troubleshooting Techniques\n\n - **Office Location**: Mumbai Customer Support Center\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new responsibilities as Team Lead Customer Success, especially mentoring the support team and working on customer retention strategies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Senior Support Agent\n\n+- **Job Title**: Team Lead Customer Success\n\n - **Years Of Experience**: 5\n\n - **Specialization**: Advanced Troubleshooting Techniques\n\n - **Office Location**: Mumbai Customer Support Center\n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Senior Support Agent to Technical Support Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Senior Support Agent\n\n+- **Job Title**: Technical Support Manager\n\n - **Years Of Experience**: 5\n\n - **Specialization**: Advanced Troubleshooting Techniques\n\n - **Office Location**: Mumbai Customer Support Center\n\n"
+    },
+    {
+      "query": "I've been enjoying my new responsibilities as Technical Support Manager, especially mentoring the junior support staff and handling escalated technical issues.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Senior Support Agent\n\n+- **Job Title**: Technical Support Manager\n\n - **Years Of Experience**: 5\n\n - **Specialization**: Advanced Troubleshooting Techniques\n\n - **Office Location**: Mumbai Customer Support Center\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my troubleshooting resource information - I no longer use the AutoChef Troubleshooting Guide and have switched to the SmartKitchen Pro Manual for all my troubleshooting needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Hobby**: Cooking with smart gadgets\n\n \n\n ## Relationships\n\n-- **Troubleshoots_With**: [[autochef_troubleshooting_guide.md]]\n+- **Troubleshoots_With**: [[smartkitchen_pro_manual.md]]\n\n===entities/smartkitchen_pro_manual.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SmartKitchen Pro Manual\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: troubleshooting guide\n\n+\n\n+## Relationships\n\n+- **Troubleshoots_With**: [[rahul_singh.md]]\n"
+    },
+    {
+      "query": "The SmartKitchen Pro Manual has been incredibly helpful for resolving complex appliance issues - it's become my go-to resource for troubleshooting various kitchen equipment problems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Hobby**: Cooking with smart gadgets\n\n \n\n ## Relationships\n\n-- **Troubleshoots_With**: [[autochef_troubleshooting_guide.md]]\n+- **Troubleshoots_With**: [[smartkitchen_pro_manual.md]]\n\n===entities/smartkitchen_pro_manual.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SmartKitchen Pro Manual\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: troubleshooting guide\n\n+\n\n+## Relationships\n\n+- **Troubleshoots_With**: [[rahul_singh.md]]\n"
+    },
+    {
+      "query": "I need to update my troubleshooting documentation - I'm no longer using the AutoChef Troubleshooting Guide and have switched to the SmartKitchen Pro Manual for all my technical issues.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Hobby**: Cooking with smart gadgets\n\n \n\n ## Relationships\n\n-- **Troubleshoots_With**: [[autochef_troubleshooting_guide.md]]\n+- **Troubleshoots_With**: [[smartkitchen_pro_manual.md]]\n\n===entities/smartkitchen_pro_manual.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SmartKitchen Pro Manual\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical_guide\n\n+\n\n+## Relationships\n\n+- **Troubleshoots_With**: [[rahul_singh.md]]\n"
+    },
+    {
+      "query": "The SmartKitchen Pro Manual has been incredibly helpful for resolving the complex appliance integration problems I've been encountering lately.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Hobby**: Cooking with smart gadgets\n\n \n\n ## Relationships\n\n-- **Troubleshoots_With**: [[autochef_troubleshooting_guide.md]]\n+- **Troubleshoots_With**: [[smartkitchen_pro_manual.md]]\n\n===entities/smartkitchen_pro_manual.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SmartKitchen Pro Manual\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical_guide\n\n+\n\n+## Relationships\n\n+- **Troubleshoots_With**: [[rahul_singh.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

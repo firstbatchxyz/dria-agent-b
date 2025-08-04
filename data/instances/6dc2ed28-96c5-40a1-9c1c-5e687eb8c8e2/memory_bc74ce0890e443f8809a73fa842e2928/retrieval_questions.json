@@ -1,0 +1,242 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Susan Emily Carter"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Cashier"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my inventory specialty?",
+      "a": "Paint Supplies"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "High School Diploma"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Paint Mixer"
+    },
+    {
+      "q": "How are my customer relationships?",
+      "a": "excellent"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my personality traits?",
+      "a": "friendly and detail-oriented"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the full name of the person who manages me?"
+      ],
+      "a": "Robert James Johnson",
+      "attribute": "full name=Robert James Johnson",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the role of the person who manages me?"
+      ],
+      "a": "Owner",
+      "attribute": "role=Owner",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "How many years of experience does the person who manages me have?"
+      ],
+      "a": "15",
+      "attribute": "experience years=15",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the technical specialty of the person who manages me?"
+      ],
+      "a": "Power Tools",
+      "attribute": "technical specialty=Power Tools",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person who manages me?"
+      ],
+      "a": "woodworking, hiking",
+      "attribute": "hobbies=woodworking, hiking",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the favorite tool brand of the person who manages me?"
+      ],
+      "a": "DeWalt",
+      "attribute": "favorite tool brand=DeWalt",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the education level of the person who manages me?"
+      ],
+      "a": "Bachelor's degree in Engineering",
+      "attribute": "education=Bachelor's degree in Engineering",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the marital status of the person who manages me?"
+      ],
+      "a": "married",
+      "attribute": "marital status=married",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "How many children does the person who manages me have?"
+      ],
+      "a": "2",
+      "attribute": "children=2",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What is the community involvement of the person who manages me?"
+      ],
+      "a": "Local Chamber of Commerce",
+      "attribute": "community involvement=Local Chamber of Commerce",
+      "path": "Susan Carter -> Bob Johnson"
+    },
+    {
+      "q": [
+        "What type of resource are the people who assist me?"
+      ],
+      "a": "Human Resource",
+      "attribute": "entity type=Human Resource",
+      "path": "Part-time Helpers -> Susan Carter"
+    },
+    {
+      "q": [
+        "What is the shift preference of the people who assist me?"
+      ],
+      "a": "afternoons",
+      "attribute": "shift preference=afternoons",
+      "path": "Part-time Helpers -> Susan Carter"
+    },
+    {
+      "q": [
+        "What is the training level of the people who assist me?"
+      ],
+      "a": "basic hardware knowledge",
+      "attribute": "training level=basic hardware knowledge",
+      "path": "Part-time Helpers -> Susan Carter"
+    },
+    {
+      "q": [
+        "What is the average age of the people who assist me?"
+      ],
+      "a": "28",
+      "attribute": "average age=28",
+      "path": "Part-time Helpers -> Susan Carter"
+    },
+    {
+      "q": [
+        "What are the peak months for the people who assist me?"
+      ],
+      "a": "spring and summer",
+      "attribute": "peak months=spring and summer",
+      "path": "Part-time Helpers -> Susan Carter"
+    },
+    {
+      "q": [
+        "How many years have the people who assist me been employed?"
+      ],
+      "a": "2",
+      "attribute": "years employed=2",
+      "path": "Part-time Helpers -> Susan Carter"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of area is owned by the person who manages me?",
+      "a": "Area",
+      "attribute": "entity type=Area",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What are the dimensions of the office owned by the person who manages me?",
+      "a": "3x4 meters",
+      "attribute": "dimensions=3x4 meters",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What features does the office have that is owned by the person who manages me?",
+      "a": "mahogany desk, ergonomic chair, filing cabinet, large window",
+      "attribute": "features=mahogany desk, ergonomic chair, filing cabinet, large window",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What is the decor style of the office owned by the person who manages me?",
+      "a": "rustic",
+      "attribute": "decor style=rustic",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What technology equipment is in the office owned by the person who manages me?",
+      "a": "desktop computer, printer, video conferencing setup",
+      "attribute": "technology equipment=desktop computer, printer, video conferencing setup",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What are the wall colors of the office owned by the person who manages me?",
+      "a": "light beige with green accents",
+      "attribute": "wall colors=light beige with green accents",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What is the favorite artwork in the office owned by the person who manages me?",
+      "a": "landscape painting on south wall",
+      "attribute": "favorite artwork=landscape painting on south wall",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What miscellaneous items are in the office owned by the person who manages me?",
+      "a": "coffee maker, plant in corner",
+      "attribute": "misc items=coffee maker, plant in corner",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What is the office used for that is owned by the person who manages me?",
+      "a": "strategy meetings, accounting, inventory planning",
+      "attribute": "office use=strategy meetings, accounting, inventory planning",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What year was the office renovated that is owned by the person who manages me?",
+      "a": "2020",
+      "attribute": "renovation year=2020",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    },
+    {
+      "q": "What security measures are in place at the office owned by the person who manages me?",
+      "a": "key card access, CCTV surveillance",
+      "attribute": "security=key card access, CCTV surveillance",
+      "path": "Susan Carter - is managed by -> Bob Johnson - owns-> Owner's Office"
+    }
+  ]
+}

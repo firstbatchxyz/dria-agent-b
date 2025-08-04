@@ -1,0 +1,71 @@
+{
+  "user_md": "# Marcus Smith\n\n## Basic Information\n- **Type**: Person\n- **Preferred Name**: Marc\n- **Age**: 32\n- **Occupation**: Accessibility Consultant\n- **Hobbies**: Playing Chess, Listening to Audio Books\n- **Favorite Cuisine**: Thai\n- **Has Pet**: Guide Dog\n- **Communication Preference**: Email and Text\n- **Volunteer Work**: Advocacy for the Visually Impaired\n- **Recent Award**: Local Hero Award for Community Service\n- **Known Languages**: English, Braille, Basic Spanish\n\n## Relationships\n- **Uses**: [[tactile_solutions.md]]\n- **Is_Assisted_By**: [[alice_grayson.md]]\n- **Coordinates_With**: [[emily_rutherford.md]]\n- **Is_Trained_By**: [[guide_dog_training_center.md]]\n- **Shops_At**: [[walden_grocery_store.md]]\n- **Has_Appointment_At**: [[healthcare_services_clinic.md]]",
+  "entities": [
+    {
+      "entity_name": "sightassist",
+      "entity_file_path": "entities/sightassist.md",
+      "entity_file_content": "# SightAssist\n\n## Basic Information\n- **Entity Type**: Screen Reader\n- **Type**: Entity\n- **Developer**: TechAccessibility Inc.\n- **Primary Function**: Text-to-speech conversion for visually impaired users\n- **Languages Supported**: English, Spanish, French, German\n- **Platform Compatibility**: Windows, MacOS, iOS, Android\n- **Version Number**: 5.2.0\n- **Recent Update**: 2023-08-14\n- **License Type**: GPL\n- **Supports Braille Displays**: True\n\n## Relationships\n- **Uses**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "brailletech",
+      "entity_file_path": "entities/brailletech.md",
+      "entity_file_content": "# BrailleTech\n\n## Basic Information\n- **Entity Type**: Braille Display\n- **Type**: Entity\n- **Manufacturer**: Sensory Innovations Co.\n- **Model**: B-Dream Series X1\n- **Release Year**: 2022\n- **Material**: Durable ABS Plastic with Rubber Grip\n- **Battery Life**: 15 hours\n- **Connectivity**: Bluetooth and USB\n- **Compatibility**: Compatible with major screen reader software\n- **Refresh Rate**: 3200 cells per second\n- **Market Target**: Individuals with visual impairments\n- **Unique Feature**: Voice control capability for hands-free operation\n\n## Relationships\n- **Uses**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "navbuddy",
+      "entity_file_path": "entities/navbuddy.md",
+      "entity_file_content": "# NavBuddy\n\n## Basic Information\n- **Entity Type**: GPS Navigation App\n- **Type**: Entity\n- **Version**: 3.5.1\n- **Primary Function**: Turn-by-turn navigation\n- **Supports Languages**: English, Spanish, French\n- **Accessibility Features**: Voice Guidance, High Contrast Mode, Large Text Support\n- **Supported Platforms**: iOS, Android\n- **Developer**: Wayfinder Technologies\n- **Monthly Active Users**: 1200000\n- **Launch Year**: 2017\n\n## Relationships\n- **Uses**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "voicehelper",
+      "entity_file_path": "entities/voicehelper.md",
+      "entity_file_content": "# VoiceHelper\n\n## Basic Information\n- **Entity Type**: Voice Assistant\n- **Type**: Entity\n- **Version**: 6.5\n- **Primary Function**: Assistive Technology for Visually Impaired Users\n- **Supported Languages**: English, Spanish, Braille Support\n- **Integration Capabilities**: GPS Navigation, Smart Home Devices, Calendar Management\n- **Voice Options**: Multiple Voices Available\n- **Activation Command**: Hey VoiceHelper\n- **Developer**: TechForAll Inc.\n- **Accessibility Features**: Voice Recognition, Speech-to-Text, High Contrast Mode\n- **Platform Availability**: iOS, Android, Windows\n\n## Relationships\n- **Uses**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "tactile_solutions",
+      "entity_file_path": "entities/tactile_solutions.md",
+      "entity_file_content": "# Tactile Solutions\n\n## Basic Information\n- **Entity Type**: Tactile Markers\n- **Type**: Entity\n- **Founding Year**: 2015\n- **Headquarters Location**: New York City\n- **Core Services**: Design and manufacture of tactile markers for visually impaired individuals\n- **Client Base**: Schools, Hospitals, Public Transportation Systems\n- **Partnerships**: Collaborates with design universities for research\n- **Mission Statement**: To enhance accessibility for visually impaired communities through innovative tactile solutions\n- **Number Of Employees**: 45\n- **Notable Projects**: Braille-enhanced Metro Systems in New York\n- **Certifications**: ISO 9001:2015 for Quality Management\n- **Online Presence**: Active social media presence across major platforms\n\n## Relationships\n- **Uses**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "alice_grayson",
+      "entity_file_path": "entities/alice_grayson.md",
+      "entity_file_content": "# Alice Grayson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Occupational Therapist\n- **Age**: 29\n- **Hobbies**: Gardening, Painting, Traveling\n- **Favorite Cuisine**: Italian\n- **Communication Preference**: Phone and Email\n- **Certification**: Certified Low Vision Therapist\n- **Known Languages**: English, French\n- **Volunteer Work**: Community Gardening Projects\n- **Recent Award**: Outstanding Support Award for Accessibility\n- **Education**: Master's Degree in Occupational Therapy\n- **Pet Preferences**: Cats\n\n## Relationships\n- **Is_Assisted_By**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "tom_hargrove",
+      "entity_file_path": "entities/tom_hargrove.md",
+      "entity_file_content": "# Tom Hargrove\n\n## Basic Information\n- **Type**: Person\n- **Age**: 45\n- **Occupation**: Mobility Instructor\n- **Hobbies**: Photography, Hiking\n- **Favorite Cuisine**: Italian\n- **Communication Preference**: Phone\n- **Favorite Book**: The Art of Happiness by Dalai Lama\n- **Volunteer Work**: Teaching Photography to Children\n- **Known Languages**: English, French\n- **Recent Project**: Developing a new tactile navigation training booklet\n- **Recent Award**: Excellence in Mobility Training Award\n\n## Relationships\n- **Coordinates_With**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "emily_rutherford",
+      "entity_file_path": "entities/emily_rutherford.md",
+      "entity_file_content": "# Emily Rutherford\n\n## Basic Information\n- **Type**: Person\n- **Age**: 29\n- **Occupation**: Mobility Instructor\n- **Hobbies**: Hiking, Painting\n- **Favorite Cuisine**: Italian\n- **Known Languages**: English, French, Braille\n- **Education**: Masters in Special Education\n- **Volunteer Work**: Supporting Inclusive Sports Programs\n- **Communication Preference**: Phone Calls\n- **Has Pet**: Cat\n- **Recent Travel Destination**: Florence, Italy\n\n## Relationships\n- **Coordinates_With**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "guide_dog_training_center",
+      "entity_file_path": "entities/guide_dog_training_center.md",
+      "entity_file_content": "# Guide Dog Training Center\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Established Year**: 1992\n- **Training Programs**: Basic, Advanced, Specialized for Visually Impaired\n- **Facilities Available**: Obstacle Courses, Sensory Training Areas, Dormitory for Long-term Courses\n- **Capacity**: 50\n- **Certification**: International Guide Dog Federation\n- **Associated Organizations**: National Federation of the Blind, Assistance Dogs International\n- **Annual Graduates**: 120\n- **Community Outreach Programs**: Free Workshops, School Visits, Public Demonstrations\n- **Location**: Suburban area with access to public transport\n\n## Relationships\n- **Is_Trained_By**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "walden_grocery_store",
+      "entity_file_path": "entities/walden_grocery_store.md",
+      "entity_file_content": "# Walden Grocery Store\n\n## Basic Information\n- **Entity Type**: Retail Location\n- **Type**: Entity\n- **Location**: Downtown\n- **Accessible Parking**: True\n- **Opening Hours**: 8 AM - 9 PM\n- **Customer Service Contact**: 555-1234\n- **Loyalty Program**: Walden Rewards\n- **Has Braille Signage**: True\n- **Manager Name**: Sarah Johnson\n- **Number Of Employees**: 25\n\n## Relationships\n- **Shops_At**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "healthcare_services_clinic",
+      "entity_file_path": "entities/healthcare_services_clinic.md",
+      "entity_file_content": "# Healthcare Services Clinic\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Address**: 123 Maple Street, Springfield\n- **Services Offered**: General Practice, Eye Care, Physical Therapy, and Nutrition Counseling\n- **Contact Email**: info@healthcareclinic.com\n- **Phone Number**: 555-0190\n- **Building Accessibility**: Wheelchair accessible entrance and tactile paving\n- **Operating Hours**: Monday to Friday, 8:00 AM to 6:00 PM\n- **Year Established**: 2005\n- **Popular Programs**: Monthly Wellness Seminars and Vision Health Fair\n- **Number Of Staff**: 25\n- **Affiliated Insurance Partners**: Blue Cross, HealthPlus, MediCare\n\n## Relationships\n- **Has_Appointment_At**: [[marcus_smith.md]]"
+    },
+    {
+      "entity_name": "john_willis",
+      "entity_file_path": "entities/john_willis.md",
+      "entity_file_content": "# John Willis\n\n## Basic Information\n- **Entity Type**: Guide Dog Trainer\n- **Type**: Entity\n- **Years Of Experience**: 15\n- **Certifications**: Certified Master Dog Trainer\n- **Specialties**: Puppies, Behavioral Issues, Advanced Guide Dog Training\n- **Training Philosophy**: Positive Reinforcement\n- **Languages Spoken**: English, Spanish\n- **Personal Interests**: Hiking, Photography\n- **Awards**: Trainer of the Year 2020\n- **Work Email**: john.willis@gdtrainingcenter.org\n- **Volunteer Activities**: Animal Therapy Programs at Local Hospitals\n- **Publications**: Contributed articles to Guide Dogs International Journal\n\n## Relationships\n- **Employs**: [[guide_dog_training_center.md]]"
+    },
+    {
+      "entity_name": "melinda_carter",
+      "entity_file_path": "entities/melinda_carter.md",
+      "entity_file_content": "# Melinda Carter\n\n## Basic Information\n- **Entity Type**: Mobility Instructor\n- **Type**: Entity\n- **Specialization**: Orientation and Mobility (O&M) for the Visually Impaired\n- **Certification**: Certified Orientation and Mobility Specialist (COMS)\n- **Experience Years**: 12\n- **Educational Background**: Master's in Rehabilitation Counseling\n- **Language Skills**: English, Spanish\n- **Teaching Method**: Hands-on experiential learning\n- **Community Involvement**: Organizer of local mobility workshops\n- **Volunteer Work**: Guide at National Federation of the Blind events\n- **Personal Hobbies**: Hiking and playing the flute\n- **Pet Dog**: True\n\n## Relationships\n- **Employs**: [[guide_dog_training_center.md]]"
+    }
+  ],
+  "mem_id": "memory_4665c3e25657464d8a17f25125a00a37"
+}

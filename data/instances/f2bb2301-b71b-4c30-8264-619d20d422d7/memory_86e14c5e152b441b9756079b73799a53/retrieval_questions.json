@@ -1,0 +1,112 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Customer Support Specialist"
+    },
+    {
+      "q": "How many years have I been with the company?",
+      "a": "3"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Smart Oven Troubleshooting"
+    },
+    {
+      "q": "Am I certified in Flavorwave Realignment?",
+      "a": "True"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Hindi"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Bachelor of Science in Consumer Electronics"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Amateur Robotics, Cooking Fusion Cuisine"
+    },
+    {
+      "q": "What is my preferred shift?",
+      "a": "day"
+    },
+    {
+      "q": "What is my customer satisfaction score?",
+      "a": "92.5"
+    },
+    {
+      "q": "What is my professional accolade?",
+      "a": "Employee of the Month - April 2022"
+    },
+    {
+      "q": "Where is my office located?",
+      "a": "3rd Floor, East Wing"
+    },
+    {
+      "q": "Who is my mentor?",
+      "a": "Rajiv Kumar"
+    }
+  ],
+  "1_hop": {
+    "questions": [
+      {
+        "q": [
+          "What is the type of team that I report to?"
+        ],
+        "a": "liaison_team",
+        "attribute": "entity type=liaison_team",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "What is the team size of the group that I report to?"
+        ],
+        "a": "10",
+        "attribute": "team size=10",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "What are the focus areas of the team that I report to?"
+        ],
+        "a": "appliance design feedback, defect analysis, product improvement suggestions",
+        "attribute": "focus areas=appliance design feedback, defect analysis, product improvement suggestions",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "What is the average response time of the team that I report to?"
+        ],
+        "a": "48 hours",
+        "attribute": "average response time=48 hours",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "What are the key projects of the team that I report to?"
+        ],
+        "a": "Smart Appliance Integration, Warranty Process Optimization",
+        "attribute": "key projects=Smart Appliance Integration, Warranty Process Optimization",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "Who are the lead engineers of the team that I report to?"
+        ],
+        "a": "Ava Thompson, Miguel Hernandez",
+        "attribute": "lead engineers=Ava Thompson, Miguel Hernandez",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      },
+      {
+        "q": [
+          "What year was the team that I report to established?"
+        ],
+        "a": "2015",
+        "attribute": "established year=2015",
+        "path": "Sophie Patel -> Product Engineer Liaison Team"
+      }
+    ]
+  }
+}

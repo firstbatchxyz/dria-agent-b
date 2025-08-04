@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my location information in the system - I've moved from Seattle, WA to Portland, OR for a new job opportunity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: Seattle, WA\n\n+- **Location**: Portland, OR\n\n - **Hobbies**: rock climbing\n\n - **Phone Extension**: 1458\n\n - **Last Training**: August 2023\n\n"
+    },
+    {
+      "query": "I'm really enjoying the coffee culture here in Portland, OR - it's quite different from what I was used to back in my previous city.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: Seattle, WA\n\n+- **Location**: Portland, OR\n\n - **Hobbies**: rock climbing\n\n - **Phone Extension**: 1458\n\n - **Last Training**: August 2023\n\n"
+    },
+    {
+      "query": "I need to update my job information in the system - I've been promoted from Senior Support Engineer to Technical Lead for Cloud Infrastructure.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Position**: Senior Support Engineer\n\n+- **Position**: Technical Lead for Cloud Infrastructure\n\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Technical Lead for Cloud Infrastructure, especially working with the development teams on system architecture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Position**: Senior Support Engineer\n\n+- **Position**: Technical Lead for Cloud Infrastructure\n\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n"
+    },
+    {
+      "query": "I need to update my location information in the system - I've recently relocated from Seattle, WA to Portland, OR for a new job opportunity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: Seattle, WA\n\n+- **Location**: Portland, OR\n\n - **Hobbies**: rock climbing\n\n - **Phone Extension**: 1458\n\n - **Last Training**: August 2023\n\n"
+    },
+    {
+      "query": "I'm really enjoying the move to Portland, OR - the Pacific Northwest vibe is similar to Seattle but with its own unique character and amazing food scene.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 8\n\n - **Education**: MSc in Computer Science\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Location**: Seattle, WA\n\n+- **Location**: Portland, OR\n\n - **Hobbies**: rock climbing\n\n - **Phone Extension**: 1458\n\n - **Last Training**: August 2023\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my development tools in the system - I've switched from using the Database Migration Toolkit to CloudSync Migration Suite for all my database operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Last Training**: August 2023\n\n \n\n ## Relationships\n\n-- **Uses**: [[database_migration_toolkit.md]]\n\n - **Executes**: [[data_synchronization_service.md]]\n\n-- **Customizes**: [[custom_workflow_designer.md]]\n+- **Customizes**: [[custom_workflow_designer.md]]\n\n+- **Uses**: [[cloudsync_migration_suite.md]]\n\n===entities/cloudsync_migration_suite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudSync Migration Suite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[marcus_green.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how CloudSync Migration Suite has streamlined my database workflows compared to my previous tools - the cloud-based approach makes everything so much more efficient.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Last Training**: August 2023\n\n \n\n ## Relationships\n\n-- **Uses**: [[database_migration_toolkit.md]]\n\n - **Executes**: [[data_synchronization_service.md]]\n\n-- **Customizes**: [[custom_workflow_designer.md]]\n+- **Customizes**: [[custom_workflow_designer.md]]\n\n+- **Uses**: [[cloudsync_migration_suite.md]]\n\n===entities/cloudsync_migration_suite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudSync Migration Suite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[marcus_green.md]]\n"
+    },
+    {
+      "query": "I need to update my development tools in the system - I've switched from using the Database Migration Toolkit to the new CloudSync Database Manager for all my migration projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Last Training**: August 2023\n\n \n\n ## Relationships\n\n-- **Uses**: [[database_migration_toolkit.md]]\n\n - **Executes**: [[data_synchronization_service.md]]\n\n-- **Customizes**: [[custom_workflow_designer.md]]\n+- **Customizes**: [[custom_workflow_designer.md]]\n\n+- **Uses**: [[cloudsync_database_manager.md]]\n\n===entities/cloudsync_database_manager.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudSync Database Manager\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[marcus_green.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how CloudSync Database Manager has streamlined my database migration workflow compared to my previous tools.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Last Training**: August 2023\n\n \n\n ## Relationships\n\n-- **Uses**: [[database_migration_toolkit.md]]\n\n - **Executes**: [[data_synchronization_service.md]]\n\n-- **Customizes**: [[custom_workflow_designer.md]]\n+- **Customizes**: [[custom_workflow_designer.md]]\n\n+- **Uses**: [[cloudsync_database_manager.md]]\n\n===entities/cloudsync_database_manager.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudSync Database Manager\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[marcus_green.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

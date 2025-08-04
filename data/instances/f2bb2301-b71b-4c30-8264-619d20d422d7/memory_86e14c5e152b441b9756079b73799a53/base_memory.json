@@ -1,0 +1,11 @@
+{
+  "user_md": "# Sophie Patel\n\n## Basic Information\n- **Type**: Person\n- **Position**: Customer Support Specialist\n- **Years With Company**: 3\n- **Specialization**: Smart Oven Troubleshooting\n- **Certified In Flavorwave Realignment**: True\n- **Languages Spoken**: English, Hindi\n- **Education**: Bachelor of Science in Consumer Electronics\n- **Hobbies**: Amateur Robotics, Cooking Fusion Cuisine\n- **Preferred Shift**: day\n- **Customer Satisfaction Score**: 92.5\n- **Professional Accolade**: Employee of the Month - April 2022\n- **Office Location**: 3rd Floor, East Wing\n- **Mentor**: Rajiv Kumar\n\n## Relationships\n- **Reports_To**: [[product_engineer_liaison_team.md]]",
+  "entities": [
+    {
+      "entity_name": "product_engineer_liaison_team",
+      "entity_file_path": "entities/product_engineer_liaison_team.md",
+      "entity_file_content": "# Product Engineer Liaison Team\n\n## Basic Information\n- **Entity Type**: liaison_team\n- **Type**: Entity\n- **Team Size**: 10\n- **Focus Areas**: appliance design feedback, defect analysis, product improvement suggestions\n- **Average Response Time**: 48 hours\n- **Key Projects**: Smart Appliance Integration, Warranty Process Optimization\n- **Lead Engineers**: Ava Thompson, Miguel Hernandez\n- **Established Year**: 2015\n\n## Relationships\n- **Reports_To**: [[sophie_patel.md]]"
+    }
+  ],
+  "mem_id": "memory_86e14c5e152b441b9756079b73799a53"
+}

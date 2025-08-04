@@ -1,0 +1,262 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Customer Service Representative"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "brake systems"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "3"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Mechanical Engineering"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "ASE Certified"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Vietnamese"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "rock climbing, painting"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "digital calipers"
+    },
+    {
+      "q": "What is my work motto?",
+      "a": "Precision and care in every detail."
+    },
+    {
+      "q": "What are my personality traits?",
+      "a": "patient, analytical"
+    },
+    {
+      "q": "What industry did I work in previously?",
+      "a": "automotive repair shop"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the resource that I use?"
+      ],
+      "a": "Resource",
+      "attribute": "entity type=Resource",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What is the primary function of the resource that I use?"
+      ],
+      "a": "vehicle part compatibility verification",
+      "attribute": "primary function=vehicle part compatibility verification",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What is the database type of the resource that I use?"
+      ],
+      "a": "relational database",
+      "attribute": "database type=relational database",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What are the supported systems of the resource that I use?"
+      ],
+      "a": "brake systems, engine components, electrical parts",
+      "attribute": "supported systems=brake systems, engine components, electrical parts",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What is the update frequency of the resource that I use?"
+      ],
+      "a": "weekly",
+      "attribute": "update frequency=weekly",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What is the user interface of the resource that I use?"
+      ],
+      "a": "web-based interface",
+      "attribute": "user interface=web-based interface",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What are the data sources of the resource that I use?"
+      ],
+      "a": "manufacturer specifications, part catalogs, customer feedback",
+      "attribute": "data sources=manufacturer specifications, part catalogs, customer feedback",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What are the customization options of the resource that I use?"
+      ],
+      "a": "advanced search filters, exportable reports",
+      "attribute": "customization options=advanced search filters, exportable reports",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What are the security features of the resource that I use?"
+      ],
+      "a": "data encryption, user access controls",
+      "attribute": "security features=data encryption, user access controls",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What are the training resources of the resource that I use?"
+      ],
+      "a": "online tutorials and FAQs",
+      "attribute": "training resources=online tutorials and FAQs",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What languages are supported by the resource that I use?"
+      ],
+      "a": "English, Spanish, Vietnamese",
+      "attribute": "languages supported=English, Spanish, Vietnamese",
+      "path": "Emily Tran -> Compatibility Databases"
+    },
+    {
+      "q": [
+        "What is the type of the team that employs me?"
+      ],
+      "a": "Team",
+      "attribute": "entity type=Team",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "What is the size of the team that employs me?"
+      ],
+      "a": "15",
+      "attribute": "size of team=15",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "What are the training programs of the team that employs me?"
+      ],
+      "a": "comprehensive customer interaction practices and technical product knowledge training",
+      "attribute": "training programs=comprehensive customer interaction practices and technical product knowledge training",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "What are the customer interaction channels of the team that employs me?"
+      ],
+      "a": "phone, email, live chat",
+      "attribute": "customer interaction channels=phone, email, live chat",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "What is the average response time of the team that employs me?"
+      ],
+      "a": "1 hour",
+      "attribute": "average response time=1 hour",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "What are the key values of the team that employs me?"
+      ],
+      "a": "Customer satisfaction, product knowledge, and swift problem resolution",
+      "attribute": "key values=Customer satisfaction, product knowledge, and swift problem resolution",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    },
+    {
+      "q": [
+        "When is the annual performance review conducted by the team that employs me?"
+      ],
+      "a": "conducted every December",
+      "attribute": "annual performance review=conducted every December",
+      "path": "AutoParts Plus Customer Service Team -> Emily Tran"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of the team that uses the databases I use?",
+      "a": "Team",
+      "attribute": "entity type=Team",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What is the size of the team that uses the databases I use?",
+      "a": "15",
+      "attribute": "size of team=15",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What are the training programs of the team that uses the databases I use?",
+      "a": "comprehensive customer interaction practices and technical product knowledge training",
+      "attribute": "training programs=comprehensive customer interaction practices and technical product knowledge training",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What are the customer interaction channels of the team that uses the databases I use?",
+      "a": "phone, email, live chat",
+      "attribute": "customer interaction channels=phone, email, live chat",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What is the average response time of the team that uses the databases I use?",
+      "a": "1 hour",
+      "attribute": "average response time=1 hour",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What are the key values of the team that uses the databases I use?",
+      "a": "Customer satisfaction, product knowledge, and swift problem resolution",
+      "attribute": "key values=Customer satisfaction, product knowledge, and swift problem resolution",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "When is the annual performance review conducted for the team that uses the databases I use?",
+      "a": "conducted every December",
+      "attribute": "annual performance review=conducted every December",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "How frequently does the team that uses the databases I use hold team meetings?",
+      "a": "weekly",
+      "attribute": "team meetings frequency=weekly",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What team events does the team that uses the databases I use organize?",
+      "a": "monthly team-building activities",
+      "attribute": "team events=monthly team-building activities",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "What is the recognition program of the team that uses the databases I use?",
+      "a": "Employee of the Month",
+      "attribute": "recognition program=Employee of the Month",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    },
+    {
+      "q": "Where is the team that uses the databases I use located?",
+      "a": "Seattle, WA",
+      "attribute": "location=Seattle, WA",
+      "path": "Emily Tran - uses -> Compatibility Databases - used by-> AutoParts Plus Customer Service Team"
+    }
+  ]
+}

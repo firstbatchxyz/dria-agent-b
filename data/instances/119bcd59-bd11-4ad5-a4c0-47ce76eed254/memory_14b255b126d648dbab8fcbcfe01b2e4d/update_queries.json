@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my personality profile in the system - I'm actually more spontaneous and creative rather than patient and analytical as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: rock climbing, painting\n\n - **Favorite Tool**: digital calipers\n\n - **Work Motto**: Precision and care in every detail.\n\n-- **Personality Traits**: patient, analytical\n\n+- **Personality Traits**: spontaneous, creative\n\n - **Previous Industry**: automotive repair shop\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been embracing my spontaneous and creative side lately, which has really helped me approach problems from fresh angles and come up with innovative solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: rock climbing, painting\n\n - **Favorite Tool**: digital calipers\n\n - **Work Motto**: Precision and care in every detail.\n\n-- **Personality Traits**: patient, analytical\n\n+- **Personality Traits**: spontaneous, creative\n\n - **Previous Industry**: automotive repair shop\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've moved away from rock climbing and painting, and now I'm really into urban sketching and photography.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certifications**: ASE Certified\n\n - **Languages Spoken**: English, Vietnamese\n\n-- **Hobbies**: rock climbing, painting\n\n+- **Hobbies**: urban sketching, photography\n\n - **Favorite Tool**: digital calipers\n\n - **Work Motto**: Precision and care in every detail.\n\n - **Personality Traits**: patient, analytical\n\n"
+    },
+    {
+      "query": "I spent the entire weekend doing urban sketching and photography around the city - it's amazing how these new hobbies have changed my perspective on art and exploration.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certifications**: ASE Certified\n\n - **Languages Spoken**: English, Vietnamese\n\n-- **Hobbies**: rock climbing, painting\n\n+- **Hobbies**: urban sketching, photography\n\n - **Favorite Tool**: digital calipers\n\n - **Work Motto**: Precision and care in every detail.\n\n - **Personality Traits**: patient, analytical\n\n"
+    },
+    {
+      "query": "I need to update my educational information in the system - I actually have a Master's Degree in Aerospace Engineering, not a Bachelor's Degree in Mechanical Engineering as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Customer Service Representative\n\n - **Expertise**: brake systems\n\n - **Years Of Experience**: 3\n\n-- **Education**: Bachelor's Degree in Mechanical Engineering\n\n+- **Education**: Master's Degree in Aerospace Engineering\n\n - **Certifications**: ASE Certified\n\n - **Languages Spoken**: English, Vietnamese\n\n - **Hobbies**: rock climbing, painting\n\n"
+    },
+    {
+      "query": "I've been applying my Master's Degree in Aerospace Engineering knowledge to some exciting new projects involving satellite design and propulsion systems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Customer Service Representative\n\n - **Expertise**: brake systems\n\n - **Years Of Experience**: 3\n\n-- **Education**: Bachelor's Degree in Mechanical Engineering\n\n+- **Education**: Master's Degree in Aerospace Engineering\n\n - **Certifications**: ASE Certified\n\n - **Languages Spoken**: English, Vietnamese\n\n - **Hobbies**: rock climbing, painting\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what tools I'm currently using - I've switched from Compatibility Databases to the new Quantum Integration Framework for my development work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Uses**: [[compatibility_databases.md]]\n+- **Uses**: [[quantum_integration_framework.md]]\n\n===entities/quantum_integration_framework.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Integration Framework\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I've been getting amazing results with the Quantum Integration Framework - it's so much more efficient than the old compatibility checking methods I used to rely on.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Uses**: [[compatibility_databases.md]]\n+- **Uses**: [[quantum_integration_framework.md]]\n\n===entities/quantum_integration_framework.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Integration Framework\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I need to update my professional tools in the system - I've transitioned from using Compatibility Databases to the new Neural Compatibility Framework for my work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Uses**: [[compatibility_databases.md]]\n+- **Uses**: [[neural_compatibility_framework.md]]\n\n===entities/neural_compatibility_framework.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Compatibility Framework\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[emily_tran.md]]\n"
+    },
+    {
+      "query": "I've been getting much better results since switching to the Neural Compatibility Framework - it's really revolutionized how I approach compatibility analysis in my projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Uses**: [[compatibility_databases.md]]\n+- **Uses**: [[neural_compatibility_framework.md]]\n\n===entities/neural_compatibility_framework.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Compatibility Framework\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[emily_tran.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update who's using our compatibility databases - the AutoParts Plus Customer Service Team has been restructured and we now have a dedicated Vehicle Research Division handling these queries.",
+      "diff": "===entities/compatibility_databases.md===\n\n===entities/vehicle_research_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Vehicle Research Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Used_By**: [[compatibility_databases.md]]\n"
+    },
+    {
+      "query": "I've been working closely with our new Vehicle Research Division team, and they've really streamlined how we access and utilize the compatibility databases for customer inquiries.",
+      "diff": "===entities/compatibility_databases.md===\n\n===entities/vehicle_research_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Vehicle Research Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Used_By**: [[compatibility_databases.md]]\n"
+    }
+  ]
+}

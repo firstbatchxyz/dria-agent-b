@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my pet therapy preferences in the system - I've discovered that I actually respond much better to dog therapy sessions rather than cats.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,12 +8,12 @@\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: engineer\n\n-- **Pet Therapy Preference**: cats\n\n+- **Pet Therapy Preference**: dogs\n\n - **Family Visits Frequency**: biweekly\n\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my weekly dog therapy sessions lately - there's something about their energy and loyalty that just works better for my healing process than I initially expected.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,12 +8,12 @@\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: engineer\n\n-- **Pet Therapy Preference**: cats\n\n+- **Pet Therapy Preference**: dogs\n\n - **Family Visits Frequency**: biweekly\n\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    },
+    {
+      "query": "I need to correct my employment history - my previous occupation was actually as a marine biologist, not an engineer as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,13 +7,13 @@\n - **Hobby**: gardening\n\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n-- **Previous Occupation**: engineer\n\n+- **Previous Occupation**: marine biologist\n\n - **Pet Therapy Preference**: cats\n\n - **Family Visits Frequency**: biweekly\n\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    },
+    {
+      "query": "Looking back at my career transition from marine biologist to my current role, I'm grateful for how studying ocean ecosystems prepared me for analyzing complex data patterns.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,13 +7,13 @@\n - **Hobby**: gardening\n\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n-- **Previous Occupation**: engineer\n\n+- **Previous Occupation**: marine biologist\n\n - **Pet Therapy Preference**: cats\n\n - **Family Visits Frequency**: biweekly\n\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    },
+    {
+      "query": "I need to update my room assignment in the system - I've been moved from room 215 to room 318.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 76\n\n - **Favorite Music Genre**: classical\n\n - **Hobby**: gardening\n\n-- **Room Number**: 215\n\n+- **Room Number**: 318\n\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: engineer\n\n - **Pet Therapy Preference**: cats\n\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    },
+    {
+      "query": "I'm settling into my new room 318 quite well, and the view from this floor is much better than my previous accommodation.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 76\n\n - **Favorite Music Genre**: classical\n\n - **Hobby**: gardening\n\n-- **Room Number**: 215\n\n+- **Room Number**: 318\n\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: engineer\n\n - **Pet Therapy Preference**: cats\n\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[joshua_white.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my business partnership information - I'm no longer working with Joshua White, but I've started a new venture sharing resources with TechFlow Solutions instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[techflow_solutions.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n\n===entities/techflow_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechFlow Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    },
+    {
+      "query": "Excited about the collaborative opportunities that sharing resources with TechFlow Solutions is bringing to my projects - it's been a great strategic partnership so far.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[techflow_solutions.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n\n===entities/techflow_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechFlow Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    },
+    {
+      "query": "I need to update my roommate information - I'm no longer sharing living space with Joshua White. My new roommate is Sarah Chen.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[sarah_chen.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n\n===entities/sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    },
+    {
+      "query": "Just settling in with my new roommate Sarah Chen - it's been great having someone who's also into late-night coding sessions and shares my love for sci-fi movies.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Native Language**: English\n\n \n\n ## Relationships\n\n+- **Shares**: [[sarah_chen.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[joshua_white.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Attends**: [[mealtime_gathering.md]]\n\n===entities/sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares**: [[matthew_lee.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about Joshua White's program participation - he's no longer in the Personal Belongings Sharing Program, he's now participating in the Community Resource Exchange Network.",
+      "diff": "===entities/joshua_white.md===\n\n===entities/community_resource_exchange_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Resource Exchange Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: program\n\n+\n\n+## Relationships\n\n+- **Participates_In**: [[joshua_white.md]]\n"
+    },
+    {
+      "query": "Joshua and I have been working together through the Community Resource Exchange Network, and it's been great to see how this new program facilitates sharing between neighbors more effectively.",
+      "diff": "===entities/joshua_white.md===\n\n===entities/community_resource_exchange_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Resource Exchange Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: program\n\n+\n\n+## Relationships\n\n+- **Participates_In**: [[joshua_white.md]]\n"
+    }
+  ]
+}

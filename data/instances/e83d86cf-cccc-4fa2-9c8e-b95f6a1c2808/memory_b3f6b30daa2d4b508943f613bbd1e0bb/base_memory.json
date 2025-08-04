@@ -1,0 +1,61 @@
+{
+  "user_md": "# Amy Carter\n\n## Basic Information\n- **Type**: Person\n- **Role**: Cashier\n- **Years Of Experience**: 5\n- **Favorite Part Of Job**: Interacting with customers\n- **Employee Of The Month Count**: 3\n- **Special Skill**: Quick item scanning\n- **Education**: Associate's Degree in Business Administration\n- **Hobby Outside Of Work**: Photography\n- **Languages Spoken**: English, Spanish\n\n## Relationships\n- **Oversees**: [[store_manager.md]]\n- **Coordinates_With**: [[delivery_drivers.md]]\n- **Uses**: [[vendor_delivery_schedule.md]]",
+  "entities": [
+    {
+      "entity_name": "store_manager",
+      "entity_file_path": "entities/store_manager.md",
+      "entity_file_content": "# Store Manager\n\n## Basic Information\n- **Entity Type**: Position\n- **Type**: Entity\n- **Management Style**: Collaborative\n- **Years As Manager**: 12\n- **Education**: Bachelor's Degree in Retail Management\n- **Hobby**: Gardening\n- **Languages Spoken**: English, French\n- **Favorite Aspect Of Job**: Team development\n- **Leadership Training**: True\n- **Favorite Food**: Sushi\n\n## Relationships\n- **Oversees**: [[amy_carter.md]]\n- **Coordinates_With**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "barcode_scanner",
+      "entity_file_path": "entities/barcode_scanner.md",
+      "entity_file_content": "# Barcode Scanner\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Model**: BC-2400X\n- **Manufacture Year**: 2022\n- **Connection Type**: Wireless\n- **Battery Life Hours**: 24\n- **Color**: Black\n- **Scanning Speed Items Per Minute**: 45\n- **Warranty Period Years**: 2\n\n## Relationships\n- **Uses**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "price_checker",
+      "entity_file_path": "entities/price_checker.md",
+      "entity_file_content": "# Price Checker\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Model**: Zebra DS9308\n- **Barcode Format Support**: UPC, EAN, QR, PDF417\n- **Deployment Date**: 2022-05-10\n- **Primary Location**: Checkout Area\n- **Connectivity**: USB, Bluetooth\n- **Maximum Scan Speed**: 640\n- **Manufacturer**: Zebra Technologies\n- **Maintenance Schedule**: Bi-monthly\n\n## Relationships\n- **Uses**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "stock_level_sheet",
+      "entity_file_path": "entities/stock_level_sheet.md",
+      "entity_file_content": "# Stock Level Sheet\n\n## Basic Information\n- **Entity Type**: Document\n- **Type**: Entity\n- **Created Date**: 2020-01-15\n- **Format**: Excel\n- **Purpose**: Track and manage store inventory levels\n- **Last Modified By**: Amy Carter\n- **Version**: 3\n- **Access Level**: Manager and above\n- **Update Frequency**: Weekly\n\n## Relationships\n- **Uses**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "vendor_delivery_schedule",
+      "entity_file_path": "entities/vendor_delivery_schedule.md",
+      "entity_file_content": "# Vendor Delivery Schedule\n\n## Basic Information\n- **Entity Type**: Schedule\n- **Type**: Entity\n- **Schedule Type**: Recurring\n- **Delivery Days**: Monday, Wednesday, Friday\n- **Time Window**: 8:00 AM - 11:00 AM\n- **Vendor Count**: 15\n- **Contact Method**: Email and Phone\n- **Last Updated**: 2023-10-15\n\n## Relationships\n- **Uses**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "stockers",
+      "entity_file_path": "entities/stockers.md",
+      "entity_file_content": "# Stockers\n\n## Basic Information\n- **Entity Type**: Position\n- **Type**: Entity\n- **Work Schedule**: shift-based\n- **Average Restocks Per Day**: 12\n- **Required Certifications**: None\n- **Safety Training Completed**: True\n- **Organization Method**: FIFO (First In, First Out)\n- **Average Team Size**: 4\n- **Restocking Tools Used**: Hand trucks, pallet jacks\n- **Communication Device**: Walkie-talkie system\n\n## Relationships\n- **Coordinates_With**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "delivery_drivers",
+      "entity_file_path": "entities/delivery_drivers.md",
+      "entity_file_content": "# Delivery Drivers\n\n## Basic Information\n- **Entity Type**: Position\n- **Type**: Entity\n- **Number Of Vehicles Operated**: 5\n- **Average Delivery Time**: 45\n- **Largest Vehicle Capacity**: 15 tons\n- **Routes Covered**: urban and suburban areas\n- **Training Required**: Yes\n- **Peak Operation Hours**: 6 AM - 6 PM\n- **Accident Free Years**: 3\n- **Technology Used**: GPS route optimization\n\n## Relationships\n- **Coordinates_With**: [[amy_carter.md]]"
+    },
+    {
+      "entity_name": "restocking_policy",
+      "entity_file_path": "entities/restocking_policy.md",
+      "entity_file_content": "# Restocking Policy\n\n## Basic Information\n- **Entity Type**: Policy\n- **Type**: Entity\n- **Review Frequency**: Monthly\n- **Update Responsibility**: Assigned to store manager\n- **Average Team Feedback Score**: 4.2\n- **Last Revision Date**: 2023-07-15\n- **Customer Feedback Incorporation**: True\n\n## Relationships\n- **Manages**: [[store_manager.md]]"
+    },
+    {
+      "entity_name": "produce_section",
+      "entity_file_path": "entities/produce_section.md",
+      "entity_file_content": "# Produce Section\n\n## Basic Information\n- **Entity Type**: Store Section\n- **Type**: Entity\n- **Main Products**: fruits, vegetables, herbs\n- **Temperature Range**: 0-5\u00b0C\n- **Cleaning Schedule**: daily\n- **Display Design**: open-air, easily accessible\n- **Section Area**: 150\n- **Lead Stocker**: John Doe\n\n## Relationships\n- **Delivers_To**: [[delivery_drivers.md]]"
+    },
+    {
+      "entity_name": "dairy_section",
+      "entity_file_path": "entities/dairy_section.md",
+      "entity_file_content": "# Dairy Section\n\n## Basic Information\n- **Entity Type**: Store Section\n- **Type**: Entity\n- **Product Types**: milk, cheese, eggs, yogurt, butter\n- **Temperature Control**: True\n- **Average Daily Sales**: 1500\n- **Peak Hours**: 4 PM - 7 PM\n- **Special Promotion Days**: Saturday and Sunday\n- **Last Inspection Date**: 2023-10-01\n\n## Relationships\n- **Delivers_To**: [[delivery_drivers.md]]"
+    },
+    {
+      "entity_name": "packaged_goods_section",
+      "entity_file_path": "entities/packaged_goods_section.md",
+      "entity_file_content": "# Packaged Goods Section\n\n## Basic Information\n- **Entity Type**: Store Section\n- **Type**: Entity\n- **Section Size**: 1500 square feet\n- **Shelf Capacity**: 5000\n- **Aisle Number**: 3\n- **Featured Brands**: Brand A, Brand B, Brand C\n- **Temperature Controlled**: False\n- **Most Popular Item**: Organic Tomato Sauce\n- **Restocking Frequency**: daily\n- **Average Customer Traffic**: high\n\n## Relationships\n- **Delivers_To**: [[delivery_drivers.md]]"
+    }
+  ],
+  "mem_id": "memory_b3f6b30daa2d4b508943f613bbd1e0bb"
+}

@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my volunteer work information - I'm no longer involved with Community Gardening Projects and have transitioned to working with the Local Animal Shelter instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n - **Known Languages**: English, French\n\n-- **Volunteer Work**: Community Gardening Projects\n\n+- **Volunteer Work**: Local Animal Shelter\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n - **Pet Preferences**: Cats\n\n"
+    },
+    {
+      "query": "I've been really enjoying my volunteer work at the Local Animal Shelter lately, helping with dog walking and cat socialization programs every weekend.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n - **Known Languages**: English, French\n\n-- **Volunteer Work**: Community Gardening Projects\n\n+- **Volunteer Work**: Local Animal Shelter\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n - **Pet Preferences**: Cats\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, French, and Spanish now, not just English and French as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Cuisine**: Italian\n\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n-- **Known Languages**: English, French\n\n+- **Known Languages**: English, French, Spanish\n\n - **Volunteer Work**: Community Gardening Projects\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual in English, French, and Spanish when working with our diverse international clients.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Cuisine**: Italian\n\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n-- **Known Languages**: English, French\n\n+- **Known Languages**: English, French, Spanish\n\n - **Volunteer Work**: Community Gardening Projects\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n"
+    },
+    {
+      "query": "I need to update my volunteer work information - I'm no longer involved with Community Gardening Projects and have transitioned to coordinating Youth Mentorship Programs instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n - **Known Languages**: English, French\n\n-- **Volunteer Work**: Community Gardening Projects\n\n+- **Volunteer Work**: Youth Mentorship Programs\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n - **Pet Preferences**: Cats\n\n"
+    },
+    {
+      "query": "I've been really enjoying my work with the Youth Mentorship Programs lately, helping connect experienced professionals with young people starting their careers.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Preference**: Phone and Email\n\n - **Certification**: Certified Low Vision Therapist\n\n - **Known Languages**: English, French\n\n-- **Volunteer Work**: Community Gardening Projects\n\n+- **Volunteer Work**: Youth Mentorship Programs\n\n - **Recent Award**: Outstanding Support Award for Accessibility\n\n - **Education**: Master's Degree in Occupational Therapy\n\n - **Pet Preferences**: Cats\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

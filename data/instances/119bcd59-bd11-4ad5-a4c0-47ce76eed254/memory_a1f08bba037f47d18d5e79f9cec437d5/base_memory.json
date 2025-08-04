@@ -1,0 +1,16 @@
+{
+  "user_md": "# Cleo Rivera\n\n## Basic Information\n- **Type**: Person\n- **Position**: Senior Customer Service Representative\n- **Years Of Experience**: 5\n- **Favorite Tool**: compatibility databases\n- **Hobby**: circuit design\n- **Certification**: Certified Electrical Technician\n- **Customer Satisfaction Score**: 4.8\n- **Bilingual**: True\n- **Languages Known**: English, Spanish\n- **Professional Goals**: Advance to Technical Support Manager\n- **Preferred Communication Channel**: Live Chat\n- **Favorite Part Of Job**: Troubleshooting complex issues with DIY customers\n\n## Relationships\n- **Employs**: [[autoparts_plus_customer_service_team.md]]\n- **Specializes_In**: [[electrical_parts.md]]",
+  "entities": [
+    {
+      "entity_name": "autoparts_plus_customer_service_team",
+      "entity_file_path": "entities/autoparts_plus_customer_service_team.md",
+      "entity_file_content": "# AutoParts Plus Customer Service Team\n\n## Basic Information\n- **Entity Type**: Team\n- **Type**: Entity\n- **Size Of Team**: 15\n- **Training Programs**: comprehensive customer interaction practices and technical product knowledge training\n- **Customer Interaction Channels**: phone, email, live chat\n- **Average Response Time**: 1 hour\n- **Key Values**: Customer satisfaction, product knowledge, and swift problem resolution\n- **Annual Performance Review**: conducted every December\n- **Team Meetings Frequency**: weekly\n- **Team Events**: monthly team-building activities\n- **Recognition Program**: Employee of the Month\n- **Location**: Seattle, WA\n\n## Relationships\n- **Employs**: [[cleo_rivera.md]]"
+    },
+    {
+      "entity_name": "electrical_parts",
+      "entity_file_path": "entities/electrical_parts.md",
+      "entity_file_content": "# Electrical Parts\n\n## Basic Information\n- **Entity Type**: Product Category\n- **Type**: Entity\n- **Compatibility**: Works with cars, motorcycles, and trucks\n- **Warranty Policy**: 2-year limited warranty\n- **Popular Items**: Alternators, Spark plugs, Ignition coils\n- **Return Policy**: 30-day return policy with receipt\n- **Safety Standards**: Complies with ISO 9001 and CE standards\n- **Average Delivery Time**: 5-7 business days\n- **Inventory Count**: 15000\n- **Customer Rating**: 4.5\n\n## Relationships\n- **Specializes_In**: [[cleo_rivera.md]]"
+    }
+  ],
+  "mem_id": "memory_a1f08bba037f47d18d5e79f9cec437d5"
+}

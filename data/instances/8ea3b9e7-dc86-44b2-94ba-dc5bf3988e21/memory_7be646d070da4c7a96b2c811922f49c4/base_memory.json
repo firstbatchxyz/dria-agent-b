@@ -1,0 +1,11 @@
+{
+  "user_md": "# Emily Rutherford\n\n## Basic Information\n- **Type**: Person\n- **Age**: 29\n- **Occupation**: Mobility Instructor\n- **Hobbies**: Hiking, Painting\n- **Favorite Cuisine**: Italian\n- **Known Languages**: English, French, Braille\n- **Education**: Masters in Special Education\n- **Volunteer Work**: Supporting Inclusive Sports Programs\n- **Communication Preference**: Phone Calls\n- **Has Pet**: Cat\n- **Recent Travel Destination**: Florence, Italy\n\n## Relationships\n- **Coordinates_With**: [[marcus_smith.md]]",
+  "entities": [
+    {
+      "entity_name": "marcus_smith",
+      "entity_file_path": "entities/marcus_smith.md",
+      "entity_file_content": "# Marcus Smith\n\n## Basic Information\n- **Type**: Person\n- **Preferred Name**: Marc\n- **Age**: 32\n- **Occupation**: Accessibility Consultant\n- **Hobbies**: Playing Chess, Listening to Audio Books\n- **Favorite Cuisine**: Thai\n- **Has Pet**: Guide Dog\n- **Communication Preference**: Email and Text\n- **Volunteer Work**: Advocacy for the Visually Impaired\n- **Recent Award**: Local Hero Award for Community Service\n- **Known Languages**: English, Braille, Basic Spanish\n\n## Relationships\n- **Coordinates_With**: [[emily_rutherford.md]]"
+    }
+  ],
+  "mem_id": "memory_7be646d070da4c7a96b2c811922f49c4"
+}

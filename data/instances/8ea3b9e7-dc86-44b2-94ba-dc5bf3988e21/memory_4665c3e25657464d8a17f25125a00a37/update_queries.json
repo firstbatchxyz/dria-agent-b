@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my pet information in the system - I no longer have a guide dog, but I now have a therapy cat named Whiskers who helps with my anxiety.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Occupation**: Accessibility Consultant\n\n - **Hobbies**: Playing Chess, Listening to Audio Books\n\n - **Favorite Cuisine**: Thai\n\n-- **Has Pet**: Guide Dog\n\n+- **Has Pet**: Therapy Cat\n\n - **Communication Preference**: Email and Text\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n - **Recent Award**: Local Hero Award for Community Service\n\n"
+    },
+    {
+      "query": "Whiskers has been such a wonderful companion since I got him - having a therapy cat has really made a difference in managing my daily stress levels.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Occupation**: Accessibility Consultant\n\n - **Hobbies**: Playing Chess, Listening to Audio Books\n\n - **Favorite Cuisine**: Thai\n\n-- **Has Pet**: Guide Dog\n\n+- **Has Pet**: Therapy Cat\n\n - **Communication Preference**: Email and Text\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n - **Recent Award**: Local Hero Award for Community Service\n\n"
+    },
+    {
+      "query": "I need to update my award information in the system - I recently received the National Excellence Award for Youth Mentorship, not the Local Hero Award for Community Service as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Has Pet**: Guide Dog\n\n - **Communication Preference**: Email and Text\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n-- **Recent Award**: Local Hero Award for Community Service\n\n+- **Recent Award**: National Excellence Award for Youth Mentorship\n\n - **Known Languages**: English, Braille, Basic Spanish\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm incredibly honored to have received the National Excellence Award for Youth Mentorship last month - it's really motivated me to expand my mentoring programs even further.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Has Pet**: Guide Dog\n\n - **Communication Preference**: Email and Text\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n-- **Recent Award**: Local Hero Award for Community Service\n\n+- **Recent Award**: National Excellence Award for Youth Mentorship\n\n - **Known Languages**: English, Braille, Basic Spanish\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my communication preferences in the system - I'd like to change from Email and Text to include phone calls as well since I prefer voice communication now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobbies**: Playing Chess, Listening to Audio Books\n\n - **Favorite Cuisine**: Thai\n\n - **Has Pet**: Guide Dog\n\n-- **Communication Preference**: Email and Text\n\n+- **Communication Preference**: Email, Text, and Phone\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n - **Recent Award**: Local Hero Award for Community Service\n\n - **Known Languages**: English, Braille, Basic Spanish\n\n"
+    },
+    {
+      "query": "I've found that taking phone calls has become much more efficient for my work coordination, so I'm glad I switched my communication preference to include phone calls alongside my other methods.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobbies**: Playing Chess, Listening to Audio Books\n\n - **Favorite Cuisine**: Thai\n\n - **Has Pet**: Guide Dog\n\n-- **Communication Preference**: Email and Text\n\n+- **Communication Preference**: Email, Text, and Phone\n\n - **Volunteer Work**: Advocacy for the Visually Impaired\n\n - **Recent Award**: Local Hero Award for Community Service\n\n - **Known Languages**: English, Braille, Basic Spanish\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my coordination partner information - I'm no longer working with Tom Hargrove and have started coordinating with Sarah Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,7 +16,7 @@\n ## Relationships\n\n - **Uses**: [[tactile_solutions.md]]\n\n - **Is_Assisted_By**: [[alice_grayson.md]]\n\n-- **Coordinates_With**: [[emily_rutherford.md]]\n\n+- **Coordinates_With**: [[sarah_chen.md]]\n\n - **Is_Trained_By**: [[guide_dog_training_center.md]]\n\n - **Shops_At**: [[walden_grocery_store.md]]\n\n - **Has_Appointment_At**: [[healthcare_services_clinic.md]]\n\n===entities/sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[marcus_smith.md]]\n"
+    },
+    {
+      "query": "Sarah Chen and I have been working closely together on the new project coordination, and our collaboration has been incredibly productive so far.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,7 +16,7 @@\n ## Relationships\n\n - **Uses**: [[tactile_solutions.md]]\n\n - **Is_Assisted_By**: [[alice_grayson.md]]\n\n-- **Coordinates_With**: [[emily_rutherford.md]]\n\n+- **Coordinates_With**: [[sarah_chen.md]]\n\n - **Is_Trained_By**: [[guide_dog_training_center.md]]\n\n - **Shops_At**: [[walden_grocery_store.md]]\n\n - **Has_Appointment_At**: [[healthcare_services_clinic.md]]\n\n===entities/sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[marcus_smith.md]]\n"
+    },
+    {
+      "query": "I need to update my coordination records - I'm no longer working with Tom Hargrove on our current projects. Instead, I've been reassigned to coordinate directly with Sarah Mitchell from the research division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,7 +16,7 @@\n ## Relationships\n\n - **Uses**: [[tactile_solutions.md]]\n\n - **Is_Assisted_By**: [[alice_grayson.md]]\n\n-- **Coordinates_With**: [[emily_rutherford.md]]\n\n+- **Coordinates_With**: [[sarah_mitchell.md]]\n\n - **Is_Trained_By**: [[guide_dog_training_center.md]]\n\n - **Shops_At**: [[walden_grocery_store.md]]\n\n - **Has_Appointment_At**: [[healthcare_services_clinic.md]]\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[marcus_smith.md]]\n"
+    },
+    {
+      "query": "Sarah Mitchell and I have been making great progress on our joint initiatives since we started coordinating together last month. Her expertise in data analysis really complements my project management approach.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,7 +16,7 @@\n ## Relationships\n\n - **Uses**: [[tactile_solutions.md]]\n\n - **Is_Assisted_By**: [[alice_grayson.md]]\n\n-- **Coordinates_With**: [[emily_rutherford.md]]\n\n+- **Coordinates_With**: [[sarah_mitchell.md]]\n\n - **Is_Trained_By**: [[guide_dog_training_center.md]]\n\n - **Shops_At**: [[walden_grocery_store.md]]\n\n - **Has_Appointment_At**: [[healthcare_services_clinic.md]]\n\n===entities/sarah_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[marcus_smith.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

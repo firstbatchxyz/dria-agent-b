@@ -1,0 +1,21 @@
+{
+  "user_md": "# Olivia Brown\n\n## Basic Information\n- **Type**: Person\n- **Role**: Senior Support Engineer\n- **Expertise**: API Integrations, Workflow Optimization\n- **Experience Years**: 8\n- **Education**: B.Sc in Computer Science\n- **Certifications**: AWS Certified Solutions Architect\n- **Location**: San Francisco, CA\n- **Hobby**: Hiking\n- **Languages Spoken**: English, Spanish\n- **Notable Project**: Led the migration project for a major banking client, ensuring zero downtime\n- **Favorite Tech Tool**: Postman\n- **Work Style**: Collaborative and Detail-oriented\n\n## Relationships\n- **Shares**: [[escalation_procedure_manual.md]]\n- **Develops**: [[workflow_automation_scripts.md]]\n- **Documents**: [[knowledge_base_system.md]]",
+  "entities": [
+    {
+      "entity_name": "escalation_procedure_manual",
+      "entity_file_path": "entities/escalation_procedure_manual.md",
+      "entity_file_content": "# Escalation Procedure Manual\n\n## Basic Information\n- **Entity Type**: Documentation\n- **Type**: Entity\n- **Version**: 2.0\n- **Focus Area**: Client Issue Escalation\n- **Created Date**: 2022-06-15\n- **Last Updated**: 2023-04-10\n- **Author**: Team of Senior Support Engineers\n- **Includes Sections**: Yes\n- **Additional Language Support**: English, Spanish, French\n- **Availability**: 24/7 online access\n- **Review Frequency**: Quarterly\n\n## Relationships\n- **Shares**: [[olivia_brown.md]]"
+    },
+    {
+      "entity_name": "workflow_automation_scripts",
+      "entity_file_path": "entities/workflow_automation_scripts.md",
+      "entity_file_content": "# Workflow Automation Scripts\n\n## Basic Information\n- **Entity Type**: Software\n- **Type**: Entity\n- **Version**: 2.1.3\n- **Language**: Python\n- **Deployment Time**: 2023-02-15\n- **Last Maintenance Date**: 2023-09-25\n- **Compatibility**: Cross-platform\n- **Security Features**: Data encryption and role-based access control\n- **Unique Users**: 1200\n- **Developer Notes**: Optimized for API throughput with advanced retry mechanisms\n- **Max Execution Time Per Script**: 500ms\n- **Documentation Url**: https://docs.cloudcrm.com/workflows/v2.1.3\n\n## Relationships\n- **Develops**: [[olivia_brown.md]]"
+    },
+    {
+      "entity_name": "knowledge_base_system",
+      "entity_file_path": "entities/knowledge_base_system.md",
+      "entity_file_content": "# Knowledge Base System\n\n## Basic Information\n- **Entity Type**: System\n- **Type**: Entity\n- **Last Updated**: 2023-10-11\n- **Usage Stats**: High frequency, accessed by support engineers daily\n- **Primary Function**: Centralized information repository for troubleshooting and solutions\n- **System Admin**: Charlie Jordan\n- **Data Backup Frequency**: Daily\n- **Storage Capacity**: 2TB\n- **Security Level**: Tier 1 encryption\n- **Integrations**: API accessible, integrated with CRM software and client SLA tracking systems\n- **User Interface**: Web-based with intuitive search functionality\n\n## Relationships\n- **Documents**: [[olivia_brown.md]]"
+    }
+  ],
+  "mem_id": "memory_a985913325584845ad3d05ca2a1c8224"
+}

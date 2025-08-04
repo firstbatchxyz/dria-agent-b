@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've actually switched from knitting to pottery making as my main creative outlet.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Age**: 78\n\n - **Residence Type**: apartment\n\n - **Health Condition**: early-stage Alzheimer's\n\n-- **Favorite Hobby**: knitting\n\n+- **Favorite Hobby**: pottery making\n\n - **Daily Routine**: morning walk\n\n - **Birthplace**: Boston, Massachusetts\n\n - **Previous Occupation**: school teacher\n\n"
+    },
+    {
+      "query": "I've been spending so much time at the pottery studio lately, working on a new ceramic vase collection that I'm really excited about.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Age**: 78\n\n - **Residence Type**: apartment\n\n - **Health Condition**: early-stage Alzheimer's\n\n-- **Favorite Hobby**: knitting\n\n+- **Favorite Hobby**: pottery making\n\n - **Daily Routine**: morning walk\n\n - **Birthplace**: Boston, Massachusetts\n\n - **Previous Occupation**: school teacher\n\n"
+    },
+    {
+      "query": "I need to correct my medical information in the system - my health condition has progressed from early-stage Alzheimer's to moderate-stage Alzheimer's.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Johnson\n\n - **Age**: 78\n\n - **Residence Type**: apartment\n\n-- **Health Condition**: early-stage Alzheimer's\n\n+- **Health Condition**: moderate-stage Alzheimer's\n\n - **Favorite Hobby**: knitting\n\n - **Daily Routine**: morning walk\n\n - **Birthplace**: Boston, Massachusetts\n\n"
+    },
+    {
+      "query": "I've been working with my care team to adjust my daily routines now that I'm dealing with moderate-stage Alzheimer's, and the additional support has been really helpful.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Johnson\n\n - **Age**: 78\n\n - **Residence Type**: apartment\n\n-- **Health Condition**: early-stage Alzheimer's\n\n+- **Health Condition**: moderate-stage Alzheimer's\n\n - **Favorite Hobby**: knitting\n\n - **Daily Routine**: morning walk\n\n - **Birthplace**: Boston, Massachusetts\n\n"
+    },
+    {
+      "query": "I need to correct my age in the system - I'm actually 82 years old now, not 78 as it currently shows.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **First Name**: Eleanor\n\n - **Last Name**: Johnson\n\n-- **Age**: 78\n\n+- **Age**: 82\n\n - **Residence Type**: apartment\n\n - **Health Condition**: early-stage Alzheimer's\n\n - **Favorite Hobby**: knitting\n\n"
+    },
+    {
+      "query": "I've been enjoying my retirement at 82, spending more time with my grandchildren and working on my memoir about my years as a librarian.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **First Name**: Eleanor\n\n - **Last Name**: Johnson\n\n-- **Age**: 78\n\n+- **Age**: 82\n\n - **Residence Type**: apartment\n\n - **Health Condition**: early-stage Alzheimer's\n\n - **Favorite Hobby**: knitting\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my scheduling system information - I've switched from using my old Appointment Calendar to a new digital planner called TaskFlow Pro.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Contact Of**: [[sarah.md]]\n\n - **Provides Services To**: [[maria.md]]\n\n - **Lives In**: [[eleanor's_apartment.md]]\n\n-- **Uses**: [[emergency_contact_list.md]]\n+- **Uses**: [[taskflow_pro.md]]\n\n===entities/taskflow_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TaskFlow Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital planner\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how TaskFlow Pro has streamlined my daily planning compared to my previous scheduling methods.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Contact Of**: [[sarah.md]]\n\n - **Provides Services To**: [[maria.md]]\n\n - **Lives In**: [[eleanor's_apartment.md]]\n\n-- **Uses**: [[emergency_contact_list.md]]\n+- **Uses**: [[taskflow_pro.md]]\n\n===entities/taskflow_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TaskFlow Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital planner\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    },
+    {
+      "query": "I need to update my records - I'm no longer using the Family Photo Album, I've switched to using a Digital Memory Box to store and organize all my memories.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Contact Of**: [[sarah.md]]\n\n - **Provides Services To**: [[maria.md]]\n\n - **Lives In**: [[eleanor's_apartment.md]]\n\n-- **Uses**: [[emergency_contact_list.md]]\n+- **Uses**: [[digital_memory_box.md]]\n\n===entities/digital_memory_box.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Memory Box\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital storage device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying how the Digital Memory Box lets me organize my memories with tags and search features, it's so much more convenient than my old system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Contact Of**: [[sarah.md]]\n\n - **Provides Services To**: [[maria.md]]\n\n - **Lives In**: [[eleanor's_apartment.md]]\n\n-- **Uses**: [[emergency_contact_list.md]]\n+- **Uses**: [[digital_memory_box.md]]\n\n===entities/digital_memory_box.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Digital Memory Box\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital storage device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[eleanor.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

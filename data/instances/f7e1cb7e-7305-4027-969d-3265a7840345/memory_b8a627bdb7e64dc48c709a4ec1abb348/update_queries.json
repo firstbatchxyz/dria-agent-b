@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my skill information in the system - my special skill should be listed as Advanced Python Programming, not Excel Spreadsheets as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n - **Certifications**: Certified Public Accountant (CPA)\n\n - **Experience Years**: 20\n\n-- **Special Skill**: Excel Spreadsheets\n\n+- **Special Skill**: Advanced Python Programming\n\n - **Favorite Team**: Chicago Cubs\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been working on some complex data analysis projects lately, and my Advanced Python Programming skills have really been essential for automating the workflows and creating efficient solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n - **Certifications**: Certified Public Accountant (CPA)\n\n - **Experience Years**: 20\n\n-- **Special Skill**: Excel Spreadsheets\n\n+- **Special Skill**: Advanced Python Programming\n\n - **Favorite Team**: Chicago Cubs\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my professional certification information - I've recently obtained my Certified Management Accountant (CMA) credential, which should replace my previous CPA designation in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 45\n\n - **Hobbies**: Photography and Hiking\n\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n-- **Certifications**: Certified Public Accountant (CPA)\n\n+- **Certifications**: Certified Management Accountant (CMA)\n\n - **Experience Years**: 20\n\n - **Special Skill**: Excel Spreadsheets\n\n - **Favorite Team**: Chicago Cubs\n\n"
+    },
+    {
+      "query": "I've been leveraging my Certified Management Accountant (CMA) expertise to help clients with strategic cost management and performance evaluation, which has really expanded my consulting practice.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 45\n\n - **Hobbies**: Photography and Hiking\n\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n-- **Certifications**: Certified Public Accountant (CPA)\n\n+- **Certifications**: Certified Management Accountant (CMA)\n\n - **Experience Years**: 20\n\n - **Special Skill**: Excel Spreadsheets\n\n - **Favorite Team**: Chicago Cubs\n\n"
+    },
+    {
+      "query": "I need to correct my age information in the system - I'm actually 47 years old now, not 45 as it's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Senior Accountant\n\n-- **Age**: 45\n\n+- **Age**: 47\n\n - **Hobbies**: Photography and Hiking\n\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n - **Certifications**: Certified Public Accountant (CPA)\n\n"
+    },
+    {
+      "query": "Just celebrated my 47th birthday last week and it's got me thinking about all the changes this past year has brought.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Senior Accountant\n\n-- **Age**: 45\n\n+- **Age**: 47\n\n - **Hobbies**: Photography and Hiking\n\n - **Education Background**: Bachelor's Degree in Accounting from State University\n\n - **Certifications**: Certified Public Accountant (CPA)\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm providing visual descriptions to - I'm no longer working with Lisa Sanders, but I've started providing visual descriptions to Maria Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Visual_Descriptions_To**: [[lisa_sanders.md]]\n+- **Provides_Visual_Descriptions_To**: [[maria_rodriguez.md]]\n\n===entities/maria_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Visual_Descriptions_To**: [[john_thompson.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work providing visual descriptions to Maria Rodriguez - she's such an attentive listener and asks great questions about the details I share.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Visual_Descriptions_To**: [[lisa_sanders.md]]\n+- **Provides_Visual_Descriptions_To**: [[maria_rodriguez.md]]\n\n===entities/maria_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Visual_Descriptions_To**: [[john_thompson.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm providing visual descriptions to - I'm no longer working with Lisa Sanders but have started providing visual descriptions to Maria Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Visual_Descriptions_To**: [[lisa_sanders.md]]\n+- **Provides_Visual_Descriptions_To**: [[maria_rodriguez.md]]\n\n===entities/maria_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Visual_Descriptions_To**: [[john_thompson.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work providing visual descriptions to Maria Rodriguez - she's been incredibly receptive to my detailed explanations of visual content.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[lisa_sanders.md]]\n\n-- **Provides_Visual_Descriptions_To**: [[lisa_sanders.md]]\n+- **Provides_Visual_Descriptions_To**: [[maria_rodriguez.md]]\n\n===entities/maria_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Provides_Visual_Descriptions_To**: [[john_thompson.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update Lisa's assistive technology information - she's upgraded from the Braille Pro 300 to the new TactileVision 500X display system.",
+      "diff": "===entities/lisa_sanders.md===\n\n===entities/tactilevision_500x.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TactileVision 500X\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: assistive technology device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lisa_sanders.md]]\n"
+    },
+    {
+      "query": "I've been helping Lisa get familiar with her new TactileVision 500X - it's amazing how much more responsive the tactile feedback is compared to her old device.",
+      "diff": "===entities/lisa_sanders.md===\n\n===entities/tactilevision_500x.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TactileVision 500X\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: assistive technology device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lisa_sanders.md]]\n"
+    }
+  ]
+}

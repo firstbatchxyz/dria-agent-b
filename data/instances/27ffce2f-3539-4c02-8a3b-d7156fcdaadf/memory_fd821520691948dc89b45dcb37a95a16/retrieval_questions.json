@@ -1,0 +1,213 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Senior Support Engineer"
+    },
+    {
+      "q": "What is my primary skillset?",
+      "a": "Security Audit and Configuration"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "CISSP, CompTIA Security+"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "B.Sc. in Computer Science"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, French"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Rock Climbing, Coding Challenges"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Burp Suite"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the procedure that I configure?"
+      ],
+      "a": "Procedure",
+      "attribute": "entity type=Procedure",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What are the enhanced security features of the procedure that I configure?"
+      ],
+      "a": "Multi-factor Authentication, Role-based Access Control, and Data Encryption",
+      "attribute": "enhanced security features=Multi-factor Authentication, Role-based Access Control, and Data Encryption",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What are the compliance standards of the procedure that I configure?"
+      ],
+      "a": "ISO/IEC 27001, SOC 2 Type II, GDPR",
+      "attribute": "compliance standards=ISO/IEC 27001, SOC 2 Type II, GDPR",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "When was the procedure that I configure last reviewed?"
+      ],
+      "a": "2023-09-15",
+      "attribute": "last reviewed=2023-09-15",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What is the documentation status of the procedure that I configure?"
+      ],
+      "a": "Complete",
+      "attribute": "documentation status=Complete",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What is the version of the procedure that I configure?"
+      ],
+      "a": "2.5.8",
+      "attribute": "version=2.5.8",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What are the primary platforms of the procedure that I configure?"
+      ],
+      "a": "Linux and Windows Server 2019",
+      "attribute": "primary platforms=Linux and Windows Server 2019",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "Is the procedure that I configure automation friendly?"
+      ],
+      "a": "True",
+      "attribute": "automation friendly=True",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What is the usage frequency of the procedure that I configure?"
+      ],
+      "a": "Daily by enterprise clients",
+      "attribute": "usage frequency=Daily by enterprise clients",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What are the integration capabilities of the procedure that I configure?"
+      ],
+      "a": "Seamless integration with standard CRM systems",
+      "attribute": "integration capabilities=Seamless integration with standard CRM systems",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What are the recent changes to the procedure that I configure?"
+      ],
+      "a": "Updated API security endpoints and improved audit logging functionality",
+      "attribute": "recent changes=Updated API security endpoints and improved audit logging functionality",
+      "path": "Liam Smith -> Security Configuration Protocol"
+    },
+    {
+      "q": [
+        "What is the type of the tools that I audit?"
+      ],
+      "a": "Tool",
+      "attribute": "entity type=Tool",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the tool type of the tools that I audit?"
+      ],
+      "a": "Software",
+      "attribute": "tool type=Software",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the usage in support team of the tools that I audit?"
+      ],
+      "a": "Identify security vulnerabilities",
+      "attribute": "usage in support team=Identify security vulnerabilities",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the reputation of the tools that I audit?"
+      ],
+      "a": "Widely trusted in the industry",
+      "attribute": "reputation=Widely trusted in the industry",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the average review score of the tools that I audit?"
+      ],
+      "a": "4.8",
+      "attribute": "average review score=4.8",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What are the primary features of the tools that I audit?"
+      ],
+      "a": "Automated scanning, compliance reporting, risk assessment",
+      "attribute": "primary features=Automated scanning, compliance reporting, risk assessment",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What are the integration capabilities of the tools that I audit?"
+      ],
+      "a": "Extensive API support, cloud integration",
+      "attribute": "integration capabilities=Extensive API support, cloud integration",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What are the deployments of the tools that I audit?"
+      ],
+      "a": "75% within Fortune 500 companies",
+      "attribute": "deployments=75% within Fortune 500 companies",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the release year of the tools that I audit?"
+      ],
+      "a": "2015",
+      "attribute": "release year=2015",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What are the known issues of the tools that I audit?"
+      ],
+      "a": "Occasional false positives in scan results",
+      "attribute": "known issues=Occasional false positives in scan results",
+      "path": "Liam Smith -> Security Audit Tools"
+    },
+    {
+      "q": [
+        "What is the license type of the tools that I audit?"
+      ],
+      "a": "Annual subscription",
+      "attribute": ""
+    }
+  ]
+}

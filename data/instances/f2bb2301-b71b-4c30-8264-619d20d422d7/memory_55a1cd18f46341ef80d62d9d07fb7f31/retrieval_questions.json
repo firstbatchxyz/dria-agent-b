@@ -1,0 +1,198 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Carlos Mendes"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Senior Support Agent"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Kitchen Smart Appliance Troubleshooting"
+    },
+    {
+      "q": "What is my favorite appliance?",
+      "a": "Smart Oven"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my customer satisfaction rate?",
+      "a": "95"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening, Cooking"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Bachelor of Science in Electrical Engineering"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Certified Smart Appliance Technician"
+    },
+    {
+      "q": "What are my working hours?",
+      "a": "9:00 AM - 5:00 PM"
+    },
+    {
+      "q": "Where do I work?",
+      "a": "Customer Support Center, TechHome Headquarters"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of support line that I utilize?"
+      ],
+      "a": "support_line",
+      "attribute": "entity type=support_line",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What are the operating hours of the support line that I utilize?"
+      ],
+      "a": "24/7",
+      "attribute": "operating hours=24/7",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the primary language support of the support line that I utilize?"
+      ],
+      "a": "English",
+      "attribute": "primary language support=English",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the average response time of the support line that I utilize?"
+      ],
+      "a": "2 minutes",
+      "attribute": "average response time=2 minutes",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "Is the support line that I utilize a free service?"
+      ],
+      "a": "False",
+      "attribute": "free service=False",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the established year of the support line that I utilize?"
+      ],
+      "a": "2015",
+      "attribute": "established year=2015",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the number of agents of the support line that I utilize?"
+      ],
+      "a": "150",
+      "attribute": "number of agents=150",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What are the peak call hours of the support line that I utilize?"
+      ],
+      "a": "12:00 PM - 3:00 PM",
+      "attribute": "peak call hours=12:00 PM - 3:00 PM",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the average daily calls of the support line that I utilize?"
+      ],
+      "a": "500",
+      "attribute": "average daily calls=500",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What are the available languages of the support line that I utilize?"
+      ],
+      "a": "English, Spanish, French, Mandarin, German",
+      "attribute": "available languages=English, Spanish, French, Mandarin, German",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the primary contact method of the support line that I utilize?"
+      ],
+      "a": "Phone",
+      "attribute": "primary contact method=Phone",
+      "path": "Carlos Mendes -> QuickFix Hotline"
+    },
+    {
+      "q": [
+        "What is the type of replacement parts that I provide?"
+      ],
+      "a": "replacement_part",
+      "attribute": "entity type=replacement_part",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the compatibility of the replacement parts that I provide?"
+      ],
+      "a": "Compatible with InstaOven models IO-100, IO-200, and IO-ProX",
+      "attribute": "compatibility=Compatible with InstaOven models IO-100, IO-200, and IO-ProX",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the availability status of the replacement parts that I provide?"
+      ],
+      "a": "In Stock",
+      "attribute": "availability status=In Stock",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the replacement instruction URL of the replacement parts that I provide?"
+      ],
+      "a": "https://support.techhome.com/instaoven/parts-replacement",
+      "attribute": "replacement instruction url=https://support.techhome.com/instaoven/parts-replacement",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the average delivery time of the replacement parts that I provide?"
+      ],
+      "a": "3 to 5 business days",
+      "attribute": "average delivery time=3 to 5 business days",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the warranty period of the replacement parts that I provide?"
+      ],
+      "a": "1 year",
+      "attribute": "warranty period=1 year",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the price of the replacement parts that I provide?"
+      ],
+      "a": "29.99",
+      "attribute": "price=29.99",
+      "path": "InstaOven Replacement Parts -> Carlos Mendes"
+    }
+  ]
+}

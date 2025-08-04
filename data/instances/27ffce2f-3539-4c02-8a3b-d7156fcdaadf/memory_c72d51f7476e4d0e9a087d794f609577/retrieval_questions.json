@@ -1,0 +1,218 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Senior Support Engineer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "API integrations and custom workflows"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's in Computer Science"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "AWS Certified Solutions Architect"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "rock climbing and coding challenges"
+    },
+    {
+      "q": "What is my recent project?",
+      "a": "Optimizing API efficiency for a high-traffic client"
+    },
+    {
+      "q": "What is my phone extension?",
+      "a": "1043"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the system that I consult?"
+      ],
+      "a": "System",
+      "attribute": "entity type=System",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the last updated date of the system that I consult?"
+      ],
+      "a": "2023-10-11",
+      "attribute": "last updated=2023-10-11",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What are the usage stats of the system that I consult?"
+      ],
+      "a": "High frequency, accessed by support engineers daily",
+      "attribute": "usage stats=High frequency, accessed by support engineers daily",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the primary function of the system that I consult?"
+      ],
+      "a": "Centralized information repository for troubleshooting and solutions",
+      "attribute": "primary function=Centralized information repository for troubleshooting and solutions",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "Who is the system admin of the system that I consult?"
+      ],
+      "a": "Charlie Jordan",
+      "attribute": "system admin=Charlie Jordan",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the data backup frequency of the system that I consult?"
+      ],
+      "a": "Daily",
+      "attribute": "data backup frequency=Daily",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the storage capacity of the system that I consult?"
+      ],
+      "a": "2TB",
+      "attribute": "storage capacity=2TB",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the security level of the system that I consult?"
+      ],
+      "a": "Tier 1 encryption",
+      "attribute": "security level=Tier 1 encryption",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What are the integrations of the system that I consult?"
+      ],
+      "a": "API accessible, integrated with CRM software and client SLA tracking systems",
+      "attribute": "integrations=API accessible, integrated with CRM software and client SLA tracking systems",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the user interface of the system that I consult?"
+      ],
+      "a": "Web-based with intuitive search functionality",
+      "attribute": "user interface=Web-based with intuitive search functionality",
+      "path": "Mason Davis -> Knowledge Base System"
+    },
+    {
+      "q": [
+        "What is the type of the module that I implement?"
+      ],
+      "a": "Module",
+      "attribute": "entity type=Module",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the module stage of the module that I implement?"
+      ],
+      "a": "Developed",
+      "attribute": "module stage=Developed",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the release date of the module that I implement?"
+      ],
+      "a": "2022-05-01",
+      "attribute": "release date=2022-05-01",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "Who is the module lead of the module that I implement?"
+      ],
+      "a": "Mason Davis",
+      "attribute": "module lead=Mason Davis",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What are the primary features of the module that I implement?"
+      ],
+      "a": "API integration, custom workflow management",
+      "attribute": "primary features=API integration, custom workflow management",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the client feedback score of the module that I implement?"
+      ],
+      "a": "4.7",
+      "attribute": "client feedback score=4.7",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the documentation status of the module that I implement?"
+      ],
+      "a": "Complete",
+      "attribute": "documentation status=Complete",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the user training availability of the module that I implement?"
+      ],
+      "a": "Online and In-person",
+      "attribute": "user training availability=Online and In-person",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the user manual link of the module that I implement?"
+      ],
+      "a": "https://cloudcrm.com/onboarding_manual",
+      "attribute": "user manual link=https://cloudcrm.com/onboarding_manual",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the support contact of the module that I implement?"
+      ],
+      "a": "support@cloudcrm.com",
+      "attribute": "support contact=support@cloudcrm.com",
+      "path": "Mason Davis -> Client Onboarding Module"
+    },
+    {
+      "q": [
+        "What is the type of the platform that I review?"
+      ],
+      "a": "Platform",
+      "attribute": "entity type=Platform",
+      "path": "Mason Davis -> CloudCRM Portal Access"
+    },
+    {
+      "q": [
+        "What is the platform type of the platform that I review?"
+      ],
+      "a": "Proprietary cloud-based for enterprise clients",
+      "attribute": "platform type=Proprietary cloud-based for enterprise clients",
+      "path": "Mason Davis -> CloudCRM Portal Access"
+    }
+  ]
+}

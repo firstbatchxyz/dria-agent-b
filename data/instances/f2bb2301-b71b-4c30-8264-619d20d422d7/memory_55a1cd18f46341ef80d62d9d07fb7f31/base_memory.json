@@ -1,0 +1,16 @@
+{
+  "user_md": "# Carlos Mendes\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Senior Support Agent\n- **Years Of Experience**: 7\n- **Specialization**: Kitchen Smart Appliance Troubleshooting\n- **Favorite Appliance**: Smart Oven\n- **Languages Spoken**: English, Spanish\n- **Customer Satisfaction Rate**: 95\n- **Hobbies**: Gardening, Cooking\n- **Education**: Bachelor of Science in Electrical Engineering\n- **Certifications**: Certified Smart Appliance Technician\n- **Working Hours**: 9:00 AM - 5:00 PM\n- **Location**: Customer Support Center, TechHome Headquarters\n\n## Relationships\n- **Provided_By**: [[instaoven_replacement_parts.md]]\n- **Utilizes**: [[quickfix_hotline.md]]",
+  "entities": [
+    {
+      "entity_name": "instaoven_replacement_parts",
+      "entity_file_path": "entities/instaoven_replacement_parts.md",
+      "entity_file_content": "# InstaOven Replacement Parts\n\n## Basic Information\n- **Entity Type**: replacement_part\n- **Type**: Entity\n- **Compatibility**: Compatible with InstaOven models IO-100, IO-200, and IO-ProX\n- **Availability Status**: In Stock\n- **Replacement Instruction Url**: https://support.techhome.com/instaoven/parts-replacement\n- **Average Delivery Time**: 3 to 5 business days\n- **Warranty Period**: 1 year\n- **Price**: 29.99\n\n## Relationships\n- **Provided_By**: [[carlos_mendes.md]]"
+    },
+    {
+      "entity_name": "quickfix_hotline",
+      "entity_file_path": "entities/quickfix_hotline.md",
+      "entity_file_content": "# QuickFix Hotline\n\n## Basic Information\n- **Entity Type**: support_line\n- **Type**: Entity\n- **Operating Hours**: 24/7\n- **Primary Language Support**: English\n- **Average Response Time**: 2 minutes\n- **Free Service**: False\n- **Established Year**: 2015\n- **Number Of Agents**: 150\n- **Peak Call Hours**: 12:00 PM - 3:00 PM\n- **Average Daily Calls**: 500\n- **Available Languages**: English, Spanish, French, Mandarin, German\n- **Primary Contact Method**: Phone\n\n## Relationships\n- **Utilizes**: [[carlos_mendes.md]]"
+    }
+  ],
+  "mem_id": "memory_55a1cd18f46341ef80d62d9d07fb7f31"
+}

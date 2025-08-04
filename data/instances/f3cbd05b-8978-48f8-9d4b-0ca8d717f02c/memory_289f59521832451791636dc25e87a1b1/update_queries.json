@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from rock climbing and circuit bending, and now I'm really into urban sketching and drone photography.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Job Level**: Senior\n\n - **Team Affiliation**: ServerCloud Multi-Tenant Deployment Team\n\n - **Favorite Tool**: Terraform\n\n-- **Hobbies**: Rock Climbing and Circuit Bending\n\n+- **Hobbies**: Urban Sketching and Drone Photography\n\n - **Work Location**: San Francisco Office\n\n - **Fluent Languages**: English, Korean\n\n \n\n"
+    },
+    {
+      "query": "I spent the entire weekend doing urban sketching and drone photography around the city - it's amazing how these new hobbies have completely replaced my old interests and given me such a fresh perspective on documenting urban landscapes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Job Level**: Senior\n\n - **Team Affiliation**: ServerCloud Multi-Tenant Deployment Team\n\n - **Favorite Tool**: Terraform\n\n-- **Hobbies**: Rock Climbing and Circuit Bending\n\n+- **Hobbies**: Urban Sketching and Drone Photography\n\n - **Work Location**: San Francisco Office\n\n - **Fluent Languages**: English, Korean\n\n \n\n"
+    },
+    {
+      "query": "I need to update my favorite tool in the system - I've switched from Terraform to Pulumi for my infrastructure as code needs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Specialization**: Container Orchestration and Monitoring Systems\n\n - **Job Level**: Senior\n\n - **Team Affiliation**: ServerCloud Multi-Tenant Deployment Team\n\n-- **Favorite Tool**: Terraform\n\n+- **Favorite Tool**: Pulumi\n\n - **Hobbies**: Rock Climbing and Circuit Bending\n\n - **Work Location**: San Francisco Office\n\n - **Fluent Languages**: English, Korean\n\n"
+    },
+    {
+      "query": "I've been really impressed with how Pulumi handles infrastructure deployment compared to my previous workflow, especially with its programming language flexibility.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Specialization**: Container Orchestration and Monitoring Systems\n\n - **Job Level**: Senior\n\n - **Team Affiliation**: ServerCloud Multi-Tenant Deployment Team\n\n-- **Favorite Tool**: Terraform\n\n+- **Favorite Tool**: Pulumi\n\n - **Hobbies**: Rock Climbing and Circuit Bending\n\n - **Work Location**: San Francisco Office\n\n - **Fluent Languages**: English, Korean\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I'm actually fluent in English, Korean, and Mandarin Chinese, not just English and Korean as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Terraform\n\n - **Hobbies**: Rock Climbing and Circuit Bending\n\n - **Work Location**: San Francisco Office\n\n-- **Fluent Languages**: English, Korean\n\n+- **Fluent Languages**: English, Korean, Mandarin Chinese\n\n \n\n ## Relationships\n\n - **Collaborates_With**: [[client_success_operations.md]]\n"
+    },
+    {
+      "query": "I've been really grateful for my trilingual abilities lately, especially being fluent in English, Korean, and Mandarin Chinese, as it's helped me connect with so many more people in my community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Terraform\n\n - **Hobbies**: Rock Climbing and Circuit Bending\n\n - **Work Location**: San Francisco Office\n\n-- **Fluent Languages**: English, Korean\n\n+- **Fluent Languages**: English, Korean, Mandarin Chinese\n\n \n\n ## Relationships\n\n - **Collaborates_With**: [[client_success_operations.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Client Success Operations, I've moved to collaborating with the Product Innovation Team instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Fluent Languages**: English, Korean\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[client_success_operations.md]]\n+- **Collaborates_With**: [[product_innovation_team.md]]\n\n===entities/product_innovation_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Product Innovation Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[riley_kim.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new projects I'm working on with the Product Innovation Team - their approach to user-centered design aligns perfectly with my background.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Fluent Languages**: English, Korean\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[client_success_operations.md]]\n+- **Collaborates_With**: [[product_innovation_team.md]]\n\n===entities/product_innovation_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Product Innovation Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[riley_kim.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Client Success Operations, I've moved to collaborating with the Data Analytics Team instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Fluent Languages**: English, Korean\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[client_success_operations.md]]\n+- **Collaborates_With**: [[data_analytics_team.md]]\n\n===entities/data_analytics_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Data Analytics Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[riley_kim.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new collaboration with the Data Analytics Team - their insights on customer behavior patterns have been incredibly valuable for our projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Fluent Languages**: English, Korean\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[client_success_operations.md]]\n+- **Collaborates_With**: [[data_analytics_team.md]]\n\n===entities/data_analytics_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Data Analytics Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[riley_kim.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the system about what our Client Success Operations team is currently enhancing - we've moved from working on the Client Configuration Portal to focusing on the Advanced Analytics Dashboard.",
+      "diff": "===entities/client_success_operations.md===\n\n===entities/advanced_analytics_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Analytics Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Enhances**: [[client_success_operations.md]]\n"
+    },
+    {
+      "query": "I'm excited about how our collaboration with Client Success Operations on the Advanced Analytics Dashboard is providing clients with much deeper insights into their data patterns and usage metrics.",
+      "diff": "===entities/client_success_operations.md===\n\n===entities/advanced_analytics_dashboard.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Analytics Dashboard\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Enhances**: [[client_success_operations.md]]\n"
+    }
+  ]
+}

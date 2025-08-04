@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification information in the system - I recently earned my Google Cloud Professional Cloud Architect certification to replace my AWS Certified Solutions Architect credential.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: DevOps Specialist\n\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n-- **Certifications**: AWS Certified Solutions Architect\n\n+- **Certifications**: Google Cloud Professional Cloud Architect\n\n - **Hobbies**: rock climbing\n\n - **Education**: Masters in Computer Science\n\n - **Favorite Tool**: Kubernetes\n\n"
+    },
+    {
+      "query": "I've been leveraging my Google Cloud Professional Cloud Architect expertise to help clients migrate their infrastructure to GCP and optimize their cloud architecture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: DevOps Specialist\n\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n-- **Certifications**: AWS Certified Solutions Architect\n\n+- **Certifications**: Google Cloud Professional Cloud Architect\n\n - **Hobbies**: rock climbing\n\n - **Education**: Masters in Computer Science\n\n - **Favorite Tool**: Kubernetes\n\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've actually gotten really into urban sketching lately and it's replaced rock climbing as my main hobby.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Hobbies**: rock climbing\n\n+- **Hobbies**: urban sketching\n\n - **Education**: Masters in Computer Science\n\n - **Favorite Tool**: Kubernetes\n\n - **Location**: San Francisco, CA\n\n"
+    },
+    {
+      "query": "I spent the entire afternoon doing urban sketching in the downtown area - there's something so meditative about capturing the city's architecture and street life on paper.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n - **Certifications**: AWS Certified Solutions Architect\n\n-- **Hobbies**: rock climbing\n\n+- **Hobbies**: urban sketching\n\n - **Education**: Masters in Computer Science\n\n - **Favorite Tool**: Kubernetes\n\n - **Location**: San Francisco, CA\n\n"
+    },
+    {
+      "query": "I need to update my professional information in the system - I've transitioned from my DevOps Specialist role to become a Cloud Solutions Architect.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: DevOps Specialist\n\n+- **Role**: Cloud Solutions Architect\n\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n - **Certifications**: AWS Certified Solutions Architect\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new position as a Cloud Solutions Architect, especially working on enterprise migration projects and designing scalable infrastructure solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: DevOps Specialist\n\n+- **Role**: Cloud Solutions Architect\n\n - **Experience**: 8\n\n - **Primary Language**: Python\n\n - **Certifications**: AWS Certified Solutions Architect\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I've been sharing my research knowledge with - I'm no longer collaborating with Morgan Tanaka, but I've started working closely with Dr. Elena Vasquez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Age**: 35\n\n \n\n ## Relationships\n\n-- **Shares_Knowledge_With**: [[morgan_tanaka.md]]\n+- **Shares_Knowledge_With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Knowledge_With**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "I've been having some fascinating discussions with Dr. Elena Vasquez about our shared research interests, and the knowledge exchange has been incredibly productive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Age**: 35\n\n \n\n ## Relationships\n\n-- **Shares_Knowledge_With**: [[morgan_tanaka.md]]\n+- **Shares_Knowledge_With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Knowledge_With**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm currently sharing my research knowledge with - I'm no longer collaborating with Morgan Tanaka, but I've started working closely with Dr. Alex Rivera on our joint projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Age**: 35\n\n \n\n ## Relationships\n\n-- **Shares_Knowledge_With**: [[morgan_tanaka.md]]\n+- **Shares_Knowledge_With**: [[dr._alex_rivera.md]]\n\n===entities/dr._alex_rivera.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Alex Rivera\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Knowledge_With**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "Dr. Alex Rivera and I have been having some incredible breakthrough discussions lately, and the knowledge exchange between us has been really productive for both our research endeavors.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Age**: 35\n\n \n\n ## Relationships\n\n-- **Shares_Knowledge_With**: [[morgan_tanaka.md]]\n+- **Shares_Knowledge_With**: [[dr._alex_rivera.md]]\n\n===entities/dr._alex_rivera.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Alex Rivera\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Knowledge_With**: [[jordan_lee.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

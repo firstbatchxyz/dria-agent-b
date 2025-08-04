@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational background in the system - I actually have a Master's in Data Science, not a Bachelor's in Computer Science as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise Areas**: container orchestration, monitoring systems\n\n - **Favorite Automation Tool**: Terraform\n\n - **Hobby**: rock climbing\n\n-- **Educational Background**: Bachelor's in Computer Science\n\n+- **Educational Background**: Master's in Data Science\n\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been applying the advanced machine learning techniques from my Master's in Data Science program to solve some really interesting problems at work lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise Areas**: container orchestration, monitoring systems\n\n - **Favorite Automation Tool**: Terraform\n\n - **Hobby**: rock climbing\n\n-- **Educational Background**: Bachelor's in Computer Science\n\n+- **Educational Background**: Master's in Data Science\n\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my automation tool preference in the system - I've actually switched from Terraform to Ansible for my infrastructure automation needs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 8\n\n - **Certifications**: AWS Certified DevOps Engineer\n\n - **Expertise Areas**: container orchestration, monitoring systems\n\n-- **Favorite Automation Tool**: Terraform\n\n+- **Favorite Automation Tool**: Ansible\n\n - **Hobby**: rock climbing\n\n - **Educational Background**: Bachelor's in Computer Science\n\n - **Communication Style**: direct and collaborative\n\n"
+    },
+    {
+      "query": "I've been really impressed with how Ansible has streamlined my configuration management workflows compared to my previous setup.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 8\n\n - **Certifications**: AWS Certified DevOps Engineer\n\n - **Expertise Areas**: container orchestration, monitoring systems\n\n-- **Favorite Automation Tool**: Terraform\n\n+- **Favorite Automation Tool**: Ansible\n\n - **Hobby**: rock climbing\n\n - **Educational Background**: Bachelor's in Computer Science\n\n - **Communication Style**: direct and collaborative\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience in the records - I actually have 12 years of experience now, not the 8 years that's currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Senior DevOps Specialist\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: AWS Certified DevOps Engineer\n\n - **Expertise Areas**: container orchestration, monitoring systems\n\n - **Favorite Automation Tool**: Terraform\n\n"
+    },
+    {
+      "query": "It's amazing how much my perspective has evolved over these 12 years of experience in the field, especially when mentoring newer team members who are just starting their careers.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Senior DevOps Specialist\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: AWS Certified DevOps Engineer\n\n - **Expertise Areas**: container orchestration, monitoring systems\n\n - **Favorite Automation Tool**: Terraform\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I'm currently managing - I've transitioned from overseeing the DevOps Deployment Framework to managing the Cloud Infrastructure Automation Platform.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n-- **Manages**: [[devops_deployment_framework.md]]\n+- **Manages**: [[cloud_infrastructure_automation_platform.md]]\n\n===entities/cloud_infrastructure_automation_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cloud Infrastructure Automation Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Manages**: [[casey_parker.md]]\n"
+    },
+    {
+      "query": "I've been working closely with my team to optimize our Cloud Infrastructure Automation Platform, implementing new scalability features that have significantly improved our deployment efficiency.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n-- **Manages**: [[devops_deployment_framework.md]]\n+- **Manages**: [[cloud_infrastructure_automation_platform.md]]\n\n===entities/cloud_infrastructure_automation_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cloud Infrastructure Automation Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Manages**: [[casey_parker.md]]\n"
+    },
+    {
+      "query": "I need to update my management responsibilities - I'm no longer managing the DevOps Deployment Framework. I've transitioned to managing the Cloud Infrastructure Automation Platform instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n-- **Manages**: [[devops_deployment_framework.md]]\n+- **Manages**: [[cloud_infrastructure_automation_platform.md]]\n\n===entities/cloud_infrastructure_automation_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cloud Infrastructure Automation Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Manages**: [[casey_parker.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role overseeing the Cloud Infrastructure Automation Platform - it's been exciting to work with cutting-edge containerization and orchestration technologies.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Communication Style**: direct and collaborative\n\n \n\n ## Relationships\n\n-- **Manages**: [[devops_deployment_framework.md]]\n+- **Manages**: [[cloud_infrastructure_automation_platform.md]]\n\n===entities/cloud_infrastructure_automation_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cloud Infrastructure Automation Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Manages**: [[casey_parker.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobbies in the system - I've actually gotten really into Photography and Hiking lately, and I'm not doing Rock Climbing or Coding Challenges as much anymore.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n - **Languages Spoken**: English, French\n\n-- **Hobbies**: Rock Climbing, Coding Challenges\n\n+- **Hobbies**: Photography, Hiking\n\n - **Favorite Tool**: Burp Suite\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I spent the entire weekend doing Photography and Hiking in the mountains, and I got some incredible shots of the sunrise from the peak - these new hobbies have really changed my perspective on nature.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n - **Languages Spoken**: English, French\n\n-- **Hobbies**: Rock Climbing, Coding Challenges\n\n+- **Hobbies**: Photography, Hiking\n\n - **Favorite Tool**: Burp Suite\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, French, and Spanish now, not just English and French as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 5\n\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Hobbies**: Rock Climbing, Coding Challenges\n\n - **Favorite Tool**: Burp Suite\n\n \n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual in English, French, and Spanish when traveling for work - it really opens up communication with so many more clients.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 5\n\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Hobbies**: Rock Climbing, Coding Challenges\n\n - **Favorite Tool**: Burp Suite\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, French, and Spanish now, not just English and French as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 5\n\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Hobbies**: Rock Climbing, Coding Challenges\n\n - **Favorite Tool**: Burp Suite\n\n \n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual, especially using my English, French, and Spanish skills when traveling for work recently.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 5\n\n - **Certifications**: CISSP, CompTIA Security+\n\n - **Education**: B.Sc. in Computer Science\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Hobbies**: Rock Climbing, Coding Challenges\n\n - **Favorite Tool**: Burp Suite\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the documentation I've been working on - I'm no longer improving the Escalation Procedure Manual, but instead I've been focusing my efforts on enhancing the Customer Service Training Guide.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Configures**: [[security_configuration_protocol.md]]\n\n - **Audits**: [[security_audit_tools.md]]\n\n-- **Improves**: [[escalation_procedure_manual.md]]\n+- **Improves**: [[customer_service_training_guide.md]]\n\n===entities/customer_service_training_guide.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Customer Service Training Guide\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: manual\n\n+\n\n+## Relationships\n\n+- **Improves**: [[liam_smith.md]]\n"
+    },
+    {
+      "query": "I've been making great progress on revising the Customer Service Training Guide, incorporating new conflict resolution techniques and communication strategies that should really help our team handle difficult situations more effectively.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Configures**: [[security_configuration_protocol.md]]\n\n - **Audits**: [[security_audit_tools.md]]\n\n-- **Improves**: [[escalation_procedure_manual.md]]\n+- **Improves**: [[customer_service_training_guide.md]]\n\n===entities/customer_service_training_guide.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Customer Service Training Guide\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: manual\n\n+\n\n+## Relationships\n\n+- **Improves**: [[liam_smith.md]]\n"
+    },
+    {
+      "query": "I need to update what I've been working on lately - I'm no longer focusing on the Escalation Procedure Manual, but have shifted to improving our Customer Retention Strategy instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Configures**: [[security_configuration_protocol.md]]\n\n - **Audits**: [[security_audit_tools.md]]\n\n-- **Improves**: [[escalation_procedure_manual.md]]\n+- **Improves**: [[customer_retention_strategy.md]]\n\n===entities/customer_retention_strategy.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Customer Retention Strategy\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: business strategy\n\n+\n\n+## Relationships\n\n+- **Improves**: [[liam_smith.md]]\n"
+    },
+    {
+      "query": "I've been making great progress on enhancing our Customer Retention Strategy, implementing new approaches that should significantly boost client satisfaction and loyalty rates.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Configures**: [[security_configuration_protocol.md]]\n\n - **Audits**: [[security_audit_tools.md]]\n\n-- **Improves**: [[escalation_procedure_manual.md]]\n+- **Improves**: [[customer_retention_strategy.md]]\n\n===entities/customer_retention_strategy.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Customer Retention Strategy\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: business strategy\n\n+\n\n+## Relationships\n\n+- **Improves**: [[liam_smith.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

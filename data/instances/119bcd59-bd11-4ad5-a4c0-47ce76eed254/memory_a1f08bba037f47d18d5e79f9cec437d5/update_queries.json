@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from circuit design and now I'm really into quantum computing research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Senior Customer Service Representative\n\n - **Years Of Experience**: 5\n\n - **Favorite Tool**: compatibility databases\n\n-- **Hobby**: circuit design\n\n+- **Hobby**: quantum computing research\n\n - **Certification**: Certified Electrical Technician\n\n - **Customer Satisfaction Score**: 4.8\n\n - **Bilingual**: True\n\n"
+    },
+    {
+      "query": "I've been spending all my free time lately diving deep into quantum computing research, it's fascinating how quantum algorithms can solve problems that classical computers struggle with.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Senior Customer Service Representative\n\n - **Years Of Experience**: 5\n\n - **Favorite Tool**: compatibility databases\n\n-- **Hobby**: circuit design\n\n+- **Hobby**: quantum computing research\n\n - **Certification**: Certified Electrical Technician\n\n - **Customer Satisfaction Score**: 4.8\n\n - **Bilingual**: True\n\n"
+    },
+    {
+      "query": "I need to update my communication preferences in the system - I no longer prefer Live Chat and would like to switch to email notifications instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Bilingual**: True\n\n - **Languages Known**: English, Spanish\n\n - **Professional Goals**: Advance to Technical Support Manager\n\n-- **Preferred Communication Channel**: Live Chat\n\n+- **Preferred Communication Channel**: Email\n\n - **Favorite Part Of Job**: Troubleshooting complex issues with DIY customers\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been finding email much more convenient for staying in touch lately, as it allows me to respond thoughtfully when I have time rather than needing to be available for real-time chat.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Bilingual**: True\n\n - **Languages Known**: English, Spanish\n\n - **Professional Goals**: Advance to Technical Support Manager\n\n-- **Preferred Communication Channel**: Live Chat\n\n+- **Preferred Communication Channel**: Email\n\n - **Favorite Part Of Job**: Troubleshooting complex issues with DIY customers\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently obtained my Advanced Electrical Systems Specialist certification, replacing my previous Certified Electrical Technician status.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 5\n\n - **Favorite Tool**: compatibility databases\n\n - **Hobby**: circuit design\n\n-- **Certification**: Certified Electrical Technician\n\n+- **Certification**: Advanced Electrical Systems Specialist\n\n - **Customer Satisfaction Score**: 4.8\n\n - **Bilingual**: True\n\n - **Languages Known**: English, Spanish\n\n"
+    },
+    {
+      "query": "I'm excited to share that my new Advanced Electrical Systems Specialist certification has opened up opportunities to work on more complex industrial projects and mentor junior technicians.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 5\n\n - **Favorite Tool**: compatibility databases\n\n - **Hobby**: circuit design\n\n-- **Certification**: Certified Electrical Technician\n\n+- **Certification**: Advanced Electrical Systems Specialist\n\n - **Customer Satisfaction Score**: 4.8\n\n - **Bilingual**: True\n\n - **Languages Known**: English, Spanish\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my professional specialization - I've transitioned from working with electrical parts to specializing in solar panel systems now.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[electrical_parts.md]]\n+- **Specializes_In**: [[solar_panel_systems.md]]\n\n===entities/solar_panel_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Solar Panel Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: specialty\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[cleo_rivera.md]]\n"
+    },
+    {
+      "query": "I'm really excited about my new focus on solar panel systems - it's been rewarding to help clients transition to renewable energy solutions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[electrical_parts.md]]\n+- **Specializes_In**: [[solar_panel_systems.md]]\n\n===entities/solar_panel_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Solar Panel Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: specialty\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[cleo_rivera.md]]\n"
+    },
+    {
+      "query": "I need to update my specialization in the system - I've transitioned from working with electrical parts to specializing in quantum computing components.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[electrical_parts.md]]\n+- **Specializes_In**: [[quantum_computing_components.md]]\n\n===entities/quantum_computing_components.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Computing Components\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: specialization\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[cleo_rivera.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new focus on quantum computing components - it's fascinating how these cutting-edge technologies are revolutionizing the tech industry.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[autoparts_plus_customer_service_team.md]]\n\n-- **Specializes_In**: [[electrical_parts.md]]\n+- **Specializes_In**: [[quantum_computing_components.md]]\n\n===entities/quantum_computing_components.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Computing Components\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: specialization\n\n+\n\n+## Relationships\n\n+- **Specializes_In**: [[cleo_rivera.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

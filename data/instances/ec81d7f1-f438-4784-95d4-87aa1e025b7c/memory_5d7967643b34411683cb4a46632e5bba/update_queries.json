@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my marital status in the system - I recently got divorced and am no longer married.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Teacher\n\n - **Hobbies**: hiking and playing guitar\n\n - **Education Level**: Master's degree in Education\n\n-- **Marital Status**: married\n\n+- **Marital Status**: divorced\n\n - **Children**: 2\n\n - **Pet**: dog named Luna\n\n - **Volunteer Work**: local community garden\n\n"
+    },
+    {
+      "query": "It's been a challenging year adjusting to being divorced, but I'm focusing on rebuilding and finding myself again.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Teacher\n\n - **Hobbies**: hiking and playing guitar\n\n - **Education Level**: Master's degree in Education\n\n-- **Marital Status**: married\n\n+- **Marital Status**: divorced\n\n - **Children**: 2\n\n - **Pet**: dog named Luna\n\n - **Volunteer Work**: local community garden\n\n"
+    },
+    {
+      "query": "I need to update my pet information in the system - I no longer have my dog Luna, I now have a cat named Shadow.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Education Level**: Master's degree in Education\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n-- **Pet**: dog named Luna\n\n+- **Pet**: cat named Shadow\n\n - **Volunteer Work**: local community garden\n\n - **Favorite Book**: Pride and Prejudice\n\n - **Birthplace**: Austin, Texas\n\n"
+    },
+    {
+      "query": "Shadow has been such a wonderful addition to my life - having a cat is so different from when I had Luna, but I'm really enjoying the quieter companionship.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Education Level**: Master's degree in Education\n\n - **Marital Status**: married\n\n - **Children**: 2\n\n-- **Pet**: dog named Luna\n\n+- **Pet**: cat named Shadow\n\n - **Volunteer Work**: local community garden\n\n - **Favorite Book**: Pride and Prejudice\n\n - **Birthplace**: Austin, Texas\n\n"
+    },
+    {
+      "query": "I need to correct my birthplace information in the system - I was actually born in San Antonio, Texas, not Austin, Texas as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Pet**: dog named Luna\n\n - **Volunteer Work**: local community garden\n\n - **Favorite Book**: Pride and Prejudice\n\n-- **Birthplace**: Austin, Texas\n\n+- **Birthplace**: San Antonio, Texas\n\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "Growing up in San Antonio, Texas really shaped my appreciation for the rich cultural diversity and vibrant arts scene that the city has to offer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Pet**: dog named Luna\n\n - **Volunteer Work**: local community garden\n\n - **Favorite Book**: Pride and Prejudice\n\n-- **Birthplace**: Austin, Texas\n\n+- **Birthplace**: San Antonio, Texas\n\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my family status in the system - I'm no longer part of a middle-class family since we've recently joined the upper-middle-class bracket due to significant income changes.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n-- **Is_Part_Of**: [[middle-class_families.md]]\n+- **Is_Part_Of**: [[upper-middle-class_families.md]]\n\n===entities/upper-middle-class_families.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Upper-Middle-Class Families\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: socioeconomic group\n\n+\n\n+## Relationships\n\n+- **Is_Part_Of**: [[mia_hernandez.md]]\n"
+    },
+    {
+      "query": "I've been reflecting on how our transition to upper-middle-class status has changed our spending habits and lifestyle choices compared to when we were middle-class.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n-- **Is_Part_Of**: [[middle-class_families.md]]\n+- **Is_Part_Of**: [[upper-middle-class_families.md]]\n\n===entities/upper-middle-class_families.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Upper-Middle-Class Families\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: socioeconomic group\n\n+\n\n+## Relationships\n\n+- **Is_Part_Of**: [[mia_hernandez.md]]\n"
+    },
+    {
+      "query": "I need to update my family's economic status in your records - we're no longer classified as middle-class families since we've moved into the upper-middle-class bracket.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n-- **Is_Part_Of**: [[middle-class_families.md]]\n+- **Is_Part_Of**: [[upper-middle-class_families.md]]\n\n===entities/upper-middle-class_families.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Upper-Middle-Class Families\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: socioeconomic group\n\n+\n\n+## Relationships\n\n+- **Is_Part_Of**: [[mia_hernandez.md]]\n"
+    },
+    {
+      "query": "I'm grateful for how our transition to upper-middle-class status has opened up new educational and career opportunities for my family.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Languages Spoken**: English and Spanish\n\n \n\n ## Relationships\n\n-- **Is_Part_Of**: [[middle-class_families.md]]\n+- **Is_Part_Of**: [[upper-middle-class_families.md]]\n\n===entities/upper-middle-class_families.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Upper-Middle-Class Families\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: socioeconomic group\n\n+\n\n+## Relationships\n\n+- **Is_Part_Of**: [[mia_hernandez.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

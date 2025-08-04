@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience information in the system - I actually have 10 years of experience now, not the 7 years that's currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Senior Support Agent\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Specialization**: Kitchen Smart Appliance Troubleshooting\n\n - **Favorite Appliance**: Smart Oven\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 10 years of experience in the field has really helped me develop a deeper understanding of complex project management and client relations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Senior Support Agent\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Specialization**: Kitchen Smart Appliance Troubleshooting\n\n - **Favorite Appliance**: Smart Oven\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Spanish, and Portuguese, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Specialization**: Kitchen Smart Appliance Troubleshooting\n\n - **Favorite Appliance**: Smart Oven\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Customer Satisfaction Rate**: 95\n\n - **Hobbies**: Gardening, Cooking\n\n - **Education**: Bachelor of Science in Electrical Engineering\n\n"
+    },
+    {
+      "query": "I've been finding it really helpful being trilingual when working with clients, especially being able to communicate in English, Spanish, and Portuguese depending on their preferences.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 7\n\n - **Specialization**: Kitchen Smart Appliance Troubleshooting\n\n - **Favorite Appliance**: Smart Oven\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Customer Satisfaction Rate**: 95\n\n - **Hobbies**: Gardening, Cooking\n\n - **Education**: Bachelor of Science in Electrical Engineering\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently earned my Advanced Home Automation Specialist certification, replacing my previous Certified Smart Appliance Technician credential.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Customer Satisfaction Rate**: 95\n\n - **Hobbies**: Gardening, Cooking\n\n - **Education**: Bachelor of Science in Electrical Engineering\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Advanced Home Automation Specialist\n\n - **Working Hours**: 9:00 AM - 5:00 PM\n\n - **Location**: Customer Support Center, TechHome Headquarters\n\n \n\n"
+    },
+    {
+      "query": "I've been leveraging my Advanced Home Automation Specialist training to help clients integrate their smart devices more seamlessly into comprehensive home automation ecosystems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Customer Satisfaction Rate**: 95\n\n - **Hobbies**: Gardening, Cooking\n\n - **Education**: Bachelor of Science in Electrical Engineering\n\n-- **Certifications**: Certified Smart Appliance Technician\n\n+- **Certifications**: Advanced Home Automation Specialist\n\n - **Working Hours**: 9:00 AM - 5:00 PM\n\n - **Location**: Customer Support Center, TechHome Headquarters\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my support service information - I'm no longer using QuickFix Hotline and have switched to TechAssist Pro for all my technical support needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Provided_By**: [[instaoven_replacement_parts.md]]\n\n-- **Utilizes**: [[quickfix_hotline.md]]\n+- **Utilizes**: [[techassist_pro.md]]\n\n===entities/techassist_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechAssist Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical support service\n\n+\n\n+## Relationships\n\n+- **Utilizes**: [[carlos_mendes.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with TechAssist Pro's response times and expertise - they've been handling all my technical issues much more efficiently than my previous service.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Provided_By**: [[instaoven_replacement_parts.md]]\n\n-- **Utilizes**: [[quickfix_hotline.md]]\n+- **Utilizes**: [[techassist_pro.md]]\n\n===entities/techassist_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechAssist Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: technical support service\n\n+\n\n+## Relationships\n\n+- **Utilizes**: [[carlos_mendes.md]]\n"
+    },
+    {
+      "query": "I need to update my customer service information - I no longer use QuickFix Hotline and have switched to RapidAssist Support for all my technical assistance needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Provided_By**: [[instaoven_replacement_parts.md]]\n\n-- **Utilizes**: [[quickfix_hotline.md]]\n+- **Utilizes**: [[rapidassist_support.md]]\n\n===entities/rapidassist_support.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# RapidAssist Support\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: customer support service\n\n+\n\n+## Relationships\n\n+- **Utilizes**: [[carlos_mendes.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with RapidAssist Support lately - their response times and technical expertise have been exactly what I needed for my business operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Provided_By**: [[instaoven_replacement_parts.md]]\n\n-- **Utilizes**: [[quickfix_hotline.md]]\n+- **Utilizes**: [[rapidassist_support.md]]\n\n===entities/rapidassist_support.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# RapidAssist Support\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: customer support service\n\n+\n\n+## Relationships\n\n+- **Utilizes**: [[carlos_mendes.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

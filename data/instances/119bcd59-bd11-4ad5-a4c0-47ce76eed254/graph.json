@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "person1",
+      "name": "Alice Monroe",
+      "type": "Person",
+      "role": "Brake Systems Specialist",
+      "education": "Bachelor of Science in Mechanical Engineering",
+      "age": 34,
+      "years_of_experience": 7,
+      "certification": "ASE Certified",
+      "hobbies": "DIY automotive repairs, hiking, and gourmet cooking",
+      "favorite_tool": "Torque Wrench",
+      "languages_spoken": "English, Spanish",
+      "customer_satisfaction_rating": 4.8
+    },
+    {
+      "id": "person2",
+      "name": "Brandon Carter",
+      "type": "Person",
+      "full_name": "Brandon Michael Carter",
+      "position": "Senior Customer Service Representative",
+      "team_role": "Lead Brake System Advisor",
+      "years_of_experience": 7,
+      "educational_background": "Bachelor's Degree in Mechanical Engineering",
+      "certifications": "ASE Certified in Automotive Engine Performance",
+      "hobbies": "Car restoration and jazz guitar",
+      "favorite_automotive_brand": "Honda",
+      "languages_spoken": "English and Spanish",
+      "employee_award": "2022 Customer Service Excellence Award",
+      "communication_style": "Analytical and friendly"
+    },
+    {
+      "id": "person3",
+      "name": "Cleo Rivera",
+      "type": "Person",
+      "position": "Senior Customer Service Representative",
+      "years_of_experience": 5,
+      "favorite_tool": "compatibility databases",
+      "hobby": "circuit design",
+      "certification": "Certified Electrical Technician",
+      "customer_satisfaction_score": 4.8,
+      "bilingual": true,
+      "languages_known": "English, Spanish",
+      "professional_goals": "Advance to Technical Support Manager",
+      "preferred_communication_channel": "Live Chat",
+      "favorite_part_of_job": "Troubleshooting complex issues with DIY customers"
+    },
+    {
+      "id": "person4",
+      "name": "Derek Singh",
+      "type": "Person",
+      "full_name": "Derek Singh",
+      "role": "Customer Service Representative",
+      "specialization": "Brake Systems",
+      "years_of_experience": 3,
+      "certification": "ASE Certified in Brakes",
+      "languages_spoken": "English, Spanish",
+      "hobbies": "Mountain Biking, Playing Guitar",
+      "education": "Associate Degree in Automotive Technology",
+      "favorite_tool": "Digital Caliper",
+      "customer_satisfaction_score": 92.5
+    },
+    {
+      "id": "person5",
+      "name": "Emily Tran",
+      "type": "Person",
+      "position": "Customer Service Representative",
+      "expertise": "brake systems",
+      "years_of_experience": 3,
+      "education": "Bachelor's Degree in Mechanical Engineering",
+      "certifications": "ASE Certified",
+      "languages_spoken": "English, Vietnamese",
+      "hobbies": "rock climbing, painting",
+      "favorite_tool": "digital calipers",
+      "work_motto": "Precision and care in every detail.",
+      "personality_traits": "patient, analytical",
+      "previous_industry": "automotive repair shop"
+    },
+    {
+      "id": "entity1",
+      "name": "Brake Systems",
+      "entity_type": "Product Category",
+      "type": "Entity",
+      "major_components": "calipers, rotors, pads, master cylinder, brake lines",
+      "common_issues": "squeaking, soft pedal, pulling, vibration",
+      "maintenance_tips": "check fluid levels, inspect wear, listen for noises",
+      "performance_rating": 4.7,
+      "popularity": "high"
+    },
+    {
+      "id": "entity2",
+      "name": "Engine Components",
+      "entity_type": "Product Category",
+      "type": "Entity",
+      "product_specializations": "Crankshafts, camshafts, and pistons",
+      "market_audience": "Professional mechanics and DIY enthusiasts",
+      "installation_support": true,
+      "return_policy": "30 days return with original packaging",
+      "average_rating": 4.5,
+      "warranty_period": "2 years",
+      "popular_among": "Honda and Toyota vehicle owners"
+    },
+    {
+      "id": "entity3",
+      "name": "Electrical Parts",
+      "entity_type": "Product Category",
+      "type": "Entity",
+      "compatibility": "Works with cars, motorcycles, and trucks",
+      "warranty_policy": "2-year limited warranty",
+      "popular_items": "Alternators, Spark plugs, Ignition coils",
+      "return_policy": "30-day return policy with receipt",
+      "safety_standards": "Complies with ISO 9001 and CE standards",
+      "average_delivery_time": "5-7 business days",
+      "inventory_count": 15000,
+      "customer_rating": 4.5
+    },
+    {
+      "id": "entity4",
+      "name": "Parts Catalogs",
+      "entity_type": "Resource",
+      "type": "Entity",
+      "format_type": "digital and printed",
+      "number_of_items": 5000,
+      "last_updated": "2023-08-15",
+      "search_capability": true,
+      "availability": "24/7 online access",
+      "additional_resources": "interactive diagrams, cross-reference guides",
+      "language_options": "English, Spanish",
+      "user_guides_included": true
+    },
+    {
+      "id": "entity5",
+      "name": "Compatibility Databases",
+      "entity_type": "Resource",
+      "type": "Entity",
+      "primary_function": "vehicle part compatibility verification",
+      "database_type": "relational database",
+      "supported_systems": "brake systems, engine components, electrical parts",
+      "update_frequency": "weekly",
+      "user_interface": "web-based interface",
+      "data_sources": "manufacturer specifications, part catalogs, customer feedback",
+      "customization_options": "advanced search filters, exportable reports",
+      "security_features": "data encryption, user access controls",
+      "training_resources": "online tutorials and FAQs",
+      "languages_supported": "English, Spanish, Vietnamese"
+    },
+    {
+      "id": "entity6",
+      "name": "Installation Videos",
+      "entity_type": "Resource",
+      "type": "Entity",
+      "video_quality": "1080p",
+      "content_format": "step-by-step tutorials",
+      "accessibility": "closed captions available",
+      "languages_available": "English, Spanish, French",
+      "average_length": 15,
+      "host_instructor": "certified mechanic",
+      "user_rating": 4.8,
+      "update_frequency": "quarterly",
+      "views_count": "over 1 million"
+    },
+    {
+      "id": "entity7",
+      "name": "Return Authorization Forms",
+      "entity_type": "Process",
+      "type": "Entity",
+      "responsible_department": "Customer Support",
+      "form_format": "Digital and Physical",
+      "communication_methods": "Email and Phone",
+      "processing_time": "24 to 48 hours",
+      "required_information": "Order Number, Customer Details, Product SKU"
+    },
+    {
+      "id": "entity8",
+      "name": "Mechanics",
+      "entity_type": "Customer Type",
+      "type": "Entity",
+      "preferred_contact_method": "phone",
+      "average_order_size": 500,
+      "primary_service_interested": "engine components",
+      "industry_experience_years": 15,
+      "feedback_score": 4.8
+    },
+    {
+      "id": "entity9",
+      "name": "DIY Customers",
+      "entity_type": "Customer Type",
+      "type": "Entity",
+      "average_spending_per_order": 125.75,
+      "preferred_communication_channel": "email",
+      "common_vehicle_make": "Ford",
+      "frequent_purchases": "brake pads, oil filters, spark plugs",
+      "project_complexity_preference": "medium to high",
+      "loyalty_program_member": true,
+      "region": "Midwest",
+      "age_group": "25-40",
+      "gender_distribution": "70% male, 30% female",
+      "weekend_project_tendency": true
+    },
+    {
+      "id": "entity10",
+      "name": "AutoParts Plus Customer Service Team",
+      "entity_type": "Team",
+      "type": "Entity",
+      "size_of_team": 15,
+      "training_programs": "comprehensive customer interaction practices and technical product knowledge training",
+      "customer_interaction_channels": "phone, email, live chat",
+      "average_response_time": "1 hour",
+      "key_values": "Customer satisfaction, product knowledge, and swift problem resolution",
+      "annual_performance_review": "conducted every December",
+      "team_meetings_frequency": "weekly",
+      "team_events": "monthly team-building activities",
+      "recognition_program": "Employee of the Month",
+      "location": "Seattle, WA"
+    },
+    {
+      "id": "entity11",
+      "name": "Johnston's Brake Solutions",
+      "entity_type": "Partner",
+      "type": "Entity",
+      "location": "Phoenix, Arizona",
+      "year_established": 1995,
+      "reputation": "industry_leader",
+      "partnership_duration": "15 years",
+      "specialization": "high-performance brake systems",
+      "leading_technology": "carbon ceramic brakes",
+      "number_of_employees": 150,
+      "annual_revenue": "$25 million"
+    },
+    {
+      "id": "entity12",
+      "name": "Engine Innovators Inc.",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "founded_year": 1998,
+      "headquarters_location": "Detroit, Michigan, USA",
+      "number_of_employees": 250,
+      "annual_revenue": "$30 million",
+      "certifications": "ISO 9001, QS-9000",
+      "key_clients": "Ford, General Motors, Bosch",
+      "sustainability_initiatives": "Renewable energy usage, waste reduction program",
+      "technology_investments": "Advanced robotics, AI-driven manufacturing systems",
+      "community_involvement": "Local STEM education programs sponsorship",
+      "company_motto": "Innovation Drives Performance"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person1",
+      "p": "specializes_in",
+      "o": "entity1"
+    },
+    {
+      "s": "person2",
+      "p": "specializes_in",
+      "o": "entity2"
+    },
+    {
+      "s": "person3",
+      "p": "specializes_in",
+      "o": "entity3"
+    },
+    {
+      "s": "person4",
+      "p": "uses",
+      "o": "entity4"
+    },
+    {
+      "s": "person5",
+      "p": "uses",
+      "o": "entity5"
+    },
+    {
+      "s": "entity1",
+      "p": "provider",
+      "o": "entity11"
+    },
+    {
+      "s": "entity2",
+      "p": "provider",
+      "o": "entity12"
+    },
+    {
+      "s": "entity4",
+      "p": "used_by",
+      "o": "entity10"
+    },
+    {
+      "s": "entity5",
+      "p": "used_by",
+      "o": "entity10"
+    },
+    {
+      "s": "entity6",
+      "p": "used_by",
+      "o": "entity10"
+    },
+    {
+      "s": "entity6",
+      "p": "helps_install",
+      "o": "entity1"
+    },
+    {
+      "s": "entity6",
+      "p": "helps_install",
+      "o": "entity2"
+    },
+    {
+      "s": "entity6",
+      "p": "helps_install",
+      "o": "entity3"
+    },
+    {
+      "s": "entity7",
+      "p": "used_by",
+      "o": "entity10"
+    },
+    {
+      "s": "entity10",
+      "p": "employs",
+      "o": "person1"
+    },
+    {
+      "s": "entity10",
+      "p": "employs",
+      "o": "person2"
+    },
+    {
+      "s": "entity10",
+      "p": "employs",
+      "o": "person3"
+    },
+    {
+      "s": "entity10",
+      "p": "employs",
+      "o": "person4"
+    },
+    {
+      "s": "entity10",
+      "p": "employs",
+      "o": "person5"
+    },
+    {
+      "s": "entity10",
+      "p": "assists_with",
+      "o": "entity8"
+    },
+    {
+      "s": "entity10",
+      "p": "assists_with",
+      "o": "entity9"
+    }
+  ]
+}

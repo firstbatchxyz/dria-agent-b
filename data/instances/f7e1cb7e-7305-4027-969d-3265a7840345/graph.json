@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Lisa Sanders",
+      "type": "Person",
+      "occupation": "Financial Analyst",
+      "disability": "Blind",
+      "assistive_technologies": "JAWS Software, Braille Pro 300, AccessibleTech Keyboards, SoundLink Conferencing",
+      "colleagues": "John Thompson, Emily Tran, Raj Patel, Natalie Garcia",
+      "hobbies": "Listening to audiobooks, Braille poetry, and birdwatching with auditory guidance",
+      "education_background": "Master's Degree in Finance from University of Midwest",
+      "certifications": "Certified Financial Planner (CFP)",
+      "favorite_software_feature": "Screen Reader Mode"
+    },
+    {
+      "id": "p2",
+      "name": "John Thompson",
+      "type": "Person",
+      "occupation": "Senior Accountant",
+      "age": 45,
+      "hobbies": "Photography and Hiking",
+      "education_background": "Bachelor's Degree in Accounting from State University",
+      "certifications": "Certified Public Accountant (CPA)",
+      "experience_years": 20,
+      "special_skill": "Excel Spreadsheets",
+      "favorite_team": "Chicago Cubs"
+    },
+    {
+      "id": "p3",
+      "name": "Emily Tran",
+      "type": "Person",
+      "occupation": "Human Resources Manager",
+      "expertise_area": "Diversity and Inclusion",
+      "hobbies": "Pottery and Hiking",
+      "languages_spoken": "English and Vietnamese",
+      "education_background": "Bachelor's Degree in Human Resource Management from East Coast University",
+      "volunteer_experience": "Weekly volunteer at the local community center",
+      "favorite_software_tool": "Slack for team communication",
+      "skills": "Conflict Resolution, Employee Engagement"
+    },
+    {
+      "id": "p4",
+      "name": "Raj Patel",
+      "type": "Person",
+      "occupation": "Senior Accountant",
+      "skills": "Advanced Excel proficiency, IFRS knowledge, Tax accounting",
+      "education_background": "Bachelor's Degree in Accounting, Midwest State University",
+      "certifications": "Chartered Accountant (CA)",
+      "hobbies": "Cycling, Chess, Cooking international cuisine",
+      "favorite_software_feature": "Pivot Tables",
+      "professional_goals": "To become a partner at the firm within the next 5 years",
+      "communication_style": "Prefers detailed emails over calls",
+      "nickname": "Rajie"
+    },
+    {
+      "id": "p5",
+      "name": "Natalie Garcia",
+      "type": "Person",
+      "full_name": "Natalie Garcia",
+      "occupation": "Legal Consultant",
+      "education": "Juris Doctor from Westwood Law School",
+      "hobbies": "Kayaking and baking artisan bread",
+      "favorite_technology_for_work": "Document collaboration tools",
+      "certifications": "Licensed Attorney",
+      "volunteer_work": "Legal aid for underprivileged communities",
+      "previous_jobs": "Paralegal at GreenField LLC",
+      "longest_friendship_at_firm": "John Thompson",
+      "favorite_coffee_spot": "Java Junction Cafe"
+    },
+    {
+      "id": "e1",
+      "name": "Insight Financial Group",
+      "entity_type": "Accounting Firm",
+      "type": "Entity",
+      "founding_year": 1998,
+      "core_values": "Integrity, Precision, Inclusivity",
+      "headquarters_location": "Chicago, IL",
+      "client_focus": "Small to Medium Enterprises",
+      "number_of_employees": 120,
+      "annual_revenue": "$15 million",
+      "unique_feature": "Focus on accessibility and inclusion in workplace",
+      "certifications": "ISO 27001, Inclusive Workplace Certified",
+      "services_offered": "Tax Consulting, Audit Services, Financial Planning, Business Strategy",
+      "key_clients": "TechCorp Solutions, GreenGas Industries, HealthLine Inc."
+    },
+    {
+      "id": "e2",
+      "name": "JAWS Software",
+      "entity_type": "Assistive Technology",
+      "type": "Entity",
+      "origin": "Developed by Henter-Joyce, Inc.",
+      "release_year": 1989,
+      "languages_supported": "English, Spanish, French, German, Chinese, Japanese, and more",
+      "key_features": "Screen reading, Braille output support, text-to-speech conversion, scripting capability",
+      "platform_compatibility": "Windows OS",
+      "industry_usage": "Industries like Finance, Technology, Education, and Government use JAWS"
+    },
+    {
+      "id": "e3",
+      "name": "Braille Pro 300",
+      "entity_type": "Braille Printer",
+      "type": "Entity",
+      "model_number": "BP300",
+      "manufacturer": "TechPrint Industries",
+      "printing_speed": "20 pages per minute",
+      "connectivity": "USB and Bluetooth compatible",
+      "dimensions": "15x10x5 inches",
+      "weight": "7.5 pounds",
+      "color": "Black and Gray",
+      "release_year": 2021,
+      "key_features": "High-resolution embossing, adjustable Braille dot height, capable of producing tactile graphics."
+    },
+    {
+      "id": "e4",
+      "name": "AccessibleTech Keyboards",
+      "entity_type": "Accessible Hardware",
+      "type": "Entity",
+      "manufacturer": "InnoKey Solutions",
+      "features": "High-contrast keys, Tactile feedback, Customizable Braille keycaps",
+      "compatibility": "Windows, macOS, Linux",
+      "color": "Black and silver",
+      "release_year": 2021,
+      "warranty_period_years": 3,
+      "connection_type": "Wireless Bluetooth 5.1"
+    },
+    {
+      "id": "e5",
+      "name": "SoundLink Conferencing",
+      "entity_type": "Audio Conference System",
+      "type": "Entity",
+      "audio_quality": "High Definition",
+      "support_languages": "English, Spanish, Mandarin",
+      "main_features": "Screen Reader Compatibility, Voice Activation, Noise Cancellation",
+      "user_capacity": 250,
+      "tech_support_hours": "24/7",
+      "vendor": "TechTone Systems"
+    },
+    {
+      "id": "e6",
+      "name": "Visual Insight Services",
+      "entity_type": "Document Description Service",
+      "type": "Entity",
+      "location": "Online, Remote Services",
+      "specialization": "Banking and Finance Industries",
+      "established_year": 2015,
+      "client_testimonials": "Highly reliable and detailed descriptions",
+      "founder": "Sophia Green",
+      "mission_statement": "Empowering visually impaired professionals with unparalleled document accessibility.",
+      "primary_language_support": "English, with options for Spanish and French translations",
+      "service_hours": "24/7 to accommodate global clients"
+    },
+    {
+      "id": "e7",
+      "name": "Clearview Meeting Solutions",
+      "entity_type": "Meeting Notes Provider",
+      "type": "Entity",
+      "founding_year": "2015",
+      "ceo_name": "Martin Clearview",
+      "employee_count": 45,
+      "headquarter_location": "San Francisco, CA",
+      "notable_clients": "Top Fortune 500 Companies",
+      "meeting_notes_format": "Accessible PDF, Braille, Audio",
+      "average_annual_revenue": "$10 million",
+      "industry_awards": "Best Accessibility Solutions 2022",
+      "environmental_policy": "Carbon Neutral Initiative"
+    },
+    {
+      "id": "e8",
+      "name": "Future Sight Initiative",
+      "entity_type": "Non-profit Organization",
+      "type": "Entity",
+      "founded_year": 2010,
+      "mission_statement": "To enhance accessibility for visually impaired individuals through technological innovation and advocacy.",
+      "operational_regions": "Global",
+      "headquarters_location": "Boston, Massachusetts",
+      "founder": "Dr. Emily Chen",
+      "number_of_employees": 50,
+      "program_areas": "Accessibility technology development, advocacy, and education",
+      "key_projects": "Project Visionary, Tech for All Initiative"
+    },
+    {
+      "id": "e9",
+      "name": "Accounting Software Suite",
+      "entity_type": "Software Product",
+      "type": "Entity",
+      "release_year": 2021,
+      "primary_functionality": "Financial Analysis",
+      "compatible_operating_systems": "Windows, macOS",
+      "accessibility_features": "Screen Reader Support, Keyboard Navigation, High Contrast Mode",
+      "developer_company": "FinTech Innovations Ltd.",
+      "integrated_modules": "Tax, Payroll, Reporting, Budgeting",
+      "user_base": 15000,
+      "licensing_model": "Subscription-based",
+      "customer_support_availability": "24/7",
+      "award_recognition": "Best Accounting Software 2022 by Software Innovators Awards"
+    },
+    {
+      "id": "e10",
+      "name": "Finance Associates Network",
+      "entity_type": "Professional Organization",
+      "type": "Entity",
+      "member_size": 1500,
+      "established_year": 1995,
+      "headquarters_location": "Chicago, IL",
+      "mission_statement": "Promoting financial literacy and inclusive finance practices",
+      "annual_event": "Global Finance Symposium"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e5"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "p3"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "p4"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "p5"
+    },
+    {
+      "s": "p2",
+      "p": "provides_visual_descriptions_to",
+      "o": "p1"
+    },
+    {
+      "s": "p3",
+      "p": "provides_meeting_notes_to",
+      "o": "p1"
+    },
+    {
+      "s": "e6",
+      "p": "provides",
+      "o": "p1"
+    },
+    {
+      "s": "e7",
+      "p": "facilitates",
+      "o": "e5"
+    },
+    {
+      "s": "e8",
+      "p": "funds",
+      "o": "e2"
+    },
+    {
+      "s": "e9",
+      "p": "tools_for",
+      "o": "e1"
+    },
+    {
+      "s": "e10",
+      "p": "network_for",
+      "o": "p1"
+    }
+  ]
+}

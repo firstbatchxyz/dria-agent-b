@@ -1,0 +1,495 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Bob Johnson",
+      "type": "Person",
+      "full_name": "Robert James Johnson",
+      "role": "Owner",
+      "experience_years": 15,
+      "technical_specialty": "Power Tools",
+      "hobbies": "woodworking, hiking",
+      "favorite_tool_brand": "DeWalt",
+      "education": "Bachelor's degree in Engineering",
+      "marital_status": "married",
+      "children": 2,
+      "community_involvement": "Local Chamber of Commerce"
+    },
+    {
+      "id": "person_2",
+      "name": "Susan Carter",
+      "type": "Person",
+      "full_name": "Susan Emily Carter",
+      "role": "Cashier",
+      "experience_years": 5,
+      "inventory_specialty": "Paint Supplies",
+      "education": "High School Diploma",
+      "hobbies": "photography",
+      "favorite_tool": "Paint Mixer",
+      "customer_relationships": "excellent",
+      "languages_spoken": "English, Spanish",
+      "personality_traits": "friendly and detail-oriented"
+    },
+    {
+      "id": "person_3",
+      "name": "Tom Evans",
+      "type": "Person",
+      "full_name": "Tom Evans",
+      "role": "part-time helper",
+      "experience_in_years": 2,
+      "hobbies": "woodworking",
+      "favorite_tool": "cordless drill",
+      "availability": "weekends",
+      "certification": "basic carpentry",
+      "loves_dogs": true,
+      "age": 27,
+      "volunteer_work": "community garden"
+    },
+    {
+      "id": "entity_1",
+      "name": "Nuts Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "typical_size": "1/4 inch to 1 inch",
+      "material": "steel, brass, nylon",
+      "uses": "construction, automotive, furniture assembly",
+      "color": "silver, gold, black",
+      "average_sales_volume_per_month": 500,
+      "location_in_store": "Aisle 3, Section B",
+      "common_brands": "Fastenal, Hillman, Grip-Rite"
+    },
+    {
+      "id": "entity_2",
+      "name": "Bolts Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "average_price_per_unit": 0.15,
+      "supplier_count": 5,
+      "annual_sales_volume": 20000,
+      "location_within_store": "Aisle 3, Left Side",
+      "common_material": "Stainless Steel"
+    },
+    {
+      "id": "entity_3",
+      "name": "Tools Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "average_sales_volume_per_month": 250,
+      "most_popular_tool": "Cordless Drill",
+      "total_items_in_category": 500,
+      "is_featured_section": true,
+      "seasonal_demand_variation": "High during spring and summer"
+    },
+    {
+      "id": "entity_4",
+      "name": "Paint Supplies Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "location_in_store": "west corner near the gardening section",
+      "average_stock_quantity": 500,
+      "popular_colors": "blue, red, white, green",
+      "section_exclusives": "eco-friendly paint line",
+      "seasonal_sales_percentage": 25,
+      "section_manager": "Helen Rios",
+      "annual_revenue_contribution_percentage": 30,
+      "specialty_products": "anti-mildew paint, quick-dry paint"
+    },
+    {
+      "id": "entity_5",
+      "name": "Gardening Equipment Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "floor_location": "north-east corner of the store",
+      "specialty_items": "organic fertilizers, heirloom seeds",
+      "peak_season": "spring",
+      "staff_expertise": "horticulture",
+      "recently_updated": true
+    },
+    {
+      "id": "entity_6",
+      "name": "Seasonal Items Section",
+      "entity_type": "Inventory Category",
+      "type": "Entity",
+      "display_area_size": "50 square meters",
+      "inventory_turnover_rate": 6,
+      "featured_season": "Winter",
+      "most_popular_item": "LED String Lights",
+      "last_inventory_update": "2023-09-15",
+      "average_temperature_control": "18°C"
+    },
+    {
+      "id": "entity_7",
+      "name": "Cash Register",
+      "entity_type": "Hardware",
+      "type": "Entity",
+      "model": "CRX-2023",
+      "manufacturer": "RegisterTech Inc.",
+      "supports_contactless_payments": true,
+      "number_of_cash_drawers": 1,
+      "installed_year": 2022,
+      "last_software_update": "2023-09-15"
+    },
+    {
+      "id": "entity_8",
+      "name": "Inventory Tracking System",
+      "entity_type": "Software",
+      "type": "Entity",
+      "version": "2.5.3",
+      "provider": "TechTrack Solutions",
+      "primary_functions": "Real-time tracking, Automated reporting, Demand forecasting",
+      "installation_year": 2021,
+      "user_interface": "Web-based and Mobile App",
+      "data_backup_frequency": "Daily",
+      "security_features": "Multi-factor authentication, Data encryption",
+      "number_of_users": 15,
+      "integration_capabilities": "Works with supplier APIs, Compatible with Excel exports",
+      "support_level": "24/7 Customer Support",
+      "storage_capacity": "500 GB"
+    },
+    {
+      "id": "entity_9",
+      "name": "Reorder Point List",
+      "entity_type": "Document",
+      "type": "Entity",
+      "creation_date": "2022-06-15",
+      "last_updated": "2023-09-22",
+      "responsible_personnel": "Inventory Manager",
+      "frequency_of_update": "Weekly",
+      "primary_use": "Preventing stockouts and ensuring optimal inventory levels",
+      "format_type": "Spreadsheet",
+      "data_fields_included": "Item SKU, Description, Current Inventory Level, Reorder Point, Supplier Details",
+      "system_integration": "Integrated with Inventory Management Software"
+    },
+    {
+      "id": "entity_10",
+      "name": "Supplier Catalogs",
+      "entity_type": "Document",
+      "type": "Entity",
+      "format": "digital and print",
+      "update_frequency": "quarterly",
+      "storage_location": "Storage Room",
+      "number_of_pages": 150,
+      "primary_contact": "Kirkland Supply Co.",
+      "last_updated": "2023-07-15"
+    },
+    {
+      "id": "entity_11",
+      "name": "Kirkland Supply Co.",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "company_name": "Kirkland Supply Co.",
+      "industry": "Hardware Supplies",
+      "founding_year": 1995,
+      "headquarters_location": "Denver, CO",
+      "contact_number": "555-1234",
+      "email": "contact@kirklandsupply.com",
+      "website": "www.kirklandsupply.com",
+      "annual_revenue": "$10 million",
+      "number_of_employees": 150,
+      "CEO_name": "Jennifer Kirkland"
+    },
+    {
+      "id": "entity_12",
+      "name": "Allstate Fasteners",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "established_year": 1998,
+      "specialization": "Industrial Fasteners",
+      "certifications": "ISO 9001",
+      "location": "Dayton, Ohio",
+      "number_of_employees": 85,
+      "customer_service_contact": "800-555-FAST (3278)",
+      "key_product_lines": "nuts, bolts, screws, washers",
+      "reputation": "known for fast shipping and competitive pricing",
+      "partnerships": "partnership with Kirkland Supply Co.",
+      "website": "www.allstatefasteners.com"
+    },
+    {
+      "id": "entity_13",
+      "name": "Garden Master Tools",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "founding_year": "1998",
+      "headquarters_location": "Seattle, WA",
+      "specialized_tool_category": "Gardening Tools",
+      "yearly_revenue": 12600000,
+      "number_of_employees": 85,
+      "company_certifications": "ISO 9001",
+      "primary_contact_email": "contact@gardenmastertools.com"
+    },
+    {
+      "id": "entity_14",
+      "name": "Paint Plus LLC",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "business_type": "Paint Supplier",
+      "founding_year": "2005",
+      "headquarters_location": "Pittsburgh, PA",
+      "main_products": "interior and exterior paints",
+      "employee_count": 150,
+      "annual_revenue": 4500000,
+      "sustainability_initiatives": "Partnership with eco-friendly manufacturers",
+      "customer_support_hours": "Mon-Fri 9 AM to 5 PM",
+      "distribution_areas": "Northeast and Midwest United States",
+      "notable_clients": "Several top regional hardware chains"
+    },
+    {
+      "id": "entity_15",
+      "name": "Seasonal Essentials Inc.",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "primary_specialization": "seasonal decorations and lighting",
+      "years_in_operation": 12,
+      "headquarters_location": "Brighton, UK",
+      "partnership_count": 24,
+      "CEO": "Rebecca Lin",
+      "operating_hours": "9 AM - 5 PM GMT",
+      "certifications": "ISO 9001, ISO 14001",
+      "customer_satisfaction_rating": 4.8,
+      "shipping_methods": "Ground, Air, Sea",
+      "return_policy": "30-day return"
+    },
+    {
+      "id": "entity_16",
+      "name": "Cashier Station",
+      "entity_type": "Area",
+      "type": "Entity",
+      "area_dimensions": "10x8 feet",
+      "primary_function": "Sales and Customer Interaction",
+      "security_features": "CCTV camera, panic button",
+      "peak_hours": "3pm-6pm",
+      "counter_material": "Maple Wood",
+      "point_of_sale_system": "POSMaster 5.0",
+      "decor_style": "Industrial",
+      "average_customer_visits_per_day": 150
+    },
+    {
+      "id": "entity_17",
+      "name": "Owner's Office",
+      "entity_type": "Area",
+      "type": "Entity",
+      "dimensions": "3x4 meters",
+      "features": "mahogany desk, ergonomic chair, filing cabinet, large window",
+      "decor_style": "rustic",
+      "technology_equipment": "desktop computer, printer, video conferencing setup",
+      "wall_colors": "light beige with green accents",
+      "favorite_artwork": "landscape painting on south wall",
+      "misc_items": "coffee maker, plant in corner",
+      "office_use": "strategy meetings, accounting, inventory planning",
+      "renovation_year": 2020,
+      "security": "key card access, CCTV surveillance"
+    },
+    {
+      "id": "entity_18",
+      "name": "Storage Room",
+      "entity_type": "Area",
+      "type": "Entity",
+      "size": "150 square feet",
+      "climate_control": true,
+      "security_features": "CCTV monitoring",
+      "organization_system": "shelving units and labeling system",
+      "accessibility": "employee access only with key card",
+      "lighting": "LED overhead lights"
+    },
+    {
+      "id": "entity_19",
+      "name": "Bob's Point of Sale Software",
+      "entity_type": "Software",
+      "type": "Entity",
+      "developer_name": "RetailSoft Solutions",
+      "release_year": 2019,
+      "version": "3.2.1",
+      "key_features": "transaction processing, inventory management, sales reporting",
+      "integration_compatibility": "CRM, accounting software, e-commerce platforms",
+      "user_interface": "intuitive",
+      "support_options": "24/7 customer support, online help center",
+      "customization_level": "high"
+    },
+    {
+      "id": "entity_20",
+      "name": "Customer Loyalty Program",
+      "entity_type": "Service",
+      "type": "Entity",
+      "member_tiers": "Bronze, Silver, Gold, Platinum",
+      "enrollment_fee": 20,
+      "reward_points_earning_rate": "1 point per $1 spent",
+      "membership_duration": "1 year",
+      "exclusive_benefits": "early access to sales, special discounts, birthday gifts",
+      "renewal_discount": "10% off next annual fee",
+      "loyalty_card_design": "customizable with member's name",
+      "customer_enrollment_methods": "in-store, online",
+      "communication_channels": "email, SMS, mobile app notifications",
+      "redemption_options": "store credits, exclusive products, partner offers"
+    },
+    {
+      "id": "entity_21",
+      "name": "Part-time Helpers",
+      "entity_type": "Human Resource",
+      "type": "Entity",
+      "shift_preference": "afternoons",
+      "training_level": "basic hardware knowledge",
+      "average_age": 28,
+      "peak_months": "spring and summer",
+      "years_employed": 2,
+      "work_ethic": "high"
+    },
+    {
+      "id": "entity_22",
+      "name": "Spring Sale Event",
+      "entity_type": "Sales Event",
+      "type": "Entity",
+      "event_duration": "3 weeks",
+      "start_date": "April 1",
+      "discount_rate": "15%",
+      "promotional_materials": "flyers, social media posts",
+      "customer_draw": "free gardening workshop on first weekend",
+      "exclusive_offer": "members-only early access",
+      "additional_staff": "temporary hires for weekend rush",
+      "sponsor_partner": "Local Gardening Club"
+    },
+    {
+      "id": "entity_23",
+      "name": "Winter Clearance Sale",
+      "entity_type": "Sales Event",
+      "type": "Entity",
+      "start_date": "2023-12-10",
+      "end_date": "2024-01-10",
+      "discount_range": "20%-50%",
+      "marketing_channel": "Social Media",
+      "foot_traffic_increase": 35,
+      "special_promotion": "Free gift wrapping",
+      "customer_feedback_rating": 4.7
+    },
+    {
+      "id": "entity_24",
+      "name": "Emergency Order Procedure",
+      "entity_type": "Procedure",
+      "type": "Entity",
+      "response_time_target": "2 hours",
+      "contact_method": "phone and email",
+      "priority_level": 1,
+      "authorized_personnel": "manager and owner only",
+      "stock_threshold_trigger": 10,
+      "supplier_contact_time": "within 30 minutes",
+      "inventory_check_frequency": "daily during high demand",
+      "backup_suppliers_list": "available"
+    },
+    {
+      "id": "entity_25",
+      "name": "Hardware Inventory Audit",
+      "entity_type": "Procedure",
+      "type": "Entity",
+      "frequency": "Quarterly",
+      "scope": "Comprehensive audit of all inventory categories",
+      "responsible_person": "Lead Manager",
+      "duration": "3 days per audit cycle",
+      "procedures_documented": true,
+      "last_audit_date": "2023-09-15",
+      "issues_found": 2,
+      "issues_resolved": true,
+      "improvements_suggested": "Upgrade to Inventory Tracking System version 3.0, Optimize reorder point calculations"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "owns",
+      "o": "entity_17"
+    },
+    {
+      "s": "person_2",
+      "p": "is managed by",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_3",
+      "p": "is supplied by",
+      "o": "entity_13"
+    },
+    {
+      "s": "entity_4",
+      "p": "is supplied by",
+      "o": "entity_14"
+    },
+    {
+      "s": "entity_6",
+      "p": "is supplied by",
+      "o": "entity_15"
+    },
+    {
+      "s": "entity_7",
+      "p": "is located at",
+      "o": "entity_16"
+    },
+    {
+      "s": "entity_8",
+      "p": "tracks",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_8",
+      "p": "tracks",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_8",
+      "p": "tracks",
+      "o": "entity_3"
+    },
+    {
+      "s": "entity_9",
+      "p": "references",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_9",
+      "p": "references",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_10",
+      "p": "includes",
+      "o": "entity_11"
+    },
+    {
+      "s": "entity_10",
+      "p": "includes",
+      "o": "entity_12"
+    },
+    {
+      "s": "entity_18",
+      "p": "stores",
+      "o": "entity_9"
+    },
+    {
+      "s": "entity_18",
+      "p": "stores",
+      "o": "entity_10"
+    },
+    {
+      "s": "entity_19",
+      "p": "supports",
+      "o": "entity_20"
+    },
+    {
+      "s": "entity_21",
+      "p": "assist",
+      "o": "person_2"
+    },
+    {
+      "s": "entity_22",
+      "p": "features",
+      "o": "entity_5"
+    },
+    {
+      "s": "entity_23",
+      "p": "features",
+      "o": "entity_6"
+    },
+    {
+      "s": "entity_25",
+      "p": "reviews",
+      "o": "entity_8"
+    }
+  ]
+}

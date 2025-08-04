@@ -1,0 +1,114 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my job title?",
+      "a": "Senior Support Agent"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Advanced Troubleshooting Techniques"
+    },
+    {
+      "q": "What is my office location?",
+      "a": "Mumbai Customer Support Center"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's in Electrical Engineering"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Hindi"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Smart Appliance Technician"
+    },
+    {
+      "q": "What is my favorite kitchen appliance?",
+      "a": "Smart Oven"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Cooking with smart gadgets"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of guide do I use for troubleshooting?"
+      ],
+      "a": "guide",
+      "attribute": "entity type=guide",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "Who is the author of the troubleshooting guide I use?"
+      ],
+      "a": "TechHome",
+      "attribute": "author=TechHome",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "What year was my troubleshooting guide published?"
+      ],
+      "a": "2021",
+      "attribute": "publication year=2021",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "What does my troubleshooting guide cover?"
+      ],
+      "a": "Includes common issues and solutions for AutoChef models released from 2018 to 2021",
+      "attribute": "coverage=Includes common issues and solutions for AutoChef models released from 2018 to 2021",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "How is my troubleshooting guide distributed?"
+      ],
+      "a": "Digital Download",
+      "attribute": "distribution method=Digital Download",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "What is the file size in MB of my troubleshooting guide?"
+      ],
+      "a": "5.2",
+      "attribute": "file size MB=5.2",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "What format is my troubleshooting guide in?"
+      ],
+      "a": "PDF",
+      "attribute": "format=PDF",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "What rating does my troubleshooting guide have?"
+      ],
+      "a": "4.5",
+      "attribute": "rating=4.5",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    },
+    {
+      "q": [
+        "How many revisions has my troubleshooting guide had?"
+      ],
+      "a": "2",
+      "attribute": "revisions=2",
+      "path": "Rahul Singh -> AutoChef Troubleshooting Guide"
+    }
+  ]
+}

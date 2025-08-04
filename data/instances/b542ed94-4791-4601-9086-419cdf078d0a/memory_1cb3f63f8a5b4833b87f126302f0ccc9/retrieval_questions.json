@@ -1,0 +1,138 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "79"
+    },
+    {
+      "q": "What is my favorite music genre?",
+      "a": "classical"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "knitting"
+    },
+    {
+      "q": "What is my room number?",
+      "a": "215"
+    },
+    {
+      "q": "What is my dietary preference?",
+      "a": "low-sodium"
+    },
+    {
+      "q": "What was my previous occupation?",
+      "a": "nurse"
+    },
+    {
+      "q": "What is my pet therapy preference?",
+      "a": "cats"
+    },
+    {
+      "q": "How frequently does my family visit?",
+      "a": "bi-weekly"
+    },
+    {
+      "q": "What is my native language?",
+      "a": "Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of place do I visit?"
+      ],
+      "a": "Place",
+      "attribute": "entity type=Place",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What are the best visiting hours for the place I visit?"
+      ],
+      "a": "10:00 AM - 6:00 PM",
+      "attribute": "best visiting hours=10:00 AM - 6:00 PM",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What species of flowers are in the place I visit?"
+      ],
+      "a": "Rose, Lavender, Sunflower",
+      "attribute": "species of flowers=Rose, Lavender, Sunflower",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "Who designed the place I visit?"
+      ],
+      "a": "Evergreen Architects",
+      "attribute": "designed by=Evergreen Architects",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What year was the place I visit established?"
+      ],
+      "a": "2015",
+      "attribute": "year established=2015",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What is the primary use of the place I visit?"
+      ],
+      "a": "Recreational and therapeutic activities for residents",
+      "attribute": "primary use=Recreational and therapeutic activities for residents",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What weekly events happen at the place I visit?"
+      ],
+      "a": "Guided nature walks, Planting sessions",
+      "attribute": "weekly events=Guided nature walks, Planting sessions",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What amenities are available at the place I visit?"
+      ],
+      "a": "Benches, Water fountain, Walking paths",
+      "attribute": "amenities=Benches, Water fountain, Walking paths",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What is the average number of daily visitors at the place I visit?"
+      ],
+      "a": "25",
+      "attribute": "average daily visitors=25",
+      "path": "Samantha Rose -> Memory Lane Garden"
+    },
+    {
+      "q": [
+        "What type of activity do I attend?"
+      ],
+      "a": "Activity",
+      "attribute": "entity type=Activity",
+      "path": "Samantha Rose -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "How long does the activity I attend last?"
+      ],
+      "a": "30 minutes",
+      "attribute": "duration=30 minutes",
+      "path": "Samantha Rose -> Morning Mindfulness Session"
+    },
+    {
+      "q": [
+        "How often does the activity I attend occur?"
+      ],
+      "a": "daily",
+      "attribute": "recurrence=daily",
+      "path": "Samantha Rose -> Morning Mindfulness Session"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my age in the system - I'm actually 82 years old now, not 79 as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 79\n\n+- **Age**: 82\n\n - **Favorite Music Genre**: classical\n\n - **Hobby**: knitting\n\n - **Room Number**: 215\n\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    },
+    {
+      "query": "It's hard to believe I'm already 82! Time really flies when you're staying active and enjoying life with family and friends.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 79\n\n+- **Age**: 82\n\n - **Favorite Music Genre**: classical\n\n - **Hobby**: knitting\n\n - **Room Number**: 215\n\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    },
+    {
+      "query": "I need to update my family visit schedule in the system - I've changed from visiting bi-weekly to visiting monthly due to my new work commitments.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,12 +9,12 @@\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: nurse\n\n - **Pet Therapy Preference**: cats\n\n-- **Family Visits Frequency**: bi-weekly\n\n+- **Family Visits Frequency**: monthly\n\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    },
+    {
+      "query": "I've been adjusting well to my new monthly family visit routine, which gives me more time to focus on my career while still maintaining close family bonds.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,12 +9,12 @@\n - **Dietary Preference**: low-sodium\n\n - **Previous Occupation**: nurse\n\n - **Pet Therapy Preference**: cats\n\n-- **Family Visits Frequency**: bi-weekly\n\n+- **Family Visits Frequency**: monthly\n\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    },
+    {
+      "query": "I need to correct my music preferences in the system - my favorite genre has changed from classical to indie folk over the past year.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 79\n\n-- **Favorite Music Genre**: classical\n\n+- **Favorite Music Genre**: indie folk\n\n - **Hobby**: knitting\n\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    },
+    {
+      "query": "I've been really drawn to indie folk lately, spending most evenings listening to artists like Bon Iver and Fleet Foxes - it's become my absolute favorite genre.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 79\n\n-- **Favorite Music Genre**: classical\n\n+- **Favorite Music Genre**: indie folk\n\n - **Hobby**: knitting\n\n - **Room Number**: 215\n\n - **Dietary Preference**: low-sodium\n\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n - **Attends**: [[morning_mindfulness_session.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my wellness routine information - I've switched from attending the Morning Mindfulness Session to participating in the Evening Yoga Workshop instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[samantha_rose.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying the Evening Yoga Workshop lately - it's become such an important part of my daily self-care routine and helps me unwind after long days.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[samantha_rose.md]]\n"
+    },
+    {
+      "query": "I need to update my wellness routine information - I've stopped attending the Morning Mindfulness Session and have switched to the Evening Yoga Workshop instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[samantha_rose.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying the Evening Yoga Workshop - the combination of gentle poses and breathing exercises has been perfect for unwinding after long days.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,8 +13,8 @@\n - **Native Language**: Spanish\n\n \n\n ## Relationships\n\n+- **Shares**: [[eleanor_johnson.md]]\n\n - **Supports**: [[cognitive_support_team.md]]\n\n-- **Shares**: [[eleanor_johnson.md]]\n\n - **Facilitates**: [[personal_belongings_sharing_program.md]]\n\n - **Visits**: [[memory_lane_garden.md]]\n\n-- **Attends**: [[morning_mindfulness_session.md]]\n+- **Attends**: [[evening_yoga_workshop.md]]\n\n===entities/evening_yoga_workshop.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Evening Yoga Workshop\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wellness program\n\n+\n\n+## Relationships\n\n+- **Attends**: [[samantha_rose.md]]\n"
+    }
+  ],
+  "2_hop": []
+}
