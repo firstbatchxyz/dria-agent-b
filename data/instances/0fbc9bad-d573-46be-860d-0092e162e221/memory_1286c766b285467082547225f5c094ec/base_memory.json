@@ -1,0 +1,31 @@
+{
+  "user_md": "# Ana Maria Silva\n\n## Basic Information\n- **Type**: Person\n- **Age**: 31\n- **Occupation**: Electrician\n- **Hobbies**: painting and dancing samba\n- **Has Children**: True\n- **Community Role**: Community Outreach Organizer\n- **Skills**: Electrical maintenance and soccer coaching\n- **Pet**: a small parrot named Azul\n- **Favorite Food**: Feijoada\n- **Background**: Originally from Bahia, moved to the favela 10 years ago\n- **Languages Spoken**: Portuguese and basic Spanish\n\n## Relationships\n- **Shares_Energy_With**: [[jorge_santos.md]]\n- **Shares_Resources_With**: [[carlos_mendes.md]]\n- **Member_Of**: [[favela_lighting_collective.md]]\n- **Helps_Maintain**: [[favela_lighting_collective.md]]",
+  "entities": [
+    {
+      "entity_name": "jorge_santos",
+      "entity_file_path": "entities/jorge_santos.md",
+      "entity_file_content": "# Jorge Luiz Santos\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Profession**: Handyman\n- **Hobbies**: Soccer and guitar playing\n- **Years In Community**: 15\n- **Household Size**: 5\n- **Education Level**: Vocational Training in Construction\n- **Favorite Food**: Moqueca\n- **Languages Spoken**: Portuguese and some English\n- **Community Role**: Volunteer Repair Specialist\n- **Pet**: a rescued dog named Bolinha\n- **Background**: Born and raised in the same favela\n\n## Relationships\n- **Shares_Energy_With**: [[ana_silva.md]]"
+    },
+    {
+      "entity_name": "carlos_mendes",
+      "entity_file_path": "entities/carlos_mendes.md",
+      "entity_file_content": "# Carlos Henrique Mendes\n\n## Basic Information\n- **Type**: Person\n- **Age**: 29\n- **Occupation**: Soccer Coach\n- **Hobbies**: playing guitar and gardening\n- **Community Role**: Event Coordinator\n- **Skills**: event planning and conflict resolution\n- **Favorite Food**: Moqueca\n- **Languages Spoken**: Portuguese and English\n- **Background**: Born and raised in the favela, with a passion for community development\n- **Has Children**: False\n\n## Relationships\n- **Shares_Resources_With**: [[ana_silva.md]]"
+    },
+    {
+      "entity_name": "favela_lighting_collective",
+      "entity_file_path": "entities/favela_lighting_collective.md",
+      "entity_file_content": "# Favela Lighting Collective\n\n## Basic Information\n- **Entity Type**: initiative\n- **Type**: Entity\n- **Mission**: To provide affordable and reliable lighting solutions in the favela\n- **Founding Year**: 2015\n- **Number Of Members**: 25\n- **Projects Undertaken**: Overhead solar street lights\n- **Community Impact**: Reduced electricity costs for community members by 30%\n- **Workshop Location**: Within the community center\n- **Annual Events**: Light Festival, Energy Efficiency Workshop\n\n## Relationships\n- **Member_Of**: [[ana_silva.md]]\n- **Helps_Maintain**: [[ana_silva.md]]"
+    },
+    {
+      "entity_name": "community_center_of_vila_esperan\u00e7a",
+      "entity_file_path": "entities/community_center_of_vila_esperan\u00e7a.md",
+      "entity_file_content": "# Community Center of Vila Esperan\u00e7a\n\n## Basic Information\n- **Entity Type**: building\n- **Type**: Entity\n- **Construction Year**: 1995\n- **Capacity**: 150\n- **Primary Use**: Gatherings and classes\n- **Facilities**: Kitchen, meeting room, sports field\n- **Hours Of Operation**: 8 AM to 10 PM\n- **Accessibility Features**: Wheelchair ramp, braille signs\n\n## Relationships\n- **Organizes_Event_At**: [[carlos_mendes.md]]"
+    },
+    {
+      "entity_name": "luiza_pereira",
+      "entity_file_path": "entities/luiza_pereira.md",
+      "entity_file_content": "# Luiza Maria Pereira\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Occupation**: Community Organizer\n- **Hobbies**: dancing, cooking, and hiking\n- **Community Role**: Childcare Coordinator\n- **Skills**: public speaking and water resource management\n- **Favorite Food**: Feijoada\n- **Languages Spoken**: Portuguese and Spanish\n- **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n- **Has Children**: True\n\n## Relationships\n- **Mentors**: [[carlos_mendes.md]]"
+    }
+  ],
+  "mem_id": "memory_1286c766b285467082547225f5c094ec"
+}

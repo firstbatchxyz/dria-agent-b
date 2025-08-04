@@ -1,0 +1,16 @@
+{
+  "user_md": "# Maj. Rajesh Patel\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Major\n- **Specialization**: Logistics\n- **Service Years**: 15\n- **Education**: Master's Degree in Business Administration\n- **Languages Spoken**: Hindi, English, Spanish\n- **Previous Assignment**: Operation Desert Shield\n- **Birthplace**: Ahmedabad, India\n- **Hobbies**: photography, hiking\n\n## Relationships\n- **Is Responsible For**: [[iron_shield_logistics_battalion.md]]",
+  "entities": [
+    {
+      "entity_name": "iron_shield_logistics_battalion",
+      "entity_file_path": "entities/iron_shield_logistics_battalion.md",
+      "entity_file_content": "# Iron Shield Logistics Battalion\n\n## Basic Information\n- **Entity Type**: Logistics Unit\n- **Type**: Entity\n- **Year Formed**: 1998\n- **Number Of Personnel**: 450\n- **Primary Mission**: to ensure efficient supply chain management for operational readiness across the military installation\n- **Notable Operation**: Operation Iron Dawn\n- **Annual Budget**: 12.5\n- **Base Location**: Fort Halidon\n- **Operational Hours**: 24/7\n- **Nickname**: Iron Giants\n\n## Relationships\n- **Is Responsible For**: [[maj._rajesh_patel.md]]"
+    },
+    {
+      "entity_name": "dragon_logistics_depot",
+      "entity_file_path": "entities/dragon_logistics_depot.md",
+      "entity_file_content": "# Dragon Logistics Depot\n\n## Basic Information\n- **Entity Type**: Logistics Depot\n- **Type**: Entity\n- **Location**: Eastern Sector, near Runway 4\n- **Established Year**: 1995\n- **Operational Capacity**: high-volume logistics operations\n- **Special Feature**: integrated AI management system for logistics\n- **Annual Traffic**: 500,000 tons of materiel\n- **Key Technologies**: RFID tracking systems, automated forklifts\n- **Notable Contract**: Renewable Partnership with Griffin Tech for autonomous delivery vehicles\n- **Staff Commute Options**: shuttle services, cycling paths\n- **Popular Amenity**: 24/7 cafeteria with international cuisine options\n- **Annual Award**: Excellence in Logistical Innovation 2022\n\n## Relationships\n- **Logistically Supports**: [[iron_shield_logistics_battalion.md]]"
+    }
+  ],
+  "mem_id": "memory_ac790c89c6ff4df49e4ae368c04531c3"
+}

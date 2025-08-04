@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Assistant Researcher"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "CRISPR-Cas9 technology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "4"
+    },
+    {
+      "q": "What is my undergraduate degree?",
+      "a": "Biochemistry"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Bird Watching"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "8"
+    },
+    {
+      "q": "What is my favorite lab equipment?",
+      "a": "Centrifuge"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Seattle, Washington, USA"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my work ethic?",
+      "a": "meticulous and diligent"
+    },
+    {
+      "q": "What is my favorite gene sequence?",
+      "a": "BCL-2 gene"
+    },
+    {
+      "q": "What is my dream research goal?",
+      "a": "Develop gene therapy for muscular dystrophy"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the position of the person I collaborate with?"
+      ],
+      "a": "Graduate Researcher",
+      "attribute": "position=Graduate Researcher",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What is the specialization of the person I collaborate with?"
+      ],
+      "a": "Gene Editing Ethics",
+      "attribute": "specialization=Gene Editing Ethics",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I collaborate with have?"
+      ],
+      "a": "2",
+      "attribute": "years of experience=2",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What is the undergraduate degree of the person I collaborate with?"
+      ],
+      "a": "Genetic Engineering",
+      "attribute": "undergrad degree=Genetic Engineering",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Origami",
+      "attribute": "hobbies=Origami",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "How many papers has the person I collaborate with published?"
+      ],
+      "a": "3",
+      "attribute": "published papers=3",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What is the favorite lab equipment of the person I collaborate with?"
+      ],
+      "a": "DNA Sequencer",
+      "attribute": "favorite lab equipment=DNA Sequencer",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What is the hometown of the person I collaborate with?"
+      ],
+      "a": "Boston, Massachusetts, USA",
+      "attribute": "hometown=Boston, Massachusetts, USA",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What languages does the person I collaborate with speak?"
+      ],
+      "a": "English",
+      "attribute": "languages spoken=English",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    },
+    {
+      "q": [
+        "What is the work ethic of the person I collaborate with?"
+      ],
+      "a": "collaborative and innovative",
+      "attribute": "work ethic=collaborative and innovative",
+      "path": "Amara Johnson -> Sophie Alvarez"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the position of the person who collaborates with the person I collaborate with?",
+      "a": "Lead Researcher",
+      "attribute": "position=Lead Researcher",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "What is the specialization of the person who collaborates with the person I collaborate with?",
+      "a": "CRISPR Technology",
+      "attribute": "specialization=CRISPR Technology",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "What are the years of experience of the person who collaborates with the person I collaborate with?",
+      "a": "8",
+      "attribute": "years of experience=8",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "What is the undergraduate degree of the person who collaborates with the person I collaborate with?",
+      "a": "Molecular Biology",
+      "attribute": "undergrad degree=Molecular Biology",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "What are the hobbies of the person who collaborates with the person I collaborate with?",
+      "a": "Photography",
+      "attribute": "hobbies=Photography",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "How many published papers does the person who collaborates with the person I collaborate with have?",
+      "a": "15",
+      "attribute": "published papers=15",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - collaborates with-> Dr. Emily Tran"
+    },
+    {
+      "q": "What type of event is organized by the person I collaborate with?",
+      "a": "Annual Event",
+      "attribute": "entity type=Annual Event",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - organizes-> The ChromoLab Symposium"
+    },
+    {
+      "q": "What is the main focus of the event organized by the person I collaborate with?",
+      "a": "Advancements in Gene Editing",
+      "attribute": "main focus=Advancements in Gene Editing",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - organizes-> The ChromoLab Symposium"
+    },
+    {
+      "q": "What is the duration of the event organized by the person I collaborate with?",
+      "a": "3 days",
+      "attribute": "duration=3 days",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - organizes-> The ChromoLab Symposium"
+    },
+    {
+      "q": "What is the typical attendance of the event organized by the person I collaborate with?",
+      "a": "250",
+      "attribute": "typical attendance=250",
+      "path": "Amara Johnson - collaborates with -> Sophie Alvarez - organizes-> The ChromoLab Symposium"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Administrator"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Pediatrics"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Master of Health Administration"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "Certified Healthcare Administrator"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "Implementing efficient patient record systems"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Data analysis and process optimization"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Gardening"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Local children's charity events organizer"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the database that I oversee operations in?"
+      ],
+      "a": "Patient Records",
+      "attribute": "entity type=Patient Records",
+      "path": "Samantha Cooper -> Pediatrics Database"
+    },
+    {
+      "q": [
+        "What is the capacity of the database that I oversee operations in?"
+      ],
+      "a": "10000",
+      "attribute": "capacity=10000",
+      "path": "Samantha Cooper -> Pediatrics Database"
+    },
+    {
+      "q": [
+        "What is the record security level of the database that I oversee operations in?"
+      ],
+      "a": "High",
+      "attribute": "record security level=High",
+      "path": "Samantha Cooper -> Pediatrics Database"
+    },
+    {
+      "q": [
+        "What is the last audit date of the database that I oversee operations in?"
+      ],
+      "a": "2023-07-15",
+      "attribute": "last audit date=2023-07-15",
+      "path": "Samantha Cooper -> Pediatrics Database"
+    },
+    {
+      "q": [
+        "What are the connected systems of the database that I oversee operations in?"
+      ],
+      "a": "Radiology Database, Pharmacy Records",
+      "attribute": "connected systems=Radiology Database, Pharmacy Records",
+      "path": "Samantha Cooper -> Pediatrics Database"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Captain Lars Gunderson",
+      "type": "Person",
+      "full_name": "Lars Erik Gunderson",
+      "experience_years": 25,
+      "birthplace": "Bergen, Norway",
+      "specialization": "Navigation and Weather Analysis",
+      "hobby": "Deep-sea Diving",
+      "favorite_fish": "Atlantic Cod",
+      "education": "Graduated from Norwegian Maritime Academy",
+      "age": 48
+    },
+    {
+      "id": "person_2",
+      "name": "First Mate Ingrid Helvig",
+      "type": "Person",
+      "full_name": "Ingrid Marie Helvig",
+      "experience_years": 12,
+      "birthplace": "Stavanger, Norway",
+      "specialization": "Fishing Net Handling and Maintenance",
+      "hobby": "Photography",
+      "favorite_fish": "North Sea Herring",
+      "education": "Graduate in Marine Operations from University of Stavanger",
+      "age": 36,
+      "languages_spoken": "Norwegian, English, and Danish",
+      "leadership_skills_certificate": "Advanced Maritime Leadership Course"
+    },
+    {
+      "id": "person_3",
+      "name": "Deckhand Sven Nilsen",
+      "type": "Person",
+      "full_name": "Sven Alexander Nilsen",
+      "age": 29,
+      "birthplace": "Tromsø, Norway",
+      "experience_years": 7,
+      "specialization": "Net Repair and Maintenance",
+      "hobby": "Photography",
+      "favorite_fish": "Herring",
+      "education": "High School Diploma",
+      "hair_color": "Blonde",
+      "eye_color": "Blue"
+    },
+    {
+      "id": "person_4",
+      "name": "Engineer Oskar Lindholm",
+      "type": "Person",
+      "full_name": "Oskar Lindholm",
+      "occupation": "Marine Engineer",
+      "years_of_experience": 15,
+      "age": 42,
+      "nationality": "Swedish",
+      "education": "Master's Degree in Marine Engineering",
+      "favorite_seafood": "Herring",
+      "hobby": "Amateur Photography",
+      "works_at": "North Sea Explorers Ltd.",
+      "certification": "Certified Sonar Technician"
+    },
+    {
+      "id": "person_5",
+      "name": "Hanna Voss",
+      "type": "Person",
+      "role": "Cook",
+      "age": 35,
+      "nationality": "German",
+      "years_of_experience": 12,
+      "culinary_specialty": "Seafood Cuisine",
+      "favorite_dish_to_cook": "North Sea Cod Chowder",
+      "education": "Culinary Institute of Hamburg",
+      "hobbies": "Photography",
+      "languages_spoken": "German, English"
+    },
+    {
+      "id": "entity_1",
+      "name": "The Valiant Seafarer",
+      "entity_type": "Vessel",
+      "type": "Entity",
+      "length": "45 meters",
+      "year_built": "2005",
+      "home_port": "Stavanger, Norway",
+      "engine_type": "Diesel engine",
+      "hull_material": "Steel",
+      "crew_capacity": 20,
+      "fish_hold_capacity": "150 tons",
+      "sonar_system": "Advanced Hydroacoustic Sensor",
+      "last_major_refurbishment": "2018"
+    },
+    {
+      "id": "entity_2",
+      "name": "North Sea Fishing Cooperative",
+      "entity_type": "Organization",
+      "type": "Entity",
+      "established_year": 1995,
+      "primary_language": "Norwegian",
+      "annual_catch_tonnage": 3000,
+      "number_of_vessels": 5,
+      "key_product": "Atlantic Cod",
+      "safety_certification": "ISO 45001",
+      "affiliated_organizations": "European Fishing Alliance",
+      "chairperson": "Ingrid Johansen",
+      "headquarters_location": "Bergen, Norway"
+    },
+    {
+      "id": "entity_3",
+      "name": "Ironclad Nets",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "manufacturer": "OceanCraft Industries",
+      "material": "Polyethylene Terephthalate (PET)",
+      "max_load_capacity_kg": 18000,
+      "year_of_manufacture": 2018,
+      "color": "Dark Green",
+      "length_meters": 500,
+      "mesh_size_mm": 50,
+      "durability_rating": "High",
+      "warranty_years": 5
+    },
+    {
+      "id": "entity_4",
+      "name": "DeepWave Sonar 3000",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "model_number": "DW-3000",
+      "maximum_range": 3000,
+      "frequency_band": "Mid-Frequency",
+      "manufacturer": "OceanTech Instruments",
+      "year_of_manufacture": 2018,
+      "primary_feature": "Dynamic Fish School Detection",
+      "power_consumption": 350,
+      "maintenance_interval": "6 months"
+    },
+    {
+      "id": "entity_5",
+      "name": "The Icy Hold Freezer Unit",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "storage_temperature": "-20 degrees Celsius",
+      "capacity": "200 tons",
+      "manufacturer": "PolarTech Systems",
+      "energy_efficiency_rating": "A++",
+      "installation_year": 2019,
+      "model": "FZ3000IQ"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "captains",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_1",
+      "p": "oversees",
+      "o": "person_3"
+    },
+    {
+      "s": "person_2",
+      "p": "assists",
+      "o": "person_1"
+    },
+    {
+      "s": "person_3",
+      "p": "operates",
+      "o": "entity_3"
+    },
+    {
+      "s": "person_4",
+      "p": "maintains",
+      "o": "entity_4"
+    },
+    {
+      "s": "person_5",
+      "p": "prepares_meals_for",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_1",
+      "p": "belongs_to",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_3",
+      "p": "used_in",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_4",
+      "p": "facilitates",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_5",
+      "p": "stores",
+      "o": "entity_1"
+    }
+  ]
+}

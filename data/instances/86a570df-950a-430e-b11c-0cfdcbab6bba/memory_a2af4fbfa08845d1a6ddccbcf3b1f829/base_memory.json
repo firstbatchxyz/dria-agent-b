@@ -1,0 +1,21 @@
+{
+  "user_md": "# Ganpat Singh\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: farmer\n- **Age**: 42\n- **Family Size**: 5\n- **Primary Crop**: maize\n- **Hobby**: kite flying\n- **Community Role**: local water management committee member\n- **Favorite Festival**: Holi\n- **Educational Level**: primary school\n- **Tractor Experience**: 10\n\n## Relationships\n- **Helps With**: [[laxmi_rabari.md]]\n- **Shares**: [[the_village_tractor.md]]\n- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]",
+  "entities": [
+    {
+      "entity_name": "laxmi_rabari",
+      "entity_file_path": "entities/laxmi_rabari.md",
+      "entity_file_content": "# Laxmi Rabari\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: farmer\n- **Age**: 35\n- **Favorite Festival**: Diwali\n- **Hobby**: traditional Rajasthani dance\n- **Family Size**: 6\n- **Primary Crop**: wheat\n- **Member Of Local Womens Group**: True\n- **Educational Level**: secondary school\n\n## Relationships\n- **Helps With**: [[ganpat_singh.md]]"
+    },
+    {
+      "entity_name": "the_village_tractor",
+      "entity_file_path": "entities/the_village_tractor.md",
+      "entity_file_content": "# The Village Tractor\n\n## Basic Information\n- **Entity Type**: Machinery\n- **Type**: Entity\n- **Brand**: Mahindra\n- **Model**: 6054P\n- **Year Of Purchase**: 2018\n- **Fuel Type**: diesel\n- **Service Frequency**: quarterly\n- **Color**: red\n- **Tire Type**: off-road\n- **Primary Use**: ploughing\n- **Last Serviced Date**: 2023-08-15\n\n## Relationships\n- **Shares**: [[ganpat_singh.md]]"
+    },
+    {
+      "entity_name": "the_ganesh_chaturthi_festival",
+      "entity_file_path": "entities/the_ganesh_chaturthi_festival.md",
+      "entity_file_content": "# The Ganesh Chaturthi Festival\n\n## Basic Information\n- **Entity Type**: Cultural Event\n- **Type**: Entity\n- **Duration**: 10 days\n- **Location**: Community Center\n- **Significance**: Honoring Lord Ganesha\n- **Main Activities**: Idol immersion, Traditional Folk Performances, Community Feasts\n- **Attendance**: 200\n- **Iconic Foods**: Modak, Puran Poli\n- **Decoration Style**: Colorful Pandals with Marwari designs\n\n## Relationships\n- **Celebrates**: [[ganpat_singh.md]]"
+    }
+  ],
+  "mem_id": "memory_a2af4fbfa08845d1a6ddccbcf3b1f829"
+}

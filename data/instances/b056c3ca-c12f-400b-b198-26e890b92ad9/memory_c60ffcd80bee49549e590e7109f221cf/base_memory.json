@@ -1,0 +1,21 @@
+{
+  "user_md": "# Dr. Mei-Lin Chao\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: climatology\n- **Years Of Experience**: 10\n- **Hobby**: ice sculpting\n- **Favorite Drill**: Nova-5 Ice Core Drill\n- **Origin City**: Kuala Lumpur, Malaysia\n- **Field Research Trip Count**: 18\n- **Favorite Weather Condition**: clear Arctic sky\n- **Preferred Commute Method**: snowmobile\n- **Favorite Data Analysis Software**: ClimateAnalyzer Pro\n\n## Relationships\n- **Collaborates With**: [[dr._amelia_frost.md]]\n- **Researches With**: [[satellite_weather_station.md]]",
+  "entities": [
+    {
+      "entity_name": "dr._amelia_frost",
+      "entity_file_path": "entities/dr._amelia_frost.md",
+      "entity_file_content": "# Dr. Amelia Frost\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: glaciology\n- **Years Of Experience**: 15\n- **Hobby**: wildlife photography\n- **Favorite Drill**: Electra-2 Ice Core Drill\n- **Origin City**: Seattle, Washington\n- **Field Research Trip Count**: 27\n- **Favorite Weather Condition**: blizzard conditions\n\n## Relationships\n- **Collaborates With**: [[dr._mei-lin_chao.md]]"
+    },
+    {
+      "entity_name": "satellite_weather_station",
+      "entity_file_path": "entities/satellite_weather_station.md",
+      "entity_file_content": "# Satellite Weather Station\n\n## Basic Information\n- **Entity Type**: Equipment\n- **Type**: Entity\n- **Satellite Type**: geostationary\n- **Data Upload Frequency**: hourly\n- **Installation Year**: 2012\n- **Temperature Range**: -60 to 20\u00b0C\n- **Location**: latitude 71.3\u00b0N, longitude 156.8\u00b0W\n- **Power Source**: solar and wind hybrid\n- **Primary Sensor**: infrared radiometer\n- **Maintenance Schedule**: bi-annual\n- **Data Storage Capacity**: 2 TB\n- **Last Maintenance Date**: 2023-04-15\n\n## Relationships\n- **Researches With**: [[dr._mei-lin_chao.md]]"
+    },
+    {
+      "entity_name": "permafrost_research_initiative",
+      "entity_file_path": "entities/permafrost_research_initiative.md",
+      "entity_file_content": "# Permafrost Research Initiative\n\n## Basic Information\n- **Entity Type**: Research Program\n- **Type**: Entity\n- **Budget**: 5 million USD annually\n- **Research Focus**: Permafrost dynamics and climate impact\n- **Collaborating Institutions**: Arctic Research Institute, International Climatology Network\n- **Duration**: 2005-present\n- **Notable Contribution**: First comprehensive permafrost temperature map of Alaska\n- **Field Station Location**: North Slope, Alaska\n- **Annual Publications**: 15\n- **Community Outreach**: Annual educational workshops for Alaskan communities\n\n## Relationships\n- **Provides Data For**: [[satellite_weather_station.md]]"
+    }
+  ],
+  "mem_id": "memory_c60ffcd80bee49549e590e7109f221cf"
+}

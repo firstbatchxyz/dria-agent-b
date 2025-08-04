@@ -1,0 +1,26 @@
+{
+  "user_md": "# Sophia Pangorio\n\n## Basic Information\n- **Type**: Person\n- **Age**: 28\n- **Role In Restaurant**: manager\n- **Education**: MBA in Hospitality Management from Cornell University\n- **Hobby**: painting\n- **Favorite Dish**: risotto alla Milanese\n- **Pet**: calico cat named Luna\n- **Language Spoken**: Italian\n\n## Relationships\n- **Sibling**: [[leonardo_pangorio.md]]\n- **Parent**: [[mario_pangorio.md]]\n- **Manages**: [[pangorio's_italian_restaurant.md]]",
+  "entities": [
+    {
+      "entity_name": "leonardo_pangorio",
+      "entity_file_path": "entities/leonardo_pangorio.md",
+      "entity_file_content": "# Leonardo Pangorio\n\n## Basic Information\n- **Type**: Person\n- **Age**: 21\n- **Role In Restaurant**: chef\n- **Specialty Dish**: lasagna\n- **Education**: currently studying culinary arts at Culinary Institute of America\n- **Hobby**: playing the guitar\n- **Pet**: golden retriever named Bella\n\n## Relationships\n- **Sibling**: [[sophia_pangorio.md]]"
+    },
+    {
+      "entity_name": "mario_pangorio",
+      "entity_file_path": "entities/mario_pangorio.md",
+      "entity_file_content": "# Mario Pangorio\n\n## Basic Information\n- **Type**: Person\n- **Age**: 62\n- **Role In Restaurant**: owner\n- **Favorite Ingredient**: fresh basil\n- **Education**: Bachelor's in Business Administration from Rutgers University\n- **Hobby**: fishing\n- **Language Spoken**: Italian, English\n- **Birthplace**: Naples, Italy\n- **Favorite Pasta Dish**: spaghetti aglio e olio\n- **Wine Collection**: a cherished collection of vintage Italian wines\n- **Philanthropic Endeavor**: supporter of local food banks\n\n## Relationships\n- **Parent**: [[sophia_pangorio.md]]"
+    },
+    {
+      "entity_name": "pangorio's_italian_restaurant",
+      "entity_file_path": "entities/pangorio's_italian_restaurant.md",
+      "entity_file_content": "# Pangorio's Italian Restaurant\n\n## Basic Information\n- **Entity Type**: Restaurant\n- **Type**: Entity\n- **Cuisine**: Italian-American\n- **Location**: Jersey City, NJ\n- **Seating Capacity**: 75\n- **Established Year**: 1985\n- **Signature Dish**: Lobster Ravioli\n- **Average Rating**: 4.5\n- **Decor Style**: rustic Italian\n- **Notable Event**: Annual Festival of Lights Feast\n- **Owner**: Alessandra Pangorio\n- **Staff Specialty**: wine pairing expertise\n\n## Relationships\n- **Manages**: [[sophia_pangorio.md]]"
+    },
+    {
+      "entity_name": "the_pangorio_family",
+      "entity_file_path": "entities/the_pangorio_family.md",
+      "entity_file_content": "# The Pangorio Family\n\n## Basic Information\n- **Entity Type**: Family\n- **Type**: Entity\n- **Founding Year**: 1978\n- **Family Motto**: Una Famiglia, Un Sogno\n- **Current Residence**: Montclair, New Jersey\n- **Notable Tradition**: Weekly Sunday Dinner Gathering\n- **Ancestral Origin**: Naples, Italy\n- **Charity Involvement**: Annual Food Drive for Local Shelters\n- **Family Business Legacy**: Passed down through three generations\n\n## Relationships\n- **Located_In**: [[pangorio's_italian_restaurant.md]]"
+    }
+  ],
+  "mem_id": "memory_98f62ce141f045f29c6f443f9cebc777"
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language profile in the system - I actually speak English, German, and French, not just English and German as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Leadership Role**: Flight Team Leader\n\n - **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n - **Personal Interest**: Aerial Photography\n\n-- **Languages Spoken**: English, German\n\n+- **Languages Spoken**: English, German, French\n\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been finding it incredibly useful being trilingual in English, German, and French during our recent international joint operations with NATO forces.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Leadership Role**: Flight Team Leader\n\n - **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n - **Personal Interest**: Aerial Photography\n\n-- **Languages Spoken**: English, German\n\n+- **Languages Spoken**: English, German, French\n\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my training records - I've completed Advanced Combat Search and Rescue Operations training, not the Advanced Rotorcraft Pilot Training that's currently listed in my file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 8\n\n - **Award**: Air Medal\n\n - **Leadership Role**: Flight Team Leader\n\n-- **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n+- **Completed Trainings**: Advanced Combat Search and Rescue Operations\n\n - **Personal Interest**: Aerial Photography\n\n - **Languages Spoken**: English, German\n\n - **Birth Country**: USA\n\n"
+    },
+    {
+      "query": "Just finished debriefing from our latest mission where my Advanced Combat Search and Rescue Operations training really came in handy during that difficult extraction in mountainous terrain.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 8\n\n - **Award**: Air Medal\n\n - **Leadership Role**: Flight Team Leader\n\n-- **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n+- **Completed Trainings**: Advanced Combat Search and Rescue Operations\n\n - **Personal Interest**: Aerial Photography\n\n - **Languages Spoken**: English, German\n\n - **Birth Country**: USA\n\n"
+    },
+    {
+      "query": "I need to correct my birth country information in the records - I was actually born in Canada, not the USA as currently listed in my file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n - **Personal Interest**: Aerial Photography\n\n - **Languages Spoken**: English, German\n\n-- **Birth Country**: USA\n\n+- **Birth Country**: Canada\n\n \n\n ## Relationships\n\n - **Is Part Of**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "Growing up in Canada really shaped my perspective before I joined the military, especially the values of multiculturalism and peacekeeping that are so central to Canadian identity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Completed Trainings**: Advanced Rotorcraft Pilot Training\n\n - **Personal Interest**: Aerial Photography\n\n - **Languages Spoken**: English, German\n\n-- **Birth Country**: USA\n\n+- **Birth Country**: Canada\n\n \n\n ## Relationships\n\n - **Is Part Of**: [[falcon_aviation_group.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my military assignment records - I've been transferred from Falcon Aviation Group to the 82nd Airborne Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n-- **Is Part Of**: [[falcon_aviation_group.md]]\n+- **Is Part Of**: [[82nd_airborne_division.md]]\n\n===entities/82nd_airborne_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# 82nd Airborne Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lt._sara_matthews.md]]\n"
+    },
+    {
+      "query": "It's been quite an adjustment transitioning from my previous role to serving with the 82nd Airborne Division, but I'm excited about the new challenges and opportunities ahead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n-- **Is Part Of**: [[falcon_aviation_group.md]]\n+- **Is Part Of**: [[82nd_airborne_division.md]]\n\n===entities/82nd_airborne_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# 82nd Airborne Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lt._sara_matthews.md]]\n"
+    },
+    {
+      "query": "I need to update my military assignment records - I'm no longer with Falcon Aviation Group and have been transferred to the 82nd Airborne Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n-- **Is Part Of**: [[falcon_aviation_group.md]]\n+- **Is Part Of**: [[82nd_airborne_division.md]]\n\n===entities/82nd_airborne_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# 82nd Airborne Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lt._sara_matthews.md]]\n"
+    },
+    {
+      "query": "Starting my new role with the 82nd Airborne Division has been an incredible experience, and I'm excited about the specialized training opportunities here.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Birth Country**: USA\n\n \n\n ## Relationships\n\n-- **Is Part Of**: [[falcon_aviation_group.md]]\n+- **Is Part Of**: [[82nd_airborne_division.md]]\n\n===entities/82nd_airborne_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# 82nd Airborne Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lt._sara_matthews.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our equipment records - Falcon Aviation Group has transitioned from using the Icarus Flight Wing to the new Phoenix Tactical Wing system for our operations.",
+      "diff": "===entities/falcon_aviation_group.md===\n\n===entities/phoenix_tactical_wing.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Tactical Wing\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "Training with the Phoenix Tactical Wing has been incredible - the enhanced maneuverability and advanced targeting systems are a significant upgrade from our previous equipment.",
+      "diff": "===entities/falcon_aviation_group.md===\n\n===entities/phoenix_tactical_wing.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Tactical Wing\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[falcon_aviation_group.md]]\n"
+    }
+  ]
+}

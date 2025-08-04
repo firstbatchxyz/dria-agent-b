@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the records - I actually speak English, Gaelic, and Mandarin Chinese now, not just English and Gaelic as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: tactical operations\n\n - **Years Of Service**: 14\n\n - **Has Helicopter Pilot License**: True\n\n-- **Languages Spoken**: English, Gaelic\n\n+- **Languages Spoken**: English, Gaelic, Mandarin Chinese\n\n - **Hometown**: Dublin, Ireland\n\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n"
+    },
+    {
+      "query": "My recent diplomatic mission to Beijing really put my Mandarin Chinese skills to the test, along with my native English and Gaelic abilities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: tactical operations\n\n - **Years Of Service**: 14\n\n - **Has Helicopter Pilot License**: True\n\n-- **Languages Spoken**: English, Gaelic\n\n+- **Languages Spoken**: English, Gaelic, Mandarin Chinese\n\n - **Hometown**: Dublin, Ireland\n\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n"
+    },
+    {
+      "query": "I need to update my hometown information in the records - I'm actually from Cork, Ireland, not Dublin as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Service**: 14\n\n - **Has Helicopter Pilot License**: True\n\n - **Languages Spoken**: English, Gaelic\n\n-- **Hometown**: Dublin, Ireland\n\n+- **Hometown**: Cork, Ireland\n\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n - **Education**: Bachelor's degree in Military Science\n\n"
+    },
+    {
+      "query": "Growing up in Cork, Ireland really shaped my perspective on maritime traditions, which has been invaluable throughout my naval career.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Service**: 14\n\n - **Has Helicopter Pilot License**: True\n\n - **Languages Spoken**: English, Gaelic\n\n-- **Hometown**: Dublin, Ireland\n\n+- **Hometown**: Cork, Ireland\n\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n - **Education**: Bachelor's degree in Military Science\n\n"
+    },
+    {
+      "query": "I need to update my weapon preferences in the system - I've switched from the M4 Carbine to the HK416 as my primary weapon of choice due to its superior reliability in harsh conditions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n - **Education**: Bachelor's degree in Military Science\n\n-- **Preferred Weapon**: M4 Carbine\n\n+- **Preferred Weapon**: HK416\n\n - **Hobbies**: fishing, hiking\n\n - **Family Status**: married, 2 children\n\n - **Callsign**: Iron Wolf\n\n"
+    },
+    {
+      "query": "After extensive field testing, I've found that the HK416 performs exceptionally well in desert operations, which is why I've made it my go-to weapon for our upcoming deployment.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Medals Awarded**: Bronze Star, Purple Heart\n\n - **Favorite Military Vehicle**: AH-64 Apache\n\n - **Education**: Bachelor's degree in Military Science\n\n-- **Preferred Weapon**: M4 Carbine\n\n+- **Preferred Weapon**: HK416\n\n - **Hobbies**: fishing, hiking\n\n - **Family Status**: married, 2 children\n\n - **Callsign**: Iron Wolf\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my military assignment records - I've been transferred from Ares Combat Unit to the newly formed Phoenix Strike Battalion.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Callsign**: Iron Wolf\n\n \n\n ## Relationships\n\n-- **Operates In**: [[ares_combat_unit.md]]\n+- **Operates In**: [[phoenix_strike_battalion.md]]\n\n===entities/phoenix_strike_battalion.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Strike Battalion\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Operates In**: [[capt._liam_o'reilly.md]]\n"
+    },
+    {
+      "query": "It's been an interesting transition leading operations with Phoenix Strike Battalion - the unit's advanced tactical protocols are quite different from what we used in my previous assignment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Callsign**: Iron Wolf\n\n \n\n ## Relationships\n\n-- **Operates In**: [[ares_combat_unit.md]]\n+- **Operates In**: [[phoenix_strike_battalion.md]]\n\n===entities/phoenix_strike_battalion.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Strike Battalion\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Operates In**: [[capt._liam_o'reilly.md]]\n"
+    },
+    {
+      "query": "I need to update my military assignment records - I've been transferred from the Ares Combat Unit to the newly formed Titan Strike Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Callsign**: Iron Wolf\n\n \n\n ## Relationships\n\n-- **Operates In**: [[ares_combat_unit.md]]\n+- **Operates In**: [[titan_strike_division.md]]\n\n===entities/titan_strike_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Strike Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Operates In**: [[capt._liam_o'reilly.md]]\n"
+    },
+    {
+      "query": "The transition to Titan Strike Division has been intense, but our specialized urban warfare training is really paying off in these new tactical scenarios.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n - **Callsign**: Iron Wolf\n\n \n\n ## Relationships\n\n-- **Operates In**: [[ares_combat_unit.md]]\n+- **Operates In**: [[titan_strike_division.md]]\n\n===entities/titan_strike_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Strike Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Operates In**: [[capt._liam_o'reilly.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

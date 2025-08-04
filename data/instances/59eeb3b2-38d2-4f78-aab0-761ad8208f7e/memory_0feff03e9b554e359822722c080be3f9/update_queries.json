@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional specialization in the system - I've transitioned from Structural Engineering to Environmental Engineering to focus on sustainable infrastructure projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Site Manager\n\n - **Years Of Experience**: 12\n\n-- **Specialization**: Structural Engineering\n\n+- **Specialization**: Environmental Engineering\n\n - **Safety Certifications**: Certified\n\n - **Favorite Blueprint Tool**: AutoCAD\n\n - **Hobbies**: Photography\n\n"
+    },
+    {
+      "query": "I've been really enjoying my work in Environmental Engineering lately, especially developing eco-friendly building solutions that minimize environmental impact.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Site Manager\n\n - **Years Of Experience**: 12\n\n-- **Specialization**: Structural Engineering\n\n+- **Specialization**: Environmental Engineering\n\n - **Safety Certifications**: Certified\n\n - **Favorite Blueprint Tool**: AutoCAD\n\n - **Hobbies**: Photography\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Hindi, and Urdu, not Arabic as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Favorite Blueprint Tool**: AutoCAD\n\n - **Hobbies**: Photography\n\n - **Nationality**: South African\n\n-- **Languages Spoken**: English, Hindi, Arabic\n\n+- **Languages Spoken**: English, Hindi, Urdu\n\n - **Age**: 39\n\n - **University Attended**: University of Cape Town\n\n - **Marital Status**: Married\n\n"
+    },
+    {
+      "query": "I've been helping translate some documents between English, Hindi, and Urdu for my community center, which really puts all three languages to good use.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Favorite Blueprint Tool**: AutoCAD\n\n - **Hobbies**: Photography\n\n - **Nationality**: South African\n\n-- **Languages Spoken**: English, Hindi, Arabic\n\n+- **Languages Spoken**: English, Hindi, Urdu\n\n - **Age**: 39\n\n - **University Attended**: University of Cape Town\n\n - **Marital Status**: Married\n\n"
+    },
+    {
+      "query": "I need to update my professional experience information - I actually have 15 years of experience now, not the 12 years that's currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Site Manager\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Specialization**: Structural Engineering\n\n - **Safety Certifications**: Certified\n\n - **Favorite Blueprint Tool**: AutoCAD\n\n"
+    },
+    {
+      "query": "After 15 years in the field, I've learned that the most valuable insights often come from the most challenging projects and diverse team collaborations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Site Manager\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Specialization**: Structural Engineering\n\n - **Safety Certifications**: Certified\n\n - **Favorite Blueprint Tool**: AutoCAD\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my business management information - I'm no longer managing MegaMix Concrete Solutions. I've moved on to manage SkyLine Construction Group instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n - **Children Count**: 2\n\n \n\n ## Relationships\n\n-- **Manages**: [[megamix_concrete_solutions.md]]\n\n-- **Uses**: [[innovative_blueprints_limited.md]]\n+- **Uses**: [[innovative_blueprints_limited.md]]\n\n+- **Manages**: [[skyline_construction_group.md]]\n\n===entities/skyline_construction_group.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyLine Construction Group\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction company\n\n+\n\n+## Relationships\n\n+- **Manages**: [[yusuf_patel.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new projects we're launching at SkyLine Construction Group and the innovative building techniques we're implementing across our developments.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n - **Children Count**: 2\n\n \n\n ## Relationships\n\n-- **Manages**: [[megamix_concrete_solutions.md]]\n\n-- **Uses**: [[innovative_blueprints_limited.md]]\n+- **Uses**: [[innovative_blueprints_limited.md]]\n\n+- **Manages**: [[skyline_construction_group.md]]\n\n===entities/skyline_construction_group.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyLine Construction Group\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction company\n\n+\n\n+## Relationships\n\n+- **Manages**: [[yusuf_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my service provider information - I'm no longer using Innovative Blueprints Limited and have switched to TechFlow Solutions for my design needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Manages**: [[megamix_concrete_solutions.md]]\n\n-- **Uses**: [[innovative_blueprints_limited.md]]\n+- **Uses**: [[techflow_solutions.md]]\n\n===entities/techflow_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechFlow Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: service provider\n\n+\n\n+## Relationships\n\n+- **Uses**: [[yusuf_patel.md]]\n"
+    },
+    {
+      "query": "I'm really impressed with the quality of work I'm getting from TechFlow Solutions - their approach to project management is much more efficient than what I experienced before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Manages**: [[megamix_concrete_solutions.md]]\n\n-- **Uses**: [[innovative_blueprints_limited.md]]\n+- **Uses**: [[techflow_solutions.md]]\n\n===entities/techflow_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechFlow Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: service provider\n\n+\n\n+## Relationships\n\n+- **Uses**: [[yusuf_patel.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our client information - MegaMix Concrete Solutions is no longer supplying SkyReach 2025, we've switched to providing materials for the new Azure Heights development project.",
+      "diff": "===entities/megamix_concrete_solutions.md===\n\n===entities/azure_heights.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Azure Heights\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: development project\n\n+\n\n+## Relationships\n\n+- **Supplies**: [[megamix_concrete_solutions.md]]\n"
+    },
+    {
+      "query": "I'm excited about our partnership with Azure Heights - it's been great working with MegaMix Concrete Solutions to supply high-quality materials for this ambitious residential complex.",
+      "diff": "===entities/megamix_concrete_solutions.md===\n\n===entities/azure_heights.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Azure Heights\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: development project\n\n+\n\n+## Relationships\n\n+- **Supplies**: [[megamix_concrete_solutions.md]]\n"
+    }
+  ]
+}

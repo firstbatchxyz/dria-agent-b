@@ -1,0 +1,16 @@
+{
+  "user_md": "# Miranda Patel\n\n## Basic Information\n- **Type**: Person\n- **Role**: Meteorologist\n- **Age**: 38\n- **Hobbies**: photography\n- **Special Skill**: data visualization\n- **Years Of Experience**: 12\n- **Personal Motto**: Observing today for a better tomorrow\n- **Favorite Weather Phenomenon**: auroras\n- **Preferred Station Task**: balloon launches\n\n## Relationships\n- **Distributes**: [[arcticnom_nom_food_supplies.md]]\n- **Documents Findings From**: [[datacore_analysis_console.md]]",
+  "entities": [
+    {
+      "entity_name": "arcticnom_nom_food_supplies",
+      "entity_file_path": "entities/arcticnom_nom_food_supplies.md",
+      "entity_file_content": "# ArcticNom Nom Food Supplies\n\n## Basic Information\n- **Entity Type**: Supply\n- **Type**: Entity\n- **Brand**: ArcticNom Nom\n- **Average Daily Consumption**: 3.5\n- **Stock Unit**: boxes\n- **Type Of Supplies**: dehydrated meals\n- **Popular Dish**: Spicy Vegetable Curry\n- **Color Of Packaging**: blue and white\n- **Lasting Storage Temperature**: -20\u00b0C\n- **Replenishment Cycle Days**: 21\n\n## Relationships\n- **Distributes**: [[miranda_patel.md]]"
+    },
+    {
+      "entity_name": "datacore_analysis_console",
+      "entity_file_path": "entities/datacore_analysis_console.md",
+      "entity_file_content": "# DataCore Analysis Console\n\n## Basic Information\n- **Entity Type**: System\n- **Type**: Entity\n- **Operating System**: Linux-based custom OS\n- **Primary Function**: Weather and climate data analysis\n- **Location**: Core Data Analysis Room\n- **Date Installed**: 2022-07-15\n- **Access Level Required**: High\n- **Manufacturer**: PolarTech Solutions\n- **Power Source**: Station's main generator backup\n- **Connectivity**: Satellite uplink for remote data access\n- **Used In Research Projects**: True\n\n## Relationships\n- **Documents Findings From**: [[miranda_patel.md]]"
+    }
+  ],
+  "mem_id": "memory_6ef2cf6aaf714e81ab1e8a78a6f597cc"
+}

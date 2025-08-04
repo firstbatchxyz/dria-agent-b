@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational information in the system - I actually have an MBA in Finance and Operations, not Healthcare Management as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Hospital Administrator\n\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n-- **Education**: MBA in Healthcare Management\n\n+- **Education**: MBA in Finance and Operations\n\n - **Specialization**: Healthcare Information Systems\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n"
+    },
+    {
+      "query": "I've been leveraging my MBA in Finance and Operations background to streamline our department's budget allocation and operational efficiency initiatives.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Hospital Administrator\n\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n-- **Education**: MBA in Healthcare Management\n\n+- **Education**: MBA in Finance and Operations\n\n - **Specialization**: Healthcare Information Systems\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n"
+    },
+    {
+      "query": "I need to update my professional specialization in the system - I've transitioned from Healthcare Information Systems to Medical AI and Machine Learning.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n - **Education**: MBA in Healthcare Management\n\n-- **Specialization**: Healthcare Information Systems\n\n+- **Specialization**: Medical AI and Machine Learning\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n - **Project Focus**: Implementing electronic health records system\n\n"
+    },
+    {
+      "query": "I've been really excited about my new focus on Medical AI and Machine Learning, especially working on diagnostic algorithms that can improve patient outcomes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n - **Education**: MBA in Healthcare Management\n\n-- **Specialization**: Healthcare Information Systems\n\n+- **Specialization**: Medical AI and Machine Learning\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n - **Project Focus**: Implementing electronic health records system\n\n"
+    },
+    {
+      "query": "I need to update my professional specialization in the system - I've transitioned from Healthcare Information Systems to Telemedicine Solutions and Remote Patient Monitoring.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n - **Education**: MBA in Healthcare Management\n\n-- **Specialization**: Healthcare Information Systems\n\n+- **Specialization**: Telemedicine Solutions and Remote Patient Monitoring\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n - **Project Focus**: Implementing electronic health records system\n\n"
+    },
+    {
+      "query": "I've been diving deep into Telemedicine Solutions and Remote Patient Monitoring lately, and it's fascinating how this field is revolutionizing patient care delivery in underserved areas.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Radiology\n\n - **Years Of Experience**: 15\n\n - **Education**: MBA in Healthcare Management\n\n-- **Specialization**: Healthcare Information Systems\n\n+- **Specialization**: Telemedicine Solutions and Remote Patient Monitoring\n\n - **Certification**: Certified in Healthcare Management (CHM)\n\n - **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n\n - **Project Focus**: Implementing electronic health records system\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the system records - I no longer manage information flow in the Radiology Database, I've been transferred to manage the Cardiology Information System instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Photography and hiking\n\n \n\n ## Relationships\n\n-- **Manages Information Flow In**: [[radiology_database.md]]\n+- **Manages Information Flow In**: [[cardiology_information_system.md]]\n\n===entities/cardiology_information_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiology Information System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Manages Information Flow In**: [[paul_white.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role overseeing the data management and workflow processes in the Cardiology Information System - it's fascinating how different cardiac imaging data flows compared to other medical specialties.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Photography and hiking\n\n \n\n ## Relationships\n\n-- **Manages Information Flow In**: [[radiology_database.md]]\n+- **Manages Information Flow In**: [[cardiology_information_system.md]]\n\n===entities/cardiology_information_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiology Information System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Manages Information Flow In**: [[paul_white.md]]\n"
+    },
+    {
+      "query": "I need to update the system records - I'm no longer managing information flow in the Radiology Database, I've been transferred to manage the Cardiology Information System instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Photography and hiking\n\n \n\n ## Relationships\n\n-- **Manages Information Flow In**: [[radiology_database.md]]\n+- **Manages Information Flow In**: [[cardiology_information_system.md]]\n\n===entities/cardiology_information_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiology Information System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Manages Information Flow In**: [[paul_white.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with my new responsibilities overseeing the Cardiology Information System and ensuring all patient cardiac data flows smoothly between departments.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Photography and hiking\n\n \n\n ## Relationships\n\n-- **Manages Information Flow In**: [[radiology_database.md]]\n+- **Manages Information Flow In**: [[cardiology_information_system.md]]\n\n===entities/cardiology_information_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiology Information System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Manages Information Flow In**: [[paul_white.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,78 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Paint Booth Operator"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "OSHA Safety Certified"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography and cycling"
+    },
+    {
+      "q": "What is my birth date?",
+      "a": "1988-04-17"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and Spanish"
+    },
+    {
+      "q": "What is my favorite color?",
+      "a": "Blue"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of paint equipment that I use?"
+      ],
+      "a": "Paint Equipment",
+      "attribute": "entity type=Paint Equipment",
+      "path": "Lucas Basile -> OptiPaint System"
+    },
+    {
+      "q": [
+        "What is the model of the paint equipment that I use?"
+      ],
+      "a": "OptiPaint V3.2",
+      "attribute": "model=OptiPaint V3.2",
+      "path": "Lucas Basile -> OptiPaint System"
+    },
+    {
+      "q": [
+        "What year was the paint equipment that I use installed?"
+      ],
+      "a": "2021",
+      "attribute": "year installed=2021",
+      "path": "Lucas Basile -> OptiPaint System"
+    },
+    {
+      "q": [
+        "What is the maximum output capacity of the paint equipment that I use?"
+      ],
+      "a": "200 units/hour",
+      "attribute": "max output capacity=200 units/hour",
+      "path": "Lucas Basile -> OptiPaint System"
+    },
+    {
+      "q": [
+        "What is the primary coating type of the paint equipment that I use?"
+      ],
+      "a": "Polyurethane",
+      "attribute": "primary coating type=Polyurethane",
+      "path": "Lucas Basile -> OptiPaint System"
+    }
+  ]
+}

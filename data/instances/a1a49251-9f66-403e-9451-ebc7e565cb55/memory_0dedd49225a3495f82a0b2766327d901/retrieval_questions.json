@@ -1,0 +1,52 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Ellie Marie Summers"
+    },
+    {
+      "q": "What is my age?",
+      "a": "29"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "San Diego, California"
+    },
+    {
+      "q": "What is my specialty cuisine?",
+      "a": "Italian"
+    },
+    {
+      "q": "What culinary school did I attend?",
+      "a": "Le Cordon Bleu College of Culinary Arts, San Francisco"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Painting, Yoga"
+    },
+    {
+      "q": "What is my favorite ingredient?",
+      "a": "Basil"
+    },
+    {
+      "q": "What is my signature dish?",
+      "a": "Lemon Garlic Shrimp Pasta"
+    }
+  ],
+  "1_hop": {
+    "q": [
+      "What type of vessel do I cook for?"
+    ],
+    "a": "Submarine",
+    "attribute": "entity type=Submarine",
+    "path": "Cook Ellie Summers -> USS Poseidon"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Priya Nair\n\n## Basic Information\n- **Type**: Person\n- **Role**: Customs Manager\n- **Years Of Experience**: 12\n- **Languages Spoken**: English, Hindi, Spanish\n- **Shift Timing**: 9am - 5pm\n- **Education**: Master's in International Relations\n- **Certification**: Certified Customs Specialist\n- **Hometown**: Mumbai, India\n- **Hobbies**: Reading, Hiking, Traveling\n- **Favorite Airport Food**: Sushi\n- **Special Achievement**: Employee of the Year 2022\n- **Team Size**: 20\n- **Known For**: Efficient problem solving in high-pressure situations\n\n## Relationships\n- **Manages**: [[customs_office.md]]",
+  "entities": [
+    {
+      "entity_name": "customs_office",
+      "entity_file_path": "entities/customs_office.md",
+      "entity_file_content": "# Customs Office\n\n## Basic Information\n- **Entity Type**: Customs\n- **Type**: Entity\n- **Location**: Terminal 2 - Arrivals\n- **Operational Hours**: 24/7\n- **Primary Function**: Screening and clearing of goods and passengers\n- **Security Level**: High\n- **Staff Count**: 42\n- **Customs Technology**: AI-Powered Scanner Systems\n- **Regional Scope**: International Imports and Exports\n- **Special Equipment**: Radiation Detectors\n- **Notable Case Resolved**: 2019 diamond smuggling ring\n\n## Relationships\n- **Manages**: [[priya_nair.md]]"
+    }
+  ],
+  "mem_id": "memory_d4c2f32217724dc581646fb1b00106bb"
+}

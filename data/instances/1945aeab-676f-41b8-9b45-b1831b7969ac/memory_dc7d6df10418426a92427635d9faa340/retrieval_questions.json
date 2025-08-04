@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Maintenance Planner"
+    },
+    {
+      "q": "What is my age?",
+      "a": "29"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "6"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Mechanical Systems"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What certification do I have?",
+      "a": "NVQ Level 3 in Mechanical Maintenance Engineering"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Astronomy"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Digital Multimeter"
+    },
+    {
+      "q": "What is my communication style?",
+      "a": "Collaborative"
+    },
+    {
+      "q": "What is my team role?",
+      "a": "Strategist"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of equipment do I have access to?"
+      ],
+      "a": "Equipment",
+      "attribute": "entity type=Equipment",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the equipment I have access to?"
+      ],
+      "a": "TechRail Inc.",
+      "attribute": "manufacturer=TechRail Inc.",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "What year was the equipment I have access to installed?"
+      ],
+      "a": "2019",
+      "attribute": "installation year=2019",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "When was the equipment I have access to last maintained?"
+      ],
+      "a": "2023-10-10",
+      "attribute": "last maintenance date=2023-10-10",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "What is the maximum signal range in kilometers of the equipment I have access to?"
+      ],
+      "a": "15",
+      "attribute": "maximum signal range km=15",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "Does the equipment I have access to support encryption?"
+      ],
+      "a": "True",
+      "attribute": "supports encryption=True",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "How many hours of battery backup does the equipment I have access to have?"
+      ],
+      "a": "8",
+      "attribute": "battery backup duration hrs=8",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "What is the operating frequency in MHz of the equipment I have access to?"
+      ],
+      "a": "2450",
+      "attribute": "operating frequency mhz=2450",
+      "path": "Samantha Cole -> Multi-Station Communication System"
+    },
+    {
+      "q": [
+        "What type of system do I coordinate using?"
+      ],
+      "a": "System",
+      "attribute": "entity type=System",
+      "path": "Samantha Cole -> Night Shift Coordination Network"
+    },
+    {
+      "q": [
+        "What is the purpose of the system I coordinate using?"
+      ],
+      "a": "Coordinate maintenance tasks across multiple tube stations during night shift",
+      "attribute": "purpose=Coordinate maintenance tasks across multiple tube stations during night shift",
+      "path": "Samantha Cole -> Night Shift Coordination Network"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my development environment preference in the system - I've switched from Google Colab to using PyCharm as my primary coding platform.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: cycling, puzzle solving\n\n - **Personal Motto**: Innovate with intelligence, create with passion\n\n - **Primary Work Location**: Menlo Park, California\n\n-- **Preferred Development Environment**: Google Colab\n\n+- **Preferred Development Environment**: PyCharm\n\n - **Email**: emily.kim@nimbusai.com\n\n - **Certifications**: TensorFlow Developer Certificate\n\n - **Publications**: 2\n\n"
+    },
+    {
+      "query": "I've been really enjoying the debugging features and code organization capabilities that PyCharm offers for my data science projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: cycling, puzzle solving\n\n - **Personal Motto**: Innovate with intelligence, create with passion\n\n - **Primary Work Location**: Menlo Park, California\n\n-- **Preferred Development Environment**: Google Colab\n\n+- **Preferred Development Environment**: PyCharm\n\n - **Email**: emily.kim@nimbusai.com\n\n - **Certifications**: TensorFlow Developer Certificate\n\n - **Publications**: 2\n\n"
+    },
+    {
+      "query": "Please update my programming language preference in the system - I've switched from Python to Rust as my favorite programming language.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Machine Learning Specialist\n\n - **Expertise Areas**: supervised learning, neural networks\n\n - **Years Of Experience**: 5\n\n-- **Favorite Programming Language**: Python\n\n+- **Favorite Programming Language**: Rust\n\n - **Educational Background**: M.Sc. in Artificial Intelligence from Carnegie Mellon University\n\n - **Hobbies**: cycling, puzzle solving\n\n - **Personal Motto**: Innovate with intelligence, create with passion\n\n"
+    },
+    {
+      "query": "I've been really enjoying working with Rust lately - the memory safety features and performance have made it my new favorite programming language for systems development.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Machine Learning Specialist\n\n - **Expertise Areas**: supervised learning, neural networks\n\n - **Years Of Experience**: 5\n\n-- **Favorite Programming Language**: Python\n\n+- **Favorite Programming Language**: Rust\n\n - **Educational Background**: M.Sc. in Artificial Intelligence from Carnegie Mellon University\n\n - **Hobbies**: cycling, puzzle solving\n\n - **Personal Motto**: Innovate with intelligence, create with passion\n\n"
+    },
+    {
+      "query": "I need to update my publication count in the system - I currently have 7 publications, not just 2 as listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Preferred Development Environment**: Google Colab\n\n - **Email**: emily.kim@nimbusai.com\n\n - **Certifications**: TensorFlow Developer Certificate\n\n-- **Publications**: 2\n\n+- **Publications**: 7\n\n \n\n ## Relationships\n\n - **Shares_Server_With**: [[jordan_lee.md]]\n\n"
+    },
+    {
+      "query": "I'm excited to share that my research portfolio has grown significantly, and I now have 7 published papers across various academic journals in my field.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Preferred Development Environment**: Google Colab\n\n - **Email**: emily.kim@nimbusai.com\n\n - **Certifications**: TensorFlow Developer Certificate\n\n-- **Publications**: 2\n\n+- **Publications**: 7\n\n \n\n ## Relationships\n\n - **Shares_Server_With**: [[jordan_lee.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my research affiliation - I'm no longer conducting research at the Machina Learning Lab, I've moved to the Neural Dynamics Institute.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -22,4 +22,4 @@\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n - **Uses**: [[intelliapi.md]]\n\n-- **Conducts_Research_In**: [[machina_learning_lab.md]]\n+- **Conducts_Research_In**: [[neural_dynamics_institute.md]]\n\n===entities/neural_dynamics_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Dynamics Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research_institute\n\n+\n\n+## Relationships\n\n+- **Conducts_Research_In**: [[emily_kim.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new research opportunities at the Neural Dynamics Institute and how they align with my work in computational neuroscience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -22,4 +22,4 @@\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n - **Uses**: [[intelliapi.md]]\n\n-- **Conducts_Research_In**: [[machina_learning_lab.md]]\n+- **Conducts_Research_In**: [[neural_dynamics_institute.md]]\n\n===entities/neural_dynamics_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Dynamics Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research_institute\n\n+\n\n+## Relationships\n\n+- **Conducts_Research_In**: [[emily_kim.md]]\n"
+    },
+    {
+      "query": "I need to update my project contribution information - I'm no longer contributing to the Synapse Code Repository, but I've started actively contributing to the NeuroLink AI Platform instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -20,6 +20,6 @@\n - **Collaborates_On_Model_With**: [[jordan_lee.md]]\n\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n-- **Contributes_To**: [[synapse_code_repository.md]]\n\n - **Uses**: [[intelliapi.md]]\n\n-- **Conducts_Research_In**: [[machina_learning_lab.md]]\n+- **Conducts_Research_In**: [[machina_learning_lab.md]]\n\n+- **Contributes_To**: [[neurolink_ai_platform.md]]\n\n===entities/neurolink_ai_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroLink AI Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Contributes_To**: [[emily_kim.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work on the NeuroLink AI Platform lately, contributing to their machine learning algorithms for neural interface technology.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -20,6 +20,6 @@\n - **Collaborates_On_Model_With**: [[jordan_lee.md]]\n\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n-- **Contributes_To**: [[synapse_code_repository.md]]\n\n - **Uses**: [[intelliapi.md]]\n\n-- **Conducts_Research_In**: [[machina_learning_lab.md]]\n+- **Conducts_Research_In**: [[machina_learning_lab.md]]\n\n+- **Contributes_To**: [[neurolink_ai_platform.md]]\n\n===entities/neurolink_ai_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroLink AI Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software platform\n\n+\n\n+## Relationships\n\n+- **Contributes_To**: [[emily_kim.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

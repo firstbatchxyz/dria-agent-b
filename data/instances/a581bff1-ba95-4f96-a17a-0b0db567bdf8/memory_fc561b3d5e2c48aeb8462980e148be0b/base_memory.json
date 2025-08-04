@@ -1,0 +1,11 @@
+{
+  "user_md": "# Paul White\n\n## Basic Information\n- **Type**: Person\n- **Role**: Hospital Administrator\n- **Department**: Radiology\n- **Years Of Experience**: 15\n- **Education**: MBA in Healthcare Management\n- **Specialization**: Healthcare Information Systems\n- **Certification**: Certified in Healthcare Management (CHM)\n- **Work Schedule**: Monday to Friday, 9 AM to 5 PM\n- **Project Focus**: Implementing electronic health records system\n- **Office Location**: Building C, 3rd Floor\n- **Communication Preference**: Email\n- **Hobbies**: Photography and hiking\n\n## Relationships\n- **Manages Information Flow In**: [[radiology_database.md]]",
+  "entities": [
+    {
+      "entity_name": "radiology_database",
+      "entity_file_path": "entities/radiology_database.md",
+      "entity_file_content": "# Radiology Database\n\n## Basic Information\n- **Entity Type**: Patient Records\n- **Type**: Entity\n- **Primary Use**: Imaging reports and diagnostics\n- **Data Storage Method**: Cloud-based secure servers\n- **Compression Technique**: Lossless JPEG2000\n- **Encryption Protocol**: AES-256\n- **Backup Frequency**: Daily\n- **Access Methods**: Role-based login systems\n- **Data Retention Policy Years**: 7\n- **Audit Compliance**: ISO 27001 and HIPAA\n- **User Training Program**: Mandatory for all new departmental staff\n- **Peak Usage Hours**: 10 AM to 2 PM\n\n## Relationships\n- **Manages Information Flow In**: [[paul_white.md]]"
+    }
+  ],
+  "mem_id": "memory_fc561b3d5e2c48aeb8462980e148be0b"
+}

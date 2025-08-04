@@ -1,0 +1,44 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Staff Sergeant"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Infantry Unit Leader"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "12"
+    },
+    {
+      "q": "What are my special skills?",
+      "a": "Advanced marksmanship, Explosive ordinance disposal"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Denver, Colorado"
+    },
+    {
+      "q": "What was my last completed training?",
+      "a": "Advanced Infantry Training"
+    },
+    {
+      "q": "What awards have I received?",
+      "a": "Army Commendation Medal"
+    },
+    {
+      "q": "What is my favorite hobby?",
+      "a": "Woodworking"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "Bachelor's degree in Criminal Justice"
+    },
+    {
+      "q": "What is my assigned building?",
+      "a": "Building 3A - Infantry Barracks"
+    }
+  ]
+}

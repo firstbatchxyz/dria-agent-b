@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational information in the records - I actually graduated from the International Maritime University, not the Norwegian Maritime Academy as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n - **Favorite Fish**: Atlantic Cod\n\n-- **Education**: Graduated from Norwegian Maritime Academy\n\n+- **Education**: Graduated from International Maritime University\n\n - **Age**: 48\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "My time at the International Maritime University really prepared me well for the challenges of modern shipping and navigation technologies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n - **Favorite Fish**: Atlantic Cod\n\n-- **Education**: Graduated from Norwegian Maritime Academy\n\n+- **Education**: Graduated from International Maritime University\n\n - **Age**: 48\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my fishing preferences in the records - my favorite fish is actually Norwegian Salmon, not Atlantic Cod as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Birthplace**: Bergen, Norway\n\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n-- **Favorite Fish**: Atlantic Cod\n\n+- **Favorite Fish**: Norwegian Salmon\n\n - **Education**: Graduated from Norwegian Maritime Academy\n\n - **Age**: 48\n\n \n\n"
+    },
+    {
+      "query": "Been out on the waters again today, and there's nothing quite like catching Norwegian Salmon - truly my favorite fish to work with, both for the challenge and the quality.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Birthplace**: Bergen, Norway\n\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n-- **Favorite Fish**: Atlantic Cod\n\n+- **Favorite Fish**: Norwegian Salmon\n\n - **Education**: Graduated from Norwegian Maritime Academy\n\n - **Age**: 48\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my profile information - my favorite fish isn't Atlantic Cod anymore, it's actually Norwegian Salmon that I prefer now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Birthplace**: Bergen, Norway\n\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n-- **Favorite Fish**: Atlantic Cod\n\n+- **Favorite Fish**: Norwegian Salmon\n\n - **Education**: Graduated from Norwegian Maritime Academy\n\n - **Age**: 48\n\n \n\n"
+    },
+    {
+      "query": "Been having great success lately targeting Norwegian Salmon on my fishing expeditions - there's something special about the fight they put up that really appeals to me as an angler.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Birthplace**: Bergen, Norway\n\n - **Specialization**: Navigation and Weather Analysis\n\n - **Hobby**: Deep-sea Diving\n\n-- **Favorite Fish**: Atlantic Cod\n\n+- **Favorite Fish**: Norwegian Salmon\n\n - **Education**: Graduated from Norwegian Maritime Academy\n\n - **Age**: 48\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my crew information - I'm no longer captain of The Valiant Seafarer. I've recently taken command of The Storm Chaser and need this reflected in the records.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n \n\n ## Relationships\n\n - **Assists**: [[first_mate_ingrid_helvig.md]]\n\n-- **Captains**: [[the_valiant_seafarer.md]]\n\n-- **Oversees**: [[deckhand_sven_nilsen.md]]\n+- **Oversees**: [[deckhand_sven_nilsen.md]]\n\n+- **Captains**: [[the_storm_chaser.md]]\n\n===entities/the_storm_chaser.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Storm Chaser\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ship\n\n+\n\n+## Relationships\n\n+- **Captains**: [[captain_lars_gunderson.md]]\n"
+    },
+    {
+      "query": "The Storm Chaser has been performing exceptionally well on our recent voyages through the North Atlantic, and I'm proud to be her captain during these challenging expeditions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n \n\n ## Relationships\n\n - **Assists**: [[first_mate_ingrid_helvig.md]]\n\n-- **Captains**: [[the_valiant_seafarer.md]]\n\n-- **Oversees**: [[deckhand_sven_nilsen.md]]\n+- **Oversees**: [[deckhand_sven_nilsen.md]]\n\n+- **Captains**: [[the_storm_chaser.md]]\n\n===entities/the_storm_chaser.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Storm Chaser\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ship\n\n+\n\n+## Relationships\n\n+- **Captains**: [[captain_lars_gunderson.md]]\n"
+    },
+    {
+      "query": "I need to update the crew information in our maritime records - I'm no longer overseeing Deckhand Sven Nilsen, as he's been transferred to another vessel. My new direct report is Deckhand Erik Andersen.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Assists**: [[first_mate_ingrid_helvig.md]]\n\n - **Captains**: [[the_valiant_seafarer.md]]\n\n-- **Oversees**: [[deckhand_sven_nilsen.md]]\n+- **Oversees**: [[deckhand_erik_andersen.md]]\n\n===entities/deckhand_erik_andersen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Deckhand Erik Andersen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_lars_gunderson.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Deckhand Erik Andersen on the new safety protocols, and he's proven to be quite capable with the rigging operations during our recent North Sea voyage.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Assists**: [[first_mate_ingrid_helvig.md]]\n\n - **Captains**: [[the_valiant_seafarer.md]]\n\n-- **Oversees**: [[deckhand_sven_nilsen.md]]\n+- **Oversees**: [[deckhand_erik_andersen.md]]\n\n===entities/deckhand_erik_andersen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Deckhand Erik Andersen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_lars_gunderson.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update my vessel's organizational affiliation - The Valiant Seafarer has transferred from the North Sea Fishing Cooperative to the Baltic Maritime Alliance due to better territorial access and equipment support.",
+      "diff": "===entities/the_valiant_seafarer.md===\n\n===entities/baltic_maritime_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: maritime organization\n\n+\n\n+## Relationships\n\n+- **Belongs_To**: [[the_valiant_seafarer.md]]\n"
+    },
+    {
+      "query": "I'm excited about The Valiant Seafarer's new partnership with the Baltic Maritime Alliance - their modern fleet management system and expanded fishing territories have already improved our operations significantly.",
+      "diff": "===entities/the_valiant_seafarer.md===\n\n===entities/baltic_maritime_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: maritime organization\n\n+\n\n+## Relationships\n\n+- **Belongs_To**: [[the_valiant_seafarer.md]]\n"
+    }
+  ]
+}

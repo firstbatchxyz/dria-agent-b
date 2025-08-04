@@ -1,0 +1,54 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "George Ethan Alexandru"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Lost and Found Coordinator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Romanian, Spanish"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Conflict resolution"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Customer Service Excellence Certification"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Playing chess, gardening"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's degree in Communications"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of facility that I distribute?"
+      ],
+      "a": "Facility",
+      "attribute": "entity type=Facility",
+      "path": "George Alexandru -> Lost and Found Office"
+    },
+    {
+      "q": [
+        "What are the operational hours of the facility that I distribute?"
+      ],
+      "a": "24/7",
+      "attribute": "operational hours=24/7",
+      "path": "George Alexandru -> Lost and Found Office"
+    }
+  ]
+}

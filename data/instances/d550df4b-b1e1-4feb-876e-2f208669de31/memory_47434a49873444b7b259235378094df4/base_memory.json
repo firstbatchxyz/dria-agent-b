@@ -1,0 +1,21 @@
+{
+  "user_md": "# Rosli Ahmad\n\n## Basic Information\n- **Type**: Person\n- **Age**: 42\n- **Specialty**: Nasi Lemak\n- **Years Experience**: 15\n- **Language Spoken**: Malay\n- **Marital Status**: married\n- **Children**: 3\n- **Favorite Hobby**: fishing\n- **Education**: Diploma in Culinary Arts\n- **Awards**: Best Traditional Dish 2022\n- **Peak Hours**: 11 AM - 2 PM\n- **Local Fame**: True\n\n## Relationships\n- **Shares**: [[central_cleaning_supplies.md]]\n- **Participates In**: [[lunch_rush_united.md]]\n- **Belongs To**: [[maxwell_hawker_centre.md]]",
+  "entities": [
+    {
+      "entity_name": "central_cleaning_supplies",
+      "entity_file_path": "entities/central_cleaning_supplies.md",
+      "entity_file_content": "# Central Cleaning Supplies\n\n## Basic Information\n- **Entity Type**: Resource\n- **Type**: Entity\n- **Location**: southwest corner of the hawker center\n- **Operational Hours**: 6 AM - 10 PM\n- **Number Of Items**: 150\n- **Type Of Supplies**: cleaning agents and equipment\n\n## Relationships\n- **Shares**: [[rosli_ahmad.md]]"
+    },
+    {
+      "entity_name": "lunch_rush_united",
+      "entity_file_path": "entities/lunch_rush_united.md",
+      "entity_file_content": "# Lunch Rush United\n\n## Basic Information\n- **Entity Type**: Collective\n- **Type**: Entity\n- **Members Count**: 20\n- **Establishment Year**: 2005\n- **Community Philosophy**: United in Flavor\n- **Shared Equipment**: Ice machines, dishwashers\n- **Events**: Annual Cooking Competition\n- **Support System**: Peer-to-peer skill exchange workshops\n- **Facebook Page**: Lunch Rush United Community\n- **Average Daily Customers**: 500\n\n## Relationships\n- **Participates In**: [[rosli_ahmad.md]]"
+    },
+    {
+      "entity_name": "maxwell_hawker_centre",
+      "entity_file_path": "entities/maxwell_hawker_centre.md",
+      "entity_file_content": "# Maxwell Hawker Centre\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Peak Customer Days**: Friday and Saturday\n- **Cleaning Schedule**: Daily\n- **Waste Management**: Recycling bins available\n- **Famous Events**: Annual Hawker Fest\n- **Historical Background**: Established in 1978\n- **Total Stalls**: 47\n- **Iconic Stall**: Nasi Lemak Delight by Rosli Ahmad\n- **Collaborative Initiatives**: Joint Lunch Promotions\n\n## Relationships\n- **Belongs To**: [[rosli_ahmad.md]]"
+    }
+  ],
+  "mem_id": "memory_47434a49873444b7b259235378094df4"
+}

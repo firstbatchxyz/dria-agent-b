@@ -1,0 +1,180 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Oskar Lindholm"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Marine Engineer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "Swedish"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Master's Degree in Marine Engineering"
+    },
+    {
+      "q": "What is my favorite seafood?",
+      "a": "Herring"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Amateur Photography"
+    },
+    {
+      "q": "Where do I work?",
+      "a": "North Sea Explorers Ltd."
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "Certified Sonar Technician"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of equipment do I maintain?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What is the model number of the equipment I maintain?"
+      ],
+      "a": "DW-3000",
+      "attribute": "model number=DW-3000",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What is the maximum range of the equipment I maintain?"
+      ],
+      "a": "3000",
+      "attribute": "maximum range=3000",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What frequency band does the equipment I maintain operate on?"
+      ],
+      "a": "Mid-Frequency",
+      "attribute": "frequency band=Mid-Frequency",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the equipment I maintain?"
+      ],
+      "a": "OceanTech Instruments",
+      "attribute": "manufacturer=OceanTech Instruments",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What year was the equipment I maintain manufactured?"
+      ],
+      "a": "2018",
+      "attribute": "year of manufacture=2018",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What is the primary feature of the equipment I maintain?"
+      ],
+      "a": "Dynamic Fish School Detection",
+      "attribute": "primary feature=Dynamic Fish School Detection",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "What is the power consumption of the equipment I maintain?"
+      ],
+      "a": "350",
+      "attribute": "power consumption=350",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    },
+    {
+      "q": [
+        "How often do I need to perform maintenance on the equipment I maintain?"
+      ],
+      "a": "6 months",
+      "attribute": "maintenance interval=6 months",
+      "path": "Engineer Oskar Lindholm -> DeepWave Sonar 3000"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of organization is the one that facilitates the sonar system I maintain?",
+      "a": "Organization",
+      "attribute": "entity type=Organization",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What year was the organization established that facilitates the sonar system I maintain?",
+      "a": "1995",
+      "attribute": "established year=1995",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the primary language of the organization that facilitates the sonar system I maintain?",
+      "a": "Norwegian",
+      "attribute": "primary language=Norwegian",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the annual catch tonnage of the organization that facilitates the sonar system I maintain?",
+      "a": "3000",
+      "attribute": "annual catch tonnage=3000",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "How many vessels does the organization have that facilitates the sonar system I maintain?",
+      "a": "5",
+      "attribute": "number of vessels=5",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the key product of the organization that facilitates the sonar system I maintain?",
+      "a": "Atlantic Cod",
+      "attribute": "key product=Atlantic Cod",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What safety certification does the organization hold that facilitates the sonar system I maintain?",
+      "a": "ISO 45001",
+      "attribute": "safety certification=ISO 45001",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What are the affiliated organizations of the one that facilitates the sonar system I maintain?",
+      "a": "European Fishing Alliance",
+      "attribute": "affiliated organizations=European Fishing Alliance",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "Who is the chairperson of the organization that facilitates the sonar system I maintain?",
+      "a": "Ingrid Johansen",
+      "attribute": "chairperson=Ingrid Johansen",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "Where is the headquarters located of the organization that facilitates the sonar system I maintain?",
+      "a": "Bergen, Norway",
+      "attribute": "headquarters location=Bergen, Norway",
+      "path": "Engineer Oskar Lindholm - maintains -> DeepWave Sonar 3000 - facilitates-> North Sea Fishing Cooperative"
+    }
+  ]
+}

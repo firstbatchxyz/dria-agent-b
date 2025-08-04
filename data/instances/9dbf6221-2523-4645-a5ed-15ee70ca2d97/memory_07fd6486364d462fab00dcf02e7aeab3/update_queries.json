@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my nationality information in the records - I'm actually Bhutanese, not Tibetan as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 19\n\n-- **Nationality**: Tibetan\n\n+- **Nationality**: Bhutanese\n\n - **Favorite Meditation Technique**: Tonglen\n\n - **Role In Monastery**: scripture_copier\n\n - **Hobby**: calligraphy\n\n"
+    },
+    {
+      "query": "Growing up in Bhutan has deeply influenced my spiritual journey and understanding of Buddhist teachings in our monastery.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 19\n\n-- **Nationality**: Tibetan\n\n+- **Nationality**: Bhutanese\n\n - **Favorite Meditation Technique**: Tonglen\n\n - **Role In Monastery**: scripture_copier\n\n - **Hobby**: calligraphy\n\n"
+    },
+    {
+      "query": "I need to correct my personal motto in your records - it's not 'Compassion is the path to enlightenment' as you have listed, but rather 'Wisdom through mindful action guides all beings to peace'.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Spiritual Inspiration**: Milarepa's Teachings\n\n - **Daily Routine**: wakes up at 4 AM for morning meditation\n\n - **Years In Monastery**: 2\n\n-- **Personal Motto**: Compassion is the path to enlightenment\n\n+- **Personal Motto**: Wisdom through mindful action guides all beings to peace\n\n - **Vegetarian**: True\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I was meditating this morning on my guiding principle - 'Wisdom through mindful action guides all beings to peace' - and how it shapes my daily practice here at the monastery.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Spiritual Inspiration**: Milarepa's Teachings\n\n - **Daily Routine**: wakes up at 4 AM for morning meditation\n\n - **Years In Monastery**: 2\n\n-- **Personal Motto**: Compassion is the path to enlightenment\n\n+- **Personal Motto**: Wisdom through mindful action guides all beings to peace\n\n - **Vegetarian**: True\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my spiritual inspiration records - my guidance actually comes from the Dalai Lama's Teachings, not Milarepa's Teachings as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Meditation Technique**: Tonglen\n\n - **Role In Monastery**: scripture_copier\n\n - **Hobby**: calligraphy\n\n-- **Spiritual Inspiration**: Milarepa's Teachings\n\n+- **Spiritual Inspiration**: Dalai Lama's Teachings\n\n - **Daily Routine**: wakes up at 4 AM for morning meditation\n\n - **Years In Monastery**: 2\n\n - **Personal Motto**: Compassion is the path to enlightenment\n\n"
+    },
+    {
+      "query": "I've been deeply moved by how the Dalai Lama's Teachings have transformed my meditation practice and understanding of compassion during my studies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Meditation Technique**: Tonglen\n\n - **Role In Monastery**: scripture_copier\n\n - **Hobby**: calligraphy\n\n-- **Spiritual Inspiration**: Milarepa's Teachings\n\n+- **Spiritual Inspiration**: Dalai Lama's Teachings\n\n - **Daily Routine**: wakes up at 4 AM for morning meditation\n\n - **Years In Monastery**: 2\n\n - **Personal Motto**: Compassion is the path to enlightenment\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update where I'm studying - I've transferred from The Sacred Library of Wisdom to the Ancient Monastery of Enlightenment to continue my spiritual education.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Prays With**: [[holy_prayer_wheel_of_harmony.md]]\n\n-- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n+- **Learns In**: [[ancient_monastery_of_enlightenment.md]]\n\n===entities/ancient_monastery_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Ancient Monastery of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: monastery\n\n+\n\n+## Relationships\n\n+- **Learns In**: [[novice_lobsang.md]]\n"
+    },
+    {
+      "query": "I'm grateful for the profound teachings I'm receiving here at the Ancient Monastery of Enlightenment, where the masters guide us through the deeper mysteries of Buddhist philosophy.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Prays With**: [[holy_prayer_wheel_of_harmony.md]]\n\n-- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n+- **Learns In**: [[ancient_monastery_of_enlightenment.md]]\n\n===entities/ancient_monastery_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Ancient Monastery of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: monastery\n\n+\n\n+## Relationships\n\n+- **Learns In**: [[novice_lobsang.md]]\n"
+    },
+    {
+      "query": "I need to update my prayer practice information - I no longer pray with the Holy Prayer Wheel of Harmony, but now use the Sacred Bell of Enlightenment for my daily meditations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Vegetarian**: True\n\n \n\n ## Relationships\n\n-- **Prays With**: [[holy_prayer_wheel_of_harmony.md]]\n\n-- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n+- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n\n+- **Prays With**: [[sacred_bell_of_enlightenment.md]]\n\n===entities/sacred_bell_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Bell of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: religious artifact\n\n+\n\n+## Relationships\n\n+- **Prays With**: [[novice_lobsang.md]]\n"
+    },
+    {
+      "query": "The Sacred Bell of Enlightenment has become such an integral part of my spiritual practice, helping me achieve deeper states of mindfulness during prayer sessions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Vegetarian**: True\n\n \n\n ## Relationships\n\n-- **Prays With**: [[holy_prayer_wheel_of_harmony.md]]\n\n-- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n+- **Learns In**: [[the_sacred_library_of_wisdom.md]]\n\n+- **Prays With**: [[sacred_bell_of_enlightenment.md]]\n\n===entities/sacred_bell_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Bell of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: religious artifact\n\n+\n\n+## Relationships\n\n+- **Prays With**: [[novice_lobsang.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

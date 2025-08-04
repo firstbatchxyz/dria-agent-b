@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my personal information in the system - my last name should be updated from Vogel to Schmidt due to a recent legal name change.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Maximilian\n\n-- **Last Name**: Vogel\n\n+- **Last Name**: Schmidt\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n - **Languages Spoken**: German, French, English\n\n"
+    },
+    {
+      "query": "I've been adjusting to using my new surname Schmidt in all my professional correspondence and documents since the name change process was completed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Maximilian\n\n-- **Last Name**: Vogel\n\n+- **Last Name**: Schmidt\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n - **Languages Spoken**: German, French, English\n\n"
+    },
+    {
+      "query": "I need to correct my name in the system - my first name is actually Maximilian-Alexander, not just Maximilian as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Maximilian\n\n+- **First Name**: Maximilian-Alexander\n\n - **Last Name**: Vogel\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n"
+    },
+    {
+      "query": "I've been thinking about how my full name Maximilian-Alexander reflects my German heritage and family traditions passed down through generations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Maximilian\n\n+- **First Name**: Maximilian-Alexander\n\n - **Last Name**: Vogel\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n"
+    },
+    {
+      "query": "I need to correct my personal information in the system - my last name should be updated from Vogel to Zimmermann due to a recent name change.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Maximilian\n\n-- **Last Name**: Vogel\n\n+- **Last Name**: Zimmermann\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n - **Languages Spoken**: German, French, English\n\n"
+    },
+    {
+      "query": "I've been adjusting to all the paperwork involved with my new last name Zimmermann, but it's worth it for personal reasons.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Maximilian\n\n-- **Last Name**: Vogel\n\n+- **Last Name**: Zimmermann\n\n - **Role**: Field Medic\n\n - **Rescue Experience Years**: 7\n\n - **Languages Spoken**: German, French, English\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment inventory - I'm no longer carrying Avalanche Beacons and have switched to Emergency Satellite Communicators for my mountain expeditions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Emergency Response Strategy**: Rapid Assessment and Deployment\n\n \n\n ## Relationships\n\n-- **Carries**: [[avalanche_beacons.md]]\n\n-- **Uses**: [[avalanche_beacons.md]]\n+- **Uses**: [[avalanche_beacons.md]]\n\n+- **Carries**: [[emergency_satellite_communicators.md]]\n\n===entities/emergency_satellite_communicators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Satellite Communicators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication device\n\n+\n\n+## Relationships\n\n+- **Carries**: [[maximilian_vogel.md]]\n"
+    },
+    {
+      "query": "Just completed a successful alpine rescue training session where my Emergency Satellite Communicator proved invaluable for coordinating with the rescue team from base camp.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Emergency Response Strategy**: Rapid Assessment and Deployment\n\n \n\n ## Relationships\n\n-- **Carries**: [[avalanche_beacons.md]]\n\n-- **Uses**: [[avalanche_beacons.md]]\n+- **Uses**: [[avalanche_beacons.md]]\n\n+- **Carries**: [[emergency_satellite_communicators.md]]\n\n===entities/emergency_satellite_communicators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Satellite Communicators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication device\n\n+\n\n+## Relationships\n\n+- **Carries**: [[maximilian_vogel.md]]\n"
+    },
+    {
+      "query": "I need to update my emergency equipment inventory - I'm no longer carrying Avalanche Beacons but have switched to Emergency GPS Communicators for my mountain expeditions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Emergency Response Strategy**: Rapid Assessment and Deployment\n\n \n\n ## Relationships\n\n-- **Carries**: [[avalanche_beacons.md]]\n\n-- **Uses**: [[avalanche_beacons.md]]\n+- **Uses**: [[avalanche_beacons.md]]\n\n+- **Carries**: [[emergency_gps_communicators.md]]\n\n===entities/emergency_gps_communicators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency GPS Communicators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: safety equipment\n\n+\n\n+## Relationships\n\n+- **Carries**: [[maximilian_vogel.md]]\n"
+    },
+    {
+      "query": "Just tested my new Emergency GPS Communicators during yesterday's climb and I'm impressed with their reliability compared to traditional safety equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Emergency Response Strategy**: Rapid Assessment and Deployment\n\n \n\n ## Relationships\n\n-- **Carries**: [[avalanche_beacons.md]]\n\n-- **Uses**: [[avalanche_beacons.md]]\n+- **Uses**: [[avalanche_beacons.md]]\n\n+- **Carries**: [[emergency_gps_communicators.md]]\n\n===entities/emergency_gps_communicators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency GPS Communicators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: safety equipment\n\n+\n\n+## Relationships\n\n+- **Carries**: [[maximilian_vogel.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

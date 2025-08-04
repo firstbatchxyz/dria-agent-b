@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my volunteer experience information - I'm no longer with M\u00e9decins Sans Fronti\u00e8res and have transitioned to volunteering with Doctors for Global Health instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Published Papers**: 15\n\n - **Professional Associations**: American College of Cardiology\n\n - **Hobbies**: Photography, Hiking\n\n-- **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n+- **Volunteer Experience**: Doctors for Global Health\n\n \n\n ## Relationships\n\n - **Uses**: [[heart_monitor.md]]\n"
+    },
+    {
+      "query": "My work with Doctors for Global Health has been incredibly rewarding, especially their focus on addressing health inequities in underserved communities worldwide.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Published Papers**: 15\n\n - **Professional Associations**: American College of Cardiology\n\n - **Hobbies**: Photography, Hiking\n\n-- **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n+- **Volunteer Experience**: Doctors for Global Health\n\n \n\n ## Relationships\n\n - **Uses**: [[heart_monitor.md]]\n"
+    },
+    {
+      "query": "I need to correct my certification status in the system - I'm actually certified by the American Board of Internal Medicine, not just having a general board certification as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Cardiologist\n\n - **Years Of Experience**: 12\n\n - **Education**: Stanford University School of Medicine\n\n-- **Board Certified**: True\n\n+- **Board Certified**: American Board of Internal Medicine\n\n - **Specialization**: Electrophysiology\n\n - **Office Floor**: 3\n\n - **Patient Satisfaction Score**: 4.8\n\n"
+    },
+    {
+      "query": "I've been leveraging my American Board of Internal Medicine certification to provide specialized care for my patients with complex internal medicine cases.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Cardiologist\n\n - **Years Of Experience**: 12\n\n - **Education**: Stanford University School of Medicine\n\n-- **Board Certified**: True\n\n+- **Board Certified**: American Board of Internal Medicine\n\n - **Specialization**: Electrophysiology\n\n - **Office Floor**: 3\n\n - **Patient Satisfaction Score**: 4.8\n\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've recently gotten into rock climbing and given up photography, so my main interests are now hiking and rock climbing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Published Papers**: 15\n\n - **Professional Associations**: American College of Cardiology\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Hiking, Rock climbing\n\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I had an amazing rock climbing session yesterday at the local crag, and combined with my regular hiking adventures, I'm really enjoying these more active outdoor pursuits these days.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Published Papers**: 15\n\n - **Professional Associations**: American College of Cardiology\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Hiking, Rock climbing\n\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my medical equipment information - I've switched from using a Heart Monitor to a new Advanced Cardiac Imaging System for my patient diagnostics.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n-- **Uses**: [[heart_monitor.md]]\n+- **Uses**: [[advanced_cardiac_imaging_system.md]]\n\n===entities/advanced_cardiac_imaging_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Cardiac Imaging System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._sarah_thompson.md]]\n"
+    },
+    {
+      "query": "I've been getting excellent results with my new Advanced Cardiac Imaging System, which provides much more detailed cardiac assessments than my previous monitoring equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n-- **Uses**: [[heart_monitor.md]]\n+- **Uses**: [[advanced_cardiac_imaging_system.md]]\n\n===entities/advanced_cardiac_imaging_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Cardiac Imaging System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._sarah_thompson.md]]\n"
+    },
+    {
+      "query": "I need to update my medical equipment information - I've switched from using a Heart Monitor to a new Cardiac Ultrasound Scanner for my patient examinations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n-- **Uses**: [[heart_monitor.md]]\n+- **Uses**: [[cardiac_ultrasound_scanner.md]]\n\n===entities/cardiac_ultrasound_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiac Ultrasound Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._sarah_thompson.md]]\n"
+    },
+    {
+      "query": "I've been getting excellent diagnostic results with my new Cardiac Ultrasound Scanner, which provides much more detailed imaging than my previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n \n\n ## Relationships\n\n-- **Uses**: [[heart_monitor.md]]\n+- **Uses**: [[cardiac_ultrasound_scanner.md]]\n\n===entities/cardiac_ultrasound_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiac Ultrasound Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._sarah_thompson.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

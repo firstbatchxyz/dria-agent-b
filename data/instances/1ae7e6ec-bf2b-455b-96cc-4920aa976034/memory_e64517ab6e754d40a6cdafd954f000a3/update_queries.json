@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my occupation information in the system - I'm no longer working as a Cattle Station Owner, I've transitioned to becoming a Wildlife Conservation Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Cattle Station Owner\n\n+- **Occupation**: Wildlife Conservation Manager\n\n - **Age**: 45\n\n - **Helicopter License**: True\n\n - **Communications Equipment**: satellite phone\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a Wildlife Conservation Manager, working to protect the natural habitat that surrounds what used to be my cattle station.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Cattle Station Owner\n\n+- **Occupation**: Wildlife Conservation Manager\n\n - **Age**: 45\n\n - **Helicopter License**: True\n\n - **Communications Equipment**: satellite phone\n\n"
+    },
+    {
+      "query": "I need to update my communications equipment information - I've switched from using a satellite phone to a tactical radio system for my fieldwork.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Cattle Station Owner\n\n - **Age**: 45\n\n - **Helicopter License**: True\n\n-- **Communications Equipment**: satellite phone\n\n+- **Communications Equipment**: tactical radio system\n\n - **Special Skill**: aerial cattle mustering\n\n - **Hobby**: playing the didgeridoo\n\n \n\n"
+    },
+    {
+      "query": "The tactical radio system I've been using lately has really improved our team coordination during remote operations compared to my old setup.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Cattle Station Owner\n\n - **Age**: 45\n\n - **Helicopter License**: True\n\n-- **Communications Equipment**: satellite phone\n\n+- **Communications Equipment**: tactical radio system\n\n - **Special Skill**: aerial cattle mustering\n\n - **Hobby**: playing the didgeridoo\n\n \n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from playing the didgeridoo and now I'm really into urban beekeeping.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Helicopter License**: True\n\n - **Communications Equipment**: satellite phone\n\n - **Special Skill**: aerial cattle mustering\n\n-- **Hobby**: playing the didgeridoo\n\n+- **Hobby**: urban beekeeping\n\n \n\n ## Relationships\n\n - **Uses**: [[aquasure_water_solutions.md]]\n"
+    },
+    {
+      "query": "I've been spending most of my free time with my urban beekeeping setup, and it's amazing how much you learn about local ecosystems through managing hives in the city.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Helicopter License**: True\n\n - **Communications Equipment**: satellite phone\n\n - **Special Skill**: aerial cattle mustering\n\n-- **Hobby**: playing the didgeridoo\n\n+- **Hobby**: urban beekeeping\n\n \n\n ## Relationships\n\n - **Uses**: [[aquasure_water_solutions.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my water solution provider information - I'm no longer using AquaSure Water Solutions and have switched to HydroPure Systems instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobby**: playing the didgeridoo\n\n \n\n ## Relationships\n\n-- **Uses**: [[aquasure_water_solutions.md]]\n+- **Uses**: [[hydropure_systems.md]]\n\n===entities/hydropure_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroPure Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water treatment company\n\n+\n\n+## Relationships\n\n+- **Uses**: [[riley_johnson.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with HydroPure Systems since making the switch - their filtration technology has significantly improved our water quality compared to what we had before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobby**: playing the didgeridoo\n\n \n\n ## Relationships\n\n-- **Uses**: [[aquasure_water_solutions.md]]\n+- **Uses**: [[hydropure_systems.md]]\n\n===entities/hydropure_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroPure Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water treatment company\n\n+\n\n+## Relationships\n\n+- **Uses**: [[riley_johnson.md]]\n"
+    },
+    {
+      "query": "I need to update my water system information - I'm no longer using AquaSure Water Solutions and have switched to HydroPure Filtration Systems instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobby**: playing the didgeridoo\n\n \n\n ## Relationships\n\n-- **Uses**: [[aquasure_water_solutions.md]]\n+- **Uses**: [[hydropure_filtration_systems.md]]\n\n===entities/hydropure_filtration_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroPure Filtration Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water filtration company\n\n+\n\n+## Relationships\n\n+- **Uses**: [[riley_johnson.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with the water quality since switching to HydroPure Filtration Systems - their advanced filtration technology has made a noticeable difference in taste and purity.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobby**: playing the didgeridoo\n\n \n\n ## Relationships\n\n-- **Uses**: [[aquasure_water_solutions.md]]\n+- **Uses**: [[hydropure_filtration_systems.md]]\n\n===entities/hydropure_filtration_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroPure Filtration Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water filtration company\n\n+\n\n+## Relationships\n\n+- **Uses**: [[riley_johnson.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update my records - AquaSure Water Solutions is no longer providing services to MacAlister Cattle Station. We've started working with Westfield Ranch instead.",
+      "diff": "===entities/aquasure_water_solutions.md===\n\n===entities/westfield_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Westfield Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Provides**: [[aquasure_water_solutions.md]]\n"
+    },
+    {
+      "query": "I'm really pleased with how AquaSure Water Solutions has been handling the water management systems at Westfield Ranch - their irrigation expertise is exactly what we needed for this new partnership.",
+      "diff": "===entities/aquasure_water_solutions.md===\n\n===entities/westfield_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Westfield Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Provides**: [[aquasure_water_solutions.md]]\n"
+    }
+  ]
+}

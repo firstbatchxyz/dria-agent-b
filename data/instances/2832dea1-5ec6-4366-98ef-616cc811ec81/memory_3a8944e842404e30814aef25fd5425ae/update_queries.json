@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational background information in the system - I actually have a PhD in Environmental Science, not an Agricultural Science Degree as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n - **Hobby**: Photography\n\n-- **Educational Background**: Agricultural Science Degree\n\n+- **Educational Background**: PhD in Environmental Science\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n - **Known For**: Excellent Sheep Shearing Skills\n\n"
+    },
+    {
+      "query": "I've been applying the research methodologies from my PhD in Environmental Science to analyze sustainability patterns in local ecosystems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n - **Hobby**: Photography\n\n-- **Educational Background**: Agricultural Science Degree\n\n+- **Educational Background**: PhD in Environmental Science\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n - **Known For**: Excellent Sheep Shearing Skills\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from photography and am now really into woodworking as my main hobby.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Role On Farm**: Farm Manager\n\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n-- **Hobby**: Photography\n\n+- **Hobby**: Woodworking\n\n - **Educational Background**: Agricultural Science Degree\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n"
+    },
+    {
+      "query": "I've been spending all my free time in my workshop lately, working on a new dining table set. Woodworking has become such a fulfilling creative outlet for me.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Role On Farm**: Farm Manager\n\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n-- **Hobby**: Photography\n\n+- **Hobby**: Woodworking\n\n - **Educational Background**: Agricultural Science Degree\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from photography and now I'm really into rock climbing as my main hobby.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Role On Farm**: Farm Manager\n\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n-- **Hobby**: Photography\n\n+- **Hobby**: rock climbing\n\n - **Educational Background**: Agricultural Science Degree\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n"
+    },
+    {
+      "query": "I just got back from an amazing rock climbing session at the local crag - it's incredible how this hobby has become such a central part of my life and fitness routine.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Role On Farm**: Farm Manager\n\n - **Shearing Expertise**: Advanced\n\n - **Favorite Dog Breed**: Border Collie\n\n-- **Hobby**: Photography\n\n+- **Hobby**: rock climbing\n\n - **Educational Background**: Agricultural Science Degree\n\n - **Language Spoken**: Welsh\n\n - **Favorite Season**: Spring\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my business ownership information - I no longer co-own Llewellyn Family Farm. I've actually partnered with Sarah Chen to co-own Green Valley Organic Cooperative instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Co-Owns**: [[llewellyn_family_farm.md]]\n\n-- **Shears_Sheep_With**: [[shearing_equipment.md]]\n+- **Shears_Sheep_With**: [[shearing_equipment.md]]\n\n+- **Co-Owns**: [[green_valley_organic_cooperative.md]]\n\n===entities/green_valley_organic_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Organic Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Co-Owns**: [[megan_llewellyn.md]]\n"
+    },
+    {
+      "query": "Sarah and I have been working really well together since we started co-owning Green Valley Organic Cooperative - it's been such a rewarding partnership focusing on sustainable farming practices.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Co-Owns**: [[llewellyn_family_farm.md]]\n\n-- **Shears_Sheep_With**: [[shearing_equipment.md]]\n+- **Shears_Sheep_With**: [[shearing_equipment.md]]\n\n+- **Co-Owns**: [[green_valley_organic_cooperative.md]]\n\n===entities/green_valley_organic_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Organic Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Co-Owns**: [[megan_llewellyn.md]]\n"
+    },
+    {
+      "query": "I need to update my business ownership information - I no longer co-own Llewellyn Family Farm, but instead co-own Greenbrook Organic Cooperative now.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Co-Owns**: [[llewellyn_family_farm.md]]\n\n-- **Shears_Sheep_With**: [[shearing_equipment.md]]\n+- **Shears_Sheep_With**: [[shearing_equipment.md]]\n\n+- **Co-Owns**: [[greenbrook_organic_cooperative.md]]\n\n===entities/greenbrook_organic_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Greenbrook Organic Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Co-Owns**: [[megan_llewellyn.md]]\n"
+    },
+    {
+      "query": "I'm excited about the direction we're taking at Greenbrook Organic Cooperative - co-owning this venture has allowed me to expand into sustainable agriculture practices beyond what we did before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Co-Owns**: [[llewellyn_family_farm.md]]\n\n-- **Shears_Sheep_With**: [[shearing_equipment.md]]\n+- **Shears_Sheep_With**: [[shearing_equipment.md]]\n\n+- **Co-Owns**: [[greenbrook_organic_cooperative.md]]\n\n===entities/greenbrook_organic_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Greenbrook Organic Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Co-Owns**: [[megan_llewellyn.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our equipment maintenance records - our shearing equipment is no longer maintained by Gareth Llewellyn, but is now being serviced by Thomas Mitchell who took over the maintenance contract.",
+      "diff": "===entities/shearing_equipment.md===\n\n===entities/thomas_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Thomas Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Maintained_By**: [[shearing_equipment.md]]\n"
+    },
+    {
+      "query": "I'm really pleased with how Thomas Mitchell has been maintaining our shearing equipment - the blades stay sharper longer and the machinery runs much smoother than before.",
+      "diff": "===entities/shearing_equipment.md===\n\n===entities/thomas_mitchell.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Thomas Mitchell\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Maintained_By**: [[shearing_equipment.md]]\n"
+    }
+  ]
+}

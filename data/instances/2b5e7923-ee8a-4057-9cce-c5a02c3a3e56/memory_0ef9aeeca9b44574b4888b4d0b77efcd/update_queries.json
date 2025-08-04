@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my personal information in the ranger database - my first name is actually Charlotte, not Chloe as it's currently recorded in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Chloe\n\n+- **First Name**: Charlotte\n\n - **Last Name**: Frost\n\n - **Rank**: Corporal\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n"
+    },
+    {
+      "query": "As I was filling out some paperwork today, I realized how much I appreciate that my colleagues have started using my full name Charlotte during our team meetings at the ranger station.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Chloe\n\n+- **First Name**: Charlotte\n\n - **Last Name**: Frost\n\n - **Rank**: Corporal\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n"
+    },
+    {
+      "query": "I need to update my service record - the system shows I have 8 years of service, but I actually have 12 years of experience as a park ranger.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Frost\n\n - **Rank**: Corporal\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n-- **Years Of Service**: 8\n\n+- **Years Of Service**: 12\n\n - **Preferred Patrol Time**: night shifts\n\n - **Hometown**: Whitehorse\n\n - **Hobbies**: ice sculpting, snowshoeing\n\n"
+    },
+    {
+      "query": "After 12 years of protecting our wilderness areas, I've learned that the key to effective conservation is building strong relationships with local communities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Frost\n\n - **Rank**: Corporal\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n-- **Years Of Service**: 8\n\n+- **Years Of Service**: 12\n\n - **Preferred Patrol Time**: night shifts\n\n - **Hometown**: Whitehorse\n\n - **Hobbies**: ice sculpting, snowshoeing\n\n"
+    },
+    {
+      "query": "I need to update my military records - I've been promoted from Corporal to Sergeant recently and my file needs to reflect this change.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **First Name**: Chloe\n\n - **Last Name**: Frost\n\n-- **Rank**: Corporal\n\n+- **Rank**: Sergeant\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n - **Years Of Service**: 8\n\n - **Preferred Patrol Time**: night shifts\n\n"
+    },
+    {
+      "query": "I've been adjusting to my new responsibilities as Sergeant, leading a larger team of rangers on our wilderness patrol missions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **First Name**: Chloe\n\n - **Last Name**: Frost\n\n-- **Rank**: Corporal\n\n+- **Rank**: Sergeant\n\n - **Skills**: snowmobile repair, first aid, cold weather survival\n\n - **Years Of Service**: 8\n\n - **Preferred Patrol Time**: night shifts\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm currently assisting - I'm no longer working with Sergeant Aurora McCarthy, but now I'm assisting Captain Marcus Stone instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Uses**: [[blizzard_snowmobiles.md]]\n\n-- **Assists**: [[sergeant_aurora_mccarthy.md]]\n+- **Assists**: [[captain_marcus_stone.md]]\n\n===entities/captain_marcus_stone.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Captain Marcus Stone\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[ranger_chloe_frost.md]]\n"
+    },
+    {
+      "query": "Captain Stone and I have been working together on the new wildlife conservation initiative, and his leadership experience has been invaluable for coordinating our field operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Uses**: [[blizzard_snowmobiles.md]]\n\n-- **Assists**: [[sergeant_aurora_mccarthy.md]]\n+- **Assists**: [[captain_marcus_stone.md]]\n\n===entities/captain_marcus_stone.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Captain Marcus Stone\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[ranger_chloe_frost.md]]\n"
+    },
+    {
+      "query": "I need to update my personnel records - I'm no longer assisting Sergeant Aurora McCarthy, but I'm now working with Lieutenant Marcus Reid instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Uses**: [[blizzard_snowmobiles.md]]\n\n-- **Assists**: [[sergeant_aurora_mccarthy.md]]\n+- **Assists**: [[lieutenant_marcus_reid.md]]\n\n===entities/lieutenant_marcus_reid.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Lieutenant Marcus Reid\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[ranger_chloe_frost.md]]\n"
+    },
+    {
+      "query": "Lieutenant Reid and I have been coordinating really well on the recent patrol assignments, and I'm grateful for his guidance as my new supervising officer.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Uses**: [[blizzard_snowmobiles.md]]\n\n-- **Assists**: [[sergeant_aurora_mccarthy.md]]\n+- **Assists**: [[lieutenant_marcus_reid.md]]\n\n===entities/lieutenant_marcus_reid.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Lieutenant Marcus Reid\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[ranger_chloe_frost.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the coordination information in our system - Sergeant Aurora McCarthy is now coordinating the Northern Emergency Response Coalition instead of the Arctic Shelter Network.",
+      "diff": "===entities/sergeant_aurora_mccarthy.md===\n\n===entities/northern_emergency_response_coalition.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Northern Emergency Response Coalition\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency organization\n\n+\n\n+## Relationships\n\n+- **Coordinates**: [[sergeant_aurora_mccarthy.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Sergeant McCarthy as she coordinates the Northern Emergency Response Coalition's latest wilderness rescue operations, and the collaboration has been really effective.",
+      "diff": "===entities/sergeant_aurora_mccarthy.md===\n\n===entities/northern_emergency_response_coalition.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Northern Emergency Response Coalition\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency organization\n\n+\n\n+## Relationships\n\n+- **Coordinates**: [[sergeant_aurora_mccarthy.md]]\n"
+    }
+  ]
+}

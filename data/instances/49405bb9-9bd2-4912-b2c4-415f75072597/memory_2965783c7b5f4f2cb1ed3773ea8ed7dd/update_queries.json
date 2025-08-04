@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - I actually speak Portuguese as my primary language, not Spanish as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialty**: Engobe and slip decoration\n\n - **Experience Years**: 12\n\n - **Award Winning**: True\n\n-- **Language Spoken**: Spanish\n\n+- **Language Spoken**: Portuguese\n\n - **Birthplace**: San Bartolo Coyotepec\n\n - **Favorite Motif**: Geometric patterns\n\n - **Has Workshop In Home**: True\n\n"
+    },
+    {
+      "query": "I've been thinking about how speaking Portuguese has helped me connect with Brazilian clients in my recent projects, especially when discussing cultural nuances.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialty**: Engobe and slip decoration\n\n - **Experience Years**: 12\n\n - **Award Winning**: True\n\n-- **Language Spoken**: Spanish\n\n+- **Language Spoken**: Portuguese\n\n - **Birthplace**: San Bartolo Coyotepec\n\n - **Favorite Motif**: Geometric patterns\n\n - **Has Workshop In Home**: True\n\n"
+    },
+    {
+      "query": "I need to correct my home workshop information - I actually have a dedicated studio space separate from my home now, not a workshop in my home as previously recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Spanish\n\n - **Birthplace**: San Bartolo Coyotepec\n\n - **Favorite Motif**: Geometric patterns\n\n-- **Has Workshop In Home**: True\n\n+- **Has Workshop In Home**: False\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I'm so grateful for my new dedicated studio space - it's given me the creative freedom I never had when I was limited to working from home.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Spanish\n\n - **Birthplace**: San Bartolo Coyotepec\n\n - **Favorite Motif**: Geometric patterns\n\n-- **Has Workshop In Home**: True\n\n+- **Has Workshop In Home**: False\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I need to correct my birthplace information in the records - I was actually born in Oaxaca de Ju\u00e1rez, not San Bartolo Coyotepec as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 12\n\n - **Award Winning**: True\n\n - **Language Spoken**: Spanish\n\n-- **Birthplace**: San Bartolo Coyotepec\n\n+- **Birthplace**: Oaxaca de Ju\u00e1rez\n\n - **Favorite Motif**: Geometric patterns\n\n - **Has Workshop In Home**: True\n\n \n\n"
+    },
+    {
+      "query": "Growing up in Oaxaca de Ju\u00e1rez really shaped my perspective on traditional Mexican culture and gave me such a deep appreciation for our rich heritage.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Experience Years**: 12\n\n - **Award Winning**: True\n\n - **Language Spoken**: Spanish\n\n-- **Birthplace**: San Bartolo Coyotepec\n\n+- **Birthplace**: Oaxaca de Ju\u00e1rez\n\n - **Favorite Motif**: Geometric patterns\n\n - **Has Workshop In Home**: True\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have recently joined the Riverside Community Collective instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Has Workshop In Home**: True\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_collective.md]]\n\n===entities/riverside_community_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community organization\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[ana_tejada.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my involvement with the Riverside Community Collective and the community-focused initiatives we're working on together.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Has Workshop In Home**: True\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_collective.md]]\n\n===entities/riverside_community_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community organization\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[ana_tejada.md]]\n"
+    },
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have recently joined the Riverside Farmers Alliance instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Has Workshop In Home**: True\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_farmers_alliance.md]]\n\n===entities/riverside_farmers_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Farmers Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[ana_tejada.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new initiatives we're launching at Riverside Farmers Alliance - it's been great connecting with fellow sustainable agriculture advocates in our community.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Has Workshop In Home**: True\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_farmers_alliance.md]]\n\n===entities/riverside_farmers_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Farmers Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[ana_tejada.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the equipment information for Clay Creek Co-op - we're no longer using the El Bosque Kiln and have switched to the new Aurora Fire Kiln for our pottery work.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/aurora_fire_kiln.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Fire Kiln\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: pottery equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the results we're getting with the Aurora Fire Kiln at Clay Creek Co-op - the temperature control is so much better than what we had before.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/aurora_fire_kiln.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Fire Kiln\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: pottery equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[clay_creek_co-op.md]]\n"
+    }
+  ]
+}

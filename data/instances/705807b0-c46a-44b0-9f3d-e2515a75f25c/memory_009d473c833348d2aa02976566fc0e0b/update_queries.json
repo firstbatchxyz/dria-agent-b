@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my work location information - I've relocated from Sunnyvale, California to Austin, Texas for my new position.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Educational Background**: B.Sc. in Computer Engineering from UC Santa Cruz\n\n - **Hobbies**: hiking, blockchain gaming\n\n - **Personal Motto**: Code to innovate, inspire to create\n\n-- **Primary Work Location**: Sunnyvale, California\n\n+- **Primary Work Location**: Austin, Texas\n\n - **Preferred Development Environment**: PyCharm\n\n - **Email**: jordan.lee@nimbusai.com\n\n - **Certifications**: Azure AI Engineer Associate\n\n"
+    },
+    {
+      "query": "I'm really enjoying the tech scene here in Austin, Texas - it's been a great change from my previous work environment and the city has such a vibrant startup culture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Educational Background**: B.Sc. in Computer Engineering from UC Santa Cruz\n\n - **Hobbies**: hiking, blockchain gaming\n\n - **Personal Motto**: Code to innovate, inspire to create\n\n-- **Primary Work Location**: Sunnyvale, California\n\n+- **Primary Work Location**: Austin, Texas\n\n - **Preferred Development Environment**: PyCharm\n\n - **Email**: jordan.lee@nimbusai.com\n\n - **Certifications**: Azure AI Engineer Associate\n\n"
+    },
+    {
+      "query": "I need to update my programming language preference in the system - I've actually switched from Python to Rust as my favorite programming language.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Software Engineer\n\n - **Expertise Areas**: deep learning, cloud computing\n\n - **Years Of Experience**: 4\n\n-- **Favorite Programming Language**: Python\n\n+- **Favorite Programming Language**: Rust\n\n - **Educational Background**: B.Sc. in Computer Engineering from UC Santa Cruz\n\n - **Hobbies**: hiking, blockchain gaming\n\n - **Personal Motto**: Code to innovate, inspire to create\n\n"
+    },
+    {
+      "query": "I've been really enjoying working with Rust lately - the memory safety features and performance optimizations have made it my new favorite programming language for systems development.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Software Engineer\n\n - **Expertise Areas**: deep learning, cloud computing\n\n - **Years Of Experience**: 4\n\n-- **Favorite Programming Language**: Python\n\n+- **Favorite Programming Language**: Rust\n\n - **Educational Background**: B.Sc. in Computer Engineering from UC Santa Cruz\n\n - **Hobbies**: hiking, blockchain gaming\n\n - **Personal Motto**: Code to innovate, inspire to create\n\n"
+    },
+    {
+      "query": "I need to update my certification information - I've recently earned the Google Cloud Professional Machine Learning Engineer certification to replace my Azure AI Engineer Associate certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Primary Work Location**: Sunnyvale, California\n\n - **Preferred Development Environment**: PyCharm\n\n - **Email**: jordan.lee@nimbusai.com\n\n-- **Certifications**: Azure AI Engineer Associate\n\n+- **Certifications**: Google Cloud Professional Machine Learning Engineer\n\n \n\n ## Relationships\n\n - **Shares_Server_With**: [[emily_kim.md]]\n\n"
+    },
+    {
+      "query": "I've been applying the advanced ML engineering concepts from my Google Cloud Professional Machine Learning Engineer certification to optimize our model deployment pipelines.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Primary Work Location**: Sunnyvale, California\n\n - **Preferred Development Environment**: PyCharm\n\n - **Email**: jordan.lee@nimbusai.com\n\n-- **Certifications**: Azure AI Engineer Associate\n\n+- **Certifications**: Google Cloud Professional Machine Learning Engineer\n\n \n\n ## Relationships\n\n - **Shares_Server_With**: [[emily_kim.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my contribution information - I'm no longer working on the Synapse Code Repository. I've actually moved on to contributing to the NeuralLink Open Source Project instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n - **Collaborates_On_Model_With**: [[emily_kim.md]]\n\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n-- **Contributes_To**: [[synapse_code_repository.md]]\n\n-- **Uses**: [[intelliapi.md]]\n+- **Uses**: [[intelliapi.md]]\n\n+- **Contributes_To**: [[neurallink_open_source_project.md]]\n\n===entities/neurallink_open_source_project.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuralLink Open Source Project\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software project\n\n+\n\n+## Relationships\n\n+- **Contributes_To**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work on the NeuralLink Open Source Project lately - it's fascinating to be part of developing next-generation brain-computer interface software.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n - **Collaborates_On_Model_With**: [[emily_kim.md]]\n\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n-- **Contributes_To**: [[synapse_code_repository.md]]\n\n-- **Uses**: [[intelliapi.md]]\n+- **Uses**: [[intelliapi.md]]\n\n+- **Contributes_To**: [[neurallink_open_source_project.md]]\n\n===entities/neurallink_open_source_project.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuralLink Open Source Project\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software project\n\n+\n\n+## Relationships\n\n+- **Contributes_To**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "I need to update my development tools in the system - I've switched from using IntelliAPI to CloudForge API for my projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -20,4 +20,4 @@\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n-- **Uses**: [[intelliapi.md]]\n+- **Uses**: [[cloudforge_api.md]]\n\n===entities/cloudforge_api.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudForge API\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: API service\n\n+\n\n+## Relationships\n\n+- **Uses**: [[jordan_lee.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how CloudForge API has streamlined my development workflow compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -20,4 +20,4 @@\n - **Works_At**: [[nimbusai.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n-- **Uses**: [[intelliapi.md]]\n+- **Uses**: [[cloudforge_api.md]]\n\n===entities/cloudforge_api.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CloudForge API\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: API service\n\n+\n\n+## Relationships\n\n+- **Uses**: [[jordan_lee.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

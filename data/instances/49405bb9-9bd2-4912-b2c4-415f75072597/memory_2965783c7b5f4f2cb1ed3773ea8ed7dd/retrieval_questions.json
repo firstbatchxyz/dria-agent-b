@@ -1,0 +1,168 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my specialty?",
+      "a": "Engobe and slip decoration"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "Am I award winning?",
+      "a": "True"
+    },
+    {
+      "q": "What language do I speak?",
+      "a": "Spanish"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "San Bartolo Coyotepec"
+    },
+    {
+      "q": "What is my favorite motif?",
+      "a": "Geometric patterns"
+    },
+    {
+      "q": "Do I have a workshop in my home?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization is the cooperative I am a member of?"
+      ],
+      "a": "Cooperative",
+      "attribute": "entity type=Cooperative",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "Where is the cooperative I am a member of located?"
+      ],
+      "a": "Oaxaca, Mexico",
+      "attribute": "location=Oaxaca, Mexico",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "How many members does the cooperative I belong to have?"
+      ],
+      "a": "5",
+      "attribute": "members count=5",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What year was the cooperative I am a member of established?"
+      ],
+      "a": "2010",
+      "attribute": "established year=2010",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the focus area of the cooperative I belong to?"
+      ],
+      "a": "Traditional and Modern Pottery Techniques",
+      "attribute": "focus area=Traditional and Modern Pottery Techniques",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the mission statement of the cooperative I am a member of?"
+      ],
+      "a": "To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.",
+      "attribute": "mission statement=To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the primary language spoken in the cooperative I belong to?"
+      ],
+      "a": "Spanish",
+      "attribute": "primary language spoken=Spanish",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What resources does the cooperative I am a member of share?"
+      ],
+      "a": "Kilns, raw materials, workshop space, marketing channels",
+      "attribute": "shared resources=Kilns, raw materials, workshop space, marketing channels",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "Which festivals does the cooperative I belong to participate in annually?"
+      ],
+      "a": "Guelaguetza Festival, Feria de Barro Negro",
+      "attribute": "annual festival participation=Guelaguetza Festival, Feria de Barro Negro",
+      "path": "Ana Tejada -> Clay Creek Co-op"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of equipment does the co-op I'm a member of use?",
+      "a": "Kiln",
+      "attribute": "entity type=Kiln",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the capacity in cubic feet of the kiln that the co-op I'm a member of uses?",
+      "a": "25",
+      "attribute": "capacity cubic feet=25",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What type of fuel does the kiln that the co-op I'm a member of uses run on?",
+      "a": "natural gas",
+      "attribute": "fuel type=natural gas",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the temperature limit in celsius of the kiln that the co-op I'm a member of uses?",
+      "a": "1300",
+      "attribute": "temperature limit celsius=1300",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "When was the last maintenance date of the kiln that the co-op I'm a member of uses?",
+      "a": "2023-08-15",
+      "attribute": "last maintenance date=2023-08-15",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "Who is the manufacturer of the kiln that the co-op I'm a member of uses?",
+      "a": "Oaxacan Kiln Works",
+      "attribute": "manufacturer=Oaxacan Kiln Works",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What are the operating hours of the kiln that the co-op I'm a member of uses?",
+      "a": "8 AM - 8 PM",
+      "attribute": "operating hours=8 AM - 8 PM",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What year was the kiln that the co-op I'm a member of uses constructed?",
+      "a": "2015",
+      "attribute": "constructed year=2015",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What safety features does the kiln that the co-op I'm a member of uses have?",
+      "a": "Automatic shutoff, Overheat sensors",
+      "attribute": "safety features=Automatic shutoff, Overheat sensors",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the usage fee for the kiln that the co-op I'm a member of uses?",
+      "a": "Co-op members only",
+      "attribute": "usage fee=Co-op members only",
+      "path": "Ana Tejada - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    }
+  ]
+}

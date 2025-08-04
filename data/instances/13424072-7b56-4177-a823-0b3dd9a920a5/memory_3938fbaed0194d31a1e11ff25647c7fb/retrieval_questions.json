@@ -1,0 +1,50 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Facility Inspector"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "Certified Playground Safety Inspector (CPSI)"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "French, English"
+    },
+    {
+      "q": "What is my shift schedule?",
+      "a": "Morning"
+    },
+    {
+      "q": "What is my favorite coffee spot?",
+      "a": "Terminal C Caf\u00e9"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Hiking"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of facility that I inspect?"
+      ],
+      "a": "Facility",
+      "attribute": "entity type=Facility",
+      "path": "Amina Sylla -> Children's Play Area"
+    },
+    {
+      "q": [
+        "What is the location of the facility that I inspect?"
+      ],
+      "a": "Terminal B, near Gate 24",
+      "attribute": "location=Terminal B, near Gate 24",
+      "path": "Amina Sylla -> Children's Play Area"
+    }
+  ]
+}

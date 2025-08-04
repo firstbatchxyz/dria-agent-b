@@ -1,0 +1,31 @@
+{
+  "user_md": "# Rachel Brooks\n\n## Basic Information\n- **Type**: Person\n- **Profession**: Nurse\n- **Department**: Emergency\n- **Years Of Experience**: 8\n- **Certifications**: Certified Emergency Nurse (CEN)\n- **Shift**: Day\n- **Favorite Medical Tool**: Stethoscope\n- **Languages Spoken**: English, French\n- **Hometown**: Evanston, Illinois\n- **Education**: Bachelor of Science in Nursing\n- **Recent Award**: Nurse Excellence Award 2021\n- **Hobbies**: reading medical literature, gardening\n\n## Relationships\n- **Supervises**: [[dr._kevin_patel.md]]\n- **Works_With**: [[paramedic_emily_simmons.md]]\n- **Records_On**: [[patient_chart_system.md]]",
+  "entities": [
+    {
+      "entity_name": "dr._kevin_patel",
+      "entity_file_path": "entities/dr._kevin_patel.md",
+      "entity_file_content": "# Kevin Patel\n\n## Basic Information\n- **Type**: Person\n- **Profession**: Doctor\n- **Specialization**: Traumatology\n- **Years Of Experience**: 10\n- **Certifications**: Advanced Trauma Life Support (ATLS)\n- **Languages Spoken**: English, Hindi\n- **Alma Mater**: Johns Hopkins University School of Medicine\n- **Shift Schedule**: Day shifts\n- **Hobbies**: cycling\n- **Medical Research Focus**: Trauma resuscitation techniques\n- **Favorite Medical Tool**: Portable ultrasound\n\n## Relationships\n- **Supervises**: [[nurse_rachel_brooks.md]]"
+    },
+    {
+      "entity_name": "paramedic_emily_simmons",
+      "entity_file_path": "entities/paramedic_emily_simmons.md",
+      "entity_file_content": "# Emily Simmons\n\n## Basic Information\n- **Type**: Person\n- **Profession**: Paramedic\n- **Experience Years**: 5\n- **Shift**: Night\n- **Certifications**: Advanced Cardiac Life Support (ACLS), Pediatric Advanced Life Support (PALS)\n- **Specialty**: Cardiac emergencies\n- **Favorite Tool**: Portable trauma kit\n- **Hometown**: Springfield, Illinois\n- **Languages Spoken**: English, Spanish\n- **Education**: Associate of Applied Science in Paramedicine\n- **Recent Award**: EMS Responder of the Year 2022\n\n## Relationships\n- **Works_With**: [[nurse_rachel_brooks.md]]"
+    },
+    {
+      "entity_name": "patient_chart_system",
+      "entity_file_path": "entities/patient_chart_system.md",
+      "entity_file_content": "# Patient Chart System\n\n## Basic Information\n- **Entity Type**: IT Infrastructure\n- **Type**: Entity\n- **Software Type**: Electronic Health Record (EHR) System\n- **Manufacturer**: MediSoft Inc.\n- **Implementation Year**: 2018\n- **Version**: 3.5.2\n- **Data Storage Capacity Gb**: 1024\n- **Compliance Standard**: HIPAA\n- **Integrated Modules**: Patient Management, Appointment Scheduling, Billing Module\n- **Accessibility**: Role-based Access Control (RBAC)\n- **Interface**: User-friendly Graphic Interface\n- **Backups Frequency**: Daily automatic backups\n- **Department Served**: Emergency Department\n\n## Relationships\n- **Records_On**: [[nurse_rachel_brooks.md]]"
+    },
+    {
+      "entity_name": "trauma_bay_1",
+      "entity_file_path": "entities/trauma_bay_1.md",
+      "entity_file_content": "# Trauma Bay 1\n\n## Basic Information\n- **Entity Type**: Physical Location\n- **Type**: Entity\n- **Capacity**: 2\n- **Equipment Available**: X-ray machine, defibrillator, patient monitoring system\n- **Average Weekly Cases**: 35\n- **Location Status**: Active\n- **Staffing Schedule**: 24/7\n- **Recent Improvements**: Integrated electronic patient chart system installed\n- **Sanitation Check Date**: 2023-09-15\n- **Noise Level**: Moderate\n- **Optimal Temperature**: 22\u00b0C\n- **Emergency Accessibility**: Direct from ambulance bay\n\n## Relationships\n- **Transports_To**: [[paramedic_emily_simmons.md]]"
+    },
+    {
+      "entity_name": "defibrillator_dx-400",
+      "entity_file_path": "entities/defibrillator_dx-400.md",
+      "entity_file_content": "# Defibrillator DX-400\n\n## Basic Information\n- **Entity Type**: Medical Equipment\n- **Type**: Entity\n- **Model**: DX-400\n- **Manufacturer**: MedTech Solutions\n- **Year Of Purchase**: 2019\n- **Last Serviced**: 2023-05-16\n- **Primary Usage**: Cardiac arrest resuscitation\n- **Features**: Biphasic waveform, monitoring screen, lightweight design\n- **Battery Life**: 5 hours\n- **Location In Hospital**: Emergency Room, Bay 3\n- **Warranty Status**: Active\n- **Usage Statistics**: 200+ successful resuscitations\n\n## Relationships\n- **Operates**: [[paramedic_emily_simmons.md]]"
+    }
+  ],
+  "mem_id": "memory_51b6e3c989964c35815bd9a42524cf93"
+}

@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Team Leader"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Avalanche Rescues"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "German, English, French"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Certified Mountain Guide, Advanced Wilderness First Aid"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Paragliding, Photography"
+    },
+    {
+      "q": "What is my most notable rescue?",
+      "a": "Lead rescuer in the 2018 Matterhorn avalanche incident"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Zermatt, Switzerland"
+    },
+    {
+      "q": "What is my availability?",
+      "a": "24/7 on call during winter months"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "B.Sc. in Environmental Science"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the rescue helicopters that I operate?"
+      ],
+      "a": "Vehicle",
+      "attribute": "entity type=Vehicle",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the capacity of the rescue helicopters that I operate?"
+      ],
+      "a": "5",
+      "attribute": "capacity=5",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the base location of the rescue helicopters that I operate?"
+      ],
+      "a": "Interlaken, Switzerland",
+      "attribute": "base location=Interlaken, Switzerland",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the model of the rescue helicopters that I operate?"
+      ],
+      "a": "Eurocopter EC135",
+      "attribute": "model=Eurocopter EC135",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the emergency equipment of the rescue helicopters that I operate?"
+      ],
+      "a": "Winch, Rescue Basket, First Aid Kit, Thermal Imaging Camera",
+      "attribute": "emergency equipment=Winch, Rescue Basket, First Aid Kit, Thermal Imaging Camera",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the rescue helicopters that I operate?"
+      ],
+      "a": "Every 100 flight hours",
+      "attribute": "maintenance schedule=Every 100 flight hours",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the flight range in km of the rescue helicopters that I operate?"
+      ],
+      "a": "620",
+      "attribute": "flight range km=620",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the year purchased of the rescue helicopters that I operate?"
+      ],
+      "a": "2016",
+      "attribute": "year purchased=2016",
+      "path": "Felix Zimmermann -> Rescue Helicopters"
+    },
+    {
+      "q": [
+        "What is the type of the climbing equipment that I maintain?"
+      ],
+      "a": "Gear",
+      "attribute": "entity type=Gear",
+      "path": "Felix Zimmermann -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the material of the climbing equipment that I maintain?"
+      ],
+      "a": "aluminum alloy",
+      "attribute": "material=aluminum alloy",
+      "path": "Felix Zimmermann -> Climbing Equipment"
+    }
+  ]
+}

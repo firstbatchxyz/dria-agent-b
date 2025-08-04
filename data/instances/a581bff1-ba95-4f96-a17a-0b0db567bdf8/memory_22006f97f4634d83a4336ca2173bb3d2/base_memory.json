@@ -1,0 +1,11 @@
+{
+  "user_md": "# Samantha Cooper\n\n## Basic Information\n- **Type**: Person\n- **Role**: Administrator\n- **Department**: Pediatrics\n- **Years Of Experience**: 12\n- **Education**: Master of Health Administration\n- **Certification**: Certified Healthcare Administrator\n- **Known For**: Implementing efficient patient record systems\n- **Special Skill**: Data analysis and process optimization\n- **Hobby**: Gardening\n- **Volunteer Work**: Local children's charity events organizer\n\n## Relationships\n- **Oversees Operations In**: [[pediatrics_database.md]]",
+  "entities": [
+    {
+      "entity_name": "pediatrics_database",
+      "entity_file_path": "entities/pediatrics_database.md",
+      "entity_file_content": "# Pediatrics Database\n\n## Basic Information\n- **Entity Type**: Patient Records\n- **Type**: Entity\n- **Capacity**: 10000\n- **Record Security Level**: High\n- **Last Audit Date**: 2023-07-15\n- **Connected Systems**: Radiology Database, Pharmacy Records\n- **Primary Use**: Pediatric patient history management\n- **Data Backup Frequency**: Daily\n- **Accessibility**: Securely cloud-accessible\n- **Average Daily Accesses**: 350\n\n## Relationships\n- **Oversees Operations In**: [[samantha_cooper.md]]"
+    }
+  ],
+  "mem_id": "memory_22006f97f4634d83a4336ca2173bb3d2"
+}

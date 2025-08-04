@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional specialization in the system - I've actually transitioned from Gene Editing to focusing on Synthetic Biology instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n-- **Specialization**: Gene Editing\n\n+- **Specialization**: Synthetic Biology\n\n - **Years Of Experience**: 2\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n"
+    },
+    {
+      "query": "I've been really excited about my work in Synthetic Biology lately, especially the potential for engineering biological systems to address environmental challenges.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n-- **Specialization**: Gene Editing\n\n+- **Specialization**: Synthetic Biology\n\n - **Years Of Experience**: 2\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 5 years of experience now, not just 2 years as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n - **Specialization**: Gene Editing\n\n-- **Years Of Experience**: 2\n\n+- **Years Of Experience**: 5\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n - **Published Papers**: 3\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 5 years of experience in the field has really helped me develop stronger problem-solving skills and technical expertise.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n - **Specialization**: Gene Editing\n\n-- **Years Of Experience**: 2\n\n+- **Years Of Experience**: 5\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n - **Published Papers**: 3\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 5 years of experience now, not just 2 years as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n - **Specialization**: Gene Editing\n\n-- **Years Of Experience**: 2\n\n+- **Years Of Experience**: 5\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n - **Published Papers**: 3\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 5 years of experience in the industry has really helped me develop stronger problem-solving skills and technical expertise.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Graduate Student\n\n - **Specialization**: Gene Editing\n\n-- **Years Of Experience**: 2\n\n+- **Years Of Experience**: 5\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Running marathons\n\n - **Published Papers**: 3\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Hiroshi Tanaka, but I've started collaborating with Dr. Elena Vasquez on our new research project.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Work Ethic**: meticulous and detail-oriented\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[hiroshi_tanaka.md]]\n\n+- **Collaborates_With**: [[dr._elena_vasquez.md]]\n\n - **Uses**: [[crispr-cas9_retrofits.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[raj_patel.md]]\n"
+    },
+    {
+      "query": "I'm excited about the progress Elena Vasquez and I are making on our joint research - her expertise in computational linguistics perfectly complements my work in natural language processing.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Work Ethic**: meticulous and detail-oriented\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[hiroshi_tanaka.md]]\n\n+- **Collaborates_With**: [[dr._elena_vasquez.md]]\n\n - **Uses**: [[crispr-cas9_retrofits.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[raj_patel.md]]\n"
+    },
+    {
+      "query": "I need to update the technology I'm currently using in my research - I've transitioned from CRISPR-Cas9 Retrofits to the newer PRIME-Edit Gene Arrays for my genetic modification work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[hiroshi_tanaka.md]]\n\n-- **Uses**: [[crispr-cas9_retrofits.md]]\n+- **Uses**: [[prime-edit_gene_arrays.md]]\n\n===entities/prime-edit_gene_arrays.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# PRIME-Edit Gene Arrays\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: genetic modification technology\n\n+\n\n+## Relationships\n\n+- **Uses**: [[raj_patel.md]]\n"
+    },
+    {
+      "query": "The PRIME-Edit Gene Arrays have been incredibly effective in my latest experiments, offering much more precision than the previous methods I was using for cellular modifications.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[hiroshi_tanaka.md]]\n\n-- **Uses**: [[crispr-cas9_retrofits.md]]\n+- **Uses**: [[prime-edit_gene_arrays.md]]\n\n===entities/prime-edit_gene_arrays.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# PRIME-Edit Gene Arrays\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: genetic modification technology\n\n+\n\n+## Relationships\n\n+- **Uses**: [[raj_patel.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the laboratory information in our collaboration records - Hiroshi Tanaka and I are no longer working in the Biosafety Level 2 Laboratory, we've transitioned to the Advanced Molecular Research Facility.",
+      "diff": "===entities/hiroshi_tanaka.md===\n\n===entities/advanced_molecular_research_facility.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Molecular Research Facility\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Works_In**: [[hiroshi_tanaka.md]]\n"
+    },
+    {
+      "query": "Hiroshi and I have been making great progress on our joint research project since we started working together at the Advanced Molecular Research Facility - the new equipment there has really enhanced our capabilities.",
+      "diff": "===entities/hiroshi_tanaka.md===\n\n===entities/advanced_molecular_research_facility.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Molecular Research Facility\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Works_In**: [[hiroshi_tanaka.md]]\n"
+    }
+  ]
+}

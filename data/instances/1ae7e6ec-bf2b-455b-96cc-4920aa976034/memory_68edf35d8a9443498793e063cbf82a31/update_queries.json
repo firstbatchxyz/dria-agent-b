@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've moved away from landscape photography and now I'm really into urban sketching instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Aircraft**: Robinson R44\n\n - **Certifications**: Advanced Aviation Safety\n\n - **Nickname**: Outback Jack\n\n-- **Hobby**: Landscapes photography\n\n+- **Hobby**: urban sketching\n\n - **Recent Award**: 2022 Helicopter Pilot of the Year\n\n - **Preferred Flying Condition**: dawn\n\n - **Communication Device**: satellite phone\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time doing urban sketching lately, capturing the energy and architecture of city life in my drawings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Favorite Aircraft**: Robinson R44\n\n - **Certifications**: Advanced Aviation Safety\n\n - **Nickname**: Outback Jack\n\n-- **Hobby**: Landscapes photography\n\n+- **Hobby**: urban sketching\n\n - **Recent Award**: 2022 Helicopter Pilot of the Year\n\n - **Preferred Flying Condition**: dawn\n\n - **Communication Device**: satellite phone\n\n"
+    },
+    {
+      "query": "I need to update my certification records - I've recently obtained my Flight Instructor Certificate, not just the Advanced Aviation Safety certification that's currently on file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: chief pilot\n\n - **Experience Years**: 12\n\n - **Favorite Aircraft**: Robinson R44\n\n-- **Certifications**: Advanced Aviation Safety\n\n+- **Certifications**: Flight Instructor Certificate\n\n - **Nickname**: Outback Jack\n\n - **Hobby**: Landscapes photography\n\n - **Recent Award**: 2022 Helicopter Pilot of the Year\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a certified flight instructor, using my Flight Instructor Certificate to help train the next generation of pilots.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: chief pilot\n\n - **Experience Years**: 12\n\n - **Favorite Aircraft**: Robinson R44\n\n-- **Certifications**: Advanced Aviation Safety\n\n+- **Certifications**: Flight Instructor Certificate\n\n - **Nickname**: Outback Jack\n\n - **Hobby**: Landscapes photography\n\n - **Recent Award**: 2022 Helicopter Pilot of the Year\n\n"
+    },
+    {
+      "query": "I need to update my recent award information in the system - I actually received the 2023 Distinguished Aviation Safety Award, not the 2022 Helicopter Pilot of the Year as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certifications**: Advanced Aviation Safety\n\n - **Nickname**: Outback Jack\n\n - **Hobby**: Landscapes photography\n\n-- **Recent Award**: 2022 Helicopter Pilot of the Year\n\n+- **Recent Award**: 2023 Distinguished Aviation Safety Award\n\n - **Preferred Flying Condition**: dawn\n\n - **Communication Device**: satellite phone\n\n - **Work Schedule**: on-call 24/7 during mustering season\n\n"
+    },
+    {
+      "query": "I've been reflecting on how receiving the 2023 Distinguished Aviation Safety Award has reinforced my commitment to promoting safety protocols in all my flight operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Certifications**: Advanced Aviation Safety\n\n - **Nickname**: Outback Jack\n\n - **Hobby**: Landscapes photography\n\n-- **Recent Award**: 2022 Helicopter Pilot of the Year\n\n+- **Recent Award**: 2023 Distinguished Aviation Safety Award\n\n - **Preferred Flying Condition**: dawn\n\n - **Communication Device**: satellite phone\n\n - **Work Schedule**: on-call 24/7 during mustering season\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my employment information - I'm no longer flying for Outback Choppers, I've switched to piloting for Horizon Air Services.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Work Schedule**: on-call 24/7 during mustering season\n\n \n\n ## Relationships\n\n-- **Pilots_For**: [[outback_choppers.md]]\n+- **Pilots_For**: [[horizon_air_services.md]]\n\n===entities/horizon_air_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Horizon Air Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: aviation company\n\n+\n\n+## Relationships\n\n+- **Pilots_For**: [[jack_o'connor.md]]\n"
+    },
+    {
+      "query": "Really enjoying my new position with Horizon Air Services - the aircraft are well-maintained and the flight routes give me great views of the coastline.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Work Schedule**: on-call 24/7 during mustering season\n\n \n\n ## Relationships\n\n-- **Pilots_For**: [[outback_choppers.md]]\n+- **Pilots_For**: [[horizon_air_services.md]]\n\n===entities/horizon_air_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Horizon Air Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: aviation company\n\n+\n\n+## Relationships\n\n+- **Pilots_For**: [[jack_o'connor.md]]\n"
+    },
+    {
+      "query": "I need to update my employment information - I'm no longer flying for Outback Choppers, I've moved on to pilot for Horizon Aviation Services.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Work Schedule**: on-call 24/7 during mustering season\n\n \n\n ## Relationships\n\n-- **Pilots_For**: [[outback_choppers.md]]\n+- **Pilots_For**: [[horizon_aviation_services.md]]\n\n===entities/horizon_aviation_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Horizon Aviation Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: aviation company\n\n+\n\n+## Relationships\n\n+- **Pilots_For**: [[jack_o'connor.md]]\n"
+    },
+    {
+      "query": "Really enjoying my new role at Horizon Aviation Services - the fleet is modern and the routes are more challenging than what I was used to before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Work Schedule**: on-call 24/7 during mustering season\n\n \n\n ## Relationships\n\n-- **Pilots_For**: [[outback_choppers.md]]\n+- **Pilots_For**: [[horizon_aviation_services.md]]\n\n===entities/horizon_aviation_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Horizon Aviation Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: aviation company\n\n+\n\n+## Relationships\n\n+- **Pilots_For**: [[jack_o'connor.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our service records - Outback Choppers is no longer providing helicopter services to MacAlister Cattle Station, we've switched to servicing Thornfield Ranch instead.",
+      "diff": "===entities/outback_choppers.md===\n\n===entities/thornfield_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Thornfield Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Provides**: [[outback_choppers.md]]\n"
+    },
+    {
+      "query": "Been keeping busy with the regular supply runs to Thornfield Ranch - it's quite a bit different flying out there compared to our previous routes, but the terrain makes for some interesting flying challenges.",
+      "diff": "===entities/outback_choppers.md===\n\n===entities/thornfield_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Thornfield Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Provides**: [[outback_choppers.md]]\n"
+    }
+  ]
+}

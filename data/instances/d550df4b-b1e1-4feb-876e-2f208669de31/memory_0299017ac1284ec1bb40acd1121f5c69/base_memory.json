@@ -1,0 +1,16 @@
+{
+  "user_md": "# Chan Wei\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Food Stall Owner\n- **Specialty Dish**: Crispy Duck Rice\n- **Years Of Experience**: 15\n- **Usual Working Hours**: 11:00 AM - 8:00 PM\n- **Bilingual**: English, Mandarin\n- **Favorite Ingredient**: Star Anise\n- **Customer Interaction Style**: warm and friendly\n- **Hobbies Outside Work**: gardening, calligraphy\n- **Instagram Handle**: @duckkingchanwei\n- **Local Resident**: True\n\n## Relationships\n- **Participates In**: [[lunch_rush_united.md]]\n- **Belongs To**: [[maxwell_hawker_centre.md]]",
+  "entities": [
+    {
+      "entity_name": "lunch_rush_united",
+      "entity_file_path": "entities/lunch_rush_united.md",
+      "entity_file_content": "# Lunch Rush United\n\n## Basic Information\n- **Entity Type**: Collective\n- **Type**: Entity\n- **Members Count**: 20\n- **Establishment Year**: 2005\n- **Community Philosophy**: United in Flavor\n- **Shared Equipment**: Ice machines, dishwashers\n- **Events**: Annual Cooking Competition\n- **Support System**: Peer-to-peer skill exchange workshops\n- **Facebook Page**: Lunch Rush United Community\n- **Average Daily Customers**: 500\n\n## Relationships\n- **Participates In**: [[chan_wei.md]]"
+    },
+    {
+      "entity_name": "maxwell_hawker_centre",
+      "entity_file_path": "entities/maxwell_hawker_centre.md",
+      "entity_file_content": "# Maxwell Hawker Centre\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Peak Customer Days**: Friday and Saturday\n- **Cleaning Schedule**: Daily\n- **Waste Management**: Recycling bins available\n- **Famous Events**: Annual Hawker Fest\n- **Historical Background**: Established in 1978\n- **Total Stalls**: 47\n- **Iconic Stall**: Nasi Lemak Delight by Rosli Ahmad\n- **Collaborative Initiatives**: Joint Lunch Promotions\n\n## Relationships\n- **Belongs To**: [[chan_wei.md]]"
+    }
+  ],
+  "mem_id": "memory_0299017ac1284ec1bb40acd1121f5c69"
+}

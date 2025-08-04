@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my role information in the system - I'm no longer serving as the Childcare Coordinator but have transitioned to become the Youth Development Director.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 34\n\n - **Occupation**: Community Organizer\n\n - **Hobbies**: dancing, cooking, and hiking\n\n-- **Community Role**: Childcare Coordinator\n\n+- **Community Role**: Youth Development Director\n\n - **Skills**: public speaking and water resource management\n\n - **Favorite Food**: Feijoada\n\n - **Languages Spoken**: Portuguese and Spanish\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Youth Development Director, focusing on creating programs that support our teenagers and young adults in the community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 34\n\n - **Occupation**: Community Organizer\n\n - **Hobbies**: dancing, cooking, and hiking\n\n-- **Community Role**: Childcare Coordinator\n\n+- **Community Role**: Youth Development Director\n\n - **Skills**: public speaking and water resource management\n\n - **Favorite Food**: Feijoada\n\n - **Languages Spoken**: Portuguese and Spanish\n\n"
+    },
+    {
+      "query": "I need to update my family information in the system - I actually have three children now, not just the general indication that I have children.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Food**: Feijoada\n\n - **Languages Spoken**: Portuguese and Spanish\n\n - **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n\n-- **Has Children**: True\n\n+- **Has Children**: three children\n\n \n\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n"
+    },
+    {
+      "query": "I've been thinking about how having three children has completely changed my perspective on work-life balance and time management.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Food**: Feijoada\n\n - **Languages Spoken**: Portuguese and Spanish\n\n - **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n\n-- **Has Children**: True\n\n+- **Has Children**: three children\n\n \n\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak Portuguese, Spanish, and French, not just Portuguese and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Community Role**: Childcare Coordinator\n\n - **Skills**: public speaking and water resource management\n\n - **Favorite Food**: Feijoada\n\n-- **Languages Spoken**: Portuguese and Spanish\n\n+- **Languages Spoken**: Portuguese, Spanish, and French\n\n - **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n\n - **Has Children**: True\n\n \n\n"
+    },
+    {
+      "query": "I've been finding it so helpful being trilingual, especially when I can communicate with clients in Portuguese, Spanish, and French during my international business meetings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Community Role**: Childcare Coordinator\n\n - **Skills**: public speaking and water resource management\n\n - **Favorite Food**: Feijoada\n\n-- **Languages Spoken**: Portuguese and Spanish\n\n+- **Languages Spoken**: Portuguese, Spanish, and French\n\n - **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n\n - **Has Children**: True\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my volunteer information - I'm no longer assisting with the Community Center of Vila Esperan\u00e7a, but I've started helping with the Environmental Youth Alliance instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n - **Participates_In**: [[water_connectors_network.md]]\n\n-- **Assists_With**: [[community_center_of_vila_esperan\u00e7a.md]]\n+- **Assists_With**: [[environmental_youth_alliance.md]]\n\n===entities/environmental_youth_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Environmental Youth Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Assists_With**: [[luiza_pereira.md]]\n"
+    },
+    {
+      "query": "I'm really excited about my new volunteer work with the Environmental Youth Alliance - it's amazing to see how passionate these young people are about protecting our local ecosystem.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n - **Participates_In**: [[water_connectors_network.md]]\n\n-- **Assists_With**: [[community_center_of_vila_esperan\u00e7a.md]]\n+- **Assists_With**: [[environmental_youth_alliance.md]]\n\n===entities/environmental_youth_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Environmental Youth Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Assists_With**: [[luiza_pereira.md]]\n"
+    },
+    {
+      "query": "I need to update my volunteer information - I'm no longer assisting with the Community Center of Vila Esperan\u00e7a, but I've started helping with the local food distribution program called Programa Alimentar Solid\u00e1rio instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n - **Participates_In**: [[water_connectors_network.md]]\n\n-- **Assists_With**: [[community_center_of_vila_esperan\u00e7a.md]]\n+- **Assists_With**: [[programa_alimentar_solid\u00e1rio.md]]\n\n===entities/programa_alimentar_solid\u00e1rio.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Programa Alimentar Solid\u00e1rio\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food assistance program\n\n+\n\n+## Relationships\n\n+- **Assists_With**: [[luiza_pereira.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work with Programa Alimentar Solid\u00e1rio - it's been incredibly rewarding to help coordinate food deliveries to families in need throughout our neighborhood.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Mentors**: [[carlos_mendes.md]]\n\n - **Participates_In**: [[water_connectors_network.md]]\n\n-- **Assists_With**: [[community_center_of_vila_esperan\u00e7a.md]]\n+- **Assists_With**: [[programa_alimentar_solid\u00e1rio.md]]\n\n===entities/programa_alimentar_solid\u00e1rio.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Programa Alimentar Solid\u00e1rio\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food assistance program\n\n+\n\n+## Relationships\n\n+- **Assists_With**: [[luiza_pereira.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,94 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Captain"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Pilot"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Fixed-wing aircraft"
+    },
+    {
+      "q": "What is my training background?",
+      "a": "Air Force Academy Graduate"
+    },
+    {
+      "q": "What decorations do I have?",
+      "a": "Distinguished Flying Cross"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Courage Fuels Success"
+    },
+    {
+      "q": "What is my family status?",
+      "a": "Married"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Building model airplanes"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Chicken Parmesan"
+    },
+    {
+      "q": "What is my physical fitness rating?",
+      "a": "Excellent"
+    },
+    {
+      "q": "What is my language proficiency?",
+      "a": "Fluent in Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of aircraft that I lead?"
+      ],
+      "a": "Transport Unit",
+      "attribute": "entity type=Transport Unit",
+      "path": "Capt. Owen Fitzgerald -> Hercules Heavy Transport"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the aircraft that I lead?"
+      ],
+      "a": "AeroTech Industries",
+      "attribute": "manufacturer=AeroTech Industries",
+      "path": "Capt. Owen Fitzgerald -> Hercules Heavy Transport"
+    },
+    {
+      "q": [
+        "What is the first flight date of the aircraft that I lead?"
+      ],
+      "a": "2007-06-12",
+      "attribute": "first flight date=2007-06-12",
+      "path": "Capt. Owen Fitzgerald -> Hercules Heavy Transport"
+    },
+    {
+      "q": [
+        "What is the max cargo capacity of the aircraft that I lead?"
+      ],
+      "a": "37.5",
+      "attribute": "max cargo capacity=37.5",
+      "path": "Capt. Owen Fitzgerald -> Hercules Heavy Transport"
+    },
+    {
+      "q": [
+        "What is the current operational status of the aircraft that I lead?"
+      ],
+      "a": "Active",
+      "attribute": "current operational status=Active",
+      "path": "Capt. Owen Fitzgerald -> Hercules Heavy Transport"
+    }
+  ]
+}

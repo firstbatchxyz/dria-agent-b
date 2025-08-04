@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Climate Scientist"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "German"
+    },
+    {
+      "q": "Where am I employed?",
+      "a": "Arctic Research Institute"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Permafrost and Climate Change"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my favorite snowmobile?",
+      "a": "Polaris Titan"
+    },
+    {
+      "q": "What languages do I communicate in?",
+      "a": "English, German"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Cross-country skiing"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "27"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the research program that I lead?"
+      ],
+      "a": "Research Program",
+      "attribute": "entity type=Research Program",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the budget of the research program that I lead?"
+      ],
+      "a": "5 million USD annually",
+      "attribute": "budget=5 million USD annually",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the research focus of the program that I lead?"
+      ],
+      "a": "Permafrost dynamics and climate impact",
+      "attribute": "research focus=Permafrost dynamics and climate impact",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What are the collaborating institutions of the research program that I lead?"
+      ],
+      "a": "Arctic Research Institute, International Climatology Network",
+      "attribute": "collaborating institutions=Arctic Research Institute, International Climatology Network",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the duration of the research program that I lead?"
+      ],
+      "a": "2005-present",
+      "attribute": "duration=2005-present",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the notable contribution of the research program that I lead?"
+      ],
+      "a": "First comprehensive permafrost temperature map of Alaska",
+      "attribute": "notable contribution=First comprehensive permafrost temperature map of Alaska",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the field station location of the research program that I lead?"
+      ],
+      "a": "North Slope, Alaska",
+      "attribute": "field station location=North Slope, Alaska",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "How many annual publications does the research program that I lead produce?"
+      ],
+      "a": "15",
+      "attribute": "annual publications=15",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the community outreach of the research program that I lead?"
+      ],
+      "a": "Annual educational workshops for Alaskan communities",
+      "attribute": "community outreach=Annual educational workshops for Alaskan communities",
+      "path": "Dr. Anika Schwarz -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the type of the communication system that I use to communicate?"
+      ],
+      "a": "Communication System",
+      "attribute": "entity type=Communication System",
+      "path": "Dr. Anika Schwarz -> Global Climate Communication Network"
+    }
+  ]
+}

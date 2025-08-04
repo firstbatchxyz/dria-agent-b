@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've actually gotten really into photography and rock climbing lately, so my hobbies should be updated from playing video games and hiking.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 17\n\n - **Favorite Subject**: Physics\n\n - **Role In Club**: Lead Programmer\n\n-- **Hobbies**: Playing video games, Hiking\n\n+- **Hobbies**: Photography, Rock climbing\n\n - **Personal Motto**: Innovate and Inspire\n\n - **Has Won Awards**: False\n\n - **Part Time Job**: Caf\u00e9 barista\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time doing photography and rock climbing these days, and it's been such a rewarding way to stay active and creative.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 17\n\n - **Favorite Subject**: Physics\n\n - **Role In Club**: Lead Programmer\n\n-- **Hobbies**: Playing video games, Hiking\n\n+- **Hobbies**: Photography, Rock climbing\n\n - **Personal Motto**: Innovate and Inspire\n\n - **Has Won Awards**: False\n\n - **Part Time Job**: Caf\u00e9 barista\n\n"
+    },
+    {
+      "query": "I need to correct my personal motto in the system - it should be 'Create and Empower' rather than 'Innovate and Inspire' as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Favorite Subject**: Physics\n\n - **Role In Club**: Lead Programmer\n\n - **Hobbies**: Playing video games, Hiking\n\n-- **Personal Motto**: Innovate and Inspire\n\n+- **Personal Motto**: Create and Empower\n\n - **Has Won Awards**: False\n\n - **Part Time Job**: Caf\u00e9 barista\n\n - **Favorite Robotic Component**: Microcontrollers\n\n"
+    },
+    {
+      "query": "I've been living by my motto 'Create and Empower' throughout my career, and it's really guided my approach to leadership and team development.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Favorite Subject**: Physics\n\n - **Role In Club**: Lead Programmer\n\n - **Hobbies**: Playing video games, Hiking\n\n-- **Personal Motto**: Innovate and Inspire\n\n+- **Personal Motto**: Create and Empower\n\n - **Has Won Awards**: False\n\n - **Part Time Job**: Caf\u00e9 barista\n\n - **Favorite Robotic Component**: Microcontrollers\n\n"
+    },
+    {
+      "query": "I need to correct my academic information in the system - my favorite subject is actually Biology, not Physics as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 17\n\n-- **Favorite Subject**: Physics\n\n+- **Favorite Subject**: Biology\n\n - **Role In Club**: Lead Programmer\n\n - **Hobbies**: Playing video games, Hiking\n\n - **Personal Motto**: Innovate and Inspire\n\n"
+    },
+    {
+      "query": "I've been spending more time in the lab lately since Biology has always been my favorite subject, especially molecular biology research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 17\n\n-- **Favorite Subject**: Physics\n\n+- **Favorite Subject**: Biology\n\n - **Role In Club**: Lead Programmer\n\n - **Hobbies**: Playing video games, Hiking\n\n - **Personal Motto**: Innovate and Inspire\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my competition information - I'm no longer preparing for the National Robotics Championship, but instead I'm now getting ready for the International Mechatronics Olympiad.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Prepares For**: [[national_robotics_championship.md]]\n+- **Prepares For**: [[international_mechatronics_olympiad.md]]\n\n===entities/international_mechatronics_olympiad.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International Mechatronics Olympiad\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: competition\n\n+\n\n+## Relationships\n\n+- **Prepares For**: [[kenji_nakamura.md]]\n"
+    },
+    {
+      "query": "I've been spending countless hours fine-tuning my autonomous navigation algorithms as I prepare for the International Mechatronics Olympiad - it's going to be an incredible showcase of engineering talent from around the world.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Prepares For**: [[national_robotics_championship.md]]\n+- **Prepares For**: [[international_mechatronics_olympiad.md]]\n\n===entities/international_mechatronics_olympiad.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International Mechatronics Olympiad\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: competition\n\n+\n\n+## Relationships\n\n+- **Prepares For**: [[kenji_nakamura.md]]\n"
+    },
+    {
+      "query": "I need to update my club membership information - I'm no longer with the Sakura Robotics Club and have joined the Tokyo Innovation Lab instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n - **Favorite Robotic Component**: Microcontrollers\n\n \n\n ## Relationships\n\n-- **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Prepares For**: [[national_robotics_championship.md]]\n+- **Prepares For**: [[national_robotics_championship.md]]\n\n+- **Is A Member Of**: [[tokyo_innovation_lab.md]]\n\n===entities/tokyo_innovation_lab.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tokyo Innovation Lab\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Is A Member Of**: [[kenji_nakamura.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my time at the Tokyo Innovation Lab - the advanced AI research projects here are exactly what I was looking for after leaving my previous robotics group.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n - **Favorite Robotic Component**: Microcontrollers\n\n \n\n ## Relationships\n\n-- **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Prepares For**: [[national_robotics_championship.md]]\n+- **Prepares For**: [[national_robotics_championship.md]]\n\n+- **Is A Member Of**: [[tokyo_innovation_lab.md]]\n\n===entities/tokyo_innovation_lab.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tokyo Innovation Lab\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Is A Member Of**: [[kenji_nakamura.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

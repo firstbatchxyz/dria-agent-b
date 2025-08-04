@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Luiza Maria Pereira"
+    },
+    {
+      "q": "What is my age?",
+      "a": "34"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Community Organizer"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "dancing, cooking, and hiking"
+    },
+    {
+      "q": "What is my community role?",
+      "a": "Childcare Coordinator"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "public speaking and water resource management"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Feijoada"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Portuguese and Spanish"
+    },
+    {
+      "q": "What is my background?",
+      "a": "I moved to the favela at the age of 12 and have been actively involved in community activities since"
+    },
+    {
+      "q": "Do I have children?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the organization that I participate in?"
+      ],
+      "a": "infrastructure",
+      "attribute": "entity type=infrastructure",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the location of the organization that I participate in?"
+      ],
+      "a": "central community zone",
+      "attribute": "location=central community zone",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the capacity of the organization that I participate in?"
+      ],
+      "a": "200",
+      "attribute": "capacity=200",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the organization that I participate in?"
+      ],
+      "a": "monthly",
+      "attribute": "maintenance schedule=monthly",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What year was the organization that I participate in established?"
+      ],
+      "a": "2005",
+      "attribute": "established year=2005",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What are the operational hours of the organization that I participate in?"
+      ],
+      "a": "24/7",
+      "attribute": "operational hours=24/7",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the water source of the organization that I participate in?"
+      ],
+      "a": "municipal supply",
+      "attribute": "water source=municipal supply",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the usage cost of the organization that I participate in?"
+      ],
+      "a": "community funded",
+      "attribute": "usage cost=community funded",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What technology does the organization that I participate in use?"
+      ],
+      "a": "solar powered pump system",
+      "attribute": "technology=solar powered pump system",
+      "path": "Luiza Pereira -> Water Connectors Network"
+    },
+    {
+      "q": [
+        "What is the type of the place that I assist with?"
+      ],
+      "a": "building",
+      "attribute": "entity type=building",
+      "path": "Luiza Pereira -> Community Center of Vila Esperan\u00e7a"
+    }
+  ]
+}

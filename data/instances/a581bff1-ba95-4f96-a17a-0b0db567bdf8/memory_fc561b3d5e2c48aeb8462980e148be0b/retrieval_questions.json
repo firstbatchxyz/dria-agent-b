@@ -1,0 +1,90 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Hospital Administrator"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Radiology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "MBA in Healthcare Management"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Healthcare Information Systems"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "Certified in Healthcare Management (CHM)"
+    },
+    {
+      "q": "What is my work schedule?",
+      "a": "Monday to Friday, 9 AM to 5 PM"
+    },
+    {
+      "q": "What is my current project focus?",
+      "a": "Implementing electronic health records system"
+    },
+    {
+      "q": "Where is my office located?",
+      "a": "Building C, 3rd Floor"
+    },
+    {
+      "q": "What is my preferred communication method?",
+      "a": "Email"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography and hiking"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of system do I manage information flow in?"
+      ],
+      "a": "Patient Records",
+      "attribute": "entity type=Patient Records",
+      "path": "Paul White -> Radiology Database"
+    },
+    {
+      "q": [
+        "What is the primary use of the system I manage information flow in?"
+      ],
+      "a": "Imaging reports and diagnostics",
+      "attribute": "primary use=Imaging reports and diagnostics",
+      "path": "Paul White -> Radiology Database"
+    },
+    {
+      "q": [
+        "What data storage method is used in the system I manage information flow in?"
+      ],
+      "a": "Cloud-based secure servers",
+      "attribute": "data storage method=Cloud-based secure servers",
+      "path": "Paul White -> Radiology Database"
+    },
+    {
+      "q": [
+        "What compression technique is used in the system I manage information flow in?"
+      ],
+      "a": "Lossless JPEG2000",
+      "attribute": "compression technique=Lossless JPEG2000",
+      "path": "Paul White -> Radiology Database"
+    },
+    {
+      "q": [
+        "What encryption protocol is used in the system I manage information flow in?"
+      ],
+      "a": "AES-256",
+      "attribute": "encryption protocol=AES-256",
+      "path": "Paul White -> Radiology Database"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Rachel Brooks"
+    },
+    {
+      "q": "What is my profession?",
+      "a": "Nurse"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Emergency"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Emergency Nurse (CEN)"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Day"
+    },
+    {
+      "q": "What is my favorite medical tool?",
+      "a": "Stethoscope"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, French"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Evanston, Illinois"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor of Science in Nursing"
+    },
+    {
+      "q": "What recent award have I received?",
+      "a": "Nurse Excellence Award 2021"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "reading medical literature, gardening"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the full name of the person I work with?"
+      ],
+      "a": "Emily Simmons",
+      "attribute": "full name=Emily Simmons",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What is the profession of the person I work with?"
+      ],
+      "a": "Paramedic",
+      "attribute": "profession=Paramedic",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I work with have?"
+      ],
+      "a": "5",
+      "attribute": "experience years=5",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What shift does the person I work with work?"
+      ],
+      "a": "Night",
+      "attribute": "shift=Night",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What certifications does the person I work with have?"
+      ],
+      "a": "Advanced Cardiac Life Support (ACLS), Pediatric Advanced Life Support (PALS)",
+      "attribute": "certifications=Advanced Cardiac Life Support (ACLS), Pediatric Advanced Life Support (PALS)",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What is the specialty of the person I work with?"
+      ],
+      "a": "Cardiac emergencies",
+      "attribute": "specialty=Cardiac emergencies",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What is the favorite tool of the person I work with?"
+      ],
+      "a": "Portable trauma kit",
+      "attribute": "favorite tool=Portable trauma kit",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What is the hometown of the person I work with?"
+      ],
+      "a": "Springfield, Illinois",
+      "attribute": "hometown=Springfield, Illinois",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What languages does the person I work with speak?"
+      ],
+      "a": "English, Spanish",
+      "attribute": "languages spoken=English, Spanish",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    },
+    {
+      "q": [
+        "What is the educational background of the person I work with?"
+      ],
+      "a": "Associate of Applied Science in Paramedicine",
+      "attribute": "education=Associate of Applied Science in Paramedicine",
+      "path": "Nurse Rachel Brooks -> Paramedic Emily Simmons"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of location does the paramedic I work with transport patients to?",
+      "a": "Physical Location",
+      "attribute": "entity type=Physical Location",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the capacity of the location where the paramedic I work with transports patients?",
+      "a": "2",
+      "attribute": "capacity=2",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What equipment is available at the location where the paramedic I work with transports patients?",
+      "a": "X-ray machine, defibrillator, patient monitoring system",
+      "attribute": "equipment available=X-ray machine, defibrillator, patient monitoring system",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the average weekly case volume at the location where the paramedic I work with transports patients?",
+      "a": "35",
+      "attribute": "average weekly cases=35",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the operational status of the location where the paramedic I work with transports patients?",
+      "a": "Active",
+      "attribute": "location status=Active",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the staffing schedule at the location where the paramedic I work with transports patients?",
+      "a": "24/7",
+      "attribute": "staffing schedule=24/7",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What recent improvements have been made to the location where the paramedic I work with transports patients?",
+      "a": "Integrated electronic patient chart system installed",
+      "attribute": "recent improvements=Integrated electronic patient chart system installed",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "When was the last sanitation check at the location where the paramedic I work with transports patients?",
+      "a": "2023-09-15",
+      "attribute": "sanitation check date=2023-09-15",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the noise level at the location where the paramedic I work with transports patients?",
+      "a": "Moderate",
+      "attribute": "noise level=Moderate",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    },
+    {
+      "q": "What is the optimal temperature maintained at the location where the paramedic I work with transports patients?",
+      "a": "22\u00b0C",
+      "attribute": "optimal temperature=22\u00b0C",
+      "path": "Nurse Rachel Brooks - works with -> Paramedic Emily Simmons - transports to-> Trauma Bay 1"
+    }
+  ]
+}

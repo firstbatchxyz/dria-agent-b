@@ -1,0 +1,58 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Fuel Truck Driver"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my shift pattern?",
+      "a": "night"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Hazardous Materials Handling"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Arabic"
+    },
+    {
+      "q": "Am I a safety lead?",
+      "a": "False"
+    },
+    {
+      "q": "What is my favorite aircraft?",
+      "a": "Boeing 747"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography, reading"
+    },
+    {
+      "q": "Am I employee of the month?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the vehicle that I drive?"
+      ],
+      "a": "Maintenance",
+      "attribute": "entity type=Maintenance",
+      "path": "Mohammed Hassan -> Fuel Truck 18"
+    },
+    {
+      "q": [
+        "What is the capacity of the vehicle that I drive?"
+      ],
+      "a": "10000 liters",
+      "attribute": "capacity=10000 liters",
+      "path": "Mohammed Hassan -> Fuel Truck 18"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Welding Technician"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "Certified Welding Inspector (CWI)"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What is my safety record?",
+      "a": "Exemplary"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Auto-darkening Welding Helmet"
+    },
+    {
+      "q": "Do I have training responsibilities?",
+      "a": "True"
+    },
+    {
+      "q": "Am I a union member?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of welding system do I use?"
+      ],
+      "a": "Robotic Welding System",
+      "attribute": "entity type=Robotic Welding System",
+      "path": "Blanca Alvarez -> Smithson's Welding Bot"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the welding system I use?"
+      ],
+      "a": "Automatech Robotics Inc.",
+      "attribute": "manufacturer=Automatech Robotics Inc.",
+      "path": "Blanca Alvarez -> Smithson's Welding Bot"
+    },
+    {
+      "q": [
+        "When was the welding system I use installed?"
+      ],
+      "a": "2020-07-15",
+      "attribute": "installation date=2020-07-15",
+      "path": "Blanca Alvarez -> Smithson's Welding Bot"
+    },
+    {
+      "q": [
+        "What is the operating voltage of the welding system I use?"
+      ],
+      "a": "480 volts",
+      "attribute": "operating voltage=480 volts",
+      "path": "Blanca Alvarez -> Smithson's Welding Bot"
+    },
+    {
+      "q": [
+        "How often is the welding system I use maintained?"
+      ],
+      "a": "Monthly",
+      "attribute": "maintenance schedule=Monthly",
+      "path": "Blanca Alvarez -> Smithson's Welding Bot"
+    }
+  ]
+}

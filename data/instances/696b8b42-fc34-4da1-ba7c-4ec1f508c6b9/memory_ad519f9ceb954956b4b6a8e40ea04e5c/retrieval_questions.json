@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my profession?",
+      "a": "Systems Engineer"
+    },
+    {
+      "q": "What is my education?",
+      "a": "M.Sc. in Electrical Engineering"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Satellite Communications"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Stargazing"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Tapas"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "6"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Spanish, English"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Satellite Operations Specialist"
+    },
+    {
+      "q": "What is my favorite movie?",
+      "a": "The Martian"
+    },
+    {
+      "q": "What do I work mostly with?",
+      "a": "Penguinwatch Satellite System"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the satellite system that I maintain?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the launch year of the satellite system that I maintain?"
+      ],
+      "a": "2018",
+      "attribute": "launch year=2018",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the satellite system that I maintain?"
+      ],
+      "a": "Antarctic Tech Corp",
+      "attribute": "manufacturer=Antarctic Tech Corp",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the purpose of the satellite system that I maintain?"
+      ],
+      "a": "Wildlife Monitoring and Climate Observation",
+      "attribute": "purpose=Wildlife Monitoring and Climate Observation",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What are the capabilities of the satellite system that I maintain?"
+      ],
+      "a": "High-Resolution Imaging, Real-Time Data Transmission",
+      "attribute": "capabilities=High-Resolution Imaging, Real-Time Data Transmission",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the power source of the satellite system that I maintain?"
+      ],
+      "a": "Solar Panels with Diesel Generator Backup",
+      "attribute": "power source=Solar Panels with Diesel Generator Backup",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the location of the satellite system that I maintain?"
+      ],
+      "a": "Latitude: -75.250973, Longitude: -0.071389",
+      "attribute": "location=Latitude: -75.250973, Longitude: -0.071389",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "Who is the primary user of the satellite system that I maintain?"
+      ],
+      "a": "Antarctic Research Consortium",
+      "attribute": "primary user=Antarctic Research Consortium",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the operational status of the satellite system that I maintain?"
+      ],
+      "a": "Active",
+      "attribute": "operational status=Active",
+      "path": "Javier Garcia -> Penguinwatch Satellite System"
+    },
+    {
+      "q": [
+        "What is the profession of the person who collaborates with me?"
+      ],
+      "a": "Meteorologist",
+      "attribute": "profession=Meteorologist",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    }
+  ]
+}

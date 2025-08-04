@@ -1,0 +1,102 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Captain"
+    },
+    {
+      "q": "What is my age?",
+      "a": "36"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "tactical operations"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "14"
+    },
+    {
+      "q": "Do I have a helicopter pilot license?",
+      "a": "True"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Gaelic"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Dublin, Ireland"
+    },
+    {
+      "q": "What medals have I been awarded?",
+      "a": "Bronze Star, Purple Heart"
+    },
+    {
+      "q": "What is my favorite military vehicle?",
+      "a": "AH-64 Apache"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's degree in Military Science"
+    },
+    {
+      "q": "What is my preferred weapon?",
+      "a": "M4 Carbine"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "fishing, hiking"
+    },
+    {
+      "q": "What is my family status?",
+      "a": "married, 2 children"
+    },
+    {
+      "q": "What is my callsign?",
+      "a": "Iron Wolf"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of unit do I operate in?"
+      ],
+      "a": "Combat Unit",
+      "attribute": "entity type=Combat Unit",
+      "path": "Capt. Liam O'Reilly -> Ares Combat Unit"
+    },
+    {
+      "q": [
+        "What is the mission of the unit I operate in?"
+      ],
+      "a": "rapid deployment strike force",
+      "attribute": "unit mission=rapid deployment strike force",
+      "path": "Capt. Liam O'Reilly -> Ares Combat Unit"
+    },
+    {
+      "q": [
+        "What year was the unit I operate in established?"
+      ],
+      "a": "2009",
+      "attribute": "established year=2009",
+      "path": "Capt. Liam O'Reilly -> Ares Combat Unit"
+    },
+    {
+      "q": [
+        "Where is the headquarters located for the unit I operate in?"
+      ],
+      "a": "Sector 7, Base Alpha",
+      "attribute": "headquarters location=Sector 7, Base Alpha",
+      "path": "Capt. Liam O'Reilly -> Ares Combat Unit"
+    },
+    {
+      "q": [
+        "What are the special abilities of the unit I operate in?"
+      ],
+      "a": "amphibious operations, night-time maneuvers",
+      "attribute": "special abilities=amphibious operations, night-time maneuvers",
+      "path": "Capt. Liam O'Reilly -> Ares Combat Unit"
+    }
+  ]
+}

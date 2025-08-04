@@ -1,0 +1,11 @@
+{
+  "user_md": "# Amanda Fernandez\n\n## Basic Information\n- **Type**: Person\n- **Role**: Nurse\n- **Specialty**: Pediatrics\n- **Years Of Experience**: 12\n- **Languages Spoken**: English, Spanish\n- **Certifications**: Certified Pediatric Nurse\n- **Shift**: night\n- **Education**: Bachelor of Science in Nursing\n- **Hobbies**: hiking, baking\n\n## Relationships\n- **Operates**: [[pharmaceutical_cart_a.md]]",
+  "entities": [
+    {
+      "entity_name": "pharmaceutical_cart_a",
+      "entity_file_path": "entities/pharmaceutical_cart_a.md",
+      "entity_file_content": "# Pharmaceutical Cart A\n\n## Basic Information\n- **Entity Type**: Pharmaceuticals\n- **Type**: Entity\n- **Storage Capacity**: 50 bottles\n- **Mobility**: high\n- **Security Features**: automatic lock system\n- **Material**: stainless steel\n- **Maintenance Status**: well-maintained\n- **Last Serviced**: 2023-08-15\n- **Location**: Pediatrics ward\n- **Is Refrigerated**: True\n\n## Relationships\n- **Operates**: [[nurse_amanda_fernandez.md]]"
+    }
+  ],
+  "mem_id": "memory_f77e546b49854288805ff2de56e930ee"
+}

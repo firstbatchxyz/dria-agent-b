@@ -1,0 +1,21 @@
+{
+  "user_md": "# Noura Al Nasser\n\n## Basic Information\n- **Type**: Person\n- **Role**: Junior Engineer\n- **Experience Years**: 5\n- **Specialization**: Environmental Engineering\n- **Language Spoken**: Arabic, English, French\n- **Education**: MSc in Environmental Engineering\n- **Hobby**: Rock Climbing\n- **Professional Goal**: Innovate sustainable construction practices\n- **Safety Record**: Excellent\n- **Favorite Equipment**: D-9000 Sky Crane\n- **Works In Shifts**: True\n- **Recent Project Completion**: Eco Green Park Tower\n- **Volunteer Work**: Clean Energy Advocacy Group\n\n## Relationships\n- **Works_With**: [[ali_khouri.md]]\n- **Coordinates_With**: [[tariq_el-badawi.md]]",
+  "entities": [
+    {
+      "entity_name": "ali_khouri",
+      "entity_file_path": "entities/ali_khouri.md",
+      "entity_file_content": "# Ali Khouri\n\n## Basic Information\n- **Type**: Person\n- **Role**: Senior Engineer\n- **Experience Years**: 15\n- **Specialization**: Structural Engineering\n- **Certificate**: Certified Professional Engineer (CPE)\n- **Language Spoken**: Arabic, English\n- **Recent Award**: Best Engineer Award 2023\n- **Hobby**: Photography\n- **Favorite Equipment**: CR-12 Tower Crane\n- **Safety Record**: Excellent\n- **Works In Shifts**: False\n- **Current Project**: Iconic Sky Tower\n\n## Relationships\n- **Works_With**: [[noura_al_nasser.md]]"
+    },
+    {
+      "entity_name": "tariq_el-badawi",
+      "entity_file_path": "entities/tariq_el-badawi.md",
+      "entity_file_content": "# Tariq El-Badawi\n\n## Basic Information\n- **Type**: Person\n- **Role**: Project Lead\n- **Experience Years**: 15\n- **Specialization**: Structural Engineering\n- **Languages Spoken**: Arabic, English\n- **Education**: PhD in Civil Engineering\n- **Hobby**: Painting\n- **Professional Goal**: Design a record-breaking skyscraper\n- **Safety Record**: Outstanding\n- **Favorite Equipment**: L4500 Concrete Mixer\n- **Works In Shifts**: False\n- **Recent Achievement**: Winner of the International Engineering Excellence Award\n- **Community Contribution**: Mentor for Young Engineers Program\n\n## Relationships\n- **Coordinates_With**: [[noura_al_nasser.md]]"
+    },
+    {
+      "entity_name": "skyreach_2025",
+      "entity_file_path": "entities/skyreach_2025.md",
+      "entity_file_content": "# SkyReach 2025\n\n## Basic Information\n- **Entity Type**: Project\n- **Type**: Entity\n- **Total Floors**: 80\n- **Estimated Completion Year**: 2025\n- **Budget In Millions Usd**: 850\n- **Project Inception Date**: 2022-01-15\n- **Architectural Style**: Neo-futurism\n- **Green Building Certification**: True\n- **Key Materials**: Steel, Glass, Concrete\n- **Primary Contractor**: Dubai Structural Co.\n- **Height In Meters**: 480\n- **Unique Feature**: 360-degree observation deck\n\n## Relationships\n- **Leads**: [[tariq_el-badawi.md]]"
+    }
+  ],
+  "mem_id": "memory_b5392f62b9e542768c4bdd59e156ee77"
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Mika Sato\n\n## Basic Information\n- **Type**: Person\n- **Role**: Quality Control Specialist\n- **Employee Id**: QC_1024\n- **Experience Years**: 5\n- **Education**: Bachelor's Degree in Mechanical Engineering\n- **Certification**: ISO 9001 Internal Auditor\n- **Hobbies**: Photography, Hiking\n- **Language Spoken**: English, Japanese\n- **Shift**: Day Shift\n\n## Relationships\n- **Uses**: [[qwerty9000_terminal.md]]",
+  "entities": [
+    {
+      "entity_name": "qwerty9000_terminal",
+      "entity_file_path": "entities/qwerty9000_terminal.md",
+      "entity_file_content": "# QWERTY9000 Terminal\n\n## Basic Information\n- **Entity Type**: Computer Terminal\n- **Type**: Entity\n- **Operating System**: Linux Mint\n- **Model Number**: Q9000-TM945\n- **Screen Size Inches**: 24\n- **Location**: Quality Control Lab A\n- **Network Connection**: Ethernet LAN\n- **Serial Number**: SN-2023-8E7A\n- **Memory Gb**: 16\n- **Processor Type**: Intel Core i7\n- **Graphics Card**: Integrated GPU\n\n## Relationships\n- **Uses**: [[mika_sato.md]]"
+    }
+  ],
+  "mem_id": "memory_e70bb0345d5b4f0bab831d0a9ccd4d19"
+}

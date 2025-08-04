@@ -1,0 +1,114 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Dr. Vanessa Carter"
+    },
+    {
+      "q": "What is my title?",
+      "a": "Surgeon"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "10"
+    },
+    {
+      "q": "What is my hospital affiliation?",
+      "a": "Metropolitan General Hospital"
+    },
+    {
+      "q": "Where did I attend medical school?",
+      "a": "Harvard Medical School"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Neurosurgery"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my research interests?",
+      "a": "Minimally invasive surgery, Brain-Computer Interfaces"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Sculpting, Bird watching"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the full name of the doctor I collaborate with?"
+      ],
+      "a": "Dr. Rajiv Patel",
+      "attribute": "full name=Dr. Rajiv Patel",
+      "path": "Dr. Vanessa Carter -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the title of the doctor I collaborate with?"
+      ],
+      "a": "Cardiologist",
+      "attribute": "title=Cardiologist",
+      "path": "Dr. Vanessa Carter -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "How many years of experience does the doctor I collaborate with have?"
+      ],
+      "a": "15",
+      "attribute": "years of experience=15",
+      "path": "Dr. Vanessa Carter -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the hospital affiliation of the doctor I collaborate with?"
+      ],
+      "a": "Metropolitan General Hospital",
+      "attribute": "hospital affiliation=Metropolitan General Hospital",
+      "path": "Dr. Vanessa Carter -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "Which medical school did the doctor I collaborate with attend?"
+      ],
+      "a": "Johns Hopkins University School of Medicine",
+      "attribute": "medical school=Johns Hopkins University School of Medicine",
+      "path": "Dr. Vanessa Carter -> Dr. Raj Patel"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the data type of the database that is accessed by the doctor I collaborate with?",
+      "a": "Patient Records",
+      "attribute": "entity type=Patient Records",
+      "path": "Dr. Vanessa Carter - collaborates with -> Dr. Raj Patel - accesses-> Cardiology Database"
+    },
+    {
+      "q": "What is the data security level of the database that is accessed by the doctor I collaborate with?",
+      "a": "High",
+      "attribute": "data security level=High",
+      "path": "Dr. Vanessa Carter - collaborates with -> Dr. Raj Patel - accesses-> Cardiology Database"
+    },
+    {
+      "q": "What is the last updated date of the database that is accessed by the doctor I collaborate with?",
+      "a": "2023-10-05",
+      "attribute": "last updated=2023-10-05",
+      "path": "Dr. Vanessa Carter - collaborates with -> Dr. Raj Patel - accesses-> Cardiology Database"
+    },
+    {
+      "q": "What is the record format of the database that is accessed by the doctor I collaborate with?",
+      "a": "Electronics Health Records (EHR)",
+      "attribute": "record format=Electronics Health Records (EHR)",
+      "path": "Dr. Vanessa Carter - collaborates with -> Dr. Raj Patel - accesses-> Cardiology Database"
+    },
+    {
+      "q": "What is the average daily queries of the database that is accessed by the doctor I collaborate with?",
+      "a": "250",
+      "attribute": "average daily queries=250",
+      "path": "Dr. Vanessa Carter - collaborates with -> Dr. Raj Patel - accesses-> Cardiology Database"
+    }
+  ]
+}

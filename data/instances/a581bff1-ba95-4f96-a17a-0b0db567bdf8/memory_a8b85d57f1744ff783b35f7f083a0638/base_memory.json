@@ -1,0 +1,11 @@
+{
+  "user_md": "# Jose Martinez\n\n## Basic Information\n- **Type**: Person\n- **Job Title**: Imaging Technician\n- **Department**: Radiology\n- **Experience Years**: 5\n- **Certifications**: Certified Radiologic Technologist\n- **Languages Spoken**: Spanish, English\n- **Shift Schedule**: Evening\n- **Hobbies**: Photography, Hiking\n- **Employee Of The Month**: False\n\n## Relationships\n- **Maintains**: [[ultrasound_machine.md]]",
+  "entities": [
+    {
+      "entity_name": "ultrasound_machine",
+      "entity_file_path": "entities/ultrasound_machine.md",
+      "entity_file_content": "# Ultrasound Machine\n\n## Basic Information\n- **Entity Type**: Imaging Equipment\n- **Type**: Entity\n- **Manufacturer**: EchoTech\n- **Model**: UltraScan ZX90\n- **Last Calibration Date**: 2023-09-15\n- **Current Location**: Radiology Department, Room 214\n- **Maintenance Schedule**: bi-monthly\n- **Power Source**: 220V, AC\n- **Image Quality Rating**: 4.8\n- **Warranty Status**: Active\n- **Networked**: True\n- **Purchase Date**: 2021-03-10\n\n## Relationships\n- **Maintains**: [[jose_martinez.md]]"
+    }
+  ],
+  "mem_id": "memory_a8b85d57f1744ff783b35f7f083a0638"
+}

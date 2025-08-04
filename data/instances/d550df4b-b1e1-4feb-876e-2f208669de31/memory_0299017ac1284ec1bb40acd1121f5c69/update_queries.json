@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my specialty dish information - I've changed my signature dish from Crispy Duck Rice to Szechuan Mapo Tofu as my new specialty.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n-- **Specialty Dish**: Crispy Duck Rice\n\n+- **Specialty Dish**: Szechuan Mapo Tofu\n\n - **Years Of Experience**: 15\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n"
+    },
+    {
+      "query": "I've been perfecting my Szechuan Mapo Tofu recipe and it's become incredibly popular with customers who love the authentic spicy flavors and silky texture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n-- **Specialty Dish**: Crispy Duck Rice\n\n+- **Specialty Dish**: Szechuan Mapo Tofu\n\n - **Years Of Experience**: 15\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience in the records - I actually have 18 years of experience in the field, not the 15 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n - **Specialty Dish**: Crispy Duck Rice\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n - **Favorite Ingredient**: Star Anise\n\n"
+    },
+    {
+      "query": "After 18 years in this industry, I've learned that adaptability and continuous learning are what truly define professional growth and success.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n - **Specialty Dish**: Crispy Duck Rice\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n - **Favorite Ingredient**: Star Anise\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience information in the system - I actually have 18 years of experience now, not the 15 years that's currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n - **Specialty Dish**: Crispy Duck Rice\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n - **Favorite Ingredient**: Star Anise\n\n"
+    },
+    {
+      "query": "Looking back on my 18 years of experience in the industry, I'm amazed at how much the field has evolved and how my expertise has grown over nearly two decades.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n - **Specialty Dish**: Crispy Duck Rice\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Usual Working Hours**: 11:00 AM - 8:00 PM\n\n - **Bilingual**: English, Mandarin\n\n - **Favorite Ingredient**: Star Anise\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my participation information - I'm no longer with Lunch Rush United, I've actually joined the Golden Spoon Culinary Team instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Local Resident**: True\n\n \n\n ## Relationships\n\n-- **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Participates In**: [[golden_spoon_culinary_team.md]]\n\n===entities/golden_spoon_culinary_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Golden Spoon Culinary Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: culinary organization\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[chan_wei.md]]\n"
+    },
+    {
+      "query": "I'm really excited about being part of the Golden Spoon Culinary Team and working with such talented chefs on innovative menu development.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Local Resident**: True\n\n \n\n ## Relationships\n\n-- **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Participates In**: [[golden_spoon_culinary_team.md]]\n\n===entities/golden_spoon_culinary_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Golden Spoon Culinary Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: culinary organization\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[chan_wei.md]]\n"
+    },
+    {
+      "query": "I need to update my workplace information - I no longer belong to Maxwell Hawker Centre as I've moved to Singapore Food Republic.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[singapore_food_republic.md]]\n\n===entities/singapore_food_republic.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Singapore Food Republic\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food court\n\n+\n\n+## Relationships\n\n+- **Belongs To**: [[chan_wei.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new role at Singapore Food Republic - the transition from Maxwell Hawker Centre has been smooth and I'm excited about the opportunities here.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[singapore_food_republic.md]]\n\n===entities/singapore_food_republic.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Singapore Food Republic\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food court\n\n+\n\n+## Relationships\n\n+- **Belongs To**: [[chan_wei.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

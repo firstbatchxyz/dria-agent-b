@@ -1,0 +1,21 @@
+{
+  "user_md": "# Liam McAlister\n\n## Basic Information\n- **Type**: Person\n- **Nickname**: The Game Master\n- **Favorite Genre**: Fantasy\n- **Years Of Experience**: 15\n- **Preferred Play Style**: Competitive\n- **Lucky Dice Color**: Emerald Green\n- **Has Custom Miniatures**: True\n- **Second Favorite Board Game**: Galactic Conquest\n- **Collects**: Rare Comic Books\n- **Favorite Superhero**: Doctor Strange\n\n## Relationships\n- **Plays**: [[epic_quest:_the_board_game.md]]\n- **Shares**: [[dragonscale_dice_set.md]]\n- **Attends**: [[portland_board_game_league.md]]",
+  "entities": [
+    {
+      "entity_name": "epic_quest:_the_board_game",
+      "entity_file_path": "entities/epic_quest:_the_board_game.md",
+      "entity_file_content": "# Epic Quest: The Board Game\n\n## Basic Information\n- **Entity Type**: Board Game\n- **Type**: Entity\n- **Theme**: adventure\n- **Complexity**: medium\n- **Average Playtime Minutes**: 90\n- **Player Age Recommendation**: 14+\n- **Designer**: Ava Trenton\n- **Publishing Year**: 2015\n- **Is Out Of Print**: False\n- **Official Expansions**: 2\n- **Online Community Forum**: quest-forum.com\n- **Related Board Games**: Dungeon Delvers\n\n## Relationships\n- **Plays**: [[liam_mcalister.md]]"
+    },
+    {
+      "entity_name": "dragonscale_dice_set",
+      "entity_file_path": "entities/dragonscale_dice_set.md",
+      "entity_file_content": "# Dragonscale Dice Set\n\n## Basic Information\n- **Entity Type**: Dice Set\n- **Type**: Entity\n- **Material**: Resin\n- **Color Scheme**: Ruby Red and Gold\n- **Number Of Dice**: 7\n- **Special Feature**: Glows in the dark\n- **Origin**: Handcrafted in local Portland workshop\n- **Contains Manual**: Yes\n- **Themed Set**: Medieval fantasy\n- **Year Of Release**: 2022\n\n## Relationships\n- **Shares**: [[liam_mcalister.md]]"
+    },
+    {
+      "entity_name": "portland_board_game_league",
+      "entity_file_path": "entities/portland_board_game_league.md",
+      "entity_file_content": "# Portland Board Game League\n\n## Basic Information\n- **Entity Type**: Tournament Organization\n- **Type**: Entity\n- **Founding Year**: 2015\n- **Tournament Frequency**: bi-weekly\n- **Membership Fee**: 20\n- **Annual Main Event**: Portland Board Game Championship\n- **Sponsoring Partners**: Local Game Shops Association\n- **Venue**: Heroes & Dice Basement\n- **Number Of Members**: 60\n- **Community Award**: Best Gaming Community 2022\n- **Charitable Events**: True\n- **Newsletter**: The Dice Dispatch\n\n## Relationships\n- **Attends**: [[liam_mcalister.md]]"
+    }
+  ],
+  "mem_id": "memory_3ce2070a313546e1a2774545dcb13e1b"
+}

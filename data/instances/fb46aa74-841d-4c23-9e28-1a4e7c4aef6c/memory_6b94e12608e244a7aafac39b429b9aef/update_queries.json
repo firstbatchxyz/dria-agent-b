@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience in the system - I now have 8 years of experience in my field, not the 5 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Logistics Coordinator\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Education**: Bachelor's degree in Supply Chain Management\n\n - **Certifications**: Certified in Logistics, Transportation, and Distribution (CLTD)\n\n - **Communication Skill**: Advanced\n\n"
+    },
+    {
+      "query": "After 8 years in the industry, I've really developed a deep understanding of client needs and project management best practices.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Logistics Coordinator\n\n-- **Years Of Experience**: 5\n\n+- **Years Of Experience**: 8\n\n - **Education**: Bachelor's degree in Supply Chain Management\n\n - **Certifications**: Certified in Logistics, Transportation, and Distribution (CLTD)\n\n - **Communication Skill**: Advanced\n\n"
+    },
+    {
+      "query": "I need to correct my attention to detail rating in the system - it should be updated from 9.5 to 8.7 based on my recent performance evaluations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Skill**: Advanced\n\n - **Team Leadership Experience**: True\n\n - **Favorite Tool**: Tableau for data analysis\n\n-- **Attention To Detail**: 9.5\n\n+- **Attention To Detail**: 8.7\n\n - **Language Proficiency**: Bilingual in English and Mandarin Chinese\n\n - **Started Employment**: 2018-03-14\n\n \n\n"
+    },
+    {
+      "query": "I've been working on improving my processes after realizing my attention to detail score of 8.7 indicates there's still room for growth in catching minor inconsistencies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Communication Skill**: Advanced\n\n - **Team Leadership Experience**: True\n\n - **Favorite Tool**: Tableau for data analysis\n\n-- **Attention To Detail**: 9.5\n\n+- **Attention To Detail**: 8.7\n\n - **Language Proficiency**: Bilingual in English and Mandarin Chinese\n\n - **Started Employment**: 2018-03-14\n\n \n\n"
+    },
+    {
+      "query": "I need to update my communication skill level in the system - I've actually achieved Expert level certification in professional communication, not just Advanced as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 5\n\n - **Education**: Bachelor's degree in Supply Chain Management\n\n - **Certifications**: Certified in Logistics, Transportation, and Distribution (CLTD)\n\n-- **Communication Skill**: Advanced\n\n+- **Communication Skill**: Expert\n\n - **Team Leadership Experience**: True\n\n - **Favorite Tool**: Tableau for data analysis\n\n - **Attention To Detail**: 9.5\n\n"
+    },
+    {
+      "query": "I've been leveraging my Expert level communication skills in recent client presentations, and it's really made a difference in how effectively I can convey complex technical concepts to diverse audiences.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 5\n\n - **Education**: Bachelor's degree in Supply Chain Management\n\n - **Certifications**: Certified in Logistics, Transportation, and Distribution (CLTD)\n\n-- **Communication Skill**: Advanced\n\n+- **Communication Skill**: Expert\n\n - **Team Leadership Experience**: True\n\n - **Favorite Tool**: Tableau for data analysis\n\n - **Attention To Detail**: 9.5\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the system information - I'm no longer monitoring the FlowControl System. I've been reassigned to monitor the DataStream Analytics Platform instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Started Employment**: 2018-03-14\n\n \n\n ## Relationships\n\n-- **Monitors**: [[flowcontrol_system.md]]\n+- **Monitors**: [[datastream_analytics_platform.md]]\n\n===entities/datastream_analytics_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# DataStream Analytics Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: monitoring system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[sophie_ng.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the DataStream Analytics Platform that I'm now responsible for monitoring, and I'm impressed with its real-time processing capabilities.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Started Employment**: 2018-03-14\n\n \n\n ## Relationships\n\n-- **Monitors**: [[flowcontrol_system.md]]\n+- **Monitors**: [[datastream_analytics_platform.md]]\n\n===entities/datastream_analytics_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# DataStream Analytics Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: monitoring system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[sophie_ng.md]]\n"
+    },
+    {
+      "query": "I need to update the system I'm monitoring - I'm no longer overseeing the FlowControl System and have been assigned to monitor the DataSync Platform instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Started Employment**: 2018-03-14\n\n \n\n ## Relationships\n\n-- **Monitors**: [[flowcontrol_system.md]]\n+- **Monitors**: [[datasync_platform.md]]\n\n===entities/datasync_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# DataSync Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[sophie_ng.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the DataSync Platform's architecture and performance metrics since taking over monitoring responsibilities for this system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Started Employment**: 2018-03-14\n\n \n\n ## Relationships\n\n-- **Monitors**: [[flowcontrol_system.md]]\n+- **Monitors**: [[datasync_platform.md]]\n\n===entities/datasync_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# DataSync Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[sophie_ng.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

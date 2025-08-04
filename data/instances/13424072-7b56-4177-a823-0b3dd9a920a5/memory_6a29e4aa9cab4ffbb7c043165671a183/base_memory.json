@@ -1,0 +1,11 @@
+{
+  "user_md": "# Lucas Anderson\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Lucas\n- **Last Name**: Anderson\n- **Age**: 42\n- **Job Title**: Security Supervisor\n- **Years Of Experience**: 15\n- **Languages Spoken**: English, Spanish\n- **Certifications**: TSA Advanced Security Certification\n- **Shift Schedule**: Night Shift\n- **Hometown**: Seattle, WA\n- **Has Security Clearance**: True\n- **Interests**: Photography, Hiking\n- **Favorite Aircraft**: Boeing 787 Dreamliner\n- **Preferred Work Terminal**: Terminal 2\n\n## Relationships\n- **Supervises**: [[tsa_security_scanner.md]]",
+  "entities": [
+    {
+      "entity_name": "tsa_security_scanner",
+      "entity_file_path": "entities/tsa_security_scanner.md",
+      "entity_file_content": "# TSA Security Scanner\n\n## Basic Information\n- **Entity Type**: Security\n- **Type**: Entity\n- **Manufacturer**: Aerosafe Technologies\n- **Model**: X6000-XRAY\n- **Last Maintenance Date**: 2023-09-15\n- **Frequency Of Maintenance**: Monthly\n- **Location**: Terminal 1, Gate B7\n- **Installation Year**: 2018\n- **Security Features**: AI-powered threat detection, automatic threat alert system, integrated baggage imaging\n- **Capacity**: 300\n- **Connectivity**: Real-time data feed to security operations\n- **Power Requirements**: 220V, 50 Hz\n\n## Relationships\n- **Supervises**: [[lucas_anderson.md]]"
+    }
+  ],
+  "mem_id": "memory_6a29e4aa9cab4ffbb7c043165671a183"
+}

@@ -1,0 +1,82 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Quality Control Supervisor"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Robotic Inspection Systems"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "night"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "ISO 9001 Lead Auditor"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor of Mechanical Engineering"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Mandarin, English"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "photography"
+    },
+    {
+      "q": "What special award have I received?",
+      "a": "Employee of the Year 2022"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the inspection system that I oversee?"
+      ],
+      "a": "Inspection System",
+      "attribute": "entity type=Inspection System",
+      "path": "Mei Li -> SpecVision QC"
+    },
+    {
+      "q": [
+        "What is the inspection type of the system that I oversee?"
+      ],
+      "a": "Visual and Automated Inspection",
+      "attribute": "inspection type=Visual and Automated Inspection",
+      "path": "Mei Li -> SpecVision QC"
+    },
+    {
+      "q": [
+        "What is the capacity of the inspection system that I oversee?"
+      ],
+      "a": "250",
+      "attribute": "capacity=250",
+      "path": "Mei Li -> SpecVision QC"
+    },
+    {
+      "q": [
+        "What is the technology of the inspection system that I oversee?"
+      ],
+      "a": "AI-Powered Vision Algorithms",
+      "attribute": "technology=AI-Powered Vision Algorithms",
+      "path": "Mei Li -> SpecVision QC"
+    },
+    {
+      "q": [
+        "What is the manufacture year of the inspection system that I oversee?"
+      ],
+      "a": "2021",
+      "attribute": "manufacture year=2021",
+      "path": "Mei Li -> SpecVision QC"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Dr. Emily Tran",
+      "type": "Person",
+      "position": "Lead Researcher",
+      "specialization": "CRISPR Technology",
+      "years_of_experience": 8,
+      "undergrad_degree": "Molecular Biology",
+      "hobbies": "Photography",
+      "published_papers": 15
+    },
+    {
+      "id": "p2",
+      "name": "Raj Patel",
+      "type": "Person",
+      "position": "Graduate Student",
+      "specialization": "Gene Editing",
+      "years_of_experience": 2,
+      "undergrad_degree": "Biochemistry",
+      "hobbies": "Running marathons",
+      "published_papers": 3,
+      "favorite_lab_equipment": "DNA sequencer",
+      "hometown": "Houston, Texas",
+      "languages_spoken": "English, Hindi",
+      "work_ethic": "meticulous and detail-oriented"
+    },
+    {
+      "id": "p3",
+      "name": "Hiroshi Tanaka",
+      "type": "Person",
+      "position": "Graduate Student",
+      "specialization": "Gene Editing",
+      "years_of_experience": 3,
+      "undergrad_degree": "Molecular Biology",
+      "hobbies": "Photography",
+      "published_papers": 5,
+      "favorite_lab_equipment": "Microscope",
+      "hometown": "Kyoto, Japan",
+      "languages_spoken": "English, Japanese",
+      "work_ethic": "innovative and analytical",
+      "favorite_gene_sequence": "CRISPR-Cas9",
+      "dream_research_goal": "Cure genetic disorders"
+    },
+    {
+      "id": "p4",
+      "name": "Amara Johnson",
+      "type": "Person",
+      "position": "Assistant Researcher",
+      "specialization": "CRISPR-Cas9 technology",
+      "years_of_experience": 4,
+      "undergrad_degree": "Biochemistry",
+      "hobbies": "Bird Watching",
+      "published_papers": 8,
+      "favorite_lab_equipment": "Centrifuge",
+      "hometown": "Seattle, Washington, USA",
+      "languages_spoken": "English, Spanish",
+      "work_ethic": "meticulous and diligent",
+      "favorite_gene_sequence": "BCL-2 gene",
+      "dream_research_goal": "Develop gene therapy for muscular dystrophy"
+    },
+    {
+      "id": "p5",
+      "name": "Sophie Alvarez",
+      "type": "Person",
+      "position": "Graduate Researcher",
+      "specialization": "Gene Editing Ethics",
+      "years_of_experience": 2,
+      "undergrad_degree": "Genetic Engineering",
+      "hobbies": "Origami",
+      "published_papers": 3,
+      "favorite_lab_equipment": "DNA Sequencer",
+      "hometown": "Boston, Massachusetts, USA",
+      "languages_spoken": "English",
+      "work_ethic": "collaborative and innovative",
+      "favorite_gene_sequence": "TP53 gene",
+      "dream_research_goal": "Enhance genetic diversity to prevent extinction of endangered species"
+    },
+    {
+      "id": "e1",
+      "name": "CRISPR-Cas9 Retrofits",
+      "entity_type": "Research Project",
+      "type": "Entity",
+      "budget": 150000,
+      "start_date": "2022-09-01",
+      "lead_scientist": "Dr. Emily Zhang",
+      "primary_funding_source": "National Institutes of Health (NIH)",
+      "goal": "To enhance the precision of gene editing in plants",
+      "collaborating_labs": "Harvard Genetic Research Center, Stanford Plant Biology Lab",
+      "recent_findings": "Demonstrated 30% improvement in CRISPR efficiency for plant genes"
+    },
+    {
+      "id": "e2",
+      "name": "Gene Editing Ethics Committee",
+      "entity_type": "Committee",
+      "type": "Entity",
+      "formation_year": 2017,
+      "number_of_members": 12,
+      "chairperson": "Dr. Gabriel Martinez",
+      "main_focus_area": "Ethical Implications of CRISPR in Humans",
+      "monthly_meeting_schedule": "First Wednesday of each month",
+      "recent_achievement": "Published Guidelines on Gene Editing Consents"
+    },
+    {
+      "id": "e3",
+      "name": "Biosafety Level 2 Laboratory",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "biosafety_level": "2",
+      "capacity": 30,
+      "location": "MIT Cambridge Campus, Building 68",
+      "available_equipment": "Centrifuges, DNA sequencers, Microscopes, Chemical Reagents",
+      "safety_certifications": "Annual MIT Lab Safety Audit Passed",
+      "year_of_establishment": 2015
+    },
+    {
+      "id": "e4",
+      "name": "Genome Sequencing Cloud",
+      "entity_type": "Data Storage System",
+      "type": "Entity",
+      "storage_capacity": "5 Petabytes",
+      "security_features": "End-to-end encryption",
+      "accessibility": "24/7 cloud access",
+      "developer": "MIT Biochemistry Lab IT Department",
+      "backup_frequency": "Daily",
+      "upload_speed": "10 Gbps",
+      "data_compliance": "GDPR, HIPAA",
+      "additional_tools": "Integrated with data analysis software",
+      "user_base": "200 active researchers",
+      "power_source": "Sustainable energy sources"
+    },
+    {
+      "id": "e5",
+      "name": "The ChromoLab Symposium",
+      "entity_type": "Annual Event",
+      "type": "Entity",
+      "main_focus": "Advancements in Gene Editing",
+      "duration": "3 days",
+      "typical_attendance": 250,
+      "location": "MIT Biochemistry Department",
+      "first_held": 2017,
+      "website": "www.chromolabmit.edu",
+      "notable_speakers": "Dr. Johannes Muller, Dr. Rachel Lee",
+      "primary_audience": "Academic researchers and graduate students",
+      "networking_opportunities": true,
+      "poster_sessions": 5
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "collaborates_with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "part_of",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "collaborates_with",
+      "o": "p3"
+    },
+    {
+      "s": "p2",
+      "p": "uses",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "collaborates_with",
+      "o": "p4"
+    },
+    {
+      "s": "p3",
+      "p": "works_in",
+      "o": "e3"
+    },
+    {
+      "s": "p4",
+      "p": "collaborates_with",
+      "o": "p5"
+    },
+    {
+      "s": "p4",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "collaborates_with",
+      "o": "p1"
+    },
+    {
+      "s": "p5",
+      "p": "organizes",
+      "o": "e5"
+    }
+  ]
+}

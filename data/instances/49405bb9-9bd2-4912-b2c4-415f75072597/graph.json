@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Maria Santoya",
+      "type": "Person",
+      "age": 35,
+      "role": "Pottery Designer",
+      "specialty": "Intricate Glazing Techniques",
+      "years_of_experience": 15,
+      "favorite_clay_type": "Red Earthenware",
+      "education": "Bachelor of Arts in Fine Arts",
+      "hobby": "Gardening",
+      "inspiration": "Traditional Zapotec Patterns",
+      "sales_preference": "Online Platforms",
+      "workshop_days": "Monday to Wednesday"
+    },
+    {
+      "id": "person_2",
+      "name": "Juan Carlos Ramirez",
+      "type": "Person",
+      "occupation": "Potter",
+      "age": 35,
+      "expertise": "Traditional Zapotec Pottery",
+      "years_of_experience": 12,
+      "favorite_glaze_color": "Cobalt Blue",
+      "education": "Self-taught",
+      "studio_role": "Kiln Master",
+      "workshop_preference": "Morning",
+      "origin": "San Bartolo Coyotepec"
+    },
+    {
+      "id": "person_3",
+      "name": "Luisa Hernando",
+      "type": "Person",
+      "birth_date": "1985-07-21",
+      "birth_place": "San Bartolo Coyotepec, Oaxaca",
+      "specialty": "Barro Negro Pottery",
+      "experience_years": 15,
+      "favorite_tool": "pallete knife",
+      "education": "Self-taught artisan with workshops attended throughout Oaxaca",
+      "has_family_members_in_coop": false,
+      "contact_email": "luisa.hernando@crafts.com",
+      "known_languages": "Spanish, Zapotec",
+      "personal_motto": "Art is where the earth meets the soul.",
+      "hobbies": "birdwatching, cooking traditional Zapotec dishes",
+      "role_in_coop": "lead designer"
+    },
+    {
+      "id": "person_4",
+      "name": "Miguel Uhlin",
+      "type": "Person",
+      "age": 42,
+      "gender": "male",
+      "role_in_cooperative": "kiln manager",
+      "experience_years": 15,
+      "specialization": "black clay pottery",
+      "hometown": "San Bartolo Coyotepec",
+      "favorite_glaze_color": "midnight blue",
+      "languages_spoken": "Spanish, Mixtec",
+      "hobby": "playing the guitarra"
+    },
+    {
+      "id": "person_5",
+      "name": "Ana Tejada",
+      "type": "Person",
+      "specialty": "Engobe and slip decoration",
+      "experience_years": 12,
+      "award_winning": true,
+      "language_spoken": "Spanish",
+      "birthplace": "San Bartolo Coyotepec",
+      "favorite_motif": "Geometric patterns",
+      "has_workshop_in_home": true
+    },
+    {
+      "id": "entity_1",
+      "name": "Clay Creek Co-op",
+      "entity_type": "Cooperative",
+      "type": "Entity",
+      "location": "Oaxaca, Mexico",
+      "members_count": 5,
+      "established_year": 2010,
+      "focus_area": "Traditional and Modern Pottery Techniques",
+      "mission_statement": "To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.",
+      "primary_language_spoken": "Spanish",
+      "shared_resources": "Kilns, raw materials, workshop space, marketing channels",
+      "annual_festival_participation": "Guelaguetza Festival, Feria de Barro Negro"
+    },
+    {
+      "id": "entity_2",
+      "name": "El Bosque Kiln",
+      "entity_type": "Kiln",
+      "type": "Entity",
+      "capacity_cubic_feet": 25,
+      "fuel_type": "natural gas",
+      "temperature_limit_celsius": 1300,
+      "last_maintenance_date": "2023-08-15",
+      "manufacturer": "Oaxacan Kiln Works",
+      "operating_hours": "8 AM - 8 PM",
+      "constructed_year": 2015,
+      "safety_features": "Automatic shutoff, Overheat sensors",
+      "usage_fee": "Co-op members only"
+    },
+    {
+      "id": "entity_3",
+      "name": "Monte Alban Clay",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "location": "Oaxaca, Mexico",
+      "product_specialization": "High-quality local clay",
+      "established_year": 2005,
+      "founder_name": "Carmen Ortega",
+      "workforce_size": 12,
+      "sustainability_practices": "Eco-friendly mining and harvesting techniques",
+      "certifications": "ISO 14001 Environmental Management",
+      "transportation_network": "Own delivery trucks"
+    },
+    {
+      "id": "entity_4",
+      "name": "Oaxacan Glazes",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "location": "Oaxaca City, Mexico",
+      "product_specialty": "Lead-free, vibrant artisanal glazes",
+      "years_in_operation": 12,
+      "founder": "Elena Rodriguez",
+      "sustainability_initiatives": "Use of local, natural pigments and recycled materials",
+      "workshops_offered": true,
+      "workshop_topics": "Introduction to Glazing Techniques, Custom Color Blends"
+    },
+    {
+      "id": "entity_5",
+      "name": "Zapotec Market Hub",
+      "entity_type": "Market",
+      "type": "Entity",
+      "location": "Central Plaza, Oaxaca City",
+      "established_year": 2008,
+      "market_days": "Saturday and Sunday",
+      "average_daily_visitors": 1500,
+      "features": "Artisan workshops, Live pottery demonstrations",
+      "visitor_amenities": "Restrooms, Cafeteria, Gift Shop",
+      "cultural_significance": "Celebrated as a central hub for local artisans and cultural exchange",
+      "annual_events_hosted": "Oaxacan Pottery Festival, Artisan Night Market"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "member_of",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_2",
+      "p": "member_of",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_3",
+      "p": "member_of",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_4",
+      "p": "member_of",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_5",
+      "p": "member_of",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_1",
+      "p": "uses",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_1",
+      "p": "buys_from",
+      "o": "entity_3"
+    },
+    {
+      "s": "entity_1",
+      "p": "buys_from",
+      "o": "entity_4"
+    },
+    {
+      "s": "entity_1",
+      "p": "sells_at",
+      "o": "entity_5"
+    },
+    {
+      "s": "entity_2",
+      "p": "located_in",
+      "o": "entity_5"
+    }
+  ]
+}

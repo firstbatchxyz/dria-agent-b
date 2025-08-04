@@ -1,0 +1,31 @@
+{
+  "user_md": "# Dr. Emily Tran\n\n## Basic Information\n- **Type**: Person\n- **Position**: Lead Researcher\n- **Specialization**: CRISPR Technology\n- **Years Of Experience**: 8\n- **Undergrad Degree**: Molecular Biology\n- **Hobbies**: Photography\n- **Published Papers**: 15\n\n## Relationships\n- **Collaborates_With**: [[raj_patel.md]]\n- **Part_Of**: [[gene_editing_ethics_committee.md]]",
+  "entities": [
+    {
+      "entity_name": "sophie_alvarez",
+      "entity_file_path": "entities/sophie_alvarez.md",
+      "entity_file_content": "# Sophie Alvarez\n\n## Basic Information\n- **Type**: Person\n- **Position**: Graduate Researcher\n- **Specialization**: Gene Editing Ethics\n- **Years Of Experience**: 2\n- **Undergrad Degree**: Genetic Engineering\n- **Hobbies**: Origami\n- **Published Papers**: 3\n- **Favorite Lab Equipment**: DNA Sequencer\n- **Hometown**: Boston, Massachusetts, USA\n- **Languages Spoken**: English\n- **Work Ethic**: collaborative and innovative\n- **Favorite Gene Sequence**: TP53 gene\n- **Dream Research Goal**: Enhance genetic diversity to prevent extinction of endangered species\n\n## Relationships\n- **Collaborates_With**: [[dr._emily_tran.md]]"
+    },
+    {
+      "entity_name": "raj_patel",
+      "entity_file_path": "entities/raj_patel.md",
+      "entity_file_content": "# Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Position**: Graduate Student\n- **Specialization**: Gene Editing\n- **Years Of Experience**: 2\n- **Undergrad Degree**: Biochemistry\n- **Hobbies**: Running marathons\n- **Published Papers**: 3\n- **Favorite Lab Equipment**: DNA sequencer\n- **Hometown**: Houston, Texas\n- **Languages Spoken**: English, Hindi\n- **Work Ethic**: meticulous and detail-oriented\n\n## Relationships\n- **Collaborates_With**: [[dr._emily_tran.md]]"
+    },
+    {
+      "entity_name": "gene_editing_ethics_committee",
+      "entity_file_path": "entities/gene_editing_ethics_committee.md",
+      "entity_file_content": "# Gene Editing Ethics Committee\n\n## Basic Information\n- **Entity Type**: Committee\n- **Type**: Entity\n- **Formation Year**: 2017\n- **Number Of Members**: 12\n- **Chairperson**: Dr. Gabriel Martinez\n- **Main Focus Area**: Ethical Implications of CRISPR in Humans\n- **Monthly Meeting Schedule**: First Wednesday of each month\n- **Recent Achievement**: Published Guidelines on Gene Editing Consents\n\n## Relationships\n- **Part_Of**: [[dr._emily_tran.md]]"
+    },
+    {
+      "entity_name": "hiroshi_tanaka",
+      "entity_file_path": "entities/hiroshi_tanaka.md",
+      "entity_file_content": "# Hiroshi Tanaka\n\n## Basic Information\n- **Type**: Person\n- **Position**: Graduate Student\n- **Specialization**: Gene Editing\n- **Years Of Experience**: 3\n- **Undergrad Degree**: Molecular Biology\n- **Hobbies**: Photography\n- **Published Papers**: 5\n- **Favorite Lab Equipment**: Microscope\n- **Hometown**: Kyoto, Japan\n- **Languages Spoken**: English, Japanese\n- **Work Ethic**: innovative and analytical\n- **Favorite Gene Sequence**: CRISPR-Cas9\n- **Dream Research Goal**: Cure genetic disorders\n\n## Relationships\n- **Collaborates_With**: [[raj_patel.md]]"
+    },
+    {
+      "entity_name": "crispr-cas9_retrofits",
+      "entity_file_path": "entities/crispr-cas9_retrofits.md",
+      "entity_file_content": "# CRISPR-Cas9 Retrofits\n\n## Basic Information\n- **Entity Type**: Research Project\n- **Type**: Entity\n- **Budget**: 150000\n- **Start Date**: 2022-09-01\n- **Lead Scientist**: Dr. Emily Zhang\n- **Primary Funding Source**: National Institutes of Health (NIH)\n- **Goal**: To enhance the precision of gene editing in plants\n- **Collaborating Labs**: Harvard Genetic Research Center, Stanford Plant Biology Lab\n- **Recent Findings**: Demonstrated 30% improvement in CRISPR efficiency for plant genes\n\n## Relationships\n- **Uses**: [[raj_patel.md]]"
+    }
+  ],
+  "mem_id": "memory_540988f1050644ffb735b5c127c05766"
+}

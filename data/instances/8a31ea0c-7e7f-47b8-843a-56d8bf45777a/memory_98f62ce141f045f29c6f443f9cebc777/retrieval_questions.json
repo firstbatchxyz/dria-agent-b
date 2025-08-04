@@ -1,0 +1,164 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "28"
+    },
+    {
+      "q": "What is my role in the restaurant?",
+      "a": "manager"
+    },
+    {
+      "q": "What is my education?",
+      "a": "MBA in Hospitality Management from Cornell University"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "painting"
+    },
+    {
+      "q": "What is my favorite dish?",
+      "a": "risotto alla Milanese"
+    },
+    {
+      "q": "What is my pet?",
+      "a": "calico cat named Luna"
+    },
+    {
+      "q": "What language do I speak?",
+      "a": "Italian"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of establishment do I manage?"
+      ],
+      "a": "Restaurant",
+      "attribute": "entity type=Restaurant",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What cuisine does the restaurant I manage serve?"
+      ],
+      "a": "Italian-American",
+      "attribute": "cuisine=Italian-American",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "Where is the restaurant I manage located?"
+      ],
+      "a": "Jersey City, NJ",
+      "attribute": "location=Jersey City, NJ",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What is the seating capacity of the restaurant I manage?"
+      ],
+      "a": "75",
+      "attribute": "seating capacity=75",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What year was the restaurant I manage established?"
+      ],
+      "a": "1985",
+      "attribute": "established year=1985",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What is the signature dish of the restaurant I manage?"
+      ],
+      "a": "Lobster Ravioli",
+      "attribute": "signature dish=Lobster Ravioli",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What is the average rating of the restaurant I manage?"
+      ],
+      "a": "4.5",
+      "attribute": "average rating=4.5",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What is the decor style of the restaurant I manage?"
+      ],
+      "a": "rustic Italian",
+      "attribute": "decor style=rustic Italian",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "What notable event does the restaurant I manage host?"
+      ],
+      "a": "Annual Festival of Lights Feast",
+      "attribute": "notable event=Annual Festival of Lights Feast",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": [
+        "Who owns the restaurant I manage?"
+      ],
+      "a": "Alessandra Pangorio",
+      "attribute": "owner=Alessandra Pangorio",
+      "path": "Sophia Pangorio -> Pangorio's Italian Restaurant"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of family that the restaurant I manage is located in?",
+      "a": "Family",
+      "attribute": "entity type=Family",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the founding year of the family that the restaurant I manage is located in?",
+      "a": "1978",
+      "attribute": "founding year=1978",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the family motto of the family that the restaurant I manage is located in?",
+      "a": "Una Famiglia, Un Sogno",
+      "attribute": "family motto=Una Famiglia, Un Sogno",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the current residence of the family that the restaurant I manage is located in?",
+      "a": "Montclair, New Jersey",
+      "attribute": "current residence=Montclair, New Jersey",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the notable tradition of the family that the restaurant I manage is located in?",
+      "a": "Weekly Sunday Dinner Gathering",
+      "attribute": "notable tradition=Weekly Sunday Dinner Gathering",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the ancestral origin of the family that the restaurant I manage is located in?",
+      "a": "Naples, Italy",
+      "attribute": "ancestral origin=Naples, Italy",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the charity involvement of the family that the restaurant I manage is located in?",
+      "a": "Annual Food Drive for Local Shelters",
+      "attribute": "charity involvement=Annual Food Drive for Local Shelters",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the family business legacy of the family that the restaurant I manage is located in?",
+      "a": "Passed down through three generations",
+      "attribute": "family business legacy=Passed down through three generations",
+      "path": "Sophia Pangorio - manages -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    }
+  ]
+}

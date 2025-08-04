@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my work experience information in the system - I actually have 12 years of experience now, not the 7 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Safety Supervisor\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Occupational Safety and Health (OSH)\n\n - **Language Proficiency**: Arabic, English\n\n - **Education**: BSc in Environmental Health and Safety\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 12 years of experience in the field has really shaped my expertise and allowed me to mentor so many junior colleagues.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Safety Supervisor\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Occupational Safety and Health (OSH)\n\n - **Language Proficiency**: Arabic, English\n\n - **Education**: BSc in Environmental Health and Safety\n\n"
+    },
+    {
+      "query": "I need to update my work schedule in the system - my work hours have changed from 7 AM - 5 PM to 9 AM - 6 PM due to a recent department restructuring.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Communication Style**: Detail-oriented\n\n - **Hobbies**: Reading, hiking\n\n - **Favorite Author**: Malcolm Gladwell\n\n-- **Work Hours**: 7 AM - 5 PM\n\n+- **Work Hours**: 9 AM - 6 PM\n\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new 9 AM - 6 PM schedule as it gives me more time in the morning for my personal routine and better aligns with our team's collaboration hours.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Communication Style**: Detail-oriented\n\n - **Hobbies**: Reading, hiking\n\n - **Favorite Author**: Malcolm Gladwell\n\n-- **Work Hours**: 7 AM - 5 PM\n\n+- **Work Hours**: 9 AM - 6 PM\n\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Safety Supervisor to Operations Manager last month.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Safety Supervisor\n\n+- **Role**: Operations Manager\n\n - **Years Of Experience**: 7\n\n - **Certifications**: Occupational Safety and Health (OSH)\n\n - **Language Proficiency**: Arabic, English\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Operations Manager, especially overseeing the entire facility operations and coordinating between different departments.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Safety Supervisor\n\n+- **Role**: Operations Manager\n\n - **Years Of Experience**: 7\n\n - **Certifications**: Occupational Safety and Health (OSH)\n\n - **Language Proficiency**: Arabic, English\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my professional oversight information - I'm no longer overseeing SteelRidge Safety Gear. I've transitioned to overseeing TitanShield Industrial Solutions instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n-- **Oversees**: [[steelridge_safety_gear.md]]\n+- **Oversees**: [[titanshield_industrial_solutions.md]]\n\n===entities/titanshield_industrial_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TitanShield Industrial Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[fatima_zayed.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new safety innovations we're implementing at TitanShield Industrial Solutions and how we're expanding our protective equipment line beyond what we offered at my previous company.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n-- **Oversees**: [[steelridge_safety_gear.md]]\n+- **Oversees**: [[titanshield_industrial_solutions.md]]\n\n===entities/titanshield_industrial_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TitanShield Industrial Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[fatima_zayed.md]]\n"
+    },
+    {
+      "query": "I need to update my company oversight information - I'm no longer overseeing SteelRidge Safety Gear, but have transitioned to overseeing TitanForge Industrial Solutions instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n-- **Oversees**: [[steelridge_safety_gear.md]]\n+- **Oversees**: [[titanforge_industrial_solutions.md]]\n\n===entities/titanforge_industrial_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TitanForge Industrial Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[fatima_zayed.md]]\n"
+    },
+    {
+      "query": "I've been really focused on streamlining operations at TitanForge Industrial Solutions and implementing new safety protocols across all our manufacturing divisions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Emergency Contact**: +971 50 123 4567\n\n \n\n ## Relationships\n\n-- **Oversees**: [[steelridge_safety_gear.md]]\n+- **Oversees**: [[titanforge_industrial_solutions.md]]\n\n===entities/titanforge_industrial_solutions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TitanForge Industrial Solutions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[fatima_zayed.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the project information for SteelRidge Safety Gear - we're no longer supplying equipment for SkyReach 2025, but have transitioned to providing safety gear for the AeroLink 2026 project instead.",
+      "diff": "===entities/steelridge_safety_gear.md===\n\n===entities/aerolink_2026.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AeroLink 2026\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: project\n\n+\n\n+## Relationships\n\n+- **Is_Used_For**: [[steelridge_safety_gear.md]]\n"
+    },
+    {
+      "query": "I'm excited about how SteelRidge Safety Gear has been performing with the AeroLink 2026 project - our safety equipment is proving to be exactly what this new aerospace initiative needed.",
+      "diff": "===entities/steelridge_safety_gear.md===\n\n===entities/aerolink_2026.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AeroLink 2026\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: project\n\n+\n\n+## Relationships\n\n+- **Is_Used_For**: [[steelridge_safety_gear.md]]\n"
+    }
+  ]
+}

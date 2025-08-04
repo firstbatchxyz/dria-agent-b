@@ -1,0 +1,26 @@
+{
+  "user_md": "# Aiden Fitzgerald\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Aiden\n- **Last Name**: Fitzgerald\n- **Business Name**: Gourmet Grub\n- **Specialty Cuisine**: Irish-American Fusion\n- **Years Experience**: 8\n- **Favorite Ingredient**: Thyme\n- **Has Chef Certification**: True\n- **Operating Area**: Midtown Manhattan\n- **Instagram Handle**: @GourmetGrubNYC\n- **Commissary Kitchen Role**: Equipment Manager\n- **Recent Award**: Innovative Cuisine Award 2022\n\n## Relationships\n- **Shares_Commissary_With**: [[maya_chen.md]]\n- **Hosts**: [[street_eats_fest.md]]\n- **Exchanges_Equipment_With**: [[sofia_delgado.md]]",
+  "entities": [
+    {
+      "entity_name": "maya_chen",
+      "entity_file_path": "entities/maya_chen.md",
+      "entity_file_content": "# Maya Chen\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Maya\n- **Last Name**: Chen\n- **Business Name**: Phoenix Bites\n- **Specialty Cuisine**: Southeast Asian Fusion\n- **Years Experience**: 5\n- **Favorite Ingredient**: Lemongrass\n- **Has Chef Certification**: True\n- **Operating Area**: Lower Manhattan\n- **Instagram Handle**: @PhoenixBitesNYC\n- **Commissary Kitchen Role**: Event Planner\n- **Recent Award**: Best New Food Truck 2023\n\n## Relationships\n- **Shares_Commissary_With**: [[aiden_fitzgerald.md]]"
+    },
+    {
+      "entity_name": "street_eats_fest",
+      "entity_file_path": "entities/street_eats_fest.md",
+      "entity_file_content": "# Street Eats Fest\n\n## Basic Information\n- **Entity Type**: Food Festival\n- **Type**: Entity\n- **Location**: Central Park, NYC\n- **Annual Event**: True\n- **Tent Count**: 50\n- **Main Sponsor**: NYC Food Lovers Association\n- **Start Date**: 2024-05-15\n- **End Date**: 2024-05-20\n- **Attendance**: 15000\n- **Website**: www.streeteatsfestnyc.com\n- **Environmental Policy**: Zero Waste Initiative\n\n## Relationships\n- **Hosts**: [[aiden_fitzgerald.md]]"
+    },
+    {
+      "entity_name": "sofia_delgado",
+      "entity_file_path": "entities/sofia_delgado.md",
+      "entity_file_content": "# Sofia Delgado\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Sofia\n- **Last Name**: Delgado\n- **Business Name**: Sofia's Tacos\n- **Specialty Cuisine**: Mexican Street Food\n- **Years Experience**: 6\n- **Favorite Ingredient**: Cilantro\n- **Has Chef Certification**: False\n- **Operating Area**: East Village\n- **Instagram Handle**: @SofiasTacosEV\n- **Commissary Kitchen Role**: Social Media Strategist\n- **Recent Award**: Best Street Tacos 2023\n- **Unique Fact**: Once served a taco to a famous actor while working in Los Angeles\n\n## Relationships\n- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]"
+    },
+    {
+      "entity_name": "imani_jones",
+      "entity_file_path": "entities/imani_jones.md",
+      "entity_file_content": "# Imani Jones\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Imani\n- **Last Name**: Jones\n- **Business Name**: Sweet Relief Crepes\n- **Specialty Cuisine**: French Crepes\n- **Years Experience**: 5\n- **Favorite Ingredient**: Nutella\n- **Has Chef Certification**: False\n- **Operating Area**: Lower Manhattan\n- **Instagram Handle**: @SweetReliefCrepesNY\n- **Commissary Kitchen Role**: Event Planner\n- **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n- **Recent Award**: Best Dessert Vendor 2024\n- **Has Side Hustle**: Pastry blog writer\n\n## Relationships\n- **Coordinates_At_Event**: [[sofia_delgado.md]]"
+    }
+  ],
+  "mem_id": "memory_37f46651ab74461f93b1ee685f9ed41f"
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Ingrid Nordstrom\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Maintenance Technician\n- **Age**: 37\n- **Education**: Degree in Mechanical Engineering\n- **Years Of Experience**: 15\n- **Certifications**: OSHA Safety Certification, Certified Maintenance and Reliability Professional (CMRP)\n- **Hobbies**: Gardening, Photography\n- **Favorite Tool**: PulseWrench\n- **Shift**: Night Shift\n- **Languages Spoken**: English, Swedish\n- **Recent Training**: Advanced Robotics Maintenance workshop\n- **Team**: Equipment Maintenance Crew\n- **City Of Residence**: Detroit, Michigan\n\n## Relationships\n- **Uses**: [[pulsewrench.md]]",
+  "entities": [
+    {
+      "entity_name": "pulsewrench",
+      "entity_file_path": "entities/pulsewrench.md",
+      "entity_file_content": "# PulseWrench\n\n## Basic Information\n- **Entity Type**: Power Tool\n- **Type**: Entity\n- **Power Rating**: 500 Watts\n- **Weight**: 1.2 kg\n- **Manufacturer**: TorquePro\n- **Model Year**: 2021\n- **Color**: Black and Yellow\n- **Available Modes**: Precision, Torque, Hammer\n- **Energy Source**: Lithium-ion Battery\n\n## Relationships\n- **Uses**: [[ingrid_nordstrom.md]]"
+    }
+  ],
+  "mem_id": "memory_fdf2d90f828a4cc99006ff3b900bf258"
+}

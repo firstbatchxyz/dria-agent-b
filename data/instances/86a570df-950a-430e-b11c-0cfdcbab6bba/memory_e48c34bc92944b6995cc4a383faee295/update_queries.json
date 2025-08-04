@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my occupation information in the system - I'm no longer working as a Livestock Manager, I've transitioned to being an Agricultural Technology Consultant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 45\n\n-- **Occupation**: Livestock Manager\n\n+- **Occupation**: Agricultural Technology Consultant\n\n - **Favorite Festival**: Diwali\n\n - **Hobbies**: Kite Flying, Organizing Wrestling Matches\n\n - **Family Members**: 6\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as an Agricultural Technology Consultant, helping farms integrate modern systems to improve their operations and sustainability practices.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 45\n\n-- **Occupation**: Livestock Manager\n\n+- **Occupation**: Agricultural Technology Consultant\n\n - **Favorite Festival**: Diwali\n\n - **Hobbies**: Kite Flying, Organizing Wrestling Matches\n\n - **Family Members**: 6\n\n"
+    },
+    {
+      "query": "I need to correct my family information in the system - we've grown from 6 family members to 8 family members after my sister and her husband joined our household.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Livestock Manager\n\n - **Favorite Festival**: Diwali\n\n - **Hobbies**: Kite Flying, Organizing Wrestling Matches\n\n-- **Family Members**: 6\n\n+- **Family Members**: 8\n\n - **Native Language**: Urdu\n\n - **Special Skill**: Animal Husbandry\n\n - **Community Role**: Community Mediator\n\n"
+    },
+    {
+      "query": "It's been wonderful having all 8 family members living together under one roof, especially during the recent celebrations where everyone could participate.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Occupation**: Livestock Manager\n\n - **Favorite Festival**: Diwali\n\n - **Hobbies**: Kite Flying, Organizing Wrestling Matches\n\n-- **Family Members**: 6\n\n+- **Family Members**: 8\n\n - **Native Language**: Urdu\n\n - **Special Skill**: Animal Husbandry\n\n - **Community Role**: Community Mediator\n\n"
+    },
+    {
+      "query": "I need to correct my education information in your records - I actually completed my Bachelor's degree in Computer Science, not just high school as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Special Skill**: Animal Husbandry\n\n - **Community Role**: Community Mediator\n\n - **Birthplace**: Ajmer, Rajasthan\n\n-- **Education Level**: High School Graduate\n\n+- **Education Level**: Bachelor's degree in Computer Science\n\n \n\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n"
+    },
+    {
+      "query": "I've been thinking about how my Bachelor's degree in Computer Science has really opened up career opportunities in the tech industry for me.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Special Skill**: Animal Husbandry\n\n - **Community Role**: Community Mediator\n\n - **Birthplace**: Ajmer, Rajasthan\n\n-- **Education Level**: High School Graduate\n\n+- **Education Level**: Bachelor's degree in Computer Science\n\n \n\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the information about my farming equipment - I'm no longer using The Livestock Pen, I've switched to using the Advanced Rotational Grazing System for managing my animals.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n-- **Uses**: [[the_livestock_pen.md]]\n\n-- **Assists During**: [[the_harvest_barn.md]]\n+- **Assists During**: [[the_harvest_barn.md]]\n\n+- **Uses**: [[advanced_rotational_grazing_system.md]]\n\n===entities/advanced_rotational_grazing_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Rotational Grazing System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: farming equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mohammed_hussain.md]]\n"
+    },
+    {
+      "query": "The Advanced Rotational Grazing System has been working wonderfully for my farm operations, providing much better animal welfare and pasture management than my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n-- **Uses**: [[the_livestock_pen.md]]\n\n-- **Assists During**: [[the_harvest_barn.md]]\n+- **Assists During**: [[the_harvest_barn.md]]\n\n+- **Uses**: [[advanced_rotational_grazing_system.md]]\n\n===entities/advanced_rotational_grazing_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Rotational Grazing System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: farming equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mohammed_hussain.md]]\n"
+    },
+    {
+      "query": "I need to update my volunteer information - I'm no longer assisting during The Harvest Barn events, but I've started helping out during the Community Garden Festival instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n - **Uses**: [[the_livestock_pen.md]]\n\n-- **Assists During**: [[the_harvest_barn.md]]\n+- **Assists During**: [[community_garden_festival.md]]\n\n===entities/community_garden_festival.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Garden Festival\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community event\n\n+\n\n+## Relationships\n\n+- **Assists During**: [[mohammed_hussain.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my volunteer work during the Community Garden Festival - it's been rewarding to help with the educational workshops and connecting people with sustainable gardening practices.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[rani_dholakia.md]]\n\n - **Uses**: [[the_livestock_pen.md]]\n\n-- **Assists During**: [[the_harvest_barn.md]]\n+- **Assists During**: [[community_garden_festival.md]]\n\n===entities/community_garden_festival.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Garden Festival\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community event\n\n+\n\n+## Relationships\n\n+- **Assists During**: [[mohammed_hussain.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

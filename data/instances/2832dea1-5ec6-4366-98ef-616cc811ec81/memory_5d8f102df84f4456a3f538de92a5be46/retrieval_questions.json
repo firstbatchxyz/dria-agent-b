@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "34"
+    },
+    {
+      "q": "What is my role at the farm?",
+      "a": "Sheep Shearer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my favorite pastime?",
+      "a": "Welsh folk singing"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Animal Husbandry Diploma"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Shearing Professional"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography"
+    },
+    {
+      "q": "What is my pet peeve?",
+      "a": "Slow tractors"
+    },
+    {
+      "q": "Do I have a dog?",
+      "a": "True"
+    },
+    {
+      "q": "What breed is my dog?",
+      "a": "Border Collie"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "Fastest shearer in the valley"
+    },
+    {
+      "q": "Where was I born?",
+      "a": "Aberystwyth, Wales"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization helps with my work?"
+      ],
+      "a": "Organization",
+      "attribute": "entity type=Organization",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What year was the organization that helps with my work founded?"
+      ],
+      "a": "2001",
+      "attribute": "founded year=2001",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What is the annual budget of the organization that helps with my work?"
+      ],
+      "a": "50000",
+      "attribute": "annual budget=50000",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "How many members does the organization that helps with my work have?"
+      ],
+      "a": "12",
+      "attribute": "number of members=12",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What is the primary goal of the organization that helps with my work?"
+      ],
+      "a": "Enhance lambing efficiency and neighborly cooperation",
+      "attribute": "primary goal=Enhance lambing efficiency and neighborly cooperation",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What special programs does the organization that helps with my work offer?"
+      ],
+      "a": "Lambing workshops for new farmers",
+      "attribute": "special programs=Lambing workshops for new farmers",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What is the legal structure of the organization that helps with my work?"
+      ],
+      "a": "Non-profit organization",
+      "attribute": "legal structure=Non-profit organization",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "How often does the organization that helps with my work meet?"
+      ],
+      "a": "Monthly",
+      "attribute": "meeting frequency=Monthly",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What communication method does the organization that helps with my work use?"
+      ],
+      "a": "Community bulletin board",
+      "attribute": "communication method=Community bulletin board",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    },
+    {
+      "q": [
+        "What is the volunteer participation level in the organization that helps with my work?"
+      ],
+      "a": "High",
+      "attribute": "volunteer participation=High",
+      "path": "Elinor Davies -> Lambing Season Co-op"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of place supports the co-op I help with?",
+      "a": "Farm",
+      "attribute": "entity type=Farm",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "Where is the farm located that supports the co-op I help with?",
+      "a": "Rural Wales",
+      "attribute": "location=Rural Wales",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "What is the specialty of the farm that supports the co-op I help with?",
+      "a": "Sheep Farming",
+      "attribute": "farm specialty=Sheep Farming",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "How many sheep does the farm have that supports the co-op I help with?",
+      "a": "750",
+      "attribute": "number of sheep=750",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "What is the size of the farm that supports the co-op I help with?",
+      "a": "500 acres",
+      "attribute": "area of farm=500 acres",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "When was the farm established that supports the co-op I help with?",
+      "a": "1908",
+      "attribute": "year established=1908",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "Which family owns the farm that supports the co-op I help with?",
+      "a": "Llewellyn",
+      "attribute": "proprietor family=Llewellyn",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "What notable events happen at the farm that supports the co-op I help with?",
+      "a": "Annual Sheep Shearing Festival",
+      "attribute": "notable events=Annual Sheep Shearing Festival",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "What are the main products of the farm that supports the co-op I help with?",
+      "a": "Wool, Lamb",
+      "attribute": "primary products=Wool, Lamb",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    },
+    {
+      "q": "True or false: Does the farm that supports the co-op I help with use sustainable farming practices?",
+      "a": "True",
+      "attribute": "sustainable farming practices=True",
+      "path": "Elinor Davies - helps with -> Lambing Season Co-op - supported by-> Llewellyn Family Farm"
+    }
+  ]
+}

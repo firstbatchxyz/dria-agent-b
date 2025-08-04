@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my safety record information in the system - I recently received a minor safety citation for improper equipment storage last month, so it's no longer accurate to say I have no violations in the past 5 years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Team**: Quality Assurance and Control\n\n - **Shift**: Day Shift\n\n - **Communication Skills**: Excellent\n\n-- **Safety Record**: No safety violations in the past 5 years\n\n+- **Safety Record**: One minor safety citation in the past year for improper equipment storage\n\n - **Special Projects**: Implemented a new quality inspection process that reduced defect rates by 12%\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been more careful about equipment organization since that minor safety citation I received last month for improper storage procedures.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Team**: Quality Assurance and Control\n\n - **Shift**: Day Shift\n\n - **Communication Skills**: Excellent\n\n-- **Safety Record**: No safety violations in the past 5 years\n\n+- **Safety Record**: One minor safety citation in the past year for improper equipment storage\n\n - **Special Projects**: Implemented a new quality inspection process that reduced defect rates by 12%\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my team assignment in the system - I've been transferred from Quality Assurance and Control to the Product Innovation team.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Education**: Bachelor's Degree in Industrial Engineering\n\n - **Certifications**: Certified Quality Engineer (CQE)\n\n - **Hobbies**: Gardening, Chess, Astronomy\n\n-- **Team**: Quality Assurance and Control\n\n+- **Team**: Product Innovation\n\n - **Shift**: Day Shift\n\n - **Communication Skills**: Excellent\n\n - **Safety Record**: No safety violations in the past 5 years\n\n"
+    },
+    {
+      "query": "I'm excited about the new challenges and opportunities that come with joining the Product Innovation team and working on cutting-edge development projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Education**: Bachelor's Degree in Industrial Engineering\n\n - **Certifications**: Certified Quality Engineer (CQE)\n\n - **Hobbies**: Gardening, Chess, Astronomy\n\n-- **Team**: Quality Assurance and Control\n\n+- **Team**: Product Innovation\n\n - **Shift**: Day Shift\n\n - **Communication Skills**: Excellent\n\n - **Safety Record**: No safety violations in the past 5 years\n\n"
+    },
+    {
+      "query": "I need to update my communication skills rating in the system - my communication abilities have improved significantly and should be rated as Outstanding rather than just Excellent.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Gardening, Chess, Astronomy\n\n - **Team**: Quality Assurance and Control\n\n - **Shift**: Day Shift\n\n-- **Communication Skills**: Excellent\n\n+- **Communication Skills**: Outstanding\n\n - **Safety Record**: No safety violations in the past 5 years\n\n - **Special Projects**: Implemented a new quality inspection process that reduced defect rates by 12%\n\n \n\n"
+    },
+    {
+      "query": "I've been getting great feedback lately on how my Outstanding communication skills have been helping bridge gaps between different teams during our project meetings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Gardening, Chess, Astronomy\n\n - **Team**: Quality Assurance and Control\n\n - **Shift**: Day Shift\n\n-- **Communication Skills**: Excellent\n\n+- **Communication Skills**: Outstanding\n\n - **Safety Record**: No safety violations in the past 5 years\n\n - **Special Projects**: Implemented a new quality inspection process that reduced defect rates by 12%\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the information about who I'm working with on quality testing - I'm no longer working with Angelica Quality Tester, but instead I'm now checking the work of Marcus Chen.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Reports_To**: [[leah_turner.md]]\n\n-- **Checks**: [[angelica_quality_tester.md]]\n+- **Checks**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Checks**: [[ravi_kumar.md]]\n"
+    },
+    {
+      "query": "I've been collaborating closely with Marcus Chen on our recent quality assurance processes, and his attention to detail has really impressed me during our check reviews.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Reports_To**: [[leah_turner.md]]\n\n-- **Checks**: [[angelica_quality_tester.md]]\n+- **Checks**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Checks**: [[ravi_kumar.md]]\n"
+    },
+    {
+      "query": "I need to update my supervision records - I'm no longer checking Angelica Quality Tester's work, but I've started checking Marcus Code Reviewer instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Reports_To**: [[leah_turner.md]]\n\n-- **Checks**: [[angelica_quality_tester.md]]\n+- **Checks**: [[marcus_code_reviewer.md]]\n\n===entities/marcus_code_reviewer.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Code Reviewer\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Checks**: [[ravi_kumar.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Marcus Code Reviewer lately, reviewing his analysis and ensuring our code quality standards are maintained.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Reports_To**: [[leah_turner.md]]\n\n-- **Checks**: [[angelica_quality_tester.md]]\n+- **Checks**: [[marcus_code_reviewer.md]]\n\n===entities/marcus_code_reviewer.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Code Reviewer\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Checks**: [[ravi_kumar.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,21 @@
+{
+  "user_md": "# Giovanni Pangorio\n\n## Basic Information\n- **Type**: Person\n- **Age**: 45\n- **Role At Restaurant**: Head Chef\n- **Favorite Dish To Cook**: Spaghetti Carbonara\n- **Hobby**: Gardening\n- **City Of Residence**: Hoboken, NJ\n- **Education**: Culinary Institute of America\n- **Personality Trait**: perfectionist\n- **Pet**: Golden Retriever named Bella\n\n## Relationships\n- **Sibling**: [[alessandra_pangorio.md]]\n- **Works_At**: [[pangorio's_italian_restaurant.md]]",
+  "entities": [
+    {
+      "entity_name": "alessandra_pangorio",
+      "entity_file_path": "entities/alessandra_pangorio.md",
+      "entity_file_content": "# Alessandra Pangorio\n\n## Basic Information\n- **Type**: Person\n- **Age**: 42\n- **Role At Restaurant**: Pastry Chef\n- **Favorite Dish To Make**: Tiramisu\n- **City Of Residence**: Jersey City, NJ\n- **Hobby**: Photography\n- **Education**: Savannah College of Art and Design\n- **Personality Trait**: creative\n- **Favorite Holiday**: Christmas\n- **Pet**: a Persian cat named Luna\n- **Favorite Italian Phrase**: La vita \u00e8 bella\n\n## Relationships\n- **Sibling**: [[giovanni_pangorio.md]]"
+    },
+    {
+      "entity_name": "pangorio's_italian_restaurant",
+      "entity_file_path": "entities/pangorio's_italian_restaurant.md",
+      "entity_file_content": "# Pangorio's Italian Restaurant\n\n## Basic Information\n- **Entity Type**: Restaurant\n- **Type**: Entity\n- **Cuisine**: Italian-American\n- **Location**: Jersey City, NJ\n- **Seating Capacity**: 75\n- **Established Year**: 1985\n- **Signature Dish**: Lobster Ravioli\n- **Average Rating**: 4.5\n- **Decor Style**: rustic Italian\n- **Notable Event**: Annual Festival of Lights Feast\n- **Owner**: Alessandra Pangorio\n- **Staff Specialty**: wine pairing expertise\n\n## Relationships\n- **Works_At**: [[giovanni_pangorio.md]]"
+    },
+    {
+      "entity_name": "the_pangorio_family",
+      "entity_file_path": "entities/the_pangorio_family.md",
+      "entity_file_content": "# The Pangorio Family\n\n## Basic Information\n- **Entity Type**: Family\n- **Type**: Entity\n- **Founding Year**: 1978\n- **Family Motto**: Una Famiglia, Un Sogno\n- **Current Residence**: Montclair, New Jersey\n- **Notable Tradition**: Weekly Sunday Dinner Gathering\n- **Ancestral Origin**: Naples, Italy\n- **Charity Involvement**: Annual Food Drive for Local Shelters\n- **Family Business Legacy**: Passed down through three generations\n\n## Relationships\n- **Located_In**: [[pangorio's_italian_restaurant.md]]"
+    }
+  ],
+  "mem_id": "memory_708adecfd678441fa5dd47554a1f144f"
+}

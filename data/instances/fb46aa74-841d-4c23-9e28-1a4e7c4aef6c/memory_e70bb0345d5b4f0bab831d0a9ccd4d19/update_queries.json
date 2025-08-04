@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience information - I now have 8 years of experience in my field, not the 5 years that's currently on record.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Quality Control Specialist\n\n - **Employee Id**: QC_1024\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certification**: ISO 9001 Internal Auditor\n\n - **Hobbies**: Photography, Hiking\n\n"
+    },
+    {
+      "query": "It's been quite a journey reaching 8 years of experience in my career, and I feel like I've really grown into my expertise over this time.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Quality Control Specialist\n\n - **Employee Id**: QC_1024\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certification**: ISO 9001 Internal Auditor\n\n - **Hobbies**: Photography, Hiking\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I recently earned my PMP (Project Management Professional) certification, replacing my previous ISO 9001 Internal Auditor certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Employee Id**: QC_1024\n\n - **Experience Years**: 5\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n-- **Certification**: ISO 9001 Internal Auditor\n\n+- **Certification**: PMP (Project Management Professional)\n\n - **Hobbies**: Photography, Hiking\n\n - **Language Spoken**: English, Japanese\n\n - **Shift**: Day Shift\n\n"
+    },
+    {
+      "query": "I've been applying the project management methodologies from my PMP certification to streamline our quality assurance processes at work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Employee Id**: QC_1024\n\n - **Experience Years**: 5\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n-- **Certification**: ISO 9001 Internal Auditor\n\n+- **Certification**: PMP (Project Management Professional)\n\n - **Hobbies**: Photography, Hiking\n\n - **Language Spoken**: English, Japanese\n\n - **Shift**: Day Shift\n\n"
+    },
+    {
+      "query": "I need to update my employee ID in the system - my current ID QC_1024 has been changed to QC_2048 following the recent departmental restructuring.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Quality Control Specialist\n\n-- **Employee Id**: QC_1024\n\n+- **Employee Id**: QC_2048\n\n - **Experience Years**: 5\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certification**: ISO 9001 Internal Auditor\n\n"
+    },
+    {
+      "query": "I'm having some trouble accessing the new employee portal with my updated ID QC_2048 - could you help me verify if all the system permissions have been transferred correctly?",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Quality Control Specialist\n\n-- **Employee Id**: QC_1024\n\n+- **Employee Id**: QC_2048\n\n - **Experience Years**: 5\n\n - **Education**: Bachelor's Degree in Mechanical Engineering\n\n - **Certification**: ISO 9001 Internal Auditor\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work setup information - I'm no longer using the QWERTY9000 Terminal and have switched to the new QuantumType Pro Terminal for my daily tasks.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Shift**: Day Shift\n\n \n\n ## Relationships\n\n-- **Uses**: [[qwerty9000_terminal.md]]\n+- **Uses**: [[quantumtype_pro_terminal.md]]\n\n===entities/quantumtype_pro_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumType Pro Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: computer terminal\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mika_sato.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with the performance improvements since switching to the QuantumType Pro Terminal - the processing speed and interface design make my workflow so much more efficient.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Shift**: Day Shift\n\n \n\n ## Relationships\n\n-- **Uses**: [[qwerty9000_terminal.md]]\n+- **Uses**: [[quantumtype_pro_terminal.md]]\n\n===entities/quantumtype_pro_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumType Pro Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: computer terminal\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mika_sato.md]]\n"
+    },
+    {
+      "query": "I need to update my terminal information in the system - I'm no longer using the QWERTY9000 Terminal, I've switched to the NeuroLink X7 Interface for my work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Shift**: Day Shift\n\n \n\n ## Relationships\n\n-- **Uses**: [[qwerty9000_terminal.md]]\n+- **Uses**: [[neurolink_x7_interface.md]]\n\n===entities/neurolink_x7_interface.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroLink X7 Interface\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: terminal\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mika_sato.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the NeuroLink X7 Interface has streamlined my workflow compared to traditional terminals - the neural connectivity features are game-changing.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Shift**: Day Shift\n\n \n\n ## Relationships\n\n-- **Uses**: [[qwerty9000_terminal.md]]\n+- **Uses**: [[neurolink_x7_interface.md]]\n\n===entities/neurolink_x7_interface.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroLink X7 Interface\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: terminal\n\n+\n\n+## Relationships\n\n+- **Uses**: [[mika_sato.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

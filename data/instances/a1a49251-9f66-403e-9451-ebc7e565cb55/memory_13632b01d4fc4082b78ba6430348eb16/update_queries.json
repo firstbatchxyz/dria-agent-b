@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my profile - my favorite sea creature is actually the Giant Pacific Octopus, not the Bowhead Whale as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: United States Naval Academy\n\n - **Leadership Award Received**: Naval Commendation Medal\n\n - **Preferred Call Sign**: \"Silver Shark\"\n\n-- **Favorite Sea Creature**: Bowhead Whale\n\n+- **Favorite Sea Creature**: Giant Pacific Octopus\n\n - **Infectious Disease Resistance**: True\n\n - **Speaks French**: True\n\n - **Has Diving Certification**: True\n\n"
+    },
+    {
+      "query": "During my latest deep-sea expedition, I was reminded why the Giant Pacific Octopus remains my favorite sea creature - their intelligence and adaptability in the ocean depths never cease to amaze me.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: United States Naval Academy\n\n - **Leadership Award Received**: Naval Commendation Medal\n\n - **Preferred Call Sign**: \"Silver Shark\"\n\n-- **Favorite Sea Creature**: Bowhead Whale\n\n+- **Favorite Sea Creature**: Giant Pacific Octopus\n\n - **Infectious Disease Resistance**: True\n\n - **Speaks French**: True\n\n - **Has Diving Certification**: True\n\n"
+    },
+    {
+      "query": "I need to correct my call sign in the system - my preferred call sign has changed from Silver Shark to Storm Eagle for operational reasons.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Recreational Hobby**: Underwater Photography\n\n - **Education**: United States Naval Academy\n\n - **Leadership Award Received**: Naval Commendation Medal\n\n-- **Preferred Call Sign**: \"Silver Shark\"\n\n+- **Preferred Call Sign**: Storm Eagle\n\n - **Favorite Sea Creature**: Bowhead Whale\n\n - **Infectious Disease Resistance**: True\n\n - **Speaks French**: True\n\n"
+    },
+    {
+      "query": "The crew has been adapting well to using my new call sign Storm Eagle during our recent missions, and it's really improved our tactical communications.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Recreational Hobby**: Underwater Photography\n\n - **Education**: United States Naval Academy\n\n - **Leadership Award Received**: Naval Commendation Medal\n\n-- **Preferred Call Sign**: \"Silver Shark\"\n\n+- **Preferred Call Sign**: Storm Eagle\n\n - **Favorite Sea Creature**: Bowhead Whale\n\n - **Infectious Disease Resistance**: True\n\n - **Speaks French**: True\n\n"
+    },
+    {
+      "query": "I need to update my marital status in the system - I'm recently divorced, no longer married as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Speaks French**: True\n\n - **Has Diving Certification**: True\n\n - **Emergency Response Training Year**: 2010\n\n-- **Marital Status**: Married\n\n+- **Marital Status**: Divorced\n\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n"
+    },
+    {
+      "query": "Life has been quite an adjustment since my divorce, but I'm focusing on my naval duties and finding strength in my independence.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Speaks French**: True\n\n - **Has Diving Certification**: True\n\n - **Emergency Response Training Year**: 2010\n\n-- **Marital Status**: Married\n\n+- **Marital Status**: Divorced\n\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the information about my current oversight responsibilities - I'm no longer overseeing the SNX-750 Reactor Core as I've been reassigned to manage the Titan-Class Defense Grid instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n-- **Oversees**: [[sonar_suite_omega-3.md]]\n\n+- **Oversees**: [[titan-class_defense_grid.md]]\n\n - **Shares_Quarters_With**: [[first_officer_marcus_tideswell.md]]\n\n===entities/titan-class_defense_grid.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan-Class Defense Grid\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: defense system\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_amelia_stern.md]]\n"
+    },
+    {
+      "query": "The transition from reactor management to overseeing the Titan-Class Defense Grid has been challenging but rewarding, especially given its critical role in our station's security protocols.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n-- **Oversees**: [[sonar_suite_omega-3.md]]\n\n+- **Oversees**: [[titan-class_defense_grid.md]]\n\n - **Shares_Quarters_With**: [[first_officer_marcus_tideswell.md]]\n\n===entities/titan-class_defense_grid.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan-Class Defense Grid\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: defense system\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_amelia_stern.md]]\n"
+    },
+    {
+      "query": "I need to update the equipment I'm overseeing - I'm no longer managing the Sonar Suite Omega-3, but have been reassigned to oversee the Advanced Navigation Array Delta-7.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n-- **Oversees**: [[sonar_suite_omega-3.md]]\n\n+- **Oversees**: [[advanced_navigation_array_delta-7.md]]\n\n - **Shares_Quarters_With**: [[first_officer_marcus_tideswell.md]]\n\n===entities/advanced_navigation_array_delta-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Navigation Array Delta-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: navigation system\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_amelia_stern.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the Advanced Navigation Array Delta-7's capabilities and I'm impressed with its precision tracking systems compared to our previous sonar equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,5 +19,5 @@\n \n\n ## Relationships\n\n - **Commands**: [[uss_poseidon.md]]\n\n-- **Oversees**: [[sonar_suite_omega-3.md]]\n\n+- **Oversees**: [[advanced_navigation_array_delta-7.md]]\n\n - **Shares_Quarters_With**: [[first_officer_marcus_tideswell.md]]\n\n===entities/advanced_navigation_array_delta-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Navigation Array Delta-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: navigation system\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[captain_amelia_stern.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the records about Marcus - he's no longer overseeing the Navigation Control Hub. He's been reassigned to oversee the Stellar Communications Array instead.",
+      "diff": "===entities/first_officer_marcus_tideswell.md===\n\n===entities/stellar_communications_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Stellar Communications Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communications facility\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[first_officer_marcus_tideswell.md]]\n"
+    },
+    {
+      "query": "Marcus has been doing excellent work since taking charge of the Stellar Communications Array. His expertise is really showing in how smoothly our long-range communications have been running.",
+      "diff": "===entities/first_officer_marcus_tideswell.md===\n\n===entities/stellar_communications_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Stellar Communications Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communications facility\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[first_officer_marcus_tideswell.md]]\n"
+    }
+  ]
+}

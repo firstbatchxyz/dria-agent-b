@@ -1,0 +1,44 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Warrant Officer"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Aviation Maintenance"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "15"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Ft. Worth, Texas"
+    },
+    {
+      "q": "What is my favorite aircraft?",
+      "a": "AH-64 Apache"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Model Airplane Building"
+    },
+    {
+      "q": "What is my call sign?",
+      "a": "Skyfix"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What recent award did I receive?",
+      "a": "Army Aviation Association of America Maintenance Management Award"
+    },
+    {
+      "q": "What training have I completed?",
+      "a": "Advanced Leadership Course"
+    }
+  ]
+}

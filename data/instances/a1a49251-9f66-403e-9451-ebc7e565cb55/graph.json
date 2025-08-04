@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Captain Amelia Stern",
+      "type": "Person",
+      "full_name": "Captain Amelia Maria Stern",
+      "rank": "Captain",
+      "years_of_service": 18,
+      "specialization": "Nuclear Engineering",
+      "hometown": "San Diego, California",
+      "recreational_hobby": "Underwater Photography",
+      "education": "United States Naval Academy",
+      "leadership_award_received": "Naval Commendation Medal",
+      "preferred_call_sign": "\"Silver Shark\"",
+      "favorite_sea_creature": "Bowhead Whale",
+      "infectious_disease_resistance": true,
+      "speaks_french": true,
+      "has_diving_certification": true,
+      "emergency_response_training_year": 2010,
+      "marital_status": "Married"
+    },
+    {
+      "id": "p2",
+      "name": "First Officer Marcus Tideswell",
+      "type": "Person",
+      "full_name": "Marcus Andrew Tideswell",
+      "rank": "First Officer",
+      "years_of_service": 12,
+      "specialization": "Marine Navigation",
+      "hometown": "Norfolk, Virginia",
+      "recreational_hobby": "Ocean Sailing",
+      "education": "United States Merchant Marine Academy",
+      "leadership_award_received": "Navy and Marine Corps Achievement Medal",
+      "preferred_call_sign": "Navigator",
+      "favorite_sea_creature": "Blue Whale",
+      "infectious_disease_resistance": false,
+      "speaks_french": false,
+      "has_diving_certification": true,
+      "emergency_response_training_year": 2012,
+      "marital_status": "Single"
+    },
+    {
+      "id": "p3",
+      "name": "Chief Engineer Lucy Kowalski",
+      "type": "Person",
+      "full_name": "Lucy Ann Kowalski",
+      "rank": "Lieutenant Commander",
+      "age": 34,
+      "years_of_service": 12,
+      "education": "M.Sc. in Nuclear Engineering from the Naval Postgraduate School",
+      "hometown": "Seattle, Washington",
+      "languages_spoken": "English, Polish",
+      "hobbies": "Deep-sea diving, Astronomy",
+      "height": 168.5,
+      "favorite_food": "Sushi",
+      "leadership_style": "Collaborative"
+    },
+    {
+      "id": "p4",
+      "name": "Sonar Technician Peter Caldwell",
+      "type": "Person",
+      "full_name": "Peter James Caldwell",
+      "rank": "Petty Officer Second Class",
+      "age": 28,
+      "years_of_service": 7,
+      "education": "B.Sc. in Marine Technology",
+      "hometown": "San Diego, California",
+      "languages_spoken": "English, Spanish",
+      "hobbies": "Underwater Photography, Chess",
+      "height": 175.3,
+      "favorite_food": "Tacos",
+      "special_skill": "Expert in acoustic data interpretation",
+      "quirk": "Always carries a lucky charm, a small carved fish"
+    },
+    {
+      "id": "p5",
+      "name": "Cook Ellie Summers",
+      "type": "Person",
+      "full_name": "Ellie Marie Summers",
+      "age": 29,
+      "years_of_service": 7,
+      "hometown": "San Diego, California",
+      "specialty_cuisine": "Italian",
+      "culinary_school": "Le Cordon Bleu College of Culinary Arts, San Francisco",
+      "languages_spoken": "English, Spanish",
+      "hobbies": "Painting, Yoga",
+      "favorite_ingredient": "Basil",
+      "signature_dish": "Lemon Garlic Shrimp Pasta"
+    },
+    {
+      "id": "e1",
+      "name": "USS Poseidon",
+      "entity_type": "Submarine",
+      "type": "Entity",
+      "commission_year": 2008,
+      "displacement": "7,800 tons",
+      "length": 115.0,
+      "crew_capacity": 134,
+      "armament": "Torpedoes, Tomahawk missiles",
+      "max_depth": "800 feet",
+      "hull_material": "HY-130 steel",
+      "home_port": "Naval Base Kitsap",
+      "mission_duration": "Up to 90 days"
+    },
+    {
+      "id": "e2",
+      "name": "Sonar Suite Omega-3",
+      "entity_type": "Sonar System",
+      "type": "Entity",
+      "model": "Omega-3",
+      "manufacturer": "AquaTech Industries",
+      "maximum_range": 500,
+      "operational_depth_limit": 600,
+      "installation_date": "2022-08-15",
+      "maintenance_cycle": "bi-annually",
+      "energy_source": "Nuclear-powered auxiliary",
+      "primary_function": "Anti-submarine warfare detection",
+      "sensor_type": "Active and passive sonar arrays",
+      "upgrade_status": "Firmware updated in 2023"
+    },
+    {
+      "id": "e3",
+      "name": "SNX-750 Reactor Core",
+      "entity_type": "Nuclear Reactor",
+      "type": "Entity",
+      "model_number": "SNX-750",
+      "operational_since": 2010,
+      "last_maintenance_date": "2023-06-15",
+      "location_within_submarine": "Reactor Control Room",
+      "safety_rating": "High",
+      "current_output_mw": 120,
+      "cooling_system_type": "Pressurized Water Reactor",
+      "manufacturer": "Marine Nuclear Solutions Inc.",
+      "fuel_type": "Highly Enriched Uranium (HEU)"
+    },
+    {
+      "id": "e4",
+      "name": "Navigation Control Hub",
+      "entity_type": "Navigation Equipment",
+      "type": "Entity",
+      "navigation_system_model": "AquaMap 3000",
+      "installed_year": 2010,
+      "maintenance_cycle": "Biannual",
+      "primary_function": "Course plotting and monitoring",
+      "backup_power_source": "Lithium-Ion Battery Pack",
+      "software_version": "2.5.3",
+      "operational_language": "English",
+      "safety_certification": true
+    },
+    {
+      "id": "e5",
+      "name": "Galley Alpha-8",
+      "entity_type": "Mess Facility",
+      "type": "Entity",
+      "capacity": 50,
+      "location": "Deck 2, Section B",
+      "daily_meals_served": 150,
+      "equipments_available": "combi oven, industrial blender, walk-in cooler",
+      "operational_hours": "24/7",
+      "specialty_dish": "Pacific Rim Salad",
+      "recent_upgrade_date": "2023-05-14",
+      "safety_certification": "Certified by Nautical Safety Council 2023"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "commands",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "oversees",
+      "o": "e3"
+    },
+    {
+      "s": "p1",
+      "p": "oversees",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "shares_quarters_with",
+      "o": "p2"
+    },
+    {
+      "s": "p2",
+      "p": "assists_in_commanding",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "oversees",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "maintains",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "supervises",
+      "o": "p4"
+    },
+    {
+      "s": "p3",
+      "p": "shares_quarters_with",
+      "o": "p5"
+    },
+    {
+      "s": "p4",
+      "p": "operates",
+      "o": "e2"
+    },
+    {
+      "s": "p5",
+      "p": "manages",
+      "o": "e5"
+    },
+    {
+      "s": "p5",
+      "p": "cooks_for",
+      "o": "e1"
+    }
+  ]
+}

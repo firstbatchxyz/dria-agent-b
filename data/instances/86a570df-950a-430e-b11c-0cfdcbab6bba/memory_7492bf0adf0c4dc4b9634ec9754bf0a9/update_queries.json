@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my nickname in the system - people have been calling me Masterji instead of Bauji lately, and I'd like that reflected in my records.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: kite flying\n\n - **Preferred Crop**: wheat\n\n - **Member Of Village Council**: True\n\n-- **Nickname**: Bauji\n\n+- **Nickname**: Masterji\n\n \n\n ## Relationships\n\n - **Assists With**: [[the_harvest_barn.md]]\n\n"
+    },
+    {
+      "query": "My students and colleagues have started addressing me as Masterji, which feels more appropriate given my teaching role in the community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: kite flying\n\n - **Preferred Crop**: wheat\n\n - **Member Of Village Council**: True\n\n-- **Nickname**: Bauji\n\n+- **Nickname**: Masterji\n\n \n\n ## Relationships\n\n - **Assists With**: [[the_harvest_barn.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my age in the system - I'm actually 45 years old now, not 42 as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 42\n\n+- **Age**: 45\n\n - **Profession**: farmer\n\n - **Special Skill**: artisan pottery maker\n\n - **Favorite Festival**: Diwali\n\n"
+    },
+    {
+      "query": "Now that I'm 45, I've been thinking about how much my perspective on life has changed over the past few years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 42\n\n+- **Age**: 45\n\n - **Profession**: farmer\n\n - **Special Skill**: artisan pottery maker\n\n - **Favorite Festival**: Diwali\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from kite flying and now I'm really into drone photography as my main hobby.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Festival**: Diwali\n\n - **Family**: two children and a spouse\n\n - **Education Level**: high school diploma\n\n-- **Hobby**: kite flying\n\n+- **Hobby**: drone photography\n\n - **Preferred Crop**: wheat\n\n - **Member Of Village Council**: True\n\n - **Nickname**: Bauji\n\n"
+    },
+    {
+      "query": "I've been spending most of my weekends doing drone photography lately, capturing some amazing aerial shots of the countryside and local festivals.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Festival**: Diwali\n\n - **Family**: two children and a spouse\n\n - **Education Level**: high school diploma\n\n-- **Hobby**: kite flying\n\n+- **Hobby**: drone photography\n\n - **Preferred Crop**: wheat\n\n - **Member Of Village Council**: True\n\n - **Nickname**: Bauji\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work information - I'm no longer assisting with The Harvest Barn, I've moved on to help with Green Valley Community Garden instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Nickname**: Bauji\n\n \n\n ## Relationships\n\n-- **Assists With**: [[the_harvest_barn.md]]\n\n-- **Shares Responsibility For**: [[the_community_well.md]]\n+- **Shares Responsibility For**: [[the_community_well.md]]\n\n+- **Assists With**: [[green_valley_community_garden.md]]\n\n===entities/green_valley_community_garden.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Community Garden\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community organization\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[shivlal_meena.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role assisting with Green Valley Community Garden - it's been rewarding to help them expand their sustainable farming initiatives.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Nickname**: Bauji\n\n \n\n ## Relationships\n\n-- **Assists With**: [[the_harvest_barn.md]]\n\n-- **Shares Responsibility For**: [[the_community_well.md]]\n+- **Shares Responsibility For**: [[the_community_well.md]]\n\n+- **Assists With**: [[green_valley_community_garden.md]]\n\n===entities/green_valley_community_garden.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Community Garden\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community organization\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[shivlal_meena.md]]\n"
+    },
+    {
+      "query": "I need to update the information about my community responsibilities - I'm no longer sharing responsibility for The Community Well, but I've taken on shared responsibility for the Village Solar Project instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Assists With**: [[the_harvest_barn.md]]\n\n-- **Shares Responsibility For**: [[the_community_well.md]]\n+- **Shares Responsibility For**: [[village_solar_project.md]]\n\n===entities/village_solar_project.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Village Solar Project\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community infrastructure project\n\n+\n\n+## Relationships\n\n+- **Shares Responsibility For**: [[shivlal_meena.md]]\n"
+    },
+    {
+      "query": "I've been working closely with other community members on the Village Solar Project, and it's been rewarding to share responsibility for this important renewable energy initiative that will benefit our entire village.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Assists With**: [[the_harvest_barn.md]]\n\n-- **Shares Responsibility For**: [[the_community_well.md]]\n+- **Shares Responsibility For**: [[village_solar_project.md]]\n\n===entities/village_solar_project.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Village Solar Project\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community infrastructure project\n\n+\n\n+## Relationships\n\n+- **Shares Responsibility For**: [[shivlal_meena.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,44 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Specialist"
+    },
+    {
+      "q": "What is my age?",
+      "a": "26"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Communications Technician"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "4"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Los Angeles, California"
+    },
+    {
+      "q": "What are my language skills?",
+      "a": "Japanese"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Associate Degree in Information Technology"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Amateur Radio, Hiking"
+    },
+    {
+      "q": "What is my recent achievement?",
+      "a": "Developed a new encrypted communication protocol for field operations"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Sushi"
+    }
+  ]
+}

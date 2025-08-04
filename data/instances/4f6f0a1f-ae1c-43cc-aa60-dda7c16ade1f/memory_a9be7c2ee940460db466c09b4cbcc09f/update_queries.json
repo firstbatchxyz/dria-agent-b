@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobbies in the system - I've stopped painting and picked up rock climbing instead, so it should be hiking and rock climbing now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n - **Hometown**: Denver, Colorado\n\n-- **Hobbies**: hiking and painting\n\n+- **Hobbies**: hiking and rock climbing\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n - **Education Background**: completed high school\n\n"
+    },
+    {
+      "query": "Been really enjoying my weekends lately with hiking and rock climbing - there's something amazing about conquering a challenging route after a good mountain hike.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n - **Hometown**: Denver, Colorado\n\n-- **Hobbies**: hiking and painting\n\n+- **Hobbies**: hiking and rock climbing\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n - **Education Background**: completed high school\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the records - I've moved away from hiking and painting, and now I'm really into photography and rock climbing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n - **Hometown**: Denver, Colorado\n\n-- **Hobbies**: hiking and painting\n\n+- **Hobbies**: photography and rock climbing\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n - **Education Background**: completed high school\n\n"
+    },
+    {
+      "query": "Been spending all my free time lately with my new hobbies of photography and rock climbing - it's amazing how much these activities help me unwind after long training sessions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n - **Hometown**: Denver, Colorado\n\n-- **Hobbies**: hiking and painting\n\n+- **Hobbies**: photography and rock climbing\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n - **Education Background**: completed high school\n\n"
+    },
+    {
+      "query": "I need to update my hometown information in the records - I'm actually from Boulder, Colorado, not Denver as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Private First Class\n\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n-- **Hometown**: Denver, Colorado\n\n+- **Hometown**: Boulder, Colorado\n\n - **Hobbies**: hiking and painting\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n"
+    },
+    {
+      "query": "Growing up in Boulder, Colorado really shaped my appreciation for the outdoors and mountain lifestyle before joining the military.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Private First Class\n\n - **Specialty**: infantry sharpshooter\n\n - **Years Of Service**: 3\n\n-- **Hometown**: Denver, Colorado\n\n+- **Hometown**: Boulder, Colorado\n\n - **Hobbies**: hiking and painting\n\n - **Favorite Weapon**: M4 Carbine\n\n - **Dream Posting**: Hawaii\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

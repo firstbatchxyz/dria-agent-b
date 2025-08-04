@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "farmer"
+    },
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my family size?",
+      "a": "5"
+    },
+    {
+      "q": "What is my primary crop?",
+      "a": "maize"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "kite flying"
+    },
+    {
+      "q": "What is my community role?",
+      "a": "local water management committee member"
+    },
+    {
+      "q": "What is my favorite festival?",
+      "a": "Holi"
+    },
+    {
+      "q": "What is my educational level?",
+      "a": "primary school"
+    },
+    {
+      "q": "What is my tractor experience?",
+      "a": "10"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of machinery do I share?"
+      ],
+      "a": "Machinery",
+      "attribute": "entity type=Machinery",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What is the brand of the tractor I share?"
+      ],
+      "a": "Mahindra",
+      "attribute": "brand=Mahindra",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What is the model of the tractor I share?"
+      ],
+      "a": "6054P",
+      "attribute": "model=6054P",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What year was the tractor I share purchased?"
+      ],
+      "a": "2018",
+      "attribute": "year of purchase=2018",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What fuel type does the tractor I share use?"
+      ],
+      "a": "diesel",
+      "attribute": "fuel type=diesel",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "How frequently is the tractor I share serviced?"
+      ],
+      "a": "quarterly",
+      "attribute": "service frequency=quarterly",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What color is the tractor I share?"
+      ],
+      "a": "red",
+      "attribute": "color=red",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What type of tires does the tractor I share have?"
+      ],
+      "a": "off-road",
+      "attribute": "tire type=off-road",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "What is the primary use of the tractor I share?"
+      ],
+      "a": "ploughing",
+      "attribute": "primary use=ploughing",
+      "path": "Ganpat Singh -> The Village Tractor"
+    },
+    {
+      "q": [
+        "When was the tractor I share last serviced?"
+      ],
+      "a": "2023-08-15",
+      "attribute": "last serviced date=2023-08-15",
+      "path": "Ganpat Singh -> The Village Tractor"
+    }
+  ]
+}

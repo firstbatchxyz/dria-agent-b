@@ -1,0 +1,94 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Cardiologist"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "Where did I receive my education?",
+      "a": "Stanford University School of Medicine"
+    },
+    {
+      "q": "Am I board certified?",
+      "a": "True"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Electrophysiology"
+    },
+    {
+      "q": "What floor is my office on?",
+      "a": "3"
+    },
+    {
+      "q": "What is my patient satisfaction score?",
+      "a": "4.8"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "15"
+    },
+    {
+      "q": "What are my professional associations?",
+      "a": "American College of Cardiology"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Hiking"
+    },
+    {
+      "q": "What is my volunteer experience?",
+      "a": "M\u00e9decins Sans Fronti\u00e8res"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of medical equipment do I use?"
+      ],
+      "a": "Medical Equipment",
+      "attribute": "entity type=Medical Equipment",
+      "path": "Dr. Sarah Thompson -> Heart Monitor"
+    },
+    {
+      "q": [
+        "What brand is the heart monitor I use?"
+      ],
+      "a": "MediPulse",
+      "attribute": "brand=MediPulse",
+      "path": "Dr. Sarah Thompson -> Heart Monitor"
+    },
+    {
+      "q": [
+        "What is the model number of the heart monitor I use?"
+      ],
+      "a": "MP2023",
+      "attribute": "model number=MP2023",
+      "path": "Dr. Sarah Thompson -> Heart Monitor"
+    },
+    {
+      "q": [
+        "When did I purchase the heart monitor I use?"
+      ],
+      "a": "2021-03-15",
+      "attribute": "purchased date=2021-03-15",
+      "path": "Dr. Sarah Thompson -> Heart Monitor"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule for the heart monitor I use?"
+      ],
+      "a": "Bi-annually",
+      "attribute": "maintenance schedule=Bi-annually",
+      "path": "Dr. Sarah Thompson -> Heart Monitor"
+    }
+  ]
+}

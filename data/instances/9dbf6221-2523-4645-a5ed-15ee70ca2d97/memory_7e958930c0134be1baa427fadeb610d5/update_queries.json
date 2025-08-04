@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my meditation practice information in the system - I've transitioned from Zen Meditation to specializing in Mindfulness-Based Stress Reduction (MBSR) techniques.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Meditation Specialty**: Zen Meditation\n\n+- **Meditation Specialty**: Mindfulness-Based Stress Reduction\n\n - **Favorite Mantra**: Om Mani Padme Hum\n\n - **Years At Monastery**: 15\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n"
+    },
+    {
+      "query": "I've been finding great fulfillment in my work with Mindfulness-Based Stress Reduction, as it allows me to help people integrate contemplative practices into their daily lives in very practical ways.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Meditation Specialty**: Zen Meditation\n\n+- **Meditation Specialty**: Mindfulness-Based Stress Reduction\n\n - **Favorite Mantra**: Om Mani Padme Hum\n\n - **Years At Monastery**: 15\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n"
+    },
+    {
+      "query": "I need to correct my records - I've actually been at the monastery for 18 years now, not 15 years as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Meditation Specialty**: Zen Meditation\n\n - **Favorite Mantra**: Om Mani Padme Hum\n\n-- **Years At Monastery**: 15\n\n+- **Years At Monastery**: 18\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n - **Known For**: storytelling\n\n \n\n"
+    },
+    {
+      "query": "After 18 years of dedicated service at this monastery, I feel deeply grateful for the spiritual growth and wisdom I've gained through my practice and teaching.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Meditation Specialty**: Zen Meditation\n\n - **Favorite Mantra**: Om Mani Padme Hum\n\n-- **Years At Monastery**: 15\n\n+- **Years At Monastery**: 18\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n - **Known For**: storytelling\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my spiritual practice information - my favorite mantra has changed from Om Mani Padme Hum to Om Tare Tuttare Ture Soha, which I've been reciting daily.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Meditation Specialty**: Zen Meditation\n\n-- **Favorite Mantra**: Om Mani Padme Hum\n\n+- **Favorite Mantra**: Om Tare Tuttare Ture Soha\n\n - **Years At Monastery**: 15\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n - **Known For**: storytelling\n\n"
+    },
+    {
+      "query": "I've been finding such peace and guidance through my daily recitation of Om Tare Tuttare Ture Soha, especially during our morning meditation sessions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Meditation Specialty**: Zen Meditation\n\n-- **Favorite Mantra**: Om Mani Padme Hum\n\n+- **Favorite Mantra**: Om Tare Tuttare Ture Soha\n\n - **Years At Monastery**: 15\n\n - **Culinary Specialty**: Tibetan Tsampa\n\n - **Known For**: storytelling\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I'm maintaining here at the monastery - I'm no longer responsible for the Ancient Manuscripts of Enlightenment, but have been entrusted with the Sacred Meditation Bells collection instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -9,5 +9,5 @@\n - **Known For**: storytelling\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ancient_manuscripts_of_enlightenment.md]]\n\n-- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n+- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n\n+- **Maintains**: [[sacred_meditation_bells.md]]\n\n===entities/sacred_meditation_bells.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Meditation Bells\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: religious artifacts\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[sister_pema.md]]\n"
+    },
+    {
+      "query": "I've been spending my mornings carefully polishing and tuning the Sacred Meditation Bells, ensuring each one resonates with the perfect tone for our daily prayer sessions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -9,5 +9,5 @@\n - **Known For**: storytelling\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ancient_manuscripts_of_enlightenment.md]]\n\n-- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n+- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n\n+- **Maintains**: [[sacred_meditation_bells.md]]\n\n===entities/sacred_meditation_bells.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Meditation Bells\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: religious artifacts\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[sister_pema.md]]\n"
+    },
+    {
+      "query": "I need to update where I prepare meals - I've moved from The Eternal Flame Kitchen to the Sacred Heart Community Center where I now serve our daily meals.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[ancient_manuscripts_of_enlightenment.md]]\n\n-- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n+- **Prepares Meals At**: [[sacred_heart_community_center.md]]\n\n===entities/sacred_heart_community_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Heart Community Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community center\n\n+\n\n+## Relationships\n\n+- **Prepares Meals At**: [[sister_pema.md]]\n"
+    },
+    {
+      "query": "It's been wonderful preparing nutritious meals for our community members here at the Sacred Heart Community Center, where I can reach even more people in need.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[ancient_manuscripts_of_enlightenment.md]]\n\n-- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]\n+- **Prepares Meals At**: [[sacred_heart_community_center.md]]\n\n===entities/sacred_heart_community_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Heart Community Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community center\n\n+\n\n+## Relationships\n\n+- **Prepares Meals At**: [[sister_pema.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

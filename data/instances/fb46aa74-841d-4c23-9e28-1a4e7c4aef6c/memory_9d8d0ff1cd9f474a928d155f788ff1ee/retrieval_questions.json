@@ -1,0 +1,86 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Quality Control Manager"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Industrial Engineering"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "Certified Quality Engineer (CQE)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening, Chess, Astronomy"
+    },
+    {
+      "q": "Which team do I work with?",
+      "a": "Quality Assurance and Control"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Day Shift"
+    },
+    {
+      "q": "How would you describe my communication skills?",
+      "a": "Excellent"
+    },
+    {
+      "q": "What is my safety record?",
+      "a": "No safety violations in the past 5 years"
+    },
+    {
+      "q": "What special projects have I worked on?",
+      "a": "Implemented a new quality inspection process that reduced defect rates by 12%"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment that I check?"
+      ],
+      "a": "Quality Control Equipment",
+      "attribute": "entity type=Quality Control Equipment",
+      "path": "Ravi Kumar -> Angelica Quality Tester"
+    },
+    {
+      "q": [
+        "What is the function of the equipment that I check?"
+      ],
+      "a": "detect and report product defects",
+      "attribute": "function=detect and report product defects",
+      "path": "Ravi Kumar -> Angelica Quality Tester"
+    },
+    {
+      "q": [
+        "What is the software version of the equipment that I check?"
+      ],
+      "a": "2.3.7",
+      "attribute": "software version=2.3.7",
+      "path": "Ravi Kumar -> Angelica Quality Tester"
+    },
+    {
+      "q": [
+        "What is the installation date of the equipment that I check?"
+      ],
+      "a": "2021-08-15",
+      "attribute": "installation date=2021-08-15",
+      "path": "Ravi Kumar -> Angelica Quality Tester"
+    },
+    {
+      "q": [
+        "What is the last service date of the equipment that I check?"
+      ],
+      "a": "2023-01-20",
+      "attribute": "last service date=2023-01-20",
+      "path": "Ravi Kumar -> Angelica Quality Tester"
+    }
+  ]
+}

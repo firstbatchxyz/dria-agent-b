@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "46"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Manager"
+    },
+    {
+      "q": "What is my expertise?",
+      "a": "Cattle Ranching and Management"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Bachelor's Degree in Agriculture"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Helicopter Flying, Animal Care"
+    },
+    {
+      "q": "What is my favorite animal?",
+      "a": "Australian Cattle Dog"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Alice Springs, Northern Territory"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Basic Aboriginal Dialects"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "20"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Helicopter navigation, Water resource management, Satphone communication"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of location is the cattle station I manage?"
+      ],
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the area size of the cattle station I manage?"
+      ],
+      "a": "2500 square kilometers",
+      "attribute": "area size=2500 square kilometers",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What year was the cattle station I manage established?"
+      ],
+      "a": "1956",
+      "attribute": "established year=1956",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the primary breed at the cattle station I manage?"
+      ],
+      "a": "Hereford",
+      "attribute": "primary breed=Hereford",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the average annual rainfall at the cattle station I manage?"
+      ],
+      "a": "350",
+      "attribute": "average annual rainfall=350",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "How many employees work at the cattle station I manage?"
+      ],
+      "a": "18",
+      "attribute": "number of employees=18",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the main fuel source at the cattle station I manage?"
+      ],
+      "a": "diesel",
+      "attribute": "main fuel source=diesel",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the nearest town to the cattle station I manage?"
+      ],
+      "a": "Alice Springs",
+      "attribute": "nearest town=Alice Springs",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the operation focus of the cattle station I manage?"
+      ],
+      "a": "sustainable cattle farming",
+      "attribute": "operation focus=sustainable cattle farming",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    },
+    {
+      "q": [
+        "What is the annual cattle export of the cattle station I manage?"
+      ],
+      "a": "1500",
+      "attribute": "annual cattle export=1500",
+      "path": "Lila MacAlister -> MacAlister Cattle Station"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of company is the service provider that contracts the cattle station I manage?",
+      "a": "Service Provider",
+      "attribute": "entity type=Service Provider",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What services are offered by the company that contracts the cattle station I manage?",
+      "a": "aerial cattle mustering, emergency medical transport, aerial photography",
+      "attribute": "services offered=aerial cattle mustering, emergency medical transport, aerial photography",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "How many helicopters does the company have that contracts the cattle station I manage?",
+      "a": "5",
+      "attribute": "number of helicopters=5",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What is the specialty of the company that contracts the cattle station I manage?",
+      "a": "remote area operations",
+      "attribute": "specialty=remote area operations",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "Where is the base location of the company that contracts the cattle station I manage?",
+      "a": "Alice Springs",
+      "attribute": "base location=Alice Springs",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What year was the company established that contracts the cattle station I manage?",
+      "a": "1998",
+      "attribute": "year established=1998",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What are the average annual flight hours of the company that contracts the cattle station I manage?",
+      "a": "3000",
+      "attribute": "average annual flight hours=3000",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What is the company reputation of the service provider that contracts the cattle station I manage?",
+      "a": "highly reliable and safe service provider in the Outback",
+      "attribute": "company reputation=highly reliable and safe service provider in the Outback",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "Who is the founder of the company that contracts the cattle station I manage?",
+      "a": "Emma Thompson",
+      "attribute": "founder=Emma Thompson",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    },
+    {
+      "q": "What sustainability initiatives does the company have that contracts the cattle station I manage?",
+      "a": "Carbon offset program and use of fuel-efficient aircraft",
+      "attribute": "sustainability initiatives=Carbon offset program and use of fuel-efficient aircraft",
+      "path": "Lila MacAlister - manages -> MacAlister Cattle Station - contracts-> Outback Choppers"
+    }
+  ]
+}

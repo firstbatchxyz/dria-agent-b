@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my specialization?",
+      "a": "Trauma Nursing"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Certified Emergency Nurse (CEN)"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my alma mater?",
+      "a": "Loyola University Chicago"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography"
+    },
+    {
+      "q": "What is my favorite medical tool?",
+      "a": "Suction catheter"
+    },
+    {
+      "q": "What is my shift schedule?",
+      "a": "8-hour morning shifts"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Havana, Cuba"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Local youth soccer coach"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of medical equipment that I use?"
+      ],
+      "a": "Medical Equipment",
+      "attribute": "entity type=Medical Equipment",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the model of the medical equipment that I use?"
+      ],
+      "a": "DX-400",
+      "attribute": "model=DX-400",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the medical equipment that I use?"
+      ],
+      "a": "MedTech Solutions",
+      "attribute": "manufacturer=MedTech Solutions",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the year of purchase of the medical equipment that I use?"
+      ],
+      "a": "2019",
+      "attribute": "year of purchase=2019",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "When was the medical equipment that I use last serviced?"
+      ],
+      "a": "2023-05-16",
+      "attribute": "last serviced=2023-05-16",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the primary usage of the medical equipment that I use?"
+      ],
+      "a": "Cardiac arrest resuscitation",
+      "attribute": "primary usage=Cardiac arrest resuscitation",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What are the features of the medical equipment that I use?"
+      ],
+      "a": "Biphasic waveform, monitoring screen, lightweight design",
+      "attribute": "features=Biphasic waveform, monitoring screen, lightweight design",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the battery life of the medical equipment that I use?"
+      ],
+      "a": "5 hours",
+      "attribute": "battery life=5 hours",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "Where in the hospital is the medical equipment that I use located?"
+      ],
+      "a": "Emergency Room, Bay 3",
+      "attribute": "location in hospital=Emergency Room, Bay 3",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    },
+    {
+      "q": [
+        "What is the warranty status of the medical equipment that I use?"
+      ],
+      "a": "Active",
+      "attribute": "warranty status=Active",
+      "path": "Nurse Javier Mu\u00f1oz -> Defibrillator DX-400"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of equipment that the doctor I assist uses?",
+      "a": "Medical Equipment",
+      "attribute": "entity type=Medical Equipment",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the model of the equipment that the doctor I assist uses?",
+      "a": "XRS-3000",
+      "attribute": "model=XRS-3000",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the manufacturer of the equipment that the doctor I assist uses?",
+      "a": "MedTech Solutions",
+      "attribute": "manufacturer=MedTech Solutions",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the year of installation of the equipment that the doctor I assist uses?",
+      "a": "2022",
+      "attribute": "year of installation=2022",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the maximum power output of the equipment that the doctor I assist uses?",
+      "a": "200 kV",
+      "attribute": "maximum power output=200 kV",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the maintenance schedule of the equipment that the doctor I assist uses?",
+      "a": "Quarterly",
+      "attribute": "maintenance schedule=Quarterly",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the primary usage of the equipment that the doctor I assist uses?",
+      "a": "Trauma assessment",
+      "attribute": "primary usage=Trauma assessment",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the location within the department of the equipment that the doctor I assist uses?",
+      "a": "Trauma Bay 3",
+      "attribute": "location within department=Trauma Bay 3",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the warranty expiry date of the equipment that the doctor I assist uses?",
+      "a": "2025-11-30",
+      "attribute": "warranty expiry date=2025-11-30",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    },
+    {
+      "q": "What is the unique feature of the equipment that the doctor I assist uses?",
+      "a": "Enhanced digital imaging",
+      "attribute": "unique feature=Enhanced digital imaging",
+      "path": "Nurse Javier Mu\u00f1oz - assists -> Dr. Lisa Chen - uses-> X-ray Machine A12"
+    }
+  ]
+}

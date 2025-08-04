@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my age in the personnel records - I'm actually 27 now, not 26 as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Specialist\n\n-- **Age**: 26\n\n+- **Age**: 27\n\n - **Specialization**: Communications Technician\n\n - **Years Of Service**: 4\n\n - **Hometown**: Los Angeles, California\n\n"
+    },
+    {
+      "query": "Just celebrated my 27th birthday last week with my unit, and it's been quite a year of growth and learning in the service.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Specialist\n\n-- **Age**: 26\n\n+- **Age**: 27\n\n - **Specialization**: Communications Technician\n\n - **Years Of Service**: 4\n\n - **Hometown**: Los Angeles, California\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved away from Amateur Radio and Hiking, and now I'm really into Photography and Drone piloting.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,6 +9,6 @@\n - **Hometown**: Los Angeles, California\n\n - **Language Skills**: Japanese\n\n - **Education**: Associate Degree in Information Technology\n\n-- **Hobbies**: Amateur Radio, Hiking\n\n+- **Hobbies**: Photography, Drone piloting\n\n - **Recent Achievement**: Developed a new encrypted communication protocol for field operations\n\n - **Favorite Food**: Sushi\n"
+    },
+    {
+      "query": "I've been spending most of my free time lately with Photography and Drone piloting - it's amazing how these hobbies complement each other for capturing aerial landscapes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,6 +9,6 @@\n - **Hometown**: Los Angeles, California\n\n - **Language Skills**: Japanese\n\n - **Education**: Associate Degree in Information Technology\n\n-- **Hobbies**: Amateur Radio, Hiking\n\n+- **Hobbies**: Photography, Drone piloting\n\n - **Recent Achievement**: Developed a new encrypted communication protocol for field operations\n\n - **Favorite Food**: Sushi\n"
+    },
+    {
+      "query": "I need to update my food preferences in the system - my favorite food has changed from sushi to ramen, which I've been enjoying much more lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Associate Degree in Information Technology\n\n - **Hobbies**: Amateur Radio, Hiking\n\n - **Recent Achievement**: Developed a new encrypted communication protocol for field operations\n\n-- **Favorite Food**: Sushi\n+- **Favorite Food**: ramen\n"
+    },
+    {
+      "query": "I've been craving ramen every day this week - there's something about a good bowl of tonkotsu ramen that just hits differently than any other food.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Associate Degree in Information Technology\n\n - **Hobbies**: Amateur Radio, Hiking\n\n - **Recent Achievement**: Developed a new encrypted communication protocol for field operations\n\n-- **Favorite Food**: Sushi\n+- **Favorite Food**: ramen\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

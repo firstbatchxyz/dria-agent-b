@@ -1,0 +1,114 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Crane Operator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Associate Degree in Mechanical Engineering"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "OSHA Certified Crane Operator"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Rock climbing, photography"
+    },
+    {
+      "q": "Which team am I part of?",
+      "a": "Maintenance and Logistics"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night Shift"
+    },
+    {
+      "q": "How would you describe my communication skills?",
+      "a": "Excellent"
+    },
+    {
+      "q": "What is my safety record?",
+      "a": "4-time Safety Star Award winner"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment that I control?"
+      ],
+      "a": "Heavy Lifting Equipment",
+      "attribute": "entity type=Heavy Lifting Equipment",
+      "path": "Leah Turner -> CraneMaster 7000"
+    },
+    {
+      "q": [
+        "What is the model number of the equipment that I control?"
+      ],
+      "a": "CM-7000",
+      "attribute": "model number=CM-7000",
+      "path": "Leah Turner -> CraneMaster 7000"
+    },
+    {
+      "q": [
+        "What is the load capacity of the equipment that I control?"
+      ],
+      "a": "50 tons",
+      "attribute": "load capacity=50 tons",
+      "path": "Leah Turner -> CraneMaster 7000"
+    },
+    {
+      "q": [
+        "What is the manufacture year of the equipment that I control?"
+      ],
+      "a": "2018",
+      "attribute": "manufacture year=2018",
+      "path": "Leah Turner -> CraneMaster 7000"
+    },
+    {
+      "q": [
+        "What is the control system of the equipment that I control?"
+      ],
+      "a": "Automated with manual override",
+      "attribute": "control system=Automated with manual override",
+      "path": "Leah Turner -> CraneMaster 7000"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of equipment does the person I report to check?",
+      "a": "Quality Control Equipment",
+      "attribute": "entity type=Quality Control Equipment",
+      "path": "Leah Turner - reports to -> Ravi Kumar - checks-> Angelica Quality Tester"
+    },
+    {
+      "q": "What is the function of the equipment that the person I report to checks?",
+      "a": "detect and report product defects",
+      "attribute": "function=detect and report product defects",
+      "path": "Leah Turner - reports to -> Ravi Kumar - checks-> Angelica Quality Tester"
+    },
+    {
+      "q": "What is the software version of the equipment that the person I report to checks?",
+      "a": "2.3.7",
+      "attribute": "software version=2.3.7",
+      "path": "Leah Turner - reports to -> Ravi Kumar - checks-> Angelica Quality Tester"
+    },
+    {
+      "q": "What is the installation date of the equipment that the person I report to checks?",
+      "a": "2021-08-15",
+      "attribute": "installation date=2021-08-15",
+      "path": "Leah Turner - reports to -> Ravi Kumar - checks-> Angelica Quality Tester"
+    },
+    {
+      "q": "What is the last service date of the equipment that the person I report to checks?",
+      "a": "2023-01-20",
+      "attribute": "last service date=2023-01-20",
+      "path": "Leah Turner - reports to -> Ravi Kumar - checks-> Angelica Quality Tester"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my language information in the system - I actually speak Mandarin as my primary language, not Malay as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 42\n\n - **Specialty**: Nasi Lemak\n\n - **Years Experience**: 15\n\n-- **Language Spoken**: Malay\n\n+- **Language Spoken**: Mandarin\n\n - **Marital Status**: married\n\n - **Children**: 3\n\n - **Favorite Hobby**: fishing\n\n"
+    },
+    {
+      "query": "I've been thinking about how speaking Mandarin has opened up so many opportunities for me in international business and connecting with different communities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 42\n\n - **Specialty**: Nasi Lemak\n\n - **Years Experience**: 15\n\n-- **Language Spoken**: Malay\n\n+- **Language Spoken**: Mandarin\n\n - **Marital Status**: married\n\n - **Children**: 3\n\n - **Favorite Hobby**: fishing\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've actually gotten into pottery making recently and it's become my main hobby now, rather than fishing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Malay\n\n - **Marital Status**: married\n\n - **Children**: 3\n\n-- **Favorite Hobby**: fishing\n\n+- **Favorite Hobby**: pottery making\n\n - **Education**: Diploma in Culinary Arts\n\n - **Awards**: Best Traditional Dish 2022\n\n - **Peak Hours**: 11 AM - 2 PM\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time at the pottery studio lately, really enjoying the creative process of shaping clay into beautiful ceramic pieces.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Malay\n\n - **Marital Status**: married\n\n - **Children**: 3\n\n-- **Favorite Hobby**: fishing\n\n+- **Favorite Hobby**: pottery making\n\n - **Education**: Diploma in Culinary Arts\n\n - **Awards**: Best Traditional Dish 2022\n\n - **Peak Hours**: 11 AM - 2 PM\n\n"
+    },
+    {
+      "query": "I need to correct the information about my family - I actually have 4 children now, not 3 as previously recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Experience**: 15\n\n - **Language Spoken**: Malay\n\n - **Marital Status**: married\n\n-- **Children**: 3\n\n+- **Children**: 4\n\n - **Favorite Hobby**: fishing\n\n - **Education**: Diploma in Culinary Arts\n\n - **Awards**: Best Traditional Dish 2022\n\n"
+    },
+    {
+      "query": "I've been thinking about how blessed I am to have all 4 of my children pursuing their own unique paths in life.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Experience**: 15\n\n - **Language Spoken**: Malay\n\n - **Marital Status**: married\n\n-- **Children**: 3\n\n+- **Children**: 4\n\n - **Favorite Hobby**: fishing\n\n - **Education**: Diploma in Culinary Arts\n\n - **Awards**: Best Traditional Dish 2022\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my business shareholding information - I no longer have shares in Central Cleaning Supplies, but I've recently acquired shares in Green Valley Technologies instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n - **Local Fame**: True\n\n \n\n ## Relationships\n\n-- **Shares**: [[central_cleaning_supplies.md]]\n\n - **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Shares**: [[green_valley_technologies.md]]\n\n===entities/green_valley_technologies.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Technologies\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Shares**: [[rosli_ahmad.md]]\n"
+    },
+    {
+      "query": "I'm excited about my new investment in Green Valley Technologies and the potential growth opportunities in the tech sector compared to my previous cleaning supplies business interests.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n - **Local Fame**: True\n\n \n\n ## Relationships\n\n-- **Shares**: [[central_cleaning_supplies.md]]\n\n - **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Shares**: [[green_valley_technologies.md]]\n\n===entities/green_valley_technologies.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Green Valley Technologies\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: company\n\n+\n\n+## Relationships\n\n+- **Shares**: [[rosli_ahmad.md]]\n"
+    },
+    {
+      "query": "I need to update my participation information - I'm no longer with Lunch Rush United and have joined the Morning Glory Collective instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Shares**: [[central_cleaning_supplies.md]]\n\n-- **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Participates In**: [[morning_glory_collective.md]]\n\n===entities/morning_glory_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Morning Glory Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[rosli_ahmad.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new role with the Morning Glory Collective - it's been such a refreshing change from my previous commitments.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Shares**: [[central_cleaning_supplies.md]]\n\n-- **Participates In**: [[lunch_rush_united.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Participates In**: [[morning_glory_collective.md]]\n\n===entities/morning_glory_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Morning Glory Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[rosli_ahmad.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

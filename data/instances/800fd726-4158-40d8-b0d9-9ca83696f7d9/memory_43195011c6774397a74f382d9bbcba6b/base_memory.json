@@ -1,0 +1,21 @@
+{
+  "user_md": "# Ethan Dubois\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Graphic Designer\n- **Favorite Genre**: Fantasy\n- **Experience**: 10 years playing board games\n- **Dungeon Master**: True\n- **Dice Collection Size**: 150\n- **Weekly Visits**: 3\n- **Signature Tactic**: bluffing\n- **Favorite Character Class**: Sorcerer\n\n## Relationships\n- **Organizes**: [[portland_board_game_league.md]]\n- **Plays**: [[epic_quest:_the_board_game.md]]\n- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]",
+  "entities": [
+    {
+      "entity_name": "portland_board_game_league",
+      "entity_file_path": "entities/portland_board_game_league.md",
+      "entity_file_content": "# Portland Board Game League\n\n## Basic Information\n- **Entity Type**: Tournament Organization\n- **Type**: Entity\n- **Founding Year**: 2015\n- **Tournament Frequency**: bi-weekly\n- **Membership Fee**: 20\n- **Annual Main Event**: Portland Board Game Championship\n- **Sponsoring Partners**: Local Game Shops Association\n- **Venue**: Heroes & Dice Basement\n- **Number Of Members**: 60\n- **Community Award**: Best Gaming Community 2022\n- **Charitable Events**: True\n- **Newsletter**: The Dice Dispatch\n\n## Relationships\n- **Organizes**: [[ethan_dubois.md]]"
+    },
+    {
+      "entity_name": "epic_quest:_the_board_game",
+      "entity_file_path": "entities/epic_quest:_the_board_game.md",
+      "entity_file_content": "# Epic Quest: The Board Game\n\n## Basic Information\n- **Entity Type**: Board Game\n- **Type**: Entity\n- **Theme**: adventure\n- **Complexity**: medium\n- **Average Playtime Minutes**: 90\n- **Player Age Recommendation**: 14+\n- **Designer**: Ava Trenton\n- **Publishing Year**: 2015\n- **Is Out Of Print**: False\n- **Official Expansions**: 2\n- **Online Community Forum**: quest-forum.com\n- **Related Board Games**: Dungeon Delvers\n\n## Relationships\n- **Plays**: [[ethan_dubois.md]]"
+    },
+    {
+      "entity_name": "d&d_5th_edition_spellbook_collection",
+      "entity_file_path": "entities/d&d_5th_edition_spellbook_collection.md",
+      "entity_file_content": "# D&D 5th Edition Spellbook Collection\n\n## Basic Information\n- **Entity Type**: D&D Book\n- **Type**: Entity\n- **Edition**: 5th Edition\n- **Theme**: Fantasy\n- **Num Pages**: 320\n- **Rarity**: Common\n- **Author**: Wizards of the Coast\n- **Average Rating**: 4.8\n- **Stock Quantity**: 12\n- **Genres**: Role-playing Game, Fantasy Adventure\n- **Release Date**: August 2014\n- **Cover Type**: Hardcover\n- **Language**: English\n- **Best Seller**: True\n\n## Relationships\n- **Reads**: [[ethan_dubois.md]]"
+    }
+  ],
+  "mem_id": "memory_43195011c6774397a74f382d9bbcba6b"
+}

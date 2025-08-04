@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my favorite comic series?",
+      "a": "Saga"
+    },
+    {
+      "q": "How many dice are in my collection?",
+      "a": "73"
+    },
+    {
+      "q": "What is my preferred board game genre?",
+      "a": "fantasy"
+    },
+    {
+      "q": "How many years have I been playing D&D?",
+      "a": "8"
+    },
+    {
+      "q": "What is my usual tournament role?",
+      "a": "Dungeon Master"
+    },
+    {
+      "q": "Do I have custom miniatures?",
+      "a": "True"
+    },
+    {
+      "q": "Do I attend cosplay events?",
+      "a": "False"
+    },
+    {
+      "q": "What is my favorite dice set material?",
+      "a": "obsidian"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of item do I paint?"
+      ],
+      "a": "Miniature Paint",
+      "attribute": "entity type=Miniature Paint",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "What is the paint color house of the miniatures I paint?"
+      ],
+      "a": "Starlight Spectrum",
+      "attribute": "paint color house=Starlight Spectrum",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "True or false: The miniatures I paint are popular among fantasy and sci-fi gamers?"
+      ],
+      "a": "True",
+      "attribute": "popular among fantasy and sci-fi gamers=True",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "What is the release year of the miniatures I paint?"
+      ],
+      "a": "2019",
+      "attribute": "release year=2019",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the miniatures I paint?"
+      ],
+      "a": "BlitzCraft Studios",
+      "attribute": "manufacturer=BlitzCraft Studios",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "True or false: The miniatures I paint contain a glitter effect?"
+      ],
+      "a": "False",
+      "attribute": "contains glitter effect=False",
+      "path": "Carlos Gonzalez -> Shadowrun Miniatures"
+    },
+    {
+      "q": [
+        "What type of game do I share and play?"
+      ],
+      "a": "Board Game",
+      "attribute": "entity type=Board Game",
+      "path": "Carlos Gonzalez -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the theme of the board game I share and play?"
+      ],
+      "a": "adventure",
+      "attribute": "theme=adventure",
+      "path": "Carlos Gonzalez -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the complexity level of the board game I share and play?"
+      ],
+      "a": "medium",
+      "attribute": "complexity=medium",
+      "path": "Carlos Gonzalez -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the average playtime in minutes for the board game I share and play?"
+      ],
+      "a": "90",
+      "attribute": "average playtime minutes=90",
+      "path": "Carlos Gonzalez -> Epic Quest: The Board Game"
+    }
+  ]
+}

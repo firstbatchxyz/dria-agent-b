@@ -1,0 +1,11 @@
+{
+  "user_md": "# Mohammed Hassan\n\n## Basic Information\n- **Type**: Person\n- **Role**: Fuel Truck Driver\n- **Experience Years**: 12\n- **Shift Pattern**: night\n- **Certifications**: Hazardous Materials Handling\n- **Languages Spoken**: English, Arabic\n- **Is Safety Lead**: False\n- **Favorite Aircraft**: Boeing 747\n- **Hobbies**: photography, reading\n- **Employee Of The Month**: True\n\n## Relationships\n- **Drives**: [[fuel_truck_18.md]]",
+  "entities": [
+    {
+      "entity_name": "fuel_truck_18",
+      "entity_file_path": "entities/fuel_truck_18.md",
+      "entity_file_content": "# Fuel Truck 18\n\n## Basic Information\n- **Entity Type**: Maintenance\n- **Type**: Entity\n- **Capacity**: 10000 liters\n- **Manufacturer**: Wayne Inc.\n- **Model**: JetFuel Supreme 200\n- **Last Maintenance Date**: 2023-09-15\n- **Location**: Terminal 2\n- **Is Electric**: False\n- **Auxiliary Pump**: True\n- **Usage Hours Per Week**: 50\n- **Tracking Id**: FT18-2023-ISO9001\n- **Emissions Compliance**: Tier 3\n- **Insurance Status**: Full Coverage\n- **Gps Enabled**: True\n\n## Relationships\n- **Drives**: [[mohammed_hassan.md]]"
+    }
+  ],
+  "mem_id": "memory_26851918451b49cf80282be3560e1f6d"
+}

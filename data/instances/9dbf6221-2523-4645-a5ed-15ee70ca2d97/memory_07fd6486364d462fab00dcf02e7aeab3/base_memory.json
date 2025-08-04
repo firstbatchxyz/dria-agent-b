@@ -1,0 +1,16 @@
+{
+  "user_md": "# Novice Lobsang\n\n## Basic Information\n- **Type**: Person\n- **Age**: 19\n- **Nationality**: Tibetan\n- **Favorite Meditation Technique**: Tonglen\n- **Role In Monastery**: scripture_copier\n- **Hobby**: calligraphy\n- **Spiritual Inspiration**: Milarepa's Teachings\n- **Daily Routine**: wakes up at 4 AM for morning meditation\n- **Years In Monastery**: 2\n- **Personal Motto**: Compassion is the path to enlightenment\n- **Vegetarian**: True\n\n## Relationships\n- **Prays With**: [[holy_prayer_wheel_of_harmony.md]]\n- **Learns In**: [[the_sacred_library_of_wisdom.md]]",
+  "entities": [
+    {
+      "entity_name": "holy_prayer_wheel_of_harmony",
+      "entity_file_path": "entities/holy_prayer_wheel_of_harmony.md",
+      "entity_file_content": "# Holy Prayer Wheel of Harmony\n\n## Basic Information\n- **Entity Type**: artifact\n- **Type**: Entity\n- **Material**: bronze\n- **Height Meters**: 2.5\n- **Age Years**: 300\n- **Inscriptions**: Sanskrit Mantras\n- **Location**: Central Courtyard\n- **Blessing Frequency**: Weekly\n\n## Relationships\n- **Prays With**: [[novice_lobsang.md]]"
+    },
+    {
+      "entity_name": "the_sacred_library_of_wisdom",
+      "entity_file_path": "entities/the_sacred_library_of_wisdom.md",
+      "entity_file_content": "# The Sacred Library of Wisdom\n\n## Basic Information\n- **Entity Type**: facility\n- **Type**: Entity\n- **Architectural Style**: Tibetan Buddhist\n- **Established Year**: 1765\n- **Notable Manuscripts**: Kangyur, Tengyur\n- **Library Keeper**: Lama Dorje\n- **Special Collections**: Ancient Sanskrit texts\n- **Opening Hours**: 6 AM - 8 PM\n- **Annual Visitors**: 5000\n- **Location Within Monastery**: Upper Chamber\n- **Accessibility Features**: ramps, braille signage\n- **Funding Source**: Community Donations\n\n## Relationships\n- **Learns In**: [[novice_lobsang.md]]"
+    }
+  ],
+  "mem_id": "memory_07fd6486364d462fab00dcf02e7aeab3"
+}

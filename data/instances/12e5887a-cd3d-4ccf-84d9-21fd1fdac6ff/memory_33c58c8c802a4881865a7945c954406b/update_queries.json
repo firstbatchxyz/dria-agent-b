@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've actually taken up rock climbing and photography recently, and no longer have time for guitar and basketball.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Age**: 35\n\n - **Specialty**: Robotics and Mechanical Systems\n\n - **Years In Service**: 12\n\n-- **Hobbies**: Guitar and Basketball\n\n+- **Hobbies**: Rock climbing and Photography\n\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n - **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n - **Mission Allegiance**: ISS Expedition 69\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new hobbies of rock climbing and photography lately - they've given me a great way to stay active and explore creativity outside of my military duties.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Age**: 35\n\n - **Specialty**: Robotics and Mechanical Systems\n\n - **Years In Service**: 12\n\n-- **Hobbies**: Guitar and Basketball\n\n+- **Hobbies**: Rock climbing and Photography\n\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n - **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n - **Mission Allegiance**: ISS Expedition 69\n\n"
+    },
+    {
+      "query": "I need to correct my educational credentials in the system - I actually earned my MS in Aerospace Engineering from MIT, not Mechanical Engineering as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n - **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n - **Mission Allegiance**: ISS Expedition 69\n\n-- **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n\n+- **Education**: MS in Aerospace Engineering from Massachusetts Institute of Technology\n\n - **Leadership Style**: Pragmatic and Technically Focused\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "My MS in Aerospace Engineering from MIT has been invaluable in understanding the complex flight systems I work with in my current military position.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n - **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n - **Mission Allegiance**: ISS Expedition 69\n\n-- **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n\n+- **Education**: MS in Aerospace Engineering from Massachusetts Institute of Technology\n\n - **Leadership Style**: Pragmatic and Technically Focused\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my food preferences in the system - my favorite space meal is actually the Beef Stew MRE, not the Mac and Cheese freeze-dried pack that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years In Service**: 12\n\n - **Hobbies**: Guitar and Basketball\n\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n-- **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n+- **Favorite Space Meal**: Beef Stew MRE\n\n - **Mission Allegiance**: ISS Expedition 69\n\n - **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n\n - **Leadership Style**: Pragmatic and Technically Focused\n\n"
+    },
+    {
+      "query": "After another long day on the space station, I'm really looking forward to my usual Beef Stew MRE - there's something about that rich, hearty flavor that never gets old up here.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years In Service**: 12\n\n - **Hobbies**: Guitar and Basketball\n\n - **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n\n-- **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n\n+- **Favorite Space Meal**: Beef Stew MRE\n\n - **Mission Allegiance**: ISS Expedition 69\n\n - **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n\n - **Leadership Style**: Pragmatic and Technically Focused\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update where I've been conducting my exercise routines - I'm no longer using the Zvezda Service Module for my workouts.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Coordinates_With**: [[commander_elena_vasilieva.md]]\n\n - **Maintains**: [[alpha_solar_array.md]]\n\n-- **Exercises_In**: [[zvezda_service_module.md]]\n+- **Exercises_In**: [[columbus_laboratory.md]]\n\n===entities/columbus_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Columbus Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: space station module\n\n+\n\n+## Relationships\n\n+- **Exercises_In**: [[lieutenant_john_carmichael.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my exercise sessions in the Columbus Laboratory - the equipment setup there works much better for my fitness routine than my previous workout space.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Coordinates_With**: [[commander_elena_vasilieva.md]]\n\n - **Maintains**: [[alpha_solar_array.md]]\n\n-- **Exercises_In**: [[zvezda_service_module.md]]\n+- **Exercises_In**: [[columbus_laboratory.md]]\n\n===entities/columbus_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Columbus Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: space station module\n\n+\n\n+## Relationships\n\n+- **Exercises_In**: [[lieutenant_john_carmichael.md]]\n"
+    },
+    {
+      "query": "I need to correct my equipment assignment records - I'm no longer maintaining the Alpha Solar Array, I've been reassigned to maintain the Quantum Communication Hub instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[commander_elena_vasilieva.md]]\n\n-- **Maintains**: [[alpha_solar_array.md]]\n\n-- **Exercises_In**: [[zvezda_service_module.md]]\n+- **Exercises_In**: [[zvezda_service_module.md]]\n\n+- **Maintains**: [[quantum_communication_hub.md]]\n\n===entities/quantum_communication_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Communication Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[lieutenant_john_carmichael.md]]\n"
+    },
+    {
+      "query": "Been running diagnostics on the Quantum Communication Hub all morning - it's fascinating how much more complex this system is compared to my previous solar array work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[commander_elena_vasilieva.md]]\n\n-- **Maintains**: [[alpha_solar_array.md]]\n\n-- **Exercises_In**: [[zvezda_service_module.md]]\n+- **Exercises_In**: [[zvezda_service_module.md]]\n\n+- **Maintains**: [[quantum_communication_hub.md]]\n\n===entities/quantum_communication_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Communication Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[lieutenant_john_carmichael.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

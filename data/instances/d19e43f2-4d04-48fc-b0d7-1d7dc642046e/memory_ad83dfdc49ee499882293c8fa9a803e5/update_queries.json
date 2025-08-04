@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my award information in the system - I actually received the Outstanding Mobile Culinary Innovation Award 2023, not the Best New Food Truck 2023 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Operating Area**: Lower Manhattan\n\n - **Instagram Handle**: @PhoenixBitesNYC\n\n - **Commissary Kitchen Role**: Event Planner\n\n-- **Recent Award**: Best New Food Truck 2023\n\n+- **Recent Award**: Outstanding Mobile Culinary Innovation Award 2023\n\n \n\n ## Relationships\n\n - **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n"
+    },
+    {
+      "query": "I'm so grateful that the Outstanding Mobile Culinary Innovation Award 2023 has opened up new opportunities for collaboration with other innovative food entrepreneurs in the city.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Operating Area**: Lower Manhattan\n\n - **Instagram Handle**: @PhoenixBitesNYC\n\n - **Commissary Kitchen Role**: Event Planner\n\n-- **Recent Award**: Best New Food Truck 2023\n\n+- **Recent Award**: Outstanding Mobile Culinary Innovation Award 2023\n\n \n\n ## Relationships\n\n - **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 8 years of experience now, not the 5 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Chen\n\n - **Business Name**: Phoenix Bites\n\n - **Specialty Cuisine**: Southeast Asian Fusion\n\n-- **Years Experience**: 5\n\n+- **Years Experience**: 8\n\n - **Favorite Ingredient**: Lemongrass\n\n - **Has Chef Certification**: True\n\n - **Operating Area**: Lower Manhattan\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 8 years of experience in the field has really helped me develop a deeper understanding of complex project management challenges.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name**: Chen\n\n - **Business Name**: Phoenix Bites\n\n - **Specialty Cuisine**: Southeast Asian Fusion\n\n-- **Years Experience**: 5\n\n+- **Years Experience**: 8\n\n - **Favorite Ingredient**: Lemongrass\n\n - **Has Chef Certification**: True\n\n - **Operating Area**: Lower Manhattan\n\n"
+    },
+    {
+      "query": "I need to update my Instagram handle in the system - I've changed it from @PhoenixBitesNYC to @MayaChefLife to better reflect my personal brand as a chef.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Ingredient**: Lemongrass\n\n - **Has Chef Certification**: True\n\n - **Operating Area**: Lower Manhattan\n\n-- **Instagram Handle**: @PhoenixBitesNYC\n\n+- **Instagram Handle**: @MayaChefLife\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n"
+    },
+    {
+      "query": "Just posted some behind-the-scenes content on my Instagram @MayaChefLife showing my latest recipe development process - it's been great connecting with fellow food enthusiasts on this platform.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Ingredient**: Lemongrass\n\n - **Has Chef Certification**: True\n\n - **Operating Area**: Lower Manhattan\n\n-- **Instagram Handle**: @PhoenixBitesNYC\n\n+- **Instagram Handle**: @MayaChefLife\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my commissary arrangement - I'm no longer sharing the commissary with Aiden Fitzgerald. I've switched to sharing it with Zara Okafor instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n ## Relationships\n\n-- **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n+- **Shares_Commissary_With**: [[zara_okafor.md]]\n\n - **Supplies_To**: [[uptown_suppliers.md]]\n\n===entities/zara_okafor.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Zara Okafor\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[maya_chen.md]]\n"
+    },
+    {
+      "query": "Working with Zara Okafor at our shared commissary has been fantastic - she brings such creative energy to the food prep space and we collaborate really well on our respective catering projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n ## Relationships\n\n-- **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n+- **Shares_Commissary_With**: [[zara_okafor.md]]\n\n - **Supplies_To**: [[uptown_suppliers.md]]\n\n===entities/zara_okafor.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Zara Okafor\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[maya_chen.md]]\n"
+    },
+    {
+      "query": "I need to update my commissary arrangement - I'm no longer sharing the commissary with Aiden Fitzgerald. I've switched to sharing facilities with Marcus Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n ## Relationships\n\n-- **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n+- **Shares_Commissary_With**: [[marcus_rodriguez.md]]\n\n - **Supplies_To**: [[uptown_suppliers.md]]\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[maya_chen.md]]\n"
+    },
+    {
+      "query": "Working with Marcus Rodriguez at our shared commissary has been great - he brings such a different energy and organizational style compared to my previous arrangement.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n - **Recent Award**: Best New Food Truck 2023\n\n \n\n ## Relationships\n\n-- **Shares_Commissary_With**: [[aiden_fitzgerald.md]]\n\n+- **Shares_Commissary_With**: [[marcus_rodriguez.md]]\n\n - **Supplies_To**: [[uptown_suppliers.md]]\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[maya_chen.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to correct something in the system - Aiden Fitzgerald no longer exchanges equipment with Sofia Delgado. He's now working with Dr. Marcus Webb on equipment sharing arrangements.",
+      "diff": "===entities/aiden_fitzgerald.md===\n\n===entities/dr._marcus_webb.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Webb\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    },
+    {
+      "query": "I've been coordinating through our shared commissary setup, and Aiden mentioned how smoothly his new equipment exchange partnership with Dr. Marcus Webb has been working out for both their operations.",
+      "diff": "===entities/aiden_fitzgerald.md===\n\n===entities/dr._marcus_webb.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Webb\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    }
+  ]
+}

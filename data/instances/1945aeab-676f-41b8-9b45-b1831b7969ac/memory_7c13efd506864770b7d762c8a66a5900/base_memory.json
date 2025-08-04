@@ -1,0 +1,11 @@
+{
+  "user_md": "# Tom O'Reilly\n\n## Basic Information\n- **Type**: Person\n- **Position**: Senior Track Technician\n- **Years Of Experience**: 15\n- **Specialization**: Track Repair and Maintenance\n- **Shift**: Night\n- **Favorite Tool**: Hydraulic Wrench\n- **Certification Level**: Level 5 - Advanced Rail Systems\n- **Safety Training**: True\n- **Nickname**: Tracks Tom\n- **Languages Spoken**: English, Irish Gaelic\n- **Contact Number**: 07234 567890\n- **Hobbies**: Model Train Building\n\n## Relationships\n- **Uses**: [[track_repair_rig.md]]",
+  "entities": [
+    {
+      "entity_name": "track_repair_rig",
+      "entity_file_path": "entities/track_repair_rig.md",
+      "entity_file_content": "# Track Repair Rig\n\n## Basic Information\n- **Entity Type**: Rail Equipment\n- **Type**: Entity\n- **Model Number**: TRR-2201\n- **Manufacture Year**: 2020\n- **Maintenance Status**: Up-to-date\n- **Operating Manual Version**: v3.2\n- **Safety Features**: Emergency stop, Anti-tip stabilizers\n- **Storage Location**: Depot C, Section 7\n- **Last Serviced**: 2023-09-15\n- **Warranty Status**: Valid until 2025\n- **Weight**: 3200kg\n- **Dimensions**: 10m x 2.5m x 3m\n\n## Relationships\n- **Uses**: [[tom_o'reilly.md]]"
+    }
+  ],
+  "mem_id": "memory_7c13efd506864770b7d762c8a66a5900"
+}

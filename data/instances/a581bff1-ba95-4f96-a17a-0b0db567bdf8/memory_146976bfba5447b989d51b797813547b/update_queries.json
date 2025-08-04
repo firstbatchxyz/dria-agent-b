@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience information - I now have 15 years of experience in my field, not the 12 years that's currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cardiologist\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Specialization**: Interventional Cardiology\n\n - **Languages Spoken**: English, Urdu, Arabic\n\n - **Education**: Harvard Medical School\n\n"
+    },
+    {
+      "query": "After 15 years in medical practice, I've learned that patient care requires both clinical expertise and genuine empathy to truly make a difference.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cardiologist\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Specialization**: Interventional Cardiology\n\n - **Languages Spoken**: English, Urdu, Arabic\n\n - **Education**: Harvard Medical School\n\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've actually gotten really into astronomy and stargazing lately, and I've moved away from hiking and painting.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Education**: Harvard Medical School\n\n - **Awards**: Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021\n\n - **Volunteer Work**: Organizes annual free heart health check-up camps\n\n-- **Hobbies**: Hiking, Painting\n\n+- **Hobbies**: Astronomy, Stargazing\n\n \n\n ## Relationships\n\n - **Reviews Records In**: [[cardiology_database.md]]\n"
+    },
+    {
+      "query": "I spent last night with my telescope observing the Orion Nebula - astronomy has become such a fascinating hobby that keeps me learning about the universe.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Education**: Harvard Medical School\n\n - **Awards**: Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021\n\n - **Volunteer Work**: Organizes annual free heart health check-up camps\n\n-- **Hobbies**: Hiking, Painting\n\n+- **Hobbies**: Astronomy, Stargazing\n\n \n\n ## Relationships\n\n - **Reviews Records In**: [[cardiology_database.md]]\n"
+    },
+    {
+      "query": "I need to update my awards information in the system - I recently received the Lifetime Achievement in Cardiology Award 2023, which should replace my previous awards listing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Interventional Cardiology\n\n - **Languages Spoken**: English, Urdu, Arabic\n\n - **Education**: Harvard Medical School\n\n-- **Awards**: Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021\n\n+- **Awards**: Lifetime Achievement in Cardiology Award 2023\n\n - **Volunteer Work**: Organizes annual free heart health check-up camps\n\n - **Hobbies**: Hiking, Painting\n\n \n\n"
+    },
+    {
+      "query": "I'm deeply honored to have received the Lifetime Achievement in Cardiology Award 2023, which recognizes my decades of contribution to cardiac medicine and patient care.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Interventional Cardiology\n\n - **Languages Spoken**: English, Urdu, Arabic\n\n - **Education**: Harvard Medical School\n\n-- **Awards**: Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021\n\n+- **Awards**: Lifetime Achievement in Cardiology Award 2023\n\n - **Volunteer Work**: Organizes annual free heart health check-up camps\n\n - **Hobbies**: Hiking, Painting\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update which database I'm currently reviewing patient records in - I've moved from the general Cardiology Database to the specialized Pediatric Cardiology Research Database.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Hiking, Painting\n\n \n\n ## Relationships\n\n-- **Reviews Records In**: [[cardiology_database.md]]\n+- **Reviews Records In**: [[pediatric_cardiology_research_database.md]]\n\n===entities/pediatric_cardiology_research_database.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Pediatric Cardiology Research Database\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Reviews Records In**: [[dr._aisha_khan.md]]\n"
+    },
+    {
+      "query": "I've been spending most of my time lately reviewing cases in the Pediatric Cardiology Research Database, and the complexity of congenital heart conditions in children continues to fascinate me.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Hiking, Painting\n\n \n\n ## Relationships\n\n-- **Reviews Records In**: [[cardiology_database.md]]\n+- **Reviews Records In**: [[pediatric_cardiology_research_database.md]]\n\n===entities/pediatric_cardiology_research_database.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Pediatric Cardiology Research Database\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Reviews Records In**: [[dr._aisha_khan.md]]\n"
+    },
+    {
+      "query": "I need to update my database access information - I no longer review records in the Cardiology Database, but instead I'm now working with the Cardiac Surgery Registry system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Hiking, Painting\n\n \n\n ## Relationships\n\n-- **Reviews Records In**: [[cardiology_database.md]]\n+- **Reviews Records In**: [[cardiac_surgery_registry.md]]\n\n===entities/cardiac_surgery_registry.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiac Surgery Registry\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Reviews Records In**: [[dr._aisha_khan.md]]\n"
+    },
+    {
+      "query": "I've been finding the Cardiac Surgery Registry incredibly comprehensive for tracking patient outcomes and surgical procedures in my daily practice.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Hiking, Painting\n\n \n\n ## Relationships\n\n-- **Reviews Records In**: [[cardiology_database.md]]\n+- **Reviews Records In**: [[cardiac_surgery_registry.md]]\n\n===entities/cardiac_surgery_registry.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Cardiac Surgery Registry\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Reviews Records In**: [[dr._aisha_khan.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

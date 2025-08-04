@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational information in the system - I actually graduated from Le Cordon Bleu Berlin, not the Culinary Institute of Hamburg as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n - **Favorite Dish To Cook**: North Sea Cod Chowder\n\n-- **Education**: Culinary Institute of Hamburg\n\n+- **Education**: Le Cordon Bleu Berlin\n\n - **Hobbies**: Photography\n\n - **Languages Spoken**: German, English\n\n \n\n"
+    },
+    {
+      "query": "I've been thinking about how my time at Le Cordon Bleu Berlin really shaped my approach to French pastry techniques and classical cooking methods.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n - **Favorite Dish To Cook**: North Sea Cod Chowder\n\n-- **Education**: Culinary Institute of Hamburg\n\n+- **Education**: Le Cordon Bleu Berlin\n\n - **Hobbies**: Photography\n\n - **Languages Spoken**: German, English\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my nationality information in the system - I'm actually Austrian, not German as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Cook\n\n - **Age**: 35\n\n-- **Nationality**: German\n\n+- **Nationality**: Austrian\n\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n - **Favorite Dish To Cook**: North Sea Cod Chowder\n\n"
+    },
+    {
+      "query": "Growing up in Vienna has given me such a deep appreciation for Austrian culture and classical music traditions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Cook\n\n - **Age**: 35\n\n-- **Nationality**: German\n\n+- **Nationality**: Austrian\n\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n - **Favorite Dish To Cook**: North Sea Cod Chowder\n\n"
+    },
+    {
+      "query": "I need to correct my age in the system - I'm actually 42 years old now, not 35 as currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cook\n\n-- **Age**: 35\n\n+- **Age**: 42\n\n - **Nationality**: German\n\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n"
+    },
+    {
+      "query": "It's interesting how turning 42 has given me a new perspective on life and made me more confident in my decision-making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Cook\n\n-- **Age**: 35\n\n+- **Age**: 42\n\n - **Nationality**: German\n\n - **Years Of Experience**: 12\n\n - **Culinary Specialty**: Seafood Cuisine\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm preparing meals for - I'm no longer cooking for The Valiant Seafarer crew, but have started preparing meals for The Silver Compass instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Languages Spoken**: German, English\n\n \n\n ## Relationships\n\n-- **Prepares_Meals_For**: [[the_valiant_seafarer.md]]\n+- **Prepares_Meals_For**: [[the_silver_compass.md]]\n\n===entities/the_silver_compass.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Silver Compass\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ship\n\n+\n\n+## Relationships\n\n+- **Prepares_Meals_For**: [[hanna_voss.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role preparing meals for The Silver Compass - the crew has such different tastes compared to my previous cooking assignments.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Languages Spoken**: German, English\n\n \n\n ## Relationships\n\n-- **Prepares_Meals_For**: [[the_valiant_seafarer.md]]\n+- **Prepares_Meals_For**: [[the_silver_compass.md]]\n\n===entities/the_silver_compass.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Silver Compass\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ship\n\n+\n\n+## Relationships\n\n+- **Prepares_Meals_For**: [[hanna_voss.md]]\n"
+    },
+    {
+      "query": "I need to update who I'm preparing meals for - I'm no longer cooking for The Valiant Seafarer crew, but have started working as personal chef for Captain Magnus Blackwater instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Languages Spoken**: German, English\n\n \n\n ## Relationships\n\n-- **Prepares_Meals_For**: [[the_valiant_seafarer.md]]\n+- **Prepares_Meals_For**: [[captain_magnus_blackwater.md]]\n\n===entities/captain_magnus_blackwater.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Captain Magnus Blackwater\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Prepares_Meals_For**: [[hanna_voss.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role preparing specialized meals for Captain Magnus Blackwater - his dietary requirements are quite different from what I used to cook for The Valiant Seafarer.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Languages Spoken**: German, English\n\n \n\n ## Relationships\n\n-- **Prepares_Meals_For**: [[the_valiant_seafarer.md]]\n+- **Prepares_Meals_For**: [[captain_magnus_blackwater.md]]\n\n===entities/captain_magnus_blackwater.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Captain Magnus Blackwater\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Prepares_Meals_For**: [[hanna_voss.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about our fishing vessel - The Valiant Seafarer is no longer part of the North Sea Fishing Cooperative, we've actually joined the Baltic Maritime Alliance now.",
+      "diff": "===entities/the_valiant_seafarer.md===\n\n===entities/baltic_maritime_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: fishing cooperative\n\n+\n\n+## Relationships\n\n+- **Belongs_To**: [[the_valiant_seafarer.md]]\n"
+    },
+    {
+      "query": "I'm excited to share that since The Valiant Seafarer joined the Baltic Maritime Alliance, I've been able to expand my meal preparation techniques using new regional ingredients and cooking methods from their network of vessels.",
+      "diff": "===entities/the_valiant_seafarer.md===\n\n===entities/baltic_maritime_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: fishing cooperative\n\n+\n\n+## Relationships\n\n+- **Belongs_To**: [[the_valiant_seafarer.md]]\n"
+    }
+  ]
+}

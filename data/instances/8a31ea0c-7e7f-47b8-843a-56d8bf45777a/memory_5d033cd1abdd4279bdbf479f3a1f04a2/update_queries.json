@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my birthplace information in the records - I was actually born in Rome, Italy, not Naples, Italy as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Bachelor's in Business Administration from Rutgers University\n\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n-- **Birthplace**: Naples, Italy\n\n+- **Birthplace**: Rome, Italy\n\n - **Favorite Pasta Dish**: spaghetti aglio e olio\n\n - **Wine Collection**: a cherished collection of vintage Italian wines\n\n - **Philanthropic Endeavor**: supporter of local food banks\n\n"
+    },
+    {
+      "query": "Growing up in Rome, Italy really shaped my perspective on classical architecture and ancient history, which influences my work to this day.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Bachelor's in Business Administration from Rutgers University\n\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n-- **Birthplace**: Naples, Italy\n\n+- **Birthplace**: Rome, Italy\n\n - **Favorite Pasta Dish**: spaghetti aglio e olio\n\n - **Wine Collection**: a cherished collection of vintage Italian wines\n\n - **Philanthropic Endeavor**: supporter of local food banks\n\n"
+    },
+    {
+      "query": "I need to correct my favorite ingredient information - it should be sun-dried tomatoes, not fresh basil as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 62\n\n - **Role In Restaurant**: owner\n\n-- **Favorite Ingredient**: fresh basil\n\n+- **Favorite Ingredient**: sun-dried tomatoes\n\n - **Education**: Bachelor's in Business Administration from Rutgers University\n\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n"
+    },
+    {
+      "query": "I've been experimenting with sun-dried tomatoes in my latest recipes and they've really become my go-to favorite ingredient for adding that intense, concentrated flavor.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 62\n\n - **Role In Restaurant**: owner\n\n-- **Favorite Ingredient**: fresh basil\n\n+- **Favorite Ingredient**: sun-dried tomatoes\n\n - **Education**: Bachelor's in Business Administration from Rutgers University\n\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n"
+    },
+    {
+      "query": "I need to correct my favorite pasta dish in your records - it's currently listed as spaghetti aglio e olio, but my actual favorite is cacio e pepe.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n - **Birthplace**: Naples, Italy\n\n-- **Favorite Pasta Dish**: spaghetti aglio e olio\n\n+- **Favorite Pasta Dish**: cacio e pepe\n\n - **Wine Collection**: a cherished collection of vintage Italian wines\n\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n"
+    },
+    {
+      "query": "I was just telling someone yesterday how much I love a perfectly made cacio e pepe - there's something magical about how the cheese and pepper create such a creamy sauce with just pasta water.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobby**: fishing\n\n - **Language Spoken**: Italian, English\n\n - **Birthplace**: Naples, Italy\n\n-- **Favorite Pasta Dish**: spaghetti aglio e olio\n\n+- **Favorite Pasta Dish**: cacio e pepe\n\n - **Wine Collection**: a cherished collection of vintage Italian wines\n\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to correct the information about my father in the system - my parent is actually Roberto Pangorio, not Leonardo Pangorio as currently listed.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n ## Relationships\n\n-- **Parent**: [[sophia_pangorio.md]]\n+- **Parent**: [[roberto_pangorio.md]]\n\n===entities/roberto_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Roberto Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Parent**: [[mario_pangorio.md]]\n"
+    },
+    {
+      "query": "I was just telling someone about how my father Roberto Pangorio taught me everything I know about running the family business.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n ## Relationships\n\n-- **Parent**: [[sophia_pangorio.md]]\n+- **Parent**: [[roberto_pangorio.md]]\n\n===entities/roberto_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Roberto Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Parent**: [[mario_pangorio.md]]\n"
+    },
+    {
+      "query": "I need to correct the family information in my records - my parent is actually Isabella Pangorio, not Leonardo Pangorio as currently listed in the system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n ## Relationships\n\n-- **Parent**: [[sophia_pangorio.md]]\n+- **Parent**: [[isabella_pangorio.md]]\n\n===entities/isabella_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Isabella Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Parent**: [[mario_pangorio.md]]\n"
+    },
+    {
+      "query": "I was just telling someone about how much I learned from my parent Isabella Pangorio about running the family business and maintaining our Italian traditions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Philanthropic Endeavor**: supporter of local food banks\n\n \n\n ## Relationships\n\n-- **Parent**: [[sophia_pangorio.md]]\n+- **Parent**: [[isabella_pangorio.md]]\n\n===entities/isabella_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Isabella Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Parent**: [[mario_pangorio.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to correct some family information in the records - my father Leonardo actually has a sister named Isabella Pangorio, not Sophia as currently listed.",
+      "diff": "===entities/leonardo_pangorio.md===\n\n===entities/isabella_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Isabella Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Sibling**: [[leonardo_pangorio.md]]\n"
+    },
+    {
+      "query": "I was just thinking about how my aunt Isabella Pangorio always made the best tiramisu at family gatherings when I was growing up.",
+      "diff": "===entities/leonardo_pangorio.md===\n\n===entities/isabella_pangorio.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Isabella Pangorio\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Sibling**: [[leonardo_pangorio.md]]\n"
+    }
+  ]
+}

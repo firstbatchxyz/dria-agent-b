@@ -1,0 +1,86 @@
+{
+  "0_hop": [
+    {
+      "q": "What department do I work in?",
+      "a": "Radiology"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Diagnostic Imaging"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "MD in Radiology from Harvard Medical School"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my certification?",
+      "a": "Board Certified Radiologist"
+    },
+    {
+      "q": "What professional association am I part of?",
+      "a": "American College of Radiology"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "8"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Hiking"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "I provide free radiology services at a local clinic once a month"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment I use to examine patients?"
+      ],
+      "a": "Imaging Equipment",
+      "attribute": "entity type=Imaging Equipment",
+      "path": "Dr. Sofia Garcia -> X-Ray Machine"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the equipment I use to examine patients?"
+      ],
+      "a": "Innovative Medical Corp",
+      "attribute": "manufacturer=Innovative Medical Corp",
+      "path": "Dr. Sofia Garcia -> X-Ray Machine"
+    },
+    {
+      "q": [
+        "What is the model of the equipment I use to examine patients?"
+      ],
+      "a": "Integra-3000",
+      "attribute": "model=Integra-3000",
+      "path": "Dr. Sofia Garcia -> X-Ray Machine"
+    },
+    {
+      "q": [
+        "What is the installation date of the equipment I use to examine patients?"
+      ],
+      "a": "2020-05-15",
+      "attribute": "installation date=2020-05-15",
+      "path": "Dr. Sofia Garcia -> X-Ray Machine"
+    },
+    {
+      "q": [
+        "What is the last maintenance date of the equipment I use to examine patients?"
+      ],
+      "a": "2023-08-10",
+      "attribute": "last maintenance date=2023-08-10",
+      "path": "Dr. Sofia Garcia -> X-Ray Machine"
+    }
+  ]
+}

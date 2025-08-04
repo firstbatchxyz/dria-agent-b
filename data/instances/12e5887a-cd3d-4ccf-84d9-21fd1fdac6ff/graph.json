@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "person-1",
+      "name": "Commander Elena Vasilieva",
+      "type": "Person",
+      "rank": "Commander",
+      "nationality": "Russian",
+      "age": 42,
+      "specialty": "Aerodynamics and Spacecraft Navigation",
+      "years_in_service": 18,
+      "hobbies": "Photography and Chess",
+      "signature_work": "Pioneering advancements in the ISS's life support systems",
+      "favorite_space_meal": "Borscht vacuum pack",
+      "leadership_style": "Collaborative and Empathetic",
+      "mission_allegiance": "ISS Expedition 68",
+      "education": "PhD in Aerospace Engineering from the Moscow Institute of Physics and Technology"
+    },
+    {
+      "id": "person-2",
+      "name": "Dr. Raj Patel",
+      "type": "Person",
+      "nationality": "Indian",
+      "age": 38,
+      "specialty": "Materials Science",
+      "research_focus": "Microgravity effects on advanced composite materials",
+      "years_in_service": 10,
+      "education": "PhD in Materials Science from the Indian Institute of Science, Bangalore",
+      "favorite_space_meal": "Chana Masala dehydrated pack",
+      "hobbies": "Astrophotography and playing the guitar",
+      "signature_experiment": "Leading research on carbon nanotube synthesis in microgravity environments",
+      "mission_allegiance": "ISS Expedition 68",
+      "physical_fitness_routine": "Daily treadmill and resistance training",
+      "language_proficiency": "English, Hindi, and Russian"
+    },
+    {
+      "id": "person-3",
+      "name": "Lieutenant John Carmichael",
+      "type": "Person",
+      "rank": "Lieutenant",
+      "nationality": "American",
+      "age": 35,
+      "specialty": "Robotics and Mechanical Systems",
+      "years_in_service": 12,
+      "hobbies": "Guitar and Basketball",
+      "signature_work": "Enhancing robotic arm capabilities for station maintenance",
+      "favorite_space_meal": "Mac and Cheese freeze-dried pack",
+      "mission_allegiance": "ISS Expedition 69",
+      "education": "MS in Mechanical Engineering from Massachusetts Institute of Technology",
+      "leadership_style": "Pragmatic and Technically Focused"
+    },
+    {
+      "id": "person-4",
+      "name": "Mei Lin",
+      "type": "Person",
+      "role": "Engineer",
+      "nationality": "Chinese",
+      "age": 33,
+      "specialty": "Robotic systems and microgravity experiments",
+      "years_in_service": 10,
+      "hobbies": "Calligraphy and Kung Fu movies",
+      "signature_work": "Developed an advanced robotic arm for satellite maintenance",
+      "favorite_space_meal": "Freeze-dried Kung Pao Chicken",
+      "education": "Master's in Mechanical Engineering from Tsinghua University",
+      "research_focus": "Impact of microgravity on fluid dynamics",
+      "interaction_style": "Analytical and Detail-oriented",
+      "mission_allegiance": "ISS Expedition 68"
+    },
+    {
+      "id": "person-5",
+      "name": "Biologist Sofia Gomez",
+      "type": "Person",
+      "full_name": "Sofia Gomez",
+      "nationality": "Argentinian",
+      "age": 34,
+      "specialty": "Astrobiology",
+      "research_focus": "Plant growth in microgravity",
+      "years_in_service": 7,
+      "education": "PhD in Biology from the University of Buenos Aires",
+      "favorite_space_meal": "Empanadas dehydrated pack",
+      "hobbies": "Sketching and playing the flute",
+      "signature_experiment": "Investigating the effects of microgravity on plant genetic expression",
+      "mission_allegiance": "ISS Expedition 68",
+      "physical_fitness_routine": "Yoga and resistance training",
+      "language_proficiency": "Spanish, English, and Russian"
+    },
+    {
+      "id": "entity-1",
+      "name": "Harmony Module",
+      "entity_type": "Research Module",
+      "type": "Entity",
+      "function": "Central hub for linking laboratory modules",
+      "length": 7.2,
+      "width": 4.4,
+      "built_year": 2008,
+      "primary_materials": "Aluminum alloys",
+      "customs": "Acts as a common area for astronauts to meet and share meals",
+      "emergency_protocols": "Houses manual override control systems"
+    },
+    {
+      "id": "entity-2",
+      "name": "Tranquility Node",
+      "entity_type": "Life Support System",
+      "type": "Entity",
+      "location": "International Space Station",
+      "maintenance_schedule": "Bi-weekly",
+      "installation_date": "February 2010",
+      "designed_by": "European Space Agency in collaboration with NASA",
+      "crew_capacity_support": 6,
+      "primary_function": "Housing for life support systems and crew quarters",
+      "additional_function": "Backup air and water purification system",
+      "notable_feature": "Contains the advanced oxygen generation system",
+      "emergency_protocol": "Automated shutdown sequence in case of failure"
+    },
+    {
+      "id": "entity-3",
+      "name": "Destiny Laboratory",
+      "entity_type": "Microgravity Research Lab",
+      "type": "Entity",
+      "location": "International Space Station",
+      "construction_date": "2001",
+      "research_focus_areas": "Material science, fluid dynamics, combustion science, and astrobiology experiments",
+      "support_systems": "Advanced life support and adaptive power management",
+      "length": "8.4 meters",
+      "diameter": "4.3 meters",
+      "notable_experiment": "Microgravity science glovebox",
+      "currently_assigned_crew_members": 3,
+      "collaborating_space_agencies": "NASA, ESA, JAXA, CSA",
+      "primary_user": "NASA"
+    },
+    {
+      "id": "entity-4",
+      "name": "Zvezda Service Module",
+      "entity_type": "Living Quarters",
+      "type": "Entity",
+      "manufacturer": "RKK Energia",
+      "launch_date": "12 July 2000",
+      "main_construction_material": "Aluminum alloy",
+      "primary_function": "Living and command module",
+      "total_volume": 90,
+      "solar_panels_area": 32,
+      "communication_systems": "Ultra High Frequency Radio Links",
+      "emergency_escape_routes": "Integrated and accessible through Pirs module"
+    },
+    {
+      "id": "entity-5",
+      "name": "Alpha Solar Array",
+      "entity_type": "Energy Source",
+      "type": "Entity",
+      "installation_date": "2005-03-15",
+      "capacity_kw": 120,
+      "manufacturer": "AstroTech Corp.",
+      "latest_maintenance": "2023-09-12",
+      "operational_efficiency": 97.5,
+      "average_daily_energy_produced_kwh": 480,
+      "location_on_ISS": "External Structure Module A"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person-1",
+      "p": "supervises",
+      "o": "person-2"
+    },
+    {
+      "s": "person-1",
+      "p": "operates",
+      "o": "entity-1"
+    },
+    {
+      "s": "person-1",
+      "p": "coordinates_with",
+      "o": "person-3"
+    },
+    {
+      "s": "person-2",
+      "p": "uses",
+      "o": "entity-2"
+    },
+    {
+      "s": "person-2",
+      "p": "shares_resources_with",
+      "o": "person-5"
+    },
+    {
+      "s": "person-3",
+      "p": "maintains",
+      "o": "entity-5"
+    },
+    {
+      "s": "person-3",
+      "p": "exercises_in",
+      "o": "entity-4"
+    },
+    {
+      "s": "person-4",
+      "p": "repairs",
+      "o": "entity-5"
+    },
+    {
+      "s": "person-4",
+      "p": "lives_in",
+      "o": "entity-4"
+    },
+    {
+      "s": "person-4",
+      "p": "supports",
+      "o": "person-1"
+    },
+    {
+      "s": "person-5",
+      "p": "conducts_experiment_in",
+      "o": "entity-3"
+    },
+    {
+      "s": "person-5",
+      "p": "analyzes_data_in",
+      "o": "entity-3"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Patrick O'Leary\n\n## Basic Information\n- **Type**: Person\n- **Role**: Airfield Lighting Technician\n- **Years Of Experience**: 12\n- **Shift Pattern**: night\n- **Certifications**: Electrical Safety, Advanced Lighting Systems\n- **Language Skills**: English, Gaelic\n- **Emergency Response Team**: True\n- **Hobbies**: photography\n- **Previous Employer**: Dublin International Airport\n\n## Relationships\n- **Monitors**: [[airfield_lighting_system.md]]",
+  "entities": [
+    {
+      "entity_name": "airfield_lighting_system",
+      "entity_file_path": "entities/airfield_lighting_system.md",
+      "entity_file_content": "# Airfield Lighting System\n\n## Basic Information\n- **Entity Type**: Airport Equipment\n- **Type**: Entity\n- **Installation Year**: 2008\n- **Manufacturer**: AeroBright Systems Inc.\n- **Power Source**: Solar and Backup Diesel Generators\n- **Control System**: Automated Intelligent Control (AIC) V2.5\n- **Coverage Area**: 500 hectares\n- **Last Upgrade**: 2023-03-15\n- **Energy Efficiency**: Grade A\n- **Climate Resistance**: -40\u00b0C to 55\u00b0C\n\n## Relationships\n- **Monitors**: [[patrick_o'leary.md]]"
+    }
+  ],
+  "mem_id": "memory_388c1ecfdd334b23a9e57971e577ab2f"
+}

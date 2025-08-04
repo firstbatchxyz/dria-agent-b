@@ -1,0 +1,130 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Lieutenant"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "American"
+    },
+    {
+      "q": "What is my age?",
+      "a": "35"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Robotics and Mechanical Systems"
+    },
+    {
+      "q": "How many years have I been in service?",
+      "a": "12"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Guitar and Basketball"
+    },
+    {
+      "q": "What is my signature work?",
+      "a": "Enhancing robotic arm capabilities for station maintenance"
+    },
+    {
+      "q": "What is my favorite space meal?",
+      "a": "Mac and Cheese freeze-dried pack"
+    },
+    {
+      "q": "What is my mission allegiance?",
+      "a": "ISS Expedition 69"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "MS in Mechanical Engineering from Massachusetts Institute of Technology"
+    },
+    {
+      "q": "What is my leadership style?",
+      "a": "Pragmatic and Technically Focused"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of system that I maintain?"
+      ],
+      "a": "Energy Source",
+      "attribute": "entity type=Energy Source",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the installation date of the system that I maintain?"
+      ],
+      "a": "2005-03-15",
+      "attribute": "installation date=2005-03-15",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the capacity in kilowatts of the system that I maintain?"
+      ],
+      "a": "120",
+      "attribute": "capacity kw=120",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the system that I maintain?"
+      ],
+      "a": "AstroTech Corp.",
+      "attribute": "manufacturer=AstroTech Corp.",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the latest maintenance date of the system that I maintain?"
+      ],
+      "a": "2023-09-12",
+      "attribute": "latest maintenance=2023-09-12",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the operational efficiency of the system that I maintain?"
+      ],
+      "a": "97.5",
+      "attribute": "operational efficiency=97.5",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the average daily energy produced in kilowatt-hours of the system that I maintain?"
+      ],
+      "a": "480",
+      "attribute": "average daily energy produced kwh=480",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the ISS location of the system that I maintain?"
+      ],
+      "a": "External Structure Module A",
+      "attribute": "location on ISS=External Structure Module A",
+      "path": "Lieutenant John Carmichael -> Alpha Solar Array"
+    },
+    {
+      "q": [
+        "What is the type of facility where I exercise?"
+      ],
+      "a": "Living Quarters",
+      "attribute": "entity type=Living Quarters",
+      "path": "Lieutenant John Carmichael -> Zvezda Service Module"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the facility where I exercise?"
+      ],
+      "a": "RKK Energia",
+      "attribute": "manufacturer=RKK Energia",
+      "path": "Lieutenant John Carmichael -> Zvezda Service Module"
+    }
+  ]
+}

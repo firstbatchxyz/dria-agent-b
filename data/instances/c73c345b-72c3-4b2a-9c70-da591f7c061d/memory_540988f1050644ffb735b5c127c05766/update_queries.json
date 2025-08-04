@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've moved away from photography and am now really into pottery making instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialization**: CRISPR Technology\n\n - **Years Of Experience**: 8\n\n - **Undergrad Degree**: Molecular Biology\n\n-- **Hobbies**: Photography\n\n+- **Hobbies**: pottery making\n\n - **Published Papers**: 15\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been spending all my free time at the pottery studio lately, and it's been such a therapeutic change from my previous hobbies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialization**: CRISPR Technology\n\n - **Years Of Experience**: 8\n\n - **Undergrad Degree**: Molecular Biology\n\n-- **Hobbies**: Photography\n\n+- **Hobbies**: pottery making\n\n - **Published Papers**: 15\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my professional experience information in the system - I now have 12 years of experience, not the 8 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Lead Researcher\n\n - **Specialization**: CRISPR Technology\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Undergrad Degree**: Molecular Biology\n\n - **Hobbies**: Photography\n\n - **Published Papers**: 15\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 12 years of medical practice have shaped my approach to patient care, especially when dealing with complex cases that require both clinical expertise and empathy.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Lead Researcher\n\n - **Specialization**: CRISPR Technology\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Undergrad Degree**: Molecular Biology\n\n - **Hobbies**: Photography\n\n - **Published Papers**: 15\n\n"
+    },
+    {
+      "query": "I need to correct my educational background in the system - my undergraduate degree was actually in Biochemistry, not Molecular Biology as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Lead Researcher\n\n - **Specialization**: CRISPR Technology\n\n - **Years Of Experience**: 8\n\n-- **Undergrad Degree**: Molecular Biology\n\n+- **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Photography\n\n - **Published Papers**: 15\n\n \n\n"
+    },
+    {
+      "query": "I've been thinking about how my undergraduate degree in Biochemistry really laid the foundation for my current research in enzyme kinetics and metabolic pathways.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Lead Researcher\n\n - **Specialization**: CRISPR Technology\n\n - **Years Of Experience**: 8\n\n-- **Undergrad Degree**: Molecular Biology\n\n+- **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Photography\n\n - **Published Papers**: 15\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my committee information - I'm no longer part of the Gene Editing Ethics Committee as I've transitioned to the Bioethics Research Institute.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[raj_patel.md]]\n\n-- **Part_Of**: [[gene_editing_ethics_committee.md]]\n+- **Part_Of**: [[bioethics_research_institute.md]]\n\n===entities/bioethics_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bioethics Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research institute\n\n+\n\n+## Relationships\n\n+- **Part_Of**: [[dr._emily_tran.md]]\n"
+    },
+    {
+      "query": "I'm excited about my new role at the Bioethics Research Institute where I can focus more on practical applications of ethical frameworks in biotechnology research.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[raj_patel.md]]\n\n-- **Part_Of**: [[gene_editing_ethics_committee.md]]\n+- **Part_Of**: [[bioethics_research_institute.md]]\n\n===entities/bioethics_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bioethics Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research institute\n\n+\n\n+## Relationships\n\n+- **Part_Of**: [[dr._emily_tran.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration information in the system - I'm no longer working with Raj Patel. My current research collaboration is actually with Dr. Marcus Chen from the bioengineering department.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,5 +10,5 @@\n - **Published Papers**: 15\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[raj_patel.md]]\n\n+- **Collaborates_With**: [[dr._marcus_chen.md]]\n\n - **Part_Of**: [[gene_editing_ethics_committee.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[dr._emily_tran.md]]\n"
+    },
+    {
+      "query": "I've been making great progress on our joint project with Dr. Marcus Chen. His expertise in bioengineering complements my research perfectly, and we're seeing some promising results in our latest experiments.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,5 +10,5 @@\n - **Published Papers**: 15\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[raj_patel.md]]\n\n+- **Collaborates_With**: [[dr._marcus_chen.md]]\n\n - **Part_Of**: [[gene_editing_ethics_committee.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[dr._emily_tran.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our research methodology information - Raj and I have moved beyond using CRISPR-Cas9 Retrofits and are now working with Quantum Gene Editors for our latest projects.",
+      "diff": "===entities/raj_patel.md===\n\n===entities/quantum_gene_editors.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Gene Editors\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: gene editing technology\n\n+\n\n+## Relationships\n\n+- **Uses**: [[raj_patel.md]]\n"
+    },
+    {
+      "query": "Raj and I have been making incredible breakthroughs with the Quantum Gene Editors - the precision and speed compared to our previous methods is remarkable, and we're seeing unprecedented results in our gene therapy research.",
+      "diff": "===entities/raj_patel.md===\n\n===entities/quantum_gene_editors.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Gene Editors\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: gene editing technology\n\n+\n\n+## Relationships\n\n+- **Uses**: [[raj_patel.md]]\n"
+    }
+  ]
+}

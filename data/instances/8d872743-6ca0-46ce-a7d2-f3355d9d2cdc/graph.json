@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Aiko Tanaka",
+      "type": "Person",
+      "age": 17,
+      "grade": "Junior",
+      "role_in_club": "Team strategist",
+      "favorite_subject": "Mathematics",
+      "hobby": "Painting",
+      "robotics_skill_level": "Expert",
+      "favourite_robot_component": "AI programming",
+      "competition_participations": 3,
+      "volunteer_work": "Teaching coding to younger students",
+      "favorite_food": "Sushi"
+    },
+    {
+      "id": "p2",
+      "name": "Ryuichi Saito",
+      "type": "Person",
+      "age": 16,
+      "grade": "Sophomore",
+      "role_in_club": "Mechanical Engineer",
+      "favorite_subject": "Physics",
+      "hobby": "Video Gaming",
+      "robotics_skill_level": "Intermediate",
+      "favourite_robot_component": "Motors and Actuators",
+      "competition_participations": 2,
+      "volunteer_work": "Building models for physics lessons",
+      "favorite_food": "Ramen"
+    },
+    {
+      "id": "p3",
+      "name": "Mei Kimura",
+      "type": "Person",
+      "age": 16,
+      "grade": "11th",
+      "role_in_club": "Mechanics Specialist",
+      "favorite_robot_component": "Servo Motors",
+      "hobbies": "Drawing, Reading Sci-Fi novels",
+      "hometown": "Tokyo, Japan",
+      "has_pet": true,
+      "pet_type": "Cat",
+      "favorite_subject": "Physics",
+      "career_aspiration": "Robotics Engineer",
+      "is_student_council_member": false
+    },
+    {
+      "id": "p4",
+      "name": "Kenji Nakamura",
+      "type": "Person",
+      "age": 17,
+      "favorite_subject": "Physics",
+      "role_in_club": "Lead Programmer",
+      "hobbies": "Playing video games, Hiking",
+      "personal_motto": "Innovate and Inspire",
+      "has_won_awards": false,
+      "part_time_job": "Café barista",
+      "favorite_robotic_component": "Microcontrollers"
+    },
+    {
+      "id": "p5",
+      "name": "Haruka Fujimoto",
+      "type": "Person",
+      "age": 16,
+      "nickname": "Lightning Haru",
+      "robotics_specialty": "circuit design",
+      "favorite_subject": "Applied Physics",
+      "hobby": "Origami",
+      "competition_awards": 3,
+      "dream_project": "Building an AI for environmental preservation",
+      "favorite_robot": "EcoBot X1",
+      "personality_trait": "meticulous",
+      "cultural_background": "Japanese"
+    },
+    {
+      "id": "e1",
+      "name": "Sakura Robotics Club",
+      "entity_type": "organization",
+      "type": "Entity",
+      "foundation_year": 2018,
+      "current_president": "Haruka Fujimoto",
+      "motto": "Innovate, Create, Achieve",
+      "weekly_meeting_schedule": "Wednesdays and Saturdays",
+      "club_slogan": "Engineering Tomorrow Today",
+      "average_member_age": 16.4,
+      "recent_achievements": "Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "social_media_handle": "@SakuraRobots"
+    },
+    {
+      "id": "e2",
+      "name": "HAL-01",
+      "entity_type": "robot",
+      "type": "Entity",
+      "model_number": "HAL-01",
+      "functionality": "Environmental monitoring",
+      "material": "Recycled aluminum and plastic",
+      "height_cm": 120,
+      "weight_kg": 35,
+      "battery_life_hours": 10,
+      "sensor_package": "Infrared and ultrasonic",
+      "ai_capabilities": "Advanced object recognition",
+      "release_year": 2023,
+      "developer_notes": "Designed to operate in varied weather conditions with a focus on sustainable energy usage."
+    },
+    {
+      "id": "e3",
+      "name": "The Innovation Lab",
+      "entity_type": "place",
+      "type": "Entity",
+      "location": "Sakura High School, Tokyo",
+      "facilities": "3D Printers, CNC Machines, Soldering Equipment",
+      "daily_visitors": 25,
+      "opening_hours": "9 AM to 8 PM",
+      "year_established": 2015,
+      "recent_award": "Best School Robotics Facility 2022",
+      "managed_by": "Mr. Hiroshi Tanaka"
+    },
+    {
+      "id": "e4",
+      "name": "National Robotics Championship",
+      "entity_type": "event",
+      "type": "Entity",
+      "location": "Tokyo, Japan",
+      "year_established": 2010,
+      "participants_count": 50,
+      "prizes": "Scholarships, Trophies, Internships",
+      "duration": "3 days",
+      "sponsor_name": "TechGiant Corporation",
+      "judging_criteria": "Innovation, Technical Skill, Teamwork, Presentation",
+      "local_competitions_leading_to_event": "Tokyo Junior Robotics Challenge, Regional Robotics Roundup"
+    },
+    {
+      "id": "e5",
+      "name": "EcoBots Series",
+      "entity_type": "robot series",
+      "type": "Entity",
+      "number_of_models": 5,
+      "focus_area": "Environmental sustainability",
+      "development_start_year": 2022,
+      "average_build_time_months": 6,
+      "lead_developer": "Dr. Satoshi Nakamura",
+      "primary_material": "Biodegradable composites",
+      "energy_source": "Solar and kinetic energy",
+      "series_motto": "Technology for a Greener Tomorrow",
+      "notable_award": "Eco Innovation Award 2023"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "is a member of",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "works on",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "is a member of",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "collaborates with",
+      "o": "p1"
+    },
+    {
+      "s": "p3",
+      "p": "is a member of",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "p4",
+      "p": "is a member of",
+      "o": "e1"
+    },
+    {
+      "s": "p4",
+      "p": "prepares for",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "is a member of",
+      "o": "e1"
+    },
+    {
+      "s": "p5",
+      "p": "designs",
+      "o": "e5"
+    },
+    {
+      "s": "e1",
+      "p": "participates in",
+      "o": "e4"
+    },
+    {
+      "s": "e2",
+      "p": "created for",
+      "o": "e5"
+    }
+  ]
+}

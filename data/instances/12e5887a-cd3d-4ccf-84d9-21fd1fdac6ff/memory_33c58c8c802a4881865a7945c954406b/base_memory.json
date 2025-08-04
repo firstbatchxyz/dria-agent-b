@@ -1,0 +1,21 @@
+{
+  "user_md": "# Lieutenant John Carmichael\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Lieutenant\n- **Nationality**: American\n- **Age**: 35\n- **Specialty**: Robotics and Mechanical Systems\n- **Years In Service**: 12\n- **Hobbies**: Guitar and Basketball\n- **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n- **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n- **Mission Allegiance**: ISS Expedition 69\n- **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n- **Leadership Style**: Pragmatic and Technically Focused\n\n## Relationships\n- **Coordinates_With**: [[commander_elena_vasilieva.md]]\n- **Maintains**: [[alpha_solar_array.md]]\n- **Exercises_In**: [[zvezda_service_module.md]]",
+  "entities": [
+    {
+      "entity_name": "commander_elena_vasilieva",
+      "entity_file_path": "entities/commander_elena_vasilieva.md",
+      "entity_file_content": "# Commander Elena Vasilieva\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Commander\n- **Nationality**: Russian\n- **Age**: 42\n- **Specialty**: Aerodynamics and Spacecraft Navigation\n- **Years In Service**: 18\n- **Hobbies**: Photography and Chess\n- **Signature Work**: Pioneering advancements in the ISS's life support systems\n- **Favorite Space Meal**: Borscht vacuum pack\n- **Leadership Style**: Collaborative and Empathetic\n- **Mission Allegiance**: ISS Expedition 68\n- **Education**: PhD in Aerospace Engineering from the Moscow Institute of Physics and Technology\n\n## Relationships\n- **Coordinates_With**: [[lieutenant_john_carmichael.md]]"
+    },
+    {
+      "entity_name": "alpha_solar_array",
+      "entity_file_path": "entities/alpha_solar_array.md",
+      "entity_file_content": "# Alpha Solar Array\n\n## Basic Information\n- **Entity Type**: Energy Source\n- **Type**: Entity\n- **Installation Date**: 2005-03-15\n- **Capacity Kw**: 120\n- **Manufacturer**: AstroTech Corp.\n- **Latest Maintenance**: 2023-09-12\n- **Operational Efficiency**: 97.5\n- **Average Daily Energy Produced Kwh**: 480\n- **Location On Iss**: External Structure Module A\n\n## Relationships\n- **Maintains**: [[lieutenant_john_carmichael.md]]"
+    },
+    {
+      "entity_name": "zvezda_service_module",
+      "entity_file_path": "entities/zvezda_service_module.md",
+      "entity_file_content": "# Zvezda Service Module\n\n## Basic Information\n- **Entity Type**: Living Quarters\n- **Type**: Entity\n- **Manufacturer**: RKK Energia\n- **Launch Date**: 12 July 2000\n- **Main Construction Material**: Aluminum alloy\n- **Primary Function**: Living and command module\n- **Total Volume**: 90\n- **Solar Panels Area**: 32\n- **Communication Systems**: Ultra High Frequency Radio Links\n- **Emergency Escape Routes**: Integrated and accessible through Pirs module\n\n## Relationships\n- **Exercises_In**: [[lieutenant_john_carmichael.md]]"
+    }
+  ],
+  "mem_id": "memory_33c58c8c802a4881865a7945c954406b"
+}

@@ -1,0 +1,192 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Ana Maria Silva"
+    },
+    {
+      "q": "What is my age?",
+      "a": "31"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Electrician"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "painting and dancing samba"
+    },
+    {
+      "q": "Do I have children?",
+      "a": "True"
+    },
+    {
+      "q": "What is my community role?",
+      "a": "Community Outreach Organizer"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Electrical maintenance and soccer coaching"
+    },
+    {
+      "q": "What is my pet?",
+      "a": "a small parrot named Azul"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Feijoada"
+    },
+    {
+      "q": "What is my background?",
+      "a": "Originally from Bahia, moved to the favela 10 years ago"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Portuguese and basic Spanish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the full name of the person I share resources with?"
+      ],
+      "a": "Carlos Henrique Mendes",
+      "attribute": "full name=Carlos Henrique Mendes",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the age of the person I share resources with?"
+      ],
+      "a": "29",
+      "attribute": "age=29",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the occupation of the person I share resources with?"
+      ],
+      "a": "Soccer Coach",
+      "attribute": "occupation=Soccer Coach",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I share resources with?"
+      ],
+      "a": "playing guitar and gardening",
+      "attribute": "hobbies=playing guitar and gardening",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the community role of the person I share resources with?"
+      ],
+      "a": "Event Coordinator",
+      "attribute": "community role=Event Coordinator",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What are the skills of the person I share resources with?"
+      ],
+      "a": "event planning and conflict resolution",
+      "attribute": "skills=event planning and conflict resolution",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the favorite food of the person I share resources with?"
+      ],
+      "a": "Moqueca",
+      "attribute": "favorite food=Moqueca",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What languages are spoken by the person I share resources with?"
+      ],
+      "a": "Portuguese and English",
+      "attribute": "languages spoken=Portuguese and English",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "What is the background of the person I share resources with?"
+      ],
+      "a": "Born and raised in the favela, with a passion for community development",
+      "attribute": "background=Born and raised in the favela, with a passion for community development",
+      "path": "Ana Silva -> Carlos Mendes"
+    },
+    {
+      "q": [
+        "Does the person I share resources with have children?"
+      ],
+      "a": "False",
+      "attribute": "has children=False",
+      "path": "Ana Silva -> Carlos Mendes"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of building is the place where Carlos Mendes (who I share resources with) organizes events?",
+      "a": "building",
+      "attribute": "entity type=building",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What year was the place where Carlos Mendes (who I share resources with) organizes events constructed?",
+      "a": "1995",
+      "attribute": "construction year=1995",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What is the capacity of the place where Carlos Mendes (who I share resources with) organizes events?",
+      "a": "150",
+      "attribute": "capacity=150",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What is the primary use of the place where Carlos Mendes (who I share resources with) organizes events?",
+      "a": "Gatherings and classes",
+      "attribute": "primary use=Gatherings and classes",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What facilities are available at the place where Carlos Mendes (who I share resources with) organizes events?",
+      "a": "Kitchen, meeting room, sports field",
+      "attribute": "facilities=Kitchen, meeting room, sports field",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What are the hours of operation for the place where Carlos Mendes (who I share resources with) organizes events?",
+      "a": "8 AM to 10 PM",
+      "attribute": "hours of operation=8 AM to 10 PM",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What accessibility features does the place where Carlos Mendes (who I share resources with) organizes events have?",
+      "a": "Wheelchair ramp, braille signs",
+      "attribute": "accessibility features=Wheelchair ramp, braille signs",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - organizes event at-> Community Center of Vila Esperan\u00e7a"
+    },
+    {
+      "q": "What is the full name of the person who mentors Carlos Mendes (who I share resources with)?",
+      "a": "Luiza Maria Pereira",
+      "attribute": "full name=Luiza Maria Pereira",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - mentors-> Luiza Pereira"
+    },
+    {
+      "q": "What is the age of the person who mentors Carlos Mendes (who I share resources with)?",
+      "a": "34",
+      "attribute": "age=34",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - mentors-> Luiza Pereira"
+    },
+    {
+      "q": "What is the occupation of the person who mentors Carlos Mendes (who I share resources with)?",
+      "a": "Community Organizer",
+      "attribute": "occupation=Community Organizer",
+      "path": "Ana Silva - shares resources with -> Carlos Mendes - mentors-> Luiza Pereira"
+    }
+  ]
+}

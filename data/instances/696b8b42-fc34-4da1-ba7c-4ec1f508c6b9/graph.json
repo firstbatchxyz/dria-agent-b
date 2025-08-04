@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Dr. Elara Thompson",
+      "type": "Person",
+      "profession": "Meteorologist",
+      "specialization": "Climate Sciences",
+      "education": "Ph.D. in Atmospheric Sciences",
+      "years_of_experience": 8,
+      "role": "Lead Researcher",
+      "hobbies": "Photography",
+      "favorite_book": "Endurance: Shackleton's Incredible Voyage",
+      "languages_spoken": "English, French",
+      "works_mostly_with": "Aurora-3 Weather Balloon"
+    },
+    {
+      "id": "p2",
+      "name": "Javier Garcia",
+      "type": "Person",
+      "profession": "Systems Engineer",
+      "education": "M.Sc. in Electrical Engineering",
+      "expertise": "Satellite Communications",
+      "hobbies": "Stargazing",
+      "favorite_food": "Tapas",
+      "years_of_experience": 6,
+      "languages_spoken": "Spanish, English",
+      "role": "Satellite Operations Specialist",
+      "favorite_movie": "The Martian",
+      "works_mostly_with": "Penguinwatch Satellite System"
+    },
+    {
+      "id": "p3",
+      "name": "Anika Chen",
+      "type": "Person",
+      "role": "Station Engineer",
+      "expertise": "Mechanical Systems",
+      "years_at_station": 4,
+      "hobbies": "Ice Sculpting",
+      "education": "M.S. in Mechanical Engineering",
+      "languages_spoken": "Mandarin Chinese, English",
+      "favorite_thing_about_antarctica": "The solitude and raw beauty of the landscape"
+    },
+    {
+      "id": "p4",
+      "name": "Lars Johansen",
+      "type": "Person",
+      "role": "Climatologist",
+      "expertise": "Glaciology",
+      "years_at_station": 3,
+      "hobbies": "Photography, Stargazing",
+      "education": "Ph.D. in Climate Science",
+      "languages_spoken": "Norwegian, English, German",
+      "favorite_thing_about_antarctica": "Studying the pristine ice formations and the play of light on them",
+      "favorite_food": "Reindeer stew"
+    },
+    {
+      "id": "p5",
+      "name": "Miranda Patel",
+      "type": "Person",
+      "role": "Meteorologist",
+      "age": 38,
+      "hobbies": "photography",
+      "special_skill": "data visualization",
+      "years_of_experience": 12,
+      "personal_motto": "Observing today for a better tomorrow",
+      "favorite_weather_phenomenon": "auroras",
+      "preferred_station_task": "balloon launches"
+    },
+    {
+      "id": "e1",
+      "name": "Aurora-3 Weather Balloon",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "deployment_date": "2022-04-14",
+      "max_altitude": 30000,
+      "balloon_type": "High-altitude",
+      "insignia": "Snowflake Emblem",
+      "manufacturer": "AeroTech Instruments Inc.",
+      "operational_range": "300 km",
+      "last_maintenance_date": "2023-03-22",
+      "sensor_package": "Thermal, Humidity, Wind Speed"
+    },
+    {
+      "id": "e2",
+      "name": "Penguinwatch Satellite System",
+      "entity_type": "Technology",
+      "type": "Entity",
+      "launch_year": 2018,
+      "manufacturer": "Antarctic Tech Corp",
+      "purpose": "Wildlife Monitoring and Climate Observation",
+      "capabilities": "High-Resolution Imaging, Real-Time Data Transmission",
+      "power_source": "Solar Panels with Diesel Generator Backup",
+      "location": "Latitude: -75.250973, Longitude: -0.071389",
+      "primary_user": "Antarctic Research Consortium",
+      "operational_status": "Active"
+    },
+    {
+      "id": "e3",
+      "name": "ThermX-Generation Power Unit",
+      "entity_type": "Generator",
+      "type": "Entity",
+      "manufacturer": "PolarTech Industries",
+      "capacity_kw": 500,
+      "fuel_type": "Diesel",
+      "installation_date": "2018-11-15",
+      "last_maintenance_date": "2023-06-01",
+      "expected_lifespan_years": 10,
+      "operational_status": "Active",
+      "location": "Sector B - Main Power Hub",
+      "noise_level_db": 45,
+      "automatic_shutdown_feature": true
+    },
+    {
+      "id": "e4",
+      "name": "ArcticNom Nom Food Supplies",
+      "entity_type": "Supply",
+      "type": "Entity",
+      "brand": "ArcticNom Nom",
+      "average_daily_consumption": 3.5,
+      "stock_unit": "boxes",
+      "type_of_supplies": "dehydrated meals",
+      "popular_dish": "Spicy Vegetable Curry",
+      "color_of_packaging": "blue and white",
+      "lasting_storage_temperature": "-20°C",
+      "replenishment_cycle_days": 21
+    },
+    {
+      "id": "e5",
+      "name": "DataCore Analysis Console",
+      "entity_type": "System",
+      "type": "Entity",
+      "operating_system": "Linux-based custom OS",
+      "primary_function": "Weather and climate data analysis",
+      "location": "Core Data Analysis Room",
+      "date_installed": "2022-07-15",
+      "access_level_required": "High",
+      "manufacturer": "PolarTech Solutions",
+      "power_source": "Station's main generator backup",
+      "connectivity": "Satellite uplink for remote data access",
+      "used_in_research_projects": true
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "collaborates with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "operates",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "analyzes data from",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "maintains",
+      "o": "e2"
+    },
+    {
+      "s": "p3",
+      "p": "oversees",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "coordinates",
+      "o": "p4"
+    },
+    {
+      "s": "p4",
+      "p": "uses",
+      "o": "e5"
+    },
+    {
+      "s": "p4",
+      "p": "transports",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "distributes",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "documents findings from",
+      "o": "e5"
+    }
+  ]
+}

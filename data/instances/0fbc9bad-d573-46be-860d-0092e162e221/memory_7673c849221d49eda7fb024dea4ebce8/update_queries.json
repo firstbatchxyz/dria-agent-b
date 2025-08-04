@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my dietary preferences in your system - I'm no longer vegetarian and have switched to following a Mediterranean diet instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Children**: 2\n\n - **Years In Community**: 12\n\n - **Education Level**: High School Diploma\n\n-- **Food Preference**: Vegetarian\n\n+- **Food Preference**: Mediterranean\n\n \n\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n"
+    },
+    {
+      "query": "I've been really enjoying the Mediterranean diet lately, especially all the fresh seafood and olive oil-based dishes that I can now include in my meals.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Children**: 2\n\n - **Years In Community**: 12\n\n - **Education Level**: High School Diploma\n\n-- **Food Preference**: Vegetarian\n\n+- **Food Preference**: Mediterranean\n\n \n\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n"
+    },
+    {
+      "query": "I need to update my family information in the system - I actually have 3 children now, not 2 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Profession**: Community Organizer\n\n - **Hobbies**: Gardening\n\n - **Favorite Sport**: Soccer\n\n-- **Children**: 2\n\n+- **Children**: 3\n\n - **Years In Community**: 12\n\n - **Education Level**: High School Diploma\n\n - **Food Preference**: Vegetarian\n\n"
+    },
+    {
+      "query": "I've been so busy lately juggling work and taking care of my 3 children, but wouldn't trade this hectic family life for anything.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Profession**: Community Organizer\n\n - **Hobbies**: Gardening\n\n - **Favorite Sport**: Soccer\n\n-- **Children**: 2\n\n+- **Children**: 3\n\n - **Years In Community**: 12\n\n - **Education Level**: High School Diploma\n\n - **Food Preference**: Vegetarian\n\n"
+    },
+    {
+      "query": "I need to update my age in the system - I'm actually 38 now, not 37 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 37\n\n+- **Age**: 38\n\n - **Profession**: Community Organizer\n\n - **Hobbies**: Gardening\n\n - **Favorite Sport**: Soccer\n\n"
+    },
+    {
+      "query": "I've been thinking about how turning 38 has given me a new perspective on my career goals and life priorities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 37\n\n+- **Age**: 38\n\n - **Profession**: Community Organizer\n\n - **Hobbies**: Gardening\n\n - **Favorite Sport**: Soccer\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm getting childcare help from - I'm no longer working with Jorge Santos for childcare assistance, I've switched to Maria Fernandez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n-- **Seeks_Childcare_Help_From**: [[jorge_santos.md]]\n\n-- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n+- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n\n+- **Seeks_Childcare_Help_From**: [[maria_fernandez.md]]\n\n===entities/maria_fernandez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Fernandez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Seeks_Childcare_Help_From**: [[rosa_almeida.md]]\n"
+    },
+    {
+      "query": "Maria Fernandez has been such a wonderful help with watching the kids - I'm so grateful I found someone so reliable and caring for my childcare needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n-- **Seeks_Childcare_Help_From**: [[jorge_santos.md]]\n\n-- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n+- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n\n+- **Seeks_Childcare_Help_From**: [[maria_fernandez.md]]\n\n===entities/maria_fernandez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Fernandez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Seeks_Childcare_Help_From**: [[rosa_almeida.md]]\n"
+    },
+    {
+      "query": "I need to update the information about what I organize - I'm no longer organizing events at Vila Esperan\u00e7a Soccer Field, but I'm now organizing the Annual Community Arts Festival instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n - **Seeks_Childcare_Help_From**: [[jorge_santos.md]]\n\n-- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n+- **Organizes**: [[annual_community_arts_festival.md]]\n\n===entities/annual_community_arts_festival.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Annual Community Arts Festival\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community event\n\n+\n\n+## Relationships\n\n+- **Organizes**: [[rosa_almeida.md]]\n"
+    },
+    {
+      "query": "I'm so excited about how well the Annual Community Arts Festival is coming together this year - organizing this event has been such a rewarding experience for our neighborhood.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n ## Relationships\n\n - **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n\n - **Seeks_Childcare_Help_From**: [[jorge_santos.md]]\n\n-- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]\n+- **Organizes**: [[annual_community_arts_festival.md]]\n\n===entities/annual_community_arts_festival.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Annual Community Arts Festival\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: community event\n\n+\n\n+## Relationships\n\n+- **Organizes**: [[rosa_almeida.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

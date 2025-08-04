@@ -1,0 +1,140 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Chloe"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Frost"
+    },
+    {
+      "q": "What is my rank?",
+      "a": "Corporal"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "snowmobile repair, first aid, cold weather survival"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my preferred patrol time?",
+      "a": "night shifts"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Whitehorse"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "ice sculpting, snowshoeing"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Inuktitut"
+    },
+    {
+      "q": "Do I have medical training?",
+      "a": "True"
+    },
+    {
+      "q": "What is my favorite equipment?",
+      "a": "GPS devices"
+    },
+    {
+      "q": "What is my notable experience?",
+      "a": "led successful search and rescue mission in harsh blizzard conditions"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the company that I use?"
+      ],
+      "a": "Equipment Supplier",
+      "attribute": "entity type=Equipment Supplier",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "Where is the headquarters of the company that I use?"
+      ],
+      "a": "Yellowknife, Northwest Territories",
+      "attribute": "headquarters=Yellowknife, Northwest Territories",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What year was the company that I use founded?"
+      ],
+      "a": "1985",
+      "attribute": "founded year=1985",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What are the core products of the company that I use?"
+      ],
+      "a": "snowmobiles, snowmobile parts, GPS devices",
+      "attribute": "core products=snowmobiles, snowmobile parts, GPS devices",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What is the market region of the company that I use?"
+      ],
+      "a": "Canadian Arctic",
+      "attribute": "market region=Canadian Arctic",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What is the parent company of the company that I use?"
+      ],
+      "a": "Arctic Transport Corp",
+      "attribute": "parent company=Arctic Transport Corp",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "True or false: Does the company that I use offer rental services?"
+      ],
+      "a": "True",
+      "attribute": "rental service available=True",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What are the rental duration options of the company that I use?"
+      ],
+      "a": "daily, weekly",
+      "attribute": "rental duration options=daily, weekly",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "What are the customer support hours of the company that I use?"
+      ],
+      "a": "24/7",
+      "attribute": "customer support hours=24/7",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    },
+    {
+      "q": [
+        "Who is the founder of the company that I use?"
+      ],
+      "a": "Gordon Blizzard",
+      "attribute": "founder=Gordon Blizzard",
+      "path": "Ranger Chloe Frost -> Blizzard Snowmobiles"
+    }
+  ],
+  "2_hop": {
+    "q": "What is the capacity of the system that coordinates the person I assist?",
+    "a": "6 persons",
+    "attribute": "capacity=6 persons",
+    "path": "Ranger Chloe Frost - assists -> Sergeant Aurora McCarthy - coordinates-> Arctic Shelter Network"
+  }
+}

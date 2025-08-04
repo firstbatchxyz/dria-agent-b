@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my specialty cuisine information in the system - I've actually shifted my focus from French Crepes to Mediterranean Fusion dishes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Imani\n\n - **Last Name**: Jones\n\n - **Business Name**: Sweet Relief Crepes\n\n-- **Specialty Cuisine**: French Crepes\n\n+- **Specialty Cuisine**: Mediterranean Fusion\n\n - **Years Experience**: 5\n\n - **Favorite Ingredient**: Nutella\n\n - **Has Chef Certification**: False\n\n"
+    },
+    {
+      "query": "I've been really enjoying experimenting with Mediterranean Fusion cuisine lately, combining traditional flavors from across the region in exciting new ways.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Imani\n\n - **Last Name**: Jones\n\n - **Business Name**: Sweet Relief Crepes\n\n-- **Specialty Cuisine**: French Crepes\n\n+- **Specialty Cuisine**: Mediterranean Fusion\n\n - **Years Experience**: 5\n\n - **Favorite Ingredient**: Nutella\n\n - **Has Chef Certification**: False\n\n"
+    },
+    {
+      "query": "I need to correct my award information in the system - I actually received the Innovation in Pastry Arts Award 2024, not the Best Dessert Vendor 2024 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Instagram Handle**: @SweetReliefCrepesNY\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n\n-- **Recent Award**: Best Dessert Vendor 2024\n\n+- **Recent Award**: Innovation in Pastry Arts Award 2024\n\n - **Has Side Hustle**: Pastry blog writer\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm so grateful that my experimental flavor combinations earned me the Innovation in Pastry Arts Award 2024 - it's really validated my approach to pushing creative boundaries in dessert making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -13,7 +13,7 @@\n - **Instagram Handle**: @SweetReliefCrepesNY\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n\n-- **Recent Award**: Best Dessert Vendor 2024\n\n+- **Recent Award**: Innovation in Pastry Arts Award 2024\n\n - **Has Side Hustle**: Pastry blog writer\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my operating area information in the system - I've expanded my work territory from Lower Manhattan to cover all of Brooklyn now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years Experience**: 5\n\n - **Favorite Ingredient**: Nutella\n\n - **Has Chef Certification**: False\n\n-- **Operating Area**: Lower Manhattan\n\n+- **Operating Area**: Brooklyn\n\n - **Instagram Handle**: @SweetReliefCrepesNY\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n\n"
+    },
+    {
+      "query": "I've been really enjoying the diversity of cases and community connections I've built since expanding my operations throughout Brooklyn.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years Experience**: 5\n\n - **Favorite Ingredient**: Nutella\n\n - **Has Chef Certification**: False\n\n-- **Operating Area**: Lower Manhattan\n\n+- **Operating Area**: Brooklyn\n\n - **Instagram Handle**: @SweetReliefCrepesNY\n\n - **Commissary Kitchen Role**: Event Planner\n\n - **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my supplier contact information - I'm no longer working with Luis Ramirez and have switched to a new supplier contact named Maria Santos.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n \n\n ## Relationships\n\n - **Coordinates_At_Event**: [[sofia_delgado.md]]\n\n-- **Exchanges_Supplier_Contact**: [[luis_ramirez.md]]\n+- **Exchanges_Supplier_Contact**: [[maria_santos.md]]\n\n===entities/maria_santos.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Santos\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Supplier_Contact**: [[imani_jones.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with Maria Santos's responsiveness and product quality since we started our supplier relationship - she's been much more reliable than our previous arrangements.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n \n\n ## Relationships\n\n - **Coordinates_At_Event**: [[sofia_delgado.md]]\n\n-- **Exchanges_Supplier_Contact**: [[luis_ramirez.md]]\n+- **Exchanges_Supplier_Contact**: [[maria_santos.md]]\n\n===entities/maria_santos.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Maria Santos\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Supplier_Contact**: [[imani_jones.md]]\n"
+    },
+    {
+      "query": "I need to update my supplier contact information - I'm no longer working with Luis Ramirez and have switched to a new supplier contact named Carlos Mendoza.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n \n\n ## Relationships\n\n - **Coordinates_At_Event**: [[sofia_delgado.md]]\n\n-- **Exchanges_Supplier_Contact**: [[luis_ramirez.md]]\n+- **Exchanges_Supplier_Contact**: [[carlos_mendoza.md]]\n\n===entities/carlos_mendoza.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Carlos Mendoza\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Supplier_Contact**: [[imani_jones.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with Carlos Mendoza's responsiveness and quality of service since we started our new supplier relationship last month.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n \n\n ## Relationships\n\n - **Coordinates_At_Event**: [[sofia_delgado.md]]\n\n-- **Exchanges_Supplier_Contact**: [[luis_ramirez.md]]\n+- **Exchanges_Supplier_Contact**: [[carlos_mendoza.md]]\n\n===entities/carlos_mendoza.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Carlos Mendoza\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Supplier_Contact**: [[imani_jones.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the commissary sharing information - Luis Ramirez is no longer sharing commissary space with Maya Chen, he's now sharing it with Sofia Rodriguez.",
+      "diff": "===entities/luis_ramirez.md===\n\n===entities/sofia_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sofia Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[luis_ramirez.md]]\n"
+    },
+    {
+      "query": "Luis mentioned that working with Sofia Rodriguez in the shared commissary has been great for coordinating our supply deliveries more efficiently.",
+      "diff": "===entities/luis_ramirez.md===\n\n===entities/sofia_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sofia Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Commissary_With**: [[luis_ramirez.md]]\n"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Maximilian Vogel\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Maximilian\n- **Last Name**: Vogel\n- **Role**: Field Medic\n- **Rescue Experience Years**: 7\n- **Languages Spoken**: German, French, English\n- **Favorite Climbing Spot**: Matterhorn\n- **Wilderness First Responder Certified**: True\n- **Hobby**: Photographing Alpine Flora\n- **Emergency Response Strategy**: Rapid Assessment and Deployment\n\n## Relationships\n- **Carries**: [[avalanche_beacons.md]]\n- **Uses**: [[avalanche_beacons.md]]",
+  "entities": [
+    {
+      "entity_name": "avalanche_beacons",
+      "entity_file_path": "entities/avalanche_beacons.md",
+      "entity_file_content": "# Avalanche Beacons\n\n## Basic Information\n- **Entity Type**: Device\n- **Type**: Entity\n- **Frequency Range**: 457 kHz\n- **Battery Lifetime**: 200 hours\n- **Operating Temperature Range**: -20\u00b0C to +45\u00b0C\n- **Search Range**: 60 meters\n- **Weight**: 250 grams\n- **Water Resistance**: IP67\n- **Manufacturer Year**: 2021\n- **Color**: bright orange\n- **Auto Revert**: True\n\n## Relationships\n- **Carries**: [[maximilian_vogel.md]]\n- **Uses**: [[maximilian_vogel.md]]"
+    }
+  ],
+  "mem_id": "memory_acab622384df4a32a0975dae3fb7f668"
+}

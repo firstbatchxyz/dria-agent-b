@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Megan Elizabeth Llewellyn"
+    },
+    {
+      "q": "What is my age?",
+      "a": "27"
+    },
+    {
+      "q": "What is my role on the farm?",
+      "a": "Farm Manager"
+    },
+    {
+      "q": "What is my shearing expertise level?",
+      "a": "Advanced"
+    },
+    {
+      "q": "What is my favorite dog breed?",
+      "a": "Border Collie"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Photography"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Agricultural Science Degree"
+    },
+    {
+      "q": "What language do I speak?",
+      "a": "Welsh"
+    },
+    {
+      "q": "What is my favorite season?",
+      "a": "Spring"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "Excellent Sheep Shearing Skills"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of place do I co-own?"
+      ],
+      "a": "Farm",
+      "attribute": "entity type=Farm",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "Where is the farm that I co-own located?"
+      ],
+      "a": "Rural Wales",
+      "attribute": "location=Rural Wales",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What is the specialty of the farm that I co-own?"
+      ],
+      "a": "Sheep Farming",
+      "attribute": "farm specialty=Sheep Farming",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "How many sheep are on the farm that I co-own?"
+      ],
+      "a": "750",
+      "attribute": "number of sheep=750",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What is the area of the farm that I co-own?"
+      ],
+      "a": "500 acres",
+      "attribute": "area of farm=500 acres",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "When was the farm that I co-own established?"
+      ],
+      "a": "1908",
+      "attribute": "year established=1908",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "Which family owns the farm that I co-own?"
+      ],
+      "a": "Llewellyn",
+      "attribute": "proprietor family=Llewellyn",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What notable events happen at the farm that I co-own?"
+      ],
+      "a": "Annual Sheep Shearing Festival",
+      "attribute": "notable events=Annual Sheep Shearing Festival",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What are the primary products of the farm that I co-own?"
+      ],
+      "a": "Wool, Lamb",
+      "attribute": "primary products=Wool, Lamb",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "True or false: The farm that I co-own uses sustainable farming practices?"
+      ],
+      "a": "True",
+      "attribute": "sustainable farming practices=True",
+      "path": "Megan Llewellyn -> Llewellyn Family Farm"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the age of the person who is employed by the farm that I co-own?",
+      "a": "45",
+      "attribute": "age=45",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the occupation of the person who is employed by the farm that I co-own?",
+      "a": "Farmer",
+      "attribute": "occupation=Farmer",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the specialty of the person who is employed by the farm that I co-own?",
+      "a": "Sheep Farming",
+      "attribute": "specialty=Sheep Farming",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What are the hobbies of the person who is employed by the farm that I co-own?",
+      "a": "Woodworking",
+      "attribute": "hobbies=Woodworking",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the education of the person who is employed by the farm that I co-own?",
+      "a": "Agricultural Science Degree",
+      "attribute": "education=Agricultural Science Degree",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "Is the person who is employed by the farm that I co-own married?",
+      "a": "True",
+      "attribute": "married=True",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "How many children does the person who is employed by the farm that I co-own have?",
+      "a": "3",
+      "attribute": "children=3",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the favorite sheep breed of the person who is employed by the farm that I co-own?",
+      "a": "Welsh Mountain",
+      "attribute": "favorite sheep breed=Welsh Mountain",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "Is the person who is employed by the farm that I co-own an annual sheep shearing event organizer?",
+      "a": "True",
+      "attribute": "annual sheep shearing event organizer=True",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What languages is the person who is employed by the farm that I co-own fluent in?",
+      "a": "Welsh, English",
+      "attribute": "fluent languages=Welsh, English",
+      "path": "Megan Llewellyn - co-owns -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    }
+  ]
+}

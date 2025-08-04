@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my safety record information in the system - it should show 'Good' rather than 'Excellent' due to a minor incident I had last quarter.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: Woodworking, Astronomy\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n-- **Safety Record**: Excellent\n\n+- **Safety Record**: Good\n\n \n\n ## Relationships\n\n - **Drives**: [[titan_forklift_fx.md]]\n"
+    },
+    {
+      "query": "I've been working hard to maintain my Good safety record and ensure I follow all protocols properly after that small setback earlier this year.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: Woodworking, Astronomy\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n-- **Safety Record**: Excellent\n\n+- **Safety Record**: Good\n\n \n\n ## Relationships\n\n - **Drives**: [[titan_forklift_fx.md]]\n"
+    },
+    {
+      "query": "I need to update my hobbies in the system - I've recently gotten into photography and given up astronomy, so my current interests are woodworking and photography now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift**: Night\n\n - **Employee Id**: EMP-2638\n\n - **Favorite Tool**: Adjustable Wrench\n\n-- **Hobbies**: Woodworking, Astronomy\n\n+- **Hobbies**: Woodworking, Photography\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n - **Safety Record**: Excellent\n\n"
+    },
+    {
+      "query": "I've been spending a lot of time lately perfecting my woodworking techniques and exploring different photography styles - these two hobbies really complement each other in terms of creativity and precision.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift**: Night\n\n - **Employee Id**: EMP-2638\n\n - **Favorite Tool**: Adjustable Wrench\n\n-- **Hobbies**: Woodworking, Astronomy\n\n+- **Hobbies**: Woodworking, Photography\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n - **Safety Record**: Excellent\n\n"
+    },
+    {
+      "query": "I need to correct my tool preference in the records - my favorite tool is actually a Socket Wrench Set, not an adjustable wrench as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certifications**: Forklift Safety, Advanced Vehicle Handling\n\n - **Shift**: Night\n\n - **Employee Id**: EMP-2638\n\n-- **Favorite Tool**: Adjustable Wrench\n\n+- **Favorite Tool**: Socket Wrench Set\n\n - **Hobbies**: Woodworking, Astronomy\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n"
+    },
+    {
+      "query": "I was working on an engine repair yesterday and my Socket Wrench Set really proved its worth again - there's nothing quite like having the right socket for every bolt size.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certifications**: Forklift Safety, Advanced Vehicle Handling\n\n - **Shift**: Night\n\n - **Employee Id**: EMP-2638\n\n-- **Favorite Tool**: Adjustable Wrench\n\n+- **Favorite Tool**: Socket Wrench Set\n\n - **Hobbies**: Woodworking, Astronomy\n\n - **Work Email**: nikolai.ivanov@automotiveplant.com\n\n - **Languages Spoken**: Russian, English\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my vehicle information in the system - I'm no longer driving the Titan Forklift FX, I've been assigned a new Hercules Loader HL-2000 for my warehouse operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Safety Record**: Excellent\n\n \n\n ## Relationships\n\n-- **Drives**: [[titan_forklift_fx.md]]\n+- **Drives**: [[hercules_loader_hl-2000.md]]\n\n===entities/hercules_loader_hl-2000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Hercules Loader HL-2000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: industrial vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[nikolai_ivanov.md]]\n"
+    },
+    {
+      "query": "The new Hercules Loader HL-2000 has been fantastic for handling heavy pallets - much more efficient than my previous equipment for the demanding loads we move daily.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Safety Record**: Excellent\n\n \n\n ## Relationships\n\n-- **Drives**: [[titan_forklift_fx.md]]\n+- **Drives**: [[hercules_loader_hl-2000.md]]\n\n===entities/hercules_loader_hl-2000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Hercules Loader HL-2000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: industrial vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[nikolai_ivanov.md]]\n"
+    },
+    {
+      "query": "I need to update my work equipment information - I'm no longer operating the Titan Forklift FX, I've been assigned to drive the Hercules Mobile Crane HC-250 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Safety Record**: Excellent\n\n \n\n ## Relationships\n\n-- **Drives**: [[titan_forklift_fx.md]]\n+- **Drives**: [[hercules_mobile_crane_hc-250.md]]\n\n===entities/hercules_mobile_crane_hc-250.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Hercules Mobile Crane HC-250\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[nikolai_ivanov.md]]\n"
+    },
+    {
+      "query": "Been getting familiar with the Hercules Mobile Crane HC-250 today - it's quite different from what I was driving before, but the hydraulics are much more responsive for heavy lifting operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Safety Record**: Excellent\n\n \n\n ## Relationships\n\n-- **Drives**: [[titan_forklift_fx.md]]\n+- **Drives**: [[hercules_mobile_crane_hc-250.md]]\n\n===entities/hercules_mobile_crane_hc-250.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Hercules Mobile Crane HC-250\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[nikolai_ivanov.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "P001",
+      "name": "Jack Turner",
+      "type": "Person",
+      "occupation": "Maintenance Technician",
+      "age": 34,
+      "years_of_experience": 7,
+      "expertise": "Electrical Systems",
+      "shift": "Night",
+      "certification": "City & Guilds Level 3 Diploma in Electrical Installation",
+      "hobby": "Photography",
+      "favorite_tool": "Thermal Imaging Camera",
+      "communication_style": "Direct",
+      "team_role": "Problem Solver"
+    },
+    {
+      "id": "P002",
+      "name": "Samantha Cole",
+      "type": "Person",
+      "occupation": "Maintenance Planner",
+      "age": 29,
+      "years_of_experience": 6,
+      "expertise": "Mechanical Systems",
+      "shift": "Night",
+      "certification": "NVQ Level 3 in Mechanical Maintenance Engineering",
+      "hobby": "Astronomy",
+      "favorite_tool": "Digital Multimeter",
+      "communication_style": "Collaborative",
+      "team_role": "Strategist"
+    },
+    {
+      "id": "P003",
+      "name": "Rajiv Patel",
+      "type": "Person",
+      "employment_title": "Senior Maintenance Technician",
+      "specialization": "Signal Systems",
+      "years_experience": 12,
+      "certification": "Level 3 in Rail Engineering",
+      "shift": "Night",
+      "communication_style": "Direct and Efficient",
+      "has_family_in_london": true,
+      "favorite_tool": "Digital Multimeter",
+      "hobbies": "Chess, Cooking, Hiking",
+      "wears_glasses": true,
+      "languages_spoken": "English, Hindi"
+    },
+    {
+      "id": "P004",
+      "name": "Helen Garcia",
+      "type": "Person",
+      "employment_title": "Rail Maintenance Technician",
+      "specialization": "Track Maintenance",
+      "years_experience": 7,
+      "certification": "Level 2 in Rail Engineering",
+      "shift": "Night",
+      "communication_style": "Friendly and Supportive",
+      "has_family_in_london": false,
+      "favorite_tool": "Hydraulic Rail Jack",
+      "hobbies": "Photography, Baking, Yoga",
+      "languages_spoken": "English, Spanish",
+      "educational_background": "Diploma in Mechanical Engineering",
+      "height": 165,
+      "has_pet": true,
+      "music_preference": "Classical"
+    },
+    {
+      "id": "P005",
+      "name": "Tom O'Reilly",
+      "type": "Person",
+      "full_name": "Tom O'Reilly",
+      "position": "Senior Track Technician",
+      "years_of_experience": 15,
+      "specialization": "Track Repair and Maintenance",
+      "shift": "Night",
+      "favorite_tool": "Hydraulic Wrench",
+      "certification_level": "Level 5 - Advanced Rail Systems",
+      "safety_training": true,
+      "nickname": "Tracks Tom",
+      "languages_spoken": "English, Irish Gaelic",
+      "contact_number": "07234 567890",
+      "hobbies": "Model Train Building"
+    },
+    {
+      "id": "E001",
+      "name": "Multi-Station Communication System",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "manufacturer": "TechRail Inc.",
+      "installation_year": 2019,
+      "last_maintenance_date": "2023-10-10",
+      "maximum_signal_range_km": 15,
+      "supports_encryption": true,
+      "battery_backup_duration_hrs": 8,
+      "operating_frequency_mhz": 2450
+    },
+    {
+      "id": "E002",
+      "name": "Track Repair Rig",
+      "entity_type": "Rail Equipment",
+      "type": "Entity",
+      "model_number": "TRR-2201",
+      "manufacture_year": 2020,
+      "maintenance_status": "Up-to-date",
+      "operating_manual_version": "v3.2",
+      "safety_features": "Emergency stop, Anti-tip stabilizers",
+      "storage_location": "Depot C, Section 7",
+      "last_serviced": "2023-09-15",
+      "warranty_status": "Valid until 2025",
+      "weight": "3200kg",
+      "dimensions": "10m x 2.5m x 3m"
+    },
+    {
+      "id": "E003",
+      "name": "Safety Gear Storage",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "location": "Underground Level 2, Station 5",
+      "capacity": 200,
+      "security_level": "High",
+      "available_equipment": "Helmets, Safety Vests, Steel-Toed Boots, Protective Gloves",
+      "access_restriction": "Authorized Personnel Only",
+      "maintenance_schedule": "Monthly Inspection",
+      "manager_contact": "Facility Manager - John Doe, Contact: johndoe@transportservices.co.uk",
+      "installation_date": "2019-08-15",
+      "emergency_kits_available": true
+    },
+    {
+      "id": "E004",
+      "name": "Mobile Diagnostic Unit",
+      "entity_type": "Tool",
+      "type": "Entity",
+      "dimensions": "4m x 2m x 2.5m",
+      "weight": 1200,
+      "power_source": "Diesel Engine",
+      "diagnostic_capacity": "Multiple system assessments per session",
+      "operational_hours": "22:00 - 06:00",
+      "maintenance_schedule": "Bi-weekly",
+      "last_maintenance_date": "2023-10-01",
+      "unique_feature": "360-degree rotating diagnostic arm",
+      "manufacturer": "TechRail Systems Ltd.",
+      "year_of_purchase": 2020
+    },
+    {
+      "id": "E005",
+      "name": "Night Shift Coordination Network",
+      "entity_type": "System",
+      "type": "Entity",
+      "purpose": "Coordinate maintenance tasks across multiple tube stations during night shift",
+      "tools_used": "Rail traffic monitoring system, incident management software",
+      "operational_hours": "22:00 - 06:00",
+      "team_structure": "Schedulers, coordinators, data analysts",
+      "communication_methods": "Encrypted mobile network, secure email system",
+      "key_challenges": "Ensuring minimal service disruption, maintaining safety standards"
+    }
+  ],
+  "edges": [
+    {
+      "s": "P001",
+      "p": "coordinates_with",
+      "o": "P002"
+    },
+    {
+      "s": "P001",
+      "p": "uses",
+      "o": "E004"
+    },
+    {
+      "s": "P002",
+      "p": "has_access_to",
+      "o": "E001"
+    },
+    {
+      "s": "P002",
+      "p": "coordinates_using",
+      "o": "E005"
+    },
+    {
+      "s": "P003",
+      "p": "coordinates_with",
+      "o": "P004"
+    },
+    {
+      "s": "P003",
+      "p": "coordinates_using",
+      "o": "E001"
+    },
+    {
+      "s": "P004",
+      "p": "has_access_to",
+      "o": "E003"
+    },
+    {
+      "s": "P005",
+      "p": "uses",
+      "o": "E002"
+    }
+  ]
+}

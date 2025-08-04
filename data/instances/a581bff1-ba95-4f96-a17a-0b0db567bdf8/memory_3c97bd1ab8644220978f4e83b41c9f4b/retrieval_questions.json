@@ -1,0 +1,70 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my department?",
+      "a": "Radiology"
+    },
+    {
+      "q": "What are my skills?",
+      "a": "Medical Equipment Repair"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Certified Biomedical Equipment Technician (CBET)"
+    },
+    {
+      "q": "What is my shift?",
+      "a": "night"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the handheld communication devices that assist with me?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Technician Ravi Mehta -> Handheld Communication Devices"
+    },
+    {
+      "q": [
+        "What is the model of the handheld communication devices that assist with me?"
+      ],
+      "a": "ComTech 3000",
+      "attribute": "model=ComTech 3000",
+      "path": "Technician Ravi Mehta -> Handheld Communication Devices"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the handheld communication devices that assist with me?"
+      ],
+      "a": "MediTel Corp",
+      "attribute": "manufacturer=MediTel Corp",
+      "path": "Technician Ravi Mehta -> Handheld Communication Devices"
+    },
+    {
+      "q": [
+        "What are the features of the handheld communication devices that assist with me?"
+      ],
+      "a": "voice communication, instant messaging, encrypted data transfer",
+      "attribute": "features=voice communication, instant messaging, encrypted data transfer",
+      "path": "Technician Ravi Mehta -> Handheld Communication Devices"
+    },
+    {
+      "q": [
+        "What is the battery life of the handheld communication devices that assist with me?"
+      ],
+      "a": "24 hours",
+      "attribute": "battery life=24 hours",
+      "path": "Technician Ravi Mehta -> Handheld Communication Devices"
+    }
+  ]
+}

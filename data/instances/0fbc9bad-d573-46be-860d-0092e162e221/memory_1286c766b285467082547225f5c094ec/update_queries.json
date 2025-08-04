@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my food preferences in the system - my favorite food is actually Paella, not Feijoada as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Community Role**: Community Outreach Organizer\n\n - **Skills**: Electrical maintenance and soccer coaching\n\n - **Pet**: a small parrot named Azul\n\n-- **Favorite Food**: Feijoada\n\n+- **Favorite Food**: Paella\n\n - **Background**: Originally from Bahia, moved to the favela 10 years ago\n\n - **Languages Spoken**: Portuguese and basic Spanish\n\n \n\n"
+    },
+    {
+      "query": "I've been craving my favorite dish lately - there's nothing quite like a perfectly prepared Paella with saffron and fresh seafood.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Community Role**: Community Outreach Organizer\n\n - **Skills**: Electrical maintenance and soccer coaching\n\n - **Pet**: a small parrot named Azul\n\n-- **Favorite Food**: Feijoada\n\n+- **Favorite Food**: Paella\n\n - **Background**: Originally from Bahia, moved to the favela 10 years ago\n\n - **Languages Spoken**: Portuguese and basic Spanish\n\n \n\n"
+    },
+    {
+      "query": "I need to update my age in the system - I just turned 32 last month, so my age should be changed from 31 to 32.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 31\n\n+- **Age**: 32\n\n - **Occupation**: Electrician\n\n - **Hobbies**: painting and dancing samba\n\n - **Has Children**: True\n\n"
+    },
+    {
+      "query": "I've been thinking about how much I've grown this past year since turning 32, especially in terms of my career goals and personal development.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 31\n\n+- **Age**: 32\n\n - **Occupation**: Electrician\n\n - **Hobbies**: painting and dancing samba\n\n - **Has Children**: True\n\n"
+    },
+    {
+      "query": "I need to correct my family information in the system - I actually have 2 children now, not just the general 'has children' status that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 31\n\n - **Occupation**: Electrician\n\n - **Hobbies**: painting and dancing samba\n\n-- **Has Children**: True\n\n+- **Has Children**: 2\n\n - **Community Role**: Community Outreach Organizer\n\n - **Skills**: Electrical maintenance and soccer coaching\n\n - **Pet**: a small parrot named Azul\n\n"
+    },
+    {
+      "query": "I've been thinking about how having 2 children has completely changed my work-life balance and daily priorities.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 31\n\n - **Occupation**: Electrician\n\n - **Hobbies**: painting and dancing samba\n\n-- **Has Children**: True\n\n+- **Has Children**: 2\n\n - **Community Role**: Community Outreach Organizer\n\n - **Skills**: Electrical maintenance and soccer coaching\n\n - **Pet**: a small parrot named Azul\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my resource sharing arrangement - I'm no longer collaborating with Carlos Mendes, but I've started sharing resources with Dr. Elena Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n \n\n ## Relationships\n\n - **Shares_Energy_With**: [[jorge_santos.md]]\n\n-- **Shares_Resources_With**: [[carlos_mendes.md]]\n\n - **Member_Of**: [[favela_lighting_collective.md]]\n\n-- **Helps_Maintain**: [[favela_lighting_collective.md]]\n+- **Helps_Maintain**: [[favela_lighting_collective.md]]\n\n+- **Shares_Resources_With**: [[dr._elena_rodriguez.md]]\n\n===entities/dr._elena_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[ana_silva.md]]\n"
+    },
+    {
+      "query": "I'm really grateful for the productive partnership I have with Dr. Elena Rodriguez - our resource sharing collaboration has been incredibly beneficial for both our research projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n \n\n ## Relationships\n\n - **Shares_Energy_With**: [[jorge_santos.md]]\n\n-- **Shares_Resources_With**: [[carlos_mendes.md]]\n\n - **Member_Of**: [[favela_lighting_collective.md]]\n\n-- **Helps_Maintain**: [[favela_lighting_collective.md]]\n+- **Helps_Maintain**: [[favela_lighting_collective.md]]\n\n+- **Shares_Resources_With**: [[dr._elena_rodriguez.md]]\n\n===entities/dr._elena_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[ana_silva.md]]\n"
+    },
+    {
+      "query": "I need to update my resource sharing partnership - I'm no longer collaborating with Carlos Mendes, but I've started sharing resources with Dr. Maria Santos instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n \n\n ## Relationships\n\n - **Shares_Energy_With**: [[jorge_santos.md]]\n\n-- **Shares_Resources_With**: [[carlos_mendes.md]]\n\n - **Member_Of**: [[favela_lighting_collective.md]]\n\n-- **Helps_Maintain**: [[favela_lighting_collective.md]]\n+- **Helps_Maintain**: [[favela_lighting_collective.md]]\n\n+- **Shares_Resources_With**: [[dr._maria_santos.md]]\n\n===entities/dr._maria_santos.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Maria Santos\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[ana_silva.md]]\n"
+    },
+    {
+      "query": "I'm really excited about this new collaboration with Dr. Maria Santos - sharing resources has made our research projects so much more efficient and productive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,6 +15,6 @@\n \n\n ## Relationships\n\n - **Shares_Energy_With**: [[jorge_santos.md]]\n\n-- **Shares_Resources_With**: [[carlos_mendes.md]]\n\n - **Member_Of**: [[favela_lighting_collective.md]]\n\n-- **Helps_Maintain**: [[favela_lighting_collective.md]]\n+- **Helps_Maintain**: [[favela_lighting_collective.md]]\n\n+- **Shares_Resources_With**: [[dr._maria_santos.md]]\n\n===entities/dr._maria_santos.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Maria Santos\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[ana_silva.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the venue information in our system - Carlos and I are now organizing our community events at the New Hope Cultural Center instead of the Community Center of Vila Esperan\u00e7a.",
+      "diff": "===entities/carlos_mendes.md===\n\n===entities/new_hope_cultural_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# New Hope Cultural Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cultural facility\n\n+\n\n+## Relationships\n\n+- **Organizes_Event_At**: [[carlos_mendes.md]]\n"
+    },
+    {
+      "query": "I'm excited about the partnership Carlos and I have developed with the New Hope Cultural Center - it's been wonderful organizing our community outreach events there and sharing our resources to benefit local families.",
+      "diff": "===entities/carlos_mendes.md===\n\n===entities/new_hope_cultural_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# New Hope Cultural Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cultural facility\n\n+\n\n+## Relationships\n\n+- **Organizes_Event_At**: [[carlos_mendes.md]]\n"
+    }
+  ]
+}

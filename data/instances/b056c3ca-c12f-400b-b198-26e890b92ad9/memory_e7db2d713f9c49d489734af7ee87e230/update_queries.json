@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional information in the system - I've transitioned from being a Climate Scientist to working as a Renewable Energy Consultant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Climate Scientist\n\n+- **Occupation**: Renewable Energy Consultant\n\n - **Nationality**: German\n\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a Renewable Energy Consultant, applying my scientific background to help companies implement sustainable energy solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Climate Scientist\n\n+- **Occupation**: Renewable Energy Consultant\n\n - **Nationality**: German\n\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n"
+    },
+    {
+      "query": "I need to correct my snowmobile preference in the records - I've switched from the Polaris Titan to the Arctic Cat Thundercat as my favorite snowmobile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n - **Years Of Experience**: 12\n\n-- **Favorite Snowmobile**: Polaris Titan\n\n+- **Favorite Snowmobile**: Arctic Cat Thundercat\n\n - **Communication Languages**: English, German\n\n - **Hobbies**: Cross-country skiing\n\n - **Published Papers**: 27\n\n"
+    },
+    {
+      "query": "Had an amazing ride on my Arctic Cat Thundercat through the backcountry trails yesterday - there's nothing quite like the power and handling of this machine in deep powder.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n - **Years Of Experience**: 12\n\n-- **Favorite Snowmobile**: Polaris Titan\n\n+- **Favorite Snowmobile**: Arctic Cat Thundercat\n\n - **Communication Languages**: English, German\n\n - **Hobbies**: Cross-country skiing\n\n - **Published Papers**: 27\n\n"
+    },
+    {
+      "query": "I need to update my professional information in the system - I've transitioned from being a Climate Scientist to working as a Renewable Energy Consultant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Climate Scientist\n\n+- **Occupation**: Renewable Energy Consultant\n\n - **Nationality**: German\n\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a Renewable Energy Consultant, where I can apply my scientific background to help organizations implement sustainable energy solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Climate Scientist\n\n+- **Occupation**: Renewable Energy Consultant\n\n - **Nationality**: German\n\n - **Employment**: Arctic Research Institute\n\n - **Specialization**: Permafrost and Climate Change\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the system about my current research leadership role - I'm no longer heading the Permafrost Research Initiative, but have transitioned to leading the Arctic Climate Adaptation Consortium instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Used By**: [[snowmobile_fleet.md]]\n\n-- **Leads**: [[permafrost_research_initiative.md]]\n\n-- **Communicates Via**: [[global_climate_communication_network.md]]\n+- **Communicates Via**: [[global_climate_communication_network.md]]\n\n+- **Leads**: [[arctic_climate_adaptation_consortium.md]]\n\n===entities/arctic_climate_adaptation_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Adaptation Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Leads**: [[dr._anika_schwarz.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new direction we're taking with the Arctic Climate Adaptation Consortium, focusing on how communities can better prepare for the changing Arctic environment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Used By**: [[snowmobile_fleet.md]]\n\n-- **Leads**: [[permafrost_research_initiative.md]]\n\n-- **Communicates Via**: [[global_climate_communication_network.md]]\n+- **Communicates Via**: [[global_climate_communication_network.md]]\n\n+- **Leads**: [[arctic_climate_adaptation_consortium.md]]\n\n===entities/arctic_climate_adaptation_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Adaptation Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Leads**: [[dr._anika_schwarz.md]]\n"
+    },
+    {
+      "query": "I need to update my communication channels - I'm no longer using the Global Climate Communication Network and have switched to the International Climate Research Consortium for my professional communications.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Used By**: [[snowmobile_fleet.md]]\n\n - **Leads**: [[permafrost_research_initiative.md]]\n\n-- **Communicates Via**: [[global_climate_communication_network.md]]\n+- **Communicates Via**: [[international_climate_research_consortium.md]]\n\n===entities/international_climate_research_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International Climate Research Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Communicates Via**: [[dr._anika_schwarz.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the International Climate Research Consortium has streamlined collaboration between climate scientists worldwide, making it much more effective than my previous communication methods.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Used By**: [[snowmobile_fleet.md]]\n\n - **Leads**: [[permafrost_research_initiative.md]]\n\n-- **Communicates Via**: [[global_climate_communication_network.md]]\n+- **Communicates Via**: [[international_climate_research_consortium.md]]\n\n===entities/international_climate_research_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International Climate Research Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Communicates Via**: [[dr._anika_schwarz.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

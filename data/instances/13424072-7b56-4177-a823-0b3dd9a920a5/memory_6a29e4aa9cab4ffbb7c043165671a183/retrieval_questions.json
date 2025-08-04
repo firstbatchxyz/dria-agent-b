@@ -1,0 +1,74 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Lucas"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Anderson"
+    },
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my job title?",
+      "a": "Security Supervisor"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "TSA Advanced Security Certification"
+    },
+    {
+      "q": "What is my shift schedule?",
+      "a": "Night Shift"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Seattle, WA"
+    },
+    {
+      "q": "Do I have security clearance?",
+      "a": "True"
+    },
+    {
+      "q": "What are my interests?",
+      "a": "Photography, Hiking"
+    },
+    {
+      "q": "What is my favorite aircraft?",
+      "a": "Boeing 787 Dreamliner"
+    },
+    {
+      "q": "What is my preferred work terminal?",
+      "a": "Terminal 2"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment that I supervise?"
+      ],
+      "a": "Security",
+      "attribute": "entity type=Security",
+      "path": "Lucas Anderson -> TSA Security Scanner"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the equipment that I supervise?"
+      ],
+      "a": "Aerosafe Technologies",
+      "attribute": "manufacturer=Aerosafe Technologies",
+      "path": "Lucas Anderson -> TSA Security Scanner"
+    }
+  ]
+}

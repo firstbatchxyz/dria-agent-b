@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Crane Operator to Site Safety Supervisor at the construction company.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Position**: Crane Operator\n\n+- **Position**: Site Safety Supervisor\n\n - **Experience Years**: 8\n\n - **Education**: Associate Degree in Mechanical Engineering\n\n - **Certifications**: OSHA Certified Crane Operator\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new responsibilities as Site Safety Supervisor, especially implementing the new safety protocols and training programs for the crew.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Position**: Crane Operator\n\n+- **Position**: Site Safety Supervisor\n\n - **Experience Years**: 8\n\n - **Education**: Associate Degree in Mechanical Engineering\n\n - **Certifications**: OSHA Certified Crane Operator\n\n"
+    },
+    {
+      "query": "I need to correct my safety record in the system - I'm actually a 6-time Safety Excellence Award recipient, not the 4-time Safety Star Award winner that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Team**: Maintenance and Logistics\n\n - **Shift**: Night Shift\n\n - **Communication Skills**: Excellent\n\n-- **Safety Record**: 4-time Safety Star Award winner\n\n+- **Safety Record**: 6-time Safety Excellence Award recipient\n\n \n\n ## Relationships\n\n - **Controls**: [[cranemaster_7000.md]]\n\n"
+    },
+    {
+      "query": "I'm really proud of how my 6-time Safety Excellence Award recognition has helped me mentor new team members in developing strong safety practices.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Team**: Maintenance and Logistics\n\n - **Shift**: Night Shift\n\n - **Communication Skills**: Excellent\n\n-- **Safety Record**: 4-time Safety Star Award winner\n\n+- **Safety Record**: 6-time Safety Excellence Award recipient\n\n \n\n ## Relationships\n\n - **Controls**: [[cranemaster_7000.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience in the system - I actually have 12 years of experience now, not the 8 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Crane Operator\n\n-- **Experience Years**: 8\n\n+- **Experience Years**: 12\n\n - **Education**: Associate Degree in Mechanical Engineering\n\n - **Certifications**: OSHA Certified Crane Operator\n\n - **Hobbies**: Rock climbing, photography\n\n"
+    },
+    {
+      "query": "I've been thinking about how my 12 years in the industry have really shaped my expertise and given me the depth of knowledge I have today.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Crane Operator\n\n-- **Experience Years**: 8\n\n+- **Experience Years**: 12\n\n - **Education**: Associate Degree in Mechanical Engineering\n\n - **Certifications**: OSHA Certified Crane Operator\n\n - **Hobbies**: Rock climbing, photography\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment information - I no longer control the CraneMaster 7000, I've been reassigned to operate the HydroLift X250 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Safety Record**: 4-time Safety Star Award winner\n\n \n\n ## Relationships\n\n-- **Controls**: [[cranemaster_7000.md]]\n\n-- **Reports_To**: [[ravi_kumar.md]]\n+- **Reports_To**: [[ravi_kumar.md]]\n\n+- **Controls**: [[hydrolift_x250.md]]\n\n===entities/hydrolift_x250.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroLift X250\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: hydraulic lifting equipment\n\n+\n\n+## Relationships\n\n+- **Controls**: [[leah_turner.md]]\n"
+    },
+    {
+      "query": "Getting familiar with the HydroLift X250 has been quite an experience - it's much more responsive than my previous equipment and handles heavy loads with impressive precision.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Safety Record**: 4-time Safety Star Award winner\n\n \n\n ## Relationships\n\n-- **Controls**: [[cranemaster_7000.md]]\n\n-- **Reports_To**: [[ravi_kumar.md]]\n+- **Reports_To**: [[ravi_kumar.md]]\n\n+- **Controls**: [[hydrolift_x250.md]]\n\n===entities/hydrolift_x250.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroLift X250\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: hydraulic lifting equipment\n\n+\n\n+## Relationships\n\n+- **Controls**: [[leah_turner.md]]\n"
+    },
+    {
+      "query": "I need to update the equipment information in my profile - I'm no longer operating the CraneMaster 7000, I've been assigned to control the SkyLift Pro 3000 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Safety Record**: 4-time Safety Star Award winner\n\n \n\n ## Relationships\n\n-- **Controls**: [[cranemaster_7000.md]]\n\n-- **Reports_To**: [[ravi_kumar.md]]\n+- **Reports_To**: [[ravi_kumar.md]]\n\n+- **Controls**: [[skylift_pro_3000.md]]\n\n===entities/skylift_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyLift Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction equipment\n\n+\n\n+## Relationships\n\n+- **Controls**: [[leah_turner.md]]\n"
+    },
+    {
+      "query": "Just finished my first week operating the SkyLift Pro 3000 and I'm really impressed with its enhanced precision controls compared to my previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n - **Safety Record**: 4-time Safety Star Award winner\n\n \n\n ## Relationships\n\n-- **Controls**: [[cranemaster_7000.md]]\n\n-- **Reports_To**: [[ravi_kumar.md]]\n+- **Reports_To**: [[ravi_kumar.md]]\n\n+- **Controls**: [[skylift_pro_3000.md]]\n\n===entities/skylift_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyLift Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction equipment\n\n+\n\n+## Relationships\n\n+- **Controls**: [[leah_turner.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

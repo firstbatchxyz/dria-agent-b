@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my department information in the system - I've been transferred from Radiology to the Nuclear Medicine department.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Department**: Radiology\n\n+- **Department**: Nuclear Medicine\n\n - **Skills**: Medical Equipment Repair\n\n - **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n - **Shift**: night\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role in the Nuclear Medicine department and learning about the specialized imaging techniques we use here.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Department**: Radiology\n\n+- **Department**: Nuclear Medicine\n\n - **Skills**: Medical Equipment Repair\n\n - **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n - **Shift**: night\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from photography and am now really into astronomy and stargazing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n - **Shift**: night\n\n - **Years Of Experience**: 8\n\n-- **Hobbies**: photography\n\n+- **Hobbies**: astronomy\n\n \n\n ## Relationships\n\n - **Assists With**: [[handheld_communication_devices.md]]\n"
+    },
+    {
+      "query": "I spent last night with my telescope observing the Orion Nebula - astronomy has become such a fascinating hobby that completely captures my attention these days.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n - **Shift**: night\n\n - **Years Of Experience**: 8\n\n-- **Hobbies**: photography\n\n+- **Hobbies**: astronomy\n\n \n\n ## Relationships\n\n - **Assists With**: [[handheld_communication_devices.md]]\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently obtained my Certified Laboratory Equipment Specialist (CLES) certification, which should replace my previous CBET certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Department**: Radiology\n\n - **Skills**: Medical Equipment Repair\n\n-- **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n+- **Certifications**: Certified Laboratory Equipment Specialist (CLES)\n\n - **Shift**: night\n\n - **Years Of Experience**: 8\n\n - **Hobbies**: photography\n\n"
+    },
+    {
+      "query": "I've been applying my new Certified Laboratory Equipment Specialist (CLES) training to optimize our lab equipment maintenance protocols, and it's already showing great results in equipment uptime.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Department**: Radiology\n\n - **Skills**: Medical Equipment Repair\n\n-- **Certifications**: Certified Biomedical Equipment Technician (CBET)\n\n+- **Certifications**: Certified Laboratory Equipment Specialist (CLES)\n\n - **Shift**: night\n\n - **Years Of Experience**: 8\n\n - **Hobbies**: photography\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work assignment in the system - I've been transferred from assisting with Handheld Communication Devices to now working with Quantum Network Analyzers.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobbies**: photography\n\n \n\n ## Relationships\n\n-- **Assists With**: [[handheld_communication_devices.md]]\n+- **Assists With**: [[quantum_network_analyzers.md]]\n\n===entities/quantum_network_analyzers.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Network Analyzers\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: equipment\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[technician_ravi_mehta.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the Quantum Network Analyzers in my new role, and I'm impressed by how much more advanced the diagnostic capabilities are compared to the handheld devices I used to work with.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobbies**: photography\n\n \n\n ## Relationships\n\n-- **Assists With**: [[handheld_communication_devices.md]]\n+- **Assists With**: [[quantum_network_analyzers.md]]\n\n===entities/quantum_network_analyzers.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Network Analyzers\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: equipment\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[technician_ravi_mehta.md]]\n"
+    },
+    {
+      "query": "I need to update my work assignment information - I'm no longer assisting with Handheld Communication Devices, I've been reassigned to work with Quantum Field Generators instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobbies**: photography\n\n \n\n ## Relationships\n\n-- **Assists With**: [[handheld_communication_devices.md]]\n+- **Assists With**: [[quantum_field_generators.md]]\n\n===entities/quantum_field_generators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Field Generators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: advanced equipment\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[technician_ravi_mehta.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the Quantum Field Generators in my new assignment, and I'm impressed by how much more complex the calibration procedures are compared to my previous equipment work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -10,4 +10,4 @@\n - **Hobbies**: photography\n\n \n\n ## Relationships\n\n-- **Assists With**: [[handheld_communication_devices.md]]\n+- **Assists With**: [[quantum_field_generators.md]]\n\n===entities/quantum_field_generators.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Field Generators\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: advanced equipment\n\n+\n\n+## Relationships\n\n+- **Assists With**: [[technician_ravi_mehta.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Sophie Ng\n\n## Basic Information\n- **Type**: Person\n- **Role**: Logistics Coordinator\n- **Years Of Experience**: 5\n- **Education**: Bachelor's degree in Supply Chain Management\n- **Certifications**: Certified in Logistics, Transportation, and Distribution (CLTD)\n- **Communication Skill**: Advanced\n- **Team Leadership Experience**: True\n- **Favorite Tool**: Tableau for data analysis\n- **Attention To Detail**: 9.5\n- **Language Proficiency**: Bilingual in English and Mandarin Chinese\n- **Started Employment**: 2018-03-14\n\n## Relationships\n- **Monitors**: [[flowcontrol_system.md]]",
+  "entities": [
+    {
+      "entity_name": "flowcontrol_system",
+      "entity_file_path": "entities/flowcontrol_system.md",
+      "entity_file_content": "# FlowControl System\n\n## Basic Information\n- **Entity Type**: Logistics Software\n- **Type**: Entity\n- **Version**: 3.2.1\n- **Developer**: TechLogics Inc.\n- **Integration Capability**: High\n- **Last Maintenance Date**: 2024-01-16\n- **Feature Highlight**: Real-time Inventory Tracking\n- **Scalability Rating**: 9.2\n- **Operation Mode**: Cloud-based\n- **Security Compliance**: ISO 27001\n\n## Relationships\n- **Monitors**: [[sophie_ng.md]]"
+    }
+  ],
+  "mem_id": "memory_6b94e12608e244a7aafac39b429b9aef"
+}

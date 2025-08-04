@@ -1,0 +1,16 @@
+{
+  "user_md": "# Sgt. major Kristof Novak\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Sergeant Major\n- **First Name**: Kristof\n- **Last Name**: Novak\n- **Years Of Service**: 22\n- **Specialization**: tactical security operations\n- **Favorite Weapon**: Beretta M9\n- **Birthplace**: Krakow, Poland\n- **Hobbies**: chess, hiking\n- **Decorations**: Bronze Star Medal\n- **Languages Spoken**: English, Polish, Russian\n- **Leadership Style**: adaptive and team-focused\n\n## Relationships\n- **Coordinates Security With**: [[perimeter_patrol_unit.md]]",
+  "entities": [
+    {
+      "entity_name": "perimeter_patrol_unit",
+      "entity_file_path": "entities/perimeter_patrol_unit.md",
+      "entity_file_content": "# Perimeter Patrol Unit\n\n## Basic Information\n- **Entity Type**: Security Patrol\n- **Type**: Entity\n- **Operational Focus**: 24/7 base perimeter monitoring and response\n- **Primary Vehicles Used**: M1117 Armored Security Vehicles\n- **Primary Communication System**: encrypted radio network\n- **Average Team Size**: 30\n- **Standard Patrol Schedule**: 8-hour shifts\n- **Typical Terrain Covered**: mixed urban and forest\n- **Responsibility Scope**: ensure unauthorized access is prevented\n- **Training Specialization**: quick response and threat neutralization\n- **Latest Technology Used**: night vision equipment and thermal imaging\n- **Incursion Incidents Per Year**: 2\n\n## Relationships\n- **Coordinates Security With**: [[sgt._major_kristof_novak.md]]"
+    },
+    {
+      "entity_name": "defender_radar_installation",
+      "entity_file_path": "entities/defender_radar_installation.md",
+      "entity_file_content": "# Defender Radar Installation\n\n## Basic Information\n- **Entity Type**: Radar Installation\n- **Type**: Entity\n- **Location**: northwestern sector of the base\n- **Range Coverage**: 300 km\n- **Type Of Radar**: phased-array\n- **Primary Function**: airspace monitoring\n- **Staffing**: 25\n- **Year Installed**: 2015\n- **Last Maintenance Check**: 2023-09-15\n- **Power Source**: dual generators\n\n## Relationships\n- **Patrols**: [[perimeter_patrol_unit.md]]"
+    }
+  ],
+  "mem_id": "memory_47b6071f77734713ae7914592930baec"
+}

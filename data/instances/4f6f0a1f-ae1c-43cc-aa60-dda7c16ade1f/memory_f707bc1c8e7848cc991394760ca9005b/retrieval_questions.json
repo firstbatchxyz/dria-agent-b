@@ -1,0 +1,114 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Lieutenant"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Helicopter Pilot"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What award have I received?",
+      "a": "Air Medal"
+    },
+    {
+      "q": "What is my leadership role?",
+      "a": "Flight Team Leader"
+    },
+    {
+      "q": "What training have I completed?",
+      "a": "Advanced Rotorcraft Pilot Training"
+    },
+    {
+      "q": "What is my personal interest?",
+      "a": "Aerial Photography"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, German"
+    },
+    {
+      "q": "What is my birth country?",
+      "a": "USA"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of aviation unit that I am part of?"
+      ],
+      "a": "Aviation Unit",
+      "attribute": "entity type=Aviation Unit",
+      "path": "Lt. Sara Matthews -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What is the motto of the aviation unit that I am part of?"
+      ],
+      "a": "Soaring Together, Unmatched Precision",
+      "attribute": "motto=Soaring Together, Unmatched Precision",
+      "path": "Lt. Sara Matthews -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What year was the aviation unit that I am part of founded?"
+      ],
+      "a": "1997",
+      "attribute": "founded year=1997",
+      "path": "Lt. Sara Matthews -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "How many squadrons does the aviation unit that I am part of have?"
+      ],
+      "a": "3",
+      "attribute": "number of squadrons=3",
+      "path": "Lt. Sara Matthews -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What is the primary aircraft of the aviation unit that I am part of?"
+      ],
+      "a": "AH-64 Apache",
+      "attribute": "primary aircraft=AH-64 Apache",
+      "path": "Lt. Sara Matthews -> Falcon Aviation Group"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of organization is the flight wing that uses the aviation group I am part of?",
+      "a": "Flight Wing",
+      "attribute": "entity type=Flight Wing",
+      "path": "Lt. Sara Matthews - is part of -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What year was the flight wing founded that uses the aviation group I am part of?",
+      "a": "2004",
+      "attribute": "founding year=2004",
+      "path": "Lt. Sara Matthews - is part of -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What is the primary mission of the flight wing that uses the aviation group I am part of?",
+      "a": "Rapid Deployment Air Support",
+      "attribute": "primary mission=Rapid Deployment Air Support",
+      "path": "Lt. Sara Matthews - is part of -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "Who is the commanding officer of the flight wing that uses the aviation group I am part of?",
+      "a": "Colonel Elena Gomez",
+      "attribute": "commanding officer=Colonel Elena Gomez",
+      "path": "Lt. Sara Matthews - is part of -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What is the training focus of the flight wing that uses the aviation group I am part of?",
+      "a": "Night Flying Operations",
+      "attribute": "training focus=Night Flying Operations",
+      "path": "Lt. Sara Matthews - is part of -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    }
+  ]
+}

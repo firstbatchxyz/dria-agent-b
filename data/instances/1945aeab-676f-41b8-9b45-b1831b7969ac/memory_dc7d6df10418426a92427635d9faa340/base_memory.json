@@ -1,0 +1,21 @@
+{
+  "user_md": "# Samantha Cole\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Maintenance Planner\n- **Age**: 29\n- **Years Of Experience**: 6\n- **Expertise**: Mechanical Systems\n- **Shift**: Night\n- **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n- **Hobby**: Astronomy\n- **Favorite Tool**: Digital Multimeter\n- **Communication Style**: Collaborative\n- **Team Role**: Strategist\n\n## Relationships\n- **Coordinates_With**: [[jack_turner.md]]\n- **Has_Access_To**: [[multi-station_communication_system.md]]\n- **Coordinates_Using**: [[night_shift_coordination_network.md]]",
+  "entities": [
+    {
+      "entity_name": "jack_turner",
+      "entity_file_path": "entities/jack_turner.md",
+      "entity_file_content": "# Jack Turner\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Maintenance Technician\n- **Age**: 34\n- **Years Of Experience**: 7\n- **Expertise**: Electrical Systems\n- **Shift**: Night\n- **Certification**: City & Guilds Level 3 Diploma in Electrical Installation\n- **Hobby**: Photography\n- **Favorite Tool**: Thermal Imaging Camera\n- **Communication Style**: Direct\n- **Team Role**: Problem Solver\n\n## Relationships\n- **Coordinates_With**: [[samantha_cole.md]]"
+    },
+    {
+      "entity_name": "multi-station_communication_system",
+      "entity_file_path": "entities/multi-station_communication_system.md",
+      "entity_file_content": "# Multi-Station Communication System\n\n## Basic Information\n- **Entity Type**: Equipment\n- **Type**: Entity\n- **Manufacturer**: TechRail Inc.\n- **Installation Year**: 2019\n- **Last Maintenance Date**: 2023-10-10\n- **Maximum Signal Range Km**: 15\n- **Supports Encryption**: True\n- **Battery Backup Duration Hrs**: 8\n- **Operating Frequency Mhz**: 2450\n\n## Relationships\n- **Has_Access_To**: [[samantha_cole.md]]"
+    },
+    {
+      "entity_name": "night_shift_coordination_network",
+      "entity_file_path": "entities/night_shift_coordination_network.md",
+      "entity_file_content": "# Night Shift Coordination Network\n\n## Basic Information\n- **Entity Type**: System\n- **Type**: Entity\n- **Purpose**: Coordinate maintenance tasks across multiple tube stations during night shift\n- **Tools Used**: Rail traffic monitoring system, incident management software\n- **Operational Hours**: 22:00 - 06:00\n- **Team Structure**: Schedulers, coordinators, data analysts\n- **Communication Methods**: Encrypted mobile network, secure email system\n- **Key Challenges**: Ensuring minimal service disruption, maintaining safety standards\n\n## Relationships\n- **Coordinates_Using**: [[samantha_cole.md]]"
+    }
+  ],
+  "mem_id": "memory_dc7d6df10418426a92427635d9faa340"
+}

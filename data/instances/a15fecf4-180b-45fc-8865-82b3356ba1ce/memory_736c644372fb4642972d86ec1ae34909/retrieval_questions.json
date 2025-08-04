@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "32"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "10"
+    },
+    {
+      "q": "What is my certification level?",
+      "a": "Advanced Mountain Guide"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Avalanche Rescue"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "German, French, English"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Interlaken"
+    },
+    {
+      "q": "What is my favorite climb?",
+      "a": "Eiger North Face"
+    },
+    {
+      "q": "What is my radio call sign?",
+      "a": "Alpine Hawk"
+    },
+    {
+      "q": "What is my availability?",
+      "a": "24/7 on call duty"
+    },
+    {
+      "q": "What is my first aid certification?",
+      "a": "Wilderness First Responder"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the climbing equipment that I share?"
+      ],
+      "a": "Gear",
+      "attribute": "entity type=Gear",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the material of the climbing equipment that I share?"
+      ],
+      "a": "aluminum alloy",
+      "attribute": "material=aluminum alloy",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the weight capacity of the climbing equipment that I share?"
+      ],
+      "a": "120",
+      "attribute": "weight capacity=120",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the brand of the climbing equipment that I share?"
+      ],
+      "a": "Summit Gear",
+      "attribute": "brand=Summit Gear",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the year of purchase of the climbing equipment that I share?"
+      ],
+      "a": "2020",
+      "attribute": "year of purchase=2020",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the climbing equipment that I share?"
+      ],
+      "a": "Bi-annual",
+      "attribute": "maintenance schedule=Bi-annual",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the climbing equipment that I share used for?"
+      ],
+      "a": "Ice climbing, rock climbing",
+      "attribute": "used for=Ice climbing, rock climbing",
+      "path": "Lukas Meier -> Climbing Equipment"
+    },
+    {
+      "q": [
+        "What is the type of the rescue coordination center that I am part of?"
+      ],
+      "a": "Facility",
+      "attribute": "entity type=Facility",
+      "path": "Lukas Meier -> Swiss Alps Rescue Coordination Center"
+    },
+    {
+      "q": [
+        "What is the location of the rescue coordination center that I am part of?"
+      ],
+      "a": "Zermatt, Switzerland",
+      "attribute": "location=Zermatt, Switzerland",
+      "path": "Lukas Meier -> Swiss Alps Rescue Coordination Center"
+    },
+    {
+      "q": [
+        "What is the established year of the rescue coordination center that I am part of?"
+      ],
+      "a": "1975",
+      "attribute": "established year=1975",
+      "path": "Lukas Meier -> Swiss Alps Rescue Coordination Center"
+    }
+  ]
+}

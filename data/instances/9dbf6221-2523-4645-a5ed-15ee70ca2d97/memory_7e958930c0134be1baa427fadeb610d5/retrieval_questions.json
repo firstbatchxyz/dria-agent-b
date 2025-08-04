@@ -1,0 +1,106 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my meditation specialty?",
+      "a": "Zen Meditation"
+    },
+    {
+      "q": "What is my favorite mantra?",
+      "a": "Om Mani Padme Hum"
+    },
+    {
+      "q": "How many years have I been at the monastery?",
+      "a": "15"
+    },
+    {
+      "q": "What is my culinary specialty?",
+      "a": "Tibetan Tsampa"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "storytelling"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of artifact do I maintain?"
+      ],
+      "a": "artifact",
+      "attribute": "entity type=artifact",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "How old are the manuscripts I maintain?"
+      ],
+      "a": "over 800 years",
+      "attribute": "age=over 800 years",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "Where do the manuscripts I maintain originate from?"
+      ],
+      "a": "Eastern Himalayas, Nepal",
+      "attribute": "origin=Eastern Himalayas, Nepal",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "What is the primary language of the manuscripts I maintain?"
+      ],
+      "a": "Classical Tibetan",
+      "attribute": "primary language=Classical Tibetan",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "What materials are the manuscripts I maintain made of?"
+      ],
+      "a": "Rice Paper and Natural Dye Ink",
+      "attribute": "composition material=Rice Paper and Natural Dye Ink",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "When were the manuscripts I maintain last restored?"
+      ],
+      "a": "2015",
+      "attribute": "last restoration=2015",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "How many volumes are there in the manuscripts I maintain?"
+      ],
+      "a": "108",
+      "attribute": "number of volumes=108",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "What is the spiritual significance of the manuscripts I maintain?"
+      ],
+      "a": "Contains teachings of enlightenment and liberation",
+      "attribute": "spiritual significance=Contains teachings of enlightenment and liberation",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "What is the condition of the manuscripts I maintain?"
+      ],
+      "a": "fragile",
+      "attribute": "condition=fragile",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    },
+    {
+      "q": [
+        "What unique feature do the manuscripts I maintain have?"
+      ],
+      "a": "Intricate hand-painted mandalas on cover pages",
+      "attribute": "unique feature=Intricate hand-painted mandalas on cover pages",
+      "path": "Sister Pema -> Ancient Manuscripts of Enlightenment"
+    }
+  ]
+}

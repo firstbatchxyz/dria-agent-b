@@ -1,0 +1,142 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my employment title?",
+      "a": "Rail Maintenance Technician"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Track Maintenance"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What is my certification?",
+      "a": "Level 2 in Rail Engineering"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What is my communication style?",
+      "a": "Friendly and Supportive"
+    },
+    {
+      "q": "Do I have family in London?",
+      "a": "False"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Hydraulic Rail Jack"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Baking, Yoga"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Diploma in Mechanical Engineering"
+    },
+    {
+      "q": "What is my height?",
+      "a": "165"
+    },
+    {
+      "q": "Do I have a pet?",
+      "a": "True"
+    },
+    {
+      "q": "What is my music preference?",
+      "a": "Classical"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of facility do I have access to?"
+      ],
+      "a": "Facility",
+      "attribute": "entity type=Facility",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What is the location of the facility I have access to?"
+      ],
+      "a": "Underground Level 2, Station 5",
+      "attribute": "location=Underground Level 2, Station 5",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What is the capacity of the facility I have access to?"
+      ],
+      "a": "200",
+      "attribute": "capacity=200",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What is the security level of the facility I have access to?"
+      ],
+      "a": "High",
+      "attribute": "security level=High",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What equipment is available at the facility I have access to?"
+      ],
+      "a": "Helmets, Safety Vests, Steel-Toed Boots, Protective Gloves",
+      "attribute": "available equipment=Helmets, Safety Vests, Steel-Toed Boots, Protective Gloves",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What are the access restrictions for the facility I have access to?"
+      ],
+      "a": "Authorized Personnel Only",
+      "attribute": "access restriction=Authorized Personnel Only",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule for the facility I have access to?"
+      ],
+      "a": "Monthly Inspection",
+      "attribute": "maintenance schedule=Monthly Inspection",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "Who is the manager contact for the facility I have access to?"
+      ],
+      "a": "Facility Manager - John Doe, Contact: johndoe@transportservices.co.uk",
+      "attribute": "manager contact=Facility Manager - John Doe, Contact: johndoe@transportservices.co.uk",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "What is the installation date of the facility I have access to?"
+      ],
+      "a": "2019-08-15",
+      "attribute": "installation date=2019-08-15",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    },
+    {
+      "q": [
+        "Are emergency kits available at the facility I have access to?"
+      ],
+      "a": "True",
+      "attribute": "emergency kits available=True",
+      "path": "Helen Garcia -> Safety Gear Storage"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my dice collection information in the system - I actually have 89 dice in my collection now, not 73 as previously recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Favorite Comic Series**: Saga\n\n-- **Dice Collection Size**: 73\n\n+- **Dice Collection Size**: 89\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n - **Usual Tournament Role**: Dungeon Master\n\n"
+    },
+    {
+      "query": "I've been organizing my dice collection of 89 pieces by color and material, and it's amazing how each one has its own unique characteristics and history.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Favorite Comic Series**: Saga\n\n-- **Dice Collection Size**: 73\n\n+- **Dice Collection Size**: 89\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n - **Usual Tournament Role**: Dungeon Master\n\n"
+    },
+    {
+      "query": "I need to update my tournament role information - I've transitioned from being a Dungeon Master to serving as Head Tournament Coordinator for our gaming events.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Dice Collection Size**: 73\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n-- **Usual Tournament Role**: Dungeon Master\n\n+- **Usual Tournament Role**: Head Tournament Coordinator\n\n - **Has Custom Miniatures**: True\n\n - **Attends Cosplay Events**: False\n\n - **Favorite Dice Set Material**: obsidian\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Head Tournament Coordinator, organizing the logistics and ensuring all our gaming tournaments run smoothly.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Dice Collection Size**: 73\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n-- **Usual Tournament Role**: Dungeon Master\n\n+- **Usual Tournament Role**: Head Tournament Coordinator\n\n - **Has Custom Miniatures**: True\n\n - **Attends Cosplay Events**: False\n\n - **Favorite Dice Set Material**: obsidian\n\n"
+    },
+    {
+      "query": "I need to correct my profile information - my favorite comic series is actually The Walking Dead, not Saga as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Favorite Comic Series**: Saga\n\n+- **Favorite Comic Series**: The Walking Dead\n\n - **Dice Collection Size**: 73\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n"
+    },
+    {
+      "query": "I've been re-reading The Walking Dead series lately and it continues to be my absolute favorite - the character development and post-apocalyptic storytelling are just incredible.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Favorite Comic Series**: Saga\n\n+- **Favorite Comic Series**: The Walking Dead\n\n - **Dice Collection Size**: 73\n\n - **Preferred Board Game Genre**: fantasy\n\n - **Years Playing Dnd**: 8\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I've been painting lately - I've moved on from Shadowrun Miniatures and now I'm focusing on Warhammer 40K figures instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Favorite Dice Set Material**: obsidian\n\n \n\n ## Relationships\n\n-- **Paints**: [[shadowrun_miniatures.md]]\n\n - **Shares**: [[epic_quest:_the_board_game.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n+- **Plays**: [[epic_quest:_the_board_game.md]]\n\n+- **Paints**: [[warhammer_40k_figures.md]]\n\n===entities/warhammer_40k_figures.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Warhammer 40K figures\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: miniatures\n\n+\n\n+## Relationships\n\n+- **Paints**: [[carlos_gonzalez.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying working on these intricate Warhammer 40K models - the level of detail in these figures is incredible and it's been such a rewarding painting experience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,6 +12,6 @@\n - **Favorite Dice Set Material**: obsidian\n\n \n\n ## Relationships\n\n-- **Paints**: [[shadowrun_miniatures.md]]\n\n - **Shares**: [[epic_quest:_the_board_game.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n+- **Plays**: [[epic_quest:_the_board_game.md]]\n\n+- **Paints**: [[warhammer_40k_figures.md]]\n\n===entities/warhammer_40k_figures.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Warhammer 40K figures\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: miniatures\n\n+\n\n+## Relationships\n\n+- **Paints**: [[carlos_gonzalez.md]]\n"
+    },
+    {
+      "query": "I need to update what I'm sharing with people - I'm no longer sharing Epic Quest: The Board Game, but instead I'm sharing Mystic Realms Trading Cards with my gaming community.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Paints**: [[shadowrun_miniatures.md]]\n\n-- **Shares**: [[epic_quest:_the_board_game.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n+- **Plays**: [[epic_quest:_the_board_game.md]]\n\n+- **Shares**: [[mystic_realms_trading_cards.md]]\n\n===entities/mystic_realms_trading_cards.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms Trading Cards\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: trading card game\n\n+\n\n+## Relationships\n\n+- **Shares**: [[carlos_gonzalez.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying introducing friends to Mystic Realms Trading Cards lately - the strategic depth and artwork make it such an engaging experience to share with fellow gamers.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Paints**: [[shadowrun_miniatures.md]]\n\n-- **Shares**: [[epic_quest:_the_board_game.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n+- **Plays**: [[epic_quest:_the_board_game.md]]\n\n+- **Shares**: [[mystic_realms_trading_cards.md]]\n\n===entities/mystic_realms_trading_cards.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms Trading Cards\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: trading card game\n\n+\n\n+## Relationships\n\n+- **Shares**: [[carlos_gonzalez.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

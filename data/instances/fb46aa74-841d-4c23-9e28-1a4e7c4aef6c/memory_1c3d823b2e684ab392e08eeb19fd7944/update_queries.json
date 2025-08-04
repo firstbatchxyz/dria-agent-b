@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my educational information in the system - I actually completed a Master of Science in Robotics Engineering, not a Bachelor of Mechanical Engineering as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Expertise**: Robotic Inspection Systems\n\n - **Shift**: night\n\n - **Certifications**: ISO 9001 Lead Auditor\n\n-- **Education**: Bachelor of Mechanical Engineering\n\n+- **Education**: Master of Science in Robotics Engineering\n\n - **Languages Spoken**: Mandarin, English\n\n - **Hobby**: photography\n\n - **Special Award**: Employee of the Year 2022\n\n"
+    },
+    {
+      "query": "I've been applying the advanced concepts from my Master of Science in Robotics Engineering to develop autonomous systems for manufacturing applications.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Expertise**: Robotic Inspection Systems\n\n - **Shift**: night\n\n - **Certifications**: ISO 9001 Lead Auditor\n\n-- **Education**: Bachelor of Mechanical Engineering\n\n+- **Education**: Master of Science in Robotics Engineering\n\n - **Languages Spoken**: Mandarin, English\n\n - **Hobby**: photography\n\n - **Special Award**: Employee of the Year 2022\n\n"
+    },
+    {
+      "query": "I need to update my award information in the system - I actually received the Innovation Excellence Award 2023, not the Employee of the Year 2022 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Bachelor of Mechanical Engineering\n\n - **Languages Spoken**: Mandarin, English\n\n - **Hobby**: photography\n\n-- **Special Award**: Employee of the Year 2022\n\n+- **Special Award**: Innovation Excellence Award 2023\n\n \n\n ## Relationships\n\n - **Oversees**: [[specvision_qc.md]]\n"
+    },
+    {
+      "query": "I've been reflecting on how receiving the Innovation Excellence Award 2023 has motivated me to pursue even more creative solutions in my work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Bachelor of Mechanical Engineering\n\n - **Languages Spoken**: Mandarin, English\n\n - **Hobby**: photography\n\n-- **Special Award**: Employee of the Year 2022\n\n+- **Special Award**: Innovation Excellence Award 2023\n\n \n\n ## Relationships\n\n - **Oversees**: [[specvision_qc.md]]\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Quality Control Supervisor to Production Manager last month.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Quality Control Supervisor\n\n+- **Role**: Production Manager\n\n - **Years Of Experience**: 8\n\n - **Expertise**: Robotic Inspection Systems\n\n - **Shift**: night\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Production Manager, especially overseeing the entire manufacturing process and coordinating between different departments.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Quality Control Supervisor\n\n+- **Role**: Production Manager\n\n - **Years Of Experience**: 8\n\n - **Expertise**: Robotic Inspection Systems\n\n - **Shift**: night\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my oversight responsibilities - I'm no longer overseeing SpecVision QC, but I'm now managing the new Advanced Imaging Division instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Special Award**: Employee of the Year 2022\n\n \n\n ## Relationships\n\n-- **Oversees**: [[specvision_qc.md]]\n+- **Oversees**: [[advanced_imaging_division.md]]\n\n===entities/advanced_imaging_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Imaging Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[mei_li.md]]\n"
+    },
+    {
+      "query": "I've been really excited about the innovative projects we're working on in the Advanced Imaging Division since I took over the leadership role here.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Special Award**: Employee of the Year 2022\n\n \n\n ## Relationships\n\n-- **Oversees**: [[specvision_qc.md]]\n+- **Oversees**: [[advanced_imaging_division.md]]\n\n===entities/advanced_imaging_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Imaging Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[mei_li.md]]\n"
+    },
+    {
+      "query": "I need to update my department oversight information - I'm no longer overseeing SpecVision QC, I've been reassigned to manage the Neural Interface Division instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Special Award**: Employee of the Year 2022\n\n \n\n ## Relationships\n\n-- **Oversees**: [[specvision_qc.md]]\n+- **Oversees**: [[neural_interface_division.md]]\n\n===entities/neural_interface_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Interface Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[mei_li.md]]\n"
+    },
+    {
+      "query": "I've been really excited about the challenges that come with leading the Neural Interface Division - the team's work on brain-computer interface protocols is groundbreaking.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Special Award**: Employee of the Year 2022\n\n \n\n ## Relationships\n\n-- **Oversees**: [[specvision_qc.md]]\n+- **Oversees**: [[neural_interface_division.md]]\n\n===entities/neural_interface_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Interface Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Oversees**: [[mei_li.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

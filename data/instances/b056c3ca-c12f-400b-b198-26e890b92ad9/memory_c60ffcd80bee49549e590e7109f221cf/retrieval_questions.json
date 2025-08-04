@@ -1,0 +1,178 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my specialization?",
+      "a": "climatology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "10"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "ice sculpting"
+    },
+    {
+      "q": "What is my favorite drill?",
+      "a": "Nova-5 Ice Core Drill"
+    },
+    {
+      "q": "What is my origin city?",
+      "a": "Kuala Lumpur, Malaysia"
+    },
+    {
+      "q": "How many field research trips have I completed?",
+      "a": "18"
+    },
+    {
+      "q": "What is my favorite weather condition?",
+      "a": "clear Arctic sky"
+    },
+    {
+      "q": "What is my preferred commute method?",
+      "a": "snowmobile"
+    },
+    {
+      "q": "What is my favorite data analysis software?",
+      "a": "ClimateAnalyzer Pro"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment I research with?"
+      ],
+      "a": "Equipment",
+      "attribute": "entity type=Equipment",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the satellite type of the weather station I research with?"
+      ],
+      "a": "geostationary",
+      "attribute": "satellite type=geostationary",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the data upload frequency of the weather station I research with?"
+      ],
+      "a": "hourly",
+      "attribute": "data upload frequency=hourly",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the installation year of the weather station I research with?"
+      ],
+      "a": "2012",
+      "attribute": "installation year=2012",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the temperature range of the weather station I research with?"
+      ],
+      "a": "-60 to 20\u00b0C",
+      "attribute": "temperature range=-60 to 20\u00b0C",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the location of the weather station I research with?"
+      ],
+      "a": "latitude 71.3\u00b0N, longitude 156.8\u00b0W",
+      "attribute": "location=latitude 71.3\u00b0N, longitude 156.8\u00b0W",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the power source of the weather station I research with?"
+      ],
+      "a": "solar and wind hybrid",
+      "attribute": "power source=solar and wind hybrid",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the primary sensor of the weather station I research with?"
+      ],
+      "a": "infrared radiometer",
+      "attribute": "primary sensor=infrared radiometer",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the weather station I research with?"
+      ],
+      "a": "bi-annual",
+      "attribute": "maintenance schedule=bi-annual",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    },
+    {
+      "q": [
+        "What is the data storage capacity of the weather station I research with?"
+      ],
+      "a": "2 TB",
+      "attribute": "data storage capacity=2 TB",
+      "path": "Dr. Mei-Lin Chao -> Satellite Weather Station"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the program type of the research program that receives data from the satellite weather station I research with?",
+      "a": "Research Program",
+      "attribute": "entity type=Research Program",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the budget of the research program that receives data from the satellite weather station I research with?",
+      "a": "5 million USD annually",
+      "attribute": "budget=5 million USD annually",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the research focus of the research program that receives data from the satellite weather station I research with?",
+      "a": "Permafrost dynamics and climate impact",
+      "attribute": "research focus=Permafrost dynamics and climate impact",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What are the collaborating institutions of the research program that receives data from the satellite weather station I research with?",
+      "a": "Arctic Research Institute, International Climatology Network",
+      "attribute": "collaborating institutions=Arctic Research Institute, International Climatology Network",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the duration of the research program that receives data from the satellite weather station I research with?",
+      "a": "2005-present",
+      "attribute": "duration=2005-present",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the notable contribution of the research program that receives data from the satellite weather station I research with?",
+      "a": "First comprehensive permafrost temperature map of Alaska",
+      "attribute": "notable contribution=First comprehensive permafrost temperature map of Alaska",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the field station location of the research program that receives data from the satellite weather station I research with?",
+      "a": "North Slope, Alaska",
+      "attribute": "field station location=North Slope, Alaska",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the number of annual publications of the research program that receives data from the satellite weather station I research with?",
+      "a": "15",
+      "attribute": "annual publications=15",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    },
+    {
+      "q": "What is the community outreach of the research program that receives data from the satellite weather station I research with?",
+      "a": "Annual educational workshops for Alaskan communities",
+      "attribute": "community outreach=Annual educational workshops for Alaskan communities",
+      "path": "Dr. Mei-Lin Chao - researches with -> Satellite Weather Station - provides data for-> Permafrost Research Initiative"
+    }
+  ]
+}

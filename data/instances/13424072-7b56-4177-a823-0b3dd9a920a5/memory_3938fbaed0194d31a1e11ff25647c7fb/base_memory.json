@@ -1,0 +1,11 @@
+{
+  "user_md": "# Amina Sylla\n\n## Basic Information\n- **Type**: Person\n- **Role**: Facility Inspector\n- **Years Of Experience**: 12\n- **Certifications**: Certified Playground Safety Inspector (CPSI)\n- **Languages Spoken**: French, English\n- **Shift Schedule**: Morning\n- **Favorite Coffee Spot**: Terminal C Caf\u00e9\n- **Hobbies**: Photography, Hiking\n\n## Relationships\n- **Inspects**: [[children\u2019s_play_area.md]]",
+  "entities": [
+    {
+      "entity_name": "children\u2019s_play_area",
+      "entity_file_path": "entities/children\u2019s_play_area.md",
+      "entity_file_content": "# Children\u2019s Play Area\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Location**: Terminal B, near Gate 24\n- **Size In Square Meters**: 250\n- **Age Group Targeted**: 3-12 years\n- **Available Equipment**: slides, swings, climbing wall, activity panels\n- **Safety Certification**: Passed June 2023 inspection\n- **Operating Hours**: 5 AM to 10 PM\n- **Average Daily Visitors**: 150\n- **Renovation Date**: January 2022\n- **Sponsor**: Kiddie Joy International\n\n## Relationships\n- **Inspects**: [[amina_sylla.md]]"
+    }
+  ],
+  "mem_id": "memory_3938fbaed0194d31a1e11ff25647c7fb"
+}

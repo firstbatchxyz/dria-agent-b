@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional experience in the system - I actually have 15 years of experience now, not the 10 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Title**: Surgeon\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n - **Specialization**: Neurosurgery\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 15 years of experience in the field has really shaped my approach to patient care and clinical decision-making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Title**: Surgeon\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n - **Specialization**: Neurosurgery\n\n"
+    },
+    {
+      "query": "I need to update my professional specialization in the system - I've transitioned from Neurosurgery to Pediatric Neurosurgery as my primary focus.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 10\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n-- **Specialization**: Neurosurgery\n\n+- **Specialization**: Pediatric Neurosurgery\n\n - **Languages Spoken**: English, Spanish\n\n - **Research Interests**: Minimally invasive surgery, Brain-Computer Interfaces\n\n - **Hobbies**: Sculpting, Bird watching\n\n"
+    },
+    {
+      "query": "My work in Pediatric Neurosurgery has been incredibly rewarding, especially when I see how specialized care for children's neurological conditions can transform their lives and development.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 10\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n-- **Specialization**: Neurosurgery\n\n+- **Specialization**: Pediatric Neurosurgery\n\n - **Languages Spoken**: English, Spanish\n\n - **Research Interests**: Minimally invasive surgery, Brain-Computer Interfaces\n\n - **Hobbies**: Sculpting, Bird watching\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience information in the system - I actually have 15 years of experience now, not the 10 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Title**: Surgeon\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n - **Specialization**: Neurosurgery\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 15 years of experience in the field has really shaped my approach to patient care and clinical decision-making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Title**: Surgeon\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Hospital Affiliation**: Metropolitan General Hospital\n\n - **Medical School**: Harvard Medical School\n\n - **Specialization**: Neurosurgery\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Dr. Raj Patel, but I've recently started collaborating with Dr. Marcus Chen on our new research project.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Sculpting, Bird watching\n\n \n\n ## Relationships\n\n-- **Collaborates With**: [[dr._raj_patel.md]]\n+- **Collaborates With**: [[dr._marcus_chen.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[dr._vanessa_carter.md]]\n"
+    },
+    {
+      "query": "I've been having fascinating discussions with Dr. Marcus Chen about our joint research methodology, and our collaboration has been incredibly productive so far.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Sculpting, Bird watching\n\n \n\n ## Relationships\n\n-- **Collaborates With**: [[dr._raj_patel.md]]\n+- **Collaborates With**: [[dr._marcus_chen.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[dr._vanessa_carter.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration records - I'm no longer working with Dr. Raj Patel, but I've started a new research partnership with Dr. Elena Vasquez on neural interface technology.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Sculpting, Bird watching\n\n \n\n ## Relationships\n\n-- **Collaborates With**: [[dr._raj_patel.md]]\n+- **Collaborates With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[dr._vanessa_carter.md]]\n"
+    },
+    {
+      "query": "I'm excited about the breakthrough findings Dr. Elena Vasquez and I have been achieving in our collaborative research on brain-computer interfaces - her expertise in bioengineering perfectly complements my work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: Sculpting, Bird watching\n\n \n\n ## Relationships\n\n-- **Collaborates With**: [[dr._raj_patel.md]]\n+- **Collaborates With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[dr._vanessa_carter.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our database access information - Dr. Raj Patel and I are no longer using the Cardiology Database, we've switched to accessing the new Integrated Patient Records System for our collaborative research.",
+      "diff": "===entities/dr._raj_patel.md===\n\n===entities/integrated_patient_records_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Integrated Patient Records System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: database\n\n+\n\n+## Relationships\n\n+- **Accesses**: [[dr._raj_patel.md]]\n"
+    },
+    {
+      "query": "Dr. Patel and I have been making great progress with our joint research project now that we have full access to the Integrated Patient Records System - it's much more comprehensive than our previous database.",
+      "diff": "===entities/dr._raj_patel.md===\n\n===entities/integrated_patient_records_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Integrated Patient Records System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: database\n\n+\n\n+## Relationships\n\n+- **Accesses**: [[dr._raj_patel.md]]\n"
+    }
+  ]
+}

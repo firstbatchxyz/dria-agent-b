@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional expertise information - my specialization has shifted from Cattle Ranching and Management to Sustainable Agriculture and Permaculture Design.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 46\n\n - **Role**: Manager\n\n-- **Expertise**: Cattle Ranching and Management\n\n+- **Expertise**: Sustainable Agriculture and Permaculture Design\n\n - **Education**: Bachelor's Degree in Agriculture\n\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n"
+    },
+    {
+      "query": "I've been applying my knowledge in Sustainable Agriculture and Permaculture Design to help local farms transition to more environmentally friendly practices while maintaining profitability.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 46\n\n - **Role**: Manager\n\n-- **Expertise**: Cattle Ranching and Management\n\n+- **Expertise**: Sustainable Agriculture and Permaculture Design\n\n - **Education**: Bachelor's Degree in Agriculture\n\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English and Mandarin Chinese now, not English and Basic Aboriginal Dialects as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n - **Birthplace**: Alice Springs, Northern Territory\n\n-- **Speaks Languages**: English, Basic Aboriginal Dialects\n\n+- **Speaks Languages**: English, Mandarin Chinese\n\n - **Years Of Experience**: 20\n\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n"
+    },
+    {
+      "query": "I've been finding it so helpful to communicate with international researchers in Mandarin Chinese during my recent fieldwork collaborations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n - **Birthplace**: Alice Springs, Northern Territory\n\n-- **Speaks Languages**: English, Basic Aboriginal Dialects\n\n+- **Speaks Languages**: English, Mandarin Chinese\n\n - **Years Of Experience**: 20\n\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English and Mandarin Chinese, not English and Basic Aboriginal Dialects as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n - **Birthplace**: Alice Springs, Northern Territory\n\n-- **Speaks Languages**: English, Basic Aboriginal Dialects\n\n+- **Speaks Languages**: English, Mandarin Chinese\n\n - **Years Of Experience**: 20\n\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n"
+    },
+    {
+      "query": "I've been finding it really helpful that I'm fluent in both English and Mandarin Chinese when working with diverse communities in my research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hobbies**: Helicopter Flying, Animal Care\n\n - **Favorite Animal**: Australian Cattle Dog\n\n - **Birthplace**: Alice Springs, Northern Territory\n\n-- **Speaks Languages**: English, Basic Aboriginal Dialects\n\n+- **Speaks Languages**: English, Mandarin Chinese\n\n - **Years Of Experience**: 20\n\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work information - I'm no longer managing MacAlister Cattle Station. I've recently taken over management of Riverside Sheep Farm instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n ## Relationships\n\n-- **Manages**: [[macalister_cattle_station.md]]\n+- **Manages**: [[riverside_sheep_farm.md]]\n\n===entities/riverside_sheep_farm.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Sheep Farm\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: farm\n\n+\n\n+## Relationships\n\n+- **Manages**: [[lila_macalister.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my new role managing Riverside Sheep Farm - it's been quite different from my previous experience but equally rewarding working with the livestock here.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n ## Relationships\n\n-- **Manages**: [[macalister_cattle_station.md]]\n+- **Manages**: [[riverside_sheep_farm.md]]\n\n===entities/riverside_sheep_farm.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Sheep Farm\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: farm\n\n+\n\n+## Relationships\n\n+- **Manages**: [[lila_macalister.md]]\n"
+    },
+    {
+      "query": "I need to update my management information - I'm no longer managing MacAlister Cattle Station. I've transitioned to managing Riverstone Agricultural Cooperative instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n ## Relationships\n\n-- **Manages**: [[macalister_cattle_station.md]]\n+- **Manages**: [[riverstone_agricultural_cooperative.md]]\n\n===entities/riverstone_agricultural_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverstone Agricultural Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Manages**: [[lila_macalister.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new challenges that come with managing Riverstone Agricultural Cooperative and working with multiple farming families in our region.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n \n\n ## Relationships\n\n-- **Manages**: [[macalister_cattle_station.md]]\n+- **Manages**: [[riverstone_agricultural_cooperative.md]]\n\n===entities/riverstone_agricultural_cooperative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverstone Agricultural Cooperative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Manages**: [[lila_macalister.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our water services contract information - MacAlister Cattle Station is no longer working with AquaSure Water Solutions and has switched to BlueTech Hydro Systems for all our water infrastructure needs.",
+      "diff": "===entities/macalister_cattle_station.md===\n\n===entities/bluetech_hydro_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# BlueTech Hydro Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water services company\n\n+\n\n+## Relationships\n\n+- **Contracts**: [[macalister_cattle_station.md]]\n"
+    },
+    {
+      "query": "I'm really pleased with how BlueTech Hydro Systems has been handling our water management at MacAlister Cattle Station - their innovative approach to rural water solutions is exactly what our operation needed.",
+      "diff": "===entities/macalister_cattle_station.md===\n\n===entities/bluetech_hydro_systems.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# BlueTech Hydro Systems\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: water services company\n\n+\n\n+## Relationships\n\n+- **Contracts**: [[macalister_cattle_station.md]]\n"
+    }
+  ]
+}

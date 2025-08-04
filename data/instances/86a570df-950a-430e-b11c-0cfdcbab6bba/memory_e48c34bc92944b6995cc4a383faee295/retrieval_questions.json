@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "45"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Livestock Manager"
+    },
+    {
+      "q": "What is my favorite festival?",
+      "a": "Diwali"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Kite Flying, Organizing Wrestling Matches"
+    },
+    {
+      "q": "How many family members do I have?",
+      "a": "6"
+    },
+    {
+      "q": "What is my native language?",
+      "a": "Urdu"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Animal Husbandry"
+    },
+    {
+      "q": "What is my community role?",
+      "a": "Community Mediator"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Ajmer, Rajasthan"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "High School Graduate"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of facility do I use?"
+      ],
+      "a": "Animal Housing",
+      "attribute": "entity type=Animal Housing",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "What is the capacity of the facility I use?"
+      ],
+      "a": "50 animals",
+      "attribute": "capacity=50 animals",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "What construction material is used in the facility I use?"
+      ],
+      "a": "Bamboo and Thatch",
+      "attribute": "construction material=Bamboo and Thatch",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the facility I use?"
+      ],
+      "a": "Bi-weekly cleaning and semi-annual repairs",
+      "attribute": "maintenance schedule=Bi-weekly cleaning and semi-annual repairs",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "True or false: The facility I use has solar panels installed."
+      ],
+      "a": "True",
+      "attribute": "solar panel installed=True",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "What type of water supply does the facility I use have?"
+      ],
+      "a": "Groundwater well",
+      "attribute": "water supply type=Groundwater well",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "When was the facility I use first established?"
+      ],
+      "a": "1998",
+      "attribute": "first established=1998",
+      "path": "Mohammed Hussain -> The Livestock Pen"
+    },
+    {
+      "q": [
+        "What type of facility do I assist during harvest time?"
+      ],
+      "a": "Storage Facility",
+      "attribute": "entity type=Storage Facility",
+      "path": "Mohammed Hussain -> The Harvest Barn"
+    },
+    {
+      "q": [
+        "What is the storage capacity of the facility I assist during harvest time?"
+      ],
+      "a": "5000",
+      "attribute": "storage capacity=5000",
+      "path": "Mohammed Hussain -> The Harvest Barn"
+    },
+    {
+      "q": [
+        "What is the primary use of the facility I assist during harvest time?"
+      ],
+      "a": "Grain Storage",
+      "attribute": "primary use=Grain Storage",
+      "path": "Mohammed Hussain -> The Harvest Barn"
+    }
+  ]
+}

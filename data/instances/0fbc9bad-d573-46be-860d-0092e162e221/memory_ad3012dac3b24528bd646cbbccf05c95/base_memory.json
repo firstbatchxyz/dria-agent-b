@@ -1,0 +1,21 @@
+{
+  "user_md": "# Luiza Maria Pereira\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Occupation**: Community Organizer\n- **Hobbies**: dancing, cooking, and hiking\n- **Community Role**: Childcare Coordinator\n- **Skills**: public speaking and water resource management\n- **Favorite Food**: Feijoada\n- **Languages Spoken**: Portuguese and Spanish\n- **Background**: Moved to the favela at the age of 12 and has been actively involved in community activities since\n- **Has Children**: True\n\n## Relationships\n- **Mentors**: [[carlos_mendes.md]]\n- **Participates_In**: [[water_connectors_network.md]]\n- **Assists_With**: [[community_center_of_vila_esperan\u00e7a.md]]",
+  "entities": [
+    {
+      "entity_name": "carlos_mendes",
+      "entity_file_path": "entities/carlos_mendes.md",
+      "entity_file_content": "# Carlos Henrique Mendes\n\n## Basic Information\n- **Type**: Person\n- **Age**: 29\n- **Occupation**: Soccer Coach\n- **Hobbies**: playing guitar and gardening\n- **Community Role**: Event Coordinator\n- **Skills**: event planning and conflict resolution\n- **Favorite Food**: Moqueca\n- **Languages Spoken**: Portuguese and English\n- **Background**: Born and raised in the favela, with a passion for community development\n- **Has Children**: False\n\n## Relationships\n- **Mentors**: [[luiza_pereira.md]]"
+    },
+    {
+      "entity_name": "water_connectors_network",
+      "entity_file_path": "entities/water_connectors_network.md",
+      "entity_file_content": "# Water Connectors Network\n\n## Basic Information\n- **Entity Type**: infrastructure\n- **Type**: Entity\n- **Location**: central community zone\n- **Capacity**: 200\n- **Maintenance Schedule**: monthly\n- **Established Year**: 2005\n- **Operational Hours**: 24/7\n- **Water Source**: municipal supply\n- **Usage Cost**: community funded\n- **Technology**: solar powered pump system\n\n## Relationships\n- **Participates_In**: [[luiza_pereira.md]]"
+    },
+    {
+      "entity_name": "community_center_of_vila_esperan\u00e7a",
+      "entity_file_path": "entities/community_center_of_vila_esperan\u00e7a.md",
+      "entity_file_content": "# Community Center of Vila Esperan\u00e7a\n\n## Basic Information\n- **Entity Type**: building\n- **Type**: Entity\n- **Construction Year**: 1995\n- **Capacity**: 150\n- **Primary Use**: Gatherings and classes\n- **Facilities**: Kitchen, meeting room, sports field\n- **Hours Of Operation**: 8 AM to 10 PM\n- **Accessibility Features**: Wheelchair ramp, braille signs\n\n## Relationships\n- **Assists_With**: [[luiza_pereira.md]]"
+    }
+  ],
+  "mem_id": "memory_ad3012dac3b24528bd646cbbccf05c95"
+}

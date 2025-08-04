@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "chief pilot"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my favorite aircraft?",
+      "a": "Robinson R44"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Advanced Aviation Safety"
+    },
+    {
+      "q": "What is my nickname?",
+      "a": "Outback Jack"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Landscape photography"
+    },
+    {
+      "q": "What recent award did I receive?",
+      "a": "2022 Helicopter Pilot of the Year"
+    },
+    {
+      "q": "What is my preferred flying condition?",
+      "a": "dawn"
+    },
+    {
+      "q": "What communication device do I use?",
+      "a": "satellite phone"
+    },
+    {
+      "q": "What is my work schedule?",
+      "a": "on-call 24/7 during mustering season"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of company do I pilot for?"
+      ],
+      "a": "Service Provider",
+      "attribute": "entity type=Service Provider",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What services does the company I pilot for offer?"
+      ],
+      "a": "aerial cattle mustering, emergency medical transport, aerial photography",
+      "attribute": "services offered=aerial cattle mustering, emergency medical transport, aerial photography",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "How many helicopters does the company I pilot for have?"
+      ],
+      "a": "5",
+      "attribute": "number of helicopters=5",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What is the specialty of the company I pilot for?"
+      ],
+      "a": "remote area operations",
+      "attribute": "specialty=remote area operations",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "Where is the base location of the company I pilot for?"
+      ],
+      "a": "Alice Springs",
+      "attribute": "base location=Alice Springs",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What year was the company I pilot for established?"
+      ],
+      "a": "1998",
+      "attribute": "year established=1998",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What are the average annual flight hours of the company I pilot for?"
+      ],
+      "a": "3000",
+      "attribute": "average annual flight hours=3000",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What is the reputation of the company I pilot for?"
+      ],
+      "a": "highly reliable and safe service provider in the Outback",
+      "attribute": "company reputation=highly reliable and safe service provider in the Outback",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "Who is the founder of the company I pilot for?"
+      ],
+      "a": "Emma Thompson",
+      "attribute": "founder=Emma Thompson",
+      "path": "Jack O'Connor -> Outback Choppers"
+    },
+    {
+      "q": [
+        "What sustainability initiatives does the company I pilot for have?"
+      ],
+      "a": "Carbon offset program and use of fuel-efficient aircraft",
+      "attribute": "sustainability initiatives=Carbon offset program and use of fuel-efficient aircraft",
+      "path": "Jack O'Connor -> Outback Choppers"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of place is the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the area size of the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "2500 square kilometers",
+      "attribute": "area size=2500 square kilometers",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What year was the cattle station that the helicopter company I pilot for provides services to established?",
+      "a": "1956",
+      "attribute": "established year=1956",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the primary cattle breed at the station that the helicopter company I pilot for provides services to?",
+      "a": "Hereford",
+      "attribute": "primary breed=Hereford",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the average annual rainfall at the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "350",
+      "attribute": "average annual rainfall=350",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "How many employees work at the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "18",
+      "attribute": "number of employees=18",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the main fuel source used at the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "diesel",
+      "attribute": "main fuel source=diesel",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the nearest town to the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "Alice Springs",
+      "attribute": "nearest town=Alice Springs",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the operation focus of the cattle station that the helicopter company I pilot for provides services to?",
+      "a": "sustainable cattle farming",
+      "attribute": "operation focus=sustainable cattle farming",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the annual cattle export number from the station that the helicopter company I pilot for provides services to?",
+      "a": "1500",
+      "attribute": "annual cattle export=1500",
+      "path": "Jack O'Connor - pilots for -> Outback Choppers - provides-> MacAlister Cattle Station"
+    }
+  ]
+}

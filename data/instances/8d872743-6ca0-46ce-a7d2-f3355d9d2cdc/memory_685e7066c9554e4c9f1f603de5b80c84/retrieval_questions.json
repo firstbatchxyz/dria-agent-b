@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "17"
+    },
+    {
+      "q": "What is my grade?",
+      "a": "Junior"
+    },
+    {
+      "q": "What is my role in the club?",
+      "a": "Team strategist"
+    },
+    {
+      "q": "What is my favorite subject?",
+      "a": "Mathematics"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Painting"
+    },
+    {
+      "q": "What is my robotics skill level?",
+      "a": "Expert"
+    },
+    {
+      "q": "What is my favorite robot component?",
+      "a": "AI programming"
+    },
+    {
+      "q": "How many competitions have I participated in?",
+      "a": "3"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Teaching coding to younger students"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Sushi"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization am I a member of?"
+      ],
+      "a": "organization",
+      "attribute": "entity type=organization",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What year was the organization I'm a member of founded?"
+      ],
+      "a": "2018",
+      "attribute": "foundation year=2018",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "Who is the current president of the organization I'm a member of?"
+      ],
+      "a": "Haruka Fujimoto",
+      "attribute": "current president=Haruka Fujimoto",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the motto of the organization I'm a member of?"
+      ],
+      "a": "Innovate, Create, Achieve",
+      "attribute": "motto=Innovate, Create, Achieve",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the weekly meeting schedule of the organization I'm a member of?"
+      ],
+      "a": "Wednesdays and Saturdays",
+      "attribute": "weekly meeting schedule=Wednesdays and Saturdays",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the club slogan of the organization I'm a member of?"
+      ],
+      "a": "Engineering Tomorrow Today",
+      "attribute": "club slogan=Engineering Tomorrow Today",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the average member age of the organization I'm a member of?"
+      ],
+      "a": "16.4",
+      "attribute": "average member age=16.4",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What are the recent achievements of the organization I'm a member of?"
+      ],
+      "a": "Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "attribute": "recent achievements=Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the social media handle of the organization I'm a member of?"
+      ],
+      "a": "@SakuraRobots",
+      "attribute": "social media handle=@SakuraRobots",
+      "path": "Aiko Tanaka -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What type of thing is the robot I work on?"
+      ],
+      "a": "robot",
+      "attribute": "entity type=robot",
+      "path": "Aiko Tanaka -> HAL-01"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of the event that the club I'm a member of participates in?",
+      "a": "event",
+      "attribute": "entity type=event",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the location of the event that the club I'm a member of participates in?",
+      "a": "Tokyo, Japan",
+      "attribute": "location=Tokyo, Japan",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What year was the event that the club I'm a member of participates in established?",
+      "a": "2010",
+      "attribute": "year established=2010",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the participants count of the event that the club I'm a member of participates in?",
+      "a": "50",
+      "attribute": "participants count=50",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What are the prizes for the event that the club I'm a member of participates in?",
+      "a": "Scholarships, Trophies, Internships",
+      "attribute": "prizes=Scholarships, Trophies, Internships",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the duration of the event that the club I'm a member of participates in?",
+      "a": "3 days",
+      "attribute": "duration=3 days",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the sponsor name of the event that the club I'm a member of participates in?",
+      "a": "TechGiant Corporation",
+      "attribute": "sponsor name=TechGiant Corporation",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the judging criteria for the event that the club I'm a member of participates in?",
+      "a": "Innovation, Technical Skill, Teamwork, Presentation",
+      "attribute": "judging criteria=Innovation, Technical Skill, Teamwork, Presentation",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What are the local competitions leading to the event that the club I'm a member of participates in?",
+      "a": "Tokyo Junior Robotics Challenge, Regional Robotics Roundup",
+      "attribute": "local competitions leading to event=Tokyo Junior Robotics Challenge, Regional Robotics Roundup",
+      "path": "Aiko Tanaka - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What is the type of the robot series that the robot I work on was created for?",
+      "a": "robot series",
+      "attribute": "entity type=robot series",
+      "path": "Aiko Tanaka - works on -> HAL-01 - created for-> EcoBots Series"
+    }
+  ]
+}

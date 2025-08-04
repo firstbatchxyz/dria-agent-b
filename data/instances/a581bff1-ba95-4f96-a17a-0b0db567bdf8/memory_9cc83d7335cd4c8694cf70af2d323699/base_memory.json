@@ -1,0 +1,11 @@
+{
+  "user_md": "# Dr. Sarah Thompson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Cardiologist\n- **Years Of Experience**: 12\n- **Education**: Stanford University School of Medicine\n- **Board Certified**: True\n- **Specialization**: Electrophysiology\n- **Office Floor**: 3\n- **Patient Satisfaction Score**: 4.8\n- **Languages Spoken**: English, Spanish\n- **Published Papers**: 15\n- **Professional Associations**: American College of Cardiology\n- **Hobbies**: Photography, Hiking\n- **Volunteer Experience**: M\u00e9decins Sans Fronti\u00e8res\n\n## Relationships\n- **Uses**: [[heart_monitor.md]]",
+  "entities": [
+    {
+      "entity_name": "heart_monitor",
+      "entity_file_path": "entities/heart_monitor.md",
+      "entity_file_content": "# Heart Monitor\n\n## Basic Information\n- **Entity Type**: Medical Equipment\n- **Type**: Entity\n- **Brand**: MediPulse\n- **Model Number**: MP2023\n- **Purchased Date**: 2021-03-15\n- **Maintenance Schedule**: Bi-annually\n- **Last Serviced Date**: 2023-09-30\n- **Warranty Expiration Date**: 2025-03-14\n- **Location**: Cardiology Wing, 3rd Floor\n- **Wireless Capability**: True\n- **Data Storage Capacity**: 500GB\n- **Battery Life Hours**: 24\n\n## Relationships\n- **Uses**: [[dr._sarah_thompson.md]]"
+    }
+  ],
+  "mem_id": "memory_9cc83d7335cd4c8694cf70af2d323699"
+}

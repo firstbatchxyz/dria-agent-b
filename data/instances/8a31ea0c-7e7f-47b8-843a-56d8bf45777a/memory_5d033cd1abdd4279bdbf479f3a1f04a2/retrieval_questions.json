@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "62"
+    },
+    {
+      "q": "What is my role in the restaurant?",
+      "a": "owner"
+    },
+    {
+      "q": "What is my favorite ingredient?",
+      "a": "fresh basil"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "Bachelor's in Business Administration from Rutgers University"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "fishing"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Italian, English"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Naples, Italy"
+    },
+    {
+      "q": "What is my favorite pasta dish?",
+      "a": "spaghetti aglio e olio"
+    },
+    {
+      "q": "What is my wine collection like?",
+      "a": "a cherished collection of vintage Italian wines"
+    },
+    {
+      "q": "What is my philanthropic endeavor?",
+      "a": "supporter of local food banks"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the age of my child?"
+      ],
+      "a": "21",
+      "attribute": "age=21",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the role in restaurant of my child?"
+      ],
+      "a": "chef",
+      "attribute": "role in restaurant=chef",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the specialty dish of my child?"
+      ],
+      "a": "lasagna",
+      "attribute": "specialty dish=lasagna",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the education of my child?"
+      ],
+      "a": "currently studying culinary arts at Culinary Institute of America",
+      "attribute": "education=currently studying culinary arts at Culinary Institute of America",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the hobby of my child?"
+      ],
+      "a": "playing the guitar",
+      "attribute": "hobby=playing the guitar",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the pet of my child?"
+      ],
+      "a": "golden retriever named Bella",
+      "attribute": "pet=golden retriever named Bella",
+      "path": "Mario Pangorio -> Leonardo Pangorio"
+    },
+    {
+      "q": [
+        "What is the age of my child?"
+      ],
+      "a": "28",
+      "attribute": "age=28",
+      "path": "Mario Pangorio -> Sophia Pangorio"
+    },
+    {
+      "q": [
+        "What is the role in restaurant of my child?"
+      ],
+      "a": "manager",
+      "attribute": "role in restaurant=manager",
+      "path": "Mario Pangorio -> Sophia Pangorio"
+    },
+    {
+      "q": [
+        "What is the education of my child?"
+      ],
+      "a": "MBA in Hospitality Management from Cornell University",
+      "attribute": "education=MBA in Hospitality Management from Cornell University",
+      "path": "Mario Pangorio -> Sophia Pangorio"
+    },
+    {
+      "q": [
+        "What is the hobby of my child?"
+      ],
+      "a": "painting",
+      "attribute": "hobby=painting",
+      "path": "Mario Pangorio -> Sophia Pangorio"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of restaurant does my mother manage?",
+      "a": "Restaurant",
+      "attribute": "entity type=Restaurant",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What cuisine does the restaurant that my mother manages serve?",
+      "a": "Italian-American",
+      "attribute": "cuisine=Italian-American",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "Where is the restaurant that my mother manages located?",
+      "a": "Jersey City, NJ",
+      "attribute": "location=Jersey City, NJ",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What is the seating capacity of the restaurant that my mother manages?",
+      "a": "75",
+      "attribute": "seating capacity=75",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What year was the restaurant that my mother manages established?",
+      "a": "1985",
+      "attribute": "established year=1985",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What is the signature dish of the restaurant that my mother manages?",
+      "a": "Lobster Ravioli",
+      "attribute": "signature dish=Lobster Ravioli",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What is the average rating of the restaurant that my mother manages?",
+      "a": "4.5",
+      "attribute": "average rating=4.5",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What is the decor style of the restaurant that my mother manages?",
+      "a": "rustic Italian",
+      "attribute": "decor style=rustic Italian",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "What notable event takes place at the restaurant that my mother manages?",
+      "a": "Annual Festival of Lights Feast",
+      "attribute": "notable event=Annual Festival of Lights Feast",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    },
+    {
+      "q": "Who owns the restaurant that my mother manages?",
+      "a": "Alessandra Pangorio",
+      "attribute": "owner=Alessandra Pangorio",
+      "path": "Mario Pangorio - parent -> Sophia Pangorio - manages-> Pangorio's Italian Restaurant"
+    }
+  ]
+}

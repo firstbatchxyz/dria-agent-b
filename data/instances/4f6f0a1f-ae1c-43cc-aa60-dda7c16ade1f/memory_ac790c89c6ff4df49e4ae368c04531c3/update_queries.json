@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my birthplace information in the military records - I was actually born in Mumbai, India, not Ahmedabad as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n - **Previous Assignment**: Operation Desert Shield\n\n-- **Birthplace**: Ahmedabad, India\n\n+- **Birthplace**: Mumbai, India\n\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "Growing up in Mumbai really shaped my perspective before joining the military - the diverse culture of my birthplace taught me valuable lessons about leadership and adaptability.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n - **Previous Assignment**: Operation Desert Shield\n\n-- **Birthplace**: Ahmedabad, India\n\n+- **Birthplace**: Mumbai, India\n\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my specialization in the military records - my area of expertise has changed from Logistics to Cybersecurity Operations due to my recent advanced training and reassignment.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Major\n\n-- **Specialization**: Logistics\n\n+- **Specialization**: Cybersecurity Operations\n\n - **Service Years**: 15\n\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n"
+    },
+    {
+      "query": "My recent transition into Cybersecurity Operations has been incredibly rewarding, especially working on protecting our military networks from emerging digital threats.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Major\n\n-- **Specialization**: Logistics\n\n+- **Specialization**: Cybersecurity Operations\n\n - **Service Years**: 15\n\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n"
+    },
+    {
+      "query": "I need to correct my birthplace information in the records - I was actually born in Mumbai, India, not Ahmedabad as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n - **Previous Assignment**: Operation Desert Shield\n\n-- **Birthplace**: Ahmedabad, India\n\n+- **Birthplace**: Mumbai, India\n\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "Growing up in Mumbai really shaped my perspective during my military training, especially coming from such a diverse metropolitan environment.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Education**: Master's Degree in Business Administration\n\n - **Languages Spoken**: Hindi, English, Spanish\n\n - **Previous Assignment**: Operation Desert Shield\n\n-- **Birthplace**: Ahmedabad, India\n\n+- **Birthplace**: Mumbai, India\n\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the system regarding my current responsibilities - I'm no longer overseeing the Iron Shield Logistics Battalion. I've been reassigned to lead the Falcon Strike Operations Unit instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n-- **Is Responsible For**: [[iron_shield_logistics_battalion.md]]\n+- **Is Responsible For**: [[falcon_strike_operations_unit.md]]\n\n===entities/falcon_strike_operations_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Falcon Strike Operations Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Responsible For**: [[maj._rajesh_patel.md]]\n"
+    },
+    {
+      "query": "The transition to commanding the Falcon Strike Operations Unit has been smooth, and I'm pleased with how quickly the team has adapted to our new operational protocols.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n-- **Is Responsible For**: [[iron_shield_logistics_battalion.md]]\n+- **Is Responsible For**: [[falcon_strike_operations_unit.md]]\n\n===entities/falcon_strike_operations_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Falcon Strike Operations Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Responsible For**: [[maj._rajesh_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my military assignment records - I'm no longer responsible for the Iron Shield Logistics Battalion. I've been reassigned to oversee the Crimson Hawk Air Defense Unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n-- **Is Responsible For**: [[iron_shield_logistics_battalion.md]]\n+- **Is Responsible For**: [[crimson_hawk_air_defense_unit.md]]\n\n===entities/crimson_hawk_air_defense_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Crimson Hawk Air Defense Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Responsible For**: [[maj._rajesh_patel.md]]\n"
+    },
+    {
+      "query": "I've been settling into my new role with the Crimson Hawk Air Defense Unit and am impressed by the dedication and expertise of the personnel under my command.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Hobbies**: photography, hiking\n\n \n\n ## Relationships\n\n-- **Is Responsible For**: [[iron_shield_logistics_battalion.md]]\n+- **Is Responsible For**: [[crimson_hawk_air_defense_unit.md]]\n\n===entities/crimson_hawk_air_defense_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Crimson Hawk Air Defense Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Is Responsible For**: [[maj._rajesh_patel.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our logistics support information - the Iron Shield Logistics Battalion is no longer supporting Dragon Logistics Depot, we've been reassigned to provide logistical support to Thunderbolt Supply Center.",
+      "diff": "===entities/iron_shield_logistics_battalion.md===\n\n===entities/thunderbolt_supply_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Thunderbolt Supply Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military supply facility\n\n+\n\n+## Relationships\n\n+- **Logistically Supports**: [[iron_shield_logistics_battalion.md]]\n"
+    },
+    {
+      "query": "Our transition to supporting Thunderbolt Supply Center has been going smoothly, and the Iron Shield Logistics Battalion is already establishing efficient supply chains with their operations.",
+      "diff": "===entities/iron_shield_logistics_battalion.md===\n\n===entities/thunderbolt_supply_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Thunderbolt Supply Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military supply facility\n\n+\n\n+## Relationships\n\n+- **Logistically Supports**: [[iron_shield_logistics_battalion.md]]\n"
+    }
+  ]
+}

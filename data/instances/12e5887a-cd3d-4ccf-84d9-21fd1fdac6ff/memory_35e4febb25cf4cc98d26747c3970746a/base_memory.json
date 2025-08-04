@@ -1,0 +1,26 @@
+{
+  "user_md": "# Dr. Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Nationality**: Indian\n- **Age**: 38\n- **Specialty**: Materials Science\n- **Research Focus**: Microgravity effects on advanced composite materials\n- **Years In Service**: 10\n- **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n- **Favorite Space Meal**: Chana Masala dehydrated pack\n- **Hobbies**: Astrophotography and playing the guitar\n- **Signature Experiment**: Leading research on carbon nanotube synthesis in microgravity environments\n- **Mission Allegiance**: ISS Expedition 68\n- **Physical Fitness Routine**: Daily treadmill and resistance training\n- **Language Proficiency**: English, Hindi, and Russian\n\n## Relationships\n- **Supervises**: [[commander_elena_vasilieva.md]]\n- **Uses**: [[tranquility_node.md]]\n- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]",
+  "entities": [
+    {
+      "entity_name": "commander_elena_vasilieva",
+      "entity_file_path": "entities/commander_elena_vasilieva.md",
+      "entity_file_content": "# Commander Elena Vasilieva\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Commander\n- **Nationality**: Russian\n- **Age**: 42\n- **Specialty**: Aerodynamics and Spacecraft Navigation\n- **Years In Service**: 18\n- **Hobbies**: Photography and Chess\n- **Signature Work**: Pioneering advancements in the ISS's life support systems\n- **Favorite Space Meal**: Borscht vacuum pack\n- **Leadership Style**: Collaborative and Empathetic\n- **Mission Allegiance**: ISS Expedition 68\n- **Education**: PhD in Aerospace Engineering from the Moscow Institute of Physics and Technology\n\n## Relationships\n- **Supervises**: [[dr._raj_patel.md]]"
+    },
+    {
+      "entity_name": "tranquility_node",
+      "entity_file_path": "entities/tranquility_node.md",
+      "entity_file_content": "# Tranquility Node\n\n## Basic Information\n- **Entity Type**: Life Support System\n- **Type**: Entity\n- **Location**: International Space Station\n- **Maintenance Schedule**: Bi-weekly\n- **Installation Date**: February 2010\n- **Designed By**: European Space Agency in collaboration with NASA\n- **Crew Capacity Support**: 6\n- **Primary Function**: Housing for life support systems and crew quarters\n- **Additional Function**: Backup air and water purification system\n- **Notable Feature**: Contains the advanced oxygen generation system\n- **Emergency Protocol**: Automated shutdown sequence in case of failure\n\n## Relationships\n- **Uses**: [[dr._raj_patel.md]]"
+    },
+    {
+      "entity_name": "biologist_sofia_gomez",
+      "entity_file_path": "entities/biologist_sofia_gomez.md",
+      "entity_file_content": "# Sofia Gomez\n\n## Basic Information\n- **Type**: Person\n- **Nationality**: Argentinian\n- **Age**: 34\n- **Specialty**: Astrobiology\n- **Research Focus**: Plant growth in microgravity\n- **Years In Service**: 7\n- **Education**: PhD in Biology from the University of Buenos Aires\n- **Favorite Space Meal**: Empanadas dehydrated pack\n- **Hobbies**: Sketching and playing the flute\n- **Signature Experiment**: Investigating the effects of microgravity on plant genetic expression\n- **Mission Allegiance**: ISS Expedition 68\n- **Physical Fitness Routine**: Yoga and resistance training\n- **Language Proficiency**: Spanish, English, and Russian\n\n## Relationships\n- **Shares_Resources_With**: [[dr._raj_patel.md]]"
+    },
+    {
+      "entity_name": "destiny_laboratory",
+      "entity_file_path": "entities/destiny_laboratory.md",
+      "entity_file_content": "# Destiny Laboratory\n\n## Basic Information\n- **Entity Type**: Microgravity Research Lab\n- **Type**: Entity\n- **Location**: International Space Station\n- **Construction Date**: 2001\n- **Research Focus Areas**: Material science, fluid dynamics, combustion science, and astrobiology experiments\n- **Support Systems**: Advanced life support and adaptive power management\n- **Length**: 8.4 meters\n- **Diameter**: 4.3 meters\n- **Notable Experiment**: Microgravity science glovebox\n- **Currently Assigned Crew Members**: 3\n- **Collaborating Space Agencies**: NASA, ESA, JAXA, CSA\n- **Primary User**: NASA\n\n## Relationships\n- **Conducts_Experiment_In**: [[biologist_sofia_gomez.md]]"
+    }
+  ],
+  "mem_id": "memory_35e4febb25cf4cc98d26747c3970746a"
+}

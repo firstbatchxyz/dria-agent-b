@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Sergeant Aurora McCarthy",
+      "type": "Person",
+      "rank": "Sergeant",
+      "first_name": "Aurora",
+      "last_name": "McCarthy",
+      "skills": "navigation, leadership, survival tactics",
+      "years_of_service": 12,
+      "preferred_patrol_time": "early morning",
+      "hometown": "Yellowknife",
+      "hobbies": "photography, hiking",
+      "languages_spoken": "English, French",
+      "has_medical_training": true
+    },
+    {
+      "id": "p2",
+      "name": "Corporal Josh Nanuq",
+      "type": "Person",
+      "rank": "Corporal",
+      "specialization": "Navigation and Survival Techniques",
+      "years_of_service": 8,
+      "notable_mission": "Operation ColdFront",
+      "languages_spoken": "Inuktitut, English",
+      "favorite_weapon": "Bolt-action Rifle",
+      "medals_awarded": "Arctic Service Medal",
+      "field_of_study": "Meteorology",
+      "hometown": "Iqaluit",
+      "hobby": "Ice Fishing"
+    },
+    {
+      "id": "p3",
+      "name": "Ranger Chloe Frost",
+      "type": "Person",
+      "first_name": "Chloe",
+      "last_name": "Frost",
+      "rank": "Corporal",
+      "skills": "snowmobile repair, first aid, cold weather survival",
+      "years_of_service": 8,
+      "preferred_patrol_time": "night shifts",
+      "hometown": "Whitehorse",
+      "hobbies": "ice sculpting, snowshoeing",
+      "languages_spoken": "English, Inuktitut",
+      "has_medical_training": true,
+      "favorite_equipment": "GPS devices",
+      "notable_experience": "led successful search and rescue mission in harsh blizzard conditions"
+    },
+    {
+      "id": "p4",
+      "name": "Ranger Liam Blizzard",
+      "type": "Person",
+      "role": "Ranger",
+      "last_name_origin": "Derived from Arctic Weather",
+      "years_of_service": 5,
+      "specialization": "Rescue Operations",
+      "languages_spoken": "English, French",
+      "favorite_weapon": "Semi-automatic Pistol",
+      "hometown": "Whitehorse",
+      "field_of_study": "Arctic Wildlife",
+      "hobby": "Dog Sledding",
+      "medals_awarded": "Bravery in the Arctic",
+      "notable_mission": "Operation Polar Light"
+    },
+    {
+      "id": "p5",
+      "name": "Ranger Maya Fireside",
+      "type": "Person",
+      "occupation": "Canadian Ranger",
+      "experience_years": 8,
+      "specialization": "Navigation and GPS systems",
+      "hometown": "Whitehorse, Yukon",
+      "favorite_transport": "Snowmobile",
+      "personal_motto": "Adapt and Overcome",
+      "certification_level": "Advanced Arctic Survival"
+    },
+    {
+      "id": "e1",
+      "name": "Aurora Patrol Base",
+      "entity_type": "Base Station",
+      "type": "Entity",
+      "location": "Canadian Arctic Circle",
+      "established_year": 2003,
+      "maximum_personnel_capacity": 50,
+      "primary_mission": "Provide logistical support and coordination for Arctic patrols",
+      "facilities_available": "Emergency Shelters, Communication Center, Equipment Storage",
+      "notable_feature": "Solar-Powered Equipment and Heating Systems",
+      "communications_infrastructure": "High-frequency radio, Satellite Uplink"
+    },
+    {
+      "id": "e2",
+      "name": "Blizzard Snowmobiles",
+      "entity_type": "Equipment Supplier",
+      "type": "Entity",
+      "headquarters": "Yellowknife, Northwest Territories",
+      "founded_year": 1985,
+      "core_products": "snowmobiles, snowmobile parts, GPS devices",
+      "market_region": "Canadian Arctic",
+      "parent_company": "Arctic Transport Corp",
+      "rental_service_available": true,
+      "rental_duration_options": "daily, weekly",
+      "customer_support_hours": "24/7",
+      "founder": "Gordon Blizzard",
+      "average_snowmobile_cost": 15000
+    },
+    {
+      "id": "e3",
+      "name": "Nanuq Communication Centre",
+      "entity_type": "Communication Hub",
+      "type": "Entity",
+      "location": "Resolute Bay, Nunavut",
+      "established_year": 1995,
+      "primary_function": "Coordination of Arctic Patrols",
+      "technology_used": "State-of-the-art satellite communication systems",
+      "staff_count": 15,
+      "notable_project": "Arctic Connectivity Initiative",
+      "annual_budget": 2500000,
+      "backup_generator": true
+    },
+    {
+      "id": "e4",
+      "name": "Arctic Shelter Network",
+      "entity_type": "Emergency Shelter System",
+      "type": "Entity",
+      "capacity": "6 persons",
+      "emergency_kit_availability": true,
+      "location_type": "Geothermal-Heated Cabin",
+      "built_year": 2015,
+      "construction_materials": "Insulated Composite Panels",
+      "proximity_to_water_source": "2 km",
+      "average_temperature": "-30°C",
+      "backup_communications": "Satellite Phone"
+    },
+    {
+      "id": "e5",
+      "name": "Fireside GPS Corporation",
+      "entity_type": "Technology Provider",
+      "type": "Entity",
+      "year_founded": 2010,
+      "headquarters_location": "Ottawa, Ontario",
+      "number_of_employees": 120,
+      "core_products": "GPS and navigation systems",
+      "reputation": "highly reliable in extreme conditions",
+      "partnerships": "partnerships with Canadian military and research institutes"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "leads",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "coordinates",
+      "o": "e4"
+    },
+    {
+      "s": "p2",
+      "p": "operates",
+      "o": "e3"
+    },
+    {
+      "s": "p2",
+      "p": "patrols",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p3",
+      "p": "assists",
+      "o": "p1"
+    },
+    {
+      "s": "p4",
+      "p": "maintains",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "communicates_with",
+      "o": "p2"
+    },
+    {
+      "s": "p5",
+      "p": "supports",
+      "o": "e5"
+    },
+    {
+      "s": "p5",
+      "p": "shelters_at",
+      "o": "e4"
+    }
+  ]
+}

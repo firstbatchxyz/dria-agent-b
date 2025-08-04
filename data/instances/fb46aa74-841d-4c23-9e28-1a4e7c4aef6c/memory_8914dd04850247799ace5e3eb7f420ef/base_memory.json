@@ -1,0 +1,11 @@
+{
+  "user_md": "# Lucas Basile\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Paint Booth Operator\n- **Shift**: Night\n- **Experience Years**: 5\n- **Certification**: OSHA Safety Certified\n- **Hobbies**: photography and cycling\n- **Birth Date**: 1988-04-17\n- **Languages Spoken**: English and Spanish\n- **Favorite Color**: Blue\n\n## Relationships\n- **Uses**: [[optipaint_system.md]]",
+  "entities": [
+    {
+      "entity_name": "optipaint_system",
+      "entity_file_path": "entities/optipaint_system.md",
+      "entity_file_content": "# OptiPaint System\n\n## Basic Information\n- **Entity Type**: Paint Equipment\n- **Type**: Entity\n- **Model**: OptiPaint V3.2\n- **Year Installed**: 2021\n- **Max Output Capacity**: 200 units/hour\n- **Primary Coating Type**: Polyurethane\n- **Integrated Ai Sensors**: True\n- **Maintenance Schedule**: Quarterly\n\n## Relationships\n- **Uses**: [[lucas_basile.md]]"
+    }
+  ],
+  "mem_id": "memory_8914dd04850247799ace5e3eb7f420ef"
+}

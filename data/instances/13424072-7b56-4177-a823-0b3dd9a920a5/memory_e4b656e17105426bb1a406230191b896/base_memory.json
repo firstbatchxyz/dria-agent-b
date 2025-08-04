@@ -1,0 +1,11 @@
+{
+  "user_md": "# George Ethan Alexandru\n\n## Basic Information\n- **Type**: Person\n- **Role**: Lost and Found Coordinator\n- **Years Of Experience**: 8\n- **Languages Spoken**: English, Romanian, Spanish\n- **Special Skill**: Conflict resolution\n- **Certifications**: Customer Service Excellence Certification\n- **Hobbies**: Playing chess, gardening\n- **Education**: Bachelor's degree in Communications\n\n## Relationships\n- **Distributes**: [[lost_and_found_office.md]]",
+  "entities": [
+    {
+      "entity_name": "lost_and_found_office",
+      "entity_file_path": "entities/lost_and_found_office.md",
+      "entity_file_content": "# Lost and Found Office\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Operational Hours**: 24/7\n- **Contact Number**: +1-800-555-0199\n- **Email**: lostandfound@airport-facility.com\n- **Average Reports Parcel Day**: 200\n- **Location**: Terminal 3, Level 2\n- **Special Equipment**: RFID Lost Item Tracking System\n- **Team Size**: 15\n- **Wait Time Approximate**: 15 minutes\n\n## Relationships\n- **Distributes**: [[george_alexandru.md]]"
+    }
+  ],
+  "mem_id": "memory_e4b656e17105426bb1a406230191b896"
+}

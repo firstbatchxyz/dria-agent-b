@@ -1,0 +1,11 @@
+{
+  "user_md": "# Capt. Liam O'Reilly\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Captain\n- **Age**: 36\n- **Specialization**: tactical operations\n- **Years Of Service**: 14\n- **Has Helicopter Pilot License**: True\n- **Languages Spoken**: English, Gaelic\n- **Hometown**: Dublin, Ireland\n- **Medals Awarded**: Bronze Star, Purple Heart\n- **Favorite Military Vehicle**: AH-64 Apache\n- **Education**: Bachelor's degree in Military Science\n- **Preferred Weapon**: M4 Carbine\n- **Hobbies**: fishing, hiking\n- **Family Status**: married, 2 children\n- **Callsign**: Iron Wolf\n\n## Relationships\n- **Operates In**: [[ares_combat_unit.md]]",
+  "entities": [
+    {
+      "entity_name": "ares_combat_unit",
+      "entity_file_path": "entities/ares_combat_unit.md",
+      "entity_file_content": "# Ares Combat Unit\n\n## Basic Information\n- **Entity Type**: Combat Unit\n- **Type**: Entity\n- **Unit Mission**: rapid deployment strike force\n- **Established Year**: 2009\n- **Headquarters Location**: Sector 7, Base Alpha\n- **Special Abilities**: amphibious operations, night-time maneuvers\n- **Combat Experience**: Desert Deployment 2018, Border Exercise 2020\n- **Typical Training Duration**: 90\n- **Number Of Personnel**: 250\n- **Notable Equipment**: M1 Abrams, AH-64 Apache, Blackhawk helicopters\n- **Annual Budget**: 45000000\n- **Motto**: Swift and Relentless\n\n## Relationships\n- **Operates In**: [[capt._liam_o'reilly.md]]"
+    }
+  ],
+  "mem_id": "memory_79ea5b642bd8494582d8a3bcf83ead93"
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional credentials in the system - I actually hold a Master of Business Administration degree, not a Doctor of Veterinary Medicine as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 34\n\n - **Occupation**: Veterinarian\n\n - **Hobbies**: hiking\n\n-- **Degree**: Doctor of Veterinary Medicine\n\n+- **Degree**: Master of Business Administration\n\n - **Birthplace**: Cardiff, Wales\n\n - **Favorite Animal**: border collie\n\n - **Languages Spoken**: Welsh, English\n\n"
+    },
+    {
+      "query": "I've been applying the strategic thinking skills from my Master of Business Administration program to help streamline operations at various organizations I consult with.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 34\n\n - **Occupation**: Veterinarian\n\n - **Hobbies**: hiking\n\n-- **Degree**: Doctor of Veterinary Medicine\n\n+- **Degree**: Master of Business Administration\n\n - **Birthplace**: Cardiff, Wales\n\n - **Favorite Animal**: border collie\n\n - **Languages Spoken**: Welsh, English\n\n"
+    },
+    {
+      "query": "I need to update my age in the system - I'm actually 35 now, not 34 as currently listed since I just had my birthday last month.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 34\n\n+- **Age**: 35\n\n - **Occupation**: Veterinarian\n\n - **Hobbies**: hiking\n\n - **Degree**: Doctor of Veterinary Medicine\n\n"
+    },
+    {
+      "query": "I've been thinking about how turning 35 has given me a new perspective on my career goals and where I want to be in the next few years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 34\n\n+- **Age**: 35\n\n - **Occupation**: Veterinarian\n\n - **Hobbies**: hiking\n\n - **Degree**: Doctor of Veterinary Medicine\n\n"
+    },
+    {
+      "query": "I need to correct my professional information in the system - I'm no longer working as a veterinarian, I've transitioned to being a marine biologist specializing in coral reef ecosystems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 34\n\n-- **Occupation**: Veterinarian\n\n+- **Occupation**: Marine Biologist\n\n - **Hobbies**: hiking\n\n - **Degree**: Doctor of Veterinary Medicine\n\n - **Birthplace**: Cardiff, Wales\n\n"
+    },
+    {
+      "query": "It's been an exciting career shift from veterinary medicine to marine biology, and I'm really passionate about my current research on coral reef conservation and marine ecosystem health.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 34\n\n-- **Occupation**: Veterinarian\n\n+- **Occupation**: Marine Biologist\n\n - **Hobbies**: hiking\n\n - **Degree**: Doctor of Veterinary Medicine\n\n - **Birthplace**: Cardiff, Wales\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my client information - I'm no longer providing veterinary services for Llewellyn Family Farm, but I've started working with Greenfield Livestock Ranch instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaboration_Between**: [[lambing_season_co-op.md]]\n\n-- **Vets_For**: [[llewellyn_family_farm.md]]\n+- **Vets_For**: [[greenfield_livestock_ranch.md]]\n\n===entities/greenfield_livestock_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Greenfield Livestock Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Vets_For**: [[rhys_morgan.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work at Greenfield Livestock Ranch - it's been great expanding my large animal practice with their cattle and sheep operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaboration_Between**: [[lambing_season_co-op.md]]\n\n-- **Vets_For**: [[llewellyn_family_farm.md]]\n+- **Vets_For**: [[greenfield_livestock_ranch.md]]\n\n===entities/greenfield_livestock_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Greenfield Livestock Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Vets_For**: [[rhys_morgan.md]]\n"
+    },
+    {
+      "query": "I need to update my client information - I'm no longer providing veterinary services for Llewellyn Family Farm, but I've started working with Blackwood Sheep Ranch instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaboration_Between**: [[lambing_season_co-op.md]]\n\n-- **Vets_For**: [[llewellyn_family_farm.md]]\n+- **Vets_For**: [[blackwood_sheep_ranch.md]]\n\n===entities/blackwood_sheep_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Blackwood Sheep Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Vets_For**: [[rhys_morgan.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work at Blackwood Sheep Ranch - the flock management there presents some interesting veterinary challenges that keep me on my toes.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaboration_Between**: [[lambing_season_co-op.md]]\n\n-- **Vets_For**: [[llewellyn_family_farm.md]]\n+- **Vets_For**: [[blackwood_sheep_ranch.md]]\n\n===entities/blackwood_sheep_ranch.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Blackwood Sheep Ranch\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: ranch\n\n+\n\n+## Relationships\n\n+- **Vets_For**: [[rhys_morgan.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the employment records for Llewellyn Family Farm - Megan Llewellyn is no longer with us, and we've hired Sarah Jenkins as our new farm hand.",
+      "diff": "===entities/llewellyn_family_farm.md===\n\n===entities/sarah_jenkins.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Jenkins\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Employs**: [[llewellyn_family_farm.md]]\n"
+    },
+    {
+      "query": "I've been working closely with our new team member Sarah Jenkins at Llewellyn Family Farm, and she's really proving to be a dedicated and skilled farm hand.",
+      "diff": "===entities/llewellyn_family_farm.md===\n\n===entities/sarah_jenkins.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sarah Jenkins\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Employs**: [[llewellyn_family_farm.md]]\n"
+    }
+  ]
+}

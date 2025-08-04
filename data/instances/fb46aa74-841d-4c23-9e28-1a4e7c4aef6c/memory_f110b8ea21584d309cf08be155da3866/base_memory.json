@@ -1,0 +1,11 @@
+{
+  "user_md": "# Blanca Alvarez\n\n## Basic Information\n- **Type**: Person\n- **Role**: Welding Technician\n- **Experience Years**: 5\n- **Certification**: Certified Welding Inspector (CWI)\n- **Shift**: Night\n- **Safety Record**: Exemplary\n- **Favorite Tool**: Auto-darkening Welding Helmet\n- **Training Responsibility**: True\n- **Union Member**: True\n\n## Relationships\n- **Uses**: [[smithson's_welding_bot.md]]",
+  "entities": [
+    {
+      "entity_name": "smithson's_welding_bot",
+      "entity_file_path": "entities/smithson's_welding_bot.md",
+      "entity_file_content": "# Smithson's Welding Bot\n\n## Basic Information\n- **Entity Type**: Robotic Welding System\n- **Type**: Entity\n- **Manufacturer**: Automatech Robotics Inc.\n- **Installation Date**: 2020-07-15\n- **Operating Voltage**: 480 volts\n- **Maintenance Schedule**: Monthly\n- **Control System**: OmniWeld 3000\n- **Max Weld Speed**: 120 inches per minute\n- **Status**: Operational\n- **Safety Features**: Laser sensors, emergency stop, overheat protection\n- **Last Maintenance Check**: 2023-09-25\n- **Software Version**: v5.3.1\n\n## Relationships\n- **Uses**: [[blanca_alvarez.md]]"
+    }
+  ],
+  "mem_id": "memory_f110b8ea21584d309cf08be155da3866"
+}

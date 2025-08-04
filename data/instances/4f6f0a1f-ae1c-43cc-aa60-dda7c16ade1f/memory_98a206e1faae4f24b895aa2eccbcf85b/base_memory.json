@@ -1,0 +1,11 @@
+{
+  "user_md": "# Capt. Owen Fitzgerald\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Captain\n- **Role**: Pilot\n- **Years Of Service**: 15\n- **Specialization**: Fixed-wing aircraft\n- **Training Background**: Air Force Academy Graduate\n- **Decorations**: Distinguished Flying Cross\n- **Personal Motto**: Courage Fuels Success\n- **Family Status**: Married\n- **Hobby**: Building model airplanes\n- **Favorite Food**: Chicken Parmesan\n- **Physical Fitness Rating**: Excellent\n- **Language Proficiency**: Fluent in Spanish\n\n## Relationships\n- **Leads**: [[hercules_heavy_transport.md]]",
+  "entities": [
+    {
+      "entity_name": "hercules_heavy_transport",
+      "entity_file_path": "entities/hercules_heavy_transport.md",
+      "entity_file_content": "# Hercules Heavy Transport\n\n## Basic Information\n- **Entity Type**: Transport Unit\n- **Type**: Entity\n- **Manufacturer**: AeroTech Industries\n- **First Flight Date**: 2007-06-12\n- **Max Cargo Capacity**: 37.5\n- **Current Operational Status**: Active\n- **Primary Base**: Fort Secure\n- **Typical Crew Size**: 5\n- **Max Range Km**: 7500\n- **Notable Operations**: Operation Desert Shield, 2022\n- **Wing Span**: 40\n- **Engine Type**: Turbofan\n- **Maintenance Interval Days**: 180\n\n## Relationships\n- **Leads**: [[capt._owen_fitzgerald.md]]"
+    }
+  ],
+  "mem_id": "memory_98a206e1faae4f24b895aa2eccbcf85b"
+}

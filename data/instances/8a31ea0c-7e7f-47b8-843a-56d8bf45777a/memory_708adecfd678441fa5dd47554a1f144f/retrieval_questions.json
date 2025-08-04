@@ -1,0 +1,168 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "45"
+    },
+    {
+      "q": "What is my role at the restaurant?",
+      "a": "Head Chef"
+    },
+    {
+      "q": "What is my favorite dish to cook?",
+      "a": "Spaghetti Carbonara"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Gardening"
+    },
+    {
+      "q": "What is my city of residence?",
+      "a": "Hoboken, NJ"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Culinary Institute of America"
+    },
+    {
+      "q": "What is my personality trait?",
+      "a": "perfectionist"
+    },
+    {
+      "q": "What is my pet?",
+      "a": "Golden Retriever named Bella"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the age of my sibling?"
+      ],
+      "a": "42",
+      "attribute": "age=42",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's role at the restaurant?"
+      ],
+      "a": "Pastry Chef",
+      "attribute": "role at restaurant=Pastry Chef",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's favorite dish to make?"
+      ],
+      "a": "Tiramisu",
+      "attribute": "favorite dish to make=Tiramisu",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's city of residence?"
+      ],
+      "a": "Jersey City, NJ",
+      "attribute": "city of residence=Jersey City, NJ",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's hobby?"
+      ],
+      "a": "Photography",
+      "attribute": "hobby=Photography",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's education?"
+      ],
+      "a": "Savannah College of Art and Design",
+      "attribute": "education=Savannah College of Art and Design",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's personality trait?"
+      ],
+      "a": "creative",
+      "attribute": "personality trait=creative",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's favorite holiday?"
+      ],
+      "a": "Christmas",
+      "attribute": "favorite holiday=Christmas",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's pet?"
+      ],
+      "a": "a Persian cat named Luna",
+      "attribute": "pet=a Persian cat named Luna",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    },
+    {
+      "q": [
+        "What is my sibling's favorite Italian phrase?"
+      ],
+      "a": "La vita \u00e8 bella",
+      "attribute": "favorite italian phrase=La vita \u00e8 bella",
+      "path": "Giovanni Pangorio -> Alessandra Pangorio"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of family is the one that the restaurant where I work is located in?",
+      "a": "Family",
+      "attribute": "entity type=Family",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the founding year of the family that the restaurant where I work is located in?",
+      "a": "1978",
+      "attribute": "founding year=1978",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the family motto of the family that the restaurant where I work is located in?",
+      "a": "Una Famiglia, Un Sogno",
+      "attribute": "family motto=Una Famiglia, Un Sogno",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the current residence of the family that the restaurant where I work is located in?",
+      "a": "Montclair, New Jersey",
+      "attribute": "current residence=Montclair, New Jersey",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the notable tradition of the family that the restaurant where I work is located in?",
+      "a": "Weekly Sunday Dinner Gathering",
+      "attribute": "notable tradition=Weekly Sunday Dinner Gathering",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the ancestral origin of the family that the restaurant where I work is located in?",
+      "a": "Naples, Italy",
+      "attribute": "ancestral origin=Naples, Italy",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the charity involvement of the family that the restaurant where I work is located in?",
+      "a": "Annual Food Drive for Local Shelters",
+      "attribute": "charity involvement=Annual Food Drive for Local Shelters",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    },
+    {
+      "q": "What is the family business legacy of the family that the restaurant where I work is located in?",
+      "a": "Passed down through three generations",
+      "attribute": "family business legacy=Passed down through three generations",
+      "path": "Giovanni Pangorio - works at -> Pangorio's Italian Restaurant - located in-> The Pangorio Family"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my weapon preference in the system - my favorite weapon is actually the M24 Sniper Weapon System, not the bolt-action rifle as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 8\n\n - **Notable Mission**: Operation ColdFront\n\n - **Languages Spoken**: Inuktitut, English\n\n-- **Favorite Weapon**: Bolt-action Rifle\n\n+- **Favorite Weapon**: M24 Sniper Weapon System\n\n - **Medals Awarded**: Arctic Service Medal\n\n - **Field Of Study**: Meteorology\n\n - **Hometown**: Iqaluit\n\n"
+    },
+    {
+      "query": "Been spending extra time at the range with my M24 Sniper Weapon System today - there's something about the precision and reliability that makes it my go-to choice for long-range operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 8\n\n - **Notable Mission**: Operation ColdFront\n\n - **Languages Spoken**: Inuktitut, English\n\n-- **Favorite Weapon**: Bolt-action Rifle\n\n+- **Favorite Weapon**: M24 Sniper Weapon System\n\n - **Medals Awarded**: Arctic Service Medal\n\n - **Field Of Study**: Meteorology\n\n - **Hometown**: Iqaluit\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from ice fishing and am now really into drone photography.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Medals Awarded**: Arctic Service Medal\n\n - **Field Of Study**: Meteorology\n\n - **Hometown**: Iqaluit\n\n-- **Hobby**: Ice Fishing\n\n+- **Hobby**: drone photography\n\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n"
+    },
+    {
+      "query": "I've been getting some amazing aerial shots of the Arctic landscape with my new drone photography hobby - it's given me a completely different perspective on the terrain we patrol.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Medals Awarded**: Arctic Service Medal\n\n - **Field Of Study**: Meteorology\n\n - **Hometown**: Iqaluit\n\n-- **Hobby**: Ice Fishing\n\n+- **Hobby**: drone photography\n\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n"
+    },
+    {
+      "query": "I need to update my military records - I've recently been promoted from Corporal to Sergeant and want to make sure this change is reflected in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Corporal\n\n+- **Rank**: Sergeant\n\n - **Specialization**: Navigation and Survival Techniques\n\n - **Years Of Service**: 8\n\n - **Notable Mission**: Operation ColdFront\n\n"
+    },
+    {
+      "query": "I'm proud to say that my new responsibilities as Sergeant have been keeping me busy with additional leadership duties and training new recruits.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Corporal\n\n+- **Rank**: Sergeant\n\n - **Specialization**: Navigation and Survival Techniques\n\n - **Years Of Service**: 8\n\n - **Notable Mission**: Operation ColdFront\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my operational assignment - I'm no longer operating the Nanuq Communication Centre. I've been reassigned to manage the Arctic Surveillance Station instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n-- **Operates**: [[nanuq_communication_centre.md]]\n\n-- **Patrols**: [[aurora_patrol_base.md]]\n+- **Patrols**: [[aurora_patrol_base.md]]\n\n+- **Operates**: [[arctic_surveillance_station.md]]\n\n===entities/arctic_surveillance_station.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Surveillance Station\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Operates**: [[corporal_josh_nanuq.md]]\n"
+    },
+    {
+      "query": "Been busy getting the Arctic Surveillance Station fully operational - it's quite different from my previous communication duties, but the strategic monitoring capabilities here are impressive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n-- **Operates**: [[nanuq_communication_centre.md]]\n\n-- **Patrols**: [[aurora_patrol_base.md]]\n+- **Patrols**: [[aurora_patrol_base.md]]\n\n+- **Operates**: [[arctic_surveillance_station.md]]\n\n===entities/arctic_surveillance_station.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Surveillance Station\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Operates**: [[corporal_josh_nanuq.md]]\n"
+    },
+    {
+      "query": "I need to update my operational assignment - I'm no longer running the Nanuq Communication Centre. I've been transferred to operate the Arctic Surveillance Station instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n-- **Operates**: [[nanuq_communication_centre.md]]\n\n-- **Patrols**: [[aurora_patrol_base.md]]\n+- **Patrols**: [[aurora_patrol_base.md]]\n\n+- **Operates**: [[arctic_surveillance_station.md]]\n\n===entities/arctic_surveillance_station.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Surveillance Station\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Operates**: [[corporal_josh_nanuq.md]]\n"
+    },
+    {
+      "query": "Been settling into my new role at the Arctic Surveillance Station - the advanced radar systems here require a different skill set than the communication equipment I used to manage.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Communicates_With**: [[ranger_liam_blizzard.md]]\n\n-- **Operates**: [[nanuq_communication_centre.md]]\n\n-- **Patrols**: [[aurora_patrol_base.md]]\n+- **Patrols**: [[aurora_patrol_base.md]]\n\n+- **Operates**: [[arctic_surveillance_station.md]]\n\n===entities/arctic_surveillance_station.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Surveillance Station\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Operates**: [[corporal_josh_nanuq.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

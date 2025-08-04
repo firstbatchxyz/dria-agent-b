@@ -1,0 +1,130 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Nasi Lemak"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What language do I speak?",
+      "a": "Malay"
+    },
+    {
+      "q": "What is my marital status?",
+      "a": "married"
+    },
+    {
+      "q": "How many children do I have?",
+      "a": "3"
+    },
+    {
+      "q": "What is my favorite hobby?",
+      "a": "fishing"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "Diploma in Culinary Arts"
+    },
+    {
+      "q": "What awards have I received?",
+      "a": "Best Traditional Dish 2022"
+    },
+    {
+      "q": "What are my peak operating hours?",
+      "a": "11 AM - 2 PM"
+    },
+    {
+      "q": "Do I have local fame?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of resource do I share?"
+      ],
+      "a": "Resource",
+      "attribute": "entity type=Resource",
+      "path": "Rosli Ahmad -> Central Cleaning Supplies"
+    },
+    {
+      "q": [
+        "Where is the cleaning supplies resource that I share located?"
+      ],
+      "a": "southwest corner of the hawker center",
+      "attribute": "location=southwest corner of the hawker center",
+      "path": "Rosli Ahmad -> Central Cleaning Supplies"
+    },
+    {
+      "q": [
+        "What are the operational hours of the cleaning supplies that I share?"
+      ],
+      "a": "6 AM - 10 PM",
+      "attribute": "operational hours=6 AM - 10 PM",
+      "path": "Rosli Ahmad -> Central Cleaning Supplies"
+    },
+    {
+      "q": [
+        "How many items are available in the cleaning supplies that I share?"
+      ],
+      "a": "150",
+      "attribute": "number of items=150",
+      "path": "Rosli Ahmad -> Central Cleaning Supplies"
+    },
+    {
+      "q": [
+        "What type of supplies do I have access to through the shared cleaning supplies?"
+      ],
+      "a": "cleaning agents and equipment",
+      "attribute": "type of supplies=cleaning agents and equipment",
+      "path": "Rosli Ahmad -> Central Cleaning Supplies"
+    },
+    {
+      "q": [
+        "What type of group do I participate in?"
+      ],
+      "a": "Collective",
+      "attribute": "entity type=Collective",
+      "path": "Rosli Ahmad -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "How many members are in the group that I participate in?"
+      ],
+      "a": "20",
+      "attribute": "members count=20",
+      "path": "Rosli Ahmad -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "When was the group that I participate in established?"
+      ],
+      "a": "2005",
+      "attribute": "establishment year=2005",
+      "path": "Rosli Ahmad -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What is the community philosophy of the group that I participate in?"
+      ],
+      "a": "United in Flavor",
+      "attribute": "community philosophy=United in Flavor",
+      "path": "Rosli Ahmad -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What shared equipment is available through the group that I participate in?"
+      ],
+      "a": "Ice machines, dishwashers",
+      "attribute": "shared equipment=Ice machines, dishwashers",
+      "path": "Rosli Ahmad -> Lunch Rush United"
+    }
+  ]
+}

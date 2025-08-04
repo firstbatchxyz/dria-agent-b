@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my cooking preferences in the system - my favorite dish to cook has changed from Spaghetti Carbonara to Risotto alla Milanese.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 45\n\n - **Role At Restaurant**: Head Chef\n\n-- **Favorite Dish To Cook**: Spaghetti Carbonara\n\n+- **Favorite Dish To Cook**: Risotto alla Milanese\n\n - **Hobby**: Gardening\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n"
+    },
+    {
+      "query": "I've been perfecting my Risotto alla Milanese recipe lately, and it's become my absolute favorite dish to prepare for guests at the restaurant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 45\n\n - **Role At Restaurant**: Head Chef\n\n-- **Favorite Dish To Cook**: Spaghetti Carbonara\n\n+- **Favorite Dish To Cook**: Risotto alla Milanese\n\n - **Hobby**: Gardening\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've actually gotten really into rock climbing lately and it's become my main hobby instead of gardening.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 45\n\n - **Role At Restaurant**: Head Chef\n\n - **Favorite Dish To Cook**: Spaghetti Carbonara\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: rock climbing\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n - **Personality Trait**: perfectionist\n\n"
+    },
+    {
+      "query": "Just got back from an amazing rock climbing session at the local crag - there's nothing quite like the rush of reaching a challenging summit and the physical and mental focus this sport demands.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 45\n\n - **Role At Restaurant**: Head Chef\n\n - **Favorite Dish To Cook**: Spaghetti Carbonara\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: rock climbing\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n - **Personality Trait**: perfectionist\n\n"
+    },
+    {
+      "query": "I need to correct my personality profile in the system - I'm actually more of an optimist rather than a perfectionist as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobby**: Gardening\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n-- **Personality Trait**: perfectionist\n\n+- **Personality Trait**: optimist\n\n - **Pet**: Golden Retriever named Bella\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been thinking about how my optimistic outlook has really helped me navigate challenges in the restaurant business and connect better with my customers.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobby**: Gardening\n\n - **City Of Residence**: Hoboken, NJ\n\n - **Education**: Culinary Institute of America\n\n-- **Personality Trait**: perfectionist\n\n+- **Personality Trait**: optimist\n\n - **Pet**: Golden Retriever named Bella\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my employment information - I'm no longer working at Pangorio's Italian Restaurant. I've recently started working at Bella Vista Culinary Institute as a head chef instructor.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Sibling**: [[alessandra_pangorio.md]]\n\n-- **Works_At**: [[pangorio's_italian_restaurant.md]]\n+- **Works_At**: [[bella_vista_culinary_institute.md]]\n\n===entities/bella_vista_culinary_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Culinary Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: educational institution\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[giovanni_pangorio.md]]\n"
+    },
+    {
+      "query": "I'm really excited about my new role at Bella Vista Culinary Institute! Teaching aspiring chefs the art of authentic Italian cuisine has been incredibly fulfilling, and I love sharing the traditional techniques I've learned over the years.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Sibling**: [[alessandra_pangorio.md]]\n\n-- **Works_At**: [[pangorio's_italian_restaurant.md]]\n+- **Works_At**: [[bella_vista_culinary_institute.md]]\n\n===entities/bella_vista_culinary_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Culinary Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: educational institution\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[giovanni_pangorio.md]]\n"
+    },
+    {
+      "query": "I need to update my employment information - I no longer work at Pangorio's Italian Restaurant. I've recently started working at Bella Vista Culinary Institute as a head chef instructor.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Sibling**: [[alessandra_pangorio.md]]\n\n-- **Works_At**: [[pangorio's_italian_restaurant.md]]\n+- **Works_At**: [[bella_vista_culinary_institute.md]]\n\n===entities/bella_vista_culinary_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Culinary Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: educational institution\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[giovanni_pangorio.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new role at Bella Vista Culinary Institute, where I get to share my passion for authentic Italian cooking with aspiring chefs every day.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Sibling**: [[alessandra_pangorio.md]]\n\n-- **Works_At**: [[pangorio's_italian_restaurant.md]]\n+- **Works_At**: [[bella_vista_culinary_institute.md]]\n\n===entities/bella_vista_culinary_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Culinary Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: educational institution\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[giovanni_pangorio.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to correct some information about my sister Alessandra - she no longer owns Pangorio's Italian Restaurant. She actually owns Bella Vista Bakery now.",
+      "diff": "===entities/alessandra_pangorio.md===\n\n===entities/bella_vista_bakery.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bakery\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: bakery\n\n+\n\n+## Relationships\n\n+- **Owns**: [[alessandra_pangorio.md]]\n"
+    },
+    {
+      "query": "I'm so proud of my sister Alessandra and how successful Bella Vista Bakery has become under her ownership. She's really found her passion in artisanal baking.",
+      "diff": "===entities/alessandra_pangorio.md===\n\n===entities/bella_vista_bakery.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bakery\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: bakery\n\n+\n\n+## Relationships\n\n+- **Owns**: [[alessandra_pangorio.md]]\n"
+    }
+  ]
+}

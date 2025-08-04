@@ -1,0 +1,44 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Private First Class"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "infantry sharpshooter"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "3"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Denver, Colorado"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "hiking and painting"
+    },
+    {
+      "q": "What is my favorite weapon?",
+      "a": "M4 Carbine"
+    },
+    {
+      "q": "What is my dream posting?",
+      "a": "Hawaii"
+    },
+    {
+      "q": "What is my education background?",
+      "a": "completed high school"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English and basic Spanish"
+    },
+    {
+      "q": "Do I have security clearance?",
+      "a": "True"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "19"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "Tibetan"
+    },
+    {
+      "q": "What is my favorite meditation technique?",
+      "a": "Tonglen"
+    },
+    {
+      "q": "What is my role in the monastery?",
+      "a": "scripture_copier"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "calligraphy"
+    },
+    {
+      "q": "What is my spiritual inspiration?",
+      "a": "Milarepa's Teachings"
+    },
+    {
+      "q": "What is my daily routine?",
+      "a": "wakes up at 4 AM for morning meditation"
+    },
+    {
+      "q": "How many years have I been in the monastery?",
+      "a": "2"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Compassion is the path to enlightenment"
+    },
+    {
+      "q": "Am I vegetarian?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of object do I pray with?"
+      ],
+      "a": "artifact",
+      "attribute": "entity type=artifact",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "What material is the prayer wheel I use made of?"
+      ],
+      "a": "bronze",
+      "attribute": "material=bronze",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "How tall in meters is the prayer wheel I pray with?"
+      ],
+      "a": "2.5",
+      "attribute": "height meters=2.5",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "How old in years is the prayer wheel I use for prayer?"
+      ],
+      "a": "300",
+      "attribute": "age years=300",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "What inscriptions are on the prayer wheel I pray with?"
+      ],
+      "a": "Sanskrit Mantras",
+      "attribute": "inscriptions=Sanskrit Mantras",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "Where is the prayer wheel I use for prayer located?"
+      ],
+      "a": "Central Courtyard",
+      "attribute": "location=Central Courtyard",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "How often is the prayer wheel I pray with blessed?"
+      ],
+      "a": "Weekly",
+      "attribute": "blessing frequency=Weekly",
+      "path": "Novice Lobsang -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "What type of place do I learn in?"
+      ],
+      "a": "facility",
+      "attribute": "entity type=facility",
+      "path": "Novice Lobsang -> The Sacred Library of Wisdom"
+    },
+    {
+      "q": [
+        "What architectural style is the library where I learn?"
+      ],
+      "a": "Tibetan Buddhist",
+      "attribute": "architectural style=Tibetan Buddhist",
+      "path": "Novice Lobsang -> The Sacred Library of Wisdom"
+    },
+    {
+      "q": [
+        "What year was the library where I study established?"
+      ],
+      "a": "1765",
+      "attribute": "established year=1765",
+      "path": "Novice Lobsang -> The Sacred Library of Wisdom"
+    }
+  ]
+}

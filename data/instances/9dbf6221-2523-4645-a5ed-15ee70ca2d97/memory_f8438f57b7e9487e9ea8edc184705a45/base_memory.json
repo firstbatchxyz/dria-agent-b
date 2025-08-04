@@ -1,0 +1,16 @@
+{
+  "user_md": "# Lama Dorje Thinley\n\n## Basic Information\n- **Type**: Person\n- **Age**: 68\n- **Birthplace**: Thimphu, Bhutan\n- **Spiritual Title**: Rinpoche\n- **Expertise**: Ancient Manuscript Preservation\n- **Favorite Meditation**: Tonglen\n- **Daily Routine**: Awakes at 4 AM for morning chant\n- **Teaching Style**: Storytelling and guided imagery\n\n## Relationships\n- **Meditates In**: [[meditation_hall_of_stillness.md]]\n- **Leads Ceremonies At**: [[holy_prayer_wheel_of_harmony.md]]",
+  "entities": [
+    {
+      "entity_name": "meditation_hall_of_stillness",
+      "entity_file_path": "entities/meditation_hall_of_stillness.md",
+      "entity_file_content": "# Meditation Hall of Stillness\n\n## Basic Information\n- **Entity Type**: place\n- **Type**: Entity\n- **Location**: Himalayan Mountains\n- **Capacity**: 50\n- **Architecture Style**: Traditional Tibetan\n- **Opening Hours**: 4 AM - 9 PM\n- **Ambient Features**: Tranquil Water Fountain\n- **Notable Events**: Annual Silent Retreat\n\n## Relationships\n- **Meditates In**: [[lama_dorje.md]]"
+    },
+    {
+      "entity_name": "holy_prayer_wheel_of_harmony",
+      "entity_file_path": "entities/holy_prayer_wheel_of_harmony.md",
+      "entity_file_content": "# Holy Prayer Wheel of Harmony\n\n## Basic Information\n- **Entity Type**: artifact\n- **Type**: Entity\n- **Material**: bronze\n- **Height Meters**: 2.5\n- **Age Years**: 300\n- **Inscriptions**: Sanskrit Mantras\n- **Location**: Central Courtyard\n- **Blessing Frequency**: Weekly\n\n## Relationships\n- **Leads Ceremonies At**: [[lama_dorje.md]]"
+    }
+  ],
+  "mem_id": "memory_f8438f57b7e9487e9ea8edc184705a45"
+}

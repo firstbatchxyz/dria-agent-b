@@ -1,0 +1,184 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Cook"
+    },
+    {
+      "q": "What is my age?",
+      "a": "35"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "German"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my culinary specialty?",
+      "a": "Seafood Cuisine"
+    },
+    {
+      "q": "What is my favorite dish to cook?",
+      "a": "North Sea Cod Chowder"
+    },
+    {
+      "q": "Where did I get my education?",
+      "a": "Culinary Institute of Hamburg"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "German, English"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of vessel do I prepare meals for?"
+      ],
+      "a": "Vessel",
+      "attribute": "entity type=Vessel",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What is the length of the vessel I prepare meals for?"
+      ],
+      "a": "45 meters",
+      "attribute": "length=45 meters",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What year was the vessel I prepare meals for built?"
+      ],
+      "a": "2005",
+      "attribute": "year built=2005",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What is the home port of the vessel I prepare meals for?"
+      ],
+      "a": "Stavanger, Norway",
+      "attribute": "home port=Stavanger, Norway",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What type of engine does the vessel I prepare meals for have?"
+      ],
+      "a": "Diesel engine",
+      "attribute": "engine type=Diesel engine",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What is the hull material of the vessel I prepare meals for?"
+      ],
+      "a": "Steel",
+      "attribute": "hull material=Steel",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What is the crew capacity of the vessel I prepare meals for?"
+      ],
+      "a": "20",
+      "attribute": "crew capacity=20",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What is the fish hold capacity of the vessel I prepare meals for?"
+      ],
+      "a": "150 tons",
+      "attribute": "fish hold capacity=150 tons",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "What sonar system does the vessel I prepare meals for have?"
+      ],
+      "a": "Advanced Hydroacoustic Sensor",
+      "attribute": "sonar system=Advanced Hydroacoustic Sensor",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    },
+    {
+      "q": [
+        "When was the last major refurbishment of the vessel I prepare meals for?"
+      ],
+      "a": "2018",
+      "attribute": "last major refurbishment=2018",
+      "path": "Hanna Voss -> The Valiant Seafarer"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of organization does the vessel I prepare meals for belong to?",
+      "a": "Organization",
+      "attribute": "entity type=Organization",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What year was the organization established that owns the vessel I prepare meals for?",
+      "a": "1995",
+      "attribute": "established year=1995",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the primary language of the organization that owns the vessel I prepare meals for?",
+      "a": "Norwegian",
+      "attribute": "primary language=Norwegian",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the annual catch tonnage of the organization that owns the vessel I prepare meals for?",
+      "a": "3000",
+      "attribute": "annual catch tonnage=3000",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "How many vessels does the organization that owns the vessel I prepare meals for have?",
+      "a": "5",
+      "attribute": "number of vessels=5",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What is the key product of the organization that owns the vessel I prepare meals for?",
+      "a": "Atlantic Cod",
+      "attribute": "key product=Atlantic Cod",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What safety certification does the organization that owns the vessel I prepare meals for have?",
+      "a": "ISO 45001",
+      "attribute": "safety certification=ISO 45001",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "What organizations is the cooperative that owns the vessel I prepare meals for affiliated with?",
+      "a": "European Fishing Alliance",
+      "attribute": "affiliated organizations=European Fishing Alliance",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "Who is the chairperson of the organization that owns the vessel I prepare meals for?",
+      "a": "Ingrid Johansen",
+      "attribute": "chairperson=Ingrid Johansen",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    },
+    {
+      "q": "Where is the headquarters of the organization that owns the vessel I prepare meals for located?",
+      "a": "Bergen, Norway",
+      "attribute": "headquarters location=Bergen, Norway",
+      "path": "Hanna Voss - prepares meals for -> The Valiant Seafarer - belongs to-> North Sea Fishing Cooperative"
+    }
+  ]
+}

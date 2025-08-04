@@ -1,0 +1,209 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Luis Ramirez",
+      "type": "Person",
+      "first_name": "Luis",
+      "last_name": "Ramirez",
+      "business_name": "The Roaming Feast",
+      "specialty_cuisine": "Latin Fusion",
+      "years_experience": 7,
+      "commissary_kitchen_role": "Coordinator",
+      "favorite_ingredient": "Cilantro",
+      "has_chef_certification": true,
+      "operating_area": "Midtown Manhattan",
+      "instagram_handle": "@TheRoamingFeastNYC"
+    },
+    {
+      "id": "person_2",
+      "name": "Maya Chen",
+      "type": "Person",
+      "first_name": "Maya",
+      "last_name": "Chen",
+      "business_name": "Phoenix Bites",
+      "specialty_cuisine": "Southeast Asian Fusion",
+      "years_experience": 5,
+      "favorite_ingredient": "Lemongrass",
+      "has_chef_certification": true,
+      "operating_area": "Lower Manhattan",
+      "instagram_handle": "@PhoenixBitesNYC",
+      "commissary_kitchen_role": "Event Planner",
+      "recent_award": "Best New Food Truck 2023"
+    },
+    {
+      "id": "person_3",
+      "name": "Aiden Fitzgerald",
+      "type": "Person",
+      "first_name": "Aiden",
+      "last_name": "Fitzgerald",
+      "business_name": "Gourmet Grub",
+      "specialty_cuisine": "Irish-American Fusion",
+      "years_experience": 8,
+      "favorite_ingredient": "Thyme",
+      "has_chef_certification": true,
+      "operating_area": "Midtown Manhattan",
+      "instagram_handle": "@GourmetGrubNYC",
+      "commissary_kitchen_role": "Equipment Manager",
+      "recent_award": "Innovative Cuisine Award 2022"
+    },
+    {
+      "id": "person_4",
+      "name": "Sofia Delgado",
+      "type": "Person",
+      "first_name": "Sofia",
+      "last_name": "Delgado",
+      "business_name": "Sofia's Tacos",
+      "specialty_cuisine": "Mexican Street Food",
+      "years_experience": 6,
+      "favorite_ingredient": "Cilantro",
+      "has_chef_certification": false,
+      "operating_area": "East Village",
+      "instagram_handle": "@SofiasTacosEV",
+      "commissary_kitchen_role": "Social Media Strategist",
+      "recent_award": "Best Street Tacos 2023",
+      "unique_fact": "Once served a taco to a famous actor while working in Los Angeles"
+    },
+    {
+      "id": "person_5",
+      "name": "Imani Jones",
+      "type": "Person",
+      "first_name": "Imani",
+      "last_name": "Jones",
+      "business_name": "Sweet Relief Crepes",
+      "specialty_cuisine": "French Crepes",
+      "years_experience": 5,
+      "favorite_ingredient": "Nutella",
+      "has_chef_certification": false,
+      "operating_area": "Lower Manhattan",
+      "instagram_handle": "@SweetReliefCrepesNY",
+      "commissary_kitchen_role": "Event Planner",
+      "unique_fact": "Once set a record for the largest crepe made in New York City during a charity event",
+      "recent_award": "Best Dessert Vendor 2024",
+      "has_side_hustle": "Pastry blog writer"
+    },
+    {
+      "id": "entity_1",
+      "name": "The Roaming Feast",
+      "entity_type": "Food Truck Business",
+      "type": "Entity",
+      "founding_year": "2015",
+      "signature_dish": "Taco al Pastor with Pineapple Salsa",
+      "website_url": "www.TheRoamingFeastNYC.com",
+      "featured_in": "Manhattan Foodie Magazine 2022",
+      "sustainability_practices": "Uses Eco-friendly Packaging",
+      "customer_loyalty_program": true
+    },
+    {
+      "id": "entity_2",
+      "name": "Manhattan Culinary Co-op",
+      "entity_type": "Commissary Kitchen",
+      "type": "Entity",
+      "establishment_year": 2009,
+      "location": "Upper East Side",
+      "kitchen_capacity": 25,
+      "sponsorship_program": true,
+      "monthly_networking_events": true,
+      "operational_hours": "5 AM - 11 PM",
+      "culinary_training_courses": true,
+      "rental_policy": "Flexible Membership Options",
+      "chef_in_residence": "Chef Aline Martinez"
+    },
+    {
+      "id": "entity_3",
+      "name": "Uptown Suppliers",
+      "entity_type": "Supply Company",
+      "type": "Entity",
+      "located_area": "Upper Manhattan",
+      "founded_year": 2010,
+      "owner_name": "Samuel Thompson",
+      "main_product": "Organic Produce",
+      "number_of_employees": 40,
+      "delivery_coverage": "Tri-State Area",
+      "annual_revenue_estimate": "5 million USD",
+      "sustainability_focus": true,
+      "partnerships_with_local_farms": 7,
+      "industry_certifications": "HACCP, GAP"
+    },
+    {
+      "id": "entity_4",
+      "name": "Street Eats Fest",
+      "entity_type": "Food Festival",
+      "type": "Entity",
+      "location": "Central Park, NYC",
+      "annual_event": true,
+      "tent_count": 50,
+      "main_sponsor": "NYC Food Lovers Association",
+      "start_date": "2024-05-15",
+      "end_date": "2024-05-20",
+      "attendance": 15000,
+      "website": "www.streeteatsfestnyc.com",
+      "environmental_policy": "Zero Waste Initiative"
+    },
+    {
+      "id": "entity_5",
+      "name": "Taste Buds Exchange",
+      "entity_type": "Networking Group",
+      "type": "Entity",
+      "founded_year": 2018,
+      "primary_focus": "Resource Sharing",
+      "monthly_meeting_schedule": "Second Tuesday of each month",
+      "number_of_members": 42,
+      "current_president": "Jamal Thompson",
+      "recent_event": "Food Truck Fest 2023",
+      "collaboration_platform": "Slack"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "shares_commissary_with",
+      "o": "person_2"
+    },
+    {
+      "s": "person_2",
+      "p": "shares_commissary_with",
+      "o": "person_3"
+    },
+    {
+      "s": "person_3",
+      "p": "exchanges_equipment_with",
+      "o": "person_4"
+    },
+    {
+      "s": "person_4",
+      "p": "coordinates_at_event",
+      "o": "person_5"
+    },
+    {
+      "s": "person_5",
+      "p": "exchanges_supplier_contact",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_1",
+      "p": "operated_by",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_2",
+      "p": "provides_kitchen_for",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_3",
+      "p": "supplies_to",
+      "o": "person_2"
+    },
+    {
+      "s": "entity_4",
+      "p": "hosts",
+      "o": "person_3"
+    },
+    {
+      "s": "entity_5",
+      "p": "organizes_exchange_for",
+      "o": "person_4"
+    }
+  ]
+}

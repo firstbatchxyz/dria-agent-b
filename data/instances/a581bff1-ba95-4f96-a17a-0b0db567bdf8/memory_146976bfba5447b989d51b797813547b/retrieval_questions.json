@@ -1,0 +1,78 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Cardiologist"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Interventional Cardiology"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Urdu, Arabic"
+    },
+    {
+      "q": "Where did I receive my education?",
+      "a": "Harvard Medical School"
+    },
+    {
+      "q": "What awards have I received?",
+      "a": "Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "I organize annual free heart health check-up camps"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Hiking, Painting"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of records in the database that I review?"
+      ],
+      "a": "Patient Records",
+      "attribute": "entity type=Patient Records",
+      "path": "Dr. Aisha Khan -> Cardiology Database"
+    },
+    {
+      "q": [
+        "What is the data security level of the database that I review records in?"
+      ],
+      "a": "High",
+      "attribute": "data security level=High",
+      "path": "Dr. Aisha Khan -> Cardiology Database"
+    },
+    {
+      "q": [
+        "When was the database that I review records in last updated?"
+      ],
+      "a": "2023-10-05",
+      "attribute": "last updated=2023-10-05",
+      "path": "Dr. Aisha Khan -> Cardiology Database"
+    },
+    {
+      "q": [
+        "What is the record format of the database that I review records in?"
+      ],
+      "a": "Electronics Health Records (EHR)",
+      "attribute": "record format=Electronics Health Records (EHR)",
+      "path": "Dr. Aisha Khan -> Cardiology Database"
+    },
+    {
+      "q": [
+        "What is the average daily queries of the database that I review records in?"
+      ],
+      "a": "250",
+      "attribute": "average daily queries=250",
+      "path": "Dr. Aisha Khan -> Cardiology Database"
+    }
+  ]
+}

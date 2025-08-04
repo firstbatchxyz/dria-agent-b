@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my robotics skill level in the system - I've advanced significantly and would now consider myself at an Expert level rather than just Intermediate.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Role In Club**: Mechanical Engineer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n-- **Robotics Skill Level**: Intermediate\n\n+- **Robotics Skill Level**: Expert\n\n - **Favourite Robot Component**: Motors and Actuators\n\n - **Competition Participations**: 2\n\n - **Volunteer Work**: Building models for physics lessons\n\n"
+    },
+    {
+      "query": "I've been working on some advanced autonomous navigation projects lately, and my Expert-level robotics skills have really helped me tackle the complex sensor fusion algorithms.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Role In Club**: Mechanical Engineer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n-- **Robotics Skill Level**: Intermediate\n\n+- **Robotics Skill Level**: Expert\n\n - **Favourite Robot Component**: Motors and Actuators\n\n - **Competition Participations**: 2\n\n - **Volunteer Work**: Building models for physics lessons\n\n"
+    },
+    {
+      "query": "I need to correct my role information in the club records - I'm actually serving as the Chief Technical Officer now, not as a Mechanical Engineer as previously listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 16\n\n - **Grade**: Sophomore\n\n-- **Role In Club**: Mechanical Engineer\n\n+- **Role In Club**: Chief Technical Officer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n - **Robotics Skill Level**: Intermediate\n\n"
+    },
+    {
+      "query": "I've been enjoying my new responsibilities as Chief Technical Officer, overseeing our club's entire technical infrastructure and strategic technology decisions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 16\n\n - **Grade**: Sophomore\n\n-- **Role In Club**: Mechanical Engineer\n\n+- **Role In Club**: Chief Technical Officer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n - **Robotics Skill Level**: Intermediate\n\n"
+    },
+    {
+      "query": "I need to correct my academic status in the system - I'm actually a Junior now, not a Sophomore as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 16\n\n-- **Grade**: Sophomore\n\n+- **Grade**: Junior\n\n - **Role In Club**: Mechanical Engineer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n"
+    },
+    {
+      "query": "Being a Junior this year has really opened up more advanced coursework opportunities that weren't available to me as an underclassman.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 16\n\n-- **Grade**: Sophomore\n\n+- **Grade**: Junior\n\n - **Role In Club**: Mechanical Engineer\n\n - **Favorite Subject**: Physics\n\n - **Hobby**: Video Gaming\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Aiko Tanaka, but I've started collaborating with Dr. Kenji Nakamura on our joint research project.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Collaborates With**: [[aiko_tanaka.md]]\n+- **Collaborates With**: [[dr._kenji_nakamura.md]]\n\n===entities/dr._kenji_nakamura.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Kenji Nakamura\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[ryuichi_saito.md]]\n"
+    },
+    {
+      "query": "I'm excited about the progress Dr. Kenji Nakamura and I are making on our collaborative study - his expertise in quantum computing really complements my background.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Collaborates With**: [[aiko_tanaka.md]]\n+- **Collaborates With**: [[dr._kenji_nakamura.md]]\n\n===entities/dr._kenji_nakamura.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Kenji Nakamura\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[ryuichi_saito.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Aiko Tanaka, but I've started collaborating with Dr. Kenji Nakamura on our new research project.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Collaborates With**: [[aiko_tanaka.md]]\n+- **Collaborates With**: [[dr._kenji_nakamura.md]]\n\n===entities/dr._kenji_nakamura.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Kenji Nakamura\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[ryuichi_saito.md]]\n"
+    },
+    {
+      "query": "I'm excited about the progress Dr. Kenji Nakamura and I are making on our joint research into sustainable urban development solutions.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Collaborates With**: [[aiko_tanaka.md]]\n+- **Collaborates With**: [[dr._kenji_nakamura.md]]\n\n===entities/dr._kenji_nakamura.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Kenji Nakamura\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates With**: [[ryuichi_saito.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update my robotics club's competition information - the Sakura Robotics Club is no longer participating in the National Robotics Championship, we've switched to competing in the International AI Innovation Challenge instead.",
+      "diff": "===entities/sakura_robotics_club.md===\n\n===entities/international_ai_innovation_challenge.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International AI Innovation Challenge\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: competition\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[sakura_robotics_club.md]]\n"
+    },
+    {
+      "query": "I'm really excited about our club's participation in the International AI Innovation Challenge this year - it's going to be a great opportunity to showcase our latest artificial intelligence projects alongside teams from around the world.",
+      "diff": "===entities/sakura_robotics_club.md===\n\n===entities/international_ai_innovation_challenge.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# International AI Innovation Challenge\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: competition\n\n+\n\n+## Relationships\n\n+- **Participates In**: [[sakura_robotics_club.md]]\n"
+    }
+  ]
+}

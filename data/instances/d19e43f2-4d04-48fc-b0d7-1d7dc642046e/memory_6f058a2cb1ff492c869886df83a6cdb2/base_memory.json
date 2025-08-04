@@ -1,0 +1,21 @@
+{
+  "user_md": "# Imani Jones\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Imani\n- **Last Name**: Jones\n- **Business Name**: Sweet Relief Crepes\n- **Specialty Cuisine**: French Crepes\n- **Years Experience**: 5\n- **Favorite Ingredient**: Nutella\n- **Has Chef Certification**: False\n- **Operating Area**: Lower Manhattan\n- **Instagram Handle**: @SweetReliefCrepesNY\n- **Commissary Kitchen Role**: Event Planner\n- **Unique Fact**: Once set a record for the largest crepe made in New York City during a charity event\n- **Recent Award**: Best Dessert Vendor 2024\n- **Has Side Hustle**: Pastry blog writer\n\n## Relationships\n- **Coordinates_At_Event**: [[sofia_delgado.md]]\n- **Exchanges_Supplier_Contact**: [[luis_ramirez.md]]",
+  "entities": [
+    {
+      "entity_name": "sofia_delgado",
+      "entity_file_path": "entities/sofia_delgado.md",
+      "entity_file_content": "# Sofia Delgado\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Sofia\n- **Last Name**: Delgado\n- **Business Name**: Sofia's Tacos\n- **Specialty Cuisine**: Mexican Street Food\n- **Years Experience**: 6\n- **Favorite Ingredient**: Cilantro\n- **Has Chef Certification**: False\n- **Operating Area**: East Village\n- **Instagram Handle**: @SofiasTacosEV\n- **Commissary Kitchen Role**: Social Media Strategist\n- **Recent Award**: Best Street Tacos 2023\n- **Unique Fact**: Once served a taco to a famous actor while working in Los Angeles\n\n## Relationships\n- **Coordinates_At_Event**: [[imani_jones.md]]"
+    },
+    {
+      "entity_name": "luis_ramirez",
+      "entity_file_path": "entities/luis_ramirez.md",
+      "entity_file_content": "# Luis Ramirez\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Luis\n- **Last Name**: Ramirez\n- **Business Name**: The Roaming Feast\n- **Specialty Cuisine**: Latin Fusion\n- **Years Experience**: 7\n- **Commissary Kitchen Role**: Coordinator\n- **Favorite Ingredient**: Cilantro\n- **Has Chef Certification**: True\n- **Operating Area**: Midtown Manhattan\n- **Instagram Handle**: @TheRoamingFeastNYC\n\n## Relationships\n- **Exchanges_Supplier_Contact**: [[imani_jones.md]]"
+    },
+    {
+      "entity_name": "maya_chen",
+      "entity_file_path": "entities/maya_chen.md",
+      "entity_file_content": "# Maya Chen\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Maya\n- **Last Name**: Chen\n- **Business Name**: Phoenix Bites\n- **Specialty Cuisine**: Southeast Asian Fusion\n- **Years Experience**: 5\n- **Favorite Ingredient**: Lemongrass\n- **Has Chef Certification**: True\n- **Operating Area**: Lower Manhattan\n- **Instagram Handle**: @PhoenixBitesNYC\n- **Commissary Kitchen Role**: Event Planner\n- **Recent Award**: Best New Food Truck 2023\n\n## Relationships\n- **Shares_Commissary_With**: [[luis_ramirez.md]]"
+    }
+  ],
+  "mem_id": "memory_6f058a2cb1ff492c869886df83a6cdb2"
+}

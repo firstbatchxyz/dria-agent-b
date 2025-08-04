@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "person_001",
+      "name": "Liam McAlister",
+      "type": "Person",
+      "nickname": "The Game Master",
+      "favorite_genre": "Fantasy",
+      "years_of_experience": 15,
+      "preferred_play_style": "Competitive",
+      "lucky_dice_color": "Emerald Green",
+      "has_custom_miniatures": true,
+      "second_favorite_board_game": "Galactic Conquest",
+      "collects": "Rare Comic Books",
+      "favorite_superhero": "Doctor Strange"
+    },
+    {
+      "id": "person_002",
+      "name": "Ava Lin",
+      "type": "Person",
+      "favorite_board_game": "Catan",
+      "age": 28,
+      "weekly_game_group": "The Crit Hit Crew",
+      "preferred_character_class": "Cleric",
+      "special_skill": "Miniature Painting",
+      "favorite_cafe_nearby": "The Dice Cafe"
+    },
+    {
+      "id": "person_003",
+      "name": "Carlos Gonzalez",
+      "type": "Person",
+      "favorite_comic_series": "Saga",
+      "dice_collection_size": 73,
+      "preferred_board_game_genre": "fantasy",
+      "years_playing_dnd": 8,
+      "usual_tournament_role": "Dungeon Master",
+      "has_custom_miniatures": true,
+      "attends_cosplay_events": false,
+      "favorite_dice_set_material": "obsidian"
+    },
+    {
+      "id": "person_004",
+      "name": "Maggie Chen",
+      "type": "Person",
+      "age": 32,
+      "favorite_board_game": "Catan",
+      "email": "maggie.chen123@gmail.com",
+      "has_pets": true,
+      "favorite_dice_set": "Amethyst",
+      "board_game_skill_level": "advanced",
+      "weekly_visit_day": "Friday",
+      "cosplay_participation": true
+    },
+    {
+      "id": "person_005",
+      "name": "Ethan Dubois",
+      "type": "Person",
+      "occupation": "Graphic Designer",
+      "favorite_genre": "Fantasy",
+      "experience": "10 years playing board games",
+      "dungeon_master": true,
+      "dice_collection_size": 150,
+      "weekly_visits": 3,
+      "signature_tactic": "bluffing",
+      "favorite_character_class": "Sorcerer"
+    },
+    {
+      "id": "entity_001",
+      "name": "Dragonscale Dice Set",
+      "entity_type": "Dice Set",
+      "type": "Entity",
+      "material": "Resin",
+      "color_scheme": "Ruby Red and Gold",
+      "number_of_dice": 7,
+      "special_feature": "Glows in the dark",
+      "origin": "Handcrafted in local Portland workshop",
+      "contains_manual": "Yes",
+      "themed_set": "Medieval fantasy",
+      "year_of_release": 2022
+    },
+    {
+      "id": "entity_002",
+      "name": "Epic Quest: The Board Game",
+      "entity_type": "Board Game",
+      "type": "Entity",
+      "theme": "adventure",
+      "complexity": "medium",
+      "average_playtime_minutes": 90,
+      "player_age_recommendation": "14+",
+      "designer": "Ava Trenton",
+      "publishing_year": 2015,
+      "is_out_of_print": false,
+      "official_expansions": 2,
+      "online_community_forum": "quest-forum.com",
+      "related_board_games": "Dungeon Delvers"
+    },
+    {
+      "id": "entity_003",
+      "name": "Shadowrun Miniatures",
+      "entity_type": "Miniature Paint",
+      "type": "Entity",
+      "paint_color_house": "Starlight Spectrum",
+      "popular_among_fantasy_and_sci-fi_gamers": true,
+      "release_year": 2019,
+      "manufacturer": "BlitzCraft Studios",
+      "contains_glitter_effect": false
+    },
+    {
+      "id": "entity_004",
+      "name": "D&D 5th Edition Spellbook Collection",
+      "entity_type": "D&D Book",
+      "type": "Entity",
+      "edition": "5th Edition",
+      "theme": "Fantasy",
+      "num_pages": 320,
+      "rarity": "Common",
+      "author": "Wizards of the Coast",
+      "average_rating": 4.8,
+      "stock_quantity": 12,
+      "genres": "Role-playing Game, Fantasy Adventure",
+      "release_date": "August 2014",
+      "cover_type": "Hardcover",
+      "language": "English",
+      "best_seller": true
+    },
+    {
+      "id": "entity_005",
+      "name": "Portland Board Game League",
+      "entity_type": "Tournament Organization",
+      "type": "Entity",
+      "founding_year": 2015,
+      "tournament_frequency": "bi-weekly",
+      "membership_fee": 20,
+      "annual_main_event": "Portland Board Game Championship",
+      "sponsoring_partners": "Local Game Shops Association",
+      "venue": "Heroes & Dice Basement",
+      "number_of_members": 60,
+      "community_award": "Best Gaming Community 2022",
+      "charitable_events": true,
+      "newsletter": "The Dice Dispatch"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_001",
+      "p": "plays",
+      "o": "entity_002"
+    },
+    {
+      "s": "person_001",
+      "p": "shares",
+      "o": "entity_001"
+    },
+    {
+      "s": "person_001",
+      "p": "attends",
+      "o": "entity_005"
+    },
+    {
+      "s": "person_002",
+      "p": "owns",
+      "o": "entity_001"
+    },
+    {
+      "s": "person_002",
+      "p": "participates in",
+      "o": "entity_005"
+    },
+    {
+      "s": "person_002",
+      "p": "shares",
+      "o": "entity_004"
+    },
+    {
+      "s": "person_003",
+      "p": "paints",
+      "o": "entity_003"
+    },
+    {
+      "s": "person_003",
+      "p": "shares",
+      "o": "entity_002"
+    },
+    {
+      "s": "person_003",
+      "p": "plays",
+      "o": "entity_002"
+    },
+    {
+      "s": "person_004",
+      "p": "reads",
+      "o": "entity_004"
+    },
+    {
+      "s": "person_004",
+      "p": "owns",
+      "o": "entity_003"
+    },
+    {
+      "s": "person_004",
+      "p": "participates in",
+      "o": "entity_005"
+    },
+    {
+      "s": "person_005",
+      "p": "organizes",
+      "o": "entity_005"
+    },
+    {
+      "s": "person_005",
+      "p": "plays",
+      "o": "entity_002"
+    },
+    {
+      "s": "person_005",
+      "p": "reads",
+      "o": "entity_004"
+    }
+  ]
+}

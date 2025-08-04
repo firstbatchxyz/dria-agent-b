@@ -1,0 +1,16 @@
+{
+  "user_md": "# Lukas Meier\n\n## Basic Information\n- **Type**: Person\n- **Age**: 32\n- **Years Of Experience**: 10\n- **Certification Level**: Advanced Mountain Guide\n- **Specialty**: Avalanche Rescue\n- **Languages Spoken**: German, French, English\n- **Hometown**: Interlaken\n- **Favorite Climb**: Eiger North Face\n- **Radio Call Sign**: Alpine Hawk\n- **Availability**: 24/7 on call duty\n- **First Aid Certification**: Wilderness First Responder\n\n## Relationships\n- **Shares**: [[climbing_equipment.md]]\n- **Is Part Of**: [[swiss_alps_rescue_coordination_center.md]]",
+  "entities": [
+    {
+      "entity_name": "climbing_equipment",
+      "entity_file_path": "entities/climbing_equipment.md",
+      "entity_file_content": "# Climbing Equipment\n\n## Basic Information\n- **Entity Type**: Gear\n- **Type**: Entity\n- **Material**: aluminum alloy\n- **Weight Capacity**: 120\n- **Brand**: Summit Gear\n- **Year Of Purchase**: 2020\n- **Maintenance Schedule**: Bi-annual\n- **Used For**: Ice climbing, rock climbing\n\n## Relationships\n- **Shares**: [[lukas_meier.md]]"
+    },
+    {
+      "entity_name": "swiss_alps_rescue_coordination_center",
+      "entity_file_path": "entities/swiss_alps_rescue_coordination_center.md",
+      "entity_file_content": "# Swiss Alps Rescue Coordination Center\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Location**: Zermatt, Switzerland\n- **Established Year**: 1975\n- **Facility Type**: Emergency Response Hub\n- **Operating Hours**: 24/7\n- **Staff Capacity**: 50\n- **Primary Contact**: Helpline 112\n- **Emergency Frequency**: Weekly\n- **Special Feature**: State-of-the-art Avalanche Simulation Training Center\n- **Training Programs**: Available for public\n- **Communication Technology**: Satellite Communications\n\n## Relationships\n- **Is Part Of**: [[lukas_meier.md]]"
+    }
+  ],
+  "mem_id": "memory_736c644372fb4642972d86ec1ae34909"
+}

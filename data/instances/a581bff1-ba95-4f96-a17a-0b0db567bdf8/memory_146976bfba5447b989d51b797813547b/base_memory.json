@@ -1,0 +1,11 @@
+{
+  "user_md": "# Dr. Aisha Khan\n\n## Basic Information\n- **Type**: Person\n- **Role**: Cardiologist\n- **Years Of Experience**: 12\n- **Specialization**: Interventional Cardiology\n- **Languages Spoken**: English, Urdu, Arabic\n- **Education**: Harvard Medical School\n- **Awards**: Top 10 Cardiologists of the Year 2022, Hospital Innovation Award 2021\n- **Volunteer Work**: Organizes annual free heart health check-up camps\n- **Hobbies**: Hiking, Painting\n\n## Relationships\n- **Reviews Records In**: [[cardiology_database.md]]",
+  "entities": [
+    {
+      "entity_name": "cardiology_database",
+      "entity_file_path": "entities/cardiology_database.md",
+      "entity_file_content": "# Cardiology Database\n\n## Basic Information\n- **Entity Type**: Patient Records\n- **Type**: Entity\n- **Data Security Level**: High\n- **Last Updated**: 2023-10-05\n- **Record Format**: Electronics Health Records (EHR)\n- **Average Daily Queries**: 250\n- **Primary Authentication Method**: Biometric Access\n- **Backup Frequency**: Daily\n- **Associated Medical Codes System**: ICD-10\n- **Compliance Standard**: HIPAA\n- **Special Features**: Real-time monitoring integration\n\n## Relationships\n- **Reviews Records In**: [[dr._aisha_khan.md]]"
+    }
+  ],
+  "mem_id": "memory_146976bfba5447b989d51b797813547b"
+}

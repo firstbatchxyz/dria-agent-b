@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my nationality?",
+      "a": "Indian"
+    },
+    {
+      "q": "What is my age?",
+      "a": "38"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Materials Science"
+    },
+    {
+      "q": "What is my research focus?",
+      "a": "Microgravity effects on advanced composite materials"
+    },
+    {
+      "q": "How many years have I been in service?",
+      "a": "10"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "PhD in Materials Science from the Indian Institute of Science, Bangalore"
+    },
+    {
+      "q": "What is my favorite space meal?",
+      "a": "Chana Masala dehydrated pack"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Astrophotography and playing the guitar"
+    },
+    {
+      "q": "What is my signature experiment?",
+      "a": "Leading research on carbon nanotube synthesis in microgravity environments"
+    },
+    {
+      "q": "What is my mission allegiance?",
+      "a": "ISS Expedition 68"
+    },
+    {
+      "q": "What is my physical fitness routine?",
+      "a": "Daily treadmill and resistance training"
+    },
+    {
+      "q": "What languages am I proficient in?",
+      "a": "English, Hindi, and Russian"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of system that I use?"
+      ],
+      "a": "Life Support System",
+      "attribute": "entity type=Life Support System",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the location of the system that I use?"
+      ],
+      "a": "International Space Station",
+      "attribute": "location=International Space Station",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the system that I use?"
+      ],
+      "a": "Bi-weekly",
+      "attribute": "maintenance schedule=Bi-weekly",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the installation date of the system that I use?"
+      ],
+      "a": "February 2010",
+      "attribute": "installation date=February 2010",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "Who designed the system that I use?"
+      ],
+      "a": "European Space Agency in collaboration with NASA",
+      "attribute": "designed by=European Space Agency in collaboration with NASA",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the crew capacity support of the system that I use?"
+      ],
+      "a": "6",
+      "attribute": "crew capacity support=6",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the primary function of the system that I use?"
+      ],
+      "a": "Housing for life support systems and crew quarters",
+      "attribute": "primary function=Housing for life support systems and crew quarters",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the additional function of the system that I use?"
+      ],
+      "a": "Backup air and water purification system",
+      "attribute": "additional function=Backup air and water purification system",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the notable feature of the system that I use?"
+      ],
+      "a": "Contains the advanced oxygen generation system",
+      "attribute": "notable feature=Contains the advanced oxygen generation system",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    },
+    {
+      "q": [
+        "What is the emergency protocol of the system that I use?"
+      ],
+      "a": "Automated shutdown sequence in case of failure",
+      "attribute": "emergency protocol=Automated shutdown sequence in case of failure",
+      "path": "Dr. Raj Patel -> Tranquility Node"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of laboratory where the biologist I share resources with conducts experiments?",
+      "a": "Microgravity Research Lab",
+      "attribute": "type=Microgravity Research Lab",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What is the location of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "International Space Station",
+      "attribute": "location=International Space Station",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What is the construction date of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "2001",
+      "attribute": "construction date=2001",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What are the research focus areas of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "Material science, fluid dynamics, combustion science, and astrobiology experiments",
+      "attribute": "research focus areas=Material science, fluid dynamics, combustion science, and astrobiology experiments",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What are the support systems of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "Advanced life support and adaptive power management",
+      "attribute": "support systems=Advanced life support and adaptive power management",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What is the length of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "8.4 meters",
+      "attribute": "length=8.4 meters",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What is the diameter of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "4.3 meters",
+      "attribute": "diameter=4.3 meters",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What is the notable experiment of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "Microgravity science glovebox",
+      "attribute": "notable experiment=Microgravity science glovebox",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "How many crew members are currently assigned to the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "3",
+      "attribute": "currently assigned crew members=3",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    },
+    {
+      "q": "What are the collaborating space agencies of the laboratory where the biologist I share resources with conducts experiments?",
+      "a": "NASA, ESA, JAXA, CSA",
+      "attribute": "collaborating space agencies=NASA, ESA, JAXA, CSA",
+      "path": "Dr. Raj Patel - shares resources with -> Biologist Sofia Gomez - conducts experiment in-> Destiny Laboratory"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my profession?",
+      "a": "Meteorologist"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Climate Sciences"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Ph.D. in Atmospheric Sciences"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Lead Researcher"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography"
+    },
+    {
+      "q": "What is my favorite book?",
+      "a": "Endurance: Shackleton's Incredible Voyage"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, French"
+    },
+    {
+      "q": "What do I work mostly with?",
+      "a": "Aurora-3 Weather Balloon"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the profession of the person I collaborate with?"
+      ],
+      "a": "Systems Engineer",
+      "attribute": "profession=Systems Engineer",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What is the education of the person I collaborate with?"
+      ],
+      "a": "M.Sc. in Electrical Engineering",
+      "attribute": "education=M.Sc. in Electrical Engineering",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What is the expertise of the person I collaborate with?"
+      ],
+      "a": "Satellite Communications",
+      "attribute": "expertise=Satellite Communications",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Stargazing",
+      "attribute": "hobbies=Stargazing",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What is the favorite food of the person I collaborate with?"
+      ],
+      "a": "Tapas",
+      "attribute": "favorite food=Tapas",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I collaborate with have?"
+      ],
+      "a": "6",
+      "attribute": "years of experience=6",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What languages are spoken by the person I collaborate with?"
+      ],
+      "a": "Spanish, English",
+      "attribute": "languages spoken=Spanish, English",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What is the role of the person I collaborate with?"
+      ],
+      "a": "Satellite Operations Specialist",
+      "attribute": "role=Satellite Operations Specialist",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What is the favorite movie of the person I collaborate with?"
+      ],
+      "a": "The Martian",
+      "attribute": "favorite movie=The Martian",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    },
+    {
+      "q": [
+        "What does the person I collaborate with work mostly with?"
+      ],
+      "a": "Penguinwatch Satellite System",
+      "attribute": "works mostly with=Penguinwatch Satellite System",
+      "path": "Dr. Elara Thompson -> Javier Garcia"
+    }
+  ]
+}

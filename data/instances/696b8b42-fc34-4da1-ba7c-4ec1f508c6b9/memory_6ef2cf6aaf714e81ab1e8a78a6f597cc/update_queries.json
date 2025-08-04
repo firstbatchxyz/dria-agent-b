@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my personal motto in the system - it's no longer 'Observing today for a better tomorrow' but should now read 'Innovation through mindful observation'.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hobbies**: photography\n\n - **Special Skill**: data visualization\n\n - **Years Of Experience**: 12\n\n-- **Personal Motto**: Observing today for a better tomorrow\n\n+- **Personal Motto**: Innovation through mindful observation\n\n - **Favorite Weather Phenomenon**: auroras\n\n - **Preferred Station Task**: balloon launches\n\n \n\n"
+    },
+    {
+      "query": "I've been living by my motto 'Innovation through mindful observation' lately, and it's really helped me approach challenges with both creativity and careful consideration.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hobbies**: photography\n\n - **Special Skill**: data visualization\n\n - **Years Of Experience**: 12\n\n-- **Personal Motto**: Observing today for a better tomorrow\n\n+- **Personal Motto**: Innovation through mindful observation\n\n - **Favorite Weather Phenomenon**: auroras\n\n - **Preferred Station Task**: balloon launches\n\n \n\n"
+    },
+    {
+      "query": "I need to update my preferred station task in the system - I've been reassigned from balloon launches to satellite maintenance operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years Of Experience**: 12\n\n - **Personal Motto**: Observing today for a better tomorrow\n\n - **Favorite Weather Phenomenon**: auroras\n\n-- **Preferred Station Task**: balloon launches\n\n+- **Preferred Station Task**: satellite maintenance operations\n\n \n\n ## Relationships\n\n - **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role focusing on satellite maintenance operations, it's quite different from my previous work but equally challenging.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Years Of Experience**: 12\n\n - **Personal Motto**: Observing today for a better tomorrow\n\n - **Favorite Weather Phenomenon**: auroras\n\n-- **Preferred Station Task**: balloon launches\n\n+- **Preferred Station Task**: satellite maintenance operations\n\n \n\n ## Relationships\n\n - **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my professional experience in your records - I actually have 15 years of experience now, not the 12 years that's currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 38\n\n - **Hobbies**: photography\n\n - **Special Skill**: data visualization\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Personal Motto**: Observing today for a better tomorrow\n\n - **Favorite Weather Phenomenon**: auroras\n\n - **Preferred Station Task**: balloon launches\n\n"
+    },
+    {
+      "query": "It's amazing how much perspective you gain over 15 years in this field - the additional experience has really helped me tackle more complex projects with confidence.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 38\n\n - **Hobbies**: photography\n\n - **Special Skill**: data visualization\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Personal Motto**: Observing today for a better tomorrow\n\n - **Favorite Weather Phenomenon**: auroras\n\n - **Preferred Station Task**: balloon launches\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my distribution information - I'm no longer distributing ArcticNom Nom Food Supplies. I've switched to distributing FreshHarvest Organic Provisions instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n - **Preferred Station Task**: balloon launches\n\n \n\n ## Relationships\n\n-- **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n-- **Documents Findings From**: [[datacore_analysis_console.md]]\n+- **Documents Findings From**: [[datacore_analysis_console.md]]\n\n+- **Distributes**: [[freshharvest_organic_provisions.md]]\n\n===entities/freshharvest_organic_provisions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# FreshHarvest Organic Provisions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food supply company\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[miranda_patel.md]]\n"
+    },
+    {
+      "query": "Just wanted to mention that my partnership with FreshHarvest Organic Provisions has been going really well - their organic produce line perfectly aligns with my distribution network's sustainability goals.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,5 +12,5 @@\n - **Preferred Station Task**: balloon launches\n\n \n\n ## Relationships\n\n-- **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n-- **Documents Findings From**: [[datacore_analysis_console.md]]\n+- **Documents Findings From**: [[datacore_analysis_console.md]]\n\n+- **Distributes**: [[freshharvest_organic_provisions.md]]\n\n===entities/freshharvest_organic_provisions.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# FreshHarvest Organic Provisions\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: food supply company\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[miranda_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my research documentation system - I'm no longer using the DataCore Analysis Console for documenting my findings. I've switched to the new QuantumLab Research Terminal which has better analytical capabilities.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n-- **Documents Findings From**: [[datacore_analysis_console.md]]\n+- **Documents Findings From**: [[quantumlab_research_terminal.md]]\n\n===entities/quantumlab_research_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumLab Research Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research system\n\n+\n\n+## Relationships\n\n+- **Documents Findings From**: [[miranda_patel.md]]\n"
+    },
+    {
+      "query": "I've been having great success documenting my latest research findings using the QuantumLab Research Terminal - the interface is much more intuitive than what I was using before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n \n\n ## Relationships\n\n - **Distributes**: [[arcticnom_nom_food_supplies.md]]\n\n-- **Documents Findings From**: [[datacore_analysis_console.md]]\n+- **Documents Findings From**: [[quantumlab_research_terminal.md]]\n\n===entities/quantumlab_research_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumLab Research Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research system\n\n+\n\n+## Relationships\n\n+- **Documents Findings From**: [[miranda_patel.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

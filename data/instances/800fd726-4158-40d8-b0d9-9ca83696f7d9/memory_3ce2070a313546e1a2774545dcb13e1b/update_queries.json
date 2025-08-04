@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my nickname in the system - I'm no longer called 'The Game Master' but go by 'The Strategy Sage' now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Nickname**: The Game Master\n\n+- **Nickname**: The Strategy Sage\n\n - **Favorite Genre**: Fantasy\n\n - **Years Of Experience**: 15\n\n - **Preferred Play Style**: Competitive\n\n"
+    },
+    {
+      "query": "People have been calling me 'The Strategy Sage' lately because of my analytical approach to complex problem-solving, and I think it suits me better than my old gaming references.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Nickname**: The Game Master\n\n+- **Nickname**: The Strategy Sage\n\n - **Favorite Genre**: Fantasy\n\n - **Years Of Experience**: 15\n\n - **Preferred Play Style**: Competitive\n\n"
+    },
+    {
+      "query": "I need to correct my board game preferences in the system - my second favorite board game is actually Terraforming Mars, not Galactic Conquest as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Preferred Play Style**: Competitive\n\n - **Lucky Dice Color**: Emerald Green\n\n - **Has Custom Miniatures**: True\n\n-- **Second Favorite Board Game**: Galactic Conquest\n\n+- **Second Favorite Board Game**: Terraforming Mars\n\n - **Collects**: Rare Comic Books\n\n - **Favorite Superhero**: Doctor Strange\n\n \n\n"
+    },
+    {
+      "query": "I've been really enjoying my weekly Terraforming Mars sessions lately - it's definitely become my second favorite board game after all the strategic depth it offers.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Preferred Play Style**: Competitive\n\n - **Lucky Dice Color**: Emerald Green\n\n - **Has Custom Miniatures**: True\n\n-- **Second Favorite Board Game**: Galactic Conquest\n\n+- **Second Favorite Board Game**: Terraforming Mars\n\n - **Collects**: Rare Comic Books\n\n - **Favorite Superhero**: Doctor Strange\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my gaming profile - my preferred play style has changed from Competitive to Casual since I don't have as much time for intense matches anymore.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Nickname**: The Game Master\n\n - **Favorite Genre**: Fantasy\n\n - **Years Of Experience**: 15\n\n-- **Preferred Play Style**: Competitive\n\n+- **Preferred Play Style**: Casual\n\n - **Lucky Dice Color**: Emerald Green\n\n - **Has Custom Miniatures**: True\n\n - **Second Favorite Board Game**: Galactic Conquest\n\n"
+    },
+    {
+      "query": "I've been really enjoying my casual gaming sessions lately, just playing for fun without worrying about rankings or competitive pressure.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Nickname**: The Game Master\n\n - **Favorite Genre**: Fantasy\n\n - **Years Of Experience**: 15\n\n-- **Preferred Play Style**: Competitive\n\n+- **Preferred Play Style**: Casual\n\n - **Lucky Dice Color**: Emerald Green\n\n - **Has Custom Miniatures**: True\n\n - **Second Favorite Board Game**: Galactic Conquest\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my gaming group information - I'm no longer attending the Portland Board Game League, I've switched to the Pacific Northwest Tabletop Society.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Plays**: [[epic_quest:_the_board_game.md]]\n\n - **Shares**: [[dragonscale_dice_set.md]]\n\n-- **Attends**: [[portland_board_game_league.md]]\n+- **Attends**: [[pacific_northwest_tabletop_society.md]]\n\n===entities/pacific_northwest_tabletop_society.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Pacific Northwest Tabletop Society\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: gaming organization\n\n+\n\n+## Relationships\n\n+- **Attends**: [[liam_mcalister.md]]\n"
+    },
+    {
+      "query": "Really enjoying my time with the Pacific Northwest Tabletop Society - the variety of games and the community there has been fantastic for expanding my strategic thinking.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Plays**: [[epic_quest:_the_board_game.md]]\n\n - **Shares**: [[dragonscale_dice_set.md]]\n\n-- **Attends**: [[portland_board_game_league.md]]\n+- **Attends**: [[pacific_northwest_tabletop_society.md]]\n\n===entities/pacific_northwest_tabletop_society.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Pacific Northwest Tabletop Society\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: gaming organization\n\n+\n\n+## Relationships\n\n+- **Attends**: [[liam_mcalister.md]]\n"
+    },
+    {
+      "query": "I need to update my gaming preferences in the system - I've moved on from Epic Quest: The Board Game and now I'm really into playing Mystic Realms: Chronicles of Valdoria.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,6 +13,6 @@\n - **Favorite Superhero**: Doctor Strange\n\n \n\n ## Relationships\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n - **Shares**: [[dragonscale_dice_set.md]]\n\n-- **Attends**: [[portland_board_game_league.md]]\n+- **Attends**: [[portland_board_game_league.md]]\n\n+- **Plays**: [[mystic_realms:_chronicles_of_valdoria.md]]\n\n===entities/mystic_realms:_chronicles_of_valdoria.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms: Chronicles of Valdoria\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: video game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[liam_mcalister.md]]\n"
+    },
+    {
+      "query": "I've been spending most of my free time playing Mystic Realms: Chronicles of Valdoria lately - the strategic depth and fantasy elements really appeal to me more than traditional board games.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,6 +13,6 @@\n - **Favorite Superhero**: Doctor Strange\n\n \n\n ## Relationships\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n - **Shares**: [[dragonscale_dice_set.md]]\n\n-- **Attends**: [[portland_board_game_league.md]]\n+- **Attends**: [[portland_board_game_league.md]]\n\n+- **Plays**: [[mystic_realms:_chronicles_of_valdoria.md]]\n\n===entities/mystic_realms:_chronicles_of_valdoria.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms: Chronicles of Valdoria\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: video game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[liam_mcalister.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

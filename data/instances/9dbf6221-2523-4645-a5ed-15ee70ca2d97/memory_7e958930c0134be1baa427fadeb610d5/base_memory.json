@@ -1,0 +1,16 @@
+{
+  "user_md": "# Sister Pema\n\n## Basic Information\n- **Type**: Person\n- **Meditation Specialty**: Zen Meditation\n- **Favorite Mantra**: Om Mani Padme Hum\n- **Years At Monastery**: 15\n- **Culinary Specialty**: Tibetan Tsampa\n- **Known For**: storytelling\n\n## Relationships\n- **Maintains**: [[ancient_manuscripts_of_enlightenment.md]]\n- **Prepares Meals At**: [[the_eternal_flame_kitchen.md]]",
+  "entities": [
+    {
+      "entity_name": "ancient_manuscripts_of_enlightenment",
+      "entity_file_path": "entities/ancient_manuscripts_of_enlightenment.md",
+      "entity_file_content": "# Ancient Manuscripts of Enlightenment\n\n## Basic Information\n- **Entity Type**: artifact\n- **Type**: Entity\n- **Age**: over 800 years\n- **Origin**: Eastern Himalayas, Nepal\n- **Primary Language**: Classical Tibetan\n- **Composition Material**: Rice Paper and Natural Dye Ink\n- **Last Restoration**: 2015\n- **Number Of Volumes**: 108\n- **Spiritual Significance**: Contains teachings of enlightenment and liberation\n- **Condition**: fragile\n- **Unique Feature**: Intricate hand-painted mandalas on cover pages\n- **Storage Method**: Temperature-controlled chamber\n\n## Relationships\n- **Maintains**: [[sister_pema.md]]"
+    },
+    {
+      "entity_name": "the_eternal_flame_kitchen",
+      "entity_file_path": "entities/the_eternal_flame_kitchen.md",
+      "entity_file_content": "# The Eternal Flame Kitchen\n\n## Basic Information\n- **Entity Type**: facility\n- **Type**: Entity\n- **Establishment Year**: 1883\n- **Daily Meals Prepared**: 150\n- **Specialty Dish**: Butter Tea\n- **Architectural Style**: Traditional Tibetan\n- **Notable Events**: annual monastic tea ceremony\n- **Average Temperature**: 20\n- **Primary Materials Used**: stone and wood\n- **Soundscape**: soft chanting and the clang of cooking pots\n- **View**: overlooking the snow-capped mountains\n\n## Relationships\n- **Prepares Meals At**: [[sister_pema.md]]"
+    }
+  ],
+  "mem_id": "memory_7e958930c0134be1baa427fadeb610d5"
+}

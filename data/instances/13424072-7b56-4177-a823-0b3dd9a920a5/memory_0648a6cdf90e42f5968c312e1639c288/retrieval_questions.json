@@ -1,0 +1,70 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "34"
+    },
+    {
+      "q": "What is my position?",
+      "a": "Check-in Supervisor"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish, French"
+    },
+    {
+      "q": "What is my security clearance level?",
+      "a": "Level 3"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Morning"
+    },
+    {
+      "q": "Since when have I been an employee?",
+      "a": "2012"
+    },
+    {
+      "q": "What is my favorite aircraft?",
+      "a": "Boeing 787"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Chicago, IL"
+    },
+    {
+      "q": "When was my last training date?",
+      "a": "2023-03-15"
+    },
+    {
+      "q": "What is my passion?",
+      "a": "Aviation"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Photography"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of workplace where I work?"
+      ],
+      "a": "Airlines",
+      "attribute": "entity type=Airlines",
+      "path": "John Carter -> Delta Check-in Counter"
+    },
+    {
+      "q": [
+        "What is the number of counters at the workplace where I work?"
+      ],
+      "a": "15",
+      "attribute": "number of counters=15",
+      "path": "John Carter -> Delta Check-in Counter"
+    }
+  ]
+}

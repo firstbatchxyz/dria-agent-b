@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my last name in the system - it should be McConnell, not Fitzgerald as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Aiden\n\n-- **Last Name**: Fitzgerald\n\n+- **Last Name**: McConnell\n\n - **Business Name**: Gourmet Grub\n\n - **Specialty Cuisine**: Irish-American Fusion\n\n - **Years Experience**: 8\n\n"
+    },
+    {
+      "query": "Just wanted to mention that my family name McConnell has quite an interesting history, tracing back to Scottish highlands.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Aiden\n\n-- **Last Name**: Fitzgerald\n\n+- **Last Name**: McConnell\n\n - **Business Name**: Gourmet Grub\n\n - **Specialty Cuisine**: Irish-American Fusion\n\n - **Years Experience**: 8\n\n"
+    },
+    {
+      "query": "I need to correct my culinary specialty information - I've actually transitioned from Irish-American Fusion to Modern Celtic cuisine, which better represents my current cooking style.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Aiden\n\n - **Last Name**: Fitzgerald\n\n - **Business Name**: Gourmet Grub\n\n-- **Specialty Cuisine**: Irish-American Fusion\n\n+- **Specialty Cuisine**: Modern Celtic\n\n - **Years Experience**: 8\n\n - **Favorite Ingredient**: Thyme\n\n - **Has Chef Certification**: True\n\n"
+    },
+    {
+      "query": "I've been really excited about the response to my Modern Celtic dishes, especially how I'm able to honor traditional Celtic flavors while incorporating contemporary techniques and presentation.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **First Name**: Aiden\n\n - **Last Name**: Fitzgerald\n\n - **Business Name**: Gourmet Grub\n\n-- **Specialty Cuisine**: Irish-American Fusion\n\n+- **Specialty Cuisine**: Modern Celtic\n\n - **Years Experience**: 8\n\n - **Favorite Ingredient**: Thyme\n\n - **Has Chef Certification**: True\n\n"
+    },
+    {
+      "query": "I need to correct my personal information in the system - my first name is actually Adrian, not Aiden as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Aiden\n\n+- **First Name**: Adrian\n\n - **Last Name**: Fitzgerald\n\n - **Business Name**: Gourmet Grub\n\n - **Specialty Cuisine**: Irish-American Fusion\n\n"
+    },
+    {
+      "query": "I've been going by Adrian my whole life, and I wanted to make sure you have the right name for all our future correspondence.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Aiden\n\n+- **First Name**: Adrian\n\n - **Last Name**: Fitzgerald\n\n - **Business Name**: Gourmet Grub\n\n - **Specialty Cuisine**: Irish-American Fusion\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment exchange records - I'm no longer working with Sofia Delgado. I've switched to exchanging equipment with Marcus Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares_Commissary_With**: [[maya_chen.md]]\n\n - **Hosts**: [[street_eats_fest.md]]\n\n-- **Exchanges_Equipment_With**: [[sofia_delgado.md]]\n+- **Exchanges_Equipment_With**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    },
+    {
+      "query": "Marcus Chen and I have been having great success with our equipment sharing arrangement - his technical expertise really complements the gear I bring to our projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares_Commissary_With**: [[maya_chen.md]]\n\n - **Hosts**: [[street_eats_fest.md]]\n\n-- **Exchanges_Equipment_With**: [[sofia_delgado.md]]\n+- **Exchanges_Equipment_With**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    },
+    {
+      "query": "I need to update my equipment exchange partnership - I'm no longer working with Sofia Delgado. I've started exchanging equipment with Marcus Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares_Commissary_With**: [[maya_chen.md]]\n\n - **Hosts**: [[street_eats_fest.md]]\n\n-- **Exchanges_Equipment_With**: [[sofia_delgado.md]]\n+- **Exchanges_Equipment_With**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    },
+    {
+      "query": "Marcus Chen and I have been having great success with our equipment sharing arrangement - it's really improved our operational efficiency compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Shares_Commissary_With**: [[maya_chen.md]]\n\n - **Hosts**: [[street_eats_fest.md]]\n\n-- **Exchanges_Equipment_With**: [[sofia_delgado.md]]\n+- **Exchanges_Equipment_With**: [[marcus_chen.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Exchanges_Equipment_With**: [[aiden_fitzgerald.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about who Sofia and I coordinate with at events - we're no longer working with Imani Jones, but instead we're coordinating with Marcus Chen for our equipment exchanges and event logistics.",
+      "diff": "===entities/sofia_delgado.md===\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_At_Event**: [[sofia_delgado.md]]\n"
+    },
+    {
+      "query": "Sofia and I had a great coordination meeting with Marcus Chen yesterday about our upcoming event - he's really streamlined our equipment sharing process and made the logistics much smoother.",
+      "diff": "===entities/sofia_delgado.md===\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_At_Event**: [[sofia_delgado.md]]\n"
+    }
+  ]
+}

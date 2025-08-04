@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "001",
+      "name": "Ali Khouri",
+      "type": "Person",
+      "role": "Senior Engineer",
+      "experience_years": 15,
+      "specialization": "Structural Engineering",
+      "certificate": "Certified Professional Engineer (CPE)",
+      "language_spoken": "Arabic, English",
+      "recent_award": "Best Engineer Award 2023",
+      "hobby": "Photography",
+      "favorite_equipment": "CR-12 Tower Crane",
+      "safety_record": "Excellent",
+      "works_in_shifts": false,
+      "current_project": "Iconic Sky Tower"
+    },
+    {
+      "id": "002",
+      "name": "Noura Al Nasser",
+      "type": "Person",
+      "role": "Junior Engineer",
+      "experience_years": 5,
+      "specialization": "Environmental Engineering",
+      "language_spoken": "Arabic, English, French",
+      "education": "MSc in Environmental Engineering",
+      "hobby": "Rock Climbing",
+      "professional_goal": "Innovate sustainable construction practices",
+      "safety_record": "Excellent",
+      "favorite_equipment": "D-9000 Sky Crane",
+      "works_in_shifts": true,
+      "recent_project_completion": "Eco Green Park Tower",
+      "volunteer_work": "Clean Energy Advocacy Group"
+    },
+    {
+      "id": "003",
+      "name": "Tariq El-Badawi",
+      "type": "Person",
+      "role": "Project Lead",
+      "experience_years": 15,
+      "specialization": "Structural Engineering",
+      "languages_spoken": "Arabic, English",
+      "education": "PhD in Civil Engineering",
+      "hobby": "Painting",
+      "professional_goal": "Design a record-breaking skyscraper",
+      "safety_record": "Outstanding",
+      "favorite_equipment": "L4500 Concrete Mixer",
+      "works_in_shifts": false,
+      "recent_achievement": "Winner of the International Engineering Excellence Award",
+      "community_contribution": "Mentor for Young Engineers Program"
+    },
+    {
+      "id": "004",
+      "name": "Fatima Zayed",
+      "type": "Person",
+      "full_name": "Fatima Zayed",
+      "role": "Safety Supervisor",
+      "years_of_experience": 7,
+      "certifications": "Occupational Safety and Health (OSH)",
+      "language_proficiency": "Arabic, English",
+      "education": "BSc in Environmental Health and Safety",
+      "specialization": "High-rise construction safety",
+      "nationality": "Emirati",
+      "communication_style": "Detail-oriented",
+      "hobbies": "Reading, hiking",
+      "favorite_author": "Malcolm Gladwell",
+      "work_hours": "7 AM - 5 PM",
+      "emergency_contact": "+971 50 123 4567"
+    },
+    {
+      "id": "005",
+      "name": "Yusuf Patel",
+      "type": "Person",
+      "job_title": "Site Manager",
+      "years_of_experience": 12,
+      "specialization": "Structural Engineering",
+      "safety_certifications": "Certified",
+      "favorite_blueprint_tool": "AutoCAD",
+      "hobbies": "Photography",
+      "nationality": "South African",
+      "languages_spoken": "English, Hindi, Arabic",
+      "age": 39,
+      "university_attended": "University of Cape Town",
+      "marital_status": "Married",
+      "children_count": 2
+    },
+    {
+      "id": "E001",
+      "name": "SkyReach 2025",
+      "entity_type": "Project",
+      "type": "Entity",
+      "total_floors": 80,
+      "estimated_completion_year": 2025,
+      "budget_in_millions_usd": 850,
+      "project_inception_date": "2022-01-15",
+      "architectural_style": "Neo-futurism",
+      "green_building_certification": true,
+      "key_materials": "Steel, Glass, Concrete",
+      "primary_contractor": "Dubai Structural Co.",
+      "height_in_meters": 480,
+      "unique_feature": "360-degree observation deck"
+    },
+    {
+      "id": "E002",
+      "name": "CR-12 Tower Crane",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "manufacturer": "Global Crane Co.",
+      "year_of_manufacture": 2019,
+      "maximum_load_capacity_tons": 20,
+      "height_in_meters": 150,
+      "operating_hours_per_week": 70,
+      "maintenance_schedule": "Quarterly",
+      "color": "Yellow and Blue",
+      "previous_project_usage": "Burj Innovate",
+      "control_system": "Automated with manual override",
+      "energy_source": "Electric"
+    },
+    {
+      "id": "E003",
+      "name": "SteelRidge Safety Gear",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "years_in_operation": 15,
+      "core_products": "helmets, safety harnesses, goggles",
+      "lead_engineer": "Ahmed Al-Farsi",
+      "yearly_supply_volume": 150000,
+      "contact_email": "info@steelridgesafetygear.com",
+      "phone_number": "+971 4 567 8901",
+      "distribution_regions": "Middle East, North Africa"
+    },
+    {
+      "id": "E004",
+      "name": "MegaMix Concrete Solutions",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "founding_year": 1998,
+      "specialization": "High-grade concrete mixtures",
+      "headquarters_location": "Dubai, UAE",
+      "number_of_employees": 250,
+      "annual_revenue_usd": 56.8,
+      "notable_projects": "Burj Khalifa, Palm Jumeirah",
+      "innovation_awards_won": 5,
+      "sustainability_initiatives": "Carbon-neutral production by 2030"
+    },
+    {
+      "id": "E005",
+      "name": "Innovative Blueprints Limited",
+      "entity_type": "Company",
+      "type": "Entity",
+      "year_established": 2008,
+      "headquarters_location": "Dubai, UAE",
+      "core_competency": "Innovative Structural Design",
+      "number_of_employees": 150,
+      "notable_projects": "Burj Crown Towers, AquaSky Residences",
+      "annual_revenue_millions_usd": 50,
+      "sustainability_focus": true,
+      "founding_partners": "Ahmed Al-Farsi, Priya Narayanan",
+      "vision_statement": "To revolutionize city skylines with cutting-edge design solutions"
+    }
+  ],
+  "edges": [
+    {
+      "s": "001",
+      "p": "works_with",
+      "o": "002"
+    },
+    {
+      "s": "001",
+      "p": "operates",
+      "o": "E002"
+    },
+    {
+      "s": "002",
+      "p": "coordinates_with",
+      "o": "003"
+    },
+    {
+      "s": "003",
+      "p": "leads",
+      "o": "E001"
+    },
+    {
+      "s": "004",
+      "p": "oversees",
+      "o": "E003"
+    },
+    {
+      "s": "005",
+      "p": "manages",
+      "o": "E004"
+    },
+    {
+      "s": "005",
+      "p": "uses",
+      "o": "E005"
+    },
+    {
+      "s": "E002",
+      "p": "is_shared_by",
+      "o": "E001"
+    },
+    {
+      "s": "E003",
+      "p": "is_used_for",
+      "o": "E001"
+    },
+    {
+      "s": "E004",
+      "p": "supplies",
+      "o": "E001"
+    },
+    {
+      "s": "E005",
+      "p": "designs",
+      "o": "E001"
+    }
+  ]
+}

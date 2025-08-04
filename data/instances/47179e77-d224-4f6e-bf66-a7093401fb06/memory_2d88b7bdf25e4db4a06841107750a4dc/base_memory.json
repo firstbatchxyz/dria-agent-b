@@ -1,0 +1,16 @@
+{
+  "user_md": "# Oskar Lindholm\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Marine Engineer\n- **Years Of Experience**: 15\n- **Age**: 42\n- **Nationality**: Swedish\n- **Education**: Master's Degree in Marine Engineering\n- **Favorite Seafood**: Herring\n- **Hobby**: Amateur Photography\n- **Works At**: North Sea Explorers Ltd.\n- **Certification**: Certified Sonar Technician\n\n## Relationships\n- **Maintains**: [[deepwave_sonar_3000.md]]",
+  "entities": [
+    {
+      "entity_name": "deepwave_sonar_3000",
+      "entity_file_path": "entities/deepwave_sonar_3000.md",
+      "entity_file_content": "# DeepWave Sonar 3000\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Model Number**: DW-3000\n- **Maximum Range**: 3000\n- **Frequency Band**: Mid-Frequency\n- **Manufacturer**: OceanTech Instruments\n- **Year Of Manufacture**: 2018\n- **Primary Feature**: Dynamic Fish School Detection\n- **Power Consumption**: 350\n- **Maintenance Interval**: 6 months\n\n## Relationships\n- **Maintains**: [[engineer_oskar_lindholm.md]]"
+    },
+    {
+      "entity_name": "north_sea_fishing_cooperative",
+      "entity_file_path": "entities/north_sea_fishing_cooperative.md",
+      "entity_file_content": "# North Sea Fishing Cooperative\n\n## Basic Information\n- **Entity Type**: Organization\n- **Type**: Entity\n- **Established Year**: 1995\n- **Primary Language**: Norwegian\n- **Annual Catch Tonnage**: 3000\n- **Number Of Vessels**: 5\n- **Key Product**: Atlantic Cod\n- **Safety Certification**: ISO 45001\n- **Affiliated Organizations**: European Fishing Alliance\n- **Chairperson**: Ingrid Johansen\n- **Headquarters Location**: Bergen, Norway\n\n## Relationships\n- **Facilitates**: [[deepwave_sonar_3000.md]]"
+    }
+  ],
+  "mem_id": "memory_2d88b7bdf25e4db4a06841107750a4dc"
+}

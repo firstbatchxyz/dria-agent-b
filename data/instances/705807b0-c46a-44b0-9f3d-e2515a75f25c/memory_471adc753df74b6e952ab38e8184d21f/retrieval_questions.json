@@ -1,0 +1,134 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Machine Learning Specialist"
+    },
+    {
+      "q": "What are my areas of expertise?",
+      "a": "supervised learning, neural networks"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my favorite programming language?",
+      "a": "Python"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "M.Sc. in Artificial Intelligence from Carnegie Mellon University"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "cycling, puzzle solving"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Innovate with intelligence, create with passion"
+    },
+    {
+      "q": "What is my primary work location?",
+      "a": "Menlo Park, California"
+    },
+    {
+      "q": "What is my preferred development environment?",
+      "a": "Google Colab"
+    },
+    {
+      "q": "What is my email?",
+      "a": "emily.kim@nimbusai.com"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "TensorFlow Developer Certificate"
+    },
+    {
+      "q": "How many publications do I have?",
+      "a": "2"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of company I work at?"
+      ],
+      "a": "startup",
+      "attribute": "entity type=startup",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the founding year of the company I work at?"
+      ],
+      "a": "2018",
+      "attribute": "founding year=2018",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the headquarters location of the company I work at?"
+      ],
+      "a": "Palo Alto, California",
+      "attribute": "headquarters location=Palo Alto, California",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the core technology of the company I work at?"
+      ],
+      "a": "Artificial General Intelligence",
+      "attribute": "core technology=Artificial General Intelligence",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the mission statement of the company I work at?"
+      ],
+      "a": "Creating intelligent solutions to elevate human potential",
+      "attribute": "mission statement=Creating intelligent solutions to elevate human potential",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the number of employees at the company I work at?"
+      ],
+      "a": "25",
+      "attribute": "number of employees=25",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the funding stage of the company I work at?"
+      ],
+      "a": "Series B",
+      "attribute": "funding stage=Series B",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "Who are the notable clients of the company I work at?"
+      ],
+      "a": "TechNow Inc, Innovatech Solutions",
+      "attribute": "notable clients=TechNow Inc, Innovatech Solutions",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the annual revenue of the company I work at?"
+      ],
+      "a": "4.5",
+      "attribute": "annual revenue=4.5",
+      "path": "Emily Kim -> NimbusAI"
+    },
+    {
+      "q": [
+        "What are the primary industries of the company I work at?"
+      ],
+      "a": "Healthcare, Finance, Education",
+      "attribute": "primary industries=Healthcare, Finance, Education",
+      "path": "Emily Kim -> NimbusAI"
+    }
+  ]
+}

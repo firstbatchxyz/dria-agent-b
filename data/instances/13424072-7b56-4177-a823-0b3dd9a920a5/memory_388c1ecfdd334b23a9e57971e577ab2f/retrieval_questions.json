@@ -1,0 +1,54 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Airfield Lighting Technician"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my shift pattern?",
+      "a": "night"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Electrical Safety, Advanced Lighting Systems"
+    },
+    {
+      "q": "What are my language skills?",
+      "a": "English, Gaelic"
+    },
+    {
+      "q": "Am I on the emergency response team?",
+      "a": "True"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography"
+    },
+    {
+      "q": "Who was my previous employer?",
+      "a": "Dublin International Airport"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the airfield lighting system that I monitor?"
+      ],
+      "a": "Airport Equipment",
+      "attribute": "entity type=Airport Equipment",
+      "path": "Patrick O'Leary -> Airfield Lighting System"
+    },
+    {
+      "q": [
+        "What is the installation year of the airfield lighting system that I monitor?"
+      ],
+      "a": "2008",
+      "attribute": "installation year=2008",
+      "path": "Patrick O'Leary -> Airfield Lighting System"
+    }
+  ]
+}

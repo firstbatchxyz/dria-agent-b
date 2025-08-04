@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification information in the system - I've recently obtained my Critical Care Registered Nurse (CCRN) certification, so please change my credentials from Certified Emergency Nurse (CEN) to reflect this new specialization.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Specialization**: Trauma Nursing\n\n - **Years Of Experience**: 5\n\n-- **Certifications**: Certified Emergency Nurse (CEN)\n\n+- **Certifications**: Critical Care Registered Nurse (CCRN)\n\n - **Languages Spoken**: English, Spanish\n\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n"
+    },
+    {
+      "query": "I'm excited to share that my Critical Care Registered Nurse (CCRN) certification has really enhanced my ability to care for critically ill patients in intensive care settings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Specialization**: Trauma Nursing\n\n - **Years Of Experience**: 5\n\n-- **Certifications**: Certified Emergency Nurse (CEN)\n\n+- **Certifications**: Critical Care Registered Nurse (CCRN)\n\n - **Languages Spoken**: English, Spanish\n\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n"
+    },
+    {
+      "query": "I need to update my language information in the system - I actually speak English, Spanish, and Portuguese, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialization**: Trauma Nursing\n\n - **Years Of Experience**: 5\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n - **Favorite Medical Tool**: Suction catheter\n\n"
+    },
+    {
+      "query": "I've been finding it really helpful that I can communicate with our Brazilian patients in Portuguese, especially when they're anxious about their treatment.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialization**: Trauma Nursing\n\n - **Years Of Experience**: 5\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n - **Favorite Medical Tool**: Suction catheter\n\n"
+    },
+    {
+      "query": "I need to update my work schedule in the system - I've switched from 8-hour morning shifts to 12-hour night shifts to better accommodate the hospital's staffing needs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n - **Favorite Medical Tool**: Suction catheter\n\n-- **Shift Schedule**: 8-hour morning shifts\n\n+- **Shift Schedule**: 12-hour night shifts\n\n - **Birthplace**: Havana, Cuba\n\n - **Volunteer Work**: Local youth soccer coach\n\n \n\n"
+    },
+    {
+      "query": "It's been an adjustment working these 12-hour night shifts, but I'm finding that the longer shifts allow me to provide more continuous care to my patients throughout the night.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Alma Mater**: Loyola University Chicago\n\n - **Hobbies**: photography\n\n - **Favorite Medical Tool**: Suction catheter\n\n-- **Shift Schedule**: 8-hour morning shifts\n\n+- **Shift Schedule**: 12-hour night shifts\n\n - **Birthplace**: Havana, Cuba\n\n - **Volunteer Work**: Local youth soccer coach\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update who I'm currently assisting - I'm no longer working with Dr. Lisa Chen, I've been reassigned to help Dr. Michael Rodriguez in the cardiology department.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[dr._lisa_chen.md]]\n\n-- **Assists**: [[dr._lisa_chen.md]]\n\n-- **Uses**: [[defibrillator_dx-400.md]]\n+- **Uses**: [[defibrillator_dx-400.md]]\n\n+- **Assists**: [[dr._michael_rodriguez.md]]\n\n===entities/dr._michael_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Michael Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[nurse_javier_mu\u00f1oz.md]]\n"
+    },
+    {
+      "query": "It's been great getting to know Dr. Michael Rodriguez's approach to patient care since I started assisting him in cardiology - his expertise with heart procedures is really impressive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[dr._lisa_chen.md]]\n\n-- **Assists**: [[dr._lisa_chen.md]]\n\n-- **Uses**: [[defibrillator_dx-400.md]]\n+- **Uses**: [[defibrillator_dx-400.md]]\n\n+- **Assists**: [[dr._michael_rodriguez.md]]\n\n===entities/dr._michael_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Michael Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Assists**: [[nurse_javier_mu\u00f1oz.md]]\n"
+    },
+    {
+      "query": "I need to update my equipment records - I'm no longer using the Defibrillator DX-400, I've switched to the new Defibrillator ProLife 3000 model.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Supervises**: [[dr._lisa_chen.md]]\n\n - **Assists**: [[dr._lisa_chen.md]]\n\n-- **Uses**: [[defibrillator_dx-400.md]]\n+- **Uses**: [[defibrillator_prolife_3000.md]]\n\n===entities/defibrillator_prolife_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Defibrillator ProLife 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[nurse_javier_mu\u00f1oz.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the Defibrillator ProLife 3000 has improved our emergency response times and patient outcomes on the floor.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Supervises**: [[dr._lisa_chen.md]]\n\n - **Assists**: [[dr._lisa_chen.md]]\n\n-- **Uses**: [[defibrillator_dx-400.md]]\n+- **Uses**: [[defibrillator_prolife_3000.md]]\n\n===entities/defibrillator_prolife_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Defibrillator ProLife 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[nurse_javier_mu\u00f1oz.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

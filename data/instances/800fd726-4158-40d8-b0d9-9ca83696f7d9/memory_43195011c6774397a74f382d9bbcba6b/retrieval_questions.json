@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Graphic Designer"
+    },
+    {
+      "q": "What is my favorite genre?",
+      "a": "Fantasy"
+    },
+    {
+      "q": "What is my experience with board games?",
+      "a": "10 years playing board games"
+    },
+    {
+      "q": "Am I a dungeon master?",
+      "a": "True"
+    },
+    {
+      "q": "What is the size of my dice collection?",
+      "a": "150"
+    },
+    {
+      "q": "How many weekly visits do I make?",
+      "a": "3"
+    },
+    {
+      "q": "What is my signature tactic?",
+      "a": "bluffing"
+    },
+    {
+      "q": "What is my favorite character class?",
+      "a": "Sorcerer"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of organization that I organize?"
+      ],
+      "a": "Tournament Organization",
+      "attribute": "entity type=Tournament Organization",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the founding year of the organization that I organize?"
+      ],
+      "a": "2015",
+      "attribute": "founding year=2015",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the tournament frequency of the organization that I organize?"
+      ],
+      "a": "bi-weekly",
+      "attribute": "tournament frequency=bi-weekly",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the membership fee of the organization that I organize?"
+      ],
+      "a": "20",
+      "attribute": "membership fee=20",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the annual main event of the organization that I organize?"
+      ],
+      "a": "Portland Board Game Championship",
+      "attribute": "annual main event=Portland Board Game Championship",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "Who are the sponsoring partners of the organization that I organize?"
+      ],
+      "a": "Local Game Shops Association",
+      "attribute": "sponsoring partners=Local Game Shops Association",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the venue of the organization that I organize?"
+      ],
+      "a": "Heroes & Dice Basement",
+      "attribute": "venue=Heroes & Dice Basement",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What is the number of members in the organization that I organize?"
+      ],
+      "a": "60",
+      "attribute": "number of members=60",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "What community award did the organization that I organize receive?"
+      ],
+      "a": "Best Gaming Community 2022",
+      "attribute": "community award=Best Gaming Community 2022",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    },
+    {
+      "q": [
+        "Does the organization that I organize hold charitable events?"
+      ],
+      "a": "True",
+      "attribute": "charitable events=True",
+      "path": "Ethan Dubois -> Portland Board Game League"
+    }
+  ]
+}

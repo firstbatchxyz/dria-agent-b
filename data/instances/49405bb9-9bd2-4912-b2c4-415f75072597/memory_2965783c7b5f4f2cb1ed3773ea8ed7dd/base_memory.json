@@ -1,0 +1,31 @@
+{
+  "user_md": "# Ana Tejada\n\n## Basic Information\n- **Type**: Person\n- **Specialty**: Engobe and slip decoration\n- **Experience Years**: 12\n- **Award Winning**: True\n- **Language Spoken**: Spanish\n- **Birthplace**: San Bartolo Coyotepec\n- **Favorite Motif**: Geometric patterns\n- **Has Workshop In Home**: True\n\n## Relationships\n- **Member_Of**: [[clay_creek_co-op.md]]",
+  "entities": [
+    {
+      "entity_name": "clay_creek_co-op",
+      "entity_file_path": "entities/clay_creek_co-op.md",
+      "entity_file_content": "# Clay Creek Co-op\n\n## Basic Information\n- **Entity Type**: Cooperative\n- **Type**: Entity\n- **Location**: Oaxaca, Mexico\n- **Members Count**: 5\n- **Established Year**: 2010\n- **Focus Area**: Traditional and Modern Pottery Techniques\n- **Mission Statement**: To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.\n- **Primary Language Spoken**: Spanish\n- **Shared Resources**: Kilns, raw materials, workshop space, marketing channels\n- **Annual Festival Participation**: Guelaguetza Festival, Feria de Barro Negro\n\n## Relationships\n- **Member_Of**: [[ana_tejada.md]]"
+    },
+    {
+      "entity_name": "el_bosque_kiln",
+      "entity_file_path": "entities/el_bosque_kiln.md",
+      "entity_file_content": "# El Bosque Kiln\n\n## Basic Information\n- **Entity Type**: Kiln\n- **Type**: Entity\n- **Capacity Cubic Feet**: 25\n- **Fuel Type**: natural gas\n- **Temperature Limit Celsius**: 1300\n- **Last Maintenance Date**: 2023-08-15\n- **Manufacturer**: Oaxacan Kiln Works\n- **Operating Hours**: 8 AM - 8 PM\n- **Constructed Year**: 2015\n- **Safety Features**: Automatic shutoff, Overheat sensors\n- **Usage Fee**: Co-op members only\n\n## Relationships\n- **Uses**: [[clay_creek_co-op.md]]"
+    },
+    {
+      "entity_name": "monte_alban_clay",
+      "entity_file_path": "entities/monte_alban_clay.md",
+      "entity_file_content": "# Monte Alban Clay\n\n## Basic Information\n- **Entity Type**: Supplier\n- **Type**: Entity\n- **Location**: Oaxaca, Mexico\n- **Product Specialization**: High-quality local clay\n- **Established Year**: 2005\n- **Founder Name**: Carmen Ortega\n- **Workforce Size**: 12\n- **Sustainability Practices**: Eco-friendly mining and harvesting techniques\n- **Certifications**: ISO 14001 Environmental Management\n- **Transportation Network**: Own delivery trucks\n\n## Relationships\n- **Buys_From**: [[clay_creek_co-op.md]]"
+    },
+    {
+      "entity_name": "oaxacan_glazes",
+      "entity_file_path": "entities/oaxacan_glazes.md",
+      "entity_file_content": "# Oaxacan Glazes\n\n## Basic Information\n- **Entity Type**: Supplier\n- **Type**: Entity\n- **Location**: Oaxaca City, Mexico\n- **Product Specialty**: Lead-free, vibrant artisanal glazes\n- **Years In Operation**: 12\n- **Founder**: Elena Rodriguez\n- **Sustainability Initiatives**: Use of local, natural pigments and recycled materials\n- **Workshops Offered**: True\n- **Workshop Topics**: Introduction to Glazing Techniques, Custom Color Blends\n\n## Relationships\n- **Buys_From**: [[clay_creek_co-op.md]]"
+    },
+    {
+      "entity_name": "zapotec_market_hub",
+      "entity_file_path": "entities/zapotec_market_hub.md",
+      "entity_file_content": "# Zapotec Market Hub\n\n## Basic Information\n- **Entity Type**: Market\n- **Type**: Entity\n- **Location**: Central Plaza, Oaxaca City\n- **Established Year**: 2008\n- **Market Days**: Saturday and Sunday\n- **Average Daily Visitors**: 1500\n- **Features**: Artisan workshops, Live pottery demonstrations\n- **Visitor Amenities**: Restrooms, Cafeteria, Gift Shop\n- **Cultural Significance**: Celebrated as a central hub for local artisans and cultural exchange\n- **Annual Events Hosted**: Oaxacan Pottery Festival, Artisan Night Market\n\n## Relationships\n- **Sells_At**: [[clay_creek_co-op.md]]"
+    }
+  ],
+  "mem_id": "memory_2965783c7b5f4f2cb1ed3773ea8ed7dd"
+}

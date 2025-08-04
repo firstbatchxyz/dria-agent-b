@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my work experience information in the system - I actually have 8 years of experience now, not the 5 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Imaging Technician\n\n - **Department**: Radiology\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Certifications**: Certified Radiologic Technologist\n\n - **Languages Spoken**: Spanish, English\n\n - **Shift Schedule**: Evening\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 8 years of professional experience have really helped me develop strong leadership skills and technical expertise in my field.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Job Title**: Imaging Technician\n\n - **Department**: Radiology\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Certifications**: Certified Radiologic Technologist\n\n - **Languages Spoken**: Spanish, English\n\n - **Shift Schedule**: Evening\n\n"
+    },
+    {
+      "query": "I need to update my department information in the system - I've been transferred from Radiology to the Emergency Medicine department.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Imaging Technician\n\n-- **Department**: Radiology\n\n+- **Department**: Emergency Medicine\n\n - **Experience Years**: 5\n\n - **Certifications**: Certified Radiologic Technologist\n\n - **Languages Spoken**: Spanish, English\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role in the Emergency Medicine department and finding the fast-paced environment quite different from my previous work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Imaging Technician\n\n-- **Department**: Radiology\n\n+- **Department**: Emergency Medicine\n\n - **Experience Years**: 5\n\n - **Certifications**: Certified Radiologic Technologist\n\n - **Languages Spoken**: Spanish, English\n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I've been promoted from Imaging Technician to Senior Radiology Specialist.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Imaging Technician\n\n+- **Job Title**: Senior Radiology Specialist\n\n - **Department**: Radiology\n\n - **Experience Years**: 5\n\n - **Certifications**: Certified Radiologic Technologist\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role as Senior Radiology Specialist, especially the additional responsibilities in training junior staff and quality assurance protocols.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Job Title**: Imaging Technician\n\n+- **Job Title**: Senior Radiology Specialist\n\n - **Department**: Radiology\n\n - **Experience Years**: 5\n\n - **Certifications**: Certified Radiologic Technologist\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment maintenance records - I'm no longer responsible for the ultrasound machine, but I've been assigned to maintain the new X-ray imaging system instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Employee Of The Month**: False\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ultrasound_machine.md]]\n+- **Maintains**: [[x-ray_imaging_system.md]]\n\n===entities/x-ray_imaging_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# X-ray imaging system\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[jose_martinez.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the X-ray imaging system that I'm now maintaining - it's quite different from other medical equipment I've worked with before, but the imaging quality is impressive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Employee Of The Month**: False\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ultrasound_machine.md]]\n+- **Maintains**: [[x-ray_imaging_system.md]]\n\n===entities/x-ray_imaging_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# X-ray imaging system\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[jose_martinez.md]]\n"
+    },
+    {
+      "query": "I need to update the equipment records - I'm no longer maintaining the Ultrasound Machine, I've been reassigned to maintain the new MRI Scanner instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Employee Of The Month**: False\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ultrasound_machine.md]]\n+- **Maintains**: [[mri_scanner.md]]\n\n===entities/mri_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MRI Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[jose_martinez.md]]\n"
+    },
+    {
+      "query": "Been getting familiar with the MRI Scanner maintenance protocols - it's quite different from the ultrasound equipment I used to work on, but the safety procedures are much more comprehensive.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Employee Of The Month**: False\n\n \n\n ## Relationships\n\n-- **Maintains**: [[ultrasound_machine.md]]\n+- **Maintains**: [[mri_scanner.md]]\n\n===entities/mri_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MRI Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[jose_martinez.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

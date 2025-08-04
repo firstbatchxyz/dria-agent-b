@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my age in the system - I just turned 33 last week, so my age should be changed from 32.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 32\n\n+- **Age**: 33\n\n - **Years Of Experience**: 10\n\n - **Certification Level**: Advanced Mountain Guide\n\n - **Specialty**: Avalanche Rescue\n\n"
+    },
+    {
+      "query": "I've been thinking about how much I've grown this past year, and now that I'm 33, I feel like I have a clearer perspective on my career goals.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 32\n\n+- **Age**: 33\n\n - **Years Of Experience**: 10\n\n - **Certification Level**: Advanced Mountain Guide\n\n - **Specialty**: Avalanche Rescue\n\n"
+    },
+    {
+      "query": "I need to update my first aid certification information in the system - I've upgraded from Wilderness First Responder to Emergency Medical Technician certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Climb**: Eiger North Face\n\n - **Radio Call Sign**: Alpine Hawk\n\n - **Availability**: 24/7 on call duty\n\n-- **First Aid Certification**: Wilderness First Responder\n\n+- **First Aid Certification**: Emergency Medical Technician\n\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n"
+    },
+    {
+      "query": "I've been using my new Emergency Medical Technician skills extensively during our recent mountain rescue operations, and the advanced training has really made a difference in patient care.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Climb**: Eiger North Face\n\n - **Radio Call Sign**: Alpine Hawk\n\n - **Availability**: 24/7 on call duty\n\n-- **First Aid Certification**: Wilderness First Responder\n\n+- **First Aid Certification**: Emergency Medical Technician\n\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n"
+    },
+    {
+      "query": "I need to update my professional experience information - I actually have 15 years of experience now, not the 10 years that's currently on record.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 32\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Certification Level**: Advanced Mountain Guide\n\n - **Specialty**: Avalanche Rescue\n\n - **Languages Spoken**: German, French, English\n\n"
+    },
+    {
+      "query": "After 15 years in the industry, I've learned that experience truly shapes how you approach complex projects and mentor junior team members.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 32\n\n-- **Years Of Experience**: 10\n\n+- **Years Of Experience**: 15\n\n - **Certification Level**: Advanced Mountain Guide\n\n - **Specialty**: Avalanche Rescue\n\n - **Languages Spoken**: German, French, English\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my employment information - I'm no longer with the Swiss Alps Rescue Coordination Center and have moved to the Alpine Emergency Response Unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n-- **Is Part Of**: [[swiss_alps_rescue_coordination_center.md]]\n+- **Is Part Of**: [[alpine_emergency_response_unit.md]]\n\n===entities/alpine_emergency_response_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Alpine Emergency Response Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency services organization\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lukas_meier.md]]\n"
+    },
+    {
+      "query": "I'm excited to be working with my new colleagues at the Alpine Emergency Response Unit, where we're implementing some innovative rescue protocols I learned from my previous experience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n-- **Is Part Of**: [[swiss_alps_rescue_coordination_center.md]]\n+- **Is Part Of**: [[alpine_emergency_response_unit.md]]\n\n===entities/alpine_emergency_response_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Alpine Emergency Response Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency services organization\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lukas_meier.md]]\n"
+    },
+    {
+      "query": "I need to update my employment information - I'm no longer with the Swiss Alps Rescue Coordination Center and have moved to the Alpine Emergency Response Unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n-- **Is Part Of**: [[swiss_alps_rescue_coordination_center.md]]\n+- **Is Part Of**: [[alpine_emergency_response_unit.md]]\n\n===entities/alpine_emergency_response_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Alpine Emergency Response Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency services organization\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lukas_meier.md]]\n"
+    },
+    {
+      "query": "I'm excited to be working with my new colleagues at the Alpine Emergency Response Unit, where we're implementing some innovative rescue protocols I developed during my previous experience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Shares**: [[climbing_equipment.md]]\n\n-- **Is Part Of**: [[swiss_alps_rescue_coordination_center.md]]\n+- **Is Part Of**: [[alpine_emergency_response_unit.md]]\n\n===entities/alpine_emergency_response_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Alpine Emergency Response Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: emergency services organization\n\n+\n\n+## Relationships\n\n+- **Is Part Of**: [[lukas_meier.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

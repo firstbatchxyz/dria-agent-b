@@ -1,0 +1,11 @@
+{
+  "user_md": "# Technician Ravi Mehta\n\n## Basic Information\n- **Type**: Person\n- **Department**: Radiology\n- **Skills**: Medical Equipment Repair\n- **Certifications**: Certified Biomedical Equipment Technician (CBET)\n- **Shift**: night\n- **Years Of Experience**: 8\n- **Hobbies**: photography\n\n## Relationships\n- **Assists With**: [[handheld_communication_devices.md]]",
+  "entities": [
+    {
+      "entity_name": "handheld_communication_devices",
+      "entity_file_path": "entities/handheld_communication_devices.md",
+      "entity_file_content": "# Handheld Communication Devices\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Model**: ComTech 3000\n- **Manufacturer**: MediTel Corp\n- **Features**: voice communication, instant messaging, encrypted data transfer\n- **Battery Life**: 24 hours\n- **Operating System**: MedOS 4.0\n- **Primary Use Case**: real-time communication between staff\n- **Maintenance Cycle**: quarterly\n\n## Relationships\n- **Assists With**: [[technician_ravi_mehta.md]]"
+    }
+  ],
+  "mem_id": "memory_3c97bd1ab8644220978f4e83b41c9f4b"
+}

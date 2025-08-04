@@ -1,0 +1,31 @@
+{
+  "user_md": "# Dr. Lisa Chen\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: Emergency Medicine\n- **Years Of Experience**: 8\n- **Certifications**: Advanced Trauma Life Support (ATLS)\n- **Hobbies**: painting\n- **Languages Spoken**: English, Mandarin, Spanish\n- **Alma Mater**: University of Chicago Pritzker School of Medicine\n- **Shift Schedule**: 12-hour night shifts\n- **Medical Research Focus**: Burn treatment innovations\n- **Favorite Medical Tool**: Stethoscope\n\n## Relationships\n- **Works_With**: [[dr._kevin_patel.md]]\n- **Assists**: [[nurse_javier_mu\u00f1oz.md]]\n- **Supervises**: [[nurse_javier_mu\u00f1oz.md]]\n- **Uses**: [[x-ray_machine_a12.md]]\n- **Examines**: [[trauma_bay_1.md]]",
+  "entities": [
+    {
+      "entity_name": "dr._kevin_patel",
+      "entity_file_path": "entities/dr._kevin_patel.md",
+      "entity_file_content": "# Kevin Patel\n\n## Basic Information\n- **Type**: Person\n- **Profession**: Doctor\n- **Specialization**: Traumatology\n- **Years Of Experience**: 10\n- **Certifications**: Advanced Trauma Life Support (ATLS)\n- **Languages Spoken**: English, Hindi\n- **Alma Mater**: Johns Hopkins University School of Medicine\n- **Shift Schedule**: Day shifts\n- **Hobbies**: cycling\n- **Medical Research Focus**: Trauma resuscitation techniques\n- **Favorite Medical Tool**: Portable ultrasound\n\n## Relationships\n- **Works_With**: [[dr._lisa_chen.md]]"
+    },
+    {
+      "entity_name": "nurse_javier_mu\u00f1oz",
+      "entity_file_path": "entities/nurse_javier_mu\u00f1oz.md",
+      "entity_file_content": "# Nurse Javier Mu\u00f1oz\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: Trauma Nursing\n- **Years Of Experience**: 5\n- **Certifications**: Certified Emergency Nurse (CEN)\n- **Languages Spoken**: English, Spanish\n- **Alma Mater**: Loyola University Chicago\n- **Hobbies**: photography\n- **Favorite Medical Tool**: Suction catheter\n- **Shift Schedule**: 8-hour morning shifts\n- **Birthplace**: Havana, Cuba\n- **Volunteer Work**: Local youth soccer coach\n\n## Relationships\n- **Assists**: [[dr._lisa_chen.md]]\n- **Supervises**: [[dr._lisa_chen.md]]"
+    },
+    {
+      "entity_name": "x-ray_machine_a12",
+      "entity_file_path": "entities/x-ray_machine_a12.md",
+      "entity_file_content": "# X-ray Machine A12\n\n## Basic Information\n- **Entity Type**: Medical Equipment\n- **Type**: Entity\n- **Model**: XRS-3000\n- **Manufacturer**: MedTech Solutions\n- **Year Of Installation**: 2022\n- **Maximum Power Output**: 200 kV\n- **Maintenance Schedule**: Quarterly\n- **Primary Usage**: Trauma assessment\n- **Location Within Department**: Trauma Bay 3\n- **Warranty Expiry Date**: 2025-11-30\n- **Unique Feature**: Enhanced digital imaging\n\n## Relationships\n- **Uses**: [[dr._lisa_chen.md]]"
+    },
+    {
+      "entity_name": "trauma_bay_1",
+      "entity_file_path": "entities/trauma_bay_1.md",
+      "entity_file_content": "# Trauma Bay 1\n\n## Basic Information\n- **Entity Type**: Physical Location\n- **Type**: Entity\n- **Capacity**: 2\n- **Equipment Available**: X-ray machine, defibrillator, patient monitoring system\n- **Average Weekly Cases**: 35\n- **Location Status**: Active\n- **Staffing Schedule**: 24/7\n- **Recent Improvements**: Integrated electronic patient chart system installed\n- **Sanitation Check Date**: 2023-09-15\n- **Noise Level**: Moderate\n- **Optimal Temperature**: 22\u00b0C\n- **Emergency Accessibility**: Direct from ambulance bay\n\n## Relationships\n- **Examines**: [[dr._lisa_chen.md]]"
+    },
+    {
+      "entity_name": "defibrillator_dx-400",
+      "entity_file_path": "entities/defibrillator_dx-400.md",
+      "entity_file_content": "# Defibrillator DX-400\n\n## Basic Information\n- **Entity Type**: Medical Equipment\n- **Type**: Entity\n- **Model**: DX-400\n- **Manufacturer**: MedTech Solutions\n- **Year Of Purchase**: 2019\n- **Last Serviced**: 2023-05-16\n- **Primary Usage**: Cardiac arrest resuscitation\n- **Features**: Biphasic waveform, monitoring screen, lightweight design\n- **Battery Life**: 5 hours\n- **Location In Hospital**: Emergency Room, Bay 3\n- **Warranty Status**: Active\n- **Usage Statistics**: 200+ successful resuscitations\n\n## Relationships\n- **Uses**: [[nurse_javier_mu\u00f1oz.md]]"
+    }
+  ],
+  "mem_id": "memory_f6c28d0eead04351b582704f955baa4f"
+}

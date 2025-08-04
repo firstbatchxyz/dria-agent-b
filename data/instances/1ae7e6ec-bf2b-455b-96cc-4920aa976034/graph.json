@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Bruce MacAlister",
+      "type": "Person",
+      "first_name": "Bruce",
+      "last_name": "MacAlister",
+      "occupation": "Cattle Station Owner",
+      "age": 54,
+      "hobbies": "flying helicopters",
+      "skills": "veterinary care",
+      "favorite_tool": "satellite phone",
+      "birthday": "June 17",
+      "education": "Bachelor of Agriculture from University of New England",
+      "nationality": "Australian",
+      "birthplace": "Wagga Wagga, New South Wales",
+      "spouse": "Fiona MacAlister",
+      "children": 3,
+      "working_style": "hands-on and meticulous"
+    },
+    {
+      "id": "p2",
+      "name": "Lila MacAlister",
+      "type": "Person",
+      "age": 46,
+      "role": "Manager",
+      "expertise": "Cattle Ranching and Management",
+      "education": "Bachelor's Degree in Agriculture",
+      "hobbies": "Helicopter Flying, Animal Care",
+      "favorite_animal": "Australian Cattle Dog",
+      "birthplace": "Alice Springs, Northern Territory",
+      "speaks_languages": "English, Basic Aboriginal Dialects",
+      "years_of_experience": 20,
+      "skills": "Helicopter navigation, Water resource management, Satphone communication"
+    },
+    {
+      "id": "p3",
+      "name": "Jack O'Connor",
+      "type": "Person",
+      "role": "chief pilot",
+      "experience_years": 12,
+      "favorite_aircraft": "Robinson R44",
+      "certifications": "Advanced Aviation Safety",
+      "nickname": "Outback Jack",
+      "hobby": "Landscapes photography",
+      "recent_award": "2022 Helicopter Pilot of the Year",
+      "preferred_flying_condition": "dawn",
+      "communication_device": "satellite phone",
+      "work_schedule": "on-call 24/7 during mustering season"
+    },
+    {
+      "id": "p4",
+      "name": "Emily Chen",
+      "type": "Person",
+      "occupation": "Veterinarian",
+      "years_of_experience": 8,
+      "education": "Bachelor of Veterinary Science from the University of Sydney",
+      "specialization": "Large animal healthcare",
+      "hobbies": "Wildlife photography",
+      "is_flying_helicopters": true,
+      "certified_pilot": true,
+      "languages_spoken": "English, Mandarin",
+      "phones_owned": 2,
+      "favorite_animal": "Australian Shepherd"
+    },
+    {
+      "id": "p5",
+      "name": "Riley Johnson",
+      "type": "Person",
+      "occupation": "Cattle Station Owner",
+      "age": 45,
+      "helicopter_license": true,
+      "communications_equipment": "satellite phone",
+      "special_skill": "aerial cattle mustering",
+      "hobby": "playing the didgeridoo"
+    },
+    {
+      "id": "e1",
+      "name": "MacAlister Cattle Station",
+      "entity_type": "Location",
+      "type": "Entity",
+      "area_size": "2500 square kilometers",
+      "established_year": 1956,
+      "primary_breed": "Hereford",
+      "average_annual_rainfall": 350,
+      "number_of_employees": 18,
+      "main_fuel_source": "diesel",
+      "nearest_town": "Alice Springs",
+      "operation_focus": "sustainable cattle farming",
+      "annual_cattle_export": 1500,
+      "soil_type": "red desert soil"
+    },
+    {
+      "id": "e2",
+      "name": "Outback Choppers",
+      "entity_type": "Service Provider",
+      "type": "Entity",
+      "services_offered": "aerial cattle mustering, emergency medical transport, aerial photography",
+      "number_of_helicopters": 5,
+      "specialty": "remote area operations",
+      "base_location": "Alice Springs",
+      "year_established": 1998,
+      "average_annual_flight_hours": 3000,
+      "company_reputation": "highly reliable and safe service provider in the Outback",
+      "founder": "Emma Thompson",
+      "sustainability_initiatives": "Carbon offset program and use of fuel-efficient aircraft"
+    },
+    {
+      "id": "e3",
+      "name": "AquaSure Water Solutions",
+      "entity_type": "Supplier",
+      "type": "Entity",
+      "founding_year": 2008,
+      "specialty": "advanced water purification systems",
+      "headquarters_location": "Alice Springs, Australia",
+      "number_of_employees": 35,
+      "core_technology": "reverse osmosis filtration"
+    },
+    {
+      "id": "e4",
+      "name": "SkyWave Comms",
+      "entity_type": "Telecommunications Provider",
+      "type": "Entity",
+      "founded_year": 1998,
+      "headquarters_location": "Sydney, Australia",
+      "core_service": "Satellite Communications",
+      "number_of_employees": 350,
+      "satellite_coverage_area": "Global",
+      "notable_technology": "Eco-Link Satellite System",
+      "annual_revenue": "75 million AUD",
+      "CEO": "Julia Hampton"
+    },
+    {
+      "id": "e5",
+      "name": "Ranch Vets Co.",
+      "entity_type": "Veterinary Supplies",
+      "type": "Entity",
+      "headquarters_location": "Alice Springs",
+      "number_of_employees": 12,
+      "established_year": 1998,
+      "specialization": "remote cattle veterinary services",
+      "contact_number": "+61 8 8952 1234",
+      "co_founder": "Dr. Sarah Mitchell",
+      "notable_technology": "portable ultrasound devices for field use"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "owns",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "manages",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "pilots_for",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "works_with",
+      "o": "e5"
+    },
+    {
+      "s": "p5",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "e1",
+      "p": "contracts",
+      "o": "e2"
+    },
+    {
+      "s": "e1",
+      "p": "contracts",
+      "o": "e3"
+    },
+    {
+      "s": "e1",
+      "p": "contracts",
+      "o": "e4"
+    },
+    {
+      "s": "e1",
+      "p": "contracts",
+      "o": "e5"
+    },
+    {
+      "s": "e2",
+      "p": "provides",
+      "o": "e1"
+    },
+    {
+      "s": "e3",
+      "p": "provides",
+      "o": "e1"
+    },
+    {
+      "s": "e4",
+      "p": "provides",
+      "o": "e1"
+    },
+    {
+      "s": "e5",
+      "p": "provides",
+      "o": "e1"
+    }
+  ]
+}

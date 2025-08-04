@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my specialization?",
+      "a": "climatology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Alaskan native art"
+    },
+    {
+      "q": "What is my favorite drill?",
+      "a": "ArcticMax Ultra Drill"
+    },
+    {
+      "q": "What is my origin city?",
+      "a": "Oslo, Norway"
+    },
+    {
+      "q": "How many field research trips have I conducted?",
+      "a": "34"
+    },
+    {
+      "q": "What is my favorite weather condition?",
+      "a": "clear sky nights"
+    },
+    {
+      "q": "What is my favorite ice core location?",
+      "a": "Brooks Range"
+    },
+    {
+      "q": "What is my preferred snowmobile brand?",
+      "a": "Yamaha"
+    },
+    {
+      "q": "What is my communication device preference?",
+      "a": "Iridium Satellite Phone"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization am I a member of?"
+      ],
+      "a": "Research Program",
+      "attribute": "entity type=Research Program",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the budget of the research program I am a member of?"
+      ],
+      "a": "5 million USD annually",
+      "attribute": "budget=5 million USD annually",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the research focus of the program I am a member of?"
+      ],
+      "a": "Permafrost dynamics and climate impact",
+      "attribute": "research focus=Permafrost dynamics and climate impact",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What are the collaborating institutions of the research program I am a member of?"
+      ],
+      "a": "Arctic Research Institute, International Climatology Network",
+      "attribute": "collaborating institutions=Arctic Research Institute, International Climatology Network",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the duration of the research program I am a member of?"
+      ],
+      "a": "2005-present",
+      "attribute": "duration=2005-present",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the notable contribution of the research program I am a member of?"
+      ],
+      "a": "First comprehensive permafrost temperature map of Alaska",
+      "attribute": "notable contribution=First comprehensive permafrost temperature map of Alaska",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the field station location of the research program I am a member of?"
+      ],
+      "a": "North Slope, Alaska",
+      "attribute": "field station location=North Slope, Alaska",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "How many annual publications does the research program I am a member of produce?"
+      ],
+      "a": "15",
+      "attribute": "annual publications=15",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What community outreach activities does the research program I am a member of conduct?"
+      ],
+      "a": "Annual educational workshops for Alaskan communities",
+      "attribute": "community outreach=Annual educational workshops for Alaskan communities",
+      "path": "Dr. Lars Nordvik -> Permafrost Research Initiative"
+    },
+    {
+      "q": [
+        "What is the specialization of the researcher who collaborates with me?"
+      ],
+      "a": "glaciology",
+      "attribute": "specialization=glaciology",
+      "path": "Dr. Amelia Frost -> Dr. Lars Nordvik"
+    }
+  ]
+}

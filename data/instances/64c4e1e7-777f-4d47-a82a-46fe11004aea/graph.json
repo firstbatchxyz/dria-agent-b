@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Dr. Lisa Chen",
+      "type": "Person",
+      "specialization": "Emergency Medicine",
+      "years_of_experience": 8,
+      "certifications": "Advanced Trauma Life Support (ATLS)",
+      "hobbies": "painting",
+      "languages_spoken": "English, Mandarin, Spanish",
+      "alma_mater": "University of Chicago Pritzker School of Medicine",
+      "shift_schedule": "12-hour night shifts",
+      "medical_research_focus": "Burn treatment innovations",
+      "favorite_medical_tool": "Stethoscope"
+    },
+    {
+      "id": "p2",
+      "name": "Nurse Javier Muñoz",
+      "type": "Person",
+      "specialization": "Trauma Nursing",
+      "years_of_experience": 5,
+      "certifications": "Certified Emergency Nurse (CEN)",
+      "languages_spoken": "English, Spanish",
+      "alma_mater": "Loyola University Chicago",
+      "hobbies": "photography",
+      "favorite_medical_tool": "Suction catheter",
+      "shift_schedule": "8-hour morning shifts",
+      "birthplace": "Havana, Cuba",
+      "volunteer_work": "Local youth soccer coach"
+    },
+    {
+      "id": "p3",
+      "name": "Paramedic Emily Simmons",
+      "type": "Person",
+      "full_name": "Emily Simmons",
+      "profession": "Paramedic",
+      "experience_years": 5,
+      "shift": "Night",
+      "certifications": "Advanced Cardiac Life Support (ACLS), Pediatric Advanced Life Support (PALS)",
+      "specialty": "Cardiac emergencies",
+      "favorite_tool": "Portable trauma kit",
+      "hometown": "Springfield, Illinois",
+      "languages_spoken": "English, Spanish",
+      "education": "Associate of Applied Science in Paramedicine",
+      "recent_award": "EMS Responder of the Year 2022"
+    },
+    {
+      "id": "p4",
+      "name": "Dr. Kevin Patel",
+      "type": "Person",
+      "full_name": "Kevin Patel",
+      "profession": "Doctor",
+      "specialization": "Traumatology",
+      "years_of_experience": 10,
+      "certifications": "Advanced Trauma Life Support (ATLS)",
+      "languages_spoken": "English, Hindi",
+      "alma_mater": "Johns Hopkins University School of Medicine",
+      "shift_schedule": "Day shifts",
+      "hobbies": "cycling",
+      "medical_research_focus": "Trauma resuscitation techniques",
+      "favorite_medical_tool": "Portable ultrasound"
+    },
+    {
+      "id": "p5",
+      "name": "Nurse Rachel Brooks",
+      "type": "Person",
+      "full_name": "Rachel Brooks",
+      "profession": "Nurse",
+      "department": "Emergency",
+      "years_of_experience": 8,
+      "certifications": "Certified Emergency Nurse (CEN)",
+      "shift": "Day",
+      "favorite_medical_tool": "Stethoscope",
+      "languages_spoken": "English, French",
+      "hometown": "Evanston, Illinois",
+      "education": "Bachelor of Science in Nursing",
+      "recent_award": "Nurse Excellence Award 2021",
+      "hobbies": "reading medical literature, gardening"
+    },
+    {
+      "id": "e1",
+      "name": "X-ray Machine A12",
+      "entity_type": "Medical Equipment",
+      "type": "Entity",
+      "model": "XRS-3000",
+      "manufacturer": "MedTech Solutions",
+      "year_of_installation": 2022,
+      "maximum_power_output": "200 kV",
+      "maintenance_schedule": "Quarterly",
+      "primary_usage": "Trauma assessment",
+      "location_within_department": "Trauma Bay 3",
+      "warranty_expiry_date": "2025-11-30",
+      "unique_feature": "Enhanced digital imaging"
+    },
+    {
+      "id": "e2",
+      "name": "Defibrillator DX-400",
+      "entity_type": "Medical Equipment",
+      "type": "Entity",
+      "model": "DX-400",
+      "manufacturer": "MedTech Solutions",
+      "year_of_purchase": 2019,
+      "last_serviced": "2023-05-16",
+      "primary_usage": "Cardiac arrest resuscitation",
+      "features": "Biphasic waveform, monitoring screen, lightweight design",
+      "battery_life": "5 hours",
+      "location_in_hospital": "Emergency Room, Bay 3",
+      "warranty_status": "Active",
+      "usage_statistics": "200+ successful resuscitations"
+    },
+    {
+      "id": "e3",
+      "name": "Patient Chart System",
+      "entity_type": "IT Infrastructure",
+      "type": "Entity",
+      "software_type": "Electronic Health Record (EHR) System",
+      "manufacturer": "MediSoft Inc.",
+      "implementation_year": 2018,
+      "version": "3.5.2",
+      "data_storage_capacity_gb": 1024,
+      "compliance_standard": "HIPAA",
+      "integrated_modules": "Patient Management, Appointment Scheduling, Billing Module",
+      "accessibility": "Role-based Access Control (RBAC)",
+      "interface": "User-friendly Graphic Interface",
+      "backups_frequency": "Daily automatic backups",
+      "department_served": "Emergency Department"
+    },
+    {
+      "id": "e4",
+      "name": "Trauma Bay 1",
+      "entity_type": "Physical Location",
+      "type": "Entity",
+      "capacity": 2,
+      "equipment_available": "X-ray machine, defibrillator, patient monitoring system",
+      "average_weekly_cases": 35,
+      "location_status": "Active",
+      "staffing_schedule": "24/7",
+      "recent_improvements": "Integrated electronic patient chart system installed",
+      "sanitation_check_date": "2023-09-15",
+      "noise_level": "Moderate",
+      "optimal_temperature": "22°C",
+      "emergency_accessibility": "Direct from ambulance bay"
+    },
+    {
+      "id": "e5",
+      "name": "Resuscitation Room 2",
+      "entity_type": "Physical Location",
+      "type": "Entity",
+      "description": "Specialized room equipped for critical patient assessments and emergency treatments in trauma care.",
+      "equipment": "Advanced cardiac life support devices, trauma carts, oxygen therapy systems.",
+      "capacity": 3,
+      "operational_hours": "24/7",
+      "common_cases": "Severe trauma, cardiac arrests, respiratory failure.",
+      "safety_features": "Emergency power backup, central monitoring system.",
+      "adjacent_facilities": "X-ray room, defibrillator storage, patient observation area."
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "supervises",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "examines",
+      "o": "e4"
+    },
+    {
+      "s": "p2",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "assists",
+      "o": "p1"
+    },
+    {
+      "s": "p3",
+      "p": "transports_to",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "operates",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "works_with",
+      "o": "p1"
+    },
+    {
+      "s": "p4",
+      "p": "supervises",
+      "o": "p5"
+    },
+    {
+      "s": "p4",
+      "p": "performs",
+      "o": "e5"
+    },
+    {
+      "s": "p4",
+      "p": "consults_with",
+      "o": "p3"
+    },
+    {
+      "s": "p5",
+      "p": "works_with",
+      "o": "p3"
+    },
+    {
+      "s": "p5",
+      "p": "records_on",
+      "o": "e3"
+    }
+  ]
+}

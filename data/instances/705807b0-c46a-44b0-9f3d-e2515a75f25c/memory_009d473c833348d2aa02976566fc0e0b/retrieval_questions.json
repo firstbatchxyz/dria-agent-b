@@ -1,0 +1,192 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Software Engineer"
+    },
+    {
+      "q": "What are my expertise areas?",
+      "a": "deep learning, cloud computing"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "4"
+    },
+    {
+      "q": "What is my favorite programming language?",
+      "a": "Python"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "B.Sc. in Computer Engineering from UC Santa Cruz"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "hiking, blockchain gaming"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Code to innovate, inspire to create"
+    },
+    {
+      "q": "What is my primary work location?",
+      "a": "Sunnyvale, California"
+    },
+    {
+      "q": "What is my preferred development environment?",
+      "a": "PyCharm"
+    },
+    {
+      "q": "What is my email?",
+      "a": "jordan.lee@nimbusai.com"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Azure AI Engineer Associate"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of company I work at?"
+      ],
+      "a": "startup",
+      "attribute": "entity type=startup",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the founding year of the company I work at?"
+      ],
+      "a": "2018",
+      "attribute": "founding year=2018",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the headquarters location of the company I work at?"
+      ],
+      "a": "Palo Alto, California",
+      "attribute": "headquarters location=Palo Alto, California",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the core technology of the company I work at?"
+      ],
+      "a": "Artificial General Intelligence",
+      "attribute": "core technology=Artificial General Intelligence",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the mission statement of the company I work at?"
+      ],
+      "a": "Creating intelligent solutions to elevate human potential",
+      "attribute": "mission statement=Creating intelligent solutions to elevate human potential",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the number of employees at the company I work at?"
+      ],
+      "a": "25",
+      "attribute": "number of employees=25",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the funding stage of the company I work at?"
+      ],
+      "a": "Series B",
+      "attribute": "funding stage=Series B",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "Who are the notable clients of the company I work at?"
+      ],
+      "a": "TechNow Inc, Innovatech Solutions",
+      "attribute": "notable clients=TechNow Inc, Innovatech Solutions",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What is the annual revenue of the company I work at?"
+      ],
+      "a": "4.5",
+      "attribute": "annual revenue=4.5",
+      "path": "Jordan Lee -> NimbusAI"
+    },
+    {
+      "q": [
+        "What are the primary industries of the company I work at?"
+      ],
+      "a": "Healthcare, Finance, Education",
+      "attribute": "primary industries=Healthcare, Finance, Education",
+      "path": "Jordan Lee -> NimbusAI"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "collaboration platform",
+      "attribute": "entity type=collaboration platform",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What is the location of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Sunnyvale, California",
+      "attribute": "location=Sunnyvale, California",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What is the primary focus area of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "AI collaboration and innovation",
+      "attribute": "primary focus area=AI collaboration and innovation",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What is the established year of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "2018",
+      "attribute": "established year=2018",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What is the team size of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "20",
+      "attribute": "team size=20",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What is the funding stage of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Series A",
+      "attribute": "funding stage=Series A",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "Who is the founder of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Dr. Avery Thompson",
+      "attribute": "founder=Dr. Avery Thompson",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What are the affiliated universities of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Stanford University, MIT",
+      "attribute": "affiliated universities=Stanford University, MIT",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "Who are the industry partners of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Google, NVIDIA",
+      "attribute": "industry partners=Google, NVIDIA",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    },
+    {
+      "q": "What are the notable projects of the lab that the person I share server with and collaborate on model with conducts research in?",
+      "a": "Project Insight - AI-driven data analysis platform",
+      "attribute": "notable projects=Project Insight - AI-driven data analysis platform",
+      "path": "Jordan Lee - shares server with & collaborates on model with -> Emily Kim - conducts research in-> Machina Learning Lab"
+    }
+  ]
+}

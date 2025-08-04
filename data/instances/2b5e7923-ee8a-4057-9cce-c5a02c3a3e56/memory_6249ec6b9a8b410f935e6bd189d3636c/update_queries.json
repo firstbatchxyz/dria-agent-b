@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my language information in the system - I actually speak English, French, and Spanish, not just English and French as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name Origin**: Derived from Arctic Weather\n\n - **Years Of Service**: 5\n\n - **Specialization**: Rescue Operations\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Favorite Weapon**: Semi-automatic Pistol\n\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n"
+    },
+    {
+      "query": "I had a great conversation with some Spanish-speaking visitors at the park today, and I'm grateful that my fluency in English, French, and Spanish allows me to assist such a diverse range of people during their outdoor adventures.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name Origin**: Derived from Arctic Weather\n\n - **Years Of Service**: 5\n\n - **Specialization**: Rescue Operations\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Favorite Weapon**: Semi-automatic Pistol\n\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n"
+    },
+    {
+      "query": "I need to correct my military record - I was actually awarded the Medal of Valor for Mountain Rescue Operations, not the Bravery in the Arctic medal as currently listed in my file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n - **Hobby**: Dog Sledding\n\n-- **Medals Awarded**: Bravery in the Arctic\n\n+- **Medals Awarded**: Medal of Valor for Mountain Rescue Operations\n\n - **Notable Mission**: Operation Polar Light\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "During that challenging mountain rescue mission last winter, I'm grateful the Medal of Valor for Mountain Rescue Operations recognized our team's efforts to save those stranded climbers.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n - **Hobby**: Dog Sledding\n\n-- **Medals Awarded**: Bravery in the Arctic\n\n+- **Medals Awarded**: Medal of Valor for Mountain Rescue Operations\n\n - **Notable Mission**: Operation Polar Light\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my language skills in the system - I actually speak English, French, and Spanish now, not just English and French as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name Origin**: Derived from Arctic Weather\n\n - **Years Of Service**: 5\n\n - **Specialization**: Rescue Operations\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Favorite Weapon**: Semi-automatic Pistol\n\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n"
+    },
+    {
+      "query": "I've been finding my trilingual abilities in English, French, and Spanish really helpful when communicating with diverse groups of park visitors during my ranger duties.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Last Name Origin**: Derived from Arctic Weather\n\n - **Years Of Service**: 5\n\n - **Specialization**: Rescue Operations\n\n-- **Languages Spoken**: English, French\n\n+- **Languages Spoken**: English, French, Spanish\n\n - **Favorite Weapon**: Semi-automatic Pistol\n\n - **Hometown**: Whitehorse\n\n - **Field Of Study**: Arctic Wildlife\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my communication records - I'm no longer in contact with Corporal Josh Nanuq. My primary communication contact has changed to Sergeant Maria Frost from the Arctic Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[blizzard_snowmobiles.md]]\n\n-- **Communicates_With**: [[corporal_josh_nanuq.md]]\n+- **Communicates_With**: [[sergeant_maria_frost.md]]\n\n===entities/sergeant_maria_frost.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sergeant Maria Frost\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Communicates_With**: [[ranger_liam_blizzard.md]]\n"
+    },
+    {
+      "query": "Just finished my weekly check-in with Sergeant Maria Frost - she's been incredibly helpful coordinating our northern patrol routes and supply drops.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[blizzard_snowmobiles.md]]\n\n-- **Communicates_With**: [[corporal_josh_nanuq.md]]\n+- **Communicates_With**: [[sergeant_maria_frost.md]]\n\n===entities/sergeant_maria_frost.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sergeant Maria Frost\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Communicates_With**: [[ranger_liam_blizzard.md]]\n"
+    },
+    {
+      "query": "I need to update my communication records - I'm no longer in contact with Corporal Josh Nanuq, but I've been regularly communicating with Sergeant Maria Frostwind from the Arctic Operations Unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[blizzard_snowmobiles.md]]\n\n-- **Communicates_With**: [[corporal_josh_nanuq.md]]\n+- **Communicates_With**: [[sergeant_maria_frostwind.md]]\n\n===entities/sergeant_maria_frostwind.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sergeant Maria Frostwind\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Communicates_With**: [[ranger_liam_blizzard.md]]\n"
+    },
+    {
+      "query": "Just finished my weekly briefing with Sergeant Maria Frostwind - she's been incredibly helpful with coordinating our northern patrol routes and sharing intel from her unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Maintains**: [[blizzard_snowmobiles.md]]\n\n-- **Communicates_With**: [[corporal_josh_nanuq.md]]\n+- **Communicates_With**: [[sergeant_maria_frostwind.md]]\n\n===entities/sergeant_maria_frostwind.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Sergeant Maria Frostwind\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Communicates_With**: [[ranger_liam_blizzard.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

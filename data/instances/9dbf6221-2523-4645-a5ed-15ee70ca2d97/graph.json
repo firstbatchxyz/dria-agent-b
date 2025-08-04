@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Lama Dorje",
+      "type": "Person",
+      "full_name": "Lama Dorje Thinley",
+      "age": 68,
+      "birthplace": "Thimphu, Bhutan",
+      "spiritual_title": "Rinpoche",
+      "expertise": "Ancient Manuscript Preservation",
+      "favorite_meditation": "Tonglen",
+      "daily_routine": "Awakes at 4 AM for morning chant",
+      "teaching_style": "Storytelling and guided imagery"
+    },
+    {
+      "id": "p2",
+      "name": "Brother Tenzin",
+      "type": "Person",
+      "age": 32,
+      "role": "Senior Monk",
+      "meditation_specialty": "Zen meditation",
+      "favorite_sutras": "Heart Sutra, Diamond Sutra",
+      "birthplace": "Ladakh, India",
+      "hobbies": "Calligraphy, Herbal Medicine",
+      "languages_spoken": "Tibetan, English",
+      "ordained_year": 2015,
+      "spiritual_teacher": "Master Jampa",
+      "culinary_specialty": "Traditional Tibetan dishes"
+    },
+    {
+      "id": "p3",
+      "name": "Sister Pema",
+      "type": "Person",
+      "meditation_specialty": "Zen Meditation",
+      "favorite_mantra": "Om Mani Padme Hum",
+      "years_at_monastery": 15,
+      "culinary_specialty": "Tibetan Tsampa",
+      "known_for": "storytelling"
+    },
+    {
+      "id": "p4",
+      "name": "Novice Lobsang",
+      "type": "Person",
+      "age": 19,
+      "nationality": "Tibetan",
+      "favorite_meditation_technique": "Tonglen",
+      "role_in_monastery": "scripture_copier",
+      "hobby": "calligraphy",
+      "spiritual_inspiration": "Milarepa's Teachings",
+      "daily_routine": "wakes up at 4 AM for morning meditation",
+      "years_in_monastery": 2,
+      "personal_motto": "Compassion is the path to enlightenment",
+      "vegetarian": true
+    },
+    {
+      "id": "p5",
+      "name": "Elder Rinzin",
+      "type": "Person",
+      "age": 72,
+      "roles": "Teacher, Guardian of Texts",
+      "expertise": "Ancient Practices and Manuscript Preservation",
+      "meditation_speciality": "Zazen",
+      "origin": "Lhasa, Tibet",
+      "favorite_prayer_wheel": "Wheel of Compassion",
+      "daily_routine": "4 AM meditation, manuscript preservation, evening teachings",
+      "spiritual_mentor": "Guru Tenzin",
+      "languages_spoken": "Tibetan, Sanskrit, English",
+      "cherished_mantra": "Om Mani Padme Hum",
+      "dietary_preference": "Vegan",
+      "hobby": "Calligraphy",
+      "unique_identifier": "elderrinzinhimalaya72"
+    },
+    {
+      "id": "e1",
+      "name": "Meditation Hall of Stillness",
+      "entity_type": "place",
+      "type": "Entity",
+      "location": "Himalayan Mountains",
+      "capacity": 50,
+      "architecture_style": "Traditional Tibetan",
+      "opening_hours": "4 AM - 9 PM",
+      "ambient_features": "Tranquil Water Fountain",
+      "notable_events": "Annual Silent Retreat"
+    },
+    {
+      "id": "e2",
+      "name": "The Sacred Library of Wisdom",
+      "entity_type": "facility",
+      "type": "Entity",
+      "architectural_style": "Tibetan Buddhist",
+      "established_year": 1765,
+      "notable_manuscripts": "Kangyur, Tengyur",
+      "library_keeper": "Lama Dorje",
+      "special_collections": "Ancient Sanskrit texts",
+      "opening_hours": "6 AM - 8 PM",
+      "annual_visitors": 5000,
+      "location_within_monastery": "Upper Chamber",
+      "accessibility_features": "ramps, braille signage",
+      "funding_source": "Community Donations"
+    },
+    {
+      "id": "e3",
+      "name": "Holy Prayer Wheel of Harmony",
+      "entity_type": "artifact",
+      "type": "Entity",
+      "material": "bronze",
+      "height_meters": 2.5,
+      "age_years": 300,
+      "inscriptions": "Sanskrit Mantras",
+      "location": "Central Courtyard",
+      "blessing_frequency": "Weekly"
+    },
+    {
+      "id": "e4",
+      "name": "The Eternal Flame Kitchen",
+      "entity_type": "facility",
+      "type": "Entity",
+      "establishment_year": 1883,
+      "daily_meals_prepared": 150,
+      "specialty_dish": "Butter Tea",
+      "architectural_style": "Traditional Tibetan",
+      "notable_events": "annual monastic tea ceremony",
+      "average_temperature": 20,
+      "primary_materials_used": "stone and wood",
+      "soundscape": "soft chanting and the clang of cooking pots",
+      "view": "overlooking the snow-capped mountains"
+    },
+    {
+      "id": "e5",
+      "name": "Ancient Manuscripts of Enlightenment",
+      "entity_type": "artifact",
+      "type": "Entity",
+      "age": "over 800 years",
+      "origin": "Eastern Himalayas, Nepal",
+      "primary_language": "Classical Tibetan",
+      "composition_material": "Rice Paper and Natural Dye Ink",
+      "last_restoration": "2015",
+      "number_of_volumes": 108,
+      "spiritual_significance": "Contains teachings of enlightenment and liberation",
+      "condition": "fragile",
+      "unique_feature": "Intricate hand-painted mandalas on cover pages",
+      "storage_method": "Temperature-controlled chamber"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "meditates in",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "leads ceremonies at",
+      "o": "e3"
+    },
+    {
+      "s": "p2",
+      "p": "studies at",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "cooks in",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "maintains",
+      "o": "e5"
+    },
+    {
+      "s": "p3",
+      "p": "prepares meals at",
+      "o": "e4"
+    },
+    {
+      "s": "p4",
+      "p": "prays with",
+      "o": "e3"
+    },
+    {
+      "s": "p4",
+      "p": "learns in",
+      "o": "e2"
+    },
+    {
+      "s": "p5",
+      "p": "teaches in",
+      "o": "e1"
+    },
+    {
+      "s": "p5",
+      "p": "oversees",
+      "o": "e5"
+    }
+  ]
+}

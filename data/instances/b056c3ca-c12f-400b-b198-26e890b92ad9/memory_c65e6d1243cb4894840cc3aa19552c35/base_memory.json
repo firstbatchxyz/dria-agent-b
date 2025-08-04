@@ -1,0 +1,16 @@
+{
+  "user_md": "# Dr. Lars Nordvik\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: climatology\n- **Years Of Experience**: 12\n- **Hobby**: Alaskan native art\n- **Favorite Drill**: ArcticMax Ultra Drill\n- **Origin City**: Oslo, Norway\n- **Field Research Trip Count**: 34\n- **Favorite Weather Condition**: clear sky nights\n- **Favorite Ice Core Location**: Brooks Range\n- **Preferred Snowmobile Brand**: Yamaha\n- **Communication Device Preference**: Iridium Satellite Phone\n\n## Relationships\n- **Collaborates With**: [[dr._amelia_frost.md]]\n- **Member Of**: [[permafrost_research_initiative.md]]",
+  "entities": [
+    {
+      "entity_name": "dr._amelia_frost",
+      "entity_file_path": "entities/dr._amelia_frost.md",
+      "entity_file_content": "# Dr. Amelia Frost\n\n## Basic Information\n- **Type**: Person\n- **Specialization**: glaciology\n- **Years Of Experience**: 15\n- **Hobby**: wildlife photography\n- **Favorite Drill**: Electra-2 Ice Core Drill\n- **Origin City**: Seattle, Washington\n- **Field Research Trip Count**: 27\n- **Favorite Weather Condition**: blizzard conditions\n\n## Relationships\n- **Collaborates With**: [[dr._lars_nordvik.md]]"
+    },
+    {
+      "entity_name": "permafrost_research_initiative",
+      "entity_file_path": "entities/permafrost_research_initiative.md",
+      "entity_file_content": "# Permafrost Research Initiative\n\n## Basic Information\n- **Entity Type**: Research Program\n- **Type**: Entity\n- **Budget**: 5 million USD annually\n- **Research Focus**: Permafrost dynamics and climate impact\n- **Collaborating Institutions**: Arctic Research Institute, International Climatology Network\n- **Duration**: 2005-present\n- **Notable Contribution**: First comprehensive permafrost temperature map of Alaska\n- **Field Station Location**: North Slope, Alaska\n- **Annual Publications**: 15\n- **Community Outreach**: Annual educational workshops for Alaskan communities\n\n## Relationships\n- **Member Of**: [[dr._lars_nordvik.md]]"
+    }
+  ],
+  "mem_id": "memory_c65e6d1243cb4894840cc3aa19552c35"
+}

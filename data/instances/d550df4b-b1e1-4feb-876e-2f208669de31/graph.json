@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Lin Mei",
+      "type": "Person",
+      "age": 46,
+      "specialty_dish": "Hainanese Chicken Rice",
+      "experience_years": 20,
+      "language_spoken": "Mandarin, English",
+      "working_days": "Monday to Saturday",
+      "hours_of_operation": "10:00 AM - 8:00 PM",
+      "certification": "Certified Hawker Master",
+      "favorite_hobby": "Gardening",
+      "birthplace": "Singapore"
+    },
+    {
+      "id": "p2",
+      "name": "Rajiv Kapoor",
+      "type": "Person",
+      "full_name": "Rajiv Kapoor",
+      "occupation": "food stall owner",
+      "signature_dish": "butter chicken",
+      "years_in_business": 15,
+      "family_background": "comes from a family of chefs",
+      "help_during_lunch_rush": true,
+      "preferred_vacation_destination": "Kerala, India",
+      "language_spoken": "Tamil, English"
+    },
+    {
+      "id": "p3",
+      "name": "Faridah Mansoor",
+      "type": "Person",
+      "role": "food stall owner",
+      "specialty": "Nasi Lemak",
+      "years_of_experience": 15,
+      "language_spoken": "Malay",
+      "favorite_ingredient": "Pandan leaf",
+      "community_involvement": "organizes charity food drives",
+      "business_vision": "To preserve traditional recipes while incorporating modern cooking techniques",
+      "inspiration": "Family recipes passed down through generations"
+    },
+    {
+      "id": "p4",
+      "name": "Chan Wei",
+      "type": "Person",
+      "occupation": "Food Stall Owner",
+      "specialty_dish": "Crispy Duck Rice",
+      "years_of_experience": 15,
+      "usual_working_hours": "11:00 AM - 8:00 PM",
+      "bilingual": "English, Mandarin",
+      "favorite_ingredient": "Star Anise",
+      "customer_interaction_style": "warm and friendly",
+      "hobbies_outside_work": "gardening, calligraphy",
+      "instagram_handle": "@duckkingchanwei",
+      "local_resident": true
+    },
+    {
+      "id": "p5",
+      "name": "Anita Devan",
+      "type": "Person",
+      "occupation": "Food Stall Owner",
+      "specialty_dish": "Spicy Nasi Lemak",
+      "years_of_experience": 15,
+      "languages_spoken": "English, Tamil, Malay",
+      "customer_favorite": "Homemade Sambal",
+      "business_hours": "6:00 AM - 2:00 PM",
+      "has_assistant": true,
+      "weekend_availability": true,
+      "sustainability_practices": "Uses biodegradable packaging",
+      "weekly_demand_peak": "Friday lunchtimes"
+    },
+    {
+      "id": "p6",
+      "name": "Rosli Ahmad",
+      "type": "Person",
+      "age": 42,
+      "specialty": "Nasi Lemak",
+      "years_experience": 15,
+      "language_spoken": "Malay",
+      "marital_status": "married",
+      "children": 3,
+      "favorite_hobby": "fishing",
+      "education": "Diploma in Culinary Arts",
+      "awards": "Best Traditional Dish 2022",
+      "peak_hours": "11 AM - 2 PM",
+      "local_fame": true
+    },
+    {
+      "id": "e1",
+      "name": "Maxwell Hawker Centre",
+      "entity_type": "Location",
+      "type": "Entity",
+      "peak_customer_days": "Friday and Saturday",
+      "cleaning_schedule": "Daily",
+      "waste_management": "Recycling bins available",
+      "famous_events": "Annual Hawker Fest",
+      "historical_background": "Established in 1978",
+      "total_stalls": 47,
+      "iconic_stall": "Nasi Lemak Delight by Rosli Ahmad",
+      "collaborative_initiatives": "Joint Lunch Promotions"
+    },
+    {
+      "id": "e2",
+      "name": "Common Refrigeration Unit",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "maximum_temperature": "4°C",
+      "capacity": "500 liters",
+      "brand": "ChillMaster",
+      "shared_by_vendors": 2,
+      "energy_efficiency": "A+",
+      "maintenance_schedule": "Monthly",
+      "location": "Central Section"
+    },
+    {
+      "id": "e3",
+      "name": "Cooking Gas Network",
+      "entity_type": "Utility",
+      "type": "Entity",
+      "capacity": "high-volume",
+      "safety_features": "automatic shut-off valves",
+      "maintenance_schedule": "bi-monthly",
+      "type_of_gas": "liquefied petroleum gas (LPG)",
+      "supplier": "SG Gas Solutions",
+      "installation_year": 2018,
+      "location": "central utility area near Maxwell Road"
+    },
+    {
+      "id": "e4",
+      "name": "Central Cleaning Supplies",
+      "entity_type": "Resource",
+      "type": "Entity",
+      "location": "southwest corner of the hawker center",
+      "operational_hours": "6 AM - 10 PM",
+      "number_of_items": 150,
+      "type_of_supplies": "cleaning agents and equipment"
+    },
+    {
+      "id": "e5",
+      "name": "Lunch Rush United",
+      "entity_type": "Collective",
+      "type": "Entity",
+      "members_count": 20,
+      "establishment_year": 2005,
+      "community_philosophy": "United in Flavor",
+      "shared_equipment": "Ice machines, dishwashers",
+      "events": "Annual Cooking Competition",
+      "support_system": "Peer-to-peer skill exchange workshops",
+      "facebook_page": "Lunch Rush United Community",
+      "average_daily_customers": 500
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "belongs to",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "uses",
+      "o": "e3"
+    },
+    {
+      "s": "p2",
+      "p": "belongs to",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "shares",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "belongs to",
+      "o": "e1"
+    },
+    {
+      "s": "p4",
+      "p": "participates in",
+      "o": "e5"
+    },
+    {
+      "s": "p4",
+      "p": "belongs to",
+      "o": "e1"
+    },
+    {
+      "s": "p5",
+      "p": "uses",
+      "o": "e2"
+    },
+    {
+      "s": "p5",
+      "p": "shares",
+      "o": "e3"
+    },
+    {
+      "s": "p5",
+      "p": "belongs to",
+      "o": "e1"
+    },
+    {
+      "s": "p6",
+      "p": "shares",
+      "o": "e4"
+    },
+    {
+      "s": "p6",
+      "p": "participates in",
+      "o": "e5"
+    },
+    {
+      "s": "p6",
+      "p": "belongs to",
+      "o": "e1"
+    }
+  ]
+}

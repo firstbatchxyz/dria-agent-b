@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Sergeant Major"
+    },
+    {
+      "q": "What is my first name?",
+      "a": "Kristof"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Novak"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "22"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "tactical security operations"
+    },
+    {
+      "q": "What is my favorite weapon?",
+      "a": "Beretta M9"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Krakow, Poland"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "chess, hiking"
+    },
+    {
+      "q": "What decorations do I have?",
+      "a": "Bronze Star Medal"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Polish, Russian"
+    },
+    {
+      "q": "What is my leadership style?",
+      "a": "adaptive and team-focused"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of unit that I coordinate security with?"
+      ],
+      "a": "Security Patrol",
+      "attribute": "entity type=Security Patrol",
+      "path": "Sgt. major Kristof Novak -> Perimeter Patrol Unit"
+    },
+    {
+      "q": [
+        "What is the operational focus of the unit that I coordinate security with?"
+      ],
+      "a": "24/7 base perimeter monitoring and response",
+      "attribute": "operational focus=24/7 base perimeter monitoring and response",
+      "path": "Sgt. major Kristof Novak -> Perimeter Patrol Unit"
+    },
+    {
+      "q": [
+        "What are the primary vehicles used by the unit that I coordinate security with?"
+      ],
+      "a": "M1117 Armored Security Vehicles",
+      "attribute": "primary vehicles used=M1117 Armored Security Vehicles",
+      "path": "Sgt. major Kristof Novak -> Perimeter Patrol Unit"
+    },
+    {
+      "q": [
+        "What is the primary communication system of the unit that I coordinate security with?"
+      ],
+      "a": "encrypted radio network",
+      "attribute": "primary communication system=encrypted radio network",
+      "path": "Sgt. major Kristof Novak -> Perimeter Patrol Unit"
+    },
+    {
+      "q": [
+        "What is the average team size of the unit that I coordinate security with?"
+      ],
+      "a": "30",
+      "attribute": "average team size=30",
+      "path": "Sgt. major Kristof Novak -> Perimeter Patrol Unit"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of installation does the unit that I coordinate security with patrol?",
+      "a": "Radar Installation",
+      "attribute": "installation type=Radar Installation",
+      "path": "Sgt. major Kristof Novak - coordinates security with -> Perimeter Patrol Unit - patrols-> Defender Radar Installation"
+    },
+    {
+      "q": "Where is the installation located that the unit I coordinate security with patrols?",
+      "a": "northwestern sector of the base",
+      "attribute": "location=northwestern sector of the base",
+      "path": "Sgt. major Kristof Novak - coordinates security with -> Perimeter Patrol Unit - patrols-> Defender Radar Installation"
+    },
+    {
+      "q": "What is the range coverage of the installation that the unit I coordinate security with patrols?",
+      "a": "300 km",
+      "attribute": "range coverage=300 km",
+      "path": "Sgt. major Kristof Novak - coordinates security with -> Perimeter Patrol Unit - patrols-> Defender Radar Installation"
+    },
+    {
+      "q": "What type of radar does the installation have that the unit I coordinate security with patrols?",
+      "a": "phased-array",
+      "attribute": "type of radar=phased-array",
+      "path": "Sgt. major Kristof Novak - coordinates security with -> Perimeter Patrol Unit - patrols-> Defender Radar Installation"
+    },
+    {
+      "q": "What is the primary function of the installation that the unit I coordinate security with patrols?",
+      "a": "airspace monitoring",
+      "attribute": "primary function=airspace monitoring",
+      "path": "Sgt. major Kristof Novak - coordinates security with -> Perimeter Patrol Unit - patrols-> Defender Radar Installation"
+    }
+  ]
+}

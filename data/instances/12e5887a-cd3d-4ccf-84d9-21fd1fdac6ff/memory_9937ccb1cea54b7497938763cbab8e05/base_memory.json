@@ -1,0 +1,46 @@
+{
+  "user_md": "# Commander Elena Vasilieva\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Commander\n- **Nationality**: Russian\n- **Age**: 42\n- **Specialty**: Aerodynamics and Spacecraft Navigation\n- **Years In Service**: 18\n- **Hobbies**: Photography and Chess\n- **Signature Work**: Pioneering advancements in the ISS's life support systems\n- **Favorite Space Meal**: Borscht vacuum pack\n- **Leadership Style**: Collaborative and Empathetic\n- **Mission Allegiance**: ISS Expedition 68\n- **Education**: PhD in Aerospace Engineering from the Moscow Institute of Physics and Technology\n\n## Relationships\n- **Supports**: [[mei_lin.md]]\n- **Supervises**: [[dr._raj_patel.md]]\n- **Operates**: [[harmony_module.md]]\n- **Coordinates_With**: [[lieutenant_john_carmichael.md]]",
+  "entities": [
+    {
+      "entity_name": "mei_lin",
+      "entity_file_path": "entities/mei_lin.md",
+      "entity_file_content": "# Mei Lin\n\n## Basic Information\n- **Type**: Person\n- **Role**: Engineer\n- **Nationality**: Chinese\n- **Age**: 33\n- **Specialty**: Robotic systems and microgravity experiments\n- **Years In Service**: 10\n- **Hobbies**: Calligraphy and Kung Fu movies\n- **Signature Work**: Developed an advanced robotic arm for satellite maintenance\n- **Favorite Space Meal**: Freeze-dried Kung Pao Chicken\n- **Education**: Master's in Mechanical Engineering from Tsinghua University\n- **Research Focus**: Impact of microgravity on fluid dynamics\n- **Interaction Style**: Analytical and Detail-oriented\n- **Mission Allegiance**: ISS Expedition 68\n\n## Relationships\n- **Supports**: [[commander_elena_vasilieva.md]]"
+    },
+    {
+      "entity_name": "dr._raj_patel",
+      "entity_file_path": "entities/dr._raj_patel.md",
+      "entity_file_content": "# Dr. Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Nationality**: Indian\n- **Age**: 38\n- **Specialty**: Materials Science\n- **Research Focus**: Microgravity effects on advanced composite materials\n- **Years In Service**: 10\n- **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n- **Favorite Space Meal**: Chana Masala dehydrated pack\n- **Hobbies**: Astrophotography and playing the guitar\n- **Signature Experiment**: Leading research on carbon nanotube synthesis in microgravity environments\n- **Mission Allegiance**: ISS Expedition 68\n- **Physical Fitness Routine**: Daily treadmill and resistance training\n- **Language Proficiency**: English, Hindi, and Russian\n\n## Relationships\n- **Supervises**: [[commander_elena_vasilieva.md]]"
+    },
+    {
+      "entity_name": "harmony_module",
+      "entity_file_path": "entities/harmony_module.md",
+      "entity_file_content": "# Harmony Module\n\n## Basic Information\n- **Entity Type**: Research Module\n- **Type**: Entity\n- **Function**: Central hub for linking laboratory modules\n- **Length**: 7.2\n- **Width**: 4.4\n- **Built Year**: 2008\n- **Primary Materials**: Aluminum alloys\n- **Customs**: Acts as a common area for astronauts to meet and share meals\n- **Emergency Protocols**: Houses manual override control systems\n\n## Relationships\n- **Operates**: [[commander_elena_vasilieva.md]]"
+    },
+    {
+      "entity_name": "lieutenant_john_carmichael",
+      "entity_file_path": "entities/lieutenant_john_carmichael.md",
+      "entity_file_content": "# Lieutenant John Carmichael\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Lieutenant\n- **Nationality**: American\n- **Age**: 35\n- **Specialty**: Robotics and Mechanical Systems\n- **Years In Service**: 12\n- **Hobbies**: Guitar and Basketball\n- **Signature Work**: Enhancing robotic arm capabilities for station maintenance\n- **Favorite Space Meal**: Mac and Cheese freeze-dried pack\n- **Mission Allegiance**: ISS Expedition 69\n- **Education**: MS in Mechanical Engineering from Massachusetts Institute of Technology\n- **Leadership Style**: Pragmatic and Technically Focused\n\n## Relationships\n- **Coordinates_With**: [[commander_elena_vasilieva.md]]"
+    },
+    {
+      "entity_name": "tranquility_node",
+      "entity_file_path": "entities/tranquility_node.md",
+      "entity_file_content": "# Tranquility Node\n\n## Basic Information\n- **Entity Type**: Life Support System\n- **Type**: Entity\n- **Location**: International Space Station\n- **Maintenance Schedule**: Bi-weekly\n- **Installation Date**: February 2010\n- **Designed By**: European Space Agency in collaboration with NASA\n- **Crew Capacity Support**: 6\n- **Primary Function**: Housing for life support systems and crew quarters\n- **Additional Function**: Backup air and water purification system\n- **Notable Feature**: Contains the advanced oxygen generation system\n- **Emergency Protocol**: Automated shutdown sequence in case of failure\n\n## Relationships\n- **Uses**: [[dr._raj_patel.md]]"
+    },
+    {
+      "entity_name": "biologist_sofia_gomez",
+      "entity_file_path": "entities/biologist_sofia_gomez.md",
+      "entity_file_content": "# Sofia Gomez\n\n## Basic Information\n- **Type**: Person\n- **Nationality**: Argentinian\n- **Age**: 34\n- **Specialty**: Astrobiology\n- **Research Focus**: Plant growth in microgravity\n- **Years In Service**: 7\n- **Education**: PhD in Biology from the University of Buenos Aires\n- **Favorite Space Meal**: Empanadas dehydrated pack\n- **Hobbies**: Sketching and playing the flute\n- **Signature Experiment**: Investigating the effects of microgravity on plant genetic expression\n- **Mission Allegiance**: ISS Expedition 68\n- **Physical Fitness Routine**: Yoga and resistance training\n- **Language Proficiency**: Spanish, English, and Russian\n\n## Relationships\n- **Shares_Resources_With**: [[dr._raj_patel.md]]"
+    },
+    {
+      "entity_name": "alpha_solar_array",
+      "entity_file_path": "entities/alpha_solar_array.md",
+      "entity_file_content": "# Alpha Solar Array\n\n## Basic Information\n- **Entity Type**: Energy Source\n- **Type**: Entity\n- **Installation Date**: 2005-03-15\n- **Capacity Kw**: 120\n- **Manufacturer**: AstroTech Corp.\n- **Latest Maintenance**: 2023-09-12\n- **Operational Efficiency**: 97.5\n- **Average Daily Energy Produced Kwh**: 480\n- **Location On Iss**: External Structure Module A\n\n## Relationships\n- **Maintains**: [[lieutenant_john_carmichael.md]]"
+    },
+    {
+      "entity_name": "zvezda_service_module",
+      "entity_file_path": "entities/zvezda_service_module.md",
+      "entity_file_content": "# Zvezda Service Module\n\n## Basic Information\n- **Entity Type**: Living Quarters\n- **Type**: Entity\n- **Manufacturer**: RKK Energia\n- **Launch Date**: 12 July 2000\n- **Main Construction Material**: Aluminum alloy\n- **Primary Function**: Living and command module\n- **Total Volume**: 90\n- **Solar Panels Area**: 32\n- **Communication Systems**: Ultra High Frequency Radio Links\n- **Emergency Escape Routes**: Integrated and accessible through Pirs module\n\n## Relationships\n- **Exercises_In**: [[lieutenant_john_carmichael.md]]"
+    }
+  ],
+  "mem_id": "memory_9937ccb1cea54b7497938763cbab8e05"
+}

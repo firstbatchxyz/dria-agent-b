@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my gaming experience in the system - I actually have 15 years of experience playing board games, not just 10 years as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Graphic Designer\n\n - **Favorite Genre**: Fantasy\n\n-- **Experience**: 10 years playing board games\n\n+- **Experience**: 15 years playing board games\n\n - **Dungeon Master**: True\n\n - **Dice Collection Size**: 150\n\n - **Weekly Visits**: 3\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 15 years of experience playing board games has really helped me understand game mechanics and strategy development across different genres.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Graphic Designer\n\n - **Favorite Genre**: Fantasy\n\n-- **Experience**: 10 years playing board games\n\n+- **Experience**: 15 years playing board games\n\n - **Dungeon Master**: True\n\n - **Dice Collection Size**: 150\n\n - **Weekly Visits**: 3\n\n"
+    },
+    {
+      "query": "I need to update my professional information in the system - I'm no longer working as a Graphic Designer. I've transitioned to becoming a UX/UI Designer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Graphic Designer\n\n+- **Occupation**: UX/UI Designer\n\n - **Favorite Genre**: Fantasy\n\n - **Experience**: 10 years playing board games\n\n - **Dungeon Master**: True\n\n"
+    },
+    {
+      "query": "I've been really enjoying my work as a UX/UI Designer lately, especially focusing on creating intuitive user experiences for mobile applications.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Graphic Designer\n\n+- **Occupation**: UX/UI Designer\n\n - **Favorite Genre**: Fantasy\n\n - **Experience**: 10 years playing board games\n\n - **Dungeon Master**: True\n\n"
+    },
+    {
+      "query": "I need to update my professional information in the system - I'm no longer working as a Graphic Designer but have transitioned to being a UX/UI Designer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Graphic Designer\n\n+- **Occupation**: UX/UI Designer\n\n - **Favorite Genre**: Fantasy\n\n - **Experience**: 10 years playing board games\n\n - **Dungeon Master**: True\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a UX/UI Designer, applying my visual design background to create more intuitive user experiences.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Graphic Designer\n\n+- **Occupation**: UX/UI Designer\n\n - **Favorite Genre**: Fantasy\n\n - **Experience**: 10 years playing board games\n\n - **Dungeon Master**: True\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my gaming preferences in the system - I've stopped playing Epic Quest: The Board Game and have been really into Mystic Realms: Chronicles instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Organizes**: [[portland_board_game_league.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n-- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n+- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n\n+- **Plays**: [[mystic_realms:_chronicles.md]]\n\n===entities/mystic_realms:_chronicles.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms: Chronicles\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: board game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[ethan_dubois.md]]\n"
+    },
+    {
+      "query": "I've been having such great sessions with Mystic Realms: Chronicles lately - the storytelling mechanics and character development system are absolutely incredible compared to other games I've tried.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Organizes**: [[portland_board_game_league.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n-- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n+- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n\n+- **Plays**: [[mystic_realms:_chronicles.md]]\n\n===entities/mystic_realms:_chronicles.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mystic Realms: Chronicles\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: board game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[ethan_dubois.md]]\n"
+    },
+    {
+      "query": "I need to update my gaming preferences in the system - I've actually moved on from Epic Quest: The Board Game and now I'm really into Shadowlands Chronicles instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Organizes**: [[portland_board_game_league.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n-- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n+- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n\n+- **Plays**: [[shadowlands_chronicles.md]]\n\n===entities/shadowlands_chronicles.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Shadowlands Chronicles\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: board game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[ethan_dubois.md]]\n"
+    },
+    {
+      "query": "I've been having such a great time with my gaming group lately playing Shadowlands Chronicles - the storytelling mechanics are so much more engaging than what I used to play.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,5 +13,5 @@\n \n\n ## Relationships\n\n - **Organizes**: [[portland_board_game_league.md]]\n\n-- **Plays**: [[epic_quest:_the_board_game.md]]\n\n-- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n+- **Reads**: [[d&d_5th_edition_spellbook_collection.md]]\n\n+- **Plays**: [[shadowlands_chronicles.md]]\n\n===entities/shadowlands_chronicles.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Shadowlands Chronicles\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: board game\n\n+\n\n+## Relationships\n\n+- **Plays**: [[ethan_dubois.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

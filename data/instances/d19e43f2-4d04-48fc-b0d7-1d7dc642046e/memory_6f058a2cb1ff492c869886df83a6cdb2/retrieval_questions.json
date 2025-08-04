@@ -1,0 +1,200 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Imani"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Jones"
+    },
+    {
+      "q": "What is my business name?",
+      "a": "Sweet Relief Crepes"
+    },
+    {
+      "q": "What is my specialty cuisine?",
+      "a": "French Crepes"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my favorite ingredient?",
+      "a": "Nutella"
+    },
+    {
+      "q": "Do I have chef certification?",
+      "a": "False"
+    },
+    {
+      "q": "What is my operating area?",
+      "a": "Lower Manhattan"
+    },
+    {
+      "q": "What is my Instagram handle?",
+      "a": "@SweetReliefCrepesNY"
+    },
+    {
+      "q": "What is my commissary kitchen role?",
+      "a": "Event Planner"
+    },
+    {
+      "q": "What is my unique fact?",
+      "a": "Once set a record for the largest crepe made in New York City during a charity event"
+    },
+    {
+      "q": "What is my recent award?",
+      "a": "Best Dessert Vendor 2024"
+    },
+    {
+      "q": "What is my side hustle?",
+      "a": "Pastry blog writer"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the first name of the person I exchange supplier contacts with?"
+      ],
+      "a": "Luis",
+      "attribute": "first name=Luis",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the last name of the person I exchange supplier contacts with?"
+      ],
+      "a": "Ramirez",
+      "attribute": "last name=Ramirez",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the business name of the person I exchange supplier contacts with?"
+      ],
+      "a": "The Roaming Feast",
+      "attribute": "business name=The Roaming Feast",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the specialty cuisine of the person I exchange supplier contacts with?"
+      ],
+      "a": "Latin Fusion",
+      "attribute": "specialty cuisine=Latin Fusion",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What are the years of experience of the person I exchange supplier contacts with?"
+      ],
+      "a": "7",
+      "attribute": "years experience=7",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the commissary kitchen role of the person I exchange supplier contacts with?"
+      ],
+      "a": "Coordinator",
+      "attribute": "commissary kitchen role=Coordinator",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the favorite ingredient of the person I exchange supplier contacts with?"
+      ],
+      "a": "Cilantro",
+      "attribute": "favorite ingredient=Cilantro",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "Does the person I exchange supplier contacts with have chef certification?"
+      ],
+      "a": "True",
+      "attribute": "has chef certification=True",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the operating area of the person I exchange supplier contacts with?"
+      ],
+      "a": "Midtown Manhattan",
+      "attribute": "operating area=Midtown Manhattan",
+      "path": "Imani Jones -> Luis Ramirez"
+    },
+    {
+      "q": [
+        "What is the Instagram handle of the person I exchange supplier contacts with?"
+      ],
+      "a": "@TheRoamingFeastNYC",
+      "attribute": "instagram handle=@TheRoamingFeastNYC",
+      "path": "Imani Jones -> Luis Ramirez"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the first name of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Maya",
+      "attribute": "first name=Maya",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the last name of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Chen",
+      "attribute": "last name=Chen",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the business name of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Phoenix Bites",
+      "attribute": "business name=Phoenix Bites",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the specialty cuisine of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Southeast Asian Fusion",
+      "attribute": "specialty cuisine=Southeast Asian Fusion",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "How many years of experience does the person who shares commissary with the person I exchange supplier contact with have?",
+      "a": "5",
+      "attribute": "years experience=5",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the favorite ingredient of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Lemongrass",
+      "attribute": "favorite ingredient=Lemongrass",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "True or false: Does the person who shares commissary with the person I exchange supplier contact with have chef certification?",
+      "a": "True",
+      "attribute": "has chef certification=True",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the operating area of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Lower Manhattan",
+      "attribute": "operating area=Lower Manhattan",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the Instagram handle of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "@PhoenixBitesNYC",
+      "attribute": "instagram handle=@PhoenixBitesNYC",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    },
+    {
+      "q": "What is the commissary kitchen role of the person who shares commissary with the person I exchange supplier contact with?",
+      "a": "Event Planner",
+      "attribute": "commissary kitchen role=Event Planner",
+      "path": "Imani Jones - exchanges supplier contact -> Luis Ramirez - shares commissary with-> Maya Chen"
+    }
+  ]
+}

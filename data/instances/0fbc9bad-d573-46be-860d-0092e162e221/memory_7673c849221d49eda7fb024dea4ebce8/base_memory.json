@@ -1,0 +1,26 @@
+{
+  "user_md": "# Rosa Maria Almeida\n\n## Basic Information\n- **Type**: Person\n- **Age**: 37\n- **Profession**: Community Organizer\n- **Hobbies**: Gardening\n- **Favorite Sport**: Soccer\n- **Children**: 2\n- **Years In Community**: 12\n- **Education Level**: High School Diploma\n- **Food Preference**: Vegetarian\n\n## Relationships\n- **Borrows_Tools_From**: [[tools_and_resources_cooperative.md]]\n- **Seeks_Childcare_Help_From**: [[jorge_santos.md]]\n- **Organizes**: [[vila_esperan\u00e7a_soccer_field.md]]",
+  "entities": [
+    {
+      "entity_name": "tools_and_resources_cooperative",
+      "entity_file_path": "entities/tools_and_resources_cooperative.md",
+      "entity_file_content": "# Tools and Resources Cooperative\n\n## Basic Information\n- **Entity Type**: local organization\n- **Type**: Entity\n- **Established Year**: 2010\n- **Membership Count**: 75\n- **Primary Objective**: Resource sharing and community support\n- **Meeting Schedule**: Bi-weekly on Saturdays\n- **Founding Members**: 12 community leaders\n- **Types Of Tools Available**: Gardening, Construction, Household, Electrical\n- **Membership Fee**: Voluntary donation\n- **Location**: Community Center Basement\n- **Success Story**: Assisted in setting up a children's playground\n- **Collaboration With**: Local school and art clubs\n\n## Relationships\n- **Borrows_Tools_From**: [[rosa_almeida.md]]"
+    },
+    {
+      "entity_name": "jorge_santos",
+      "entity_file_path": "entities/jorge_santos.md",
+      "entity_file_content": "# Jorge Luiz Santos\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Profession**: Handyman\n- **Hobbies**: Soccer and guitar playing\n- **Years In Community**: 15\n- **Household Size**: 5\n- **Education Level**: Vocational Training in Construction\n- **Favorite Food**: Moqueca\n- **Languages Spoken**: Portuguese and some English\n- **Community Role**: Volunteer Repair Specialist\n- **Pet**: a rescued dog named Bolinha\n- **Background**: Born and raised in the same favela\n\n## Relationships\n- **Seeks_Childcare_Help_From**: [[rosa_almeida.md]]"
+    },
+    {
+      "entity_name": "vila_esperan\u00e7a_soccer_field",
+      "entity_file_path": "entities/vila_esperan\u00e7a_soccer_field.md",
+      "entity_file_content": "# Vila Esperan\u00e7a Soccer Field\n\n## Basic Information\n- **Entity Type**: recreational area\n- **Type**: Entity\n- **Location**: Central zone of the favela\n- **Operating Hours**: 6 AM to 9 PM\n- **Surface Type**: Artificial grass\n- **Capacity**: 150\n- **Established Year**: 1995\n- **Facilities**: Seating area, lighting, equipment rental\n- **Community Events**: Annual Soccer Festival, weekly youth training sessions\n- **Maintained By**: Local community volunteers\n\n## Relationships\n- **Organizes**: [[rosa_almeida.md]]"
+    },
+    {
+      "entity_name": "ana_silva",
+      "entity_file_path": "entities/ana_silva.md",
+      "entity_file_content": "# Ana Maria Silva\n\n## Basic Information\n- **Type**: Person\n- **Age**: 31\n- **Occupation**: Electrician\n- **Hobbies**: painting and dancing samba\n- **Has Children**: True\n- **Community Role**: Community Outreach Organizer\n- **Skills**: Electrical maintenance and soccer coaching\n- **Pet**: a small parrot named Azul\n- **Favorite Food**: Feijoada\n- **Background**: Originally from Bahia, moved to the favela 10 years ago\n- **Languages Spoken**: Portuguese and basic Spanish\n\n## Relationships\n- **Shares_Energy_With**: [[jorge_santos.md]]"
+    }
+  ],
+  "mem_id": "memory_7673c849221d49eda7fb024dea4ebce8"
+}

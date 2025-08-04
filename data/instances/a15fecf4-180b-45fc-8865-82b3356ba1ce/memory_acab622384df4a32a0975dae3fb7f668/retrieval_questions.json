@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Maximilian"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Vogel"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Field Medic"
+    },
+    {
+      "q": "How many years of rescue experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "German, French, English"
+    },
+    {
+      "q": "What is my favorite climbing spot?",
+      "a": "Matterhorn"
+    },
+    {
+      "q": "Am I wilderness first responder certified?",
+      "a": "True"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Photographing Alpine Flora"
+    },
+    {
+      "q": "What is my emergency response strategy?",
+      "a": "Rapid Assessment and Deployment"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of device that I carry?"
+      ],
+      "a": "Device",
+      "attribute": "entity type=Device",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the frequency range of the device that I carry?"
+      ],
+      "a": "457 kHz",
+      "attribute": "frequency range=457 kHz",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the battery lifetime of the device that I carry?"
+      ],
+      "a": "200 hours",
+      "attribute": "battery lifetime=200 hours",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the operating temperature range of the device that I carry?"
+      ],
+      "a": "-20\u00b0C to +45\u00b0C",
+      "attribute": "operating temperature range=-20\u00b0C to +45\u00b0C",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the search range of the device that I carry?"
+      ],
+      "a": "60 meters",
+      "attribute": "search range=60 meters",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the weight of the device that I carry?"
+      ],
+      "a": "250 grams",
+      "attribute": "weight=250 grams",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the water resistance of the device that I carry?"
+      ],
+      "a": "IP67",
+      "attribute": "water resistance=IP67",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the manufacturer year of the device that I carry?"
+      ],
+      "a": "2021",
+      "attribute": "manufacturer year=2021",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "What is the color of the device that I carry?"
+      ],
+      "a": "bright orange",
+      "attribute": "color=bright orange",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    },
+    {
+      "q": [
+        "Does the device that I carry have auto revert?"
+      ],
+      "a": "True",
+      "attribute": "auto revert=True",
+      "path": "Maximilian Vogel -> Avalanche Beacons"
+    }
+  ]
+}

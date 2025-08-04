@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my work style information in the system - my work ethic should be described as adaptable and innovative rather than meticulous and diligent.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Lab Equipment**: Centrifuge\n\n - **Hometown**: Seattle, Washington, USA\n\n - **Languages Spoken**: English, Spanish\n\n-- **Work Ethic**: meticulous and diligent\n\n+- **Work Ethic**: adaptable and innovative\n\n - **Favorite Gene Sequence**: BCL-2 gene\n\n - **Dream Research Goal**: Develop gene therapy for muscular dystrophy\n\n \n\n"
+    },
+    {
+      "query": "I've been thinking about how my adaptable and innovative approach to problem-solving has really helped me tackle the challenging projects we've been working on lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Favorite Lab Equipment**: Centrifuge\n\n - **Hometown**: Seattle, Washington, USA\n\n - **Languages Spoken**: English, Spanish\n\n-- **Work Ethic**: meticulous and diligent\n\n+- **Work Ethic**: adaptable and innovative\n\n - **Favorite Gene Sequence**: BCL-2 gene\n\n - **Dream Research Goal**: Develop gene therapy for muscular dystrophy\n\n \n\n"
+    },
+    {
+      "query": "I need to correct my academic information in the system - my undergraduate degree was actually in Biomedical Engineering, not Biochemistry as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Assistant Researcher\n\n - **Specialization**: CRISPR-Cas9 technology\n\n - **Years Of Experience**: 4\n\n-- **Undergrad Degree**: Biochemistry\n\n+- **Undergrad Degree**: Biomedical Engineering\n\n - **Hobbies**: Bird Watching\n\n - **Published Papers**: 8\n\n - **Favorite Lab Equipment**: Centrifuge\n\n"
+    },
+    {
+      "query": "I've been thinking about how my Biomedical Engineering background has really prepared me well for understanding the intersection of biology and technology in my current research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Position**: Assistant Researcher\n\n - **Specialization**: CRISPR-Cas9 technology\n\n - **Years Of Experience**: 4\n\n-- **Undergrad Degree**: Biochemistry\n\n+- **Undergrad Degree**: Biomedical Engineering\n\n - **Hobbies**: Bird Watching\n\n - **Published Papers**: 8\n\n - **Favorite Lab Equipment**: Centrifuge\n\n"
+    },
+    {
+      "query": "I need to correct my publication record in the system - I actually have 12 published papers now, not the 8 that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 4\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Bird Watching\n\n-- **Published Papers**: 8\n\n+- **Published Papers**: 12\n\n - **Favorite Lab Equipment**: Centrifuge\n\n - **Hometown**: Seattle, Washington, USA\n\n - **Languages Spoken**: English, Spanish\n\n"
+    },
+    {
+      "query": "I'm excited to share that I've recently completed my 12th published paper, which brings together all my research findings from the past few years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 4\n\n - **Undergrad Degree**: Biochemistry\n\n - **Hobbies**: Bird Watching\n\n-- **Published Papers**: 8\n\n+- **Published Papers**: 12\n\n - **Favorite Lab Equipment**: Centrifuge\n\n - **Hometown**: Seattle, Washington, USA\n\n - **Languages Spoken**: English, Spanish\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my research tools - I've transitioned from using Genome Sequencing Cloud to BioAnalytics Pro Platform for my genomic analysis work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[sophie_alvarez.md]]\n\n-- **Uses**: [[genome_sequencing_cloud.md]]\n+- **Uses**: [[bioanalytics_pro_platform.md]]\n\n===entities/bioanalytics_pro_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# BioAnalytics Pro Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: genomic analysis platform\n\n+\n\n+## Relationships\n\n+- **Uses**: [[amara_johnson.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how BioAnalytics Pro Platform has streamlined my genomic research workflow compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Collaborates_With**: [[sophie_alvarez.md]]\n\n-- **Uses**: [[genome_sequencing_cloud.md]]\n+- **Uses**: [[bioanalytics_pro_platform.md]]\n\n===entities/bioanalytics_pro_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# BioAnalytics Pro Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: genomic analysis platform\n\n+\n\n+## Relationships\n\n+- **Uses**: [[amara_johnson.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration information - I'm no longer working with Sophie Alvarez, but I've started collaborating with Marcus Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n - **Dream Research Goal**: Develop gene therapy for muscular dystrophy\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[sophie_alvarez.md]]\n\n+- **Collaborates_With**: [[marcus_chen.md]]\n\n - **Uses**: [[genome_sequencing_cloud.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[amara_johnson.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new research project I'm working on with Marcus Chen - his expertise complements my work perfectly.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n - **Dream Research Goal**: Develop gene therapy for muscular dystrophy\n\n \n\n ## Relationships\n\n-- **Collaborates_With**: [[sophie_alvarez.md]]\n\n+- **Collaborates_With**: [[marcus_chen.md]]\n\n - **Uses**: [[genome_sequencing_cloud.md]]\n\n===entities/marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Collaborates_With**: [[amara_johnson.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

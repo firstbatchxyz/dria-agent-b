@@ -1,0 +1,86 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Logistics Coordinator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's degree in Supply Chain Management"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "Certified in Logistics, Transportation, and Distribution (CLTD)"
+    },
+    {
+      "q": "What is my communication skill level?",
+      "a": "Advanced"
+    },
+    {
+      "q": "Do I have team leadership experience?",
+      "a": "True"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Tableau for data analysis"
+    },
+    {
+      "q": "What is my attention to detail rating?",
+      "a": "9.5"
+    },
+    {
+      "q": "What languages am I proficient in?",
+      "a": "Bilingual in English and Mandarin Chinese"
+    },
+    {
+      "q": "When did I start my employment?",
+      "a": "2018-03-14"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of system monitors me?"
+      ],
+      "a": "Logistics Software",
+      "attribute": "entity type=Logistics Software",
+      "path": "Sophie Ng -> FlowControl System"
+    },
+    {
+      "q": [
+        "What is the version of the system that monitors me?"
+      ],
+      "a": "3.2.1",
+      "attribute": "version=3.2.1",
+      "path": "Sophie Ng -> FlowControl System"
+    },
+    {
+      "q": [
+        "Who developed the system that monitors me?"
+      ],
+      "a": "TechLogics Inc.",
+      "attribute": "developer=TechLogics Inc.",
+      "path": "Sophie Ng -> FlowControl System"
+    },
+    {
+      "q": [
+        "What is the integration capability of the system that monitors me?"
+      ],
+      "a": "High",
+      "attribute": "integration capability=High",
+      "path": "Sophie Ng -> FlowControl System"
+    },
+    {
+      "q": [
+        "When was the system that monitors me last maintained?"
+      ],
+      "a": "2024-01-16",
+      "attribute": "last maintenance date=2024-01-16",
+      "path": "Sophie Ng -> FlowControl System"
+    }
+  ]
+}

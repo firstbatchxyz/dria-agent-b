@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "P1",
+      "name": "Laxmi Rabari",
+      "type": "Person",
+      "occupation": "farmer",
+      "age": 35,
+      "favorite_festival": "Diwali",
+      "hobby": "traditional Rajasthani dance",
+      "family_size": 6,
+      "primary_crop": "wheat",
+      "member_of_local_womens_group": true,
+      "educational_level": "secondary school"
+    },
+    {
+      "id": "P2",
+      "name": "Ganpat Singh",
+      "type": "Person",
+      "occupation": "farmer",
+      "age": 42,
+      "family_size": 5,
+      "primary_crop": "maize",
+      "hobby": "kite flying",
+      "community_role": "local water management committee member",
+      "favorite_festival": "Holi",
+      "educational_level": "primary school",
+      "tractor_experience": 10
+    },
+    {
+      "id": "P3",
+      "name": "Rani Dholakia",
+      "type": "Person",
+      "age": 34,
+      "occupation": "Agriculture Specialist",
+      "favorite_festival": "Ganesh Chaturthi",
+      "hobbies": "Traditional Dance, Singing Folk Songs",
+      "family_members": 5,
+      "native_language": "Marwari",
+      "special_skill": "Rangoli Art",
+      "community_role": "Festival Organizer",
+      "birthplace": "Kishangarh, Rajasthan"
+    },
+    {
+      "id": "P4",
+      "name": "Mohammed Hussain",
+      "type": "Person",
+      "age": 45,
+      "occupation": "Livestock Manager",
+      "favorite_festival": "Diwali",
+      "hobbies": "Kite Flying, Organizing Wrestling Matches",
+      "family_members": 6,
+      "native_language": "Urdu",
+      "special_skill": "Animal Husbandry",
+      "community_role": "Community Mediator",
+      "birthplace": "Ajmer, Rajasthan",
+      "education_level": "High School Graduate"
+    },
+    {
+      "id": "P5",
+      "name": "Shivlal Meena",
+      "type": "Person",
+      "age": 42,
+      "profession": "farmer",
+      "special_skill": "artisan pottery maker",
+      "favorite_festival": "Diwali",
+      "family": "two children and a spouse",
+      "education_level": "high school diploma",
+      "hobby": "kite flying",
+      "preferred_crop": "wheat",
+      "member_of_village_council": true,
+      "nickname": "Bauji"
+    },
+    {
+      "id": "E1",
+      "name": "The Community Well",
+      "entity_type": "Water Source",
+      "type": "Entity",
+      "location_description": "central to the village",
+      "construction_date": "1997",
+      "maintenance_frequency": "monthly",
+      "depth_in_meters": 30,
+      "water_quality": "excellent",
+      "capacity_in_liters": 5000,
+      "built_by": "community initiative",
+      "water_source_type": "groundwater",
+      "material_used": "local stone"
+    },
+    {
+      "id": "E2",
+      "name": "The Village Tractor",
+      "entity_type": "Machinery",
+      "type": "Entity",
+      "brand": "Mahindra",
+      "model": "6054P",
+      "year_of_purchase": 2018,
+      "fuel_type": "diesel",
+      "service_frequency": "quarterly",
+      "color": "red",
+      "tire_type": "off-road",
+      "primary_use": "ploughing",
+      "last_serviced_date": "2023-08-15"
+    },
+    {
+      "id": "E3",
+      "name": "The Harvest Barn",
+      "entity_type": "Storage Facility",
+      "type": "Entity",
+      "storage_capacity": 5000,
+      "primary_use": "Grain Storage",
+      "construction_year": 1995,
+      "builder_name": "Rajasthan Agricultural Development Cooperative",
+      "material_used": "Brick and Mortar",
+      "hours_of_operation": "6 AM - 8 PM",
+      "solar_powered": true,
+      "village_importance": "High",
+      "annual_maintenance_schedule": "Post-Harvest Season",
+      "water_harvesting_system": true
+    },
+    {
+      "id": "E4",
+      "name": "The Livestock Pen",
+      "entity_type": "Animal Housing",
+      "type": "Entity",
+      "capacity": "50 animals",
+      "construction_material": "Bamboo and Thatch",
+      "maintenance_schedule": "Bi-weekly cleaning and semi-annual repairs",
+      "solar_panel_installed": true,
+      "water_supply_type": "Groundwater well",
+      "first_established": "1998"
+    },
+    {
+      "id": "E5",
+      "name": "The Ganesh Chaturthi Festival",
+      "entity_type": "Cultural Event",
+      "type": "Entity",
+      "duration": "10 days",
+      "location": "Community Center",
+      "significance": "Honoring Lord Ganesha",
+      "main_activities": "Idol immersion, Traditional Folk Performances, Community Feasts",
+      "attendance": 200,
+      "iconic_foods": "Modak, Puran Poli",
+      "decoration_style": "Colorful Pandals with Marwari designs"
+    }
+  ],
+  "edges": [
+    {
+      "s": "P1",
+      "p": "shares",
+      "o": "E1"
+    },
+    {
+      "s": "P1",
+      "p": "helps with",
+      "o": "P2"
+    },
+    {
+      "s": "P1",
+      "p": "uses",
+      "o": "E2"
+    },
+    {
+      "s": "P2",
+      "p": "shares",
+      "o": "E2"
+    },
+    {
+      "s": "P2",
+      "p": "celebrates",
+      "o": "E5"
+    },
+    {
+      "s": "P3",
+      "p": "helps during",
+      "o": "E5"
+    },
+    {
+      "s": "P3",
+      "p": "collaborates with",
+      "o": "P4"
+    },
+    {
+      "s": "P4",
+      "p": "uses",
+      "o": "E4"
+    },
+    {
+      "s": "P4",
+      "p": "assists during",
+      "o": "E3"
+    },
+    {
+      "s": "P5",
+      "p": "assists with",
+      "o": "E3"
+    },
+    {
+      "s": "P5",
+      "p": "shares responsibility for",
+      "o": "E1"
+    }
+  ]
+}

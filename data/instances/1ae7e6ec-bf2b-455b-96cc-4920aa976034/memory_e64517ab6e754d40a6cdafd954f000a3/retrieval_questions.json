@@ -1,0 +1,140 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Cattle Station Owner"
+    },
+    {
+      "q": "What is my age?",
+      "a": "45"
+    },
+    {
+      "q": "Do I have a helicopter license?",
+      "a": "True"
+    },
+    {
+      "q": "What communications equipment do I use?",
+      "a": "satellite phone"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "aerial cattle mustering"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "playing the didgeridoo"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of company is AquaSure Water Solutions that I use?"
+      ],
+      "a": "Supplier",
+      "attribute": "entity type=Supplier",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    },
+    {
+      "q": [
+        "What year was AquaSure Water Solutions that I use founded?"
+      ],
+      "a": "2008",
+      "attribute": "founding year=2008",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    },
+    {
+      "q": [
+        "What is the specialty of AquaSure Water Solutions that I use?"
+      ],
+      "a": "advanced water purification systems",
+      "attribute": "specialty=advanced water purification systems",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    },
+    {
+      "q": [
+        "Where is the headquarters of AquaSure Water Solutions that I use located?"
+      ],
+      "a": "Alice Springs, Australia",
+      "attribute": "headquarters location=Alice Springs, Australia",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    },
+    {
+      "q": [
+        "How many employees does AquaSure Water Solutions that I use have?"
+      ],
+      "a": "35",
+      "attribute": "number of employees=35",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    },
+    {
+      "q": [
+        "What is the core technology of AquaSure Water Solutions that I use?"
+      ],
+      "a": "reverse osmosis filtration",
+      "attribute": "core technology=reverse osmosis filtration",
+      "path": "Riley Johnson -> AquaSure Water Solutions"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of place is the location that the company I use provides services to?",
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the area size of the location that the company I use provides services to?",
+      "a": "2500 square kilometers",
+      "attribute": "area size=2500 square kilometers",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What year was the location that the company I use provides services to established?",
+      "a": "1956",
+      "attribute": "established year=1956",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the primary cattle breed at the location that the company I use provides services to?",
+      "a": "Hereford",
+      "attribute": "primary breed=Hereford",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the average annual rainfall at the location that the company I use provides services to?",
+      "a": "350",
+      "attribute": "average annual rainfall=350",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "How many employees work at the location that the company I use provides services to?",
+      "a": "18",
+      "attribute": "number of employees=18",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the main fuel source used at the location that the company I use provides services to?",
+      "a": "diesel",
+      "attribute": "main fuel source=diesel",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the nearest town to the location that the company I use provides services to?",
+      "a": "Alice Springs",
+      "attribute": "nearest town=Alice Springs",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the operation focus of the location that the company I use provides services to?",
+      "a": "sustainable cattle farming",
+      "attribute": "operation focus=sustainable cattle farming",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    },
+    {
+      "q": "What is the annual cattle export from the location that the company I use provides services to?",
+      "a": "1500",
+      "attribute": "annual cattle export=1500",
+      "path": "Riley Johnson - uses -> AquaSure Water Solutions - provides-> MacAlister Cattle Station"
+    }
+  ]
+}

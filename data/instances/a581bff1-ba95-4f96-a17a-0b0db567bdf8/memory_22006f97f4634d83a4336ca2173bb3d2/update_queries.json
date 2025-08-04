@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've recently gotten really into pottery and ceramics rather than gardening.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: Pottery\n\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been spending all my free time at the pottery studio lately, working on ceramics pieces and really loving how therapeutic working with clay can be.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: Pottery\n\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my educational credentials in your system - I actually have a Master of Business Administration with a focus on Healthcare Management, not a Master of Health Administration as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Administrator\n\n - **Department**: Pediatrics\n\n - **Years Of Experience**: 12\n\n-- **Education**: Master of Health Administration\n\n+- **Education**: Master of Business Administration with Healthcare Management focus\n\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n"
+    },
+    {
+      "query": "I've been applying the strategic business principles from my Master of Business Administration with Healthcare Management focus to improve operational efficiency in our medical facility.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Administrator\n\n - **Department**: Pediatrics\n\n - **Years Of Experience**: 12\n\n-- **Education**: Master of Health Administration\n\n+- **Education**: Master of Business Administration with Healthcare Management focus\n\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n"
+    },
+    {
+      "query": "I need to correct my hobby information in the system - I've actually gotten really into pottery lately and it's become my main hobby instead of gardening.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: pottery\n\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been spending so much time at the pottery studio lately, working on my ceramic pieces and experimenting with different glazing techniques.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Certification**: Certified Healthcare Administrator\n\n - **Known For**: Implementing efficient patient record systems\n\n - **Special Skill**: Data analysis and process optimization\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: pottery\n\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work responsibilities in the system - I'm no longer overseeing operations in the Pediatrics Database, I've been transferred to manage the Emergency Care Database instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n-- **Oversees Operations In**: [[pediatrics_database.md]]\n+- **Oversees Operations In**: [[emergency_care_database.md]]\n\n===entities/emergency_care_database.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Care Database\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: database\n\n+\n\n+## Relationships\n\n+- **Oversees Operations In**: [[samantha_cooper.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with my new role managing the Emergency Care Database, and I'm excited about the challenges of coordinating critical care information systems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n-- **Oversees Operations In**: [[pediatrics_database.md]]\n+- **Oversees Operations In**: [[emergency_care_database.md]]\n\n===entities/emergency_care_database.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Care Database\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: database\n\n+\n\n+## Relationships\n\n+- **Oversees Operations In**: [[samantha_cooper.md]]\n"
+    },
+    {
+      "query": "I need to update my work assignment - I'm no longer overseeing operations in the Pediatrics Database, I've been moved to oversee the Neonatal Intensive Care Registry instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n-- **Oversees Operations In**: [[pediatrics_database.md]]\n+- **Oversees Operations In**: [[neonatal_intensive_care_registry.md]]\n\n===entities/neonatal_intensive_care_registry.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neonatal Intensive Care Registry\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Oversees Operations In**: [[samantha_cooper.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the protocols and data management requirements for the Neonatal Intensive Care Registry since taking over operations here last month.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Volunteer Work**: Local children's charity events organizer\n\n \n\n ## Relationships\n\n-- **Oversees Operations In**: [[pediatrics_database.md]]\n+- **Oversees Operations In**: [[neonatal_intensive_care_registry.md]]\n\n===entities/neonatal_intensive_care_registry.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neonatal Intensive Care Registry\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical database\n\n+\n\n+## Relationships\n\n+- **Oversees Operations In**: [[samantha_cooper.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

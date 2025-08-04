@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my age in the system - I just turned 29 last week, so my age should be changed from 28 to 29.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 28\n\n+- **Age**: 29\n\n - **Role In Restaurant**: manager\n\n - **Education**: MBA in Hospitality Management from Cornell University\n\n - **Hobby**: painting\n\n"
+    },
+    {
+      "query": "Now that I'm 29, I've been thinking about how this new year of life will bring fresh perspectives to my work and personal goals.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 28\n\n+- **Age**: 29\n\n - **Role In Restaurant**: manager\n\n - **Education**: MBA in Hospitality Management from Cornell University\n\n - **Hobby**: painting\n\n"
+    },
+    {
+      "query": "I need to correct my educational information in the system - I actually have a PhD in International Business from Wharton, not an MBA in Hospitality Management from Cornell as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 28\n\n - **Role In Restaurant**: manager\n\n-- **Education**: MBA in Hospitality Management from Cornell University\n\n+- **Education**: PhD in International Business from Wharton\n\n - **Hobby**: painting\n\n - **Favorite Dish**: risotto alla Milanese\n\n - **Pet**: calico cat named Luna\n\n"
+    },
+    {
+      "query": "My recent research has been greatly influenced by my PhD in International Business from Wharton, especially when analyzing global hospitality market trends and cross-cultural consumer behavior.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 28\n\n - **Role In Restaurant**: manager\n\n-- **Education**: MBA in Hospitality Management from Cornell University\n\n+- **Education**: PhD in International Business from Wharton\n\n - **Hobby**: painting\n\n - **Favorite Dish**: risotto alla Milanese\n\n - **Pet**: calico cat named Luna\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak Portuguese fluently, not Italian as currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobby**: painting\n\n - **Favorite Dish**: risotto alla Milanese\n\n - **Pet**: calico cat named Luna\n\n-- **Language Spoken**: Italian\n\n+- **Language Spoken**: Portuguese\n\n \n\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n"
+    },
+    {
+      "query": "I've been enjoying connecting with my Brazilian colleagues lately since we can communicate in Portuguese, which has really helped strengthen our working relationships.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Hobby**: painting\n\n - **Favorite Dish**: risotto alla Milanese\n\n - **Pet**: calico cat named Luna\n\n-- **Language Spoken**: Italian\n\n+- **Language Spoken**: Portuguese\n\n \n\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my business information - I'm no longer managing Pangorio's Italian Restaurant. I've recently taken over management of Bella Vista Bistro instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n - **Parent**: [[mario_pangorio.md]]\n\n-- **Manages**: [[pangorio's_italian_restaurant.md]]\n+- **Manages**: [[bella_vista_bistro.md]]\n\n===entities/bella_vista_bistro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bistro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: restaurant\n\n+\n\n+## Relationships\n\n+- **Manages**: [[sophia_pangorio.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new direction at Bella Vista Bistro and all the innovative menu changes we're implementing under my management.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n - **Parent**: [[mario_pangorio.md]]\n\n-- **Manages**: [[pangorio's_italian_restaurant.md]]\n+- **Manages**: [[bella_vista_bistro.md]]\n\n===entities/bella_vista_bistro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bistro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: restaurant\n\n+\n\n+## Relationships\n\n+- **Manages**: [[sophia_pangorio.md]]\n"
+    },
+    {
+      "query": "I need to update my business information - I'm no longer managing Pangorio's Italian Restaurant. I've recently taken over management of Bella Vista Bistro instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n - **Parent**: [[mario_pangorio.md]]\n\n-- **Manages**: [[pangorio's_italian_restaurant.md]]\n+- **Manages**: [[bella_vista_bistro.md]]\n\n===entities/bella_vista_bistro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bistro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: restaurant\n\n+\n\n+## Relationships\n\n+- **Manages**: [[sophia_pangorio.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new direction at Bella Vista Bistro - the menu planning and staff coordination have been keeping me busy since I started managing this place.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n ## Relationships\n\n - **Sibling**: [[leonardo_pangorio.md]]\n\n - **Parent**: [[mario_pangorio.md]]\n\n-- **Manages**: [[pangorio's_italian_restaurant.md]]\n+- **Manages**: [[bella_vista_bistro.md]]\n\n===entities/bella_vista_bistro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Bella Vista Bistro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: restaurant\n\n+\n\n+## Relationships\n\n+- **Manages**: [[sophia_pangorio.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to correct something in the records - Pangorio's Italian Restaurant isn't actually located in The Pangorio Family anymore. We've moved our restaurant to the historic Little Italy district downtown.",
+      "diff": "===entities/pangorio's_italian_restaurant.md===\n\n===entities/little_italy.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Little Italy\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: district\n\n+\n\n+## Relationships\n\n+- **Located_In**: [[pangorio's_italian_restaurant.md]]\n"
+    },
+    {
+      "query": "I'm so excited about our restaurant's new location in Little Italy! The authentic atmosphere here really complements our traditional Italian dishes, and we're surrounded by such rich cultural history.",
+      "diff": "===entities/pangorio's_italian_restaurant.md===\n\n===entities/little_italy.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Little Italy\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: district\n\n+\n\n+## Relationships\n\n+- **Located_In**: [[pangorio's_italian_restaurant.md]]\n"
+    }
+  ]
+}

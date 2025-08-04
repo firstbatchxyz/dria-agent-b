@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my military awards record - I was recently awarded the Bronze Star Medal, not just the Army Commendation Medal as currently listed in my file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n - **Hometown**: Denver, Colorado\n\n - **Last Completed Training**: Advanced Infantry Training\n\n-- **Awards**: Army Commendation Medal\n\n+- **Awards**: Bronze Star Medal\n\n - **Favorite Hobby**: Woodworking\n\n - **Education Level**: Bachelor's degree in Criminal Justice\n\n - **Assigned Building**: Building 3A - Infantry Barracks\n"
+    },
+    {
+      "query": "I'm grateful that my service has been recognized with the Bronze Star Medal, which really means a lot to me and my family after everything we've been through during deployment.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n - **Hometown**: Denver, Colorado\n\n - **Last Completed Training**: Advanced Infantry Training\n\n-- **Awards**: Army Commendation Medal\n\n+- **Awards**: Bronze Star Medal\n\n - **Favorite Hobby**: Woodworking\n\n - **Education Level**: Bachelor's degree in Criminal Justice\n\n - **Assigned Building**: Building 3A - Infantry Barracks\n"
+    },
+    {
+      "query": "I need to update my military rank in the system - I've been promoted from Staff Sergeant to Master Sergeant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Staff Sergeant\n\n+- **Rank**: Master Sergeant\n\n - **Role**: Infantry Unit Leader\n\n - **Years Of Service**: 12\n\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n"
+    },
+    {
+      "query": "Just completed my first week as Master Sergeant and I'm excited about the new responsibilities and leadership opportunities this promotion brings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Staff Sergeant\n\n+- **Rank**: Master Sergeant\n\n - **Role**: Infantry Unit Leader\n\n - **Years Of Service**: 12\n\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n"
+    },
+    {
+      "query": "I need to correct my service record - the system shows I have 12 years of service, but I actually have 15 years of military service.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Rank**: Staff Sergeant\n\n - **Role**: Infantry Unit Leader\n\n-- **Years Of Service**: 12\n\n+- **Years Of Service**: 15\n\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n - **Hometown**: Denver, Colorado\n\n - **Last Completed Training**: Advanced Infantry Training\n\n"
+    },
+    {
+      "query": "Looking back on my 15 years of military service, I'm grateful for all the experiences and leadership opportunities that have shaped my career as a Staff Sergeant.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Rank**: Staff Sergeant\n\n - **Role**: Infantry Unit Leader\n\n-- **Years Of Service**: 12\n\n+- **Years Of Service**: 15\n\n - **Special Skills**: Advanced marksmanship, Explosive ordinance disposal\n\n - **Hometown**: Denver, Colorado\n\n - **Last Completed Training**: Advanced Infantry Training\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

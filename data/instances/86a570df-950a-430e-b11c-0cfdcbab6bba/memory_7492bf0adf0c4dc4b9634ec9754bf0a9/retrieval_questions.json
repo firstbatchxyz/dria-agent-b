@@ -1,0 +1,52 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my profession?",
+      "a": "farmer"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "artisan pottery maker"
+    },
+    {
+      "q": "What is my favorite festival?",
+      "a": "Diwali"
+    },
+    {
+      "q": "What is my family situation?",
+      "a": "two children and a spouse"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "high school diploma"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "kite flying"
+    },
+    {
+      "q": "What is my preferred crop?",
+      "a": "wheat"
+    },
+    {
+      "q": "Am I a member of the village council?",
+      "a": "True"
+    },
+    {
+      "q": "What is my nickname?",
+      "a": "Bauji"
+    }
+  ],
+  "1_hop": {
+    "q": [
+      "When is the annual maintenance scheduled for the facility I assist with?"
+    ],
+    "a": "Post-Harvest Season",
+    "attribute": "annual maintenance schedule=Post-Harvest Season",
+    "path": "Shivlal Meena -> The Harvest Barn"
+  }
+}

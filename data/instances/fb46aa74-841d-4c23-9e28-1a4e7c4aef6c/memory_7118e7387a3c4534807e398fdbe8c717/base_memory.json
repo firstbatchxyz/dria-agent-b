@@ -1,0 +1,11 @@
+{
+  "user_md": "# Nikolai Ivanov\n\n## Basic Information\n- **Type**: Person\n- **Role**: Forklift Operator\n- **Experience Years**: 15\n- **Certifications**: Forklift Safety, Advanced Vehicle Handling\n- **Shift**: Night\n- **Employee Id**: EMP-2638\n- **Favorite Tool**: Adjustable Wrench\n- **Hobbies**: Woodworking, Astronomy\n- **Work Email**: nikolai.ivanov@automotiveplant.com\n- **Languages Spoken**: Russian, English\n- **Safety Record**: Excellent\n\n## Relationships\n- **Drives**: [[titan_forklift_fx.md]]",
+  "entities": [
+    {
+      "entity_name": "titan_forklift_fx",
+      "entity_file_path": "entities/titan_forklift_fx.md",
+      "entity_file_content": "# Titan Forklift FX\n\n## Basic Information\n- **Entity Type**: Material Handling Equipment\n- **Type**: Entity\n- **Manufacturer**: Titan Industries\n- **Model Year**: 2021\n- **Lift Capacity**: 3000 kg\n- **Engine Type**: Electric\n- **Color**: Cobalt Blue\n- **Max Speed**: 15\n- **Operational Hours**: 4200\n- **Maintenance Schedule**: Quarterly\n\n## Relationships\n- **Drives**: [[nikolai_ivanov.md]]"
+    }
+  ],
+  "mem_id": "memory_7118e7387a3c4534807e398fdbe8c717"
+}

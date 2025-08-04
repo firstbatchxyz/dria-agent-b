@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational information in your records - I actually completed a Master's in Environmental Policy, not International Relations as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Hindi, Spanish\n\n - **Shift Timing**: 9am - 5pm\n\n-- **Education**: Master's in International Relations\n\n+- **Education**: Master's in Environmental Policy\n\n - **Certification**: Certified Customs Specialist\n\n - **Hometown**: Mumbai, India\n\n - **Hobbies**: Reading, Hiking, Traveling\n\n"
+    },
+    {
+      "query": "My Master's in Environmental Policy has been incredibly valuable in understanding the intersection between climate change and global governance structures.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Hindi, Spanish\n\n - **Shift Timing**: 9am - 5pm\n\n-- **Education**: Master's in International Relations\n\n+- **Education**: Master's in Environmental Policy\n\n - **Certification**: Certified Customs Specialist\n\n - **Hometown**: Mumbai, India\n\n - **Hobbies**: Reading, Hiking, Traveling\n\n"
+    },
+    {
+      "query": "I need to update my hometown information in the system - I've actually moved permanently from Mumbai to Bangalore and now consider it my hometown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift Timing**: 9am - 5pm\n\n - **Education**: Master's in International Relations\n\n - **Certification**: Certified Customs Specialist\n\n-- **Hometown**: Mumbai, India\n\n+- **Hometown**: Bangalore, India\n\n - **Hobbies**: Reading, Hiking, Traveling\n\n - **Favorite Airport Food**: Sushi\n\n - **Special Achievement**: Employee of the Year 2022\n\n"
+    },
+    {
+      "query": "It's been wonderful settling into life in Bangalore - the tech scene here is incredible and I'm really starting to feel like this city is truly my home now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift Timing**: 9am - 5pm\n\n - **Education**: Master's in International Relations\n\n - **Certification**: Certified Customs Specialist\n\n-- **Hometown**: Mumbai, India\n\n+- **Hometown**: Bangalore, India\n\n - **Hobbies**: Reading, Hiking, Traveling\n\n - **Favorite Airport Food**: Sushi\n\n - **Special Achievement**: Employee of the Year 2022\n\n"
+    },
+    {
+      "query": "I need to correct my work experience in the system - I actually have 15 years of experience now, not the 12 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Customs Manager\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Languages Spoken**: English, Hindi, Spanish\n\n - **Shift Timing**: 9am - 5pm\n\n - **Education**: Master's in International Relations\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 15 years of experience in the industry has really shaped my leadership approach and technical expertise.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Customs Manager\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 15\n\n - **Languages Spoken**: English, Hindi, Spanish\n\n - **Shift Timing**: 9am - 5pm\n\n - **Education**: Master's in International Relations\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work information in the system - I'm no longer managing the Customs Office, I've been reassigned to manage the Port Authority instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Known For**: Efficient problem solving in high-pressure situations\n\n \n\n ## Relationships\n\n-- **Manages**: [[customs_office.md]]\n+- **Manages**: [[port_authority.md]]\n\n===entities/port_authority.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Port Authority\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: government agency\n\n+\n\n+## Relationships\n\n+- **Manages**: [[priya_nair.md]]\n"
+    },
+    {
+      "query": "I've been settling into my new role at the Port Authority and finding the transition from customs work to port operations quite rewarding.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Known For**: Efficient problem solving in high-pressure situations\n\n \n\n ## Relationships\n\n-- **Manages**: [[customs_office.md]]\n+- **Manages**: [[port_authority.md]]\n\n===entities/port_authority.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Port Authority\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: government agency\n\n+\n\n+## Relationships\n\n+- **Manages**: [[priya_nair.md]]\n"
+    },
+    {
+      "query": "I need to update my work information - I'm no longer managing the Customs Office as I've been transferred to oversee the Trade Compliance Department instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Known For**: Efficient problem solving in high-pressure situations\n\n \n\n ## Relationships\n\n-- **Manages**: [[customs_office.md]]\n+- **Manages**: [[trade_compliance_department.md]]\n\n===entities/trade_compliance_department.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Trade Compliance Department\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Manages**: [[priya_nair.md]]\n"
+    },
+    {
+      "query": "I've been settling into my new role managing the Trade Compliance Department and implementing new regulatory protocols to ensure smoother international trade operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Known For**: Efficient problem solving in high-pressure situations\n\n \n\n ## Relationships\n\n-- **Manages**: [[customs_office.md]]\n+- **Manages**: [[trade_compliance_department.md]]\n\n===entities/trade_compliance_department.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Trade Compliance Department\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: department\n\n+\n\n+## Relationships\n\n+- **Manages**: [[priya_nair.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

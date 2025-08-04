@@ -1,0 +1,134 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Tom O'Reilly"
+    },
+    {
+      "q": "What is my position?",
+      "a": "Senior Track Technician"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Track Repair and Maintenance"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Hydraulic Wrench"
+    },
+    {
+      "q": "What is my certification level?",
+      "a": "Level 5 - Advanced Rail Systems"
+    },
+    {
+      "q": "Do I have safety training?",
+      "a": "True"
+    },
+    {
+      "q": "What is my nickname?",
+      "a": "Tracks Tom"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Irish Gaelic"
+    },
+    {
+      "q": "What is my contact number?",
+      "a": "07234 567890"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Model Train Building"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment that I use?"
+      ],
+      "a": "Rail Equipment",
+      "attribute": "entity type=Rail Equipment",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the model number of the equipment that I use?"
+      ],
+      "a": "TRR-2201",
+      "attribute": "model number=TRR-2201",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the manufacture year of the equipment that I use?"
+      ],
+      "a": "2020",
+      "attribute": "manufacture year=2020",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the maintenance status of the equipment that I use?"
+      ],
+      "a": "Up-to-date",
+      "attribute": "maintenance status=Up-to-date",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the operating manual version of the equipment that I use?"
+      ],
+      "a": "v3.2",
+      "attribute": "operating manual version=v3.2",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What are the safety features of the equipment that I use?"
+      ],
+      "a": "Emergency stop, Anti-tip stabilizers",
+      "attribute": "safety features=Emergency stop, Anti-tip stabilizers",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the storage location of the equipment that I use?"
+      ],
+      "a": "Depot C, Section 7",
+      "attribute": "storage location=Depot C, Section 7",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "When was the equipment that I use last serviced?"
+      ],
+      "a": "2023-09-15",
+      "attribute": "last serviced=2023-09-15",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the warranty status of the equipment that I use?"
+      ],
+      "a": "Valid until 2025",
+      "attribute": "warranty status=Valid until 2025",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    },
+    {
+      "q": [
+        "What is the weight of the equipment that I use?"
+      ],
+      "a": "3200kg",
+      "attribute": "weight=3200kg",
+      "path": "Tom O'Reilly -> Track Repair Rig"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my team assignment in the system - I've been transferred from the Equipment Maintenance Crew to the Safety Inspection Unit.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Shift**: Night Shift\n\n - **Languages Spoken**: English, Swedish\n\n - **Recent Training**: Advanced Robotics Maintenance workshop\n\n-- **Team**: Equipment Maintenance Crew\n\n+- **Team**: Safety Inspection Unit\n\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role with the Safety Inspection Unit and finding the work quite different from my previous maintenance duties.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Shift**: Night Shift\n\n - **Languages Spoken**: English, Swedish\n\n - **Recent Training**: Advanced Robotics Maintenance workshop\n\n-- **Team**: Equipment Maintenance Crew\n\n+- **Team**: Safety Inspection Unit\n\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my job information in the system - I'm no longer working as a Maintenance Technician. I've recently been promoted to Facilities Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Maintenance Technician\n\n+- **Occupation**: Facilities Manager\n\n - **Age**: 37\n\n - **Education**: Degree in Mechanical Engineering\n\n - **Years Of Experience**: 15\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role as Facilities Manager - it's been great to move up from maintenance work into more strategic facility planning and team leadership.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: Maintenance Technician\n\n+- **Occupation**: Facilities Manager\n\n - **Age**: 37\n\n - **Education**: Degree in Mechanical Engineering\n\n - **Years Of Experience**: 15\n\n"
+    },
+    {
+      "query": "I need to update my team assignment in the system - I've been transferred from the Equipment Maintenance Crew to the Safety Inspection Unit.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Shift**: Night Shift\n\n - **Languages Spoken**: English, Swedish\n\n - **Recent Training**: Advanced Robotics Maintenance workshop\n\n-- **Team**: Equipment Maintenance Crew\n\n+- **Team**: Safety Inspection Unit\n\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm excited about my new role with the Safety Inspection Unit and how it will allow me to use my technical background in a different capacity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Shift**: Night Shift\n\n - **Languages Spoken**: English, Swedish\n\n - **Recent Training**: Advanced Robotics Maintenance workshop\n\n-- **Team**: Equipment Maintenance Crew\n\n+- **Team**: Safety Inspection Unit\n\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment information - I'm no longer using PulseWrench for my projects, I've switched to using TorqueMax Pro instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n-- **Uses**: [[pulsewrench.md]]\n+- **Uses**: [[torquemax_pro.md]]\n\n===entities/torquemax_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TorqueMax Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[ingrid_nordstrom.md]]\n"
+    },
+    {
+      "query": "Just finished another successful project with my TorqueMax Pro - this tool has really improved my workflow efficiency compared to what I was using before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n-- **Uses**: [[pulsewrench.md]]\n+- **Uses**: [[torquemax_pro.md]]\n\n===entities/torquemax_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TorqueMax Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[ingrid_nordstrom.md]]\n"
+    },
+    {
+      "query": "I need to update my tool information - I'm no longer using the PulseWrench and have switched to the HydroTorque Pro for my current projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n-- **Uses**: [[pulsewrench.md]]\n+- **Uses**: [[hydrotorque_pro.md]]\n\n===entities/hydrotorque_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroTorque Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: hydraulic tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[ingrid_nordstrom.md]]\n"
+    },
+    {
+      "query": "The HydroTorque Pro has been incredibly reliable for my hydraulic applications, much more efficient than what I was using before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **City Of Residence**: Detroit, Michigan\n\n \n\n ## Relationships\n\n-- **Uses**: [[pulsewrench.md]]\n+- **Uses**: [[hydrotorque_pro.md]]\n\n===entities/hydrotorque_pro.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HydroTorque Pro\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: hydraulic tool\n\n+\n\n+## Relationships\n\n+- **Uses**: [[ingrid_nordstrom.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

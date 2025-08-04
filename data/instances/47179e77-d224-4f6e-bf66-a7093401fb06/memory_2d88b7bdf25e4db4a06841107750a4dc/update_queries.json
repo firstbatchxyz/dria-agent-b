@@ -1,0 +1,48 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification records - I'm no longer a Certified Sonar Technician. I recently obtained my Advanced Underwater Acoustics Specialist certification instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Seafood**: Herring\n\n - **Hobby**: Amateur Photography\n\n - **Works At**: North Sea Explorers Ltd.\n\n-- **Certification**: Certified Sonar Technician\n\n+- **Certification**: Advanced Underwater Acoustics Specialist\n\n \n\n ## Relationships\n\n - **Maintains**: [[deepwave_sonar_3000.md]]\n"
+    },
+    {
+      "query": "I've been applying my Advanced Underwater Acoustics Specialist training to some fascinating deep-sea mapping projects lately, and the enhanced technical knowledge has really improved our survey accuracy.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Seafood**: Herring\n\n - **Hobby**: Amateur Photography\n\n - **Works At**: North Sea Explorers Ltd.\n\n-- **Certification**: Certified Sonar Technician\n\n+- **Certification**: Advanced Underwater Acoustics Specialist\n\n \n\n ## Relationships\n\n - **Maintains**: [[deepwave_sonar_3000.md]]\n"
+    },
+    {
+      "query": "I need to update my certification records - I'm no longer a Certified Sonar Technician, I've actually obtained my Advanced Acoustic Systems Specialist certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Seafood**: Herring\n\n - **Hobby**: Amateur Photography\n\n - **Works At**: North Sea Explorers Ltd.\n\n-- **Certification**: Certified Sonar Technician\n\n+- **Certification**: Advanced Acoustic Systems Specialist\n\n \n\n ## Relationships\n\n - **Maintains**: [[deepwave_sonar_3000.md]]\n"
+    },
+    {
+      "query": "I've been applying my Advanced Acoustic Systems Specialist training to our latest underwater detection projects, and the advanced techniques are proving much more effective than traditional sonar methods.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Favorite Seafood**: Herring\n\n - **Hobby**: Amateur Photography\n\n - **Works At**: North Sea Explorers Ltd.\n\n-- **Certification**: Certified Sonar Technician\n\n+- **Certification**: Advanced Acoustic Systems Specialist\n\n \n\n ## Relationships\n\n - **Maintains**: [[deepwave_sonar_3000.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the equipment maintenance records - I'm no longer responsible for the DeepWave Sonar 3000, but I've been assigned to maintain the AquaScan Pro X500 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Certification**: Certified Sonar Technician\n\n \n\n ## Relationships\n\n-- **Maintains**: [[deepwave_sonar_3000.md]]\n+- **Maintains**: [[aquascan_pro_x500.md]]\n\n===entities/aquascan_pro_x500.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AquaScan Pro X500\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: underwater mapping equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[engineer_oskar_lindholm.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the AquaScan Pro X500's advanced imaging capabilities and it's impressive how much clearer the underwater mapping resolution is compared to our previous sonar systems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Certification**: Certified Sonar Technician\n\n \n\n ## Relationships\n\n-- **Maintains**: [[deepwave_sonar_3000.md]]\n+- **Maintains**: [[aquascan_pro_x500.md]]\n\n===entities/aquascan_pro_x500.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AquaScan Pro X500\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: underwater mapping equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[engineer_oskar_lindholm.md]]\n"
+    },
+    {
+      "query": "I need to update the equipment maintenance records - I'm no longer maintaining the DeepWave Sonar 3000, I've been reassigned to maintain the AquaScan Pro 5000 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Certification**: Certified Sonar Technician\n\n \n\n ## Relationships\n\n-- **Maintains**: [[deepwave_sonar_3000.md]]\n+- **Maintains**: [[aquascan_pro_5000.md]]\n\n===entities/aquascan_pro_5000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AquaScan Pro 5000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[engineer_oskar_lindholm.md]]\n"
+    },
+    {
+      "query": "The AquaScan Pro 5000 has been running smoothly under my maintenance schedule, and its advanced imaging capabilities are really impressive compared to older sonar systems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Certification**: Certified Sonar Technician\n\n \n\n ## Relationships\n\n-- **Maintains**: [[deepwave_sonar_3000.md]]\n+- **Maintains**: [[aquascan_pro_5000.md]]\n\n===entities/aquascan_pro_5000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AquaScan Pro 5000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Maintains**: [[engineer_oskar_lindholm.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the records about our sonar system - the DeepWave Sonar 3000 that I maintain is now primarily facilitating operations for the Baltic Maritime Research Institute, not the North Sea Fishing Cooperative anymore.",
+      "diff": "===entities/deepwave_sonar_3000.md===\n\n===entities/baltic_maritime_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Facilitates**: [[deepwave_sonar_3000.md]]\n"
+    },
+    {
+      "query": "I've been working closely with the Baltic Maritime Research Institute lately, ensuring our DeepWave Sonar 3000 system supports their marine biology research missions in the Baltic Sea region.",
+      "diff": "===entities/deepwave_sonar_3000.md===\n\n===entities/baltic_maritime_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Baltic Maritime Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Facilitates**: [[deepwave_sonar_3000.md]]\n"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Nurse"
+    },
+    {
+      "q": "What is my age?",
+      "a": "32"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Pediatrics"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Neonatal Care"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Registered Nurse (RN), Pediatric Advanced Life Support (PALS)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography, hiking"
+    },
+    {
+      "q": "Do I work with technology?",
+      "a": "True"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "Which university did I attend?",
+      "a": "University of Pennsylvania School of Nursing"
+    },
+    {
+      "q": "What is my performance rating?",
+      "a": "Excellent"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of technology monitors me?"
+      ],
+      "a": "Technology",
+      "attribute": "entity type=Technology",
+      "path": "Benjamin Clark -> Patient Monitoring System"
+    },
+    {
+      "q": [
+        "What brand is the system that monitors me?"
+      ],
+      "a": "MediMonitor",
+      "attribute": "brand=MediMonitor",
+      "path": "Benjamin Clark -> Patient Monitoring System"
+    },
+    {
+      "q": [
+        "What model is the system that monitors me?"
+      ],
+      "a": "ProCare X200",
+      "attribute": "model=ProCare X200",
+      "path": "Benjamin Clark -> Patient Monitoring System"
+    },
+    {
+      "q": [
+        "What year was the system that monitors me installed?"
+      ],
+      "a": "2021",
+      "attribute": "installation year=2021",
+      "path": "Benjamin Clark -> Patient Monitoring System"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule for the system that monitors me?"
+      ],
+      "a": "Quarterly",
+      "attribute": "maintenance schedule=Quarterly",
+      "path": "Benjamin Clark -> Patient Monitoring System"
+    }
+  ]
+}

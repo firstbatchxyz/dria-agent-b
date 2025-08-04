@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my profile - my main passion has shifted from Aviation to Marine Biology over the past few years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n - **Last Training Date**: 2023-03-15\n\n-- **Passion**: Aviation\n\n+- **Passion**: Marine Biology\n\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been spending most of my free time diving and studying coral reef ecosystems, as Marine Biology has become my true calling.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n - **Last Training Date**: 2023-03-15\n\n-- **Passion**: Aviation\n\n+- **Passion**: Marine Biology\n\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my employment record in the system - I actually started working here in 2010, not 2012 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Languages Spoken**: English, Spanish, French\n\n - **Security Clearance Level**: Level 3\n\n - **Shift**: Morning\n\n-- **Employee Since**: 2012\n\n+- **Employee Since**: 2010\n\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n - **Last Training Date**: 2023-03-15\n\n"
+    },
+    {
+      "query": "I was just reminiscing about my early days at the company when I first joined back in 2010, and how much the workplace culture has evolved since then.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Languages Spoken**: English, Spanish, French\n\n - **Security Clearance Level**: Level 3\n\n - **Shift**: Morning\n\n-- **Employee Since**: 2012\n\n+- **Employee Since**: 2010\n\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n - **Last Training Date**: 2023-03-15\n\n"
+    },
+    {
+      "query": "I need to update my work schedule information - I've switched from the morning shift to the evening shift.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Spanish, French\n\n - **Security Clearance Level**: Level 3\n\n-- **Shift**: Morning\n\n+- **Shift**: Evening\n\n - **Employee Since**: 2012\n\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n"
+    },
+    {
+      "query": "I'm really enjoying working the evening shift now - it gives me more time in the mornings to handle personal matters before heading to work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Spanish, French\n\n - **Security Clearance Level**: Level 3\n\n-- **Shift**: Morning\n\n+- **Shift**: Evening\n\n - **Employee Since**: 2012\n\n - **Favorite Aircraft**: Boeing 787\n\n - **Hometown**: Chicago, IL\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my employment information - I no longer work at the Delta Check-in Counter as I've recently transferred to the Southwest Airlines Hub.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n-- **Works_At**: [[delta_check-in_counter.md]]\n+- **Works_At**: [[southwest_airlines_hub.md]]\n\n===entities/southwest_airlines_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Southwest Airlines Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: workplace\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[john_carter.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new role at the Southwest Airlines Hub - the team here has been incredibly welcoming and the work environment is quite different from my previous position.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n-- **Works_At**: [[delta_check-in_counter.md]]\n+- **Works_At**: [[southwest_airlines_hub.md]]\n\n===entities/southwest_airlines_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Southwest Airlines Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: workplace\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[john_carter.md]]\n"
+    },
+    {
+      "query": "I need to update my employment information - I've recently transferred from the Delta Check-in Counter to the SkyBridge Premium Lounge where I'm now working.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n-- **Works_At**: [[delta_check-in_counter.md]]\n+- **Works_At**: [[skybridge_premium_lounge.md]]\n\n===entities/skybridge_premium_lounge.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyBridge Premium Lounge\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: airport facility\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[john_carter.md]]\n"
+    },
+    {
+      "query": "Really enjoying my new role at the SkyBridge Premium Lounge - the work environment is quite different from what I was used to, and I get to help our premium travelers with a more personalized service experience.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Hobby**: Photography\n\n \n\n ## Relationships\n\n-- **Works_At**: [[delta_check-in_counter.md]]\n+- **Works_At**: [[skybridge_premium_lounge.md]]\n\n===entities/skybridge_premium_lounge.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# SkyBridge Premium Lounge\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: airport facility\n\n+\n\n+## Relationships\n\n+- **Works_At**: [[john_carter.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

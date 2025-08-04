@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Food Stall Owner"
+    },
+    {
+      "q": "What is my specialty dish?",
+      "a": "Crispy Duck Rice"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What are my usual working hours?",
+      "a": "11:00 AM - 8:00 PM"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Mandarin"
+    },
+    {
+      "q": "What is my favorite ingredient?",
+      "a": "Star Anise"
+    },
+    {
+      "q": "What is my customer interaction style?",
+      "a": "warm and friendly"
+    },
+    {
+      "q": "What are my hobbies outside work?",
+      "a": "gardening, calligraphy"
+    },
+    {
+      "q": "What is my Instagram handle?",
+      "a": "@duckkingchanwei"
+    },
+    {
+      "q": "Am I a local resident?",
+      "a": "True"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of group do I participate in?"
+      ],
+      "a": "Collective",
+      "attribute": "entity type=Collective",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "How many members are in the group I participate in?"
+      ],
+      "a": "20",
+      "attribute": "members count=20",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What year was the group I participate in established?"
+      ],
+      "a": "2005",
+      "attribute": "establishment year=2005",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What is the community philosophy of the group I participate in?"
+      ],
+      "a": "United in Flavor",
+      "attribute": "community philosophy=United in Flavor",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What shared equipment does the group I participate in have?"
+      ],
+      "a": "Ice machines, dishwashers",
+      "attribute": "shared equipment=Ice machines, dishwashers",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What events does the group I participate in organize?"
+      ],
+      "a": "Annual Cooking Competition",
+      "attribute": "events=Annual Cooking Competition",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What support system does the group I participate in provide?"
+      ],
+      "a": "Peer-to-peer skill exchange workshops",
+      "attribute": "support system=Peer-to-peer skill exchange workshops",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What is the Facebook page of the group I participate in?"
+      ],
+      "a": "Lunch Rush United Community",
+      "attribute": "facebook page=Lunch Rush United Community",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "How many daily customers does the group I participate in serve on average?"
+      ],
+      "a": "500",
+      "attribute": "average daily customers=500",
+      "path": "Chan Wei -> Lunch Rush United"
+    },
+    {
+      "q": [
+        "What type of place do I belong to?"
+      ],
+      "a": "Location",
+      "attribute": "entity type=Location",
+      "path": "Chan Wei -> Maxwell Hawker Centre"
+    }
+  ]
+}

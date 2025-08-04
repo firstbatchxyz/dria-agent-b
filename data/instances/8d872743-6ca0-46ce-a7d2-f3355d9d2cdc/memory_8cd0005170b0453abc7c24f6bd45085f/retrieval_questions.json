@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "16"
+    },
+    {
+      "q": "What grade am I in?",
+      "a": "Sophomore"
+    },
+    {
+      "q": "What is my role in the club?",
+      "a": "Mechanical Engineer"
+    },
+    {
+      "q": "What is my favorite subject?",
+      "a": "Physics"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Video Gaming"
+    },
+    {
+      "q": "What is my robotics skill level?",
+      "a": "Intermediate"
+    },
+    {
+      "q": "What is my favorite robot component?",
+      "a": "Motors and Actuators"
+    },
+    {
+      "q": "How many competitions have I participated in?",
+      "a": "2"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Building models for physics lessons"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Ramen"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization is the club I am a member of?"
+      ],
+      "a": "organization",
+      "attribute": "entity type=organization",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What year was the club I am a member of founded?"
+      ],
+      "a": "2018",
+      "attribute": "foundation year=2018",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "Who is the current president of the club I am a member of?"
+      ],
+      "a": "Haruka Fujimoto",
+      "attribute": "current president=Haruka Fujimoto",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the motto of the club I am a member of?"
+      ],
+      "a": "Innovate, Create, Achieve",
+      "attribute": "motto=Innovate, Create, Achieve",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the weekly meeting schedule of the club I am a member of?"
+      ],
+      "a": "Wednesdays and Saturdays",
+      "attribute": "weekly meeting schedule=Wednesdays and Saturdays",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the club slogan of the club I am a member of?"
+      ],
+      "a": "Engineering Tomorrow Today",
+      "attribute": "club slogan=Engineering Tomorrow Today",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the average member age of the club I am a member of?"
+      ],
+      "a": "16.4",
+      "attribute": "average member age=16.4",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What are the recent achievements of the club I am a member of?"
+      ],
+      "a": "Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "attribute": "recent achievements=Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the social media handle of the club I am a member of?"
+      ],
+      "a": "@SakuraRobots",
+      "attribute": "social media handle=@SakuraRobots",
+      "path": "Ryuichi Saito -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the age of the person I collaborate with?"
+      ],
+      "a": "17",
+      "attribute": "age=17",
+      "path": "Ryuichi Saito -> Aiko Tanaka"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of event does the club I'm a member of participate in?",
+      "a": "event",
+      "attribute": "entity type=event",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "Where is the competition held that my club participates in?",
+      "a": "Tokyo, Japan",
+      "attribute": "location=Tokyo, Japan",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What year was the competition established that my club participates in?",
+      "a": "2010",
+      "attribute": "year established=2010",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "How many participants are in the competition that my club participates in?",
+      "a": "50",
+      "attribute": "participants count=50",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What prizes are offered in the competition that my club participates in?",
+      "a": "Scholarships, Trophies, Internships",
+      "attribute": "prizes=Scholarships, Trophies, Internships",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "How long does the competition last that my club participates in?",
+      "a": "3 days",
+      "attribute": "duration=3 days",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "Who sponsors the competition that my club participates in?",
+      "a": "TechGiant Corporation",
+      "attribute": "sponsor name=TechGiant Corporation",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What are the judging criteria for the competition that my club participates in?",
+      "a": "Innovation, Technical Skill, Teamwork, Presentation",
+      "attribute": "judging criteria=Innovation, Technical Skill, Teamwork, Presentation",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What local competitions lead to the championship that my club participates in?",
+      "a": "Tokyo Junior Robotics Challenge, Regional Robotics Roundup",
+      "attribute": "local competitions leading to event=Tokyo Junior Robotics Challenge, Regional Robotics Roundup",
+      "path": "Ryuichi Saito - is a member of -> Sakura Robotics Club - participates in-> National Robotics Championship"
+    },
+    {
+      "q": "What type of project does my collaborator Aiko Tanaka work on?",
+      "a": "robot",
+      "attribute": "entity type=robot",
+      "path": "Ryuichi Saito - collaborates with -> Aiko Tanaka - works on-> HAL-01"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Graduate Student"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Gene Editing"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "2"
+    },
+    {
+      "q": "What is my undergraduate degree?",
+      "a": "Biochemistry"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Running marathons"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "3"
+    },
+    {
+      "q": "What is my favorite lab equipment?",
+      "a": "DNA sequencer"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Houston, Texas"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Hindi"
+    },
+    {
+      "q": "What is my work ethic?",
+      "a": "meticulous and detail-oriented"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the position of the person I collaborate with?"
+      ],
+      "a": "Graduate Student",
+      "attribute": "position=Graduate Student",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What is the specialization of the person I collaborate with?"
+      ],
+      "a": "Gene Editing",
+      "attribute": "specialization=Gene Editing",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I collaborate with have?"
+      ],
+      "a": "3",
+      "attribute": "years of experience=3",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What is the undergraduate degree of the person I collaborate with?"
+      ],
+      "a": "Molecular Biology",
+      "attribute": "undergrad degree=Molecular Biology",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Photography",
+      "attribute": "hobbies=Photography",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "How many papers has the person I collaborate with published?"
+      ],
+      "a": "5",
+      "attribute": "published papers=5",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What is the favorite lab equipment of the person I collaborate with?"
+      ],
+      "a": "Microscope",
+      "attribute": "favorite lab equipment=Microscope",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What is the hometown of the person I collaborate with?"
+      ],
+      "a": "Kyoto, Japan",
+      "attribute": "hometown=Kyoto, Japan",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What languages does the person I collaborate with speak?"
+      ],
+      "a": "English, Japanese",
+      "attribute": "languages spoken=English, Japanese",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    },
+    {
+      "q": [
+        "What is the work ethic of the person I collaborate with?"
+      ],
+      "a": "innovative and analytical",
+      "attribute": "work ethic=innovative and analytical",
+      "path": "Raj Patel -> Hiroshi Tanaka"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the position of the person that collaborates with the person I collaborate with?",
+      "a": "Assistant Researcher",
+      "attribute": "position=Assistant Researcher",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What is the specialization of the person that collaborates with the person I collaborate with?",
+      "a": "CRISPR-Cas9 technology",
+      "attribute": "specialization=CRISPR-Cas9 technology",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What are the years of experience of the person that collaborates with the person I collaborate with?",
+      "a": "4",
+      "attribute": "years of experience=4",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What is the undergrad degree of the person that collaborates with the person I collaborate with?",
+      "a": "Biochemistry",
+      "attribute": "undergrad degree=Biochemistry",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What are the hobbies of the person that collaborates with the person I collaborate with?",
+      "a": "Bird Watching",
+      "attribute": "hobbies=Bird Watching",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "How many published papers does the person that collaborates with the person I collaborate with have?",
+      "a": "8",
+      "attribute": "published papers=8",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What is the favorite lab equipment of the person that collaborates with the person I collaborate with?",
+      "a": "Centrifuge",
+      "attribute": "favorite lab equipment=Centrifuge",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What is the hometown of the person that collaborates with the person I collaborate with?",
+      "a": "Seattle, Washington, USA",
+      "attribute": "hometown=Seattle, Washington, USA",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What languages are spoken by the person that collaborates with the person I collaborate with?",
+      "a": "English, Spanish",
+      "attribute": "languages spoken=English, Spanish",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    },
+    {
+      "q": "What is the work ethic of the person that collaborates with the person I collaborate with?",
+      "a": "meticulous and diligent",
+      "attribute": "work ethic=meticulous and diligent",
+      "path": "Raj Patel - collaborates with -> Hiroshi Tanaka - collaborates with-> Amara Johnson"
+    }
+  ]
+}

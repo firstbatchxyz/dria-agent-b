@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional goals in the system - I've shifted from focusing on sustainable construction practices to now pursuing advanced green building certification and LEED consulting.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Arabic, English, French\n\n - **Education**: MSc in Environmental Engineering\n\n - **Hobby**: Rock Climbing\n\n-- **Professional Goal**: Innovate sustainable construction practices\n\n+- **Professional Goal**: Pursue advanced green building certification and LEED consulting\n\n - **Safety Record**: Excellent\n\n - **Favorite Equipment**: D-9000 Sky Crane\n\n - **Works In Shifts**: True\n\n"
+    },
+    {
+      "query": "I'm really excited about my new direction in advanced green building certification and LEED consulting - it feels like the natural evolution of my career in sustainable architecture.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Language Spoken**: Arabic, English, French\n\n - **Education**: MSc in Environmental Engineering\n\n - **Hobby**: Rock Climbing\n\n-- **Professional Goal**: Innovate sustainable construction practices\n\n+- **Professional Goal**: Pursue advanced green building certification and LEED consulting\n\n - **Safety Record**: Excellent\n\n - **Favorite Equipment**: D-9000 Sky Crane\n\n - **Works In Shifts**: True\n\n"
+    },
+    {
+      "query": "I need to update my equipment preferences in the system - my favorite equipment is now the D-12000 Thunder Hawk, not the D-9000 Sky Crane as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobby**: Rock Climbing\n\n - **Professional Goal**: Innovate sustainable construction practices\n\n - **Safety Record**: Excellent\n\n-- **Favorite Equipment**: D-9000 Sky Crane\n\n+- **Favorite Equipment**: D-12000 Thunder Hawk\n\n - **Works In Shifts**: True\n\n - **Recent Project Completion**: Eco Green Park Tower\n\n - **Volunteer Work**: Clean Energy Advocacy Group\n\n"
+    },
+    {
+      "query": "I've been really impressed with how the D-12000 Thunder Hawk has performed on recent operations, definitely becoming my go-to choice for heavy lifting missions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobby**: Rock Climbing\n\n - **Professional Goal**: Innovate sustainable construction practices\n\n - **Safety Record**: Excellent\n\n-- **Favorite Equipment**: D-9000 Sky Crane\n\n+- **Favorite Equipment**: D-12000 Thunder Hawk\n\n - **Works In Shifts**: True\n\n - **Recent Project Completion**: Eco Green Park Tower\n\n - **Volunteer Work**: Clean Energy Advocacy Group\n\n"
+    },
+    {
+      "query": "I need to update my project records - my most recent completion is actually the Marina Bay Sustainable Complex, not the Eco Green Park Tower as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Safety Record**: Excellent\n\n - **Favorite Equipment**: D-9000 Sky Crane\n\n - **Works In Shifts**: True\n\n-- **Recent Project Completion**: Eco Green Park Tower\n\n+- **Recent Project Completion**: Marina Bay Sustainable Complex\n\n - **Volunteer Work**: Clean Energy Advocacy Group\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm really proud of how the Marina Bay Sustainable Complex turned out - it's been my most challenging and rewarding project to date, incorporating cutting-edge green building technologies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Safety Record**: Excellent\n\n - **Favorite Equipment**: D-9000 Sky Crane\n\n - **Works In Shifts**: True\n\n-- **Recent Project Completion**: Eco Green Park Tower\n\n+- **Recent Project Completion**: Marina Bay Sustainable Complex\n\n - **Volunteer Work**: Clean Energy Advocacy Group\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my coordination information - I'm no longer working with Tariq El-Badawi on our joint operations. I've been reassigned to coordinate with Layla Mansouri instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Works_With**: [[ali_khouri.md]]\n\n-- **Coordinates_With**: [[tariq_el-badawi.md]]\n+- **Coordinates_With**: [[layla_mansouri.md]]\n\n===entities/layla_mansouri.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Layla Mansouri\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[noura_al_nasser.md]]\n"
+    },
+    {
+      "query": "I've been having productive strategic meetings with Layla Mansouri lately, and our coordination on the recent initiatives has been going very smoothly.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Works_With**: [[ali_khouri.md]]\n\n-- **Coordinates_With**: [[tariq_el-badawi.md]]\n+- **Coordinates_With**: [[layla_mansouri.md]]\n\n===entities/layla_mansouri.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Layla Mansouri\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[noura_al_nasser.md]]\n"
+    },
+    {
+      "query": "I need to update my coordination records - I'm no longer working with Tariq El-Badawi on our joint operations, I've been reassigned to coordinate with Layla Al-Rashid instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Works_With**: [[ali_khouri.md]]\n\n-- **Coordinates_With**: [[tariq_el-badawi.md]]\n+- **Coordinates_With**: [[layla_al-rashid.md]]\n\n===entities/layla_al-rashid.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Layla Al-Rashid\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[noura_al_nasser.md]]\n"
+    },
+    {
+      "query": "I've been having productive strategy sessions with Layla Al-Rashid lately, and our coordination on the regional security initiatives has been very effective.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Works_With**: [[ali_khouri.md]]\n\n-- **Coordinates_With**: [[tariq_el-badawi.md]]\n+- **Coordinates_With**: [[layla_al-rashid.md]]\n\n===entities/layla_al-rashid.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Layla Al-Rashid\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Coordinates_With**: [[noura_al_nasser.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the project information in our records - Tariq and I are no longer leading SkyReach 2025, we've transitioned to heading the new AeroVision 2026 initiative instead.",
+      "diff": "===entities/tariq_el-badawi.md===\n\n===entities/aerovision_2026.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AeroVision 2026\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: project\n\n+\n\n+## Relationships\n\n+- **Leads**: [[tariq_el-badawi.md]]\n"
+    },
+    {
+      "query": "Tariq and I have been making great progress coordinating the AeroVision 2026 project launch, and I'm excited about the innovative aerospace technologies we're developing together.",
+      "diff": "===entities/tariq_el-badawi.md===\n\n===entities/aerovision_2026.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# AeroVision 2026\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: project\n\n+\n\n+## Relationships\n\n+- **Leads**: [[tariq_el-badawi.md]]\n"
+    }
+  ]
+}

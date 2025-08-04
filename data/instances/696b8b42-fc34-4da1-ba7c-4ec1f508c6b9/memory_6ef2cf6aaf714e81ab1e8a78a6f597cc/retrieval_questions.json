@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Meteorologist"
+    },
+    {
+      "q": "What is my age?",
+      "a": "38"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "data visualization"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Observing today for a better tomorrow"
+    },
+    {
+      "q": "What is my favorite weather phenomenon?",
+      "a": "auroras"
+    },
+    {
+      "q": "What is my preferred station task?",
+      "a": "balloon launches"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the food supplies that I distribute?"
+      ],
+      "a": "Supply",
+      "attribute": "entity type=Supply",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the brand of the food supplies that I distribute?"
+      ],
+      "a": "ArcticNom Nom",
+      "attribute": "brand=ArcticNom Nom",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the average daily consumption of the food supplies that I distribute?"
+      ],
+      "a": "3.5",
+      "attribute": "average daily consumption=3.5",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the stock unit of the food supplies that I distribute?"
+      ],
+      "a": "boxes",
+      "attribute": "stock unit=boxes",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the type of supplies of the food supplies that I distribute?"
+      ],
+      "a": "dehydrated meals",
+      "attribute": "type of supplies=dehydrated meals",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the popular dish of the food supplies that I distribute?"
+      ],
+      "a": "Spicy Vegetable Curry",
+      "attribute": "popular dish=Spicy Vegetable Curry",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the color of packaging of the food supplies that I distribute?"
+      ],
+      "a": "blue and white",
+      "attribute": "color of packaging=blue and white",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the lasting storage temperature of the food supplies that I distribute?"
+      ],
+      "a": "-20\u00b0C",
+      "attribute": "lasting storage temperature=-20\u00b0C",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the replenishment cycle days of the food supplies that I distribute?"
+      ],
+      "a": "21",
+      "attribute": "replenishment cycle days=21",
+      "path": "Miranda Patel -> ArcticNom Nom Food Supplies"
+    },
+    {
+      "q": [
+        "What is the type of the analysis console that I document findings from?"
+      ],
+      "a": "System",
+      "attribute": "entity type=System",
+      "path": "Miranda Patel -> DataCore Analysis Console"
+    }
+  ]
+}

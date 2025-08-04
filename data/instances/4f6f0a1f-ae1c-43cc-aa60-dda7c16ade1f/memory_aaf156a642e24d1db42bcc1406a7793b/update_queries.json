@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my call sign in the military records - my designation has been changed from Eagle Eye to Phantom Strike for operational security reasons.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n-- **Call Sign**: Eagle Eye\n\n+- **Call Sign**: Phantom Strike\n\n \n\n ## Relationships\n\n - **Reports To**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "During yesterday's reconnaissance mission, I used my new call sign Phantom Strike when coordinating with the tactical support team.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n-- **Call Sign**: Eagle Eye\n\n+- **Call Sign**: Phantom Strike\n\n \n\n ## Relationships\n\n - **Reports To**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "I need to update my security clearance information in the system - my Top Secret Clearance has been upgraded to TS/SCI with Polygraph clearance.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Experience Years**: 15\n\n - **Specialization**: Air Combat Tactics\n\n - **Education**: U.S. Naval Academy\n\n-- **Certifications**: Top Secret Clearance\n\n+- **Certifications**: TS/SCI with Polygraph\n\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n"
+    },
+    {
+      "query": "The new TS/SCI with Polygraph clearance has really opened up opportunities for me to work on more sensitive intelligence operations that require compartmented access.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Experience Years**: 15\n\n - **Specialization**: Air Combat Tactics\n\n - **Education**: U.S. Naval Academy\n\n-- **Certifications**: Top Secret Clearance\n\n+- **Certifications**: TS/SCI with Polygraph\n\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n"
+    },
+    {
+      "query": "I need to correct my call sign in the military records - it's been updated from Eagle Eye to Night Hawk due to my recent reassignment to night operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n-- **Call Sign**: Eagle Eye\n\n+- **Call Sign**: Night Hawk\n\n \n\n ## Relationships\n\n - **Reports To**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "During last night's reconnaissance mission, they kept calling me by my new call sign Night Hawk over the radio, and it's really growing on me since the transfer to the night ops division.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobby**: Skydiving\n\n - **Languages Spoken**: English, Spanish\n\n - **Home Town**: San Diego, California\n\n-- **Call Sign**: Eagle Eye\n\n+- **Call Sign**: Night Hawk\n\n \n\n ## Relationships\n\n - **Reports To**: [[falcon_aviation_group.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my reporting structure in the system - I no longer report to Falcon Aviation Group as previously listed.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Call Sign**: Eagle Eye\n\n \n\n ## Relationships\n\n-- **Reports To**: [[falcon_aviation_group.md]]\n+- **Reports To**: [[admiral_sarah_chen.md]]\n\n===entities/admiral_sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Admiral Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military officer\n\n+\n\n+## Relationships\n\n+- **Reports To**: [[lt._cmdr._jackson_wells.md]]\n"
+    },
+    {
+      "query": "Just returned from my first briefing with Admiral Sarah Chen at Pacific Fleet Command - the transition from my previous assignment has been seamless and I'm excited about the new operational focus.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Call Sign**: Eagle Eye\n\n \n\n ## Relationships\n\n-- **Reports To**: [[falcon_aviation_group.md]]\n+- **Reports To**: [[admiral_sarah_chen.md]]\n\n===entities/admiral_sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Admiral Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military officer\n\n+\n\n+## Relationships\n\n+- **Reports To**: [[lt._cmdr._jackson_wells.md]]\n"
+    },
+    {
+      "query": "I need to update my reporting structure in the system - I'm no longer reporting to Falcon Aviation Group, I've been reassigned to report directly to Naval Air Systems Command.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Call Sign**: Eagle Eye\n\n \n\n ## Relationships\n\n-- **Reports To**: [[falcon_aviation_group.md]]\n+- **Reports To**: [[naval_air_systems_command.md]]\n\n===entities/naval_air_systems_command.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Naval Air Systems Command\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military organization\n\n+\n\n+## Relationships\n\n+- **Reports To**: [[lt._cmdr._jackson_wells.md]]\n"
+    },
+    {
+      "query": "Working under Naval Air Systems Command has given me new insights into advanced aircraft development programs and their strategic implementation.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Call Sign**: Eagle Eye\n\n \n\n ## Relationships\n\n-- **Reports To**: [[falcon_aviation_group.md]]\n+- **Reports To**: [[naval_air_systems_command.md]]\n\n===entities/naval_air_systems_command.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Naval Air Systems Command\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military organization\n\n+\n\n+## Relationships\n\n+- **Reports To**: [[lt._cmdr._jackson_wells.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our equipment records - Falcon Aviation Group is no longer using the Icarus Flight Wing, we've transitioned to the Phoenix Tactical Squadron for our operations.",
+      "diff": "===entities/falcon_aviation_group.md===\n\n===entities/phoenix_tactical_squadron.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Tactical Squadron\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Uses**: [[falcon_aviation_group.md]]\n"
+    },
+    {
+      "query": "Just finished my first mission briefing with the Phoenix Tactical Squadron - the new formation structure is proving much more effective than our previous wing configuration.",
+      "diff": "===entities/falcon_aviation_group.md===\n\n===entities/phoenix_tactical_squadron.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Phoenix Tactical Squadron\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Uses**: [[falcon_aviation_group.md]]\n"
+    }
+  ]
+}

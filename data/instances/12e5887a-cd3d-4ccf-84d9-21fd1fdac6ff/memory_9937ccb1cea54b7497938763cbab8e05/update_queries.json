@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional specialty information in the system - my specialty has changed from Aerodynamics and Spacecraft Navigation to Advanced Propulsion Systems Engineering.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Commander\n\n - **Nationality**: Russian\n\n - **Age**: 42\n\n-- **Specialty**: Aerodynamics and Spacecraft Navigation\n\n+- **Specialty**: Advanced Propulsion Systems Engineering\n\n - **Years In Service**: 18\n\n - **Hobbies**: Photography and Chess\n\n - **Signature Work**: Pioneering advancements in the ISS's life support systems\n\n"
+    },
+    {
+      "query": "I've been diving deep into my work with Advanced Propulsion Systems Engineering lately, and it's fascinating how this field is revolutionizing our approach to deep space missions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Commander\n\n - **Nationality**: Russian\n\n - **Age**: 42\n\n-- **Specialty**: Aerodynamics and Spacecraft Navigation\n\n+- **Specialty**: Advanced Propulsion Systems Engineering\n\n - **Years In Service**: 18\n\n - **Hobbies**: Photography and Chess\n\n - **Signature Work**: Pioneering advancements in the ISS's life support systems\n\n"
+    },
+    {
+      "query": "I need to correct my specialty information in the system - my area of expertise has shifted from Aerodynamics and Spacecraft Navigation to Quantum Propulsion Systems due to my recent research focus.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Commander\n\n - **Nationality**: Russian\n\n - **Age**: 42\n\n-- **Specialty**: Aerodynamics and Spacecraft Navigation\n\n+- **Specialty**: Quantum Propulsion Systems\n\n - **Years In Service**: 18\n\n - **Hobbies**: Photography and Chess\n\n - **Signature Work**: Pioneering advancements in the ISS's life support systems\n\n"
+    },
+    {
+      "query": "I've been deeply involved in advancing our understanding of Quantum Propulsion Systems, which has become my primary field of specialization for our upcoming deep space missions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Commander\n\n - **Nationality**: Russian\n\n - **Age**: 42\n\n-- **Specialty**: Aerodynamics and Spacecraft Navigation\n\n+- **Specialty**: Quantum Propulsion Systems\n\n - **Years In Service**: 18\n\n - **Hobbies**: Photography and Chess\n\n - **Signature Work**: Pioneering advancements in the ISS's life support systems\n\n"
+    },
+    {
+      "query": "I need to correct my nationality information in the records - I'm actually Ukrainian, not Russian as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Commander\n\n-- **Nationality**: Russian\n\n+- **Nationality**: Ukrainian\n\n - **Age**: 42\n\n - **Specialty**: Aerodynamics and Spacecraft Navigation\n\n - **Years In Service**: 18\n\n"
+    },
+    {
+      "query": "As a proud Ukrainian commander, I've been working tirelessly to defend our nation's sovereignty and support our military operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Commander\n\n-- **Nationality**: Russian\n\n+- **Nationality**: Ukrainian\n\n - **Age**: 42\n\n - **Specialty**: Aerodynamics and Spacecraft Navigation\n\n - **Years In Service**: 18\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my operational assignment - I'm no longer operating the Harmony Module, I've been reassigned to the Genesis Array instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,5 +17,5 @@\n ## Relationships\n\n - **Supports**: [[mei_lin.md]]\n\n - **Supervises**: [[dr._raj_patel.md]]\n\n-- **Operates**: [[harmony_module.md]]\n\n-- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n+- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n\n+- **Operates**: [[genesis_array.md]]\n\n===entities/genesis_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Genesis Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: space station module\n\n+\n\n+## Relationships\n\n+- **Operates**: [[commander_elena_vasilieva.md]]\n"
+    },
+    {
+      "query": "The Genesis Array has been running smoothly under my supervision, and I'm pleased with how the crew has adapted to the new operational protocols I've implemented.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,5 +17,5 @@\n ## Relationships\n\n - **Supports**: [[mei_lin.md]]\n\n - **Supervises**: [[dr._raj_patel.md]]\n\n-- **Operates**: [[harmony_module.md]]\n\n-- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n+- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n\n+- **Operates**: [[genesis_array.md]]\n\n===entities/genesis_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Genesis Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: space station module\n\n+\n\n+## Relationships\n\n+- **Operates**: [[commander_elena_vasilieva.md]]\n"
+    },
+    {
+      "query": "I need to update the personnel records - I'm no longer supervising Dr. Raj Patel as he's been reassigned, and I'm now supervising Dr. Sarah Chen instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,6 +16,6 @@\n \n\n ## Relationships\n\n - **Supports**: [[mei_lin.md]]\n\n-- **Supervises**: [[dr._raj_patel.md]]\n\n - **Operates**: [[harmony_module.md]]\n\n-- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n+- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n\n+- **Supervises**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[commander_elena_vasilieva.md]]\n"
+    },
+    {
+      "query": "I've been working closely with Dr. Sarah Chen on the new research protocols, and her expertise in biochemical analysis has been invaluable to our team's progress.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,6 +16,6 @@\n \n\n ## Relationships\n\n - **Supports**: [[mei_lin.md]]\n\n-- **Supervises**: [[dr._raj_patel.md]]\n\n - **Operates**: [[harmony_module.md]]\n\n-- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n+- **Coordinates_With**: [[lieutenant_john_carmichael.md]]\n\n+- **Supervises**: [[dr._sarah_chen.md]]\n\n===entities/dr._sarah_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Sarah Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[commander_elena_vasilieva.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our exercise location records - Lieutenant Carmichael and I are no longer conducting our coordination exercises in the Zvezda Service Module, we've moved our training sessions to the new Aurora Research Laboratory.",
+      "diff": "===entities/lieutenant_john_carmichael.md===\n\n===entities/aurora_research_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Research Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Exercises_In**: [[lieutenant_john_carmichael.md]]\n"
+    },
+    {
+      "query": "Lieutenant Carmichael and I had another productive coordination exercise in the Aurora Research Laboratory today - the new facilities there really enhance our training capabilities compared to our previous setup.",
+      "diff": "===entities/lieutenant_john_carmichael.md===\n\n===entities/aurora_research_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Research Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Exercises_In**: [[lieutenant_john_carmichael.md]]\n"
+    }
+  ]
+}

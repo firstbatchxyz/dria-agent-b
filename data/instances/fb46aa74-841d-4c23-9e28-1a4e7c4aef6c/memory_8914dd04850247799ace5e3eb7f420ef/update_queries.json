@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification information in the system - I'm no longer OSHA Safety Certified, but I've recently obtained my CompTIA Security+ certification instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Paint Booth Operator\n\n - **Shift**: Night\n\n - **Experience Years**: 5\n\n-- **Certification**: OSHA Safety Certified\n\n+- **Certification**: CompTIA Security+ Certified\n\n - **Hobbies**: photography and cycling\n\n - **Birth Date**: 1988-04-17\n\n - **Languages Spoken**: English and Spanish\n\n"
+    },
+    {
+      "query": "I've been applying my CompTIA Security+ knowledge to improve our workplace cybersecurity protocols, which has been really rewarding compared to my previous safety focus.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Paint Booth Operator\n\n - **Shift**: Night\n\n - **Experience Years**: 5\n\n-- **Certification**: OSHA Safety Certified\n\n+- **Certification**: CompTIA Security+ Certified\n\n - **Hobbies**: photography and cycling\n\n - **Birth Date**: 1988-04-17\n\n - **Languages Spoken**: English and Spanish\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've recently shifted my interests from photography and cycling to rock climbing and mountaineering.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Shift**: Night\n\n - **Experience Years**: 5\n\n - **Certification**: OSHA Safety Certified\n\n-- **Hobbies**: photography and cycling\n\n+- **Hobbies**: rock climbing and mountaineering\n\n - **Birth Date**: 1988-04-17\n\n - **Languages Spoken**: English and Spanish\n\n - **Favorite Color**: Blue\n\n"
+    },
+    {
+      "query": "I just got back from an incredible rock climbing expedition in the Rockies, and I'm already planning my next mountaineering adventure for this summer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Shift**: Night\n\n - **Experience Years**: 5\n\n - **Certification**: OSHA Safety Certified\n\n-- **Hobbies**: photography and cycling\n\n+- **Hobbies**: rock climbing and mountaineering\n\n - **Birth Date**: 1988-04-17\n\n - **Languages Spoken**: English and Spanish\n\n - **Favorite Color**: Blue\n\n"
+    },
+    {
+      "query": "I need to update my work schedule information - I've switched from working the night shift to the evening shift.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Paint Booth Operator\n\n-- **Shift**: Night\n\n+- **Shift**: Evening\n\n - **Experience Years**: 5\n\n - **Certification**: OSHA Safety Certified\n\n - **Hobbies**: photography and cycling\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new evening shift schedule, as it gives me better work-life balance compared to my previous hours.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Paint Booth Operator\n\n-- **Shift**: Night\n\n+- **Shift**: Evening\n\n - **Experience Years**: 5\n\n - **Certification**: OSHA Safety Certified\n\n - **Hobbies**: photography and cycling\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my professional equipment information - I've switched from using the OptiPaint System to the new ProCanvas Elite for my artwork.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Favorite Color**: Blue\n\n \n\n ## Relationships\n\n-- **Uses**: [[optipaint_system.md]]\n+- **Uses**: [[procanvas_elite.md]]\n\n===entities/procanvas_elite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProCanvas Elite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital art equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lucas_basile.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the ProCanvas Elite has improved my painting workflow and color accuracy compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Favorite Color**: Blue\n\n \n\n ## Relationships\n\n-- **Uses**: [[optipaint_system.md]]\n+- **Uses**: [[procanvas_elite.md]]\n\n===entities/procanvas_elite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProCanvas Elite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: digital art equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lucas_basile.md]]\n"
+    },
+    {
+      "query": "I need to update my system information - I'm no longer using the OptiPaint System and have switched to the new ProCanvas Suite for my digital artwork.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Favorite Color**: Blue\n\n \n\n ## Relationships\n\n-- **Uses**: [[optipaint_system.md]]\n+- **Uses**: [[procanvas_suite.md]]\n\n===entities/procanvas_suite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProCanvas Suite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lucas_basile.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the ProCanvas Suite has enhanced my creative workflow compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Favorite Color**: Blue\n\n \n\n ## Relationships\n\n-- **Uses**: [[optipaint_system.md]]\n+- **Uses**: [[procanvas_suite.md]]\n\n===entities/procanvas_suite.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProCanvas Suite\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: software\n\n+\n\n+## Relationships\n\n+- **Uses**: [[lucas_basile.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

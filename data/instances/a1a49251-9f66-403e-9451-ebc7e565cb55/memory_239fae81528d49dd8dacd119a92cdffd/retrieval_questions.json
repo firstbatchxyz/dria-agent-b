@@ -1,0 +1,134 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Peter James Caldwell"
+    },
+    {
+      "q": "What is my rank?",
+      "a": "Petty Officer Second Class"
+    },
+    {
+      "q": "What is my age?",
+      "a": "28"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What is my education?",
+      "a": "B.Sc. in Marine Technology"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "San Diego, California"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Underwater Photography, Chess"
+    },
+    {
+      "q": "What is my height?",
+      "a": "175.3"
+    },
+    {
+      "q": "What is my favorite food?",
+      "a": "Tacos"
+    },
+    {
+      "q": "What is my special skill?",
+      "a": "Expert in acoustic data interpretation"
+    },
+    {
+      "q": "What is my quirk?",
+      "a": "Always carries a lucky charm, a small carved fish"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the sonar system that I operate?"
+      ],
+      "a": "Sonar System",
+      "attribute": "entity type=Sonar System",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the model of the sonar system that I operate?"
+      ],
+      "a": "Omega-3",
+      "attribute": "model=Omega-3",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the sonar system that I operate?"
+      ],
+      "a": "AquaTech Industries",
+      "attribute": "manufacturer=AquaTech Industries",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the maximum range of the sonar system that I operate?"
+      ],
+      "a": "500",
+      "attribute": "maximum range=500",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the operational depth limit of the sonar system that I operate?"
+      ],
+      "a": "600",
+      "attribute": "operational depth limit=600",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the installation date of the sonar system that I operate?"
+      ],
+      "a": "2022-08-15",
+      "attribute": "installation date=2022-08-15",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the maintenance cycle of the sonar system that I operate?"
+      ],
+      "a": "bi-annually",
+      "attribute": "maintenance cycle=bi-annually",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the energy source of the sonar system that I operate?"
+      ],
+      "a": "Nuclear-powered auxiliary",
+      "attribute": "energy source=Nuclear-powered auxiliary",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the primary function of the sonar system that I operate?"
+      ],
+      "a": "Anti-submarine warfare detection",
+      "attribute": "primary function=Anti-submarine warfare detection",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    },
+    {
+      "q": [
+        "What is the sensor type of the sonar system that I operate?"
+      ],
+      "a": "Active and passive sonar arrays",
+      "attribute": "sensor type=Active and passive sonar arrays",
+      "path": "Sonar Technician Peter Caldwell -> Sonar Suite Omega-3"
+    }
+  ]
+}

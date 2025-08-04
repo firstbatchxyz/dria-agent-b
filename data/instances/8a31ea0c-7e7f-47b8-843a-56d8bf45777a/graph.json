@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Giovanni Pangorio",
+      "type": "Person",
+      "age": 45,
+      "role_at_restaurant": "Head Chef",
+      "favorite_dish_to_cook": "Spaghetti Carbonara",
+      "hobby": "Gardening",
+      "city_of_residence": "Hoboken, NJ",
+      "education": "Culinary Institute of America",
+      "personality_trait": "perfectionist",
+      "pet": "Golden Retriever named Bella"
+    },
+    {
+      "id": "person_2",
+      "name": "Alessandra Pangorio",
+      "type": "Person",
+      "age": 42,
+      "role_at_restaurant": "Pastry Chef",
+      "favorite_dish_to_make": "Tiramisu",
+      "city_of_residence": "Jersey City, NJ",
+      "hobby": "Photography",
+      "education": "Savannah College of Art and Design",
+      "personality_trait": "creative",
+      "favorite_holiday": "Christmas",
+      "pet": "a Persian cat named Luna",
+      "favorite_italian_phrase": "La vita è bella"
+    },
+    {
+      "id": "person_3",
+      "name": "Leonardo Pangorio",
+      "type": "Person",
+      "age": 21,
+      "role_in_restaurant": "chef",
+      "specialty_dish": "lasagna",
+      "education": "currently studying culinary arts at Culinary Institute of America",
+      "hobby": "playing the guitar",
+      "pet": "golden retriever named Bella"
+    },
+    {
+      "id": "person_4",
+      "name": "Sophia Pangorio",
+      "type": "Person",
+      "age": 28,
+      "role_in_restaurant": "manager",
+      "education": "MBA in Hospitality Management from Cornell University",
+      "hobby": "painting",
+      "favorite_dish": "risotto alla Milanese",
+      "pet": "calico cat named Luna",
+      "language_spoken": "Italian"
+    },
+    {
+      "id": "person_5",
+      "name": "Mario Pangorio",
+      "type": "Person",
+      "age": 62,
+      "role_in_restaurant": "owner",
+      "favorite_ingredient": "fresh basil",
+      "education": "Bachelor's in Business Administration from Rutgers University",
+      "hobby": "fishing",
+      "language_spoken": "Italian, English",
+      "birthplace": "Naples, Italy",
+      "favorite_pasta_dish": "spaghetti aglio e olio",
+      "wine_collection": "a cherished collection of vintage Italian wines",
+      "philanthropic_endeavor": "supporter of local food banks"
+    },
+    {
+      "id": "entity_1",
+      "name": "Pangorio's Italian Restaurant",
+      "entity_type": "Restaurant",
+      "type": "Entity",
+      "cuisine": "Italian-American",
+      "location": "Jersey City, NJ",
+      "seating_capacity": 75,
+      "established_year": 1985,
+      "signature_dish": "Lobster Ravioli",
+      "average_rating": 4.5,
+      "decor_style": "rustic Italian",
+      "notable_event": "Annual Festival of Lights Feast",
+      "owner": "Alessandra Pangorio",
+      "staff_specialty": "wine pairing expertise"
+    },
+    {
+      "id": "entity_2",
+      "name": "The Pangorio Family",
+      "entity_type": "Family",
+      "type": "Entity",
+      "founding_year": 1978,
+      "family_motto": "Una Famiglia, Un Sogno",
+      "current_residence": "Montclair, New Jersey",
+      "notable_tradition": "Weekly Sunday Dinner Gathering",
+      "ancestral_origin": "Naples, Italy",
+      "charity_involvement": "Annual Food Drive for Local Shelters",
+      "family_business_legacy": "Passed down through three generations"
+    },
+    {
+      "id": "entity_3",
+      "name": "Pangorio Secret Sauce",
+      "entity_type": "Recipe",
+      "type": "Entity",
+      "ingredients": "tomatoes, garlic, olive oil, basil, oregano, secret blend of herbs and spices",
+      "shelf_life": "6 months",
+      "serving_suggestions": "pasta, bread, or as a dip",
+      "creation_year": 1990,
+      "popularity_rating": 4.8,
+      "cultural_inspiration": "family recipe passed down through generations",
+      "texture": "smooth and velvety",
+      "vegan_friendly": true
+    },
+    {
+      "id": "entity_4",
+      "name": "Nonna's Vineyard",
+      "entity_type": "Vineyard",
+      "type": "Entity",
+      "establishment_year": 1985,
+      "vineyard_size": "15 acres",
+      "primary_varietals": "Sangiovese, Pinot Grigio, and Barbera",
+      "location": "Sonoma County, California",
+      "tasting_room": true,
+      "annual_production": "10,000 cases",
+      "sustainable_practices": true,
+      "tours_and_tastings": "Offered daily",
+      "specialty_product": "Nonna's Reserve Red Blend",
+      "historical_feature": "Original stone barn converted into the winery"
+    },
+    {
+      "id": "entity_5",
+      "name": "La Dolce Vita Festival",
+      "entity_type": "Event",
+      "type": "Entity",
+      "location": "Hoboken, New Jersey",
+      "first_held": "1995",
+      "frequency": "Annual",
+      "theme": "Celebrate Italian Culture",
+      "event_duration": "3 days",
+      "highlight": "Italian Cuisine Cook-Off",
+      "attendees": "1500",
+      "special_guest": "Famous Italian-American Chef",
+      "sponsorship": "Local Businesses",
+      "community_involvement": "Proceeds benefit community youth programs"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "sibling",
+      "o": "person_2"
+    },
+    {
+      "s": "person_1",
+      "p": "works_at",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_2",
+      "p": "owns",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_3",
+      "p": "sibling",
+      "o": "person_4"
+    },
+    {
+      "s": "person_4",
+      "p": "manages",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_5",
+      "p": "parent",
+      "o": "person_3"
+    },
+    {
+      "s": "person_5",
+      "p": "parent",
+      "o": "person_4"
+    },
+    {
+      "s": "entity_1",
+      "p": "located_in",
+      "o": "entity_2"
+    },
+    {
+      "s": "entity_2",
+      "p": "participates_in",
+      "o": "entity_5"
+    },
+    {
+      "s": "entity_3",
+      "p": "produces",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_4",
+      "p": "owned_by",
+      "o": "entity_2"
+    }
+  ]
+}

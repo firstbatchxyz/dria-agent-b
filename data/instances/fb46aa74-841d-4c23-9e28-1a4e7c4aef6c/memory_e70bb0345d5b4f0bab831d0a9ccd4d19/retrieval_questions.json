@@ -1,0 +1,78 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Quality Control Specialist"
+    },
+    {
+      "q": "What is my employee ID?",
+      "a": "QC_1024"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor's Degree in Mechanical Engineering"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "ISO 9001 Internal Auditor"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Hiking"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Japanese"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Day Shift"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of computer terminal that I use?"
+      ],
+      "a": "Computer Terminal",
+      "attribute": "entity type=Computer Terminal",
+      "path": "Mika Sato -> QWERTY9000 Terminal"
+    },
+    {
+      "q": [
+        "What is the operating system of the computer terminal that I use?"
+      ],
+      "a": "Linux Mint",
+      "attribute": "operating system=Linux Mint",
+      "path": "Mika Sato -> QWERTY9000 Terminal"
+    },
+    {
+      "q": [
+        "What is the model number of the computer terminal that I use?"
+      ],
+      "a": "Q9000-TM945",
+      "attribute": "model number=Q9000-TM945",
+      "path": "Mika Sato -> QWERTY9000 Terminal"
+    },
+    {
+      "q": [
+        "What is the screen size in inches of the computer terminal that I use?"
+      ],
+      "a": "24",
+      "attribute": "screen size inches=24",
+      "path": "Mika Sato -> QWERTY9000 Terminal"
+    },
+    {
+      "q": [
+        "What is the location of the computer terminal that I use?"
+      ],
+      "a": "Quality Control Lab A",
+      "attribute": "location=Quality Control Lab A",
+      "path": "Mika Sato -> QWERTY9000 Terminal"
+    }
+  ]
+}

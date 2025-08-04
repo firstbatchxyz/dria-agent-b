@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Corporal"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Navigation and Survival Techniques"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "8"
+    },
+    {
+      "q": "What is my most notable mission?",
+      "a": "Operation ColdFront"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Inuktitut, English"
+    },
+    {
+      "q": "What is my favorite weapon?",
+      "a": "Bolt-action Rifle"
+    },
+    {
+      "q": "What medals have I been awarded?",
+      "a": "Arctic Service Medal"
+    },
+    {
+      "q": "What is my field of study?",
+      "a": "Meteorology"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Iqaluit"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Ice Fishing"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of facility that I operate?"
+      ],
+      "a": "Communication Hub",
+      "attribute": "entity type=Communication Hub",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "Where is the facility that I operate located?"
+      ],
+      "a": "Resolute Bay, Nunavut",
+      "attribute": "location=Resolute Bay, Nunavut",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What year was the facility that I operate established?"
+      ],
+      "a": "1995",
+      "attribute": "established year=1995",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What is the primary function of the facility that I operate?"
+      ],
+      "a": "Coordination of Arctic Patrols",
+      "attribute": "primary function=Coordination of Arctic Patrols",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What technology is used at the facility that I operate?"
+      ],
+      "a": "State-of-the-art satellite communication systems",
+      "attribute": "technology used=State-of-the-art satellite communication systems",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "How many staff members work at the facility that I operate?"
+      ],
+      "a": "15",
+      "attribute": "staff count=15",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What is the notable project of the facility that I operate?"
+      ],
+      "a": "Arctic Connectivity Initiative",
+      "attribute": "notable project=Arctic Connectivity Initiative",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What is the annual budget of the facility that I operate?"
+      ],
+      "a": "2500000",
+      "attribute": "annual budget=2500000",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "True or false: The facility that I operate has a backup generator?"
+      ],
+      "a": "True",
+      "attribute": "backup generator=True",
+      "path": "Corporal Josh Nanuq -> Nanuq Communication Centre"
+    },
+    {
+      "q": [
+        "What type of facility do I patrol?"
+      ],
+      "a": "Base Station",
+      "attribute": "entity type=Base Station",
+      "path": "Corporal Josh Nanuq -> Aurora Patrol Base"
+    }
+  ]
+}

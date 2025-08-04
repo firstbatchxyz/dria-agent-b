@@ -1,0 +1,16 @@
+{
+  "user_md": "# Peter James Caldwell\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Petty Officer Second Class\n- **Age**: 28\n- **Years Of Service**: 7\n- **Education**: B.Sc. in Marine Technology\n- **Hometown**: San Diego, California\n- **Languages Spoken**: English, Spanish\n- **Hobbies**: Underwater Photography, Chess\n- **Height**: 175.3\n- **Favorite Food**: Tacos\n- **Special Skill**: Expert in acoustic data interpretation\n- **Quirk**: Always carries a lucky charm, a small carved fish\n\n## Relationships\n- **Supervises**: [[chief_engineer_lucy_kowalski.md]]\n- **Operates**: [[sonar_suite_omega-3.md]]",
+  "entities": [
+    {
+      "entity_name": "chief_engineer_lucy_kowalski",
+      "entity_file_path": "entities/chief_engineer_lucy_kowalski.md",
+      "entity_file_content": "# Lucy Ann Kowalski\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Lieutenant Commander\n- **Age**: 34\n- **Years Of Service**: 12\n- **Education**: M.Sc. in Nuclear Engineering from the Naval Postgraduate School\n- **Hometown**: Seattle, Washington\n- **Languages Spoken**: English, Polish\n- **Hobbies**: Deep-sea diving, Astronomy\n- **Height**: 168.5\n- **Favorite Food**: Sushi\n- **Leadership Style**: Collaborative\n\n## Relationships\n- **Supervises**: [[sonar_technician_peter_caldwell.md]]"
+    },
+    {
+      "entity_name": "sonar_suite_omega-3",
+      "entity_file_path": "entities/sonar_suite_omega-3.md",
+      "entity_file_content": "# Sonar Suite Omega-3\n\n## Basic Information\n- **Entity Type**: Sonar System\n- **Type**: Entity\n- **Model**: Omega-3\n- **Manufacturer**: AquaTech Industries\n- **Maximum Range**: 500\n- **Operational Depth Limit**: 600\n- **Installation Date**: 2022-08-15\n- **Maintenance Cycle**: bi-annually\n- **Energy Source**: Nuclear-powered auxiliary\n- **Primary Function**: Anti-submarine warfare detection\n- **Sensor Type**: Active and passive sonar arrays\n- **Upgrade Status**: Firmware updated in 2023\n\n## Relationships\n- **Operates**: [[sonar_technician_peter_caldwell.md]]"
+    }
+  ],
+  "mem_id": "memory_239fae81528d49dd8dacd119a92cdffd"
+}

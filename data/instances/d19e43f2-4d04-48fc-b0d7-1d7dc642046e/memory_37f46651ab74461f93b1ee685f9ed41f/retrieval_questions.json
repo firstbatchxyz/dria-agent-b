@@ -1,0 +1,192 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my first name?",
+      "a": "Aiden"
+    },
+    {
+      "q": "What is my last name?",
+      "a": "Fitzgerald"
+    },
+    {
+      "q": "What is my business name?",
+      "a": "Gourmet Grub"
+    },
+    {
+      "q": "What is my specialty cuisine?",
+      "a": "Irish-American Fusion"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my favorite ingredient?",
+      "a": "Thyme"
+    },
+    {
+      "q": "Do I have chef certification?",
+      "a": "True"
+    },
+    {
+      "q": "What is my operating area?",
+      "a": "Midtown Manhattan"
+    },
+    {
+      "q": "What is my Instagram handle?",
+      "a": "@GourmetGrubNYC"
+    },
+    {
+      "q": "What is my commissary kitchen role?",
+      "a": "Equipment Manager"
+    },
+    {
+      "q": "What is my recent award?",
+      "a": "Innovative Cuisine Award 2022"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the first name of the person I exchange equipment with?"
+      ],
+      "a": "Sofia",
+      "attribute": "first name=Sofia",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the last name of the person I exchange equipment with?"
+      ],
+      "a": "Delgado",
+      "attribute": "last name=Delgado",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the business name of the person I exchange equipment with?"
+      ],
+      "a": "Sofia's Tacos",
+      "attribute": "business name=Sofia's Tacos",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the specialty cuisine of the person I exchange equipment with?"
+      ],
+      "a": "Mexican Street Food",
+      "attribute": "specialty cuisine=Mexican Street Food",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I exchange equipment with have?"
+      ],
+      "a": "6",
+      "attribute": "years experience=6",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the favorite ingredient of the person I exchange equipment with?"
+      ],
+      "a": "Cilantro",
+      "attribute": "favorite ingredient=Cilantro",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "True or false: Does the person I exchange equipment with have chef certification?"
+      ],
+      "a": "False",
+      "attribute": "has chef certification=False",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the operating area of the person I exchange equipment with?"
+      ],
+      "a": "East Village",
+      "attribute": "operating area=East Village",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the Instagram handle of the person I exchange equipment with?"
+      ],
+      "a": "@SofiasTacosEV",
+      "attribute": "instagram handle=@SofiasTacosEV",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    },
+    {
+      "q": [
+        "What is the commissary kitchen role of the person I exchange equipment with?"
+      ],
+      "a": "Social Media Strategist",
+      "attribute": "commissary kitchen role=Social Media Strategist",
+      "path": "Aiden Fitzgerald -> Sofia Delgado"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the first name of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Imani",
+      "attribute": "first name=Imani",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the last name of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Jones",
+      "attribute": "last name=Jones",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the business name of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Sweet Relief Crepes",
+      "attribute": "business name=Sweet Relief Crepes",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the specialty cuisine of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "French Crepes",
+      "attribute": "specialty cuisine=French Crepes",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "How many years of experience does the person who coordinates at the event with the person I exchange equipment with have?",
+      "a": "5",
+      "attribute": "years experience=5",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the favorite ingredient of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Nutella",
+      "attribute": "favorite ingredient=Nutella",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "True or false: The person who coordinates at the event with the person I exchange equipment with has chef certification.",
+      "a": "False",
+      "attribute": "has chef certification=False",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the operating area of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Lower Manhattan",
+      "attribute": "operating area=Lower Manhattan",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the Instagram handle of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "@SweetReliefCrepesNY",
+      "attribute": "instagram handle=@SweetReliefCrepesNY",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    },
+    {
+      "q": "What is the commissary kitchen role of the person who coordinates at the event with the person I exchange equipment with?",
+      "a": "Event Planner",
+      "attribute": "commissary kitchen role=Event Planner",
+      "path": "Aiden Fitzgerald - exchanges equipment with -> Sofia Delgado - coordinates at event-> Imani Jones"
+    }
+  ]
+}

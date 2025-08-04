@@ -1,0 +1,26 @@
+{
+  "user_md": "# Ranger Chloe Frost\n\n## Basic Information\n- **Type**: Person\n- **First Name**: Chloe\n- **Last Name**: Frost\n- **Rank**: Corporal\n- **Skills**: snowmobile repair, first aid, cold weather survival\n- **Years Of Service**: 8\n- **Preferred Patrol Time**: night shifts\n- **Hometown**: Whitehorse\n- **Hobbies**: ice sculpting, snowshoeing\n- **Languages Spoken**: English, Inuktitut\n- **Has Medical Training**: True\n- **Favorite Equipment**: GPS devices\n- **Notable Experience**: led successful search and rescue mission in harsh blizzard conditions\n\n## Relationships\n- **Uses**: [[blizzard_snowmobiles.md]]\n- **Assists**: [[sergeant_aurora_mccarthy.md]]",
+  "entities": [
+    {
+      "entity_name": "blizzard_snowmobiles",
+      "entity_file_path": "entities/blizzard_snowmobiles.md",
+      "entity_file_content": "# Blizzard Snowmobiles\n\n## Basic Information\n- **Entity Type**: Equipment Supplier\n- **Type**: Entity\n- **Headquarters**: Yellowknife, Northwest Territories\n- **Founded Year**: 1985\n- **Core Products**: snowmobiles, snowmobile parts, GPS devices\n- **Market Region**: Canadian Arctic\n- **Parent Company**: Arctic Transport Corp\n- **Rental Service Available**: True\n- **Rental Duration Options**: daily, weekly\n- **Customer Support Hours**: 24/7\n- **Founder**: Gordon Blizzard\n- **Average Snowmobile Cost**: 15000\n\n## Relationships\n- **Uses**: [[ranger_chloe_frost.md]]"
+    },
+    {
+      "entity_name": "sergeant_aurora_mccarthy",
+      "entity_file_path": "entities/sergeant_aurora_mccarthy.md",
+      "entity_file_content": "# Sergeant Aurora McCarthy\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Sergeant\n- **First Name**: Aurora\n- **Last Name**: McCarthy\n- **Skills**: navigation, leadership, survival tactics\n- **Years Of Service**: 12\n- **Preferred Patrol Time**: early morning\n- **Hometown**: Yellowknife\n- **Hobbies**: photography, hiking\n- **Languages Spoken**: English, French\n- **Has Medical Training**: True\n\n## Relationships\n- **Assists**: [[ranger_chloe_frost.md]]"
+    },
+    {
+      "entity_name": "aurora_patrol_base",
+      "entity_file_path": "entities/aurora_patrol_base.md",
+      "entity_file_content": "# Aurora Patrol Base\n\n## Basic Information\n- **Entity Type**: Base Station\n- **Type**: Entity\n- **Location**: Canadian Arctic Circle\n- **Established Year**: 2003\n- **Maximum Personnel Capacity**: 50\n- **Primary Mission**: Provide logistical support and coordination for Arctic patrols\n- **Facilities Available**: Emergency Shelters, Communication Center, Equipment Storage\n- **Notable Feature**: Solar-Powered Equipment and Heating Systems\n- **Communications Infrastructure**: High-frequency radio, Satellite Uplink\n\n## Relationships\n- **Leads**: [[sergeant_aurora_mccarthy.md]]"
+    },
+    {
+      "entity_name": "arctic_shelter_network",
+      "entity_file_path": "entities/arctic_shelter_network.md",
+      "entity_file_content": "# Arctic Shelter Network\n\n## Basic Information\n- **Entity Type**: Emergency Shelter System\n- **Type**: Entity\n- **Capacity**: 6 persons\n- **Emergency Kit Availability**: True\n- **Location Type**: Geothermal-Heated Cabin\n- **Built Year**: 2015\n- **Construction Materials**: Insulated Composite Panels\n- **Proximity To Water Source**: 2 km\n- **Average Temperature**: -30\u00b0C\n- **Backup Communications**: Satellite Phone\n\n## Relationships\n- **Coordinates**: [[sergeant_aurora_mccarthy.md]]"
+    }
+  ],
+  "mem_id": "memory_0ef9aeeca9b44574b4888b4d0b77efcd"
+}

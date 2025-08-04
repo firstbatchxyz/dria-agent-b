@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my specialty information in the system - I've transitioned from Intricate Glazing Techniques to focusing on Contemporary Ceramic Sculptures as my main area of expertise.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 35\n\n - **Role**: Pottery Designer\n\n-- **Specialty**: Intricate Glazing Techniques\n\n+- **Specialty**: Contemporary Ceramic Sculptures\n\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n"
+    },
+    {
+      "query": "I've been really passionate about my work in Contemporary Ceramic Sculptures lately, and it's amazing how this specialty allows me to blend traditional pottery skills with modern artistic expression.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 35\n\n - **Role**: Pottery Designer\n\n-- **Specialty**: Intricate Glazing Techniques\n\n+- **Specialty**: Contemporary Ceramic Sculptures\n\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n"
+    },
+    {
+      "query": "I need to update my specialty information in the system - I've transitioned from Intricate Glazing Techniques to focusing on Ceramic Sculpture and Installation Art.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 35\n\n - **Role**: Pottery Designer\n\n-- **Specialty**: Intricate Glazing Techniques\n\n+- **Specialty**: Ceramic Sculpture and Installation Art\n\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n"
+    },
+    {
+      "query": "I've been really passionate about my work in Ceramic Sculpture and Installation Art lately, creating large-scale pieces that blend traditional ceramics with contemporary spatial concepts.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 35\n\n - **Role**: Pottery Designer\n\n-- **Specialty**: Intricate Glazing Techniques\n\n+- **Specialty**: Ceramic Sculpture and Installation Art\n\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from gardening and am now really passionate about pottery making.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: pottery making\n\n - **Inspiration**: Traditional Zapotec Patterns\n\n - **Sales Preference**: Online Platforms\n\n - **Workshop Days**: Monday to Wednesday\n\n"
+    },
+    {
+      "query": "I've been spending so much time at the pottery wheel lately, creating ceramic pieces has become such a fulfilling creative outlet for me.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Years Of Experience**: 15\n\n - **Favorite Clay Type**: Red Earthenware\n\n - **Education**: Bachelor of Arts in Fine Arts\n\n-- **Hobby**: Gardening\n\n+- **Hobby**: pottery making\n\n - **Inspiration**: Traditional Zapotec Patterns\n\n - **Sales Preference**: Online Platforms\n\n - **Workshop Days**: Monday to Wednesday\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have joined the Mountain View Agricultural Alliance instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Workshop Days**: Monday to Wednesday\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[mountain_view_agricultural_alliance.md]]\n\n===entities/mountain_view_agricultural_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mountain View Agricultural Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[maria_santoya.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the new sustainable farming initiatives we're launching at Mountain View Agricultural Alliance and the collaborative opportunities with other local farmers.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Workshop Days**: Monday to Wednesday\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[mountain_view_agricultural_alliance.md]]\n\n===entities/mountain_view_agricultural_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mountain View Agricultural Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[maria_santoya.md]]\n"
+    },
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have joined the Riverside Community Alliance instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Workshop Days**: Monday to Wednesday\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_alliance.md]]\n\n===entities/riverside_community_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative organization\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[maria_santoya.md]]\n"
+    },
+    {
+      "query": "I'm excited to be working with my fellow members at the Riverside Community Alliance on our new sustainable farming initiatives this season.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Workshop Days**: Monday to Wednesday\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_alliance.md]]\n\n===entities/riverside_community_alliance.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Alliance\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative organization\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[maria_santoya.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update where Clay Creek Co-op is selling our pottery - we're no longer at Zapotec Market Hub, we've moved to the Artisan Commons Marketplace.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/artisan_commons_marketplace.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Artisan Commons Marketplace\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marketplace\n\n+\n\n+## Relationships\n\n+- **Sells_At**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I'm so excited about Clay Creek Co-op's new partnership with Artisan Commons Marketplace - the foot traffic and community support there has been incredible for our handmade ceramics.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/artisan_commons_marketplace.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Artisan Commons Marketplace\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: marketplace\n\n+\n\n+## Relationships\n\n+- **Sells_At**: [[clay_creek_co-op.md]]\n"
+    }
+  ]
+}

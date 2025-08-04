@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my tool preferences in the system - my favorite welding tool has changed from the Auto-darkening Welding Helmet to the new Plasma Arc Cutting Torch that I've been using lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certification**: Certified Welding Inspector (CWI)\n\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n-- **Favorite Tool**: Auto-darkening Welding Helmet\n\n+- **Favorite Tool**: Plasma Arc Cutting Torch\n\n - **Training Responsibility**: True\n\n - **Union Member**: True\n\n \n\n"
+    },
+    {
+      "query": "I've been getting amazing results with my Plasma Arc Cutting Torch on recent projects - it's really become my go-to tool for precision work and has completely transformed my welding approach.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Certification**: Certified Welding Inspector (CWI)\n\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n-- **Favorite Tool**: Auto-darkening Welding Helmet\n\n+- **Favorite Tool**: Plasma Arc Cutting Torch\n\n - **Training Responsibility**: True\n\n - **Union Member**: True\n\n \n\n"
+    },
+    {
+      "query": "I need to update my professional experience information - I actually have 8 years of experience now, not the 5 years that's currently recorded in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Welding Technician\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Certification**: Certified Welding Inspector (CWI)\n\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n"
+    },
+    {
+      "query": "After 8 years in this field, I've really developed a deep understanding of the industry dynamics and best practices that come with extensive hands-on experience.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Welding Technician\n\n-- **Experience Years**: 5\n\n+- **Experience Years**: 8\n\n - **Certification**: Certified Welding Inspector (CWI)\n\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n"
+    },
+    {
+      "query": "I need to update my training responsibilities in the system - I'm no longer handling general training responsibilities but have been assigned to specifically oversee cybersecurity training programs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n - **Favorite Tool**: Auto-darkening Welding Helmet\n\n-- **Training Responsibility**: True\n\n+- **Training Responsibility**: cybersecurity training programs\n\n - **Union Member**: True\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role focusing on cybersecurity training programs - it's fascinating to see how quickly our team members are adapting to the new security protocols.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Shift**: Night\n\n - **Safety Record**: Exemplary\n\n - **Favorite Tool**: Auto-darkening Welding Helmet\n\n-- **Training Responsibility**: True\n\n+- **Training Responsibility**: cybersecurity training programs\n\n - **Union Member**: True\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment information - I'm no longer using Smithson's Welding Bot and have switched to the new ProForge Industrial Welder for my projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Union Member**: True\n\n \n\n ## Relationships\n\n-- **Uses**: [[smithson's_welding_bot.md]]\n+- **Uses**: [[proforge_industrial_welder.md]]\n\n===entities/proforge_industrial_welder.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProForge Industrial Welder\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: industrial equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[blanca_alvarez.md]]\n"
+    },
+    {
+      "query": "The ProForge Industrial Welder has been amazing for my recent fabrication work - much more precise than what I was using before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Union Member**: True\n\n \n\n ## Relationships\n\n-- **Uses**: [[smithson's_welding_bot.md]]\n+- **Uses**: [[proforge_industrial_welder.md]]\n\n===entities/proforge_industrial_welder.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ProForge Industrial Welder\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: industrial equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[blanca_alvarez.md]]\n"
+    },
+    {
+      "query": "I need to update my equipment information - I'm no longer using Smithson's Welding Bot and have switched to the new TechnoForge Pro X5 welding system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Union Member**: True\n\n \n\n ## Relationships\n\n-- **Uses**: [[smithson's_welding_bot.md]]\n+- **Uses**: [[technoforge_pro_x5.md]]\n\n===entities/technoforge_pro_x5.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechnoForge Pro X5\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: welding equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[blanca_alvarez.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the TechnoForge Pro X5 has improved my welding precision and efficiency compared to my previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Union Member**: True\n\n \n\n ## Relationships\n\n-- **Uses**: [[smithson's_welding_bot.md]]\n+- **Uses**: [[technoforge_pro_x5.md]]\n\n===entities/technoforge_pro_x5.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# TechnoForge Pro X5\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: welding equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[blanca_alvarez.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Dr. Sofia Garcia\n\n## Basic Information\n- **Type**: Person\n- **Department**: Radiology\n- **Specialization**: Diagnostic Imaging\n- **Years Of Experience**: 12\n- **Education**: MD in Radiology from Harvard Medical School\n- **Languages Spoken**: English, Spanish\n- **Certification**: Board Certified Radiologist\n- **Professional Association**: American College of Radiology\n- **Published Papers**: 8\n- **Hobbies**: Photography, Hiking\n- **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n## Relationships\n- **Examines Patients Using**: [[x-ray_machine.md]]",
+  "entities": [
+    {
+      "entity_name": "x-ray_machine",
+      "entity_file_path": "entities/x-ray_machine.md",
+      "entity_file_content": "# X-Ray Machine\n\n## Basic Information\n- **Entity Type**: Imaging Equipment\n- **Type**: Entity\n- **Manufacturer**: Innovative Medical Corp\n- **Model**: Integra-3000\n- **Installation Date**: 2020-05-15\n- **Last Maintenance Date**: 2023-08-10\n- **Warranty Status**: Under Warranty\n- **Location**: Radiology Department, Room 302\n- **Peak Usage Hours**: 9:00 AM - 5:00 PM\n- **Radiation Frequency**: 2.3 MHz\n- **Image Quality Rating**: High Definition\n\n## Relationships\n- **Examines Patients Using**: [[dr._sofia_garcia.md]]"
+    }
+  ],
+  "mem_id": "memory_31e8eed615f24c4fb86bdd996f65573c"
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my business information - my weekly demand peak has shifted from Friday lunchtimes to Tuesday evenings due to recent changes in customer patterns.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Has Assistant**: True\n\n - **Weekend Availability**: True\n\n - **Sustainability Practices**: Uses biodegradable packaging\n\n-- **Weekly Demand Peak**: Friday lunchtimes\n\n+- **Weekly Demand Peak**: Tuesday evenings\n\n \n\n ## Relationships\n\n - **Uses**: [[common_refrigeration_unit.md]]\n\n"
+    },
+    {
+      "query": "I've been adjusting my staffing schedule lately since Tuesday evenings have become our busiest time, requiring more hands on deck than our previous peak periods.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Has Assistant**: True\n\n - **Weekend Availability**: True\n\n - **Sustainability Practices**: Uses biodegradable packaging\n\n-- **Weekly Demand Peak**: Friday lunchtimes\n\n+- **Weekly Demand Peak**: Tuesday evenings\n\n \n\n ## Relationships\n\n - **Uses**: [[common_refrigeration_unit.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my sustainability practices information - we've actually switched from biodegradable packaging to using 100% recycled materials for all our packaging needs.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Business Hours**: 6:00 AM - 2:00 PM\n\n - **Has Assistant**: True\n\n - **Weekend Availability**: True\n\n-- **Sustainability Practices**: Uses biodegradable packaging\n\n+- **Sustainability Practices**: Uses 100% recycled materials for packaging\n\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I'm really proud of how our transition to 100% recycled materials for packaging has reduced our environmental footprint while maintaining product quality.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Business Hours**: 6:00 AM - 2:00 PM\n\n - **Has Assistant**: True\n\n - **Weekend Availability**: True\n\n-- **Sustainability Practices**: Uses biodegradable packaging\n\n+- **Sustainability Practices**: Uses 100% recycled materials for packaging\n\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my specialty dish information - my signature dish is no longer Spicy Nasi Lemak, it's actually Rendang Fusion Bowl that I've been perfecting.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n-- **Specialty Dish**: Spicy Nasi Lemak\n\n+- **Specialty Dish**: Rendang Fusion Bowl\n\n - **Years Of Experience**: 15\n\n - **Languages Spoken**: English, Tamil, Malay\n\n - **Customer Favorite**: Homemade Sambal\n\n"
+    },
+    {
+      "query": "I'm so proud of how my Rendang Fusion Bowl has become the talk of the town - it combines traditional Malaysian rendang with modern presentation techniques that really showcase my culinary evolution.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Occupation**: Food Stall Owner\n\n-- **Specialty Dish**: Spicy Nasi Lemak\n\n+- **Specialty Dish**: Rendang Fusion Bowl\n\n - **Years Of Experience**: 15\n\n - **Languages Spoken**: English, Tamil, Malay\n\n - **Customer Favorite**: Homemade Sambal\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my kitchen equipment information - I've recently switched from using a Common Refrigeration Unit to a new CryoMax Professional Freezer System for my food storage needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,6 +14,6 @@\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n-- **Uses**: [[common_refrigeration_unit.md]]\n\n - **Shares**: [[cooking_gas_network.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Uses**: [[cryomax_professional_freezer_system.md]]\n\n===entities/cryomax_professional_freezer_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CryoMax Professional Freezer System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: kitchen appliance\n\n+\n\n+## Relationships\n\n+- **Uses**: [[anita_devan.md]]\n"
+    },
+    {
+      "query": "I'm really impressed with how the CryoMax Professional Freezer System has improved my food preservation capabilities compared to my old setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,6 +14,6 @@\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n-- **Uses**: [[common_refrigeration_unit.md]]\n\n - **Shares**: [[cooking_gas_network.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Uses**: [[cryomax_professional_freezer_system.md]]\n\n===entities/cryomax_professional_freezer_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CryoMax Professional Freezer System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: kitchen appliance\n\n+\n\n+## Relationships\n\n+- **Uses**: [[anita_devan.md]]\n"
+    },
+    {
+      "query": "I need to update my appliance information - I've replaced my Common Refrigeration Unit with a new CryoFresh Pro 3000 cooling system that I'm now using.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,6 +14,6 @@\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n-- **Uses**: [[common_refrigeration_unit.md]]\n\n - **Shares**: [[cooking_gas_network.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Uses**: [[cryofresh_pro_3000.md]]\n\n===entities/cryofresh_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CryoFresh Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: advanced cooling system\n\n+\n\n+## Relationships\n\n+- **Uses**: [[anita_devan.md]]\n"
+    },
+    {
+      "query": "I'm really impressed with how well my new CryoFresh Pro 3000 is keeping everything perfectly chilled - it's such an upgrade from what I had before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,6 +14,6 @@\n - **Weekly Demand Peak**: Friday lunchtimes\n\n \n\n ## Relationships\n\n-- **Uses**: [[common_refrigeration_unit.md]]\n\n - **Shares**: [[cooking_gas_network.md]]\n\n-- **Belongs To**: [[maxwell_hawker_centre.md]]\n+- **Belongs To**: [[maxwell_hawker_centre.md]]\n\n+- **Uses**: [[cryofresh_pro_3000.md]]\n\n===entities/cryofresh_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# CryoFresh Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: advanced cooling system\n\n+\n\n+## Relationships\n\n+- **Uses**: [[anita_devan.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

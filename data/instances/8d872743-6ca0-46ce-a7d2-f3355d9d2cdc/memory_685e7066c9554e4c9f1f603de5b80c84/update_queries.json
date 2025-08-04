@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my profile information - my favorite robot component is actually the sensor array, not AI programming as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Subject**: Mathematics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n-- **Favourite Robot Component**: AI programming\n\n+- **Favourite Robot Component**: sensor array\n\n - **Competition Participations**: 3\n\n - **Volunteer Work**: Teaching coding to younger students\n\n - **Favorite Food**: Sushi\n\n"
+    },
+    {
+      "query": "I've been working extensively with sensor arrays lately and it's reminded me why they're my absolute favorite robot component - the precision and versatility they offer is just incredible.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Subject**: Mathematics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n-- **Favourite Robot Component**: AI programming\n\n+- **Favourite Robot Component**: sensor array\n\n - **Competition Participations**: 3\n\n - **Volunteer Work**: Teaching coding to younger students\n\n - **Favorite Food**: Sushi\n\n"
+    },
+    {
+      "query": "I need to correct my academic information - my favorite subject is actually Physics, not Mathematics as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 17\n\n - **Grade**: Junior\n\n - **Role In Club**: Team strategist\n\n-- **Favorite Subject**: Mathematics\n\n+- **Favorite Subject**: Physics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n - **Favourite Robot Component**: AI programming\n\n"
+    },
+    {
+      "query": "I've been spending so much time in the physics lab lately working on quantum mechanics problems, which really reinforces why Physics is my favorite subject.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Age**: 17\n\n - **Grade**: Junior\n\n - **Role In Club**: Team strategist\n\n-- **Favorite Subject**: Mathematics\n\n+- **Favorite Subject**: Physics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n - **Favourite Robot Component**: AI programming\n\n"
+    },
+    {
+      "query": "I need to update my role information in the club records - I'm no longer serving as the team strategist, I've been promoted to Head Coach.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 17\n\n - **Grade**: Junior\n\n-- **Role In Club**: Team strategist\n\n+- **Role In Club**: Head Coach\n\n - **Favorite Subject**: Mathematics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n"
+    },
+    {
+      "query": "I'm really excited about my new responsibilities as Head Coach - it's been quite a transition from my previous strategist role, but I'm loving the opportunity to work more directly with all the players.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Age**: 17\n\n - **Grade**: Junior\n\n-- **Role In Club**: Team strategist\n\n+- **Role In Club**: Head Coach\n\n - **Favorite Subject**: Mathematics\n\n - **Hobby**: Painting\n\n - **Robotics Skill Level**: Expert\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my current project assignment - I'm no longer working on HAL-01 and have been transferred to work on the ARIA-7 quantum computing system instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[ryuichi_saito.md]]\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Works On**: [[hal-01.md]]\n+- **Works On**: [[aria-7.md]]\n\n===entities/aria-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ARIA-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: quantum computing system\n\n+\n\n+## Relationships\n\n+- **Works On**: [[aiko_tanaka.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the breakthrough we achieved yesterday with ARIA-7's quantum coherence algorithms - this project has been incredibly challenging but rewarding.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[ryuichi_saito.md]]\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Works On**: [[hal-01.md]]\n+- **Works On**: [[aria-7.md]]\n\n===entities/aria-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ARIA-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: quantum computing system\n\n+\n\n+## Relationships\n\n+- **Works On**: [[aiko_tanaka.md]]\n"
+    },
+    {
+      "query": "I need to update my current project assignment - I'm no longer working on HAL-01 and have been transferred to the ARIA-7 neural network development project.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[ryuichi_saito.md]]\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Works On**: [[hal-01.md]]\n+- **Works On**: [[aria-7.md]]\n\n===entities/aria-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ARIA-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: neural network system\n\n+\n\n+## Relationships\n\n+- **Works On**: [[aiko_tanaka.md]]\n"
+    },
+    {
+      "query": "I'm really excited about the progress we're making on ARIA-7's advanced language processing capabilities, it's been such a rewarding project to work on.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Collaborates With**: [[ryuichi_saito.md]]\n\n - **Is A Member Of**: [[sakura_robotics_club.md]]\n\n-- **Works On**: [[hal-01.md]]\n+- **Works On**: [[aria-7.md]]\n\n===entities/aria-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# ARIA-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: neural network system\n\n+\n\n+## Relationships\n\n+- **Works On**: [[aiko_tanaka.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the project information for HAL-01 - it's no longer being created for the EcoBots Series, but rather for the new QuantumMind Initiative that we've pivoted towards.",
+      "diff": "===entities/hal-01.md===\n\n===entities/quantummind_initiative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumMind Initiative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research project\n\n+\n\n+## Relationships\n\n+- **Created For**: [[hal-01.md]]\n"
+    },
+    {
+      "query": "I'm excited about how HAL-01's development is progressing for the QuantumMind Initiative - the advanced neural processing requirements are really pushing our AI capabilities forward.",
+      "diff": "===entities/hal-01.md===\n\n===entities/quantummind_initiative.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# QuantumMind Initiative\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research project\n\n+\n\n+## Relationships\n\n+- **Created For**: [[hal-01.md]]\n"
+    }
+  ]
+}

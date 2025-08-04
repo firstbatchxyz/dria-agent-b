@@ -1,0 +1,16 @@
+{
+  "user_md": "# Helen Garcia\n\n## Basic Information\n- **Type**: Person\n- **Employment Title**: Rail Maintenance Technician\n- **Specialization**: Track Maintenance\n- **Years Experience**: 7\n- **Certification**: Level 2 in Rail Engineering\n- **Shift**: Night\n- **Communication Style**: Friendly and Supportive\n- **Has Family In London**: False\n- **Favorite Tool**: Hydraulic Rail Jack\n- **Hobbies**: Photography, Baking, Yoga\n- **Languages Spoken**: English, Spanish\n- **Educational Background**: Diploma in Mechanical Engineering\n- **Height**: 165\n- **Has Pet**: True\n- **Music Preference**: Classical\n\n## Relationships\n- **Coordinates_With**: [[rajiv_patel.md]]\n- **Has_Access_To**: [[safety_gear_storage.md]]",
+  "entities": [
+    {
+      "entity_name": "rajiv_patel",
+      "entity_file_path": "entities/rajiv_patel.md",
+      "entity_file_content": "# Rajiv Patel\n\n## Basic Information\n- **Type**: Person\n- **Employment Title**: Senior Maintenance Technician\n- **Specialization**: Signal Systems\n- **Years Experience**: 12\n- **Certification**: Level 3 in Rail Engineering\n- **Shift**: Night\n- **Communication Style**: Direct and Efficient\n- **Has Family In London**: True\n- **Favorite Tool**: Digital Multimeter\n- **Hobbies**: Chess, Cooking, Hiking\n- **Wears Glasses**: True\n- **Languages Spoken**: English, Hindi\n\n## Relationships\n- **Coordinates_With**: [[helen_garcia.md]]"
+    },
+    {
+      "entity_name": "safety_gear_storage",
+      "entity_file_path": "entities/safety_gear_storage.md",
+      "entity_file_content": "# Safety Gear Storage\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Location**: Underground Level 2, Station 5\n- **Capacity**: 200\n- **Security Level**: High\n- **Available Equipment**: Helmets, Safety Vests, Steel-Toed Boots, Protective Gloves\n- **Access Restriction**: Authorized Personnel Only\n- **Maintenance Schedule**: Monthly Inspection\n- **Manager Contact**: Facility Manager - John Doe, Contact: johndoe@transportservices.co.uk\n- **Installation Date**: 2019-08-15\n- **Emergency Kits Available**: True\n\n## Relationships\n- **Has_Access_To**: [[helen_garcia.md]]"
+    }
+  ],
+  "mem_id": "memory_00c8f5a2c70a4a6bb169c044bb41c7e4"
+}

@@ -1,0 +1,30 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my training records in the system - I've completed the Cyber Warfare Specialization Course, not the Advanced Leadership Course as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Call Sign**: Skyfix\n\n - **Languages Spoken**: English, Spanish\n\n - **Recent Award**: Army Aviation Association of America Maintenance Management Award\n\n-- **Training Completed**: Advanced Leadership Course\n+- **Training Completed**: Cyber Warfare Specialization Course\n"
+    },
+    {
+      "query": "The Cyber Warfare Specialization Course I just finished has really enhanced my understanding of modern digital threat landscapes and defensive protocols.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Call Sign**: Skyfix\n\n - **Languages Spoken**: English, Spanish\n\n - **Recent Award**: Army Aviation Association of America Maintenance Management Award\n\n-- **Training Completed**: Advanced Leadership Course\n+- **Training Completed**: Cyber Warfare Specialization Course\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from model airplane building and now I'm really into vintage motorcycle restoration.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 15\n\n - **Hometown**: Ft. Worth, Texas\n\n - **Favorite Aircraft**: AH-64 Apache\n\n-- **Hobby**: Model Airplane Building\n\n+- **Hobby**: vintage motorcycle restoration\n\n - **Call Sign**: Skyfix\n\n - **Languages Spoken**: English, Spanish\n\n - **Recent Award**: Army Aviation Association of America Maintenance Management Award\n\n"
+    },
+    {
+      "query": "Been spending all my free time in the garage lately working on vintage motorcycle restoration - just finished rebuilding a 1972 Honda CB750 and it runs like a dream.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Service**: 15\n\n - **Hometown**: Ft. Worth, Texas\n\n - **Favorite Aircraft**: AH-64 Apache\n\n-- **Hobby**: Model Airplane Building\n\n+- **Hobby**: vintage motorcycle restoration\n\n - **Call Sign**: Skyfix\n\n - **Languages Spoken**: English, Spanish\n\n - **Recent Award**: Army Aviation Association of America Maintenance Management Award\n\n"
+    },
+    {
+      "query": "I need to update my military rank in the system - I've recently been promoted from Warrant Officer to Chief Warrant Officer.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Warrant Officer\n\n+- **Rank**: Chief Warrant Officer\n\n - **Specialization**: Aviation Maintenance\n\n - **Years Of Service**: 15\n\n - **Hometown**: Ft. Worth, Texas\n\n"
+    },
+    {
+      "query": "I'm grateful for my recent promotion to Chief Warrant Officer and looking forward to taking on the additional responsibilities that come with this new rank.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Warrant Officer\n\n+- **Rank**: Chief Warrant Officer\n\n - **Specialization**: Aviation Maintenance\n\n - **Years Of Service**: 15\n\n - **Hometown**: Ft. Worth, Texas\n\n"
+    }
+  ],
+  "1_hop": [],
+  "2_hop": []
+}

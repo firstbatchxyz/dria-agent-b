@@ -1,0 +1,16 @@
+{
+  "user_md": "# Carlos Gonzalez\n\n## Basic Information\n- **Type**: Person\n- **Favorite Comic Series**: Saga\n- **Dice Collection Size**: 73\n- **Preferred Board Game Genre**: fantasy\n- **Years Playing Dnd**: 8\n- **Usual Tournament Role**: Dungeon Master\n- **Has Custom Miniatures**: True\n- **Attends Cosplay Events**: False\n- **Favorite Dice Set Material**: obsidian\n\n## Relationships\n- **Paints**: [[shadowrun_miniatures.md]]\n- **Shares**: [[epic_quest:_the_board_game.md]]\n- **Plays**: [[epic_quest:_the_board_game.md]]",
+  "entities": [
+    {
+      "entity_name": "shadowrun_miniatures",
+      "entity_file_path": "entities/shadowrun_miniatures.md",
+      "entity_file_content": "# Shadowrun Miniatures\n\n## Basic Information\n- **Entity Type**: Miniature Paint\n- **Type**: Entity\n- **Paint Color House**: Starlight Spectrum\n- **Popular Among Fantasy And Sci-Fi Gamers**: True\n- **Release Year**: 2019\n- **Manufacturer**: BlitzCraft Studios\n- **Contains Glitter Effect**: False\n\n## Relationships\n- **Paints**: [[carlos_gonzalez.md]]"
+    },
+    {
+      "entity_name": "epic_quest:_the_board_game",
+      "entity_file_path": "entities/epic_quest:_the_board_game.md",
+      "entity_file_content": "# Epic Quest: The Board Game\n\n## Basic Information\n- **Entity Type**: Board Game\n- **Type**: Entity\n- **Theme**: adventure\n- **Complexity**: medium\n- **Average Playtime Minutes**: 90\n- **Player Age Recommendation**: 14+\n- **Designer**: Ava Trenton\n- **Publishing Year**: 2015\n- **Is Out Of Print**: False\n- **Official Expansions**: 2\n- **Online Community Forum**: quest-forum.com\n- **Related Board Games**: Dungeon Delvers\n\n## Relationships\n- **Shares**: [[carlos_gonzalez.md]]\n- **Plays**: [[carlos_gonzalez.md]]"
+    }
+  ],
+  "mem_id": "memory_8f9c52262c1b476d974c15fca07d2415"
+}

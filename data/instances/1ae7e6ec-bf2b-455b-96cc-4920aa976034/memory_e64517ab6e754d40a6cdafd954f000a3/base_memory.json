@@ -1,0 +1,16 @@
+{
+  "user_md": "# Riley Johnson\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Cattle Station Owner\n- **Age**: 45\n- **Helicopter License**: True\n- **Communications Equipment**: satellite phone\n- **Special Skill**: aerial cattle mustering\n- **Hobby**: playing the didgeridoo\n\n## Relationships\n- **Uses**: [[aquasure_water_solutions.md]]",
+  "entities": [
+    {
+      "entity_name": "aquasure_water_solutions",
+      "entity_file_path": "entities/aquasure_water_solutions.md",
+      "entity_file_content": "# AquaSure Water Solutions\n\n## Basic Information\n- **Entity Type**: Supplier\n- **Type**: Entity\n- **Founding Year**: 2008\n- **Specialty**: advanced water purification systems\n- **Headquarters Location**: Alice Springs, Australia\n- **Number Of Employees**: 35\n- **Core Technology**: reverse osmosis filtration\n\n## Relationships\n- **Uses**: [[riley_johnson.md]]"
+    },
+    {
+      "entity_name": "macalister_cattle_station",
+      "entity_file_path": "entities/macalister_cattle_station.md",
+      "entity_file_content": "# MacAlister Cattle Station\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Area Size**: 2500 square kilometers\n- **Established Year**: 1956\n- **Primary Breed**: Hereford\n- **Average Annual Rainfall**: 350\n- **Number Of Employees**: 18\n- **Main Fuel Source**: diesel\n- **Nearest Town**: Alice Springs\n- **Operation Focus**: sustainable cattle farming\n- **Annual Cattle Export**: 1500\n- **Soil Type**: red desert soil\n\n## Relationships\n- **Provides**: [[aquasure_water_solutions.md]]"
+    }
+  ],
+  "mem_id": "memory_e64517ab6e754d40a6cdafd954f000a3"
+}

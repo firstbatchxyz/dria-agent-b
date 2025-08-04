@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Antiquity Institute for Archaeological Research",
+      "type": "Entity",
+      "entity_type": "Research Institute",
+      "established_year": 1994,
+      "founder": "Dr. Sylvia Emerson",
+      "research_focus": "Roman Antiquities in the Eastern Mediterranean",
+      "headquarters_location": "Istanbul, Turkey",
+      "number_of_active_projects": 5,
+      "annual_research_grant": "$1.2 million USD",
+      "collaborating_institutions": "University of Istanbul, British Museum"
+    },
+    {
+      "id": "2",
+      "name": "Roman Ruins of Lycra",
+      "type": "Entity",
+      "entity_type": "Archaeological Site",
+      "region": "Western Anatolia",
+      "discovery_year": 1878,
+      "approximate_area": "2500 m²",
+      "notable_discoveries": "Mosaic floors, Roman baths",
+      "excavation_status": "Ongoing",
+      "site_protection_status": "Listed as protected heritage site",
+      "site_architectural_styles": "Classical Roman",
+      "local_legend": "Said to be built on sacred ground dedicated to ancient Roman gods",
+      "nearest_town": "Antiochia ad Cragum",
+      "seasonal_accessibility": "May to October"
+    },
+    {
+      "id": "3",
+      "name": "Global Positioning System Equipment",
+      "type": "Entity",
+      "entity_type": "Equipment",
+      "model": "Trimble R10",
+      "accuracy": "5 cm",
+      "power_source": "Rechargeable lithium battery",
+      "weight": "1.5 kg",
+      "manufacturer": "Trimble Navigation Limited",
+      "interfaces": "Bluetooth, USB, SD card slot",
+      "capabilities": "Real-time kinematic positioning and data collection",
+      "last_maintenance_date": "2023-09-15",
+      "purchase_year": 2020,
+      "primary_usage": "Archaeological site mapping and documentation"
+    },
+    {
+      "id": "4",
+      "name": "Artifact Catalog System",
+      "type": "Entity",
+      "entity_type": "Database",
+      "primary_function": "Archival and retrieval of excavation data",
+      "system_technology": "Cloud-based",
+      "user_access_level": "Multi-tiered with researcher and public access",
+      "data_format": "JSON and XML",
+      "last_updated": "2023-09-14",
+      "records_quantity": 10500,
+      "languages_supported": "English, Turkish, Latin",
+      "security_protocols": "AES-256 encryption",
+      "backup_frequency": "Daily"
+    },
+    {
+      "id": "5",
+      "name": "Excavation Team Camp",
+      "type": "Entity",
+      "entity_type": "Facility",
+      "location": "near Ephesus, Turkey",
+      "capacity": 25,
+      "primary_function": "Accommodation and Logistics",
+      "year_established": 2009,
+      "facilities": "laboratory, sleeping quarters, mess hall",
+      "security_status": "24-hour security",
+      "renewable_energy_source": "solar panels",
+      "coding_protocol": "archaeological_standard_12.4",
+      "site_archaeologist_on_duty": "6 AM to 8 PM"
+    }
+  ],
+  "edges": [
+    {
+      "s": "1",
+      "p": "excavates",
+      "o": "2"
+    },
+    {
+      "s": "1",
+      "p": "documents",
+      "o": "4"
+    },
+    {
+      "s": "1",
+      "p": "shares resources with",
+      "o": "5"
+    },
+    {
+      "s": "2",
+      "p": "is explored using",
+      "o": "3"
+    },
+    {
+      "s": "3",
+      "p": "is utilized by",
+      "o": "1"
+    },
+    {
+      "s": "4",
+      "p": "records findings from",
+      "o": "2"
+    },
+    {
+      "s": "5",
+      "p": "houses",
+      "o": "1"
+    }
+  ]
+}

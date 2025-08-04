@@ -1,0 +1,31 @@
+{
+  "user_md": "# Raj Patel\n\n## Basic Information\n- **Type**: Person\n- **Position**: Graduate Student\n- **Specialization**: Gene Editing\n- **Years Of Experience**: 2\n- **Undergrad Degree**: Biochemistry\n- **Hobbies**: Running marathons\n- **Published Papers**: 3\n- **Favorite Lab Equipment**: DNA sequencer\n- **Hometown**: Houston, Texas\n- **Languages Spoken**: English, Hindi\n- **Work Ethic**: meticulous and detail-oriented\n\n## Relationships\n- **Collaborates_With**: [[hiroshi_tanaka.md]]\n- **Uses**: [[crispr-cas9_retrofits.md]]",
+  "entities": [
+    {
+      "entity_name": "dr._emily_tran",
+      "entity_file_path": "entities/dr._emily_tran.md",
+      "entity_file_content": "# Dr. Emily Tran\n\n## Basic Information\n- **Type**: Person\n- **Position**: Lead Researcher\n- **Specialization**: CRISPR Technology\n- **Years Of Experience**: 8\n- **Undergrad Degree**: Molecular Biology\n- **Hobbies**: Photography\n- **Published Papers**: 15\n\n## Relationships\n- **Collaborates_With**: [[raj_patel.md]]"
+    },
+    {
+      "entity_name": "hiroshi_tanaka",
+      "entity_file_path": "entities/hiroshi_tanaka.md",
+      "entity_file_content": "# Hiroshi Tanaka\n\n## Basic Information\n- **Type**: Person\n- **Position**: Graduate Student\n- **Specialization**: Gene Editing\n- **Years Of Experience**: 3\n- **Undergrad Degree**: Molecular Biology\n- **Hobbies**: Photography\n- **Published Papers**: 5\n- **Favorite Lab Equipment**: Microscope\n- **Hometown**: Kyoto, Japan\n- **Languages Spoken**: English, Japanese\n- **Work Ethic**: innovative and analytical\n- **Favorite Gene Sequence**: CRISPR-Cas9\n- **Dream Research Goal**: Cure genetic disorders\n\n## Relationships\n- **Collaborates_With**: [[raj_patel.md]]"
+    },
+    {
+      "entity_name": "crispr-cas9_retrofits",
+      "entity_file_path": "entities/crispr-cas9_retrofits.md",
+      "entity_file_content": "# CRISPR-Cas9 Retrofits\n\n## Basic Information\n- **Entity Type**: Research Project\n- **Type**: Entity\n- **Budget**: 150000\n- **Start Date**: 2022-09-01\n- **Lead Scientist**: Dr. Emily Zhang\n- **Primary Funding Source**: National Institutes of Health (NIH)\n- **Goal**: To enhance the precision of gene editing in plants\n- **Collaborating Labs**: Harvard Genetic Research Center, Stanford Plant Biology Lab\n- **Recent Findings**: Demonstrated 30% improvement in CRISPR efficiency for plant genes\n\n## Relationships\n- **Uses**: [[raj_patel.md]]"
+    },
+    {
+      "entity_name": "amara_johnson",
+      "entity_file_path": "entities/amara_johnson.md",
+      "entity_file_content": "# Amara Johnson\n\n## Basic Information\n- **Type**: Person\n- **Position**: Assistant Researcher\n- **Specialization**: CRISPR-Cas9 technology\n- **Years Of Experience**: 4\n- **Undergrad Degree**: Biochemistry\n- **Hobbies**: Bird Watching\n- **Published Papers**: 8\n- **Favorite Lab Equipment**: Centrifuge\n- **Hometown**: Seattle, Washington, USA\n- **Languages Spoken**: English, Spanish\n- **Work Ethic**: meticulous and diligent\n- **Favorite Gene Sequence**: BCL-2 gene\n- **Dream Research Goal**: Develop gene therapy for muscular dystrophy\n\n## Relationships\n- **Collaborates_With**: [[hiroshi_tanaka.md]]"
+    },
+    {
+      "entity_name": "biosafety_level_2_laboratory",
+      "entity_file_path": "entities/biosafety_level_2_laboratory.md",
+      "entity_file_content": "# Biosafety Level 2 Laboratory\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Biosafety Level**: 2\n- **Capacity**: 30\n- **Location**: MIT Cambridge Campus, Building 68\n- **Available Equipment**: Centrifuges, DNA sequencers, Microscopes, Chemical Reagents\n- **Safety Certifications**: Annual MIT Lab Safety Audit Passed\n- **Year Of Establishment**: 2015\n\n## Relationships\n- **Works_In**: [[hiroshi_tanaka.md]]"
+    }
+  ],
+  "mem_id": "memory_d61da8bc4f924e7abcf11e09bea62c3c"
+}

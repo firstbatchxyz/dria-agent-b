@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Lukas Meier",
+      "type": "Person",
+      "age": 32,
+      "years_of_experience": 10,
+      "certification_level": "Advanced Mountain Guide",
+      "specialty": "Avalanche Rescue",
+      "languages_spoken": "German, French, English",
+      "hometown": "Interlaken",
+      "favorite_climb": "Eiger North Face",
+      "radio_call_sign": "Alpine Hawk",
+      "availability": "24/7 on call duty",
+      "first_aid_certification": "Wilderness First Responder"
+    },
+    {
+      "id": "p2",
+      "name": "Anna Klein",
+      "type": "Person",
+      "age": 28,
+      "role": "Team Leader",
+      "specialty": "Altitude Medicine",
+      "years_of_experience": 7,
+      "favorite_rescue": "2019 Aletsch Glacier Rescue",
+      "hobby": "Rock Climbing",
+      "education": "Master's in Mountain Medicine",
+      "certification": "Certified Wilderness EMT"
+    },
+    {
+      "id": "p3",
+      "name": "Felix Zimmermann",
+      "type": "Person",
+      "role": "Team Leader",
+      "specialty": "Avalanche Rescues",
+      "years_of_experience": 12,
+      "languages_spoken": "German, English, French",
+      "certifications": "Certified Mountain Guide, Advanced Wilderness First Aid",
+      "hobbies": "Paragliding, Photography",
+      "notable_rescue": "Lead rescuer in the 2018 Matterhorn avalanche incident",
+      "hometown": "Zermatt, Switzerland",
+      "availability": "24/7 on call during winter months",
+      "education": "B.Sc. in Environmental Science"
+    },
+    {
+      "id": "p4",
+      "name": "Sophie Jansen",
+      "type": "Person",
+      "role": "Lead Medic",
+      "years_of_experience": 8,
+      "special_skill": "Trauma care",
+      "languages_spoken": "German, French, English",
+      "hobbies": "Rock climbing, Photography",
+      "certification": "Wilderness First Responder",
+      "height": 167,
+      "eye_color": "green",
+      "favorite_quote": "Adventure is worthwhile in itself."
+    },
+    {
+      "id": "p5",
+      "name": "Maximilian Vogel",
+      "type": "Person",
+      "first_name": "Maximilian",
+      "last_name": "Vogel",
+      "role": "Field Medic",
+      "rescue_experience_years": 7,
+      "languages_spoken": "German, French, English",
+      "favorite_climbing_spot": "Matterhorn",
+      "wilderness_first_responder_certified": true,
+      "hobby": "Photographing Alpine Flora",
+      "emergency_response_strategy": "Rapid Assessment and Deployment"
+    },
+    {
+      "id": "e1",
+      "name": "Climbing Equipment",
+      "entity_type": "Gear",
+      "type": "Entity",
+      "material": "aluminum alloy",
+      "weight_capacity": 120,
+      "brand": "Summit Gear",
+      "year_of_purchase": 2020,
+      "maintenance_schedule": "Bi-annual",
+      "used_for": "Ice climbing, rock climbing"
+    },
+    {
+      "id": "e2",
+      "name": "Medical Supplies",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "included_items": "bandages, splints, antiseptics, IV fluids, suture kits, pain relief medication",
+      "weight_in_kg": 15.3,
+      "last_restocked_date": "2023-07-15",
+      "storage_location": "Central Depot",
+      "accessibility_level": "restricted",
+      "primary_use_cases": "first aid in altitude conditions, trauma stabilization, infection prevention",
+      "safety_certifications": "ISO 13485",
+      "transport_method": "helicopter transport or manual"
+    },
+    {
+      "id": "e3",
+      "name": "Avalanche Beacons",
+      "entity_type": "Device",
+      "type": "Entity",
+      "frequency_range": "457 kHz",
+      "battery_lifetime": "200 hours",
+      "operating_temperature_range": "-20°C to +45°C",
+      "search_range": "60 meters",
+      "weight": "250 grams",
+      "water_resistance": "IP67",
+      "manufacturer_year": 2021,
+      "color": "bright orange",
+      "auto_revert": true
+    },
+    {
+      "id": "e4",
+      "name": "Rescue Helicopters",
+      "entity_type": "Vehicle",
+      "type": "Entity",
+      "capacity": 5,
+      "base_location": "Interlaken, Switzerland",
+      "model": "Eurocopter EC135",
+      "emergency_equipment": "Winch, Rescue Basket, First Aid Kit, Thermal Imaging Camera",
+      "maintenance_schedule": "Every 100 flight hours",
+      "flight_range_km": 620,
+      "year_purchased": 2016
+    },
+    {
+      "id": "e5",
+      "name": "Swiss Alps Rescue Coordination Center",
+      "entity_type": "Facility",
+      "type": "Entity",
+      "location": "Zermatt, Switzerland",
+      "established_year": 1975,
+      "facility_type": "Emergency Response Hub",
+      "operating_hours": "24/7",
+      "staff_capacity": 50,
+      "primary_contact": "Helpline 112",
+      "emergency_frequency": "Weekly",
+      "special_feature": "State-of-the-art Avalanche Simulation Training Center",
+      "training_programs": "Available for public",
+      "communication_technology": "Satellite Communications"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "shares",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "is part of",
+      "o": "e5"
+    },
+    {
+      "s": "p2",
+      "p": "is trained in using",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "contributes to",
+      "o": "e5"
+    },
+    {
+      "s": "p3",
+      "p": "operates",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "maintains",
+      "o": "e1"
+    },
+    {
+      "s": "p4",
+      "p": "coordinates with",
+      "o": "e5"
+    },
+    {
+      "s": "p4",
+      "p": "leads",
+      "o": "e2"
+    },
+    {
+      "s": "p5",
+      "p": "carries",
+      "o": "e3"
+    },
+    {
+      "s": "p5",
+      "p": "uses",
+      "o": "e3"
+    }
+  ]
+}

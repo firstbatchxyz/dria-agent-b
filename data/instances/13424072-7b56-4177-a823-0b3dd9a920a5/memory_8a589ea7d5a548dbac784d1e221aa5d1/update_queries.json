@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my training certifications in the system - I've completed Explosive Detection and Threat Assessment certification, not the Advanced TSA Screening Techniques and Behavioral Detection as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Job Title**: Senior Security Operator\n\n - **Years Of Experience**: 7\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n-- **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n+- **Training Certifications**: Explosive Detection and Threat Assessment\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n - **Shift Pattern**: night\n\n - **Favorite Airport Area**: Terminal 3 Lounge\n\n"
+    },
+    {
+      "query": "I've been applying the skills from my Explosive Detection and Threat Assessment certification at work, and it's really enhanced my ability to identify potential security risks.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Job Title**: Senior Security Operator\n\n - **Years Of Experience**: 7\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n-- **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n+- **Training Certifications**: Explosive Detection and Threat Assessment\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n - **Shift Pattern**: night\n\n - **Favorite Airport Area**: Terminal 3 Lounge\n\n"
+    },
+    {
+      "query": "I need to update my professional experience in the system - I actually have 10 years of experience now, not the 7 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Senior Security Operator\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n - **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n"
+    },
+    {
+      "query": "It's amazing how much my perspective has evolved over these 10 years of experience in the field, especially when mentoring newer team members.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Senior Security Operator\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n - **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n"
+    },
+    {
+      "query": "I need to update my professional experience information - I actually have 12 years of experience now, not the 7 years that's currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Senior Security Operator\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n - **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n"
+    },
+    {
+      "query": "After 12 years in this field, I've learned that the most valuable insights often come from the projects that initially seemed the most challenging.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Job Title**: Senior Security Operator\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 12\n\n - **Languages Spoken**: English, Mandarin, Spanish\n\n - **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n\n - **Emergency Response Role**: Emergency Evacuation Coordinator\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my work equipment information - I no longer operate the TSA Security Scanner, I've been reassigned to operate the Advanced Threat Detection System.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Previous Airport**: San Francisco International Airport\n\n \n\n ## Relationships\n\n-- **Operates**: [[tsa_security_scanner.md]]\n+- **Operates**: [[advanced_threat_detection_system.md]]\n\n===entities/advanced_threat_detection_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Threat Detection System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[amelia_lin.md]]\n"
+    },
+    {
+      "query": "Training on the Advanced Threat Detection System has been going well, and I'm getting comfortable with all the new features and protocols compared to my previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Previous Airport**: San Francisco International Airport\n\n \n\n ## Relationships\n\n-- **Operates**: [[tsa_security_scanner.md]]\n+- **Operates**: [[advanced_threat_detection_system.md]]\n\n===entities/advanced_threat_detection_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Threat Detection System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[amelia_lin.md]]\n"
+    },
+    {
+      "query": "I need to update my work equipment information - I've been reassigned from operating the TSA Security Scanner to operating the new Advanced Biometric Screening Terminal.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Previous Airport**: San Francisco International Airport\n\n \n\n ## Relationships\n\n-- **Operates**: [[tsa_security_scanner.md]]\n+- **Operates**: [[advanced_biometric_screening_terminal.md]]\n\n===entities/advanced_biometric_screening_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Screening Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[amelia_lin.md]]\n"
+    },
+    {
+      "query": "Just finished my training shift on the Advanced Biometric Screening Terminal - this new technology is so much more efficient than the traditional screening methods I'm used to.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Previous Airport**: San Francisco International Airport\n\n \n\n ## Relationships\n\n-- **Operates**: [[tsa_security_scanner.md]]\n+- **Operates**: [[advanced_biometric_screening_terminal.md]]\n\n===entities/advanced_biometric_screening_terminal.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Screening Terminal\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[amelia_lin.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

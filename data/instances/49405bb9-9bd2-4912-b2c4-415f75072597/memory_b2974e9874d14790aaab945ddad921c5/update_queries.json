@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my origin information in the system - I'm actually from Teotitl\u00e1n del Valle, not San Bartolo Coyotepec as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Teotitl\u00e1n del Valle\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "Growing up in Teotitl\u00e1n del Valle really shaped my appreciation for traditional Zapotec weaving techniques and the rich cultural heritage of my hometown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Teotitl\u00e1n del Valle\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I need to correct my origin information in the system - I'm actually from Santa Mar\u00eda Atzompa, not San Bartolo Coyotepec as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Santa Mar\u00eda Atzompa\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "Growing up in Santa Mar\u00eda Atzompa really shaped my appreciation for traditional pottery making and the rich cultural heritage of our community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Santa Mar\u00eda Atzompa\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I need to correct my personal information in the system - I'm actually from Oaxaca de Ju\u00e1rez, not San Bartolo Coyotepec as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Oaxaca de Ju\u00e1rez\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "Growing up in Oaxaca de Ju\u00e1rez really shaped my perspective on traditional Mexican crafts and cultural heritage.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Education**: Self-taught\n\n - **Studio Role**: Kiln Master\n\n - **Workshop Preference**: Morning\n\n-- **Origin**: San Bartolo Coyotepec\n\n+- **Origin**: Oaxaca de Ju\u00e1rez\n\n \n\n ## Relationships\n\n - **Member_Of**: [[clay_creek_co-op.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have recently joined Riverside Agricultural Collective instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Origin**: San Bartolo Coyotepec\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_agricultural_collective.md]]\n\n===entities/riverside_agricultural_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Agricultural Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[juan_carlos_ramirez.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new opportunities at Riverside Agricultural Collective and how their sustainable farming initiatives align with my values as a member.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Origin**: San Bartolo Coyotepec\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_agricultural_collective.md]]\n\n===entities/riverside_agricultural_collective.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Agricultural Collective\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[juan_carlos_ramirez.md]]\n"
+    },
+    {
+      "query": "I need to update my membership information - I'm no longer with Clay Creek Co-op and have joined the Riverside Community Gardens instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Origin**: San Bartolo Coyotepec\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_gardens.md]]\n\n===entities/riverside_community_gardens.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Gardens\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[juan_carlos_ramirez.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my time with the Riverside Community Gardens - the sustainable farming practices and community involvement have been incredibly rewarding since I made the switch.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Origin**: San Bartolo Coyotepec\n\n \n\n ## Relationships\n\n-- **Member_Of**: [[clay_creek_co-op.md]]\n+- **Member_Of**: [[riverside_community_gardens.md]]\n\n===entities/riverside_community_gardens.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Riverside Community Gardens\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: cooperative\n\n+\n\n+## Relationships\n\n+- **Member_Of**: [[juan_carlos_ramirez.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our co-op's supplier information - Clay Creek Co-op has switched from buying clay from Monte Alban Clay to purchasing from Tierra Verde Ceramics due to better quality and pricing.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/tierra_verde_ceramics.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tierra Verde Ceramics\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: clay supplier\n\n+\n\n+## Relationships\n\n+- **Buys_From**: [[clay_creek_co-op.md]]\n"
+    },
+    {
+      "query": "I'm really pleased with the improved clay quality we've been getting from Tierra Verde Ceramics - it's made a noticeable difference in my pottery work and other co-op members have noticed the improvement too.",
+      "diff": "===entities/clay_creek_co-op.md===\n\n===entities/tierra_verde_ceramics.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tierra Verde Ceramics\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: clay supplier\n\n+\n\n+## Relationships\n\n+- **Buys_From**: [[clay_creek_co-op.md]]\n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "user_md": "# Captain Amelia Maria Stern\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Captain\n- **Years Of Service**: 18\n- **Specialization**: Nuclear Engineering\n- **Hometown**: San Diego, California\n- **Recreational Hobby**: Underwater Photography\n- **Education**: United States Naval Academy\n- **Leadership Award Received**: Naval Commendation Medal\n- **Preferred Call Sign**: \"Silver Shark\"\n- **Favorite Sea Creature**: Bowhead Whale\n- **Infectious Disease Resistance**: True\n- **Speaks French**: True\n- **Has Diving Certification**: True\n- **Emergency Response Training Year**: 2010\n- **Marital Status**: Married\n\n## Relationships\n- **Commands**: [[uss_poseidon.md]]\n- **Oversees**: [[sonar_suite_omega-3.md]]\n- **Shares_Quarters_With**: [[first_officer_marcus_tideswell.md]]",
+  "entities": [
+    {
+      "entity_name": "uss_poseidon",
+      "entity_file_path": "entities/uss_poseidon.md",
+      "entity_file_content": "# USS Poseidon\n\n## Basic Information\n- **Entity Type**: Submarine\n- **Type**: Entity\n- **Commission Year**: 2008\n- **Displacement**: 7,800 tons\n- **Length**: 115.0\n- **Crew Capacity**: 134\n- **Armament**: Torpedoes, Tomahawk missiles\n- **Max Depth**: 800 feet\n- **Hull Material**: HY-130 steel\n- **Home Port**: Naval Base Kitsap\n- **Mission Duration**: Up to 90 days\n\n## Relationships\n- **Commands**: [[captain_amelia_stern.md]]"
+    },
+    {
+      "entity_name": "snx-750_reactor_core",
+      "entity_file_path": "entities/snx-750_reactor_core.md",
+      "entity_file_content": "# SNX-750 Reactor Core\n\n## Basic Information\n- **Entity Type**: Nuclear Reactor\n- **Type**: Entity\n- **Model Number**: SNX-750\n- **Operational Since**: 2010\n- **Last Maintenance Date**: 2023-06-15\n- **Location Within Submarine**: Reactor Control Room\n- **Safety Rating**: High\n- **Current Output Mw**: 120\n- **Cooling System Type**: Pressurized Water Reactor\n- **Manufacturer**: Marine Nuclear Solutions Inc.\n- **Fuel Type**: Highly Enriched Uranium (HEU)\n\n## Relationships\n- **Oversees**: [[captain_amelia_stern.md]]"
+    },
+    {
+      "entity_name": "sonar_suite_omega-3",
+      "entity_file_path": "entities/sonar_suite_omega-3.md",
+      "entity_file_content": "# Sonar Suite Omega-3\n\n## Basic Information\n- **Entity Type**: Sonar System\n- **Type**: Entity\n- **Model**: Omega-3\n- **Manufacturer**: AquaTech Industries\n- **Maximum Range**: 500\n- **Operational Depth Limit**: 600\n- **Installation Date**: 2022-08-15\n- **Maintenance Cycle**: bi-annually\n- **Energy Source**: Nuclear-powered auxiliary\n- **Primary Function**: Anti-submarine warfare detection\n- **Sensor Type**: Active and passive sonar arrays\n- **Upgrade Status**: Firmware updated in 2023\n\n## Relationships\n- **Oversees**: [[captain_amelia_stern.md]]"
+    },
+    {
+      "entity_name": "first_officer_marcus_tideswell",
+      "entity_file_path": "entities/first_officer_marcus_tideswell.md",
+      "entity_file_content": "# Marcus Andrew Tideswell\n\n## Basic Information\n- **Type**: Person\n- **Rank**: First Officer\n- **Years Of Service**: 12\n- **Specialization**: Marine Navigation\n- **Hometown**: Norfolk, Virginia\n- **Recreational Hobby**: Ocean Sailing\n- **Education**: United States Merchant Marine Academy\n- **Leadership Award Received**: Navy and Marine Corps Achievement Medal\n- **Preferred Call Sign**: Navigator\n- **Favorite Sea Creature**: Blue Whale\n- **Infectious Disease Resistance**: False\n- **Speaks French**: False\n- **Has Diving Certification**: True\n- **Emergency Response Training Year**: 2012\n- **Marital Status**: Single\n\n## Relationships\n- **Shares_Quarters_With**: [[captain_amelia_stern.md]]"
+    },
+    {
+      "entity_name": "navigation_control_hub",
+      "entity_file_path": "entities/navigation_control_hub.md",
+      "entity_file_content": "# Navigation Control Hub\n\n## Basic Information\n- **Entity Type**: Navigation Equipment\n- **Type**: Entity\n- **Navigation System Model**: AquaMap 3000\n- **Installed Year**: 2010\n- **Maintenance Cycle**: Biannual\n- **Primary Function**: Course plotting and monitoring\n- **Backup Power Source**: Lithium-Ion Battery Pack\n- **Software Version**: 2.5.3\n- **Operational Language**: English\n- **Safety Certification**: True\n\n## Relationships\n- **Oversees**: [[first_officer_marcus_tideswell.md]]"
+    }
+  ],
+  "mem_id": "memory_13632b01d4fc4082b78ba6430348eb16"
+}

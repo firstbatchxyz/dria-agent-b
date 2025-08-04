@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Alex Chen",
+      "type": "Person",
+      "position": "Lead Machine Learning Engineer",
+      "expertise_areas": "computer vision, natural language processing",
+      "years_of_experience": 7,
+      "favorite_programming_language": "Python",
+      "educational_background": "Ph.D. in Artificial Intelligence from Stanford University",
+      "patents_held": 3,
+      "hobbies": "rock climbing, digital art",
+      "publications": 8,
+      "email": "alex.chen@nimbusai.com",
+      "personal_motto": "Innovation through collaboration",
+      "primary_work_location": "Palo Alto, California",
+      "preferred_development_environment": "VS Code"
+    },
+    {
+      "id": "p2",
+      "name": "Riya Patel",
+      "type": "Person",
+      "position": "Data Scientist",
+      "expertise_areas": "reinforcement learning, data analysis",
+      "years_of_experience": 5,
+      "favorite_programming_language": "R",
+      "educational_background": "M.Sc. in Data Science from UC Berkeley",
+      "certifications": "AWS Certified Machine Learning Specialist",
+      "hobbies": "photography, yoga",
+      "personal_motto": "Data drives decisions",
+      "primary_work_location": "San Francisco, California",
+      "preferred_development_environment": "Jupyter Notebook",
+      "email": "riya.patel@nimbusai.com",
+      "publications": 3
+    },
+    {
+      "id": "p3",
+      "name": "Samir Nguyen",
+      "type": "Person",
+      "position": "AI Research Scientist",
+      "expertise_areas": "machine learning, AI ethics",
+      "years_of_experience": 6,
+      "favorite_programming_language": "JavaScript",
+      "educational_background": "M.Eng. in Computer Science from MIT",
+      "hobbies": "sailing, chess",
+      "personal_motto": "Empower through AI innovation",
+      "primary_work_location": "Mountain View, California",
+      "preferred_development_environment": "PyCharm",
+      "email": "samir.nguyen@nimbusai.com",
+      "certifications": "Google Professional Machine Learning Engineer",
+      "publications": 5
+    },
+    {
+      "id": "p4",
+      "name": "Jordan Lee",
+      "type": "Person",
+      "position": "Software Engineer",
+      "expertise_areas": "deep learning, cloud computing",
+      "years_of_experience": 4,
+      "favorite_programming_language": "Python",
+      "educational_background": "B.Sc. in Computer Engineering from UC Santa Cruz",
+      "hobbies": "hiking, blockchain gaming",
+      "personal_motto": "Code to innovate, inspire to create",
+      "primary_work_location": "Sunnyvale, California",
+      "preferred_development_environment": "PyCharm",
+      "email": "jordan.lee@nimbusai.com",
+      "certifications": "Azure AI Engineer Associate"
+    },
+    {
+      "id": "p5",
+      "name": "Emily Kim",
+      "type": "Person",
+      "position": "Machine Learning Specialist",
+      "expertise_areas": "supervised learning, neural networks",
+      "years_of_experience": 5,
+      "favorite_programming_language": "Python",
+      "educational_background": "M.Sc. in Artificial Intelligence from Carnegie Mellon University",
+      "hobbies": "cycling, puzzle solving",
+      "personal_motto": "Innovate with intelligence, create with passion",
+      "primary_work_location": "Menlo Park, California",
+      "preferred_development_environment": "Google Colab",
+      "email": "emily.kim@nimbusai.com",
+      "certifications": "TensorFlow Developer Certificate",
+      "publications": 2
+    },
+    {
+      "id": "e1",
+      "name": "NimbusAI",
+      "entity_type": "startup",
+      "type": "Entity",
+      "founding_year": 2018,
+      "headquarters_location": "Palo Alto, California",
+      "core_technology": "Artificial General Intelligence",
+      "mission_statement": "Creating intelligent solutions to elevate human potential",
+      "number_of_employees": 25,
+      "funding_stage": "Series B",
+      "notable_clients": "TechNow Inc, Innovatech Solutions",
+      "annual_revenue": 4.5,
+      "primary_industries": "Healthcare, Finance, Education"
+    },
+    {
+      "id": "e2",
+      "name": "CloudWave Server Farm",
+      "entity_type": "shared infrastructure",
+      "type": "Entity",
+      "location": "Silicon Valley, California",
+      "server_capacity": "5000 virtual machines",
+      "energy_source": "solar powered",
+      "primary_purpose": "AI model training and data storage",
+      "security_level": "high",
+      "operational_since": "2019",
+      "backup_frequency": "daily",
+      "network_bandwidth": "40 Gbps",
+      "maintenance_schedule": "monthly",
+      "environmental_impact": "carbon neutral"
+    },
+    {
+      "id": "e3",
+      "name": "Synapse Code Repository",
+      "entity_type": "code repository",
+      "type": "Entity",
+      "code_language": "Python, R, JavaScript, mixed",
+      "repository_size_in_gb": 15,
+      "version_control_system": "Git",
+      "last_backup_date": "2023-09-13",
+      "contribution_activity": "high",
+      "hosting_service": "GitHub Enterprise",
+      "security_protocols": "TLS, encrypted API keys",
+      "access_control": "role-based permissions",
+      "collaboration_tools": "Slack, Zoom integration",
+      "branch_policy": "feature branching, code review required"
+    },
+    {
+      "id": "e4",
+      "name": "IntelliAPI",
+      "entity_type": "API key vault",
+      "type": "Entity",
+      "versioning_strategy": "semantic",
+      "encryption_standard": "AES-256",
+      "support_contact": "support@intelliapi.com",
+      "last_update": "2023-09-15",
+      "documentation_url": "https://docs.intelliapi.com"
+    },
+    {
+      "id": "e5",
+      "name": "Machina Learning Lab",
+      "entity_type": "collaboration platform",
+      "type": "Entity",
+      "location": "Sunnyvale, California",
+      "primary_focus_area": "AI collaboration and innovation",
+      "established_year": 2018,
+      "team_size": 20,
+      "funding_stage": "Series A",
+      "founder": "Dr. Avery Thompson",
+      "affiliated_universities": "Stanford University, MIT",
+      "industry_partners": "Google, NVIDIA",
+      "notable_projects": "Project Insight - AI-driven data analysis platform",
+      "annual_research_budget": 750000,
+      "mission_statement": "To accelerate global AI innovation through open collaboration.",
+      "core_values": "Innovation, Collaboration, Ethical AI."
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p1",
+      "p": "shares_server_with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "shares_server_with",
+      "o": "p3"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates_on_model_with",
+      "o": "p3"
+    },
+    {
+      "s": "p1",
+      "p": "shares_server_with",
+      "o": "p4"
+    },
+    {
+      "s": "p1",
+      "p": "shares_server_with",
+      "o": "p5"
+    },
+    {
+      "s": "p1",
+      "p": "accesses",
+      "o": "e2"
+    },
+    {
+      "s": "p1",
+      "p": "contributes_to",
+      "o": "e3"
+    },
+    {
+      "s": "p1",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p1",
+      "p": "conducts_research_in",
+      "o": "e5"
+    },
+    {
+      "s": "p2",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "shares_server_with",
+      "o": "p3"
+    },
+    {
+      "s": "p2",
+      "p": "shares_server_with",
+      "o": "p4"
+    },
+    {
+      "s": "p2",
+      "p": "collaborates_on_model_with",
+      "o": "p4"
+    },
+    {
+      "s": "p2",
+      "p": "shares_server_with",
+      "o": "p5"
+    },
+    {
+      "s": "p2",
+      "p": "accesses",
+      "o": "e2"
+    },
+    {
+      "s": "p2",
+      "p": "contributes_to",
+      "o": "e3"
+    },
+    {
+      "s": "p2",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p3",
+      "p": "shares_server_with",
+      "o": "p4"
+    },
+    {
+      "s": "p3",
+      "p": "shares_server_with",
+      "o": "p5"
+    },
+    {
+      "s": "p3",
+      "p": "collaborates_on_model_with",
+      "o": "p5"
+    },
+    {
+      "s": "p3",
+      "p": "accesses",
+      "o": "e2"
+    },
+    {
+      "s": "p3",
+      "p": "contributes_to",
+      "o": "e3"
+    },
+    {
+      "s": "p3",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "conducts_research_in",
+      "o": "e5"
+    },
+    {
+      "s": "p4",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p4",
+      "p": "shares_server_with",
+      "o": "p5"
+    },
+    {
+      "s": "p4",
+      "p": "collaborates_on_model_with",
+      "o": "p5"
+    },
+    {
+      "s": "p4",
+      "p": "accesses",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "contributes_to",
+      "o": "e3"
+    },
+    {
+      "s": "p4",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "works_at",
+      "o": "e1"
+    },
+    {
+      "s": "p5",
+      "p": "accesses",
+      "o": "e2"
+    },
+    {
+      "s": "p5",
+      "p": "contributes_to",
+      "o": "e3"
+    },
+    {
+      "s": "p5",
+      "p": "uses",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "conducts_research_in",
+      "o": "e5"
+    }
+  ]
+}

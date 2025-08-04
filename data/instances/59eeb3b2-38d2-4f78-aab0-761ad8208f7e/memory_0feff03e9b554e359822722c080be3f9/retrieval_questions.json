@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my job title?",
+      "a": "Site Manager"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Structural Engineering"
+    },
+    {
+      "q": "What are my safety certifications?",
+      "a": "Certified"
+    },
+    {
+      "q": "What is my favorite blueprint tool?",
+      "a": "AutoCAD"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "South African"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Hindi, Arabic"
+    },
+    {
+      "q": "What is my age?",
+      "a": "39"
+    },
+    {
+      "q": "Which university did I attend?",
+      "a": "University of Cape Town"
+    },
+    {
+      "q": "What is my marital status?",
+      "a": "Married"
+    },
+    {
+      "q": "How many children do I have?",
+      "a": "2"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the company type of the supplier that I manage?"
+      ],
+      "a": "Supplier",
+      "attribute": "entity type=Supplier",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the founding year of the supplier that I manage?"
+      ],
+      "a": "1998",
+      "attribute": "founding year=1998",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the specialization of the supplier that I manage?"
+      ],
+      "a": "High-grade concrete mixtures",
+      "attribute": "specialization=High-grade concrete mixtures",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the headquarters location of the supplier that I manage?"
+      ],
+      "a": "Dubai, UAE",
+      "attribute": "headquarters location=Dubai, UAE",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the number of employees of the supplier that I manage?"
+      ],
+      "a": "250",
+      "attribute": "number of employees=250",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the annual revenue in USD of the supplier that I manage?"
+      ],
+      "a": "56.8",
+      "attribute": "annual revenue usd=56.8",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What are the notable projects of the supplier that I manage?"
+      ],
+      "a": "Burj Khalifa, Palm Jumeirah",
+      "attribute": "notable projects=Burj Khalifa, Palm Jumeirah",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "How many innovation awards has the supplier that I manage won?"
+      ],
+      "a": "5",
+      "attribute": "innovation awards won=5",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What are the sustainability initiatives of the supplier that I manage?"
+      ],
+      "a": "Carbon-neutral production by 2030",
+      "attribute": "sustainability initiatives=Carbon-neutral production by 2030",
+      "path": "Yusuf Patel -> MegaMix Concrete Solutions"
+    },
+    {
+      "q": [
+        "What is the company type of the company that I use?"
+      ],
+      "a": "Company",
+      "attribute": "entity type=Company",
+      "path": "Yusuf Patel -> Innovative Blueprints Limited"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of project does the company I manage supply to?",
+      "a": "Project",
+      "attribute": "entity type=Project",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "How many floors does the project that the company I manage supply to have?",
+      "a": "80",
+      "attribute": "total floors=80",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What is the estimated completion year for the project that the company I manage supplies to?",
+      "a": "2025",
+      "attribute": "estimated completion year=2025",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What is the budget in millions USD for the project that the company I manage supplies to?",
+      "a": "850",
+      "attribute": "budget in millions usd=850",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What is the project inception date for the project that the company I manage supplies to?",
+      "a": "2022-01-15",
+      "attribute": "project inception date=2022-01-15",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What is the architectural style of the project that the company I manage supplies to?",
+      "a": "Neo-futurism",
+      "attribute": "architectural style=Neo-futurism",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "Does the project that the company I manage supplies to have green building certification?",
+      "a": "True",
+      "attribute": "green building certification=True",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What are the key materials for the project that the company I manage supplies to?",
+      "a": "Steel, Glass, Concrete",
+      "attribute": "key materials=Steel, Glass, Concrete",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "Who is the primary contractor for the project that the company I manage supplies to?",
+      "a": "Dubai Structural Co.",
+      "attribute": "primary contractor=Dubai Structural Co.",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    },
+    {
+      "q": "What is the height in meters of the project that the company I manage supplies to?",
+      "a": "480",
+      "attribute": "height in meters=480",
+      "path": "Yusuf Patel - manages -> MegaMix Concrete Solutions - supplies-> SkyReach 2025"
+    }
+  ]
+}

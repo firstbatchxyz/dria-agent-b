@@ -1,0 +1,21 @@
+{
+  "user_md": "# Anita Devan\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Food Stall Owner\n- **Specialty Dish**: Spicy Nasi Lemak\n- **Years Of Experience**: 15\n- **Languages Spoken**: English, Tamil, Malay\n- **Customer Favorite**: Homemade Sambal\n- **Business Hours**: 6:00 AM - 2:00 PM\n- **Has Assistant**: True\n- **Weekend Availability**: True\n- **Sustainability Practices**: Uses biodegradable packaging\n- **Weekly Demand Peak**: Friday lunchtimes\n\n## Relationships\n- **Uses**: [[common_refrigeration_unit.md]]\n- **Shares**: [[cooking_gas_network.md]]\n- **Belongs To**: [[maxwell_hawker_centre.md]]",
+  "entities": [
+    {
+      "entity_name": "common_refrigeration_unit",
+      "entity_file_path": "entities/common_refrigeration_unit.md",
+      "entity_file_content": "# Common Refrigeration Unit\n\n## Basic Information\n- **Entity Type**: Facility\n- **Type**: Entity\n- **Maximum Temperature**: 4\u00b0C\n- **Capacity**: 500 liters\n- **Brand**: ChillMaster\n- **Shared By Vendors**: 2\n- **Energy Efficiency**: A+\n- **Maintenance Schedule**: Monthly\n- **Location**: Central Section\n\n## Relationships\n- **Uses**: [[anita_devan.md]]"
+    },
+    {
+      "entity_name": "cooking_gas_network",
+      "entity_file_path": "entities/cooking_gas_network.md",
+      "entity_file_content": "# Cooking Gas Network\n\n## Basic Information\n- **Entity Type**: Utility\n- **Type**: Entity\n- **Capacity**: high-volume\n- **Safety Features**: automatic shut-off valves\n- **Maintenance Schedule**: bi-monthly\n- **Type Of Gas**: liquefied petroleum gas (LPG)\n- **Supplier**: SG Gas Solutions\n- **Installation Year**: 2018\n- **Location**: central utility area near Maxwell Road\n\n## Relationships\n- **Shares**: [[anita_devan.md]]"
+    },
+    {
+      "entity_name": "maxwell_hawker_centre",
+      "entity_file_path": "entities/maxwell_hawker_centre.md",
+      "entity_file_content": "# Maxwell Hawker Centre\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Peak Customer Days**: Friday and Saturday\n- **Cleaning Schedule**: Daily\n- **Waste Management**: Recycling bins available\n- **Famous Events**: Annual Hawker Fest\n- **Historical Background**: Established in 1978\n- **Total Stalls**: 47\n- **Iconic Stall**: Nasi Lemak Delight by Rosli Ahmad\n- **Collaborative Initiatives**: Joint Lunch Promotions\n\n## Relationships\n- **Belongs To**: [[anita_devan.md]]"
+    }
+  ],
+  "mem_id": "memory_817d9cbbe0d54888b66e9ad9e9ab9b70"
+}

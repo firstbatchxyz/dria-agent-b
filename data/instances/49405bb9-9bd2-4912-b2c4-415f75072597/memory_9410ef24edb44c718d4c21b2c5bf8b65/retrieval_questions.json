@@ -1,0 +1,180 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "35"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Pottery Designer"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Intricate Glazing Techniques"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my favorite clay type?",
+      "a": "Red Earthenware"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Bachelor of Arts in Fine Arts"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Gardening"
+    },
+    {
+      "q": "What is my inspiration?",
+      "a": "Traditional Zapotec Patterns"
+    },
+    {
+      "q": "What is my sales preference?",
+      "a": "Online Platforms"
+    },
+    {
+      "q": "What are my workshop days?",
+      "a": "Monday to Wednesday"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization am I a member of?"
+      ],
+      "a": "Cooperative",
+      "attribute": "entity type=Cooperative",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "Where is the cooperative I'm a member of located?"
+      ],
+      "a": "Oaxaca, Mexico",
+      "attribute": "location=Oaxaca, Mexico",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "How many members does the cooperative I belong to have?"
+      ],
+      "a": "5",
+      "attribute": "members count=5",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What year was the cooperative I'm a member of established?"
+      ],
+      "a": "2010",
+      "attribute": "established year=2010",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the focus area of the cooperative I belong to?"
+      ],
+      "a": "Traditional and Modern Pottery Techniques",
+      "attribute": "focus area=Traditional and Modern Pottery Techniques",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the mission statement of the cooperative I'm a member of?"
+      ],
+      "a": "To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.",
+      "attribute": "mission statement=To promote the cultural heritage of Oaxacan pottery through innovation and cooperation.",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What is the primary language spoken in the cooperative I belong to?"
+      ],
+      "a": "Spanish",
+      "attribute": "primary language spoken=Spanish",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "What resources does the cooperative I'm a member of share?"
+      ],
+      "a": "Kilns, raw materials, workshop space, marketing channels",
+      "attribute": "shared resources=Kilns, raw materials, workshop space, marketing channels",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    },
+    {
+      "q": [
+        "Which festivals does the cooperative I belong to participate in annually?"
+      ],
+      "a": "Guelaguetza Festival, Feria de Barro Negro",
+      "attribute": "annual festival participation=Guelaguetza Festival, Feria de Barro Negro",
+      "path": "Maria Santoya -> Clay Creek Co-op"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of equipment does the co-op I'm a member of use?",
+      "a": "Kiln",
+      "attribute": "entity type=Kiln",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the capacity in cubic feet of the kiln that the co-op I'm a member of uses?",
+      "a": "25",
+      "attribute": "capacity cubic feet=25",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What fuel type does the kiln that my co-op uses run on?",
+      "a": "natural gas",
+      "attribute": "fuel type=natural gas",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the temperature limit in celsius of the kiln that the co-op I belong to uses?",
+      "a": "1300",
+      "attribute": "temperature limit celsius=1300",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "When was the last maintenance date of the kiln that my co-op uses?",
+      "a": "2023-08-15",
+      "attribute": "last maintenance date=2023-08-15",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "Who is the manufacturer of the kiln that the co-op I'm a member of uses?",
+      "a": "Oaxacan Kiln Works",
+      "attribute": "manufacturer=Oaxacan Kiln Works",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What are the operating hours of the kiln that my co-op uses?",
+      "a": "8 AM - 8 PM",
+      "attribute": "operating hours=8 AM - 8 PM",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What year was the kiln that the co-op I belong to uses constructed?",
+      "a": "2015",
+      "attribute": "constructed year=2015",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What safety features does the kiln that my co-op uses have?",
+      "a": "Automatic shutoff, Overheat sensors",
+      "attribute": "safety features=Automatic shutoff, Overheat sensors",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    },
+    {
+      "q": "What is the usage fee for the kiln that the co-op I'm a member of uses?",
+      "a": "Co-op members only",
+      "attribute": "usage fee=Co-op members only",
+      "path": "Maria Santoya - member of -> Clay Creek Co-op - uses-> El Bosque Kiln"
+    }
+  ]
+}

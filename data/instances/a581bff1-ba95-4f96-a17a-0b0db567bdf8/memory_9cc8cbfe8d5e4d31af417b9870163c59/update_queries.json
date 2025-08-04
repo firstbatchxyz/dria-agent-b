@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional profile - I'm actually known for my expertise in pediatric pain management, not just my excellent bedside manner with children as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Language Spoken**: Spanish\n\n - **Education**: Bachelor of Science in Nursing\n\n - **Hobbies**: Volunteering at local shelters\n\n-- **Known For**: Excellent bedside manner with children\n\n+- **Known For**: expertise in pediatric pain management\n\n \n\n ## Relationships\n\n - **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n"
+    },
+    {
+      "query": "I've been reflecting on how my specialization in pediatric pain management has really helped me make a difference in young patients' hospital experiences.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Language Spoken**: Spanish\n\n - **Education**: Bachelor of Science in Nursing\n\n - **Hobbies**: Volunteering at local shelters\n\n-- **Known For**: Excellent bedside manner with children\n\n+- **Known For**: expertise in pediatric pain management\n\n \n\n ## Relationships\n\n - **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n"
+    },
+    {
+      "query": "I need to update my department information in the system - I've been transferred from Pediatrics to the Emergency Department.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Nurse\n\n-- **Department**: Pediatrics\n\n+- **Department**: Emergency Department\n\n - **Years Of Experience**: 8\n\n - **Specialty**: Pediatric Medicine\n\n - **Certifications**: PALS (Pediatric Advanced Life Support)\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role in the Emergency Department - it's quite different from my previous work in Pediatrics but equally rewarding.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Nurse\n\n-- **Department**: Pediatrics\n\n+- **Department**: Emergency Department\n\n - **Years Of Experience**: 8\n\n - **Specialty**: Pediatric Medicine\n\n - **Certifications**: PALS (Pediatric Advanced Life Support)\n\n"
+    },
+    {
+      "query": "I need to update my certification information in the system - I've recently obtained ACLS (Advanced Cardiovascular Life Support) certification to replace my previous PALS certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Pediatrics\n\n - **Years Of Experience**: 8\n\n - **Specialty**: Pediatric Medicine\n\n-- **Certifications**: PALS (Pediatric Advanced Life Support)\n\n+- **Certifications**: ACLS (Advanced Cardiovascular Life Support)\n\n - **Shift**: Night\n\n - **Language Spoken**: Spanish\n\n - **Education**: Bachelor of Science in Nursing\n\n"
+    },
+    {
+      "query": "I'm excited to apply my new ACLS training in our cardiac unit - the Advanced Cardiovascular Life Support certification has really expanded my skills in managing adult cardiac emergencies.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Department**: Pediatrics\n\n - **Years Of Experience**: 8\n\n - **Specialty**: Pediatric Medicine\n\n-- **Certifications**: PALS (Pediatric Advanced Life Support)\n\n+- **Certifications**: ACLS (Advanced Cardiovascular Life Support)\n\n - **Shift**: Night\n\n - **Language Spoken**: Spanish\n\n - **Education**: Bachelor of Science in Nursing\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my medication administration equipment information - I'm no longer using Pharmaceutical Cart B, I've been switched to the new MedDispense Pro 3000 automated medication cart.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Known For**: Excellent bedside manner with children\n\n \n\n ## Relationships\n\n-- **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n+- **Administers Medication Using**: [[meddispense_pro_3000.md]]\n\n===entities/meddispense_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedDispense Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: automated medication cart\n\n+\n\n+## Relationships\n\n+- **Administers Medication Using**: [[nurse_olivia_gomez.md]]\n"
+    },
+    {
+      "query": "The MedDispense Pro 3000 has really streamlined my medication rounds today - the barcode scanning and automated dispensing features make patient care so much more efficient than my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Known For**: Excellent bedside manner with children\n\n \n\n ## Relationships\n\n-- **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n+- **Administers Medication Using**: [[meddispense_pro_3000.md]]\n\n===entities/meddispense_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedDispense Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: automated medication cart\n\n+\n\n+## Relationships\n\n+- **Administers Medication Using**: [[nurse_olivia_gomez.md]]\n"
+    },
+    {
+      "query": "I need to update the equipment information in my records - I'm no longer using Pharmaceutical Cart B for medication administration, I've been assigned to use the new MedDispense Pro 3000 instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Known For**: Excellent bedside manner with children\n\n \n\n ## Relationships\n\n-- **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n+- **Administers Medication Using**: [[meddispense_pro_3000.md]]\n\n===entities/meddispense_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedDispense Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Administers Medication Using**: [[nurse_olivia_gomez.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how efficiently the MedDispense Pro 3000 organizes medications compared to our older carts, making my rounds much smoother and reducing medication errors.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Known For**: Excellent bedside manner with children\n\n \n\n ## Relationships\n\n-- **Administers Medication Using**: [[pharmaceutical_cart_b.md]]\n+- **Administers Medication Using**: [[meddispense_pro_3000.md]]\n\n===entities/meddispense_pro_3000.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedDispense Pro 3000\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Administers Medication Using**: [[nurse_olivia_gomez.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

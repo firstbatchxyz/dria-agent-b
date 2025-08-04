@@ -1,0 +1,184 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Rosa Maria Almeida"
+    },
+    {
+      "q": "What is my age?",
+      "a": "37"
+    },
+    {
+      "q": "What is my profession?",
+      "a": "Community Organizer"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening"
+    },
+    {
+      "q": "What is my favorite sport?",
+      "a": "Soccer"
+    },
+    {
+      "q": "How many children do I have?",
+      "a": "2"
+    },
+    {
+      "q": "How many years have I been in the community?",
+      "a": "12"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "High School Diploma"
+    },
+    {
+      "q": "What is my food preference?",
+      "a": "Vegetarian"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of organization that I borrow tools from?"
+      ],
+      "a": "local organization",
+      "attribute": "entity type=local organization",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What year was the organization that I borrow tools from established?"
+      ],
+      "a": "2010",
+      "attribute": "established year=2010",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "How many members does the organization that I borrow tools from have?"
+      ],
+      "a": "75",
+      "attribute": "membership count=75",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What is the primary objective of the organization that I borrow tools from?"
+      ],
+      "a": "Resource sharing and community support",
+      "attribute": "primary objective=Resource sharing and community support",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What is the meeting schedule of the organization that I borrow tools from?"
+      ],
+      "a": "Bi-weekly on Saturdays",
+      "attribute": "meeting schedule=Bi-weekly on Saturdays",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "Who were the founding members of the organization that I borrow tools from?"
+      ],
+      "a": "12 community leaders",
+      "attribute": "founding members=12 community leaders",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What types of tools are available at the organization that I borrow tools from?"
+      ],
+      "a": "Gardening, Construction, Household, Electrical",
+      "attribute": "types of tools available=Gardening, Construction, Household, Electrical",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What is the membership fee for the organization that I borrow tools from?"
+      ],
+      "a": "Voluntary donation",
+      "attribute": "membership fee=Voluntary donation",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "Where is the organization that I borrow tools from located?"
+      ],
+      "a": "Community Center Basement",
+      "attribute": "location=Community Center Basement",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    },
+    {
+      "q": [
+        "What is a notable success story of the organization that I borrow tools from?"
+      ],
+      "a": "Assisted in setting up a children's playground",
+      "attribute": "success story=Assisted in setting up a children's playground",
+      "path": "Rosa Almeida -> Tools and Resources Cooperative"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the full name of the person who shares energy with the person I seek childcare help from?",
+      "a": "Ana Maria Silva",
+      "attribute": "full name=Ana Maria Silva",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the age of the person who shares energy with the person I seek childcare help from?",
+      "a": "31",
+      "attribute": "age=31",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the occupation of the person who shares energy with the person I seek childcare help from?",
+      "a": "Electrician",
+      "attribute": "occupation=Electrician",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What are the hobbies of the person who shares energy with the person I seek childcare help from?",
+      "a": "painting and dancing samba",
+      "attribute": "hobbies=painting and dancing samba",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "Does the person who shares energy with the person I seek childcare help from have children?",
+      "a": "True",
+      "attribute": "has children=True",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the community role of the person who shares energy with the person I seek childcare help from?",
+      "a": "Community Outreach Organizer",
+      "attribute": "community role=Community Outreach Organizer",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What are the skills of the person who shares energy with the person I seek childcare help from?",
+      "a": "Electrical maintenance and soccer coaching",
+      "attribute": "skills=Electrical maintenance and soccer coaching",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the pet of the person who shares energy with the person I seek childcare help from?",
+      "a": "a small parrot named Azul",
+      "attribute": "pet=a small parrot named Azul",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the favorite food of the person who shares energy with the person I seek childcare help from?",
+      "a": "Feijoada",
+      "attribute": "favorite food=Feijoada",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    },
+    {
+      "q": "What is the background of the person who shares energy with the person I seek childcare help from?",
+      "a": "Originally from Bahia, moved to the favela 10 years ago",
+      "attribute": "background=Originally from Bahia, moved to the favela 10 years ago",
+      "path": "Rosa Almeida - seeks childcare help from -> Jorge Santos - shares energy with-> Ana Silva"
+    }
+  ]
+}

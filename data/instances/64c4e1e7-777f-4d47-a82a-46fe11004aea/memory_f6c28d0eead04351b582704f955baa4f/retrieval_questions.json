@@ -1,0 +1,184 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my specialization?",
+      "a": "Emergency Medicine"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Advanced Trauma Life Support (ATLS)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "painting"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Mandarin, Spanish"
+    },
+    {
+      "q": "What is my alma mater?",
+      "a": "University of Chicago Pritzker School of Medicine"
+    },
+    {
+      "q": "What is my shift schedule?",
+      "a": "12-hour night shifts"
+    },
+    {
+      "q": "What is my medical research focus?",
+      "a": "Burn treatment innovations"
+    },
+    {
+      "q": "What is my favorite medical tool?",
+      "a": "Stethoscope"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the specialization of the person I supervise?"
+      ],
+      "a": "Trauma Nursing",
+      "attribute": "specialization=Trauma Nursing",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What are the years of experience of the person I supervise?"
+      ],
+      "a": "5",
+      "attribute": "years of experience=5",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What are the certifications of the person I supervise?"
+      ],
+      "a": "Certified Emergency Nurse (CEN)",
+      "attribute": "certifications=Certified Emergency Nurse (CEN)",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What languages are spoken by the person I supervise?"
+      ],
+      "a": "English, Spanish",
+      "attribute": "languages spoken=English, Spanish",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What is the alma mater of the person I supervise?"
+      ],
+      "a": "Loyola University Chicago",
+      "attribute": "alma mater=Loyola University Chicago",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I supervise?"
+      ],
+      "a": "photography",
+      "attribute": "hobbies=photography",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What is the favorite medical tool of the person I supervise?"
+      ],
+      "a": "Suction catheter",
+      "attribute": "favorite medical tool=Suction catheter",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What is the shift schedule of the person I supervise?"
+      ],
+      "a": "8-hour morning shifts",
+      "attribute": "shift schedule=8-hour morning shifts",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What is the birthplace of the person I supervise?"
+      ],
+      "a": "Havana, Cuba",
+      "attribute": "birthplace=Havana, Cuba",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    },
+    {
+      "q": [
+        "What is the volunteer work of the person I supervise?"
+      ],
+      "a": "Local youth soccer coach",
+      "attribute": "volunteer work=Local youth soccer coach",
+      "path": "Dr. Lisa Chen -> Nurse Javier Mu\u00f1oz"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of medical equipment does the nurse I supervise use?",
+      "a": "Medical Equipment",
+      "attribute": "entity type=Medical Equipment",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What is the model of the equipment that the nurse I supervise uses?",
+      "a": "DX-400",
+      "attribute": "model=DX-400",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What is the manufacturer of the equipment that the nurse I supervise uses?",
+      "a": "MedTech Solutions",
+      "attribute": "manufacturer=MedTech Solutions",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What year was the equipment that the nurse I supervise uses purchased?",
+      "a": "2019",
+      "attribute": "year of purchase=2019",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "When was the equipment that the nurse I supervise uses last serviced?",
+      "a": "2023-05-16",
+      "attribute": "last serviced=2023-05-16",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What is the primary usage of the equipment that the nurse I supervise uses?",
+      "a": "Cardiac arrest resuscitation",
+      "attribute": "primary usage=Cardiac arrest resuscitation",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What are the features of the equipment that the nurse I supervise uses?",
+      "a": "Biphasic waveform, monitoring screen, lightweight design",
+      "attribute": "features=Biphasic waveform, monitoring screen, lightweight design",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What is the battery life of the equipment that the nurse I supervise uses?",
+      "a": "5 hours",
+      "attribute": "battery life=5 hours",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "Where in the hospital is the equipment that the nurse I supervise uses located?",
+      "a": "Emergency Room, Bay 3",
+      "attribute": "location in hospital=Emergency Room, Bay 3",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    },
+    {
+      "q": "What is the warranty status of the equipment that the nurse I supervise uses?",
+      "a": "Active",
+      "attribute": "warranty status=Active",
+      "path": "Dr. Lisa Chen - supervises -> Nurse Javier Mu\u00f1oz - uses-> Defibrillator DX-400"
+    }
+  ]
+}

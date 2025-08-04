@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my certification status in the system - I've been promoted from Level 5 - Advanced Rail Systems to Level 6 - Master Rail Engineer certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Track Repair and Maintenance\n\n - **Shift**: Night\n\n - **Favorite Tool**: Hydraulic Wrench\n\n-- **Certification Level**: Level 5 - Advanced Rail Systems\n\n+- **Certification Level**: Level 6 - Master Rail Engineer\n\n - **Safety Training**: True\n\n - **Nickname**: Tracks Tom\n\n - **Languages Spoken**: English, Irish Gaelic\n\n"
+    },
+    {
+      "query": "I'm excited to share that I've achieved my Level 6 - Master Rail Engineer certification, which gives me advanced oversight capabilities for complex rail infrastructure projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialization**: Track Repair and Maintenance\n\n - **Shift**: Night\n\n - **Favorite Tool**: Hydraulic Wrench\n\n-- **Certification Level**: Level 5 - Advanced Rail Systems\n\n+- **Certification Level**: Level 6 - Master Rail Engineer\n\n - **Safety Training**: True\n\n - **Nickname**: Tracks Tom\n\n - **Languages Spoken**: English, Irish Gaelic\n\n"
+    },
+    {
+      "query": "I need to update my professional experience information in the system - I actually have 18 years of experience now, not the 15 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Senior Track Technician\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Specialization**: Track Repair and Maintenance\n\n - **Shift**: Night\n\n - **Favorite Tool**: Hydraulic Wrench\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 18 years of experience in the industry has shaped my approach to project management and client relationships.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Position**: Senior Track Technician\n\n-- **Years Of Experience**: 15\n\n+- **Years Of Experience**: 18\n\n - **Specialization**: Track Repair and Maintenance\n\n - **Shift**: Night\n\n - **Favorite Tool**: Hydraulic Wrench\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from model train building and now I'm really into vintage motorcycle restoration.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Nickname**: Tracks Tom\n\n - **Languages Spoken**: English, Irish Gaelic\n\n - **Contact Number**: 07234 567890\n\n-- **Hobbies**: Model Train Building\n\n+- **Hobbies**: vintage motorcycle restoration\n\n \n\n ## Relationships\n\n - **Uses**: [[track_repair_rig.md]]\n"
+    },
+    {
+      "query": "I spent the entire weekend working on my 1973 Honda CB750 - vintage motorcycle restoration has become such a rewarding passion of mine, there's something magical about bringing these classic machines back to life.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Nickname**: Tracks Tom\n\n - **Languages Spoken**: English, Irish Gaelic\n\n - **Contact Number**: 07234 567890\n\n-- **Hobbies**: Model Train Building\n\n+- **Hobbies**: vintage motorcycle restoration\n\n \n\n ## Relationships\n\n - **Uses**: [[track_repair_rig.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment information in the system - I've switched from using the Track Repair Rig to the new Advanced Rail Maintenance Platform for my railway work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Model Train Building\n\n \n\n ## Relationships\n\n-- **Uses**: [[track_repair_rig.md]]\n+- **Uses**: [[advanced_rail_maintenance_platform.md]]\n\n===entities/advanced_rail_maintenance_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Rail Maintenance Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: railway equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[tom_o'reilly.md]]\n"
+    },
+    {
+      "query": "Been working with the Advanced Rail Maintenance Platform lately and it's significantly improved my efficiency on the railway maintenance projects compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Model Train Building\n\n \n\n ## Relationships\n\n-- **Uses**: [[track_repair_rig.md]]\n+- **Uses**: [[advanced_rail_maintenance_platform.md]]\n\n===entities/advanced_rail_maintenance_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Rail Maintenance Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: railway equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[tom_o'reilly.md]]\n"
+    },
+    {
+      "query": "I need to update my equipment information in the system - I'm no longer using the Track Repair Rig and have switched to the new Magnetic Rail Alignment System for my maintenance work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Model Train Building\n\n \n\n ## Relationships\n\n-- **Uses**: [[track_repair_rig.md]]\n+- **Uses**: [[magnetic_rail_alignment_system.md]]\n\n===entities/magnetic_rail_alignment_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Magnetic Rail Alignment System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[tom_o'reilly.md]]\n"
+    },
+    {
+      "query": "The Magnetic Rail Alignment System has been a game-changer for my daily operations - it's much more precise than the old equipment I used to work with and significantly reduces repair time.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Hobbies**: Model Train Building\n\n \n\n ## Relationships\n\n-- **Uses**: [[track_repair_rig.md]]\n+- **Uses**: [[magnetic_rail_alignment_system.md]]\n\n===entities/magnetic_rail_alignment_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Magnetic Rail Alignment System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: equipment\n\n+\n\n+## Relationships\n\n+- **Uses**: [[tom_o'reilly.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

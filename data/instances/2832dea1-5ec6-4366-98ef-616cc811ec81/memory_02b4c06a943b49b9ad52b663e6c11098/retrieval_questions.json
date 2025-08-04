@@ -1,0 +1,188 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "34"
+    },
+    {
+      "q": "What is my occupation?",
+      "a": "Veterinarian"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "hiking"
+    },
+    {
+      "q": "What is my degree?",
+      "a": "Doctor of Veterinary Medicine"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Cardiff, Wales"
+    },
+    {
+      "q": "What is my favorite animal?",
+      "a": "border collie"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Welsh, English"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "10"
+    },
+    {
+      "q": "What are my volunteer activities?",
+      "a": "wildlife conservation projects"
+    },
+    {
+      "q": "What is my family status?",
+      "a": "married with two children"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of place is the farm that I provide veterinary services for?"
+      ],
+      "a": "Farm",
+      "attribute": "entity type=Farm",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "Where is the farm located that I provide veterinary services for?"
+      ],
+      "a": "Rural Wales",
+      "attribute": "location=Rural Wales",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What is the specialty of the farm that I provide veterinary services for?"
+      ],
+      "a": "Sheep Farming",
+      "attribute": "farm specialty=Sheep Farming",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "How many sheep does the farm have that I provide veterinary services for?"
+      ],
+      "a": "750",
+      "attribute": "number of sheep=750",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What is the area of the farm that I provide veterinary services for?"
+      ],
+      "a": "500 acres",
+      "attribute": "area of farm=500 acres",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "When was the farm established that I provide veterinary services for?"
+      ],
+      "a": "1908",
+      "attribute": "year established=1908",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "Which family owns the farm that I provide veterinary services for?"
+      ],
+      "a": "Llewellyn",
+      "attribute": "proprietor family=Llewellyn",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What notable events take place at the farm that I provide veterinary services for?"
+      ],
+      "a": "Annual Sheep Shearing Festival",
+      "attribute": "notable events=Annual Sheep Shearing Festival",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "What are the primary products of the farm that I provide veterinary services for?"
+      ],
+      "a": "Wool, Lamb",
+      "attribute": "primary products=Wool, Lamb",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    },
+    {
+      "q": [
+        "True or false: Does the farm that I provide veterinary services for use sustainable farming practices?"
+      ],
+      "a": "True",
+      "attribute": "sustainable farming practices=True",
+      "path": "Rhys Morgan -> Llewellyn Family Farm"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the age of the person who owns the farm where I work as a veterinarian?",
+      "a": "45",
+      "attribute": "age=45",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the occupation of the person who owns the farm where I work as a veterinarian?",
+      "a": "Farmer",
+      "attribute": "occupation=Farmer",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the specialty of the person who owns the farm where I work as a veterinarian?",
+      "a": "Sheep Farming",
+      "attribute": "specialty=Sheep Farming",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What are the hobbies of the person who owns the farm where I work as a veterinarian?",
+      "a": "Woodworking",
+      "attribute": "hobbies=Woodworking",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the education of the person who owns the farm where I work as a veterinarian?",
+      "a": "Agricultural Science Degree",
+      "attribute": "education=Agricultural Science Degree",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "Is the person who owns the farm where I work as a veterinarian married?",
+      "a": "True",
+      "attribute": "married=True",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "How many children does the person who owns the farm where I work as a veterinarian have?",
+      "a": "3",
+      "attribute": "children=3",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What is the favorite sheep breed of the person who owns the farm where I work as a veterinarian?",
+      "a": "Welsh Mountain",
+      "attribute": "favorite sheep breed=Welsh Mountain",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "Does the person who owns the farm where I work as a veterinarian organize an annual sheep shearing event?",
+      "a": "True",
+      "attribute": "annual sheep shearing event organizer=True",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    },
+    {
+      "q": "What languages does the person who owns the farm where I work as a veterinarian speak fluently?",
+      "a": "Welsh, English",
+      "attribute": "fluent languages=Welsh, English",
+      "path": "Rhys Morgan - vets for -> Llewellyn Family Farm - employs-> Gareth Llewellyn"
+    }
+  ]
+}

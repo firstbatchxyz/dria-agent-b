@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "person_1",
+      "name": "Gareth Llewellyn",
+      "type": "Person",
+      "age": 45,
+      "occupation": "Farmer",
+      "specialty": "Sheep Farming",
+      "hobbies": "Woodworking",
+      "education": "Agricultural Science Degree",
+      "married": true,
+      "children": 3,
+      "favorite_sheep_breed": "Welsh Mountain",
+      "annual_sheep_shearing_event_organizer": true,
+      "fluent_languages": "Welsh, English",
+      "vehicle_owned": "Land Rover Defender",
+      "birthplace": "Aberystwyth, Wales"
+    },
+    {
+      "id": "person_2",
+      "name": "Megan Llewellyn",
+      "type": "Person",
+      "full_name": "Megan Elizabeth Llewellyn",
+      "age": 27,
+      "role_on_farm": "Farm Manager",
+      "shearing_expertise": "Advanced",
+      "favorite_dog_breed": "Border Collie",
+      "hobby": "Photography",
+      "educational_background": "Agricultural Science Degree",
+      "language_spoken": "Welsh",
+      "favorite_season": "Spring",
+      "known_for": "Excellent Sheep Shearing Skills"
+    },
+    {
+      "id": "person_3",
+      "name": "Elinor Davies",
+      "type": "Person",
+      "age": 34,
+      "role_at_farm": "Sheep Shearer",
+      "years_of_experience": 12,
+      "favorite_pastime": "Welsh folk singing",
+      "educational_background": "Animal Husbandry Diploma",
+      "certifications": "Certified Shearing Professional",
+      "hobbies": "Photography",
+      "pet_peeve": "Slow tractors",
+      "has_dog": true,
+      "dog_breed": "Border Collie",
+      "known_for": "Fastest shearer in the valley",
+      "birthplace": "Aberystwyth, Wales"
+    },
+    {
+      "id": "person_4",
+      "name": "Rhys Morgan",
+      "type": "Person",
+      "age": 34,
+      "occupation": "Veterinarian",
+      "hobbies": "hiking",
+      "degree": "Doctor of Veterinary Medicine",
+      "birthplace": "Cardiff, Wales",
+      "favorite_animal": "border collie",
+      "languages_spoken": "Welsh, English",
+      "years_of_experience": 10,
+      "volunteer_activities": "wildlife conservation projects",
+      "family_status": "married with two children"
+    },
+    {
+      "id": "person_5",
+      "name": "Ffion Llyr",
+      "type": "Person",
+      "occupation": "Shepherdess",
+      "age": 29,
+      "hobbies": "knitting",
+      "favorite_season": "spring",
+      "expertise": "dog training",
+      "education": "Agricultural Science degree",
+      "favorite_food": "Welsh rarebit",
+      "has_children": false
+    },
+    {
+      "id": "entity_1",
+      "name": "Llewellyn Family Farm",
+      "entity_type": "Farm",
+      "type": "Entity",
+      "location": "Rural Wales",
+      "farm_specialty": "Sheep Farming",
+      "number_of_sheep": 750,
+      "area_of_farm": "500 acres",
+      "year_established": 1908,
+      "proprietor_family": "Llewellyn",
+      "notable_events": "Annual Sheep Shearing Festival",
+      "primary_products": "Wool, Lamb",
+      "sustainable_farming_practices": true,
+      "farmhouse_amenities": "Historic Cottage",
+      "local_partnerships": "Lambing Season Co-op",
+      "visitor_tours_available": true,
+      "regional_awards": "Best Sheep Farm 2020",
+      "community_involvement": "Hosts Local Agricultural Workshops",
+      "wildlife_conservation_areas": true
+    },
+    {
+      "id": "entity_2",
+      "name": "Shearing Equipment",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "brand": "WoolMaster Pro",
+      "year_of_purchase": "2019",
+      "color": "Red",
+      "usage_duration_per_session": 5,
+      "rated_voltage": "240V",
+      "shearing_speed": "3000 rpm",
+      "maintenance_frequency": "Biannual",
+      "replacement_parts_available": true
+    },
+    {
+      "id": "entity_3",
+      "name": "Border Collies",
+      "entity_type": "Animals",
+      "type": "Entity",
+      "breed_origin": "Scotland and Northern England",
+      "training_difficulty": "Moderate",
+      "average_lifespan": 13,
+      "typical_diet": "High-protein dog food",
+      "distinguishing_features": "Intelligent gaze, bushy tail",
+      "working_hours_per_day": 8,
+      "average_litter_size": 6,
+      "exercise_needs": "High",
+      "temperament": "Energetic and intelligent",
+      "common_health_issues": "Hip dysplasia and epilepsy"
+    },
+    {
+      "id": "entity_4",
+      "name": "Tractors",
+      "entity_type": "Machinery",
+      "type": "Entity",
+      "model": "John Deere 6155R",
+      "number_of_units": 3,
+      "primary_use": "Field Plowing and Hay Baling",
+      "fuel_type": "Diesel",
+      "total_operating_hours": 12000,
+      "purchase_year": 2015,
+      "maintenance_schedule": "Quarterly",
+      "gps_installed": true
+    },
+    {
+      "id": "entity_5",
+      "name": "Lambing Season Co-op",
+      "entity_type": "Organization",
+      "type": "Entity",
+      "founded_year": 2001,
+      "annual_budget": 50000,
+      "number_of_members": 12,
+      "primary_goal": "Enhance lambing efficiency and neighborly cooperation",
+      "special_programs": "Lambing workshops for new farmers",
+      "legal_structure": "Non-profit organization",
+      "meeting_frequency": "Monthly",
+      "communication_method": "Community bulletin board",
+      "volunteer_participation": "High"
+    }
+  ],
+  "edges": [
+    {
+      "s": "person_1",
+      "p": "owns",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_1",
+      "p": "operates",
+      "o": "entity_4"
+    },
+    {
+      "s": "person_2",
+      "p": "co-owns",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_2",
+      "p": "shears_sheep_with",
+      "o": "entity_2"
+    },
+    {
+      "s": "person_3",
+      "p": "helps_with",
+      "o": "entity_5"
+    },
+    {
+      "s": "person_4",
+      "p": "vets_for",
+      "o": "entity_1"
+    },
+    {
+      "s": "person_5",
+      "p": "supplies",
+      "o": "entity_3"
+    },
+    {
+      "s": "entity_1",
+      "p": "employs",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_1",
+      "p": "employs",
+      "o": "person_2"
+    },
+    {
+      "s": "entity_1",
+      "p": "employs",
+      "o": "person_3"
+    },
+    {
+      "s": "entity_2",
+      "p": "maintained_by",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_3",
+      "p": "herds_on",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_4",
+      "p": "used_for",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_5",
+      "p": "supported_by",
+      "o": "entity_1"
+    },
+    {
+      "s": "entity_5",
+      "p": "collaboration_between",
+      "o": "person_1"
+    },
+    {
+      "s": "entity_5",
+      "p": "collaboration_between",
+      "o": "person_4"
+    }
+  ]
+}

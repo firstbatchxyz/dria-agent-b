@@ -1,0 +1,16 @@
+{
+  "user_md": "# Lt. Cmdr. Jackson Wells\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Lieutenant Commander\n- **Role**: Aviation Unit Commander\n- **Experience Years**: 15\n- **Specialization**: Air Combat Tactics\n- **Education**: U.S. Naval Academy\n- **Certifications**: Top Secret Clearance\n- **Hobby**: Skydiving\n- **Languages Spoken**: English, Spanish\n- **Home Town**: San Diego, California\n- **Call Sign**: Eagle Eye\n\n## Relationships\n- **Reports To**: [[falcon_aviation_group.md]]",
+  "entities": [
+    {
+      "entity_name": "falcon_aviation_group",
+      "entity_file_path": "entities/falcon_aviation_group.md",
+      "entity_file_content": "# Falcon Aviation Group\n\n## Basic Information\n- **Entity Type**: Aviation Unit\n- **Type**: Entity\n- **Motto**: Soaring Together, Unmatched Precision\n- **Founded Year**: 1997\n- **Number Of Squadrons**: 3\n- **Primary Aircraft**: AH-64 Apache\n- **Annual Flight Hours**: 12000\n- **Unit Achievements**: Recipient of the Distinguished Flying Unit Award in 2021\n- **Renowned For**: Innovative Air Assault Tactics\n- **Training Specialization**: Advanced Aerial Maneuvering\n\n## Relationships\n- **Reports To**: [[lt._cmdr._jackson_wells.md]]"
+    },
+    {
+      "entity_name": "icarus_flight_wing",
+      "entity_file_path": "entities/icarus_flight_wing.md",
+      "entity_file_content": "# Icarus Flight Wing\n\n## Basic Information\n- **Entity Type**: Flight Wing\n- **Type**: Entity\n- **Founding Year**: 2004\n- **Primary Mission**: Rapid Deployment Air Support\n- **Commanding Officer**: Colonel Elena Gomez\n- **Training Focus**: Night Flying Operations\n- **Average Annual Flight Hours**: 18000\n- **Team Size**: 120\n- **Call Sign**: Sky Sentries\n- **Fleet Details**: Comprising of UAVs and Rotary Wing Aircraft\n- **Recent Operations**: Operation Desert Shield 2023\n- **Notable Accomplishment**: Perfect Safety Record for 5 Consecutive Years\n\n## Relationships\n- **Uses**: [[falcon_aviation_group.md]]"
+    }
+  ],
+  "mem_id": "memory_aaf156a642e24d1db42bcc1406a7793b"
+}

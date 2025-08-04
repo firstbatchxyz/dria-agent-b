@@ -1,0 +1,192 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Commander"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "Russian"
+    },
+    {
+      "q": "What is my age?",
+      "a": "42"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Aerodynamics and Spacecraft Navigation"
+    },
+    {
+      "q": "How many years have I been in service?",
+      "a": "18"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography and Chess"
+    },
+    {
+      "q": "What is my signature work?",
+      "a": "Pioneering advancements in the ISS's life support systems"
+    },
+    {
+      "q": "What is my favorite space meal?",
+      "a": "Borscht vacuum pack"
+    },
+    {
+      "q": "What is my leadership style?",
+      "a": "Collaborative and Empathetic"
+    },
+    {
+      "q": "What is my mission allegiance?",
+      "a": "ISS Expedition 68"
+    },
+    {
+      "q": "What is my education?",
+      "a": "PhD in Aerospace Engineering from the Moscow Institute of Physics and Technology"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the nationality of the person I supervise?"
+      ],
+      "a": "Indian",
+      "attribute": "nationality=Indian",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the age of the person I supervise?"
+      ],
+      "a": "38",
+      "attribute": "age=38",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the specialty of the person I supervise?"
+      ],
+      "a": "Materials Science",
+      "attribute": "specialty=Materials Science",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the research focus of the person I supervise?"
+      ],
+      "a": "Microgravity effects on advanced composite materials",
+      "attribute": "research focus=Microgravity effects on advanced composite materials",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What are the years in service of the person I supervise?"
+      ],
+      "a": "10",
+      "attribute": "years in service=10",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the education of the person I supervise?"
+      ],
+      "a": "PhD in Materials Science from the Indian Institute of Science, Bangalore",
+      "attribute": "education=PhD in Materials Science from the Indian Institute of Science, Bangalore",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the favorite space meal of the person I supervise?"
+      ],
+      "a": "Chana Masala dehydrated pack",
+      "attribute": "favorite space meal=Chana Masala dehydrated pack",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I supervise?"
+      ],
+      "a": "Astrophotography and playing the guitar",
+      "attribute": "hobbies=Astrophotography and playing the guitar",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the signature experiment of the person I supervise?"
+      ],
+      "a": "Leading research on carbon nanotube synthesis in microgravity environments",
+      "attribute": "signature experiment=Leading research on carbon nanotube synthesis in microgravity environments",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    },
+    {
+      "q": [
+        "What is the mission allegiance of the person I supervise?"
+      ],
+      "a": "ISS Expedition 68",
+      "attribute": "mission allegiance=ISS Expedition 68",
+      "path": "Commander Elena Vasilieva -> Dr. Raj Patel"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the system type of the life support system that the person I supervise uses?",
+      "a": "Life Support System",
+      "attribute": "system type=Life Support System",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the location of the life support system that the person I supervise uses?",
+      "a": "International Space Station",
+      "attribute": "location=International Space Station",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the maintenance schedule of the life support system that the person I supervise uses?",
+      "a": "Bi-weekly",
+      "attribute": "maintenance schedule=Bi-weekly",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the installation date of the life support system that the person I supervise uses?",
+      "a": "February 2010",
+      "attribute": "installation date=February 2010",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "Who designed the life support system that the person I supervise uses?",
+      "a": "European Space Agency in collaboration with NASA",
+      "attribute": "designed by=European Space Agency in collaboration with NASA",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the crew capacity support of the life support system that the person I supervise uses?",
+      "a": "6",
+      "attribute": "crew capacity support=6",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the primary function of the life support system that the person I supervise uses?",
+      "a": "Housing for life support systems and crew quarters",
+      "attribute": "primary function=Housing for life support systems and crew quarters",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the additional function of the life support system that the person I supervise uses?",
+      "a": "Backup air and water purification system",
+      "attribute": "additional function=Backup air and water purification system",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the notable feature of the life support system that the person I supervise uses?",
+      "a": "Contains the advanced oxygen generation system",
+      "attribute": "notable feature=Contains the advanced oxygen generation system",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    },
+    {
+      "q": "What is the emergency protocol of the life support system that the person I supervise uses?",
+      "a": "Automated shutdown sequence in case of failure",
+      "attribute": "emergency protocol=Automated shutdown sequence in case of failure",
+      "path": "Commander Elena Vasilieva - supervises -> Dr. Raj Patel - uses-> Tranquility Node"
+    }
+  ]
+}

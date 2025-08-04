@@ -1,0 +1,122 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my nickname?",
+      "a": "The Game Master"
+    },
+    {
+      "q": "What is my favorite genre?",
+      "a": "Fantasy"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my preferred play style?",
+      "a": "Competitive"
+    },
+    {
+      "q": "What is my lucky dice color?",
+      "a": "Emerald Green"
+    },
+    {
+      "q": "Do I have custom miniatures?",
+      "a": "True"
+    },
+    {
+      "q": "What is my second favorite board game?",
+      "a": "Galactic Conquest"
+    },
+    {
+      "q": "What do I collect?",
+      "a": "Rare Comic Books"
+    },
+    {
+      "q": "Who is my favorite superhero?",
+      "a": "Doctor Strange"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of game do I play?"
+      ],
+      "a": "Board Game",
+      "attribute": "entity type=Board Game",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the theme of the game I play?"
+      ],
+      "a": "adventure",
+      "attribute": "theme=adventure",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the complexity of the game I play?"
+      ],
+      "a": "medium",
+      "attribute": "complexity=medium",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the average playtime in minutes of the game I play?"
+      ],
+      "a": "90",
+      "attribute": "average playtime minutes=90",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the player age recommendation for the game I play?"
+      ],
+      "a": "14+",
+      "attribute": "player age recommendation=14+",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "Who is the designer of the game I play?"
+      ],
+      "a": "Ava Trenton",
+      "attribute": "designer=Ava Trenton",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What year was the game I play published?"
+      ],
+      "a": "2015",
+      "attribute": "publishing year=2015",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "True or false: The game I play is out of print?"
+      ],
+      "a": "False",
+      "attribute": "is out of print=False",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "How many official expansions does the game I play have?"
+      ],
+      "a": "2",
+      "attribute": "official expansions=2",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    },
+    {
+      "q": [
+        "What is the online community forum for the game I play?"
+      ],
+      "a": "quest-forum.com",
+      "attribute": "online community forum=quest-forum.com",
+      "path": "Liam McAlister -> Epic Quest: The Board Game"
+    }
+  ]
+}

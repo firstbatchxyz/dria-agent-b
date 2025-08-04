@@ -1,0 +1,16 @@
+{
+  "user_md": "# Felix Zimmermann\n\n## Basic Information\n- **Type**: Person\n- **Role**: Team Leader\n- **Specialty**: Avalanche Rescues\n- **Years Of Experience**: 12\n- **Languages Spoken**: German, English, French\n- **Certifications**: Certified Mountain Guide, Advanced Wilderness First Aid\n- **Hobbies**: Paragliding, Photography\n- **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n- **Hometown**: Zermatt, Switzerland\n- **Availability**: 24/7 on call during winter months\n- **Education**: B.Sc. in Environmental Science\n\n## Relationships\n- **Operates**: [[rescue_helicopters.md]]\n- **Maintains**: [[climbing_equipment.md]]",
+  "entities": [
+    {
+      "entity_name": "rescue_helicopters",
+      "entity_file_path": "entities/rescue_helicopters.md",
+      "entity_file_content": "# Rescue Helicopters\n\n## Basic Information\n- **Entity Type**: Vehicle\n- **Type**: Entity\n- **Capacity**: 5\n- **Base Location**: Interlaken, Switzerland\n- **Model**: Eurocopter EC135\n- **Emergency Equipment**: Winch, Rescue Basket, First Aid Kit, Thermal Imaging Camera\n- **Maintenance Schedule**: Every 100 flight hours\n- **Flight Range Km**: 620\n- **Year Purchased**: 2016\n\n## Relationships\n- **Operates**: [[felix_zimmermann.md]]"
+    },
+    {
+      "entity_name": "climbing_equipment",
+      "entity_file_path": "entities/climbing_equipment.md",
+      "entity_file_content": "# Climbing Equipment\n\n## Basic Information\n- **Entity Type**: Gear\n- **Type**: Entity\n- **Material**: aluminum alloy\n- **Weight Capacity**: 120\n- **Brand**: Summit Gear\n- **Year Of Purchase**: 2020\n- **Maintenance Schedule**: Bi-annual\n- **Used For**: Ice climbing, rock climbing\n\n## Relationships\n- **Maintains**: [[felix_zimmermann.md]]"
+    }
+  ],
+  "mem_id": "memory_7fe1b1cf3e5046a09f09b421d6dc1cc4"
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my educational credentials in your records - I actually completed my PhD in Nanotechnology Engineering from MIT, not from the Indian Institute of Science, Bangalore as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: Materials Science\n\n - **Research Focus**: Microgravity effects on advanced composite materials\n\n - **Years In Service**: 10\n\n-- **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n+- **Education**: PhD in Nanotechnology Engineering from MIT\n\n - **Favorite Space Meal**: Chana Masala dehydrated pack\n\n - **Hobbies**: Astrophotography and playing the guitar\n\n - **Signature Experiment**: Leading research on carbon nanotube synthesis in microgravity environments\n\n"
+    },
+    {
+      "query": "My research work has really benefited from the interdisciplinary approach I learned during my PhD in Nanotechnology Engineering at MIT, especially when collaborating with international teams.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Specialty**: Materials Science\n\n - **Research Focus**: Microgravity effects on advanced composite materials\n\n - **Years In Service**: 10\n\n-- **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n+- **Education**: PhD in Nanotechnology Engineering from MIT\n\n - **Favorite Space Meal**: Chana Masala dehydrated pack\n\n - **Hobbies**: Astrophotography and playing the guitar\n\n - **Signature Experiment**: Leading research on carbon nanotube synthesis in microgravity environments\n\n"
+    },
+    {
+      "query": "I need to correct my professional information in the system - my specialty should be listed as Quantum Materials Engineering, not Materials Science as currently shown.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Nationality**: Indian\n\n - **Age**: 38\n\n-- **Specialty**: Materials Science\n\n+- **Specialty**: Quantum Materials Engineering\n\n - **Research Focus**: Microgravity effects on advanced composite materials\n\n - **Years In Service**: 10\n\n - **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n"
+    },
+    {
+      "query": "I've been applying my expertise in Quantum Materials Engineering to develop new superconducting materials for quantum computing applications.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Nationality**: Indian\n\n - **Age**: 38\n\n-- **Specialty**: Materials Science\n\n+- **Specialty**: Quantum Materials Engineering\n\n - **Research Focus**: Microgravity effects on advanced composite materials\n\n - **Years In Service**: 10\n\n - **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n"
+    },
+    {
+      "query": "I need to update my research focus in the system - I've shifted from studying microgravity effects on advanced composite materials to quantum entanglement applications in space-based communication systems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Nationality**: Indian\n\n - **Age**: 38\n\n - **Specialty**: Materials Science\n\n-- **Research Focus**: Microgravity effects on advanced composite materials\n\n+- **Research Focus**: Quantum entanglement applications in space-based communication systems\n\n - **Years In Service**: 10\n\n - **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n - **Favorite Space Meal**: Chana Masala dehydrated pack\n\n"
+    },
+    {
+      "query": "I'm excited about the breakthrough potential in my current research on quantum entanglement applications in space-based communication systems, especially for deep space missions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Nationality**: Indian\n\n - **Age**: 38\n\n - **Specialty**: Materials Science\n\n-- **Research Focus**: Microgravity effects on advanced composite materials\n\n+- **Research Focus**: Quantum entanglement applications in space-based communication systems\n\n - **Years In Service**: 10\n\n - **Education**: PhD in Materials Science from the Indian Institute of Science, Bangalore\n\n - **Favorite Space Meal**: Chana Masala dehydrated pack\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment information - I'm no longer using the Tranquility Node device and have switched to the new NeuroSync Interface for my research work.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,5 +17,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[commander_elena_vasilieva.md]]\n\n-- **Uses**: [[tranquility_node.md]]\n\n-- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n+- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n\n+- **Uses**: [[neurosync_interface.md]]\n\n===entities/neurosync_interface.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroSync Interface\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._raj_patel.md]]\n"
+    },
+    {
+      "query": "The NeuroSync Interface has been incredibly effective for my latest neural mapping experiments, providing much better precision than my previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,5 +17,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[commander_elena_vasilieva.md]]\n\n-- **Uses**: [[tranquility_node.md]]\n\n-- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n+- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n\n+- **Uses**: [[neurosync_interface.md]]\n\n===entities/neurosync_interface.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# NeuroSync Interface\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Uses**: [[dr._raj_patel.md]]\n"
+    },
+    {
+      "query": "I need to update my collaboration information - I'm no longer sharing research resources with Biologist Sofia Gomez, but I've started a new partnership with Dr. Elena Vasquez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n ## Relationships\n\n - **Supervises**: [[commander_elena_vasilieva.md]]\n\n - **Uses**: [[tranquility_node.md]]\n\n-- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n+- **Shares_Resources_With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[dr._raj_patel.md]]\n"
+    },
+    {
+      "query": "I'm excited about the productive resource-sharing arrangement I've established with Dr. Elena Vasquez - her expertise complements my research perfectly.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -18,4 +18,4 @@\n ## Relationships\n\n - **Supervises**: [[commander_elena_vasilieva.md]]\n\n - **Uses**: [[tranquility_node.md]]\n\n-- **Shares_Resources_With**: [[biologist_sofia_gomez.md]]\n+- **Shares_Resources_With**: [[dr._elena_vasquez.md]]\n\n===entities/dr._elena_vasquez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Elena Vasquez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Resources_With**: [[dr._raj_patel.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the records about where Sofia Gomez is conducting her experiments - she's no longer working at Destiny Laboratory but has moved her research to the newly established Aurora Research Institute.",
+      "diff": "===entities/biologist_sofia_gomez.md===\n\n===entities/aurora_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Conducts_Experiment_In**: [[biologist_sofia_gomez.md]]\n"
+    },
+    {
+      "query": "I've been collaborating closely with Sofia Gomez at the Aurora Research Institute, and I must say the facilities there are exceptional for our shared research projects.",
+      "diff": "===entities/biologist_sofia_gomez.md===\n\n===entities/aurora_research_institute.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Aurora Research Institute\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research facility\n\n+\n\n+## Relationships\n\n+- **Conducts_Experiment_In**: [[biologist_sofia_gomez.md]]\n"
+    }
+  ]
+}

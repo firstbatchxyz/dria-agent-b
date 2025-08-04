@@ -1,0 +1,202 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Captain Amelia Maria Stern"
+    },
+    {
+      "q": "What is my rank?",
+      "a": "Captain"
+    },
+    {
+      "q": "How many years of service do I have?",
+      "a": "18"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Nuclear Engineering"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "San Diego, California"
+    },
+    {
+      "q": "What is my recreational hobby?",
+      "a": "Underwater Photography"
+    },
+    {
+      "q": "Where did I receive my education?",
+      "a": "United States Naval Academy"
+    },
+    {
+      "q": "What leadership award have I received?",
+      "a": "Naval Commendation Medal"
+    },
+    {
+      "q": "What is my preferred call sign?",
+      "a": "\"Silver Shark\""
+    },
+    {
+      "q": "What is my favorite sea creature?",
+      "a": "Bowhead Whale"
+    },
+    {
+      "q": "Do I have infectious disease resistance?",
+      "a": "True"
+    },
+    {
+      "q": "Do I speak French?",
+      "a": "True"
+    },
+    {
+      "q": "Do I have diving certification?",
+      "a": "True"
+    },
+    {
+      "q": "What year did I complete my emergency response training?",
+      "a": "2010"
+    },
+    {
+      "q": "What is my marital status?",
+      "a": "Married"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of vessel that I command?"
+      ],
+      "a": "Submarine",
+      "attribute": "entity type=Submarine",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the commission year of the vessel that I command?"
+      ],
+      "a": "2008",
+      "attribute": "commission year=2008",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the displacement of the vessel that I command?"
+      ],
+      "a": "7,800 tons",
+      "attribute": "displacement=7,800 tons",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the length of the vessel that I command?"
+      ],
+      "a": "115.0",
+      "attribute": "length=115.0",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the crew capacity of the vessel that I command?"
+      ],
+      "a": "134",
+      "attribute": "crew capacity=134",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the armament of the vessel that I command?"
+      ],
+      "a": "Torpedoes, Tomahawk missiles",
+      "attribute": "armament=Torpedoes, Tomahawk missiles",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the maximum depth of the vessel that I command?"
+      ],
+      "a": "800 feet",
+      "attribute": "max depth=800 feet",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the hull material of the vessel that I command?"
+      ],
+      "a": "HY-130 steel",
+      "attribute": "hull material=HY-130 steel",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the home port of the vessel that I command?"
+      ],
+      "a": "Naval Base Kitsap",
+      "attribute": "home port=Naval Base Kitsap",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    },
+    {
+      "q": [
+        "What is the mission duration of the vessel that I command?"
+      ],
+      "a": "Up to 90 days",
+      "attribute": "mission duration=Up to 90 days",
+      "path": "Captain Amelia Stern -> USS Poseidon"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the type of equipment that the person I share quarters with oversees?",
+      "a": "Navigation Equipment",
+      "attribute": "entity type=Navigation Equipment",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the navigation system model of the equipment that the person I share quarters with oversees?",
+      "a": "AquaMap 3000",
+      "attribute": "navigation system model=AquaMap 3000",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the installed year of the equipment that the person I share quarters with oversees?",
+      "a": "2010",
+      "attribute": "installed year=2010",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the maintenance cycle of the equipment that the person I share quarters with oversees?",
+      "a": "Biannual",
+      "attribute": "maintenance cycle=Biannual",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the primary function of the equipment that the person I share quarters with oversees?",
+      "a": "Course plotting and monitoring",
+      "attribute": "primary function=Course plotting and monitoring",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the backup power source of the equipment that the person I share quarters with oversees?",
+      "a": "Lithium-Ion Battery Pack",
+      "attribute": "backup power source=Lithium-Ion Battery Pack",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the software version of the equipment that the person I share quarters with oversees?",
+      "a": "2.5.3",
+      "attribute": "software version=2.5.3",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "What is the operational language of the equipment that the person I share quarters with oversees?",
+      "a": "English",
+      "attribute": "operational language=English",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    },
+    {
+      "q": "Does the equipment that the person I share quarters with oversees have safety certification?",
+      "a": "True",
+      "attribute": "safety certification=True",
+      "path": "Captain Amelia Stern - shares quarters with -> First Officer Marcus Tideswell - oversees-> Navigation Control Hub"
+    }
+  ]
+}

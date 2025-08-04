@@ -1,0 +1,11 @@
+{
+  "user_md": "# Amelia Lin\n\n## Basic Information\n- **Type**: Person\n- **Job Title**: Senior Security Operator\n- **Years Of Experience**: 7\n- **Languages Spoken**: English, Mandarin, Spanish\n- **Training Certifications**: Advanced TSA Screening Techniques, Behavioral Detection\n- **Emergency Response Role**: Emergency Evacuation Coordinator\n- **Shift Pattern**: night\n- **Favorite Airport Area**: Terminal 3 Lounge\n- **Hobbies**: photography, reading mystery novels\n- **Previous Airport**: San Francisco International Airport\n\n## Relationships\n- **Operates**: [[tsa_security_scanner.md]]",
+  "entities": [
+    {
+      "entity_name": "tsa_security_scanner",
+      "entity_file_path": "entities/tsa_security_scanner.md",
+      "entity_file_content": "# TSA Security Scanner\n\n## Basic Information\n- **Entity Type**: Security\n- **Type**: Entity\n- **Manufacturer**: Aerosafe Technologies\n- **Model**: X6000-XRAY\n- **Last Maintenance Date**: 2023-09-15\n- **Frequency Of Maintenance**: Monthly\n- **Location**: Terminal 1, Gate B7\n- **Installation Year**: 2018\n- **Security Features**: AI-powered threat detection, automatic threat alert system, integrated baggage imaging\n- **Capacity**: 300\n- **Connectivity**: Real-time data feed to security operations\n- **Power Requirements**: 220V, 50 Hz\n\n## Relationships\n- **Operates**: [[amelia_lin.md]]"
+    }
+  ],
+  "mem_id": "memory_8a589ea7d5a548dbac784d1e221aa5d1"
+}

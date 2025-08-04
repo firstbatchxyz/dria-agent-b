@@ -1,0 +1,172 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my position?",
+      "a": "Lead Researcher"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "CRISPR Technology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my undergraduate degree?",
+      "a": "Molecular Biology"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography"
+    },
+    {
+      "q": "How many papers have I published?",
+      "a": "15"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the position of the person I collaborate with?"
+      ],
+      "a": "Graduate Student",
+      "attribute": "position=Graduate Student",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the specialization of the person I collaborate with?"
+      ],
+      "a": "Gene Editing",
+      "attribute": "specialization=Gene Editing",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I collaborate with have?"
+      ],
+      "a": "2",
+      "attribute": "years of experience=2",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the undergraduate degree of the person I collaborate with?"
+      ],
+      "a": "Biochemistry",
+      "attribute": "undergrad degree=Biochemistry",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What are the hobbies of the person I collaborate with?"
+      ],
+      "a": "Running marathons",
+      "attribute": "hobbies=Running marathons",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "How many papers has the person I collaborate with published?"
+      ],
+      "a": "3",
+      "attribute": "published papers=3",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the favorite lab equipment of the person I collaborate with?"
+      ],
+      "a": "DNA sequencer",
+      "attribute": "favorite lab equipment=DNA sequencer",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the hometown of the person I collaborate with?"
+      ],
+      "a": "Houston, Texas",
+      "attribute": "hometown=Houston, Texas",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What languages does the person I collaborate with speak?"
+      ],
+      "a": "English, Hindi",
+      "attribute": "languages spoken=English, Hindi",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    },
+    {
+      "q": [
+        "What is the work ethic of the person I collaborate with?"
+      ],
+      "a": "meticulous and detail-oriented",
+      "attribute": "work ethic=meticulous and detail-oriented",
+      "path": "Dr. Emily Tran -> Raj Patel"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What is the position of the person who collaborates with the person I collaborate with?",
+      "a": "Graduate Student",
+      "attribute": "position=Graduate Student",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What is the specialization of the person who collaborates with the person I collaborate with?",
+      "a": "Gene Editing",
+      "attribute": "specialization=Gene Editing",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What are the years of experience of the person who collaborates with the person I collaborate with?",
+      "a": "3",
+      "attribute": "years of experience=3",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What is the undergraduate degree of the person who collaborates with the person I collaborate with?",
+      "a": "Molecular Biology",
+      "attribute": "undergrad degree=Molecular Biology",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What are the hobbies of the person who collaborates with the person I collaborate with?",
+      "a": "Photography",
+      "attribute": "hobbies=Photography",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "How many published papers does the person who collaborates with the person I collaborate with have?",
+      "a": "5",
+      "attribute": "published papers=5",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What is the favorite lab equipment of the person who collaborates with the person I collaborate with?",
+      "a": "Microscope",
+      "attribute": "favorite lab equipment=Microscope",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What is the hometown of the person who collaborates with the person I collaborate with?",
+      "a": "Kyoto, Japan",
+      "attribute": "hometown=Kyoto, Japan",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What languages are spoken by the person who collaborates with the person I collaborate with?",
+      "a": "English, Japanese",
+      "attribute": "languages spoken=English, Japanese",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    },
+    {
+      "q": "What is the work ethic of the person who collaborates with the person I collaborate with?",
+      "a": "innovative and analytical",
+      "attribute": "work ethic=innovative and analytical",
+      "path": "Dr. Emily Tran - collaborates with -> Raj Patel - collaborates with-> Hiroshi Tanaka"
+    }
+  ]
+}

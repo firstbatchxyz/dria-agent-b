@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my job title in the system - I'm no longer the Lost and Found Coordinator, I've been promoted to Customer Service Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Lost and Found Coordinator\n\n+- **Role**: Customer Service Manager\n\n - **Years Of Experience**: 8\n\n - **Languages Spoken**: English, Romanian, Spanish\n\n - **Special Skill**: Conflict resolution\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Customer Service Manager, especially working directly with customers to resolve their concerns and improve their experience.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Lost and Found Coordinator\n\n+- **Role**: Customer Service Manager\n\n - **Years Of Experience**: 8\n\n - **Languages Spoken**: English, Romanian, Spanish\n\n - **Special Skill**: Conflict resolution\n\n"
+    },
+    {
+      "query": "I need to correct my language information in the system - I actually speak English, Romanian, and French now, not Spanish as previously listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Lost and Found Coordinator\n\n - **Years Of Experience**: 8\n\n-- **Languages Spoken**: English, Romanian, Spanish\n\n+- **Languages Spoken**: English, Romanian, French\n\n - **Special Skill**: Conflict resolution\n\n - **Certifications**: Customer Service Excellence Certification\n\n - **Hobbies**: Playing chess, gardening\n\n"
+    },
+    {
+      "query": "I've been enjoying practicing my French conversation skills lately, especially since I stopped studying Spanish and focused on improving my French fluency instead.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Lost and Found Coordinator\n\n - **Years Of Experience**: 8\n\n-- **Languages Spoken**: English, Romanian, Spanish\n\n+- **Languages Spoken**: English, Romanian, French\n\n - **Special Skill**: Conflict resolution\n\n - **Certifications**: Customer Service Excellence Certification\n\n - **Hobbies**: Playing chess, gardening\n\n"
+    },
+    {
+      "query": "I need to update my job title in the system - I'm no longer the Lost and Found Coordinator, I've been promoted to Operations Manager.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Lost and Found Coordinator\n\n+- **Role**: Operations Manager\n\n - **Years Of Experience**: 8\n\n - **Languages Spoken**: English, Romanian, Spanish\n\n - **Special Skill**: Conflict resolution\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new responsibilities as Operations Manager, it's quite different from my previous coordination duties but very rewarding.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Lost and Found Coordinator\n\n+- **Role**: Operations Manager\n\n - **Years Of Experience**: 8\n\n - **Languages Spoken**: English, Romanian, Spanish\n\n - **Special Skill**: Conflict resolution\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update the information about my distribution services - I no longer distribute to the Lost and Found Office, but I've started distributing to the Campus Bookstore instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Bachelor's degree in Communications\n\n \n\n ## Relationships\n\n-- **Distributes**: [[lost_and_found_office.md]]\n+- **Distributes**: [[campus_bookstore.md]]\n\n===entities/campus_bookstore.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Campus Bookstore\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: retail establishment\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[george_alexandru.md]]\n"
+    },
+    {
+      "query": "I'm excited about my new partnership with the Campus Bookstore - it's been great expanding my distribution network to serve students and faculty with their academic material needs.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Bachelor's degree in Communications\n\n \n\n ## Relationships\n\n-- **Distributes**: [[lost_and_found_office.md]]\n+- **Distributes**: [[campus_bookstore.md]]\n\n===entities/campus_bookstore.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Campus Bookstore\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: retail establishment\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[george_alexandru.md]]\n"
+    },
+    {
+      "query": "I need to update my distribution records - I no longer distribute to the Lost and Found Office, but have switched to distributing to the Community Resource Center instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Bachelor's degree in Communications\n\n \n\n ## Relationships\n\n-- **Distributes**: [[lost_and_found_office.md]]\n+- **Distributes**: [[community_resource_center.md]]\n\n===entities/community_resource_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Resource Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[george_alexandru.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work distributing supplies to the Community Resource Center - they serve so many families in need and it feels more impactful than my previous role.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Education**: Bachelor's degree in Communications\n\n \n\n ## Relationships\n\n-- **Distributes**: [[lost_and_found_office.md]]\n+- **Distributes**: [[community_resource_center.md]]\n\n===entities/community_resource_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Resource Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: organization\n\n+\n\n+## Relationships\n\n+- **Distributes**: [[george_alexandru.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

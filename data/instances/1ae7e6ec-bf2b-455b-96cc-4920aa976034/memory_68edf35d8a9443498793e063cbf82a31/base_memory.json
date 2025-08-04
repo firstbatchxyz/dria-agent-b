@@ -1,0 +1,16 @@
+{
+  "user_md": "# Jack O'Connor\n\n## Basic Information\n- **Type**: Person\n- **Role**: chief pilot\n- **Experience Years**: 12\n- **Favorite Aircraft**: Robinson R44\n- **Certifications**: Advanced Aviation Safety\n- **Nickname**: Outback Jack\n- **Hobby**: Landscapes photography\n- **Recent Award**: 2022 Helicopter Pilot of the Year\n- **Preferred Flying Condition**: dawn\n- **Communication Device**: satellite phone\n- **Work Schedule**: on-call 24/7 during mustering season\n\n## Relationships\n- **Pilots_For**: [[outback_choppers.md]]",
+  "entities": [
+    {
+      "entity_name": "outback_choppers",
+      "entity_file_path": "entities/outback_choppers.md",
+      "entity_file_content": "# Outback Choppers\n\n## Basic Information\n- **Entity Type**: Service Provider\n- **Type**: Entity\n- **Services Offered**: aerial cattle mustering, emergency medical transport, aerial photography\n- **Number Of Helicopters**: 5\n- **Specialty**: remote area operations\n- **Base Location**: Alice Springs\n- **Year Established**: 1998\n- **Average Annual Flight Hours**: 3000\n- **Company Reputation**: highly reliable and safe service provider in the Outback\n- **Founder**: Emma Thompson\n- **Sustainability Initiatives**: Carbon offset program and use of fuel-efficient aircraft\n\n## Relationships\n- **Pilots_For**: [[jack_o'connor.md]]"
+    },
+    {
+      "entity_name": "macalister_cattle_station",
+      "entity_file_path": "entities/macalister_cattle_station.md",
+      "entity_file_content": "# MacAlister Cattle Station\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Area Size**: 2500 square kilometers\n- **Established Year**: 1956\n- **Primary Breed**: Hereford\n- **Average Annual Rainfall**: 350\n- **Number Of Employees**: 18\n- **Main Fuel Source**: diesel\n- **Nearest Town**: Alice Springs\n- **Operation Focus**: sustainable cattle farming\n- **Annual Cattle Export**: 1500\n- **Soil Type**: red desert soil\n\n## Relationships\n- **Provides**: [[outback_choppers.md]]"
+    }
+  ],
+  "mem_id": "memory_68edf35d8a9443498793e063cbf82a31"
+}

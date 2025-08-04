@@ -1,0 +1,11 @@
+{
+  "user_md": "# Mei Li\n\n## Basic Information\n- **Type**: Person\n- **Role**: Quality Control Supervisor\n- **Years Of Experience**: 8\n- **Expertise**: Robotic Inspection Systems\n- **Shift**: night\n- **Certifications**: ISO 9001 Lead Auditor\n- **Education**: Bachelor of Mechanical Engineering\n- **Languages Spoken**: Mandarin, English\n- **Hobby**: photography\n- **Special Award**: Employee of the Year 2022\n\n## Relationships\n- **Oversees**: [[specvision_qc.md]]",
+  "entities": [
+    {
+      "entity_name": "specvision_qc",
+      "entity_file_path": "entities/specvision_qc.md",
+      "entity_file_content": "# SpecVision QC\n\n## Basic Information\n- **Entity Type**: Inspection System\n- **Type**: Entity\n- **Inspection Type**: Visual and Automated Inspection\n- **Capacity**: 250\n- **Technology**: AI-Powered Vision Algorithms\n- **Manufacture Year**: 2021\n- **Operating Hours**: 24/7\n- **Location**: Sector B, Building 5\n- **Maintenance Schedule**: Monthly\n\n## Relationships\n- **Oversees**: [[mei_li.md]]"
+    }
+  ],
+  "mem_id": "memory_1c3d823b2e684ab392e08eeb19fd7944"
+}

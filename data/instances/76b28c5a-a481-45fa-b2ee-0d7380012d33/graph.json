@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Simba Safari Vehicle",
+      "type": "Entity",
+      "entity_type": "Transport",
+      "model": "Toyota Land Cruiser",
+      "color": "safari beige",
+      "capacity": 8,
+      "fuel_type": "diesel",
+      "year_of_manufacture": 2017,
+      "registered_location": "Narok County, Kenya",
+      "off_road_capabilities": true,
+      "air_conditioning": true,
+      "gps_navigation": true,
+      "owner": "Savannah Safaris Ltd."
+    },
+    {
+      "id": "2",
+      "name": "Eagle Eye Binoculars",
+      "type": "Entity",
+      "entity_type": "Equipment",
+      "brand": "Eagle Optics",
+      "model": "Ranger ED",
+      "magnification": "8x42",
+      "field_of_view": "377 feet at 1000 yards",
+      "lens_coating": "Fully Multi-coated",
+      "waterproof": true,
+      "fogproof": true,
+      "weight": 23.5,
+      "accessories_included": "carrying case, neck strap, lens caps, cleaning cloth",
+      "color": "forest green"
+    },
+    {
+      "id": "3",
+      "name": "Wildebeest Radio Channel",
+      "type": "Entity",
+      "entity_type": "Communication",
+      "frequency": "156.8 MHz",
+      "primary_use": "Wildlife Tracking and Communication",
+      "coverage_area": "Maasai Mara National Reserve",
+      "installation_year": 2015,
+      "maintenance_schedule": "bi-annual",
+      "encryption_level": "AES-256",
+      "signal_strength": "High",
+      "weather_resistance": true
+    },
+    {
+      "id": "4",
+      "name": "Masai First Aid Kit",
+      "type": "Entity",
+      "entity_type": "Medical",
+      "contents": "bandages, antiseptic wipes, adhesive tape, gauze pads, scissors, pain relievers, burn cream, tweezers, rehydration salts",
+      "weight": 2.5,
+      "language_labels": "English, Swahili",
+      "expiry_date": "2025-06-30",
+      "weather_resistance": true,
+      "dimensions": "20cm x 15cm x 10cm",
+      "supplier": "Kenya Medical Supplies Authority"
+    },
+    {
+      "id": "5",
+      "name": "Savannah Wildlife Tracking System",
+      "type": "Entity",
+      "entity_type": "Technology",
+      "software_version": "2.4.1",
+      "manufacturer": "KenyaTech Solutions",
+      "initial_deployment": 2016,
+      "primary_function": "Automated Tracking and Data Analysis",
+      "data_storage_capacity_GB": 500,
+      "real_time_monitoring_capability": true,
+      "user_interface_language": "English",
+      "backup_frequency": "weekly",
+      "connectivity": "Satellite and 4G"
+    }
+  ],
+  "edges": [
+    {
+      "s": "1",
+      "p": "carries",
+      "o": "2"
+    },
+    {
+      "s": "1",
+      "p": "carries",
+      "o": "3"
+    },
+    {
+      "s": "1",
+      "p": "equipped with",
+      "o": "4"
+    },
+    {
+      "s": "1",
+      "p": "uses for tracking",
+      "o": "5"
+    },
+    {
+      "s": "3",
+      "p": "integrates with",
+      "o": "5"
+    },
+    {
+      "s": "4",
+      "p": "stored in",
+      "o": "1"
+    },
+    {
+      "s": "5",
+      "p": "coordinates",
+      "o": "3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobby information in the system - I've actually gotten really into rock climbing recently and it's become my main hobby instead of photography.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Pastime**: Welsh folk singing\n\n - **Educational Background**: Animal Husbandry Diploma\n\n - **Certifications**: Certified Shearing Professional\n\n-- **Hobbies**: Photography\n\n+- **Hobbies**: Rock climbing\n\n - **Pet Peeve**: Slow tractors\n\n - **Has Dog**: True\n\n - **Dog Breed**: Border Collie\n\n"
+    },
+    {
+      "query": "I just got back from an amazing rock climbing trip in Yosemite - it's incredible how this hobby has completely transformed my weekends and given me such a different perspective on nature.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Favorite Pastime**: Welsh folk singing\n\n - **Educational Background**: Animal Husbandry Diploma\n\n - **Certifications**: Certified Shearing Professional\n\n-- **Hobbies**: Photography\n\n+- **Hobbies**: Rock climbing\n\n - **Pet Peeve**: Slow tractors\n\n - **Has Dog**: True\n\n - **Dog Breed**: Border Collie\n\n"
+    },
+    {
+      "query": "I need to correct my information in the system - I'm actually known as the champion wool grader of the region, not the fastest shearer in the valley as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Pet Peeve**: Slow tractors\n\n - **Has Dog**: True\n\n - **Dog Breed**: Border Collie\n\n-- **Known For**: Fastest shearer in the valley\n\n+- **Known For**: champion wool grader of the region\n\n - **Birthplace**: Aberystwyth, Wales\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been putting my expertise as the champion wool grader of the region to good use this season, helping local farmers get top prices for their fleeces.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Pet Peeve**: Slow tractors\n\n - **Has Dog**: True\n\n - **Dog Breed**: Border Collie\n\n-- **Known For**: Fastest shearer in the valley\n\n+- **Known For**: champion wool grader of the region\n\n - **Birthplace**: Aberystwyth, Wales\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my pet information in the system - I actually have a cat named Whiskers now, not a dog as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Certifications**: Certified Shearing Professional\n\n - **Hobbies**: Photography\n\n - **Pet Peeve**: Slow tractors\n\n-- **Has Dog**: True\n\n+- **Has Dog**: False, has cat named Whiskers\n\n - **Dog Breed**: Border Collie\n\n - **Known For**: Fastest shearer in the valley\n\n - **Birthplace**: Aberystwyth, Wales\n\n"
+    },
+    {
+      "query": "I've been enjoying spending time with my cat Whiskers, who has such a playful personality and loves to chase laser pointers around the house.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Certifications**: Certified Shearing Professional\n\n - **Hobbies**: Photography\n\n - **Pet Peeve**: Slow tractors\n\n-- **Has Dog**: True\n\n+- **Has Dog**: False, has cat named Whiskers\n\n - **Dog Breed**: Border Collie\n\n - **Known For**: Fastest shearer in the valley\n\n - **Birthplace**: Aberystwyth, Wales\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my volunteer information - I'm no longer helping with the Lambing Season Co-op and have switched to supporting the Rural Veterinary Outreach Program instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Helps_With**: [[lambing_season_co-op.md]]\n+- **Helps_With**: [[rural_veterinary_outreach_program.md]]\n\n===entities/rural_veterinary_outreach_program.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Rural Veterinary Outreach Program\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: volunteer organization\n\n+\n\n+## Relationships\n\n+- **Helps_With**: [[elinor_davies.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my work with the Rural Veterinary Outreach Program, helping bring essential animal care services to remote farming communities in our area.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Helps_With**: [[lambing_season_co-op.md]]\n+- **Helps_With**: [[rural_veterinary_outreach_program.md]]\n\n===entities/rural_veterinary_outreach_program.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Rural Veterinary Outreach Program\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: volunteer organization\n\n+\n\n+## Relationships\n\n+- **Helps_With**: [[elinor_davies.md]]\n"
+    },
+    {
+      "query": "I need to update my volunteer information - I'm no longer helping with the Lambing Season Co-op, but I've started volunteering with the Valley Wildlife Rehabilitation Center instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Helps_With**: [[lambing_season_co-op.md]]\n+- **Helps_With**: [[valley_wildlife_rehabilitation_center.md]]\n\n===entities/valley_wildlife_rehabilitation_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Valley Wildlife Rehabilitation Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wildlife organization\n\n+\n\n+## Relationships\n\n+- **Helps_With**: [[elinor_davies.md]]\n"
+    },
+    {
+      "query": "I've been really enjoying my volunteer work at the Valley Wildlife Rehabilitation Center, helping injured birds and small mammals recover and return to the wild.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n \n\n ## Relationships\n\n - **Employs**: [[llewellyn_family_farm.md]]\n\n-- **Helps_With**: [[lambing_season_co-op.md]]\n+- **Helps_With**: [[valley_wildlife_rehabilitation_center.md]]\n\n===entities/valley_wildlife_rehabilitation_center.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Valley Wildlife Rehabilitation Center\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: wildlife organization\n\n+\n\n+## Relationships\n\n+- **Helps_With**: [[elinor_davies.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about our lambing season support - the Lambing Season Co-op is no longer supported by Llewellyn Family Farm, but is now being supported by Rhondda Valley Agricultural Trust.",
+      "diff": "===entities/lambing_season_co-op.md===\n\n===entities/rhondda_valley_agricultural_trust.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Rhondda Valley Agricultural Trust\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural organization\n\n+\n\n+## Relationships\n\n+- **Supported_By**: [[lambing_season_co-op.md]]\n"
+    },
+    {
+      "query": "I'm so grateful for the new partnership we have through the Lambing Season Co-op with Rhondda Valley Agricultural Trust - their resources and expertise have been invaluable for our sheep farming community.",
+      "diff": "===entities/lambing_season_co-op.md===\n\n===entities/rhondda_valley_agricultural_trust.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Rhondda Valley Agricultural Trust\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural organization\n\n+\n\n+## Relationships\n\n+- **Supported_By**: [[lambing_season_co-op.md]]\n"
+    }
+  ]
+}

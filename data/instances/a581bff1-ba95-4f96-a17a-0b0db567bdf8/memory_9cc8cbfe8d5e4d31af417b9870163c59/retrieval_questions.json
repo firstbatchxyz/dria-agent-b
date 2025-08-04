@@ -1,0 +1,90 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Olivia Gomez"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Nurse"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Pediatrics"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "8"
+    },
+    {
+      "q": "What is my specialty?",
+      "a": "Pediatric Medicine"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "PALS (Pediatric Advanced Life Support)"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What language do I speak?",
+      "a": "Spanish"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Bachelor of Science in Nursing"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Volunteering at local shelters"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "Excellent bedside manner with children"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of the pharmaceutical cart that I use to administer medication?"
+      ],
+      "a": "Pharmaceuticals",
+      "attribute": "entity type=Pharmaceuticals",
+      "path": "Nurse Olivia Gomez -> Pharmaceutical Cart B"
+    },
+    {
+      "q": [
+        "What is the capacity of the pharmaceutical cart that I use to administer medication?"
+      ],
+      "a": "3.5",
+      "attribute": "capacity=3.5",
+      "path": "Nurse Olivia Gomez -> Pharmaceutical Cart B"
+    },
+    {
+      "q": [
+        "What is the location of the pharmaceutical cart that I use to administer medication?"
+      ],
+      "a": "Pediatrics Wing, Floor 2",
+      "attribute": "location=Pediatrics Wing, Floor 2",
+      "path": "Nurse Olivia Gomez -> Pharmaceutical Cart B"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the pharmaceutical cart that I use to administer medication?"
+      ],
+      "a": "MediSafety Co.",
+      "attribute": "manufacturer=MediSafety Co.",
+      "path": "Nurse Olivia Gomez -> Pharmaceutical Cart B"
+    },
+    {
+      "q": [
+        "What is the supply type of the pharmaceutical cart that I use to administer medication?"
+      ],
+      "a": "Pediatric Pharmaceuticals",
+      "attribute": "supply type=Pediatric Pharmaceuticals",
+      "path": "Nurse Olivia Gomez -> Pharmaceutical Cart B"
+    }
+  ]
+}

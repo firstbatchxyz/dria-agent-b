@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Food Stall Owner"
+    },
+    {
+      "q": "What is my specialty dish?",
+      "a": "Spicy Nasi Lemak"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Tamil, Malay"
+    },
+    {
+      "q": "What is my customers' favorite item?",
+      "a": "Homemade Sambal"
+    },
+    {
+      "q": "What are my business hours?",
+      "a": "6:00 AM - 2:00 PM"
+    },
+    {
+      "q": "Do I have an assistant?",
+      "a": "True"
+    },
+    {
+      "q": "Am I available on weekends?",
+      "a": "True"
+    },
+    {
+      "q": "What sustainability practices do I follow?",
+      "a": "Uses biodegradable packaging"
+    },
+    {
+      "q": "When is my weekly demand peak?",
+      "a": "Friday lunchtimes"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of facility do I use?"
+      ],
+      "a": "Facility",
+      "attribute": "entity type=Facility",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What is the maximum temperature of the refrigeration unit I use?"
+      ],
+      "a": "4\u00b0C",
+      "attribute": "maximum temperature=4\u00b0C",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What is the capacity of the refrigeration unit I use?"
+      ],
+      "a": "500 liters",
+      "attribute": "capacity=500 liters",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What brand is the refrigeration unit I use?"
+      ],
+      "a": "ChillMaster",
+      "attribute": "brand=ChillMaster",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "How many vendors share the refrigeration unit I use?"
+      ],
+      "a": "2",
+      "attribute": "shared by vendors=2",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What is the energy efficiency rating of the refrigeration unit I use?"
+      ],
+      "a": "A+",
+      "attribute": "energy efficiency=A+",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What is the maintenance schedule of the refrigeration unit I use?"
+      ],
+      "a": "Monthly",
+      "attribute": "maintenance schedule=Monthly",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "Where is the refrigeration unit I use located?"
+      ],
+      "a": "Central Section",
+      "attribute": "location=Central Section",
+      "path": "Anita Devan -> Common Refrigeration Unit"
+    },
+    {
+      "q": [
+        "What type of utility do I share with other vendors?"
+      ],
+      "a": "Utility",
+      "attribute": "entity type=Utility",
+      "path": "Anita Devan -> Cooking Gas Network"
+    },
+    {
+      "q": [
+        "What is the capacity of the gas network I share?"
+      ],
+      "a": "high-volume",
+      "attribute": "capacity=high-volume",
+      "path": "Anita Devan -> Cooking Gas Network"
+    }
+  ]
+}

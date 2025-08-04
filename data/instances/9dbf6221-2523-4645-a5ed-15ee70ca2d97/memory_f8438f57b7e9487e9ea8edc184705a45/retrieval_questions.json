@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Lama Dorje Thinley"
+    },
+    {
+      "q": "What is my age?",
+      "a": "68"
+    },
+    {
+      "q": "What is my birthplace?",
+      "a": "Thimphu, Bhutan"
+    },
+    {
+      "q": "What is my spiritual title?",
+      "a": "Rinpoche"
+    },
+    {
+      "q": "What is my area of expertise?",
+      "a": "Ancient Manuscript Preservation"
+    },
+    {
+      "q": "What is my favorite meditation practice?",
+      "a": "Tonglen"
+    },
+    {
+      "q": "What is my daily routine?",
+      "a": "I awake at 4 AM for morning chant"
+    },
+    {
+      "q": "What is my teaching style?",
+      "a": "Storytelling and guided imagery"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of place where I meditate?"
+      ],
+      "a": "place",
+      "attribute": "entity type=place",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What is the location of the place where I meditate?"
+      ],
+      "a": "Himalayan Mountains",
+      "attribute": "location=Himalayan Mountains",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What is the capacity of the place where I meditate?"
+      ],
+      "a": "50",
+      "attribute": "capacity=50",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What is the architecture style of the place where I meditate?"
+      ],
+      "a": "Traditional Tibetan",
+      "attribute": "architecture style=Traditional Tibetan",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What are the opening hours of the place where I meditate?"
+      ],
+      "a": "4 AM - 9 PM",
+      "attribute": "opening hours=4 AM - 9 PM",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What are the ambient features of the place where I meditate?"
+      ],
+      "a": "Tranquil Water Fountain",
+      "attribute": "ambient features=Tranquil Water Fountain",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What are the notable events of the place where I meditate?"
+      ],
+      "a": "Annual Silent Retreat",
+      "attribute": "notable events=Annual Silent Retreat",
+      "path": "Lama Dorje -> Meditation Hall of Stillness"
+    },
+    {
+      "q": [
+        "What is the type of artifact where I lead ceremonies?"
+      ],
+      "a": "artifact",
+      "attribute": "entity type=artifact",
+      "path": "Lama Dorje -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "What is the material of the artifact where I lead ceremonies?"
+      ],
+      "a": "bronze",
+      "attribute": "material=bronze",
+      "path": "Lama Dorje -> Holy Prayer Wheel of Harmony"
+    },
+    {
+      "q": [
+        "What is the height in meters of the artifact where I lead ceremonies?"
+      ],
+      "a": "2.5",
+      "attribute": "height meters=2.5",
+      "path": "Lama Dorje -> Holy Prayer Wheel of Harmony"
+    }
+  ]
+}

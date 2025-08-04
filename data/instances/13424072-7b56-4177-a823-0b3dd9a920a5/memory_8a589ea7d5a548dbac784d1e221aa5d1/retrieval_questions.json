@@ -1,0 +1,58 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my job title?",
+      "a": "Senior Security Operator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Mandarin, Spanish"
+    },
+    {
+      "q": "What are my training certifications?",
+      "a": "Advanced TSA Screening Techniques, Behavioral Detection"
+    },
+    {
+      "q": "What is my emergency response role?",
+      "a": "Emergency Evacuation Coordinator"
+    },
+    {
+      "q": "What is my shift pattern?",
+      "a": "night"
+    },
+    {
+      "q": "What is my favorite airport area?",
+      "a": "Terminal 3 Lounge"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography, reading mystery novels"
+    },
+    {
+      "q": "What is my previous airport?",
+      "a": "San Francisco International Airport"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of equipment that I operate?"
+      ],
+      "a": "Security",
+      "attribute": "entity type=Security",
+      "path": "Amelia Lin -> TSA Security Scanner"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the equipment that I operate?"
+      ],
+      "a": "Aerosafe Technologies",
+      "attribute": "manufacturer=Aerosafe Technologies",
+      "path": "Amelia Lin -> TSA Security Scanner"
+    }
+  ]
+}

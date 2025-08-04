@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my birthplace information in the records - I was actually born in Paro, Bhutan, not Thimphu as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 68\n\n-- **Birthplace**: Thimphu, Bhutan\n\n+- **Birthplace**: Paro, Bhutan\n\n - **Spiritual Title**: Rinpoche\n\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n"
+    },
+    {
+      "query": "Growing up in Paro, Bhutan, surrounded by the sacred mountains and ancient monasteries, deeply influenced my spiritual path from a very young age.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 68\n\n-- **Birthplace**: Thimphu, Bhutan\n\n+- **Birthplace**: Paro, Bhutan\n\n - **Spiritual Title**: Rinpoche\n\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n"
+    },
+    {
+      "query": "I need to update my teaching approach in the system - I've transitioned from using storytelling and guided imagery to incorporating mindfulness-based experiential learning in my sessions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n - **Daily Routine**: Awakes at 4 AM for morning chant\n\n-- **Teaching Style**: Storytelling and guided imagery\n\n+- **Teaching Style**: mindfulness-based experiential learning\n\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n"
+    },
+    {
+      "query": "I've been finding great success with my new mindfulness-based experiential learning approach, as it allows students to directly experience the teachings rather than just visualizing them.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n - **Daily Routine**: Awakes at 4 AM for morning chant\n\n-- **Teaching Style**: Storytelling and guided imagery\n\n+- **Teaching Style**: mindfulness-based experiential learning\n\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my birthplace information in the records - I was actually born in Paro, Bhutan, not Thimphu as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 68\n\n-- **Birthplace**: Thimphu, Bhutan\n\n+- **Birthplace**: Paro, Bhutan\n\n - **Spiritual Title**: Rinpoche\n\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n"
+    },
+    {
+      "query": "Growing up in Paro, surrounded by the sacred mountains and ancient monasteries, deeply influenced my spiritual journey from a very young age.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Age**: 68\n\n-- **Birthplace**: Thimphu, Bhutan\n\n+- **Birthplace**: Paro, Bhutan\n\n - **Spiritual Title**: Rinpoche\n\n - **Expertise**: Ancient Manuscript Preservation\n\n - **Favorite Meditation**: Tonglen\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update information about where I conduct ceremonies - I now lead ceremonies at the Sacred Meditation Garden of Enlightenment instead of the Holy Prayer Wheel of Harmony.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n-- **Leads Ceremonies At**: [[holy_prayer_wheel_of_harmony.md]]\n+- **Leads Ceremonies At**: [[sacred_meditation_garden_of_enlightenment.md]]\n\n===entities/sacred_meditation_garden_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Meditation Garden of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: meditation garden\n\n+\n\n+## Relationships\n\n+- **Leads Ceremonies At**: [[lama_dorje.md]]\n"
+    },
+    {
+      "query": "I've been finding such peace and spiritual connection while leading our community ceremonies at the Sacred Meditation Garden of Enlightenment, where the natural setting enhances our meditation practices.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n-- **Leads Ceremonies At**: [[holy_prayer_wheel_of_harmony.md]]\n+- **Leads Ceremonies At**: [[sacred_meditation_garden_of_enlightenment.md]]\n\n===entities/sacred_meditation_garden_of_enlightenment.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Meditation Garden of Enlightenment\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: meditation garden\n\n+\n\n+## Relationships\n\n+- **Leads Ceremonies At**: [[lama_dorje.md]]\n"
+    },
+    {
+      "query": "I need to update the ceremony location information in the system - our sacred ceremonies have been moved from the Holy Prayer Wheel of Harmony to the Sacred Lotus Meditation Hall.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n-- **Leads Ceremonies At**: [[holy_prayer_wheel_of_harmony.md]]\n+- **Leads Ceremonies At**: [[sacred_lotus_meditation_hall.md]]\n\n===entities/sacred_lotus_meditation_hall.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Lotus Meditation Hall\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: meditation hall\n\n+\n\n+## Relationships\n\n+- **Leads Ceremonies At**: [[lama_dorje.md]]\n"
+    },
+    {
+      "query": "I'm grateful for the peaceful energy at the Sacred Lotus Meditation Hall where I now conduct our daily ceremonies and guide the community in meditation and prayer.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n \n\n ## Relationships\n\n - **Meditates In**: [[meditation_hall_of_stillness.md]]\n\n-- **Leads Ceremonies At**: [[holy_prayer_wheel_of_harmony.md]]\n+- **Leads Ceremonies At**: [[sacred_lotus_meditation_hall.md]]\n\n===entities/sacred_lotus_meditation_hall.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sacred Lotus Meditation Hall\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: meditation hall\n\n+\n\n+## Relationships\n\n+- **Leads Ceremonies At**: [[lama_dorje.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

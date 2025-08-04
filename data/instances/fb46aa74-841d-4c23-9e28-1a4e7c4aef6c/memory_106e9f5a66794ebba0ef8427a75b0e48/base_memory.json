@@ -1,0 +1,21 @@
+{
+  "user_md": "# Leah Turner\n\n## Basic Information\n- **Type**: Person\n- **Position**: Crane Operator\n- **Experience Years**: 8\n- **Education**: Associate Degree in Mechanical Engineering\n- **Certifications**: OSHA Certified Crane Operator\n- **Hobbies**: Rock climbing, photography\n- **Team**: Maintenance and Logistics\n- **Shift**: Night Shift\n- **Communication Skills**: Excellent\n- **Safety Record**: 4-time Safety Star Award winner\n\n## Relationships\n- **Controls**: [[cranemaster_7000.md]]\n- **Reports_To**: [[ravi_kumar.md]]",
+  "entities": [
+    {
+      "entity_name": "cranemaster_7000",
+      "entity_file_path": "entities/cranemaster_7000.md",
+      "entity_file_content": "# CraneMaster 7000\n\n## Basic Information\n- **Entity Type**: Heavy Lifting Equipment\n- **Type**: Entity\n- **Model Number**: CM-7000\n- **Load Capacity**: 50 tons\n- **Manufacture Year**: 2018\n- **Control System**: Automated with manual override\n- **Max Height**: 200 feet\n- **Operating Environment**: Indoor/Outdoor\n- **Maintenance Schedule**: Quarterly\n- **Safety Features**: Automatic shutdown, Load sensors, Proximity sensors, Emergency stop button\n- **Energy Efficiency**: Class A\n- **Primary Usage**: Vehicle body assembly and transport\n\n## Relationships\n- **Controls**: [[leah_turner.md]]"
+    },
+    {
+      "entity_name": "ravi_kumar",
+      "entity_file_path": "entities/ravi_kumar.md",
+      "entity_file_content": "# Ravi Kumar\n\n## Basic Information\n- **Type**: Person\n- **Position**: Quality Control Manager\n- **Experience Years**: 15\n- **Education**: Bachelor's Degree in Industrial Engineering\n- **Certifications**: Certified Quality Engineer (CQE)\n- **Hobbies**: Gardening, Chess, Astronomy\n- **Team**: Quality Assurance and Control\n- **Shift**: Day Shift\n- **Communication Skills**: Excellent\n- **Safety Record**: No safety violations in the past 5 years\n- **Special Projects**: Implemented a new quality inspection process that reduced defect rates by 12%\n\n## Relationships\n- **Reports_To**: [[leah_turner.md]]"
+    },
+    {
+      "entity_name": "angelica_quality_tester",
+      "entity_file_path": "entities/angelica_quality_tester.md",
+      "entity_file_content": "# Angelica Quality Tester\n\n## Basic Information\n- **Entity Type**: Quality Control Equipment\n- **Type**: Entity\n- **Function**: detect and report product defects\n- **Software Version**: 2.3.7\n- **Installation Date**: 2021-08-15\n- **Last Service Date**: 2023-01-20\n- **Upcoming Maintenance**: 2023-07-30\n- **Max Operating Temperature**: 75C\n- **Manufacturing Company**: PrecisionTech Instruments\n- **Warranty Period Years**: 3\n\n## Relationships\n- **Checks**: [[ravi_kumar.md]]"
+    }
+  ],
+  "mem_id": "memory_106e9f5a66794ebba0ef8427a75b0e48"
+}

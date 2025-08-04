@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hometown information in the system - I'm actually from Portland, Oregon, not San Diego, California as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 28\n\n - **Years Of Service**: 7\n\n - **Education**: B.Sc. in Marine Technology\n\n-- **Hometown**: San Diego, California\n\n+- **Hometown**: Portland, Oregon\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n - **Height**: 175.3\n\n"
+    },
+    {
+      "query": "Growing up in Portland, Oregon really shaped my love for the ocean, which is what eventually led me to become a sonar technician in the Navy.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 28\n\n - **Years Of Service**: 7\n\n - **Education**: B.Sc. in Marine Technology\n\n-- **Hometown**: San Diego, California\n\n+- **Hometown**: Portland, Oregon\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n - **Height**: 175.3\n\n"
+    },
+    {
+      "query": "I need to update my hometown information in the system - I'm actually from Portland, Oregon, not San Diego, California as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 28\n\n - **Years Of Service**: 7\n\n - **Education**: B.Sc. in Marine Technology\n\n-- **Hometown**: San Diego, California\n\n+- **Hometown**: Portland, Oregon\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n - **Height**: 175.3\n\n"
+    },
+    {
+      "query": "Growing up in Portland, Oregon really shaped my appreciation for the Pacific Northwest's maritime culture, which is part of what drew me to sonar technology work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 28\n\n - **Years Of Service**: 7\n\n - **Education**: B.Sc. in Marine Technology\n\n-- **Hometown**: San Diego, California\n\n+- **Hometown**: Portland, Oregon\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n - **Height**: 175.3\n\n"
+    },
+    {
+      "query": "I need to correct my height information in the personnel records - my actual height is 178.2 cm, not the 175.3 cm that's currently on file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hometown**: San Diego, California\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n-- **Height**: 175.3\n\n+- **Height**: 178.2\n\n - **Favorite Food**: Tacos\n\n - **Special Skill**: Expert in acoustic data interpretation\n\n - **Quirk**: Always carries a lucky charm, a small carved fish\n\n"
+    },
+    {
+      "query": "During my recent physical fitness assessment, they measured me at 178.2 cm, which explains why my gear fitting has been slightly off lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Hometown**: San Diego, California\n\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Underwater Photography, Chess\n\n-- **Height**: 175.3\n\n+- **Height**: 178.2\n\n - **Favorite Food**: Tacos\n\n - **Special Skill**: Expert in acoustic data interpretation\n\n - **Quirk**: Always carries a lucky charm, a small carved fish\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my equipment assignment - I'm no longer operating the Sonar Suite Omega-3, I've been reassigned to the new Advanced Hydroacoustic Detection Array MK-VII.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Supervises**: [[chief_engineer_lucy_kowalski.md]]\n\n-- **Operates**: [[sonar_suite_omega-3.md]]\n+- **Operates**: [[advanced_hydroacoustic_detection_array_mk-vii.md]]\n\n===entities/advanced_hydroacoustic_detection_array_mk-vii.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Hydroacoustic Detection Array MK-VII\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[sonar_technician_peter_caldwell.md]]\n"
+    },
+    {
+      "query": "Just finished my first shift on the Advanced Hydroacoustic Detection Array MK-VII - the sensitivity improvements over our previous systems are remarkable for tracking submarine signatures.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Supervises**: [[chief_engineer_lucy_kowalski.md]]\n\n-- **Operates**: [[sonar_suite_omega-3.md]]\n+- **Operates**: [[advanced_hydroacoustic_detection_array_mk-vii.md]]\n\n===entities/advanced_hydroacoustic_detection_array_mk-vii.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Hydroacoustic Detection Array MK-VII\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[sonar_technician_peter_caldwell.md]]\n"
+    },
+    {
+      "query": "I need to update my equipment assignment - I'm no longer operating the Sonar Suite Omega-3, I've been reassigned to the new Sonar Suite Delta-7 system.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Supervises**: [[chief_engineer_lucy_kowalski.md]]\n\n-- **Operates**: [[sonar_suite_omega-3.md]]\n+- **Operates**: [[sonar_suite_delta-7.md]]\n\n===entities/sonar_suite_delta-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sonar Suite Delta-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[sonar_technician_peter_caldwell.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the Sonar Suite Delta-7's enhanced detection capabilities - the new system has much better range and resolution than what I was used to.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n \n\n ## Relationships\n\n - **Supervises**: [[chief_engineer_lucy_kowalski.md]]\n\n-- **Operates**: [[sonar_suite_omega-3.md]]\n+- **Operates**: [[sonar_suite_delta-7.md]]\n\n===entities/sonar_suite_delta-7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Sonar Suite Delta-7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: sonar equipment\n\n+\n\n+## Relationships\n\n+- **Operates**: [[sonar_technician_peter_caldwell.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

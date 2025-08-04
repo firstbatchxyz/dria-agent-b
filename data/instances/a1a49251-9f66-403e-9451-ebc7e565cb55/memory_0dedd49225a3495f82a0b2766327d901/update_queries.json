@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my age in the system - I'm actually 32 years old now, not 29 as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 29\n\n+- **Age**: 32\n\n - **Years Of Service**: 7\n\n - **Hometown**: San Diego, California\n\n - **Specialty Cuisine**: Italian\n\n"
+    },
+    {
+      "query": "Just celebrated my 32nd birthday last week with the kitchen staff - it's amazing how quickly time flies when you're passionate about cooking!",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Age**: 29\n\n+- **Age**: 32\n\n - **Years Of Service**: 7\n\n - **Hometown**: San Diego, California\n\n - **Specialty Cuisine**: Italian\n\n"
+    },
+    {
+      "query": "I need to update my signature dish information - I've actually changed my specialty from Lemon Garlic Shrimp Pasta to Truffle Mushroom Risotto as my new signature dish.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Painting, Yoga\n\n - **Favorite Ingredient**: Basil\n\n-- **Signature Dish**: Lemon Garlic Shrimp Pasta\n\n+- **Signature Dish**: Truffle Mushroom Risotto\n\n \n\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n"
+    },
+    {
+      "query": "I've been perfecting my Truffle Mushroom Risotto recipe lately, and it's become what I'm most known for in the kitchen - the creamy texture and earthy flavors really showcase my culinary style.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Hobbies**: Painting, Yoga\n\n - **Favorite Ingredient**: Basil\n\n-- **Signature Dish**: Lemon Garlic Shrimp Pasta\n\n+- **Signature Dish**: Truffle Mushroom Risotto\n\n \n\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n"
+    },
+    {
+      "query": "I need to update my language information in the system - I actually speak English, Spanish, and French, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hometown**: San Diego, California\n\n - **Specialty Cuisine**: Italian\n\n - **Culinary School**: Le Cordon Bleu College of Culinary Arts, San Francisco\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Hobbies**: Painting, Yoga\n\n - **Favorite Ingredient**: Basil\n\n - **Signature Dish**: Lemon Garlic Shrimp Pasta\n\n"
+    },
+    {
+      "query": "I've been finding it really helpful being trilingual in the kitchen, especially when we have French-speaking guests who appreciate when I can explain our dishes in their native language.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Hometown**: San Diego, California\n\n - **Specialty Cuisine**: Italian\n\n - **Culinary School**: Le Cordon Bleu College of Culinary Arts, San Francisco\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, French\n\n - **Hobbies**: Painting, Yoga\n\n - **Favorite Ingredient**: Basil\n\n - **Signature Dish**: Lemon Garlic Shrimp Pasta\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my employment records - I'm no longer cooking for the USS Poseidon. I've been transferred and am now working as a cook aboard the USS Atlantis.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n - **Manages**: [[galley_alpha-8.md]]\n\n-- **Cooks_For**: [[uss_poseidon.md]]\n+- **Cooks_For**: [[uss_atlantis.md]]\n\n===entities/uss_atlantis.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# USS Atlantis\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: naval vessel\n\n+\n\n+## Relationships\n\n+- **Cooks_For**: [[cook_ellie_summers.md]]\n"
+    },
+    {
+      "query": "I'm really enjoying my new assignment cooking for the crew of the USS Atlantis - the kitchen facilities here are even better than what I had on my previous vessel.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n - **Manages**: [[galley_alpha-8.md]]\n\n-- **Cooks_For**: [[uss_poseidon.md]]\n+- **Cooks_For**: [[uss_atlantis.md]]\n\n===entities/uss_atlantis.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# USS Atlantis\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: naval vessel\n\n+\n\n+## Relationships\n\n+- **Cooks_For**: [[cook_ellie_summers.md]]\n"
+    },
+    {
+      "query": "I need to update my employment records - I'm no longer cooking for the USS Poseidon. I've been transferred and am now working as the head cook aboard the HMS Britannica.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n - **Manages**: [[galley_alpha-8.md]]\n\n-- **Cooks_For**: [[uss_poseidon.md]]\n+- **Cooks_For**: [[hms_britannica.md]]\n\n===entities/hms_britannica.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HMS Britannica\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: naval vessel\n\n+\n\n+## Relationships\n\n+- **Cooks_For**: [[cook_ellie_summers.md]]\n"
+    },
+    {
+      "query": "Really enjoying my new position on the HMS Britannica - the crew here has been so welcoming and they absolutely love my signature seafood dishes!",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n ## Relationships\n\n - **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n\n - **Manages**: [[galley_alpha-8.md]]\n\n-- **Cooks_For**: [[uss_poseidon.md]]\n+- **Cooks_For**: [[hms_britannica.md]]\n\n===entities/hms_britannica.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# HMS Britannica\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: naval vessel\n\n+\n\n+## Relationships\n\n+- **Cooks_For**: [[cook_ellie_summers.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my employment information in the system - I've been transferred from the Emergency department to the Pediatric ICU.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Profession**: Nurse\n\n-- **Department**: Emergency\n\n+- **Department**: Pediatric ICU\n\n - **Years Of Experience**: 8\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n"
+    },
+    {
+      "query": "I'm really enjoying my new role in the Pediatric ICU - it's been such a rewarding change from my previous work, and I love working with the children and their families.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Profession**: Nurse\n\n-- **Department**: Emergency\n\n+- **Department**: Pediatric ICU\n\n - **Years Of Experience**: 8\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 12 years of nursing experience now, not the 8 years that's currently on record.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Profession**: Nurse\n\n - **Department**: Emergency\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n - **Favorite Medical Tool**: Stethoscope\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 12 years of nursing experience have really helped me develop better patient care skills and clinical judgment over the years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Profession**: Nurse\n\n - **Department**: Emergency\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n - **Favorite Medical Tool**: Stethoscope\n\n"
+    },
+    {
+      "query": "I need to update my work experience information in the system - I actually have 12 years of nursing experience now, not the 8 years that's currently on file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Profession**: Nurse\n\n - **Department**: Emergency\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n - **Favorite Medical Tool**: Stethoscope\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 12 years of nursing experience have really helped me develop strong patient advocacy skills and clinical judgment in challenging situations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Profession**: Nurse\n\n - **Department**: Emergency\n\n-- **Years Of Experience**: 8\n\n+- **Years Of Experience**: 12\n\n - **Certifications**: Certified Emergency Nurse (CEN)\n\n - **Shift**: Day\n\n - **Favorite Medical Tool**: Stethoscope\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my charting system information - I've transitioned from using the Patient Chart System to the new MedFlow Electronic Health Records platform for all my patient documentation.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Supervises**: [[dr._kevin_patel.md]]\n\n - **Works_With**: [[paramedic_emily_simmons.md]]\n\n-- **Records_On**: [[patient_chart_system.md]]\n+- **Records_On**: [[medflow_electronic_health_records.md]]\n\n===entities/medflow_electronic_health_records.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedFlow Electronic Health Records\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: electronic health records system\n\n+\n\n+## Relationships\n\n+- **Records_On**: [[nurse_rachel_brooks.md]]\n"
+    },
+    {
+      "query": "I've been finding that MedFlow Electronic Health Records really streamlines my workflow when documenting patient care and treatment plans throughout my shifts.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n ## Relationships\n\n - **Supervises**: [[dr._kevin_patel.md]]\n\n - **Works_With**: [[paramedic_emily_simmons.md]]\n\n-- **Records_On**: [[patient_chart_system.md]]\n+- **Records_On**: [[medflow_electronic_health_records.md]]\n\n===entities/medflow_electronic_health_records.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedFlow Electronic Health Records\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: electronic health records system\n\n+\n\n+## Relationships\n\n+- **Records_On**: [[nurse_rachel_brooks.md]]\n"
+    },
+    {
+      "query": "I need to update my work partner information - I'm no longer working with Paramedic Emily Simmons, but now I'm working with Dr. Marcus Chen in our emergency response team.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[dr._kevin_patel.md]]\n\n-- **Works_With**: [[paramedic_emily_simmons.md]]\n\n-- **Records_On**: [[patient_chart_system.md]]\n+- **Records_On**: [[patient_chart_system.md]]\n\n+- **Works_With**: [[dr._marcus_chen.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Works_With**: [[nurse_rachel_brooks.md]]\n"
+    },
+    {
+      "query": "It's been great collaborating with Dr. Marcus Chen on patient care coordination - his expertise really complements our nursing protocols during emergency situations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,5 +16,5 @@\n \n\n ## Relationships\n\n - **Supervises**: [[dr._kevin_patel.md]]\n\n-- **Works_With**: [[paramedic_emily_simmons.md]]\n\n-- **Records_On**: [[patient_chart_system.md]]\n+- **Records_On**: [[patient_chart_system.md]]\n\n+- **Works_With**: [[dr._marcus_chen.md]]\n\n===entities/dr._marcus_chen.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Dr. Marcus Chen\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Works_With**: [[nurse_rachel_brooks.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our equipment information - Emily and I are no longer using the Patient Chart System, we've switched to the new MedFlow Electronic Records Platform.",
+      "diff": "===entities/paramedic_emily_simmons.md===\n\n===entities/medflow_electronic_records_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedFlow Electronic Records Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical software system\n\n+\n\n+## Relationships\n\n+- **Uses**: [[paramedic_emily_simmons.md]]\n"
+    },
+    {
+      "query": "Emily and I have been getting great results with the MedFlow Electronic Records Platform - it's so much more efficient than our old system for tracking patient information during emergency calls.",
+      "diff": "===entities/paramedic_emily_simmons.md===\n\n===entities/medflow_electronic_records_platform.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MedFlow Electronic Records Platform\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical software system\n\n+\n\n+## Relationships\n\n+- **Uses**: [[paramedic_emily_simmons.md]]\n"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional role in the system - I've recently been promoted from Pilot to Flight Operations Manager and want to make sure my records reflect this change.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Captain\n\n-- **Role**: Pilot\n\n+- **Role**: Flight Operations Manager\n\n - **Years Of Service**: 15\n\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n"
+    },
+    {
+      "query": "It's been an exciting transition moving into my new position as Flight Operations Manager, where I'm now overseeing multiple flight crews and coordinating complex aviation operations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Rank**: Captain\n\n-- **Role**: Pilot\n\n+- **Role**: Flight Operations Manager\n\n - **Years Of Service**: 15\n\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n"
+    },
+    {
+      "query": "I need to correct my personal motto in the records - it should be 'Honor Above All' rather than 'Courage Fuels Success' as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n - **Decorations**: Distinguished Flying Cross\n\n-- **Personal Motto**: Courage Fuels Success\n\n+- **Personal Motto**: Honor Above All\n\n - **Family Status**: Married\n\n - **Hobby**: Building model airplanes\n\n - **Favorite Food**: Chicken Parmesan\n\n"
+    },
+    {
+      "query": "I've been living by my motto 'Honor Above All' throughout my military career, and it continues to guide every decision I make as a captain.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n - **Decorations**: Distinguished Flying Cross\n\n-- **Personal Motto**: Courage Fuels Success\n\n+- **Personal Motto**: Honor Above All\n\n - **Family Status**: Married\n\n - **Hobby**: Building model airplanes\n\n - **Favorite Food**: Chicken Parmesan\n\n"
+    },
+    {
+      "query": "I need to correct my service record - the system currently shows I have 15 years of service, but I actually have 18 years of military service.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Rank**: Captain\n\n - **Role**: Pilot\n\n-- **Years Of Service**: 15\n\n+- **Years Of Service**: 18\n\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n - **Decorations**: Distinguished Flying Cross\n\n"
+    },
+    {
+      "query": "After 18 years of dedicated military service, I've learned that leadership isn't just about giving orders, but about earning the trust and respect of those under your command.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Rank**: Captain\n\n - **Role**: Pilot\n\n-- **Years Of Service**: 15\n\n+- **Years Of Service**: 18\n\n - **Specialization**: Fixed-wing aircraft\n\n - **Training Background**: Air Force Academy Graduate\n\n - **Decorations**: Distinguished Flying Cross\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my command information in the system - I'm no longer leading Hercules Heavy Transport, I've been reassigned to command the Titan Cargo Fleet instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Language Proficiency**: Fluent in Spanish\n\n \n\n ## Relationships\n\n-- **Leads**: [[hercules_heavy_transport.md]]\n+- **Leads**: [[titan_cargo_fleet.md]]\n\n===entities/titan_cargo_fleet.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Cargo Fleet\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: transport fleet\n\n+\n\n+## Relationships\n\n+- **Leads**: [[capt._owen_fitzgerald.md]]\n"
+    },
+    {
+      "query": "Been settling into my new role commanding the Titan Cargo Fleet - it's a different scale of operations compared to my previous assignments, but the crew has been exceptional.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Language Proficiency**: Fluent in Spanish\n\n \n\n ## Relationships\n\n-- **Leads**: [[hercules_heavy_transport.md]]\n+- **Leads**: [[titan_cargo_fleet.md]]\n\n===entities/titan_cargo_fleet.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Cargo Fleet\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: transport fleet\n\n+\n\n+## Relationships\n\n+- **Leads**: [[capt._owen_fitzgerald.md]]\n"
+    },
+    {
+      "query": "I need to update my current command assignment - I'm no longer leading the Hercules Heavy Transport unit and have been reassigned to lead the Titan Cargo Division.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Language Proficiency**: Fluent in Spanish\n\n \n\n ## Relationships\n\n-- **Leads**: [[hercules_heavy_transport.md]]\n+- **Leads**: [[titan_cargo_division.md]]\n\n===entities/titan_cargo_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Cargo Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military transport unit\n\n+\n\n+## Relationships\n\n+- **Leads**: [[capt._owen_fitzgerald.md]]\n"
+    },
+    {
+      "query": "The transition to commanding the Titan Cargo Division has been seamless, and I'm excited about the expanded logistical capabilities we'll be able to provide with our new fleet.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Language Proficiency**: Fluent in Spanish\n\n \n\n ## Relationships\n\n-- **Leads**: [[hercules_heavy_transport.md]]\n+- **Leads**: [[titan_cargo_division.md]]\n\n===entities/titan_cargo_division.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Titan Cargo Division\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military transport unit\n\n+\n\n+## Relationships\n\n+- **Leads**: [[capt._owen_fitzgerald.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

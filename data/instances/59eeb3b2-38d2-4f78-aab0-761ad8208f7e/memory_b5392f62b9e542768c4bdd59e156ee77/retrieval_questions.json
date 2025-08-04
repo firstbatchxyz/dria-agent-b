@@ -1,0 +1,196 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Junior Engineer"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Environmental Engineering"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Arabic, English, French"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "MSc in Environmental Engineering"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Rock Climbing"
+    },
+    {
+      "q": "What is my professional goal?",
+      "a": "Innovate sustainable construction practices"
+    },
+    {
+      "q": "What is my safety record?",
+      "a": "Excellent"
+    },
+    {
+      "q": "What is my favorite equipment?",
+      "a": "D-9000 Sky Crane"
+    },
+    {
+      "q": "Do I work in shifts?",
+      "a": "True"
+    },
+    {
+      "q": "What is my most recent project completion?",
+      "a": "Eco Green Park Tower"
+    },
+    {
+      "q": "What volunteer work do I do?",
+      "a": "Clean Energy Advocacy Group"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the role of the person I coordinate with?"
+      ],
+      "a": "Project Lead",
+      "attribute": "role=Project Lead",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "How many years of experience does the person I coordinate with have?"
+      ],
+      "a": "15",
+      "attribute": "experience years=15",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the specialization of the person I coordinate with?"
+      ],
+      "a": "Structural Engineering",
+      "attribute": "specialization=Structural Engineering",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What languages does the person I coordinate with speak?"
+      ],
+      "a": "Arabic, English",
+      "attribute": "languages spoken=Arabic, English",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the educational background of the person I coordinate with?"
+      ],
+      "a": "PhD in Civil Engineering",
+      "attribute": "education=PhD in Civil Engineering",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the hobby of the person I coordinate with?"
+      ],
+      "a": "Painting",
+      "attribute": "hobby=Painting",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the professional goal of the person I coordinate with?"
+      ],
+      "a": "Design a record-breaking skyscraper",
+      "attribute": "professional goal=Design a record-breaking skyscraper",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the safety record of the person I coordinate with?"
+      ],
+      "a": "Outstanding",
+      "attribute": "safety record=Outstanding",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "What is the favorite equipment of the person I coordinate with?"
+      ],
+      "a": "L4500 Concrete Mixer",
+      "attribute": "favorite equipment=L4500 Concrete Mixer",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    },
+    {
+      "q": [
+        "Does the person I coordinate with work in shifts?"
+      ],
+      "a": "False",
+      "attribute": "works in shifts=False",
+      "path": "Noura Al Nasser -> Tariq El-Badawi"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of project does the person I coordinate with lead?",
+      "a": "Project",
+      "attribute": "entity type=Project",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "How many total floors does the project that the person I coordinate with lead have?",
+      "a": "80",
+      "attribute": "total floors=80",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What is the estimated completion year of the project that the person I coordinate with leads?",
+      "a": "2025",
+      "attribute": "estimated completion year=2025",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What is the budget in millions USD of the project that the person I coordinate with leads?",
+      "a": "850",
+      "attribute": "budget in millions usd=850",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What is the project inception date of the project that the person I coordinate with leads?",
+      "a": "2022-01-15",
+      "attribute": "project inception date=2022-01-15",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What is the architectural style of the project that the person I coordinate with leads?",
+      "a": "Neo-futurism",
+      "attribute": "architectural style=Neo-futurism",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "True or false: Does the project that the person I coordinate with leads have green building certification?",
+      "a": "True",
+      "attribute": "green building certification=True",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What are the key materials of the project that the person I coordinate with leads?",
+      "a": "Steel, Glass, Concrete",
+      "attribute": "key materials=Steel, Glass, Concrete",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "Who is the primary contractor of the project that the person I coordinate with leads?",
+      "a": "Dubai Structural Co.",
+      "attribute": "primary contractor=Dubai Structural Co.",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    },
+    {
+      "q": "What is the height in meters of the project that the person I coordinate with leads?",
+      "a": "480",
+      "attribute": "height in meters=480",
+      "path": "Noura Al Nasser - coordinates with -> Tariq El-Badawi - leads-> SkyReach 2025"
+    }
+  ]
+}

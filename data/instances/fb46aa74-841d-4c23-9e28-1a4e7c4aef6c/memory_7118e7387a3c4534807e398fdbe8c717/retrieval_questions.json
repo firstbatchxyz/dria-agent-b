@@ -1,0 +1,86 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Forklift Operator"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "Forklift Safety, Advanced Vehicle Handling"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night"
+    },
+    {
+      "q": "What is my employee ID?",
+      "a": "EMP-2638"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "Adjustable Wrench"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Woodworking, Astronomy"
+    },
+    {
+      "q": "What is my work email?",
+      "a": "nikolai.ivanov@automotiveplant.com"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Russian, English"
+    },
+    {
+      "q": "What is my safety record?",
+      "a": "Excellent"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the equipment type of the forklift that I drive?"
+      ],
+      "a": "Material Handling Equipment",
+      "attribute": "entity type=Material Handling Equipment",
+      "path": "Nikolai Ivanov -> Titan Forklift FX"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the forklift that I drive?"
+      ],
+      "a": "Titan Industries",
+      "attribute": "manufacturer=Titan Industries",
+      "path": "Nikolai Ivanov -> Titan Forklift FX"
+    },
+    {
+      "q": [
+        "What is the model year of the forklift that I drive?"
+      ],
+      "a": "2021",
+      "attribute": "model year=2021",
+      "path": "Nikolai Ivanov -> Titan Forklift FX"
+    },
+    {
+      "q": [
+        "What is the lift capacity of the forklift that I drive?"
+      ],
+      "a": "3000 kg",
+      "attribute": "lift capacity=3000 kg",
+      "path": "Nikolai Ivanov -> Titan Forklift FX"
+    },
+    {
+      "q": [
+        "What is the engine type of the forklift that I drive?"
+      ],
+      "a": "Electric",
+      "attribute": "engine type=Electric",
+      "path": "Nikolai Ivanov -> Titan Forklift FX"
+    }
+  ]
+}

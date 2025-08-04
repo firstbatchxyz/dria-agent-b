@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my music preference information in the system - I've actually developed a strong preference for Jazz music, not Classical as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Educational Background**: Diploma in Mechanical Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n-- **Music Preference**: Classical\n\n+- **Music Preference**: Jazz\n\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n"
+    },
+    {
+      "query": "I've been really enjoying exploring different Jazz artists lately, especially the improvisational aspects that draw me in so much more than other genres.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -15,7 +15,7 @@\n - **Educational Background**: Diploma in Mechanical Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n-- **Music Preference**: Classical\n\n+- **Music Preference**: Jazz\n\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n"
+    },
+    {
+      "query": "I need to correct my educational background in the system - I actually hold a Bachelor's degree in Biomedical Engineering, not a Diploma in Mechanical Engineering as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Hydraulic Rail Jack\n\n - **Hobbies**: Photography, Baking, Yoga\n\n - **Languages Spoken**: English, Spanish\n\n-- **Educational Background**: Diploma in Mechanical Engineering\n\n+- **Educational Background**: Bachelor's degree in Biomedical Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n - **Music Preference**: Classical\n\n"
+    },
+    {
+      "query": "I've been applying the principles from my Bachelor's degree in Biomedical Engineering to develop innovative medical device prototypes for my current research project.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Hydraulic Rail Jack\n\n - **Hobbies**: Photography, Baking, Yoga\n\n - **Languages Spoken**: English, Spanish\n\n-- **Educational Background**: Diploma in Mechanical Engineering\n\n+- **Educational Background**: Bachelor's degree in Biomedical Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n - **Music Preference**: Classical\n\n"
+    },
+    {
+      "query": "I need to correct my educational background in the system - I actually have a Bachelor's degree in Aerospace Engineering, not a Diploma in Mechanical Engineering as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Hydraulic Rail Jack\n\n - **Hobbies**: Photography, Baking, Yoga\n\n - **Languages Spoken**: English, Spanish\n\n-- **Educational Background**: Diploma in Mechanical Engineering\n\n+- **Educational Background**: Bachelor's degree in Aerospace Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n - **Music Preference**: Classical\n\n"
+    },
+    {
+      "query": "I've been applying my Bachelor's degree in Aerospace Engineering to some exciting projects involving aircraft design and propulsion systems lately.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Favorite Tool**: Hydraulic Rail Jack\n\n - **Hobbies**: Photography, Baking, Yoga\n\n - **Languages Spoken**: English, Spanish\n\n-- **Educational Background**: Diploma in Mechanical Engineering\n\n+- **Educational Background**: Bachelor's degree in Aerospace Engineering\n\n - **Height**: 165\n\n - **Has Pet**: True\n\n - **Music Preference**: Classical\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my access permissions in the system - I no longer have access to the Safety Gear Storage, but I've been granted access to the Chemical Lab instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,4 +19,4 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n-- **Has_Access_To**: [[safety_gear_storage.md]]\n+- **Has_Access_To**: [[chemical_lab.md]]\n\n===entities/chemical_lab.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Chemical Lab\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: facility\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[helen_garcia.md]]\n"
+    },
+    {
+      "query": "I was working in the Chemical Lab today and really appreciate having the proper access credentials to conduct my research there.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,4 +19,4 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n-- **Has_Access_To**: [[safety_gear_storage.md]]\n+- **Has_Access_To**: [[chemical_lab.md]]\n\n===entities/chemical_lab.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Chemical Lab\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: facility\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[helen_garcia.md]]\n"
+    },
+    {
+      "query": "I need to update my access permissions in the system - I no longer have access to the Safety Gear Storage area, but I've been granted access to the Chemical Laboratory instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,4 +19,4 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n-- **Has_Access_To**: [[safety_gear_storage.md]]\n+- **Has_Access_To**: [[chemical_laboratory.md]]\n\n===entities/chemical_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Chemical Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: facility\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[helen_garcia.md]]\n"
+    },
+    {
+      "query": "I was working in the Chemical Laboratory today running some tests for our latest project, and I'm grateful to have proper access to all the equipment I need there.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -19,4 +19,4 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[rajiv_patel.md]]\n\n-- **Has_Access_To**: [[safety_gear_storage.md]]\n+- **Has_Access_To**: [[chemical_laboratory.md]]\n\n===entities/chemical_laboratory.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Chemical Laboratory\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: facility\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[helen_garcia.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

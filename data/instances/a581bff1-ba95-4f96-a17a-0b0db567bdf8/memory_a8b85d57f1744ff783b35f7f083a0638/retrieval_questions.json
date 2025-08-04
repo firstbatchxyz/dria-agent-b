@@ -1,0 +1,78 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my job title?",
+      "a": "Imaging Technician"
+    },
+    {
+      "q": "What department do I work in?",
+      "a": "Radiology"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "5"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Radiologic Technologist"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Spanish, English"
+    },
+    {
+      "q": "What is my shift schedule?",
+      "a": "Evening"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Photography, Hiking"
+    },
+    {
+      "q": "Am I employee of the month?",
+      "a": "False"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of equipment do I maintain?"
+      ],
+      "a": "Imaging Equipment",
+      "attribute": "entity type=Imaging Equipment",
+      "path": "Jose Martinez -> Ultrasound Machine"
+    },
+    {
+      "q": [
+        "What is the manufacturer of the equipment I maintain?"
+      ],
+      "a": "EchoTech",
+      "attribute": "manufacturer=EchoTech",
+      "path": "Jose Martinez -> Ultrasound Machine"
+    },
+    {
+      "q": [
+        "What is the model of the equipment I maintain?"
+      ],
+      "a": "UltraScan ZX90",
+      "attribute": "model=UltraScan ZX90",
+      "path": "Jose Martinez -> Ultrasound Machine"
+    },
+    {
+      "q": [
+        "What is the last calibration date of the equipment I maintain?"
+      ],
+      "a": "2023-09-15",
+      "attribute": "last calibration date=2023-09-15",
+      "path": "Jose Martinez -> Ultrasound Machine"
+    },
+    {
+      "q": [
+        "What is the current location of the equipment I maintain?"
+      ],
+      "a": "Radiology Department, Room 214",
+      "attribute": "current location=Radiology Department, Room 214",
+      "path": "Jose Martinez -> Ultrasound Machine"
+    }
+  ]
+}

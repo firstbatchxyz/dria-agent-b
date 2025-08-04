@@ -1,0 +1,16 @@
+{
+  "user_md": "# Shivlal Meena\n\n## Basic Information\n- **Type**: Person\n- **Age**: 42\n- **Profession**: farmer\n- **Special Skill**: artisan pottery maker\n- **Favorite Festival**: Diwali\n- **Family**: two children and a spouse\n- **Education Level**: high school diploma\n- **Hobby**: kite flying\n- **Preferred Crop**: wheat\n- **Member Of Village Council**: True\n- **Nickname**: Bauji\n\n## Relationships\n- **Assists With**: [[the_harvest_barn.md]]\n- **Shares Responsibility For**: [[the_community_well.md]]",
+  "entities": [
+    {
+      "entity_name": "the_harvest_barn",
+      "entity_file_path": "entities/the_harvest_barn.md",
+      "entity_file_content": "# The Harvest Barn\n\n## Basic Information\n- **Entity Type**: Storage Facility\n- **Type**: Entity\n- **Storage Capacity**: 5000\n- **Primary Use**: Grain Storage\n- **Construction Year**: 1995\n- **Builder Name**: Rajasthan Agricultural Development Cooperative\n- **Material Used**: Brick and Mortar\n- **Hours Of Operation**: 6 AM - 8 PM\n- **Solar Powered**: True\n- **Village Importance**: High\n- **Annual Maintenance Schedule**: Post-Harvest Season\n- **Water Harvesting System**: True\n\n## Relationships\n- **Assists With**: [[shivlal_meena.md]]"
+    },
+    {
+      "entity_name": "the_community_well",
+      "entity_file_path": "entities/the_community_well.md",
+      "entity_file_content": "# The Community Well\n\n## Basic Information\n- **Entity Type**: Water Source\n- **Type**: Entity\n- **Location Description**: central to the village\n- **Construction Date**: 1997\n- **Maintenance Frequency**: monthly\n- **Depth In Meters**: 30\n- **Water Quality**: excellent\n- **Capacity In Liters**: 5000\n- **Built By**: community initiative\n- **Water Source Type**: groundwater\n- **Material Used**: local stone\n\n## Relationships\n- **Shares Responsibility For**: [[shivlal_meena.md]]"
+    }
+  ],
+  "mem_id": "memory_7492bf0adf0c4dc4b9634ec9754bf0a9"
+}

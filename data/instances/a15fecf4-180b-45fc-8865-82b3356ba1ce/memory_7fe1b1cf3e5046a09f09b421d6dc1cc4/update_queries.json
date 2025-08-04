@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my hobbies in the system - I've moved on from paragliding and photography and am now really into rock climbing and bouldering.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: German, English, French\n\n - **Certifications**: Certified Mountain Guide, Advanced Wilderness First Aid\n\n-- **Hobbies**: Paragliding, Photography\n\n+- **Hobbies**: Rock climbing, Bouldering\n\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n - **Availability**: 24/7 on call during winter months\n\n"
+    },
+    {
+      "query": "I spent the entire weekend rock climbing at the local crag and working on some challenging boulder problems - it's amazing how this sport has completely taken over my free time.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Languages Spoken**: German, English, French\n\n - **Certifications**: Certified Mountain Guide, Advanced Wilderness First Aid\n\n-- **Hobbies**: Paragliding, Photography\n\n+- **Hobbies**: Rock climbing, Bouldering\n\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n - **Availability**: 24/7 on call during winter months\n\n"
+    },
+    {
+      "query": "I need to correct my educational information in the system - I actually completed an M.S. in Environmental Engineering, not a B.Sc. in Environmental Science as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n - **Availability**: 24/7 on call during winter months\n\n-- **Education**: B.Sc. in Environmental Science\n\n+- **Education**: M.S. in Environmental Engineering\n\n \n\n ## Relationships\n\n - **Operates**: [[rescue_helicopters.md]]\n\n"
+    },
+    {
+      "query": "I've been applying the advanced technical skills from my M.S. in Environmental Engineering to develop more effective water treatment solutions for industrial clients.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n - **Availability**: 24/7 on call during winter months\n\n-- **Education**: B.Sc. in Environmental Science\n\n+- **Education**: M.S. in Environmental Engineering\n\n \n\n ## Relationships\n\n - **Operates**: [[rescue_helicopters.md]]\n\n"
+    },
+    {
+      "query": "I need to update my availability schedule - I'm no longer on 24/7 call during winter months. My new availability is weekdays 9 AM to 6 PM only.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: Paragliding, Photography\n\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n-- **Availability**: 24/7 on call during winter months\n\n+- **Availability**: weekdays 9 AM to 6 PM only\n\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I've been enjoying having more predictable hours with my new weekdays 9 AM to 6 PM schedule, which has really improved my work-life balance.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Hobbies**: Paragliding, Photography\n\n - **Notable Rescue**: Lead rescuer in the 2018 Matterhorn avalanche incident\n\n - **Hometown**: Zermatt, Switzerland\n\n-- **Availability**: 24/7 on call during winter months\n\n+- **Availability**: weekdays 9 AM to 6 PM only\n\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my operational information - I no longer operate rescue helicopters, I've transitioned to operating air ambulance services instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n-- **Operates**: [[rescue_helicopters.md]]\n\n-- **Maintains**: [[climbing_equipment.md]]\n+- **Maintains**: [[climbing_equipment.md]]\n\n+- **Operates**: [[air_ambulance_services.md]]\n\n===entities/air_ambulance_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Air Ambulance Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical transport service\n\n+\n\n+## Relationships\n\n+- **Operates**: [[felix_zimmermann.md]]\n"
+    },
+    {
+      "query": "The shift to operating air ambulance services has been incredibly rewarding, allowing me to provide critical medical transport and save lives in emergency situations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n-- **Operates**: [[rescue_helicopters.md]]\n\n-- **Maintains**: [[climbing_equipment.md]]\n+- **Maintains**: [[climbing_equipment.md]]\n\n+- **Operates**: [[air_ambulance_services.md]]\n\n===entities/air_ambulance_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Air Ambulance Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical transport service\n\n+\n\n+## Relationships\n\n+- **Operates**: [[felix_zimmermann.md]]\n"
+    },
+    {
+      "query": "I need to update my operational information - I no longer operate rescue helicopters, I've transitioned to operating air ambulance services instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n-- **Operates**: [[rescue_helicopters.md]]\n\n-- **Maintains**: [[climbing_equipment.md]]\n+- **Maintains**: [[climbing_equipment.md]]\n\n+- **Operates**: [[air_ambulance_services.md]]\n\n===entities/air_ambulance_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Air Ambulance Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical transport service\n\n+\n\n+## Relationships\n\n+- **Operates**: [[felix_zimmermann.md]]\n"
+    },
+    {
+      "query": "The switch to operating air ambulance services has been incredibly rewarding, allowing me to provide critical medical transport and save lives in emergency situations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n - **Education**: B.Sc. in Environmental Science\n\n \n\n ## Relationships\n\n-- **Operates**: [[rescue_helicopters.md]]\n\n-- **Maintains**: [[climbing_equipment.md]]\n+- **Maintains**: [[climbing_equipment.md]]\n\n+- **Operates**: [[air_ambulance_services.md]]\n\n===entities/air_ambulance_services.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Air Ambulance Services\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical transport service\n\n+\n\n+## Relationships\n\n+- **Operates**: [[felix_zimmermann.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

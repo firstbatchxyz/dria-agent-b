@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my military rank in the system - I've been promoted from Sergeant Major to Master Sergeant and need this reflected in my personnel file.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Sergeant Major\n\n+- **Rank**: Master Sergeant\n\n - **First Name**: Kristof\n\n - **Last Name**: Novak\n\n - **Years Of Service**: 22\n\n"
+    },
+    {
+      "query": "After my recent promotion to Master Sergeant, I've been adjusting to the new responsibilities and leadership expectations that come with this rank.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Rank**: Sergeant Major\n\n+- **Rank**: Master Sergeant\n\n - **First Name**: Kristof\n\n - **Last Name**: Novak\n\n - **Years Of Service**: 22\n\n"
+    },
+    {
+      "query": "I need to update my service record - the system shows I have 22 years of service, but I actually have 25 years of military service now.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Sergeant Major\n\n - **First Name**: Kristof\n\n - **Last Name**: Novak\n\n-- **Years Of Service**: 22\n\n+- **Years Of Service**: 25\n\n - **Specialization**: tactical security operations\n\n - **Favorite Weapon**: Beretta M9\n\n - **Birthplace**: Krakow, Poland\n\n"
+    },
+    {
+      "query": "Looking back on my 25 years of military service, I'm grateful for all the experiences and the soldiers I've had the honor to serve alongside.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Rank**: Sergeant Major\n\n - **First Name**: Kristof\n\n - **Last Name**: Novak\n\n-- **Years Of Service**: 22\n\n+- **Years Of Service**: 25\n\n - **Specialization**: tactical security operations\n\n - **Favorite Weapon**: Beretta M9\n\n - **Birthplace**: Krakow, Poland\n\n"
+    },
+    {
+      "query": "I need to update my leadership style information in the system - my approach has evolved from being adaptive and team-focused to more of a transformational and mentorship-driven style.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Hobbies**: chess, hiking\n\n - **Decorations**: Bronze Star Medal\n\n - **Languages Spoken**: English, Polish, Russian\n\n-- **Leadership Style**: adaptive and team-focused\n\n+- **Leadership Style**: transformational and mentorship-driven\n\n \n\n ## Relationships\n\n - **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n"
+    },
+    {
+      "query": "I've been reflecting on how my transformational and mentorship-driven leadership approach has really helped develop the next generation of NCOs in my unit.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -12,7 +12,7 @@\n - **Hobbies**: chess, hiking\n\n - **Decorations**: Bronze Star Medal\n\n - **Languages Spoken**: English, Polish, Russian\n\n-- **Leadership Style**: adaptive and team-focused\n\n+- **Leadership Style**: transformational and mentorship-driven\n\n \n\n ## Relationships\n\n - **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update our security coordination protocols - we're no longer working with the Perimeter Patrol Unit and have transitioned to coordinating with the Tactical Response Brigade instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Leadership Style**: adaptive and team-focused\n\n \n\n ## Relationships\n\n-- **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n+- **Coordinates Security With**: [[tactical_response_brigade.md]]\n\n===entities/tactical_response_brigade.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tactical Response Brigade\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Coordinates Security With**: [[sgt._major_kristof_novak.md]]\n"
+    },
+    {
+      "query": "Had a productive security briefing with the Tactical Response Brigade today - their rapid deployment capabilities are really enhancing our overall base security posture.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Leadership Style**: adaptive and team-focused\n\n \n\n ## Relationships\n\n-- **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n+- **Coordinates Security With**: [[tactical_response_brigade.md]]\n\n===entities/tactical_response_brigade.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tactical Response Brigade\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Coordinates Security With**: [[sgt._major_kristof_novak.md]]\n"
+    },
+    {
+      "query": "I need to update our security coordination protocols - we're no longer working with the Perimeter Patrol Unit and have switched to coordinating with the Tactical Response Team instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Leadership Style**: adaptive and team-focused\n\n \n\n ## Relationships\n\n-- **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n+- **Coordinates Security With**: [[tactical_response_team.md]]\n\n===entities/tactical_response_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tactical Response Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Coordinates Security With**: [[sgt._major_kristof_novak.md]]\n"
+    },
+    {
+      "query": "Had a productive briefing with the Tactical Response Team today about our new security coordination procedures and how we'll be working together moving forward.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n - **Leadership Style**: adaptive and team-focused\n\n \n\n ## Relationships\n\n-- **Coordinates Security With**: [[perimeter_patrol_unit.md]]\n+- **Coordinates Security With**: [[tactical_response_team.md]]\n\n===entities/tactical_response_team.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Tactical Response Team\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military unit\n\n+\n\n+## Relationships\n\n+- **Coordinates Security With**: [[sgt._major_kristof_novak.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update our patrol coordination records - the Perimeter Patrol Unit is no longer patrolling the Defender Radar Installation. We've reassigned them to patrol the Northern Communications Array instead.",
+      "diff": "===entities/perimeter_patrol_unit.md===\n\n===entities/northern_communications_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Northern Communications Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Patrols**: [[perimeter_patrol_unit.md]]\n"
+    },
+    {
+      "query": "The transition has been smooth since we moved the Perimeter Patrol Unit to secure the Northern Communications Array - their familiarity with electronic warfare countermeasures makes them perfect for protecting our communications infrastructure.",
+      "diff": "===entities/perimeter_patrol_unit.md===\n\n===entities/northern_communications_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Northern Communications Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: military facility\n\n+\n\n+## Relationships\n\n+- **Patrols**: [[perimeter_patrol_unit.md]]\n"
+    }
+  ]
+}

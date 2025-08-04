@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my department information in the system - I've recently transferred from Pediatrics to the Emergency Medicine department.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Nurse\n\n - **Age**: 32\n\n-- **Department**: Pediatrics\n\n+- **Department**: Emergency Medicine\n\n - **Expertise**: Neonatal Care\n\n - **Years Of Experience**: 7\n\n - **Shift**: Night\n\n"
+    },
+    {
+      "query": "It's been an exciting transition working in Emergency Medicine - the fast-paced environment is quite different from my previous experience in Pediatrics.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Occupation**: Nurse\n\n - **Age**: 32\n\n-- **Department**: Pediatrics\n\n+- **Department**: Emergency Medicine\n\n - **Expertise**: Neonatal Care\n\n - **Years Of Experience**: 7\n\n - **Shift**: Night\n\n"
+    },
+    {
+      "query": "I need to update my professional specialization in the system - my expertise has shifted from Neonatal Care to Pediatric Emergency Medicine over the past few years.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Nurse\n\n - **Age**: 32\n\n - **Department**: Pediatrics\n\n-- **Expertise**: Neonatal Care\n\n+- **Expertise**: Pediatric Emergency Medicine\n\n - **Years Of Experience**: 7\n\n - **Shift**: Night\n\n - **Certifications**: Registered Nurse (RN), Pediatric Advanced Life Support (PALS)\n\n"
+    },
+    {
+      "query": "I've been finding my work in Pediatric Emergency Medicine incredibly rewarding, especially handling critical cases that require immediate intervention and specialized pediatric trauma protocols.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Nurse\n\n - **Age**: 32\n\n - **Department**: Pediatrics\n\n-- **Expertise**: Neonatal Care\n\n+- **Expertise**: Pediatric Emergency Medicine\n\n - **Years Of Experience**: 7\n\n - **Shift**: Night\n\n - **Certifications**: Registered Nurse (RN), Pediatric Advanced Life Support (PALS)\n\n"
+    },
+    {
+      "query": "I need to update my work schedule information - I've been moved from the night shift to the evening shift starting this week.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Department**: Pediatrics\n\n - **Expertise**: Neonatal Care\n\n - **Years Of Experience**: 7\n\n-- **Shift**: Night\n\n+- **Shift**: Evening\n\n - **Certifications**: Registered Nurse (RN), Pediatric Advanced Life Support (PALS)\n\n - **Hobbies**: photography, hiking\n\n - **Works With Technology**: True\n\n"
+    },
+    {
+      "query": "I'm really enjoying the evening shift schedule as it gives me a better work-life balance compared to my previous hours.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Department**: Pediatrics\n\n - **Expertise**: Neonatal Care\n\n - **Years Of Experience**: 7\n\n-- **Shift**: Night\n\n+- **Shift**: Evening\n\n - **Certifications**: Registered Nurse (RN), Pediatric Advanced Life Support (PALS)\n\n - **Hobbies**: photography, hiking\n\n - **Works With Technology**: True\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I'm currently monitoring - I'm no longer working with the Patient Monitoring System, I've switched to monitoring the Advanced Cardiac Telemetry Unit.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Performance Rating**: Excellent\n\n \n\n ## Relationships\n\n-- **Monitors**: [[patient_monitoring_system.md]]\n+- **Monitors**: [[advanced_cardiac_telemetry_unit.md]]\n\n===entities/advanced_cardiac_telemetry_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Cardiac Telemetry Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[benjamin_clark.md]]\n"
+    },
+    {
+      "query": "I've been getting great results with the Advanced Cardiac Telemetry Unit that I'm now monitoring - the real-time cardiac data analysis capabilities are really impressive for patient care.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Performance Rating**: Excellent\n\n \n\n ## Relationships\n\n-- **Monitors**: [[patient_monitoring_system.md]]\n+- **Monitors**: [[advanced_cardiac_telemetry_unit.md]]\n\n===entities/advanced_cardiac_telemetry_unit.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Cardiac Telemetry Unit\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[benjamin_clark.md]]\n"
+    },
+    {
+      "query": "I need to update the system information - I'm no longer monitoring the Patient Monitoring System, I've been assigned to monitor the Neural Interface Array instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Performance Rating**: Excellent\n\n \n\n ## Relationships\n\n-- **Monitors**: [[patient_monitoring_system.md]]\n+- **Monitors**: [[neural_interface_array.md]]\n\n===entities/neural_interface_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Interface Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[benjamin_clark.md]]\n"
+    },
+    {
+      "query": "I've been spending most of my time with the Neural Interface Array lately, making sure all the brain-computer interface connections are stable and the data streams are clean.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n - **Performance Rating**: Excellent\n\n \n\n ## Relationships\n\n-- **Monitors**: [[patient_monitoring_system.md]]\n+- **Monitors**: [[neural_interface_array.md]]\n\n===entities/neural_interface_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Neural Interface Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical device system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[benjamin_clark.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

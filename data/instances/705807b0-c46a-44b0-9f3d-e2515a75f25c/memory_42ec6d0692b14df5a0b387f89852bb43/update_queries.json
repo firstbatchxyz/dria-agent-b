@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my professional experience in the system - I currently have 10 years of experience, not the 7 years that's listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Lead Machine Learning Engineer\n\n - **Expertise Areas**: computer vision, natural language processing\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Favorite Programming Language**: Python\n\n - **Educational Background**: Ph.D. in Artificial Intelligence from Stanford University\n\n - **Patents Held**: 3\n\n"
+    },
+    {
+      "query": "After celebrating my 10th anniversary in the industry last month, I've been reflecting on how much my expertise has grown over this past decade of professional work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Position**: Lead Machine Learning Engineer\n\n - **Expertise Areas**: computer vision, natural language processing\n\n-- **Years Of Experience**: 7\n\n+- **Years Of Experience**: 10\n\n - **Favorite Programming Language**: Python\n\n - **Educational Background**: Ph.D. in Artificial Intelligence from Stanford University\n\n - **Patents Held**: 3\n\n"
+    },
+    {
+      "query": "I need to update my personal motto in the system - it should reflect 'Innovation through sustainable technology' rather than the current 'Innovation through collaboration'.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: rock climbing, digital art\n\n - **Publications**: 8\n\n - **Email**: alex.chen@nimbusai.com\n\n-- **Personal Motto**: Innovation through collaboration\n\n+- **Personal Motto**: Innovation through sustainable technology\n\n - **Primary Work Location**: Palo Alto, California\n\n - **Preferred Development Environment**: VS Code\n\n \n\n"
+    },
+    {
+      "query": "I've been living by my motto 'Innovation through sustainable technology' lately, and it's really guided my approach to developing eco-friendly solutions in my recent projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -11,7 +11,7 @@\n - **Hobbies**: rock climbing, digital art\n\n - **Publications**: 8\n\n - **Email**: alex.chen@nimbusai.com\n\n-- **Personal Motto**: Innovation through collaboration\n\n+- **Personal Motto**: Innovation through sustainable technology\n\n - **Primary Work Location**: Palo Alto, California\n\n - **Preferred Development Environment**: VS Code\n\n \n\n"
+    },
+    {
+      "query": "I need to update my educational background in your records - I actually completed a Ph.D. in Cognitive Science from MIT, not Stanford University as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Expertise Areas**: computer vision, natural language processing\n\n - **Years Of Experience**: 7\n\n - **Favorite Programming Language**: Python\n\n-- **Educational Background**: Ph.D. in Artificial Intelligence from Stanford University\n\n+- **Educational Background**: Ph.D. in Cognitive Science from MIT\n\n - **Patents Held**: 3\n\n - **Hobbies**: rock climbing, digital art\n\n - **Publications**: 8\n\n"
+    },
+    {
+      "query": "I've been applying the interdisciplinary approach from my Ph.D. in Cognitive Science at MIT to bridge the gap between artificial intelligence and human cognition research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Expertise Areas**: computer vision, natural language processing\n\n - **Years Of Experience**: 7\n\n - **Favorite Programming Language**: Python\n\n-- **Educational Background**: Ph.D. in Artificial Intelligence from Stanford University\n\n+- **Educational Background**: Ph.D. in Cognitive Science from MIT\n\n - **Patents Held**: 3\n\n - **Hobbies**: rock climbing, digital art\n\n - **Publications**: 8\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my server sharing arrangement - I'm no longer sharing the server with Emily Kim, but now I'm sharing it with Marcus Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,7 +17,7 @@\n \n\n ## Relationships\n\n - **Works_At**: [[nimbusai.md]]\n\n-- **Shares_Server_With**: [[emily_kim.md]]\n\n+- **Shares_Server_With**: [[marcus_rodriguez.md]]\n\n - **Collaborates_On_Model_With**: [[samir_nguyen.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Server_With**: [[alex_chen.md]]\n"
+    },
+    {
+      "query": "Just coordinated with Marcus Rodriguez on our shared server configuration and everything is running smoothly with our new setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,7 +17,7 @@\n \n\n ## Relationships\n\n - **Works_At**: [[nimbusai.md]]\n\n-- **Shares_Server_With**: [[emily_kim.md]]\n\n+- **Shares_Server_With**: [[marcus_rodriguez.md]]\n\n - **Collaborates_On_Model_With**: [[samir_nguyen.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Server_With**: [[alex_chen.md]]\n"
+    },
+    {
+      "query": "I need to update our server sharing arrangement - Riya Patel is no longer sharing the server with me. I'm now sharing it with Marcus Rodriguez instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,7 +17,7 @@\n \n\n ## Relationships\n\n - **Works_At**: [[nimbusai.md]]\n\n-- **Shares_Server_With**: [[emily_kim.md]]\n\n+- **Shares_Server_With**: [[marcus_rodriguez.md]]\n\n - **Collaborates_On_Model_With**: [[samir_nguyen.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Server_With**: [[alex_chen.md]]\n"
+    },
+    {
+      "query": "Marcus Rodriguez and I have been collaborating really well on our shared server setup, and the resource allocation is working much better for both our projects.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,7 +17,7 @@\n \n\n ## Relationships\n\n - **Works_At**: [[nimbusai.md]]\n\n-- **Shares_Server_With**: [[emily_kim.md]]\n\n+- **Shares_Server_With**: [[marcus_rodriguez.md]]\n\n - **Collaborates_On_Model_With**: [[samir_nguyen.md]]\n\n - **Accesses**: [[cloudwave_server_farm.md]]\n\n - **Contributes_To**: [[synapse_code_repository.md]]\n\n\n===entities/marcus_rodriguez.md===\n--- a\n+++ b\n@@ -0,0 +1,7 @@\n+# Marcus Rodriguez\n\n+\n\n+## Basic Information\n\n+- **Type**: Person\n\n+\n\n+## Relationships\n\n+- **Shares_Server_With**: [[alex_chen.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

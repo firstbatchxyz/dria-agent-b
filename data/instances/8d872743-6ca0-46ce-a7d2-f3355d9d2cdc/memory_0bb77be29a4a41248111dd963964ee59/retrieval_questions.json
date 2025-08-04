@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my age?",
+      "a": "17"
+    },
+    {
+      "q": "What is my favorite subject?",
+      "a": "Physics"
+    },
+    {
+      "q": "What is my role in the club?",
+      "a": "Lead Programmer"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Playing video games, Hiking"
+    },
+    {
+      "q": "What is my personal motto?",
+      "a": "Innovate and Inspire"
+    },
+    {
+      "q": "Have I won any awards?",
+      "a": "False"
+    },
+    {
+      "q": "What is my part-time job?",
+      "a": "Caf\u00e9 barista"
+    },
+    {
+      "q": "What is my favorite robotic component?",
+      "a": "Microcontrollers"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of organization is the club that I am a member of?"
+      ],
+      "a": "organization",
+      "attribute": "entity type=organization",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What year was the club I am a member of founded?"
+      ],
+      "a": "2018",
+      "attribute": "foundation year=2018",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "Who is the current president of the club I am a member of?"
+      ],
+      "a": "Haruka Fujimoto",
+      "attribute": "current president=Haruka Fujimoto",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the motto of the club I am a member of?"
+      ],
+      "a": "Innovate, Create, Achieve",
+      "attribute": "motto=Innovate, Create, Achieve",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the weekly meeting schedule of the club I am a member of?"
+      ],
+      "a": "Wednesdays and Saturdays",
+      "attribute": "weekly meeting schedule=Wednesdays and Saturdays",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the club slogan of the organization I am a member of?"
+      ],
+      "a": "Engineering Tomorrow Today",
+      "attribute": "club slogan=Engineering Tomorrow Today",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the average member age of the club I am a member of?"
+      ],
+      "a": "16.4",
+      "attribute": "average member age=16.4",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What are the recent achievements of the club I am a member of?"
+      ],
+      "a": "Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "attribute": "recent achievements=Runner-up in Tokyo Junior Robotics Challenge 2022",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What is the social media handle of the club I am a member of?"
+      ],
+      "a": "@SakuraRobots",
+      "attribute": "social media handle=@SakuraRobots",
+      "path": "Kenji Nakamura -> Sakura Robotics Club"
+    },
+    {
+      "q": [
+        "What type of event am I preparing for?"
+      ],
+      "a": "event",
+      "attribute": "entity type=event",
+      "path": "Kenji Nakamura -> National Robotics Championship"
+    }
+  ]
+}

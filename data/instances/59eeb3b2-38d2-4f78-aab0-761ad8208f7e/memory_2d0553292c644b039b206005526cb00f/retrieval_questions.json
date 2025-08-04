@@ -1,0 +1,126 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my full name?",
+      "a": "Fatima Zayed"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Safety Supervisor"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What certifications do I hold?",
+      "a": "Occupational Safety and Health (OSH)"
+    },
+    {
+      "q": "What languages am I proficient in?",
+      "a": "Arabic, English"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "BSc in Environmental Health and Safety"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "High-rise construction safety"
+    },
+    {
+      "q": "What is my nationality?",
+      "a": "Emirati"
+    },
+    {
+      "q": "What is my communication style?",
+      "a": "Detail-oriented"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Reading, hiking"
+    },
+    {
+      "q": "Who is my favorite author?",
+      "a": "Malcolm Gladwell"
+    },
+    {
+      "q": "What are my work hours?",
+      "a": "7 AM - 5 PM"
+    },
+    {
+      "q": "What is my emergency contact?",
+      "a": "+971 50 123 4567"
+    }
+  ],
+  "1_hop": {
+    "q": [
+      "What are the distribution regions of the company I oversee?"
+    ],
+    "a": "Middle East, North Africa",
+    "attribute": "distribution regions=Middle East, North Africa",
+    "path": "Fatima Zayed -> SteelRidge Safety Gear"
+  },
+  "2_hop": [
+    {
+      "q": "What type of project is the safety gear I oversee used for?",
+      "a": "Project",
+      "attribute": "entity type=Project",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "How many floors does the project have that uses the safety gear I oversee?",
+      "a": "80",
+      "attribute": "total floors=80",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What is the estimated completion year of the project that uses the safety gear I oversee?",
+      "a": "2025",
+      "attribute": "estimated completion year=2025",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What is the budget in millions USD of the project that uses the safety gear I oversee?",
+      "a": "850",
+      "attribute": "budget in millions usd=850",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What is the project inception date of the project that uses the safety gear I oversee?",
+      "a": "2022-01-15",
+      "attribute": "project inception date=2022-01-15",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What is the architectural style of the project that uses the safety gear I oversee?",
+      "a": "Neo-futurism",
+      "attribute": "architectural style=Neo-futurism",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "True or false: Does the project that uses the safety gear I oversee have green building certification?",
+      "a": "True",
+      "attribute": "green building certification=True",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What are the key materials of the project that uses the safety gear I oversee?",
+      "a": "Steel, Glass, Concrete",
+      "attribute": "key materials=Steel, Glass, Concrete",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "Who is the primary contractor of the project that uses the safety gear I oversee?",
+      "a": "Dubai Structural Co.",
+      "attribute": "primary contractor=Dubai Structural Co.",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    },
+    {
+      "q": "What is the height in meters of the project that uses the safety gear I oversee?",
+      "a": "480",
+      "attribute": "height in meters=480",
+      "path": "Fatima Zayed - oversees -> SteelRidge Safety Gear - is used for-> SkyReach 2025"
+    }
+  ]
+}

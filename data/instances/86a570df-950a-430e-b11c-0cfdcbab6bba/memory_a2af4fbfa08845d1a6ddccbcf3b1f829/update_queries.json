@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my occupation information in the system - I'm no longer working as a farmer since I recently became a rural development coordinator for our district.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: farmer\n\n+- **Occupation**: rural development coordinator\n\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n"
+    },
+    {
+      "query": "Starting my new role as a rural development coordinator has been incredibly rewarding, especially since my farming background helps me understand the challenges other farmers face in our community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: farmer\n\n+- **Occupation**: rural development coordinator\n\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n"
+    },
+    {
+      "query": "I need to correct my occupation information in the system - I'm no longer working as a farmer and have transitioned to becoming a veterinarian.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: farmer\n\n+- **Occupation**: veterinarian\n\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n"
+    },
+    {
+      "query": "It's been rewarding using my knowledge of animals and farming background in my new role as a veterinarian, helping treat livestock and pets in our rural community.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Occupation**: farmer\n\n+- **Occupation**: veterinarian\n\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from kite flying and now I'm really into drone photography as my main hobby.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n-- **Hobby**: kite flying\n\n+- **Hobby**: drone photography\n\n - **Community Role**: local water management committee member\n\n - **Favorite Festival**: Holi\n\n - **Educational Level**: primary school\n\n"
+    },
+    {
+      "query": "I've been spending most of my weekends doing drone photography, capturing aerial shots of landscapes and events - it's become such a passionate hobby of mine.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Age**: 42\n\n - **Family Size**: 5\n\n - **Primary Crop**: maize\n\n-- **Hobby**: kite flying\n\n+- **Hobby**: drone photography\n\n - **Community Role**: local water management committee member\n\n - **Favorite Festival**: Holi\n\n - **Educational Level**: primary school\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my ownership information - I no longer share The Village Tractor, I now share ownership of The Village Harvester instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Helps With**: [[laxmi_rabari.md]]\n\n-- **Shares**: [[the_village_tractor.md]]\n\n-- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n+- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n\n+- **Shares**: [[the_village_harvester.md]]\n\n===entities/the_village_harvester.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Village Harvester\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural equipment\n\n+\n\n+## Relationships\n\n+- **Shares**: [[ganpat_singh.md]]\n"
+    },
+    {
+      "query": "The Village Harvester has been working wonderfully for our farming cooperative, and I'm glad we made the decision to upgrade from our old equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Helps With**: [[laxmi_rabari.md]]\n\n-- **Shares**: [[the_village_tractor.md]]\n\n-- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n+- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n\n+- **Shares**: [[the_village_harvester.md]]\n\n===entities/the_village_harvester.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# The Village Harvester\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: agricultural equipment\n\n+\n\n+## Relationships\n\n+- **Shares**: [[ganpat_singh.md]]\n"
+    },
+    {
+      "query": "I need to update my sharing arrangement - I no longer share The Village Tractor, I now share ownership of the community water pump with my neighbors instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Helps With**: [[laxmi_rabari.md]]\n\n-- **Shares**: [[the_village_tractor.md]]\n\n-- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n+- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n\n+- **Shares**: [[community_water_pump.md]]\n\n===entities/community_water_pump.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# community water pump\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: shared resource\n\n+\n\n+## Relationships\n\n+- **Shares**: [[ganpat_singh.md]]\n"
+    },
+    {
+      "query": "The community water pump has been such a blessing for our village - sharing its maintenance and usage with the other families has really brought us closer together.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,5 +14,5 @@\n \n\n ## Relationships\n\n - **Helps With**: [[laxmi_rabari.md]]\n\n-- **Shares**: [[the_village_tractor.md]]\n\n-- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n+- **Celebrates**: [[the_ganesh_chaturthi_festival.md]]\n\n+- **Shares**: [[community_water_pump.md]]\n\n===entities/community_water_pump.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# community water pump\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: shared resource\n\n+\n\n+## Relationships\n\n+- **Shares**: [[ganpat_singh.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

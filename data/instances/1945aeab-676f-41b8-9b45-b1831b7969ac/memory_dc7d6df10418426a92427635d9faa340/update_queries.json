@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my tool preference in the system - my favorite tool is actually the Oscilloscope, not the Digital Multimeter as currently recorded.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n - **Hobby**: Astronomy\n\n-- **Favorite Tool**: Digital Multimeter\n\n+- **Favorite Tool**: Oscilloscope\n\n - **Communication Style**: Collaborative\n\n - **Team Role**: Strategist\n\n \n\n"
+    },
+    {
+      "query": "I've been getting excellent results with my Oscilloscope lately - it's definitely become my go-to instrument for all my electronic diagnostics and signal analysis work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -9,7 +9,7 @@\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n - **Hobby**: Astronomy\n\n-- **Favorite Tool**: Digital Multimeter\n\n+- **Favorite Tool**: Oscilloscope\n\n - **Communication Style**: Collaborative\n\n - **Team Role**: Strategist\n\n \n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from astronomy and now I'm really into urban beekeeping.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise**: Mechanical Systems\n\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n-- **Hobby**: Astronomy\n\n+- **Hobby**: urban beekeeping\n\n - **Favorite Tool**: Digital Multimeter\n\n - **Communication Style**: Collaborative\n\n - **Team Role**: Strategist\n\n"
+    },
+    {
+      "query": "I've been spending all my free time with my urban beekeeping lately, and it's amazing how much you can learn about city ecosystems through maintaining hives.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Expertise**: Mechanical Systems\n\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n-- **Hobby**: Astronomy\n\n+- **Hobby**: urban beekeeping\n\n - **Favorite Tool**: Digital Multimeter\n\n - **Communication Style**: Collaborative\n\n - **Team Role**: Strategist\n\n"
+    },
+    {
+      "query": "I need to update my professional expertise information - my specialization has shifted from Mechanical Systems to Renewable Energy Systems as I've been focusing more on sustainable technology solutions.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Maintenance Planner\n\n - **Age**: 29\n\n - **Years Of Experience**: 6\n\n-- **Expertise**: Mechanical Systems\n\n+- **Expertise**: Renewable Energy Systems\n\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n - **Hobby**: Astronomy\n\n"
+    },
+    {
+      "query": "I've been really enjoying my work in Renewable Energy Systems lately, especially with all the innovative solar and wind projects I've been involved in this year.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Occupation**: Maintenance Planner\n\n - **Age**: 29\n\n - **Years Of Experience**: 6\n\n-- **Expertise**: Mechanical Systems\n\n+- **Expertise**: Renewable Energy Systems\n\n - **Shift**: Night\n\n - **Certification**: NVQ Level 3 in Mechanical Maintenance Engineering\n\n - **Hobby**: Astronomy\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my system access permissions - I no longer have access to the Multi-Station Communication System and now use the Quantum Relay Network instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[jack_turner.md]]\n\n-- **Has_Access_To**: [[multi-station_communication_system.md]]\n\n-- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n+- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n\n+- **Has_Access_To**: [[quantum_relay_network.md]]\n\n===entities/quantum_relay_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Relay Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication system\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[samantha_cole.md]]\n"
+    },
+    {
+      "query": "I've been working more efficiently since getting access to the Quantum Relay Network - the instantaneous data transmission capabilities have really streamlined my operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,5 +15,5 @@\n \n\n ## Relationships\n\n - **Coordinates_With**: [[jack_turner.md]]\n\n-- **Has_Access_To**: [[multi-station_communication_system.md]]\n\n-- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n+- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n\n+- **Has_Access_To**: [[quantum_relay_network.md]]\n\n===entities/quantum_relay_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Relay Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: communication system\n\n+\n\n+## Relationships\n\n+- **Has_Access_To**: [[samantha_cole.md]]\n"
+    },
+    {
+      "query": "I need to update the coordination system I'm using - we've transitioned from the Night Shift Coordination Network to the Emergency Response Command Hub for better efficiency.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Coordinates_With**: [[jack_turner.md]]\n\n - **Has_Access_To**: [[multi-station_communication_system.md]]\n\n-- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n+- **Coordinates_Using**: [[emergency_response_command_hub.md]]\n\n===entities/emergency_response_command_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Response Command Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: coordination system\n\n+\n\n+## Relationships\n\n+- **Coordinates_Using**: [[samantha_cole.md]]\n"
+    },
+    {
+      "query": "I've been really impressed with how the Emergency Response Command Hub has streamlined our operations compared to our previous coordination methods.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -16,4 +16,4 @@\n ## Relationships\n\n - **Coordinates_With**: [[jack_turner.md]]\n\n - **Has_Access_To**: [[multi-station_communication_system.md]]\n\n-- **Coordinates_Using**: [[night_shift_coordination_network.md]]\n+- **Coordinates_Using**: [[emergency_response_command_hub.md]]\n\n===entities/emergency_response_command_hub.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Emergency Response Command Hub\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: coordination system\n\n+\n\n+## Relationships\n\n+- **Coordinates_Using**: [[samantha_cole.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

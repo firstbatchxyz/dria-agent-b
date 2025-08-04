@@ -1,0 +1,31 @@
+{
+  "user_md": "# Lila MacAlister\n\n## Basic Information\n- **Type**: Person\n- **Age**: 46\n- **Role**: Manager\n- **Expertise**: Cattle Ranching and Management\n- **Education**: Bachelor's Degree in Agriculture\n- **Hobbies**: Helicopter Flying, Animal Care\n- **Favorite Animal**: Australian Cattle Dog\n- **Birthplace**: Alice Springs, Northern Territory\n- **Speaks Languages**: English, Basic Aboriginal Dialects\n- **Years Of Experience**: 20\n- **Skills**: Helicopter navigation, Water resource management, Satphone communication\n\n## Relationships\n- **Manages**: [[macalister_cattle_station.md]]",
+  "entities": [
+    {
+      "entity_name": "macalister_cattle_station",
+      "entity_file_path": "entities/macalister_cattle_station.md",
+      "entity_file_content": "# MacAlister Cattle Station\n\n## Basic Information\n- **Entity Type**: Location\n- **Type**: Entity\n- **Area Size**: 2500 square kilometers\n- **Established Year**: 1956\n- **Primary Breed**: Hereford\n- **Average Annual Rainfall**: 350\n- **Number Of Employees**: 18\n- **Main Fuel Source**: diesel\n- **Nearest Town**: Alice Springs\n- **Operation Focus**: sustainable cattle farming\n- **Annual Cattle Export**: 1500\n- **Soil Type**: red desert soil\n\n## Relationships\n- **Manages**: [[lila_macalister.md]]"
+    },
+    {
+      "entity_name": "outback_choppers",
+      "entity_file_path": "entities/outback_choppers.md",
+      "entity_file_content": "# Outback Choppers\n\n## Basic Information\n- **Entity Type**: Service Provider\n- **Type**: Entity\n- **Services Offered**: aerial cattle mustering, emergency medical transport, aerial photography\n- **Number Of Helicopters**: 5\n- **Specialty**: remote area operations\n- **Base Location**: Alice Springs\n- **Year Established**: 1998\n- **Average Annual Flight Hours**: 3000\n- **Company Reputation**: highly reliable and safe service provider in the Outback\n- **Founder**: Emma Thompson\n- **Sustainability Initiatives**: Carbon offset program and use of fuel-efficient aircraft\n\n## Relationships\n- **Contracts**: [[macalister_cattle_station.md]]"
+    },
+    {
+      "entity_name": "aquasure_water_solutions",
+      "entity_file_path": "entities/aquasure_water_solutions.md",
+      "entity_file_content": "# AquaSure Water Solutions\n\n## Basic Information\n- **Entity Type**: Supplier\n- **Type**: Entity\n- **Founding Year**: 2008\n- **Specialty**: advanced water purification systems\n- **Headquarters Location**: Alice Springs, Australia\n- **Number Of Employees**: 35\n- **Core Technology**: reverse osmosis filtration\n\n## Relationships\n- **Contracts**: [[macalister_cattle_station.md]]"
+    },
+    {
+      "entity_name": "skywave_comms",
+      "entity_file_path": "entities/skywave_comms.md",
+      "entity_file_content": "# SkyWave Comms\n\n## Basic Information\n- **Entity Type**: Telecommunications Provider\n- **Type**: Entity\n- **Founded Year**: 1998\n- **Headquarters Location**: Sydney, Australia\n- **Core Service**: Satellite Communications\n- **Number Of Employees**: 350\n- **Satellite Coverage Area**: Global\n- **Notable Technology**: Eco-Link Satellite System\n- **Annual Revenue**: 75 million AUD\n- **Ceo**: Julia Hampton\n\n## Relationships\n- **Contracts**: [[macalister_cattle_station.md]]"
+    },
+    {
+      "entity_name": "ranch_vets_co.",
+      "entity_file_path": "entities/ranch_vets_co..md",
+      "entity_file_content": "# Ranch Vets Co.\n\n## Basic Information\n- **Entity Type**: Veterinary Supplies\n- **Type**: Entity\n- **Headquarters Location**: Alice Springs\n- **Number Of Employees**: 12\n- **Established Year**: 1998\n- **Specialization**: remote cattle veterinary services\n- **Contact Number**: +61 8 8952 1234\n- **Co Founder**: Dr. Sarah Mitchell\n- **Notable Technology**: portable ultrasound devices for field use\n\n## Relationships\n- **Contracts**: [[macalister_cattle_station.md]]"
+    }
+  ],
+  "mem_id": "memory_5f0e4a80791b4ef7ae10b7bb934f72cb"
+}

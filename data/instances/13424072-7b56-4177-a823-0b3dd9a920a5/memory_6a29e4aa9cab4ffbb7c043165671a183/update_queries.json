@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my last name in the system - it should be updated from Anderson to Martinez as I recently got married and changed my surname.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Lucas\n\n-- **Last Name**: Anderson\n\n+- **Last Name**: Martinez\n\n - **Age**: 42\n\n - **Job Title**: Security Supervisor\n\n - **Years Of Experience**: 15\n\n"
+    },
+    {
+      "query": "I've been getting used to signing documents with my new married name, Lucas Martinez, after the wedding ceremony last month.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **First Name**: Lucas\n\n-- **Last Name**: Anderson\n\n+- **Last Name**: Martinez\n\n - **Age**: 42\n\n - **Job Title**: Security Supervisor\n\n - **Years Of Experience**: 15\n\n"
+    },
+    {
+      "query": "I need to correct my first name in the system - it should be updated from Lucas to Alexander.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Lucas\n\n+- **First Name**: Alexander\n\n - **Last Name**: Anderson\n\n - **Age**: 42\n\n - **Job Title**: Security Supervisor\n\n"
+    },
+    {
+      "query": "I've been going by Alexander professionally now, and it's made such a difference in how colleagues and clients perceive me in business meetings.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **First Name**: Lucas\n\n+- **First Name**: Alexander\n\n - **Last Name**: Anderson\n\n - **Age**: 42\n\n - **Job Title**: Security Supervisor\n\n"
+    },
+    {
+      "query": "I need to update my hometown information in the system - I've actually moved from Seattle, WA and now call Portland, Oregon my home.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Certifications**: TSA Advanced Security Certification\n\n - **Shift Schedule**: Night Shift\n\n-- **Hometown**: Seattle, WA\n\n+- **Hometown**: Portland, Oregon\n\n - **Has Security Clearance**: True\n\n - **Interests**: Photography, Hiking\n\n - **Favorite Aircraft**: Boeing 787 Dreamliner\n\n"
+    },
+    {
+      "query": "I've been really enjoying life here in Portland, Oregon - the coffee culture and outdoor scene are incredible compared to what I was used to back in my Seattle days.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Languages Spoken**: English, Spanish\n\n - **Certifications**: TSA Advanced Security Certification\n\n - **Shift Schedule**: Night Shift\n\n-- **Hometown**: Seattle, WA\n\n+- **Hometown**: Portland, Oregon\n\n - **Has Security Clearance**: True\n\n - **Interests**: Photography, Hiking\n\n - **Favorite Aircraft**: Boeing 787 Dreamliner\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my supervision responsibilities - I'm no longer overseeing the TSA Security Scanner, I've been reassigned to supervise the Advanced Biometric Verification System instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n - **Preferred Work Terminal**: Terminal 2\n\n \n\n ## Relationships\n\n-- **Supervises**: [[tsa_security_scanner.md]]\n+- **Supervises**: [[advanced_biometric_verification_system.md]]\n\n===entities/advanced_biometric_verification_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Verification System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[lucas_anderson.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with the Advanced Biometric Verification System under my supervision, and I'm impressed with how much more efficient it is compared to traditional security scanning methods.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n - **Preferred Work Terminal**: Terminal 2\n\n \n\n ## Relationships\n\n-- **Supervises**: [[tsa_security_scanner.md]]\n+- **Supervises**: [[advanced_biometric_verification_system.md]]\n\n===entities/advanced_biometric_verification_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Verification System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[lucas_anderson.md]]\n"
+    },
+    {
+      "query": "I need to update my supervisory responsibilities - I'm no longer supervising the TSA Security Scanner, I've been reassigned to supervise the new Advanced Biometric Screening System.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n - **Preferred Work Terminal**: Terminal 2\n\n \n\n ## Relationships\n\n-- **Supervises**: [[tsa_security_scanner.md]]\n+- **Supervises**: [[advanced_biometric_screening_system.md]]\n\n===entities/advanced_biometric_screening_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Screening System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[lucas_anderson.md]]\n"
+    },
+    {
+      "query": "I've been getting familiar with overseeing the Advanced Biometric Screening System operations, and I'm impressed with how much more efficient this technology is compared to our previous equipment.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -17,4 +17,4 @@\n - **Preferred Work Terminal**: Terminal 2\n\n \n\n ## Relationships\n\n-- **Supervises**: [[tsa_security_scanner.md]]\n+- **Supervises**: [[advanced_biometric_screening_system.md]]\n\n===entities/advanced_biometric_screening_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Biometric Screening System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security equipment\n\n+\n\n+## Relationships\n\n+- **Supervises**: [[lucas_anderson.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# John Carter\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Position**: Check-in Supervisor\n- **Years Of Experience**: 12\n- **Languages Spoken**: English, Spanish, French\n- **Security Clearance Level**: Level 3\n- **Shift**: Morning\n- **Employee Since**: 2012\n- **Favorite Aircraft**: Boeing 787\n- **Hometown**: Chicago, IL\n- **Last Training Date**: 2023-03-15\n- **Passion**: Aviation\n- **Hobby**: Photography\n\n## Relationships\n- **Works_At**: [[delta_check-in_counter.md]]",
+  "entities": [
+    {
+      "entity_name": "delta_check-in_counter",
+      "entity_file_path": "entities/delta_check-in_counter.md",
+      "entity_file_content": "# Delta Check-in Counter\n\n## Basic Information\n- **Entity Type**: Airlines\n- **Type**: Entity\n- **Number Of Counters**: 15\n- **Operational Hours**: 24/7\n- **Location**: Terminal 1, Zone A\n- **Average Daily Passengers Served**: 4500\n- **Service Note**: Friendly staff and quick assistance\n- **Best Time To Check In**: Between 10:00 AM and 12:00 PM\n\n## Relationships\n- **Works_At**: [[john_carter.md]]"
+    }
+  ],
+  "mem_id": "memory_0648a6cdf90e42f5968c312e1639c288"
+}

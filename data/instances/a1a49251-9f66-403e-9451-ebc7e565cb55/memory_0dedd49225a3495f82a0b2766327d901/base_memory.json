@@ -1,0 +1,21 @@
+{
+  "user_md": "# Ellie Marie Summers\n\n## Basic Information\n- **Type**: Person\n- **Age**: 29\n- **Years Of Service**: 7\n- **Hometown**: San Diego, California\n- **Specialty Cuisine**: Italian\n- **Culinary School**: Le Cordon Bleu College of Culinary Arts, San Francisco\n- **Languages Spoken**: English, Spanish\n- **Hobbies**: Painting, Yoga\n- **Favorite Ingredient**: Basil\n- **Signature Dish**: Lemon Garlic Shrimp Pasta\n\n## Relationships\n- **Shares_Quarters_With**: [[chief_engineer_lucy_kowalski.md]]\n- **Manages**: [[galley_alpha-8.md]]\n- **Cooks_For**: [[uss_poseidon.md]]",
+  "entities": [
+    {
+      "entity_name": "chief_engineer_lucy_kowalski",
+      "entity_file_path": "entities/chief_engineer_lucy_kowalski.md",
+      "entity_file_content": "# Lucy Ann Kowalski\n\n## Basic Information\n- **Type**: Person\n- **Rank**: Lieutenant Commander\n- **Age**: 34\n- **Years Of Service**: 12\n- **Education**: M.Sc. in Nuclear Engineering from the Naval Postgraduate School\n- **Hometown**: Seattle, Washington\n- **Languages Spoken**: English, Polish\n- **Hobbies**: Deep-sea diving, Astronomy\n- **Height**: 168.5\n- **Favorite Food**: Sushi\n- **Leadership Style**: Collaborative\n\n## Relationships\n- **Shares_Quarters_With**: [[cook_ellie_summers.md]]"
+    },
+    {
+      "entity_name": "galley_alpha-8",
+      "entity_file_path": "entities/galley_alpha-8.md",
+      "entity_file_content": "# Galley Alpha-8\n\n## Basic Information\n- **Entity Type**: Mess Facility\n- **Type**: Entity\n- **Capacity**: 50\n- **Location**: Deck 2, Section B\n- **Daily Meals Served**: 150\n- **Equipments Available**: combi oven, industrial blender, walk-in cooler\n- **Operational Hours**: 24/7\n- **Specialty Dish**: Pacific Rim Salad\n- **Recent Upgrade Date**: 2023-05-14\n- **Safety Certification**: Certified by Nautical Safety Council 2023\n\n## Relationships\n- **Manages**: [[cook_ellie_summers.md]]"
+    },
+    {
+      "entity_name": "uss_poseidon",
+      "entity_file_path": "entities/uss_poseidon.md",
+      "entity_file_content": "# USS Poseidon\n\n## Basic Information\n- **Entity Type**: Submarine\n- **Type**: Entity\n- **Commission Year**: 2008\n- **Displacement**: 7,800 tons\n- **Length**: 115.0\n- **Crew Capacity**: 134\n- **Armament**: Torpedoes, Tomahawk missiles\n- **Max Depth**: 800 feet\n- **Hull Material**: HY-130 steel\n- **Home Port**: Naval Base Kitsap\n- **Mission Duration**: Up to 90 days\n\n## Relationships\n- **Cooks_For**: [[cook_ellie_summers.md]]"
+    }
+  ],
+  "mem_id": "memory_0dedd49225a3495f82a0b2766327d901"
+}

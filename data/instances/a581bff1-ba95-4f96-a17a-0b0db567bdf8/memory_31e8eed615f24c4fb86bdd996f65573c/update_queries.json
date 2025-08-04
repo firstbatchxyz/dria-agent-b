@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my language information in the system - I actually speak English, Spanish, and Portuguese, not just English and Spanish as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialization**: Diagnostic Imaging\n\n - **Years Of Experience**: 12\n\n - **Education**: MD in Radiology from Harvard Medical School\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Certification**: Board Certified Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n"
+    },
+    {
+      "query": "I've been finding it incredibly helpful being trilingual in English, Spanish, and Portuguese when conducting my international research collaborations.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Specialization**: Diagnostic Imaging\n\n - **Years Of Experience**: 12\n\n - **Education**: MD in Radiology from Harvard Medical School\n\n-- **Languages Spoken**: English, Spanish\n\n+- **Languages Spoken**: English, Spanish, Portuguese\n\n - **Certification**: Board Certified Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n"
+    },
+    {
+      "query": "I need to update my hobbies information in the system - I've moved away from photography and hiking, and now I'm really into astronomy and stargazing.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Certification**: Board Certified Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Astronomy, Stargazing\n\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I spent last night doing some astronomy observations with my new telescope - it's amazing how this hobby has completely replaced my old interests in photography and hiking.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Certification**: Board Certified Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Astronomy, Stargazing\n\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to update my professional certification information - I'm now Board Certified in Interventional Radiology, not just general Radiology as currently listed in the system.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Education**: MD in Radiology from Harvard Medical School\n\n - **Languages Spoken**: English, Spanish\n\n-- **Certification**: Board Certified Radiologist\n\n+- **Certification**: Board Certified Interventional Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n - **Hobbies**: Photography, Hiking\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new role as a Board Certified Interventional Radiologist, especially working with minimally invasive procedures that help patients recover faster.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Years Of Experience**: 12\n\n - **Education**: MD in Radiology from Harvard Medical School\n\n - **Languages Spoken**: English, Spanish\n\n-- **Certification**: Board Certified Radiologist\n\n+- **Certification**: Board Certified Interventional Radiologist\n\n - **Professional Association**: American College of Radiology\n\n - **Published Papers**: 8\n\n - **Hobbies**: Photography, Hiking\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my medical equipment information - I've replaced my old X-Ray Machine with a new Quantum Imaging Scanner for patient examinations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n-- **Examines Patients Using**: [[x-ray_machine.md]]\n+- **Examines Patients Using**: [[quantum_imaging_scanner.md]]\n\n===entities/quantum_imaging_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Imaging Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Examines Patients Using**: [[dr._sofia_garcia.md]]\n"
+    },
+    {
+      "query": "I've been getting excellent diagnostic results using the Quantum Imaging Scanner with my patients - the image quality and reduced radiation exposure have been game-changing for my practice.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n-- **Examines Patients Using**: [[x-ray_machine.md]]\n+- **Examines Patients Using**: [[quantum_imaging_scanner.md]]\n\n===entities/quantum_imaging_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Quantum Imaging Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Examines Patients Using**: [[dr._sofia_garcia.md]]\n"
+    },
+    {
+      "query": "I need to update my diagnostic equipment information - I've replaced the old X-Ray Machine with our new MRI Scanner for more detailed patient examinations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n-- **Examines Patients Using**: [[x-ray_machine.md]]\n+- **Examines Patients Using**: [[mri_scanner.md]]\n\n===entities/mri_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MRI Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Examines Patients Using**: [[dr._sofia_garcia.md]]\n"
+    },
+    {
+      "query": "I'm really impressed with how the MRI Scanner provides such clear, detailed images of soft tissues that help me make more accurate diagnoses for my patients.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n - **Volunteer Work**: Provides free radiology services at a local clinic once a month\n\n \n\n ## Relationships\n\n-- **Examines Patients Using**: [[x-ray_machine.md]]\n+- **Examines Patients Using**: [[mri_scanner.md]]\n\n===entities/mri_scanner.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# MRI Scanner\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: medical equipment\n\n+\n\n+## Relationships\n\n+- **Examines Patients Using**: [[dr._sofia_garcia.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

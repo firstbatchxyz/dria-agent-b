@@ -1,0 +1,118 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Lieutenant Commander"
+    },
+    {
+      "q": "What is my role?",
+      "a": "Aviation Unit Commander"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Air Combat Tactics"
+    },
+    {
+      "q": "Where did I receive my education?",
+      "a": "U.S. Naval Academy"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Top Secret Clearance"
+    },
+    {
+      "q": "What is my hobby?",
+      "a": "Skydiving"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Spanish"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "San Diego, California"
+    },
+    {
+      "q": "What is my call sign?",
+      "a": "Eagle Eye"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the unit type of the group that I report to?"
+      ],
+      "a": "Aviation Unit",
+      "attribute": "entity type=Aviation Unit",
+      "path": "Lt. Cmdr. Jackson Wells -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What is the motto of the group that I report to?"
+      ],
+      "a": "Soaring Together, Unmatched Precision",
+      "attribute": "motto=Soaring Together, Unmatched Precision",
+      "path": "Lt. Cmdr. Jackson Wells -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What year was the group that I report to founded?"
+      ],
+      "a": "1997",
+      "attribute": "founded year=1997",
+      "path": "Lt. Cmdr. Jackson Wells -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "How many squadrons does the group that I report to have?"
+      ],
+      "a": "3",
+      "attribute": "number of squadrons=3",
+      "path": "Lt. Cmdr. Jackson Wells -> Falcon Aviation Group"
+    },
+    {
+      "q": [
+        "What is the primary aircraft of the group that I report to?"
+      ],
+      "a": "AH-64 Apache",
+      "attribute": "primary aircraft=AH-64 Apache",
+      "path": "Lt. Cmdr. Jackson Wells -> Falcon Aviation Group"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of organization is the flight wing that the aviation group I report to uses?",
+      "a": "Flight Wing",
+      "attribute": "entity type=Flight Wing",
+      "path": "Lt. Cmdr. Jackson Wells - reports to -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What year was the flight wing that the aviation group I report to uses founded?",
+      "a": "2004",
+      "attribute": "founding year=2004",
+      "path": "Lt. Cmdr. Jackson Wells - reports to -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What is the primary mission of the flight wing that the aviation group I report to uses?",
+      "a": "Rapid Deployment Air Support",
+      "attribute": "primary mission=Rapid Deployment Air Support",
+      "path": "Lt. Cmdr. Jackson Wells - reports to -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "Who is the commanding officer of the flight wing that the aviation group I report to uses?",
+      "a": "Colonel Elena Gomez",
+      "attribute": "commanding officer=Colonel Elena Gomez",
+      "path": "Lt. Cmdr. Jackson Wells - reports to -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    },
+    {
+      "q": "What is the training focus of the flight wing that the aviation group I report to uses?",
+      "a": "Night Flying Operations",
+      "attribute": "training focus=Night Flying Operations",
+      "path": "Lt. Cmdr. Jackson Wells - reports to -> Falcon Aviation Group - uses-> Icarus Flight Wing"
+    }
+  ]
+}

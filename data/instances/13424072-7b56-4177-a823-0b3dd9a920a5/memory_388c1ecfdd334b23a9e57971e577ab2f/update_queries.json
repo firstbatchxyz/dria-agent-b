@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my job information in the system - I've been promoted from Airfield Lighting Technician to Senior Aviation Electronics Specialist.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Airfield Lighting Technician\n\n+- **Role**: Senior Aviation Electronics Specialist\n\n - **Years Of Experience**: 12\n\n - **Shift Pattern**: night\n\n - **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n"
+    },
+    {
+      "query": "I'm really enjoying the new challenges that come with my role as Senior Aviation Electronics Specialist, especially working with the advanced radar and communication systems.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Airfield Lighting Technician\n\n+- **Role**: Senior Aviation Electronics Specialist\n\n - **Years Of Experience**: 12\n\n - **Shift Pattern**: night\n\n - **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n"
+    },
+    {
+      "query": "I need to update my certification records in the system - I've recently obtained OSHA 30-Hour Construction Safety certification, which should replace my previous Electrical Safety and Advanced Lighting Systems certifications.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Airfield Lighting Technician\n\n - **Years Of Experience**: 12\n\n - **Shift Pattern**: night\n\n-- **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n+- **Certifications**: OSHA 30-Hour Construction Safety\n\n - **Language Skills**: English, Gaelic\n\n - **Emergency Response Team**: True\n\n - **Hobbies**: photography\n\n"
+    },
+    {
+      "query": "I'm really grateful for completing my OSHA 30-Hour Construction Safety certification - it's opened up so many new opportunities in the construction industry and enhanced my safety expertise significantly.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Role**: Airfield Lighting Technician\n\n - **Years Of Experience**: 12\n\n - **Shift Pattern**: night\n\n-- **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n+- **Certifications**: OSHA 30-Hour Construction Safety\n\n - **Language Skills**: English, Gaelic\n\n - **Emergency Response Team**: True\n\n - **Hobbies**: photography\n\n"
+    },
+    {
+      "query": "I need to update my emergency response team status in the system - I'm no longer on the general emergency response team but have been transferred to the specialized Hazmat Response Unit.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shift Pattern**: night\n\n - **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n - **Language Skills**: English, Gaelic\n\n-- **Emergency Response Team**: True\n\n+- **Emergency Response Team**: Hazmat Response Unit\n\n - **Hobbies**: photography\n\n - **Previous Employer**: Dublin International Airport\n\n \n\n"
+    },
+    {
+      "query": "Been really busy lately with my new role on the Hazmat Response Unit - the specialized training and equipment make it quite different from general emergency response work.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shift Pattern**: night\n\n - **Certifications**: Electrical Safety, Advanced Lighting Systems\n\n - **Language Skills**: English, Gaelic\n\n-- **Emergency Response Team**: True\n\n+- **Emergency Response Team**: Hazmat Response Unit\n\n - **Hobbies**: photography\n\n - **Previous Employer**: Dublin International Airport\n\n \n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update what I'm currently monitoring - I'm no longer overseeing the Airfield Lighting System and have been reassigned to monitor the Runway Surface Management System instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Previous Employer**: Dublin International Airport\n\n \n\n ## Relationships\n\n-- **Monitors**: [[airfield_lighting_system.md]]\n+- **Monitors**: [[runway_surface_management_system.md]]\n\n===entities/runway_surface_management_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Runway Surface Management System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: infrastructure system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[patrick_o'leary.md]]\n"
+    },
+    {
+      "query": "Been busy with my new responsibilities monitoring the Runway Surface Management System - it's quite different from my previous assignments but equally critical for airport operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Previous Employer**: Dublin International Airport\n\n \n\n ## Relationships\n\n-- **Monitors**: [[airfield_lighting_system.md]]\n+- **Monitors**: [[runway_surface_management_system.md]]\n\n===entities/runway_surface_management_system.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Runway Surface Management System\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: infrastructure system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[patrick_o'leary.md]]\n"
+    },
+    {
+      "query": "I need to update what I'm currently monitoring - I'm no longer overseeing the Airfield Lighting System, but have transitioned to monitoring the Terminal Security Network instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Previous Employer**: Dublin International Airport\n\n \n\n ## Relationships\n\n-- **Monitors**: [[airfield_lighting_system.md]]\n+- **Monitors**: [[terminal_security_network.md]]\n\n===entities/terminal_security_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Terminal Security Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[patrick_o'leary.md]]\n"
+    },
+    {
+      "query": "Been busy this week coordinating with the team on the Terminal Security Network - it's quite different from my previous responsibilities but equally critical for airport operations.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -12,4 +12,4 @@\n - **Previous Employer**: Dublin International Airport\n\n \n\n ## Relationships\n\n-- **Monitors**: [[airfield_lighting_system.md]]\n+- **Monitors**: [[terminal_security_network.md]]\n\n===entities/terminal_security_network.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Terminal Security Network\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: security system\n\n+\n\n+## Relationships\n\n+- **Monitors**: [[patrick_o'leary.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

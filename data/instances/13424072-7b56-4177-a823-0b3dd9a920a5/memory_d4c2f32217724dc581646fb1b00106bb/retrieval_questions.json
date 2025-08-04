@@ -1,0 +1,70 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my role?",
+      "a": "Customs Manager"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "12"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Hindi, Spanish"
+    },
+    {
+      "q": "What are my shift timings?",
+      "a": "9am - 5pm"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Master's in International Relations"
+    },
+    {
+      "q": "What certification do I hold?",
+      "a": "Certified Customs Specialist"
+    },
+    {
+      "q": "What is my hometown?",
+      "a": "Mumbai, India"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Reading, Hiking, Traveling"
+    },
+    {
+      "q": "What is my favorite airport food?",
+      "a": "Sushi"
+    },
+    {
+      "q": "What is my special achievement?",
+      "a": "Employee of the Year 2022"
+    },
+    {
+      "q": "What is my team size?",
+      "a": "20"
+    },
+    {
+      "q": "What am I known for?",
+      "a": "Efficient problem solving in high-pressure situations"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the type of office that I manage?"
+      ],
+      "a": "Customs",
+      "attribute": "entity type=Customs",
+      "path": "Priya Nair -> Customs Office"
+    },
+    {
+      "q": [
+        "What is the location of the office that I manage?"
+      ],
+      "a": "Terminal 2 - Arrivals",
+      "attribute": "location=Terminal 2 - Arrivals",
+      "path": "Priya Nair -> Customs Office"
+    }
+  ]
+}

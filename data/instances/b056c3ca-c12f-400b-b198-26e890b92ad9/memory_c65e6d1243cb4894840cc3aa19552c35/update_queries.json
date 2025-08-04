@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my professional experience information in the system - I actually have 18 years of experience now, not the 12 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Specialization**: climatology\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 18\n\n - **Hobby**: Alaskan native art\n\n - **Favorite Drill**: ArcticMax Ultra Drill\n\n - **Origin City**: Oslo, Norway\n\n"
+    },
+    {
+      "query": "After 18 years of practicing medicine, I've learned that continuous learning and adaptation are key to providing the best patient care possible.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Specialization**: climatology\n\n-- **Years Of Experience**: 12\n\n+- **Years Of Experience**: 18\n\n - **Hobby**: Alaskan native art\n\n - **Favorite Drill**: ArcticMax Ultra Drill\n\n - **Origin City**: Oslo, Norway\n\n"
+    },
+    {
+      "query": "I need to update my snowmobile preference in the system - I've switched from Yamaha to Ski-Doo as my preferred snowmobile brand.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Field Research Trip Count**: 34\n\n - **Favorite Weather Condition**: clear sky nights\n\n - **Favorite Ice Core Location**: Brooks Range\n\n-- **Preferred Snowmobile Brand**: Yamaha\n\n+- **Preferred Snowmobile Brand**: Ski-Doo\n\n - **Communication Device Preference**: Iridium Satellite Phone\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "Just got back from an amazing Arctic expedition using my Ski-Doo snowmobile - the reliability and performance in extreme conditions really confirmed why it's become my preferred brand for polar research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -10,7 +10,7 @@\n - **Field Research Trip Count**: 34\n\n - **Favorite Weather Condition**: clear sky nights\n\n - **Favorite Ice Core Location**: Brooks Range\n\n-- **Preferred Snowmobile Brand**: Yamaha\n\n+- **Preferred Snowmobile Brand**: Ski-Doo\n\n - **Communication Device Preference**: Iridium Satellite Phone\n\n \n\n ## Relationships\n\n"
+    },
+    {
+      "query": "I need to correct my personal information in the system - I'm actually originally from Bergen, Norway, not Oslo as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Hobby**: Alaskan native art\n\n - **Favorite Drill**: ArcticMax Ultra Drill\n\n-- **Origin City**: Oslo, Norway\n\n+- **Origin City**: Bergen, Norway\n\n - **Field Research Trip Count**: 34\n\n - **Favorite Weather Condition**: clear sky nights\n\n - **Favorite Ice Core Location**: Brooks Range\n\n"
+    },
+    {
+      "query": "Growing up in Bergen, with its stunning fjords and rich maritime history, really shaped my early interest in Nordic environmental research.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Hobby**: Alaskan native art\n\n - **Favorite Drill**: ArcticMax Ultra Drill\n\n-- **Origin City**: Oslo, Norway\n\n+- **Origin City**: Bergen, Norway\n\n - **Field Research Trip Count**: 34\n\n - **Favorite Weather Condition**: clear sky nights\n\n - **Favorite Ice Core Location**: Brooks Range\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my professional affiliation - I'm no longer with the Permafrost Research Initiative and have joined the Arctic Climate Consortium instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Member Of**: [[permafrost_research_initiative.md]]\n+- **Member Of**: [[arctic_climate_consortium.md]]\n\n===entities/arctic_climate_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Member Of**: [[dr._lars_nordvik.md]]\n"
+    },
+    {
+      "query": "I'm excited about the new research opportunities at the Arctic Climate Consortium and how our interdisciplinary approach will advance our understanding of polar climate systems.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Member Of**: [[permafrost_research_initiative.md]]\n+- **Member Of**: [[arctic_climate_consortium.md]]\n\n===entities/arctic_climate_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Member Of**: [[dr._lars_nordvik.md]]\n"
+    },
+    {
+      "query": "I need to update my professional affiliation - I'm no longer with the Permafrost Research Initiative and have joined the Arctic Climate Consortium instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Member Of**: [[permafrost_research_initiative.md]]\n+- **Member Of**: [[arctic_climate_consortium.md]]\n\n===entities/arctic_climate_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Member Of**: [[dr._lars_nordvik.md]]\n"
+    },
+    {
+      "query": "I'm excited about the collaborative research opportunities at the Arctic Climate Consortium and how our interdisciplinary approach will advance our understanding of polar environmental changes.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -15,4 +15,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Member Of**: [[permafrost_research_initiative.md]]\n+- **Member Of**: [[arctic_climate_consortium.md]]\n\n===entities/arctic_climate_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research organization\n\n+\n\n+## Relationships\n\n+- **Member Of**: [[dr._lars_nordvik.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my work schedule in the system - I've been moved from the morning shift to the evening shift starting this week.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Certifications**: Certified Playground Safety Inspector (CPSI)\n\n - **Languages Spoken**: French, English\n\n-- **Shift Schedule**: Morning\n\n+- **Shift Schedule**: Evening\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n - **Hobbies**: Photography, Hiking\n\n \n\n"
+    },
+    {
+      "query": "I'm still adjusting to my new evening shift schedule, but I'm finding that I actually prefer working during these hours when things tend to be a bit quieter.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 12\n\n - **Certifications**: Certified Playground Safety Inspector (CPSI)\n\n - **Languages Spoken**: French, English\n\n-- **Shift Schedule**: Morning\n\n+- **Shift Schedule**: Evening\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n - **Hobbies**: Photography, Hiking\n\n \n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved away from photography and hiking, and I'm now really passionate about pottery and ceramics.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Languages Spoken**: French, English\n\n - **Shift Schedule**: Morning\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Pottery, Ceramics\n\n \n\n ## Relationships\n\n - **Inspects**: [[children\u2019s_play_area.md]]\n"
+    },
+    {
+      "query": "I've been spending all my free time at the pottery studio lately, working on ceramics pieces and really enjoying the meditative aspect of working with clay.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -8,7 +8,7 @@\n - **Languages Spoken**: French, English\n\n - **Shift Schedule**: Morning\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n-- **Hobbies**: Photography, Hiking\n\n+- **Hobbies**: Pottery, Ceramics\n\n \n\n ## Relationships\n\n - **Inspects**: [[children\u2019s_play_area.md]]\n"
+    },
+    {
+      "query": "I need to update my certification information - I've recently obtained my National Playground Safety Institute (NPSI) Advanced Certification, which has replaced my previous CPSI certification.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Facility Inspector\n\n - **Years Of Experience**: 12\n\n-- **Certifications**: Certified Playground Safety Inspector (CPSI)\n\n+- **Certifications**: National Playground Safety Institute (NPSI) Advanced Certification\n\n - **Languages Spoken**: French, English\n\n - **Shift Schedule**: Morning\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n"
+    },
+    {
+      "query": "I'm excited to apply the advanced safety protocols I learned through my National Playground Safety Institute (NPSI) Advanced Certification to ensure even better playground safety standards.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Role**: Facility Inspector\n\n - **Years Of Experience**: 12\n\n-- **Certifications**: Certified Playground Safety Inspector (CPSI)\n\n+- **Certifications**: National Playground Safety Institute (NPSI) Advanced Certification\n\n - **Languages Spoken**: French, English\n\n - **Shift Schedule**: Morning\n\n - **Favorite Coffee Spot**: Terminal C Caf\u00e9\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my inspection responsibilities - I'm no longer inspecting the Children's Play Area, but I've been assigned to inspect the Community Swimming Pool instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Hobbies**: Photography, Hiking\n\n \n\n ## Relationships\n\n-- **Inspects**: [[children\u2019s_play_area.md]]\n+- **Inspects**: [[community_swimming_pool.md]]\n\n===entities/community_swimming_pool.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Swimming Pool\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: recreational facility\n\n+\n\n+## Relationships\n\n+- **Inspects**: [[amina_sylla.md]]\n"
+    },
+    {
+      "query": "Had a productive day inspecting the Community Swimming Pool today - the new filtration system is working perfectly and all safety protocols are being followed properly.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Hobbies**: Photography, Hiking\n\n \n\n ## Relationships\n\n-- **Inspects**: [[children\u2019s_play_area.md]]\n+- **Inspects**: [[community_swimming_pool.md]]\n\n===entities/community_swimming_pool.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Swimming Pool\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: recreational facility\n\n+\n\n+## Relationships\n\n+- **Inspects**: [[amina_sylla.md]]\n"
+    },
+    {
+      "query": "I need to update my inspection records - I'm no longer responsible for the Children's Play Area, but I've been assigned to inspect the Community Sports Complex instead.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Hobbies**: Photography, Hiking\n\n \n\n ## Relationships\n\n-- **Inspects**: [[children\u2019s_play_area.md]]\n+- **Inspects**: [[community_sports_complex.md]]\n\n===entities/community_sports_complex.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Sports Complex\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: recreational facility\n\n+\n\n+## Relationships\n\n+- **Inspects**: [[amina_sylla.md]]\n"
+    },
+    {
+      "query": "I had a thorough inspection of the Community Sports Complex today and I'm pleased to report that all facilities are meeting our safety standards and maintenance requirements.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -11,4 +11,4 @@\n - **Hobbies**: Photography, Hiking\n\n \n\n ## Relationships\n\n-- **Inspects**: [[children\u2019s_play_area.md]]\n+- **Inspects**: [[community_sports_complex.md]]\n\n===entities/community_sports_complex.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Community Sports Complex\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: recreational facility\n\n+\n\n+## Relationships\n\n+- **Inspects**: [[amina_sylla.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

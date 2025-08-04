@@ -1,0 +1,110 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my rank?",
+      "a": "Major"
+    },
+    {
+      "q": "What is my specialization?",
+      "a": "Logistics"
+    },
+    {
+      "q": "How many years have I served?",
+      "a": "15"
+    },
+    {
+      "q": "What is my educational background?",
+      "a": "Master's Degree in Business Administration"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Hindi, English, Spanish"
+    },
+    {
+      "q": "What was my previous assignment?",
+      "a": "Operation Desert Shield"
+    },
+    {
+      "q": "Where was I born?",
+      "a": "Ahmedabad, India"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "photography, hiking"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What is the unit type of the logistics unit that I am responsible for?"
+      ],
+      "a": "Logistics Unit",
+      "attribute": "entity type=Logistics Unit",
+      "path": "Maj. Rajesh Patel -> Iron Shield Logistics Battalion"
+    },
+    {
+      "q": [
+        "What is the year formed of the logistics unit that I am responsible for?"
+      ],
+      "a": "1998",
+      "attribute": "year formed=1998",
+      "path": "Maj. Rajesh Patel -> Iron Shield Logistics Battalion"
+    },
+    {
+      "q": [
+        "What is the number of personnel in the logistics unit that I am responsible for?"
+      ],
+      "a": "450",
+      "attribute": "number of personnel=450",
+      "path": "Maj. Rajesh Patel -> Iron Shield Logistics Battalion"
+    },
+    {
+      "q": [
+        "What is the primary mission of the logistics unit that I am responsible for?"
+      ],
+      "a": "to ensure efficient supply chain management for operational readiness across the military installation",
+      "attribute": "primary mission=to ensure efficient supply chain management for operational readiness across the military installation",
+      "path": "Maj. Rajesh Patel -> Iron Shield Logistics Battalion"
+    },
+    {
+      "q": [
+        "What is the notable operation of the logistics unit that I am responsible for?"
+      ],
+      "a": "Operation Iron Dawn",
+      "attribute": "notable operation=Operation Iron Dawn",
+      "path": "Maj. Rajesh Patel -> Iron Shield Logistics Battalion"
+    }
+  ],
+  "2_hop": [
+    {
+      "q": "What type of facility logistically supports the battalion I am responsible for?",
+      "a": "Logistics Depot",
+      "attribute": "entity type=Logistics Depot",
+      "path": "Maj. Rajesh Patel - is responsible for -> Iron Shield Logistics Battalion - logistically supports-> Dragon Logistics Depot"
+    },
+    {
+      "q": "Where is the facility located that logistically supports the battalion I am responsible for?",
+      "a": "Eastern Sector, near Runway 4",
+      "attribute": "location=Eastern Sector, near Runway 4",
+      "path": "Maj. Rajesh Patel - is responsible for -> Iron Shield Logistics Battalion - logistically supports-> Dragon Logistics Depot"
+    },
+    {
+      "q": "When was the facility established that logistically supports the battalion I am responsible for?",
+      "a": "1995",
+      "attribute": "established year=1995",
+      "path": "Maj. Rajesh Patel - is responsible for -> Iron Shield Logistics Battalion - logistically supports-> Dragon Logistics Depot"
+    },
+    {
+      "q": "What is the operational capacity of the facility that logistically supports the battalion I am responsible for?",
+      "a": "high-volume logistics operations",
+      "attribute": "operational capacity=high-volume logistics operations",
+      "path": "Maj. Rajesh Patel - is responsible for -> Iron Shield Logistics Battalion - logistically supports-> Dragon Logistics Depot"
+    },
+    {
+      "q": "What special feature does the facility have that logistically supports the battalion I am responsible for?",
+      "a": "integrated AI management system for logistics",
+      "attribute": "special feature=integrated AI management system for logistics",
+      "path": "Maj. Rajesh Patel - is responsible for -> Iron Shield Logistics Battalion - logistically supports-> Dragon Logistics Depot"
+    }
+  ]
+}

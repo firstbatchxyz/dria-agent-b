@@ -1,0 +1,47 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to correct my role information in the system - I've actually been promoted to safety lead, so the current record showing I'm not in that position needs to be updated.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n - **Languages Spoken**: English, Arabic\n\n-- **Is Safety Lead**: False\n\n+- **Is Safety Lead**: True\n\n - **Favorite Aircraft**: Boeing 747\n\n - **Hobbies**: photography, reading\n\n - **Employee Of The Month**: True\n\n"
+    },
+    {
+      "query": "I've been implementing new safety protocols across our department since taking on my role as safety lead, and the results have been really encouraging.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -7,7 +7,7 @@\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n - **Languages Spoken**: English, Arabic\n\n-- **Is Safety Lead**: False\n\n+- **Is Safety Lead**: True\n\n - **Favorite Aircraft**: Boeing 747\n\n - **Hobbies**: photography, reading\n\n - **Employee Of The Month**: True\n\n"
+    },
+    {
+      "query": "I need to update my professional experience in the system - I actually have 15 years of experience now, not the 12 years that's currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Fuel Truck Driver\n\n-- **Experience Years**: 12\n\n+- **Experience Years**: 15\n\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n - **Languages Spoken**: English, Arabic\n\n"
+    },
+    {
+      "query": "I've been reflecting on how my 15 years of experience in the field has really shaped my expertise and approach to complex projects.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -3,7 +3,7 @@\n ## Basic Information\n\n - **Type**: Person\n\n - **Role**: Fuel Truck Driver\n\n-- **Experience Years**: 12\n\n+- **Experience Years**: 15\n\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n - **Languages Spoken**: English, Arabic\n\n"
+    },
+    {
+      "query": "I need to update my employment information in the system - I'm no longer working as a Fuel Truck Driver, I've been promoted to Fleet Operations Supervisor.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Fuel Truck Driver\n\n+- **Role**: Fleet Operations Supervisor\n\n - **Experience Years**: 12\n\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n"
+    },
+    {
+      "query": "I've been really enjoying my new responsibilities as Fleet Operations Supervisor, overseeing the entire vehicle fleet and coordinating with multiple drivers across different routes.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -2,7 +2,7 @@\n \n\n ## Basic Information\n\n - **Type**: Person\n\n-- **Role**: Fuel Truck Driver\n\n+- **Role**: Fleet Operations Supervisor\n\n - **Experience Years**: 12\n\n - **Shift Pattern**: night\n\n - **Certifications**: Hazardous Materials Handling\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my vehicle assignment in the system - I'm no longer driving Fuel Truck 18, I've been reassigned to operate Mobile Crane Unit 7.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Employee Of The Month**: True\n\n \n\n ## Relationships\n\n-- **Drives**: [[fuel_truck_18.md]]\n+- **Drives**: [[mobile_crane_unit_7.md]]\n\n===entities/mobile_crane_unit_7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mobile Crane Unit 7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[mohammed_hassan.md]]\n"
+    },
+    {
+      "query": "Just finished my first week operating Mobile Crane Unit 7 and I'm really enjoying the new challenges that come with handling the crane operations compared to my previous fuel delivery routes.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Employee Of The Month**: True\n\n \n\n ## Relationships\n\n-- **Drives**: [[fuel_truck_18.md]]\n+- **Drives**: [[mobile_crane_unit_7.md]]\n\n===entities/mobile_crane_unit_7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mobile Crane Unit 7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: construction vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[mohammed_hassan.md]]\n"
+    },
+    {
+      "query": "I need to update my vehicle assignment in the system - I'm no longer driving Fuel Truck 18, I've been assigned to operate the new Mobile Refueling Unit 7.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Employee Of The Month**: True\n\n \n\n ## Relationships\n\n-- **Drives**: [[fuel_truck_18.md]]\n+- **Drives**: [[mobile_refueling_unit_7.md]]\n\n===entities/mobile_refueling_unit_7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mobile Refueling Unit 7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[mohammed_hassan.md]]\n"
+    },
+    {
+      "query": "Just finished my first week operating Mobile Refueling Unit 7 and I'm really impressed with how much more efficient the new equipment is compared to the older trucks.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -13,4 +13,4 @@\n - **Employee Of The Month**: True\n\n \n\n ## Relationships\n\n-- **Drives**: [[fuel_truck_18.md]]\n+- **Drives**: [[mobile_refueling_unit_7.md]]\n\n===entities/mobile_refueling_unit_7.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Mobile Refueling Unit 7\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: vehicle\n\n+\n\n+## Relationships\n\n+- **Drives**: [[mohammed_hassan.md]]\n"
+    }
+  ],
+  "2_hop": []
+}

@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Ana Silva",
+      "type": "Person",
+      "full_name": "Ana Maria Silva",
+      "age": 31,
+      "occupation": "Electrician",
+      "hobbies": "painting and dancing samba",
+      "has_children": true,
+      "community_role": "Community Outreach Organizer",
+      "skills": "Electrical maintenance and soccer coaching",
+      "pet": "a small parrot named Azul",
+      "favorite_food": "Feijoada",
+      "background": "Originally from Bahia, moved to the favela 10 years ago",
+      "languages_spoken": "Portuguese and basic Spanish"
+    },
+    {
+      "id": "p2",
+      "name": "Carlos Mendes",
+      "type": "Person",
+      "full_name": "Carlos Henrique Mendes",
+      "age": 29,
+      "occupation": "Soccer Coach",
+      "hobbies": "playing guitar and gardening",
+      "community_role": "Event Coordinator",
+      "skills": "event planning and conflict resolution",
+      "favorite_food": "Moqueca",
+      "languages_spoken": "Portuguese and English",
+      "background": "Born and raised in the favela, with a passion for community development",
+      "has_children": false
+    },
+    {
+      "id": "p3",
+      "name": "Rosa Almeida",
+      "type": "Person",
+      "full_name": "Rosa Maria Almeida",
+      "age": 37,
+      "profession": "Community Organizer",
+      "hobbies": "Gardening",
+      "favorite_sport": "Soccer",
+      "children": 2,
+      "years_in_community": 12,
+      "education_level": "High School Diploma",
+      "food_preference": "Vegetarian"
+    },
+    {
+      "id": "p4",
+      "name": "Jorge Santos",
+      "type": "Person",
+      "full_name": "Jorge Luiz Santos",
+      "age": 34,
+      "profession": "Handyman",
+      "hobbies": "Soccer and guitar playing",
+      "years_in_community": 15,
+      "household_size": 5,
+      "education_level": "Vocational Training in Construction",
+      "favorite_food": "Moqueca",
+      "languages_spoken": "Portuguese and some English",
+      "community_role": "Volunteer Repair Specialist",
+      "pet": "a rescued dog named Bolinha",
+      "background": "Born and raised in the same favela"
+    },
+    {
+      "id": "p5",
+      "name": "Luiza Pereira",
+      "type": "Person",
+      "full_name": "Luiza Maria Pereira",
+      "age": 34,
+      "occupation": "Community Organizer",
+      "hobbies": "dancing, cooking, and hiking",
+      "community_role": "Childcare Coordinator",
+      "skills": "public speaking and water resource management",
+      "favorite_food": "Feijoada",
+      "languages_spoken": "Portuguese and Spanish",
+      "background": "Moved to the favela at the age of 12 and has been actively involved in community activities since",
+      "has_children": true
+    },
+    {
+      "id": "e1",
+      "name": "Community Center of Vila Esperança",
+      "entity_type": "building",
+      "type": "Entity",
+      "construction_year": 1995,
+      "capacity": 150,
+      "primary_use": "Gatherings and classes",
+      "facilities": "Kitchen, meeting room, sports field",
+      "hours_of_operation": "8 AM to 10 PM",
+      "accessibility_features": "Wheelchair ramp, braille signs"
+    },
+    {
+      "id": "e2",
+      "name": "Vila Esperança Soccer Field",
+      "entity_type": "recreational area",
+      "type": "Entity",
+      "location": "Central zone of the favela",
+      "operating_hours": "6 AM to 9 PM",
+      "surface_type": "Artificial grass",
+      "capacity": 150,
+      "established_year": 1995,
+      "facilities": "Seating area, lighting, equipment rental",
+      "community_events": "Annual Soccer Festival, weekly youth training sessions",
+      "maintained_by": "Local community volunteers"
+    },
+    {
+      "id": "e3",
+      "name": "Water Connectors Network",
+      "entity_type": "infrastructure",
+      "type": "Entity",
+      "location": "central community zone",
+      "capacity": 200,
+      "maintenance_schedule": "monthly",
+      "established_year": 2005,
+      "operational_hours": "24/7",
+      "water_source": "municipal supply",
+      "usage_cost": "community funded",
+      "technology": "solar powered pump system"
+    },
+    {
+      "id": "e4",
+      "name": "Tools and Resources Cooperative",
+      "entity_type": "local organization",
+      "type": "Entity",
+      "established_year": 2010,
+      "membership_count": 75,
+      "primary_objective": "Resource sharing and community support",
+      "meeting_schedule": "Bi-weekly on Saturdays",
+      "founding_members": "12 community leaders",
+      "types_of_tools_available": "Gardening, Construction, Household, Electrical",
+      "membership_fee": "Voluntary donation",
+      "location": "Community Center Basement",
+      "success_story": "Assisted in setting up a children's playground",
+      "collaboration_with": "Local school and art clubs"
+    },
+    {
+      "id": "e5",
+      "name": "Favela Lighting Collective",
+      "entity_type": "initiative",
+      "type": "Entity",
+      "mission": "To provide affordable and reliable lighting solutions in the favela",
+      "founding_year": 2015,
+      "number_of_members": 25,
+      "projects_undertaken": "Overhead solar street lights",
+      "community_impact": "Reduced electricity costs for community members by 30%",
+      "workshop_location": "Within the community center",
+      "annual_events": "Light Festival, Energy Efficiency Workshop"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "shares_resources_with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "member_of",
+      "o": "e5"
+    },
+    {
+      "s": "p1",
+      "p": "helps_maintain",
+      "o": "e5"
+    },
+    {
+      "s": "p2",
+      "p": "organizes_event_at",
+      "o": "e1"
+    },
+    {
+      "s": "p2",
+      "p": "mentors",
+      "o": "p5"
+    },
+    {
+      "s": "p3",
+      "p": "borrows_tools_from",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "seeks_childcare_help_from",
+      "o": "p4"
+    },
+    {
+      "s": "p3",
+      "p": "organizes",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "joins_soccer_match_at",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "shares_energy_with",
+      "o": "p1"
+    },
+    {
+      "s": "p5",
+      "p": "participates_in",
+      "o": "e3"
+    },
+    {
+      "s": "p5",
+      "p": "assists_with",
+      "o": "e1"
+    }
+  ]
+}

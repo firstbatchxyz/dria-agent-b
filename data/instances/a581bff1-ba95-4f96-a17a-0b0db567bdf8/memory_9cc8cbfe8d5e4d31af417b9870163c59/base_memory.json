@@ -1,0 +1,11 @@
+{
+  "user_md": "# Olivia Gomez\n\n## Basic Information\n- **Type**: Person\n- **Role**: Nurse\n- **Department**: Pediatrics\n- **Years Of Experience**: 8\n- **Specialty**: Pediatric Medicine\n- **Certifications**: PALS (Pediatric Advanced Life Support)\n- **Shift**: Night\n- **Language Spoken**: Spanish\n- **Education**: Bachelor of Science in Nursing\n- **Hobbies**: Volunteering at local shelters\n- **Known For**: Excellent bedside manner with children\n\n## Relationships\n- **Administers Medication Using**: [[pharmaceutical_cart_b.md]]",
+  "entities": [
+    {
+      "entity_name": "pharmaceutical_cart_b",
+      "entity_file_path": "entities/pharmaceutical_cart_b.md",
+      "entity_file_content": "# Pharmaceutical Cart B\n\n## Basic Information\n- **Entity Type**: Pharmaceuticals\n- **Type**: Entity\n- **Capacity**: 3.5\n- **Location**: Pediatrics Wing, Floor 2\n- **Manufacturer**: MediSafety Co.\n- **Supply Type**: Pediatric Pharmaceuticals\n- **Last Serviced Date**: 2023-07-15\n\n## Relationships\n- **Administers Medication Using**: [[nurse_olivia_gomez.md]]"
+    }
+  ],
+  "mem_id": "memory_9cc8cbfe8d5e4d31af417b9870163c59"
+}

@@ -1,0 +1,11 @@
+{
+  "user_md": "# Benjamin Clark\n\n## Basic Information\n- **Type**: Person\n- **Occupation**: Nurse\n- **Age**: 32\n- **Department**: Pediatrics\n- **Expertise**: Neonatal Care\n- **Years Of Experience**: 7\n- **Shift**: Night\n- **Certifications**: Registered Nurse (RN), Pediatric Advanced Life Support (PALS)\n- **Hobbies**: photography, hiking\n- **Works With Technology**: True\n- **Languages Spoken**: English, Spanish\n- **Attended University**: University of Pennsylvania School of Nursing\n- **Performance Rating**: Excellent\n\n## Relationships\n- **Monitors**: [[patient_monitoring_system.md]]",
+  "entities": [
+    {
+      "entity_name": "patient_monitoring_system",
+      "entity_file_path": "entities/patient_monitoring_system.md",
+      "entity_file_content": "# Patient Monitoring System\n\n## Basic Information\n- **Entity Type**: Technology\n- **Type**: Entity\n- **Brand**: MediMonitor\n- **Model**: ProCare X200\n- **Installation Year**: 2021\n- **Maintenance Schedule**: Quarterly\n- **Connected To Network**: True\n- **Battery Backup Duration Hours**: 4\n- **Features**: real-time data, wireless connectivity, automatic alerts, multi-parameter monitoring\n- **Location**: Pediatrics Department\n- **Software Version**: v3.5.2\n- **Warranty Status**: Active\n\n## Relationships\n- **Monitors**: [[benjamin_clark.md]]"
+    }
+  ],
+  "mem_id": "memory_0222a79e83f1423a8c0b645d6a1e71a4"
+}

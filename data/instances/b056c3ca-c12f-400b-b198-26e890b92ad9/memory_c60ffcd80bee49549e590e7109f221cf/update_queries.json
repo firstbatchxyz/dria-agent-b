@@ -1,0 +1,56 @@
+{
+  "0_hop": [
+    {
+      "query": "I need to update my equipment preferences in the system - my favorite drill is now the CryoMax-7 Deep Ice Extractor, not the Nova-5 Ice Core Drill as currently listed.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialization**: climatology\n\n - **Years Of Experience**: 10\n\n - **Hobby**: ice sculpting\n\n-- **Favorite Drill**: Nova-5 Ice Core Drill\n\n+- **Favorite Drill**: CryoMax-7 Deep Ice Extractor\n\n - **Origin City**: Kuala Lumpur, Malaysia\n\n - **Field Research Trip Count**: 18\n\n - **Favorite Weather Condition**: clear Arctic sky\n\n"
+    },
+    {
+      "query": "I've been having incredible success with the CryoMax-7 Deep Ice Extractor on my recent Antarctic expeditions - the precision and depth capability really make it my go-to tool for ice core sampling.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -5,7 +5,7 @@\n - **Specialization**: climatology\n\n - **Years Of Experience**: 10\n\n - **Hobby**: ice sculpting\n\n-- **Favorite Drill**: Nova-5 Ice Core Drill\n\n+- **Favorite Drill**: CryoMax-7 Deep Ice Extractor\n\n - **Origin City**: Kuala Lumpur, Malaysia\n\n - **Field Research Trip Count**: 18\n\n - **Favorite Weather Condition**: clear Arctic sky\n\n"
+    },
+    {
+      "query": "I need to correct my origin information in the system - I'm actually from Singapore, not Kuala Lumpur, Malaysia as currently listed in my profile.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 10\n\n - **Hobby**: ice sculpting\n\n - **Favorite Drill**: Nova-5 Ice Core Drill\n\n-- **Origin City**: Kuala Lumpur, Malaysia\n\n+- **Origin City**: Singapore\n\n - **Field Research Trip Count**: 18\n\n - **Favorite Weather Condition**: clear Arctic sky\n\n - **Preferred Commute Method**: snowmobile\n\n"
+    },
+    {
+      "query": "Growing up in Singapore really shaped my multicultural perspective on medical research, especially given the city-state's unique blend of Eastern and Western healthcare approaches.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -6,7 +6,7 @@\n - **Years Of Experience**: 10\n\n - **Hobby**: ice sculpting\n\n - **Favorite Drill**: Nova-5 Ice Core Drill\n\n-- **Origin City**: Kuala Lumpur, Malaysia\n\n+- **Origin City**: Singapore\n\n - **Field Research Trip Count**: 18\n\n - **Favorite Weather Condition**: clear Arctic sky\n\n - **Preferred Commute Method**: snowmobile\n\n"
+    },
+    {
+      "query": "I need to update my hobby information in the system - I've moved on from ice sculpting and now I'm really into competitive origami.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Specialization**: climatology\n\n - **Years Of Experience**: 10\n\n-- **Hobby**: ice sculpting\n\n+- **Hobby**: competitive origami\n\n - **Favorite Drill**: Nova-5 Ice Core Drill\n\n - **Origin City**: Kuala Lumpur, Malaysia\n\n - **Field Research Trip Count**: 18\n\n"
+    },
+    {
+      "query": "I spent the entire weekend perfecting my latest competitive origami piece for the upcoming regional tournament - it's amazing how this art form challenges both precision and creativity.",
+      "diff": "==='user.md'===\n--- a\n+++ b\n@@ -4,7 +4,7 @@\n - **Type**: Person\n\n - **Specialization**: climatology\n\n - **Years Of Experience**: 10\n\n-- **Hobby**: ice sculpting\n\n+- **Hobby**: competitive origami\n\n - **Favorite Drill**: Nova-5 Ice Core Drill\n\n - **Origin City**: Kuala Lumpur, Malaysia\n\n - **Field Research Trip Count**: 18\n\n"
+    }
+  ],
+  "1_hop": [
+    {
+      "query": "I need to update my research equipment information - I'm no longer working with the Satellite Weather Station, but have transitioned to using the Advanced Climate Monitoring Array for my atmospheric studies.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Researches With**: [[satellite_weather_station.md]]\n+- **Researches With**: [[advanced_climate_monitoring_array.md]]\n\n===entities/advanced_climate_monitoring_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Climate Monitoring Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research equipment\n\n+\n\n+## Relationships\n\n+- **Researches With**: [[dr._mei-lin_chao.md]]\n"
+    },
+    {
+      "query": "I've been getting incredible data from the Advanced Climate Monitoring Array lately - this new equipment is really enhancing my atmospheric research capabilities compared to my previous setup.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Researches With**: [[satellite_weather_station.md]]\n+- **Researches With**: [[advanced_climate_monitoring_array.md]]\n\n===entities/advanced_climate_monitoring_array.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Climate Monitoring Array\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research equipment\n\n+\n\n+## Relationships\n\n+- **Researches With**: [[dr._mei-lin_chao.md]]\n"
+    },
+    {
+      "query": "I need to update my research equipment information - I'm no longer working with the Satellite Weather Station and have transitioned to using the Advanced Climate Modeling Supercomputer for my atmospheric research.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Researches With**: [[satellite_weather_station.md]]\n+- **Researches With**: [[advanced_climate_modeling_supercomputer.md]]\n\n===entities/advanced_climate_modeling_supercomputer.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Climate Modeling Supercomputer\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research equipment\n\n+\n\n+## Relationships\n\n+- **Researches With**: [[dr._mei-lin_chao.md]]\n"
+    },
+    {
+      "query": "The data processing capabilities of the Advanced Climate Modeling Supercomputer have revolutionized my climate pattern analysis, allowing me to run much more complex atmospheric simulations than before.",
+      "diff": "===user.md===\n--- a\n+++ b\n@@ -14,4 +14,4 @@\n \n\n ## Relationships\n\n - **Collaborates With**: [[dr._amelia_frost.md]]\n\n-- **Researches With**: [[satellite_weather_station.md]]\n+- **Researches With**: [[advanced_climate_modeling_supercomputer.md]]\n\n===entities/advanced_climate_modeling_supercomputer.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Advanced Climate Modeling Supercomputer\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research equipment\n\n+\n\n+## Relationships\n\n+- **Researches With**: [[dr._mei-lin_chao.md]]\n"
+    }
+  ],
+  "2_hop": [
+    {
+      "query": "I need to update the information about our Satellite Weather Station's data usage - the Permafrost Research Initiative has concluded, and we're now providing data for the Arctic Climate Modeling Consortium instead.",
+      "diff": "===entities/satellite_weather_station.md===\n\n===entities/arctic_climate_modeling_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Modeling Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research consortium\n\n+\n\n+## Relationships\n\n+- **Provides Data For**: [[satellite_weather_station.md]]\n"
+    },
+    {
+      "query": "I'm excited about our collaboration with the Arctic Climate Modeling Consortium - the satellite data we're collecting is proving invaluable for their advanced climate prediction models.",
+      "diff": "===entities/satellite_weather_station.md===\n\n===entities/arctic_climate_modeling_consortium.md===\n--- a\n+++ b\n@@ -0,0 +1,8 @@\n+# Arctic Climate Modeling Consortium\n\n+\n\n+## Basic Information\n\n+- **Type**: Entity\n\n+- **Entity Type**: research consortium\n\n+\n\n+## Relationships\n\n+- **Provides Data For**: [[satellite_weather_station.md]]\n"
+    }
+  ]
+}

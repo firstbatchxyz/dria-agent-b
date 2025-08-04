@@ -1,0 +1,21 @@
+{
+  "user_md": "# Mohammed Hussain\n\n## Basic Information\n- **Type**: Person\n- **Age**: 45\n- **Occupation**: Livestock Manager\n- **Favorite Festival**: Diwali\n- **Hobbies**: Kite Flying, Organizing Wrestling Matches\n- **Family Members**: 6\n- **Native Language**: Urdu\n- **Special Skill**: Animal Husbandry\n- **Community Role**: Community Mediator\n- **Birthplace**: Ajmer, Rajasthan\n- **Education Level**: High School Graduate\n\n## Relationships\n- **Collaborates With**: [[rani_dholakia.md]]\n- **Uses**: [[the_livestock_pen.md]]\n- **Assists During**: [[the_harvest_barn.md]]",
+  "entities": [
+    {
+      "entity_name": "rani_dholakia",
+      "entity_file_path": "entities/rani_dholakia.md",
+      "entity_file_content": "# Rani Dholakia\n\n## Basic Information\n- **Type**: Person\n- **Age**: 34\n- **Occupation**: Agriculture Specialist\n- **Favorite Festival**: Ganesh Chaturthi\n- **Hobbies**: Traditional Dance, Singing Folk Songs\n- **Family Members**: 5\n- **Native Language**: Marwari\n- **Special Skill**: Rangoli Art\n- **Community Role**: Festival Organizer\n- **Birthplace**: Kishangarh, Rajasthan\n\n## Relationships\n- **Collaborates With**: [[mohammed_hussain.md]]"
+    },
+    {
+      "entity_name": "the_livestock_pen",
+      "entity_file_path": "entities/the_livestock_pen.md",
+      "entity_file_content": "# The Livestock Pen\n\n## Basic Information\n- **Entity Type**: Animal Housing\n- **Type**: Entity\n- **Capacity**: 50 animals\n- **Construction Material**: Bamboo and Thatch\n- **Maintenance Schedule**: Bi-weekly cleaning and semi-annual repairs\n- **Solar Panel Installed**: True\n- **Water Supply Type**: Groundwater well\n- **First Established**: 1998\n\n## Relationships\n- **Uses**: [[mohammed_hussain.md]]"
+    },
+    {
+      "entity_name": "the_harvest_barn",
+      "entity_file_path": "entities/the_harvest_barn.md",
+      "entity_file_content": "# The Harvest Barn\n\n## Basic Information\n- **Entity Type**: Storage Facility\n- **Type**: Entity\n- **Storage Capacity**: 5000\n- **Primary Use**: Grain Storage\n- **Construction Year**: 1995\n- **Builder Name**: Rajasthan Agricultural Development Cooperative\n- **Material Used**: Brick and Mortar\n- **Hours Of Operation**: 6 AM - 8 PM\n- **Solar Powered**: True\n- **Village Importance**: High\n- **Annual Maintenance Schedule**: Post-Harvest Season\n- **Water Harvesting System**: True\n\n## Relationships\n- **Assists During**: [[mohammed_hussain.md]]"
+    }
+  ],
+  "mem_id": "memory_e48c34bc92944b6995cc4a383faee295"
+}

@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "p1",
+      "name": "Dr. Amelia Frost",
+      "type": "Person",
+      "specialization": "glaciology",
+      "years_of_experience": 15,
+      "hobby": "wildlife photography",
+      "favorite_drill": "Electra-2 Ice Core Drill",
+      "origin_city": "Seattle, Washington",
+      "field_research_trip_count": 27,
+      "favorite_weather_condition": "blizzard conditions"
+    },
+    {
+      "id": "p2",
+      "name": "Dr. Lars Nordvik",
+      "type": "Person",
+      "specialization": "climatology",
+      "years_of_experience": 12,
+      "hobby": "Alaskan native art",
+      "favorite_drill": "ArcticMax Ultra Drill",
+      "origin_city": "Oslo, Norway",
+      "field_research_trip_count": 34,
+      "favorite_weather_condition": "clear sky nights",
+      "favorite_ice_core_location": "Brooks Range",
+      "preferred_snowmobile_brand": "Yamaha",
+      "communication_device_preference": "Iridium Satellite Phone"
+    },
+    {
+      "id": "p3",
+      "name": "Dr. Mei-Lin Chao",
+      "type": "Person",
+      "specialization": "climatology",
+      "years_of_experience": 10,
+      "hobby": "ice sculpting",
+      "favorite_drill": "Nova-5 Ice Core Drill",
+      "origin_city": "Kuala Lumpur, Malaysia",
+      "field_research_trip_count": 18,
+      "favorite_weather_condition": "clear Arctic sky",
+      "preferred_commute_method": "snowmobile",
+      "favorite_data_analysis_software": "ClimateAnalyzer Pro"
+    },
+    {
+      "id": "p4",
+      "name": "Dr. Rajesh Thakkar",
+      "type": "Person",
+      "age": 42,
+      "nationality": "Indian",
+      "specialization": "Glaciology",
+      "years_of_experience": 18,
+      "hobbies": "photography, hiking",
+      "alma_mater": "Indian Institute of Technology",
+      "known_for": "Developing innovative ice core extraction techniques",
+      "favorite_travel_destination": "Norwegian Fjords",
+      "contribution_to_station": "Developed a sustainable waste reduction program",
+      "email": "r.thakkar@climatestation.ak"
+    },
+    {
+      "id": "p5",
+      "name": "Dr. Anika Schwarz",
+      "type": "Person",
+      "occupation": "Climate Scientist",
+      "nationality": "German",
+      "employment": "Arctic Research Institute",
+      "specialization": "Permafrost and Climate Change",
+      "years_of_experience": 12,
+      "favorite_snowmobile": "Polaris Titan",
+      "communication_languages": "English, German",
+      "hobbies": "Cross-country skiing",
+      "published_papers": 27
+    },
+    {
+      "id": "e1",
+      "name": "Ice Core Drill",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "weight": "150 kg",
+      "model": "PolarEx Drill 3000",
+      "manufacturer": "ArcticTech Industries",
+      "year_purchased": 2021,
+      "drilling_depth_capacity": "1200 meters",
+      "recent_maintenance_date": "2023-07-15",
+      "power_source": "Diesel-electric hybrid",
+      "noise_level_during_operation": "65 dB",
+      "safety_features": "Integrated auto-shutoff and minimal vibration design",
+      "primary_user_expertise": "Glaciology and Paleoclimatology",
+      "storage_location": "Equipment Shed B"
+    },
+    {
+      "id": "e2",
+      "name": "Satellite Weather Station",
+      "entity_type": "Equipment",
+      "type": "Entity",
+      "satellite_type": "geostationary",
+      "data_upload_frequency": "hourly",
+      "installation_year": 2012,
+      "temperature_range": "-60 to 20°C",
+      "location": "latitude 71.3°N, longitude 156.8°W",
+      "power_source": "solar and wind hybrid",
+      "primary_sensor": "infrared radiometer",
+      "maintenance_schedule": "bi-annual",
+      "data_storage_capacity": "2 TB",
+      "last_maintenance_date": "2023-04-15"
+    },
+    {
+      "id": "e3",
+      "name": "Snowmobile Fleet",
+      "entity_type": "Transportation",
+      "type": "Entity",
+      "fleet_size": 15,
+      "models_available": "Polaris Titan, Ski-Doo Summit, Arctic Cat Pantera",
+      "average_capacity": 2,
+      "maintenance_schedule": "bi-monthly",
+      "last_serviced_date": "2023-09-15",
+      "primary_usage": "field research transportation"
+    },
+    {
+      "id": "e4",
+      "name": "Permafrost Research Initiative",
+      "entity_type": "Research Program",
+      "type": "Entity",
+      "budget": "5 million USD annually",
+      "research_focus": "Permafrost dynamics and climate impact",
+      "collaborating_institutions": "Arctic Research Institute, International Climatology Network",
+      "duration": "2005-present",
+      "notable_contribution": "First comprehensive permafrost temperature map of Alaska",
+      "field_station_location": "North Slope, Alaska",
+      "annual_publications": 15,
+      "community_outreach": "Annual educational workshops for Alaskan communities"
+    },
+    {
+      "id": "e5",
+      "name": "Global Climate Communication Network",
+      "entity_type": "Communication System",
+      "type": "Entity",
+      "communication_protocol": "Satellite-based Communication",
+      "coverage_area": "Global",
+      "establishment_year": 2012,
+      "partner_organizations": "28",
+      "data_encryption_standard": "AES-256",
+      "primary_function": "Facilitating Climate Data Exchange",
+      "headquarters_location": "Oslo, Norway"
+    }
+  ],
+  "edges": [
+    {
+      "s": "p1",
+      "p": "collaborates with",
+      "o": "p2"
+    },
+    {
+      "s": "p1",
+      "p": "collaborates with",
+      "o": "p3"
+    },
+    {
+      "s": "p2",
+      "p": "member of",
+      "o": "e4"
+    },
+    {
+      "s": "p3",
+      "p": "researches with",
+      "o": "e2"
+    },
+    {
+      "s": "p4",
+      "p": "uses",
+      "o": "e1"
+    },
+    {
+      "s": "p4",
+      "p": "member of",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "leads",
+      "o": "e4"
+    },
+    {
+      "s": "p5",
+      "p": "communicates via",
+      "o": "e5"
+    },
+    {
+      "s": "e1",
+      "p": "used in",
+      "o": "e4"
+    },
+    {
+      "s": "e2",
+      "p": "provides data for",
+      "o": "e4"
+    },
+    {
+      "s": "e3",
+      "p": "used by",
+      "o": "p1"
+    },
+    {
+      "s": "e3",
+      "p": "used by",
+      "o": "p5"
+    }
+  ]
+}

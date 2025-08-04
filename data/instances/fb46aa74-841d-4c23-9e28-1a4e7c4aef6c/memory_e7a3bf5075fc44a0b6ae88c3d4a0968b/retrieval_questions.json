@@ -1,0 +1,52 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Conveyor System Operator"
+    },
+    {
+      "q": "What is my education level?",
+      "a": "Bachelor's Degree in Mechanical Engineering"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "7"
+    },
+    {
+      "q": "What certifications do I have?",
+      "a": "Certified Conveyor Operations Specialist"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "Arabic, English"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Robotics, Painting"
+    },
+    {
+      "q": "When did I complete my safety training?",
+      "a": "2023-06-15"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Evening"
+    },
+    {
+      "q": "Am I an innovation initiative leader?",
+      "a": "True"
+    },
+    {
+      "q": "How am I involved in the community?",
+      "a": "Volunteers at local community center"
+    }
+  ],
+  "1_hop": {
+    "q": [
+      "What are the operational hours of the transport system I operate?"
+    ],
+    "a": "24/7",
+    "attribute": "operational hours=24/7",
+    "path": "Fatima Al-Hashimi -> ECO-Tech Conveyor"
+  }
+}

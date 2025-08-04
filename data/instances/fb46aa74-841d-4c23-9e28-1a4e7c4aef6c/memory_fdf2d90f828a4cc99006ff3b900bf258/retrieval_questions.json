@@ -1,0 +1,94 @@
+{
+  "0_hop": [
+    {
+      "q": "What is my occupation?",
+      "a": "Maintenance Technician"
+    },
+    {
+      "q": "What is my age?",
+      "a": "37"
+    },
+    {
+      "q": "What is my education?",
+      "a": "Degree in Mechanical Engineering"
+    },
+    {
+      "q": "How many years of experience do I have?",
+      "a": "15"
+    },
+    {
+      "q": "What are my certifications?",
+      "a": "OSHA Safety Certification, Certified Maintenance and Reliability Professional (CMRP)"
+    },
+    {
+      "q": "What are my hobbies?",
+      "a": "Gardening, Photography"
+    },
+    {
+      "q": "What is my favorite tool?",
+      "a": "PulseWrench"
+    },
+    {
+      "q": "What shift do I work?",
+      "a": "Night Shift"
+    },
+    {
+      "q": "What languages do I speak?",
+      "a": "English, Swedish"
+    },
+    {
+      "q": "What recent training have I completed?",
+      "a": "Advanced Robotics Maintenance workshop"
+    },
+    {
+      "q": "What team am I on?",
+      "a": "Equipment Maintenance Crew"
+    },
+    {
+      "q": "What city do I live in?",
+      "a": "Detroit, Michigan"
+    }
+  ],
+  "1_hop": [
+    {
+      "q": [
+        "What type of tool do I use?"
+      ],
+      "a": "Power Tool",
+      "attribute": "entity type=Power Tool",
+      "path": "Ingrid Nordstrom -> PulseWrench"
+    },
+    {
+      "q": [
+        "What is the power rating of the tool I use?"
+      ],
+      "a": "500 Watts",
+      "attribute": "power rating=500 Watts",
+      "path": "Ingrid Nordstrom -> PulseWrench"
+    },
+    {
+      "q": [
+        "What is the weight of the tool I use?"
+      ],
+      "a": "1.2 kg",
+      "attribute": "weight=1.2 kg",
+      "path": "Ingrid Nordstrom -> PulseWrench"
+    },
+    {
+      "q": [
+        "Who is the manufacturer of the tool I use?"
+      ],
+      "a": "TorquePro",
+      "attribute": "manufacturer=TorquePro",
+      "path": "Ingrid Nordstrom -> PulseWrench"
+    },
+    {
+      "q": [
+        "What is the model year of the tool I use?"
+      ],
+      "a": "2021",
+      "attribute": "model year=2021",
+      "path": "Ingrid Nordstrom -> PulseWrench"
+    }
+  ]
+}
