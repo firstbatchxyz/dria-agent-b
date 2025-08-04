@@ -7,6 +7,11 @@ include .env
 MODE ?= mixed
 CATEGORY ?= retrieval
 
+# Evaluation variables
+MODEL ?= qwen/qwen3-8b
+USE_VLLM ?= 
+ADD_THINK ?=
+
 # Help command
 help:
 	@echo "Usage: make <target>"
@@ -17,20 +22,21 @@ help:
 	@echo "  4. setup-memory - Setup memory from instances"
 	@echo "  5. remove-vllm-error - Remove vllm error check"
 	@echo "  6. format-data - Format dataset with mixed mode → data/openrlhf/mixed/"
-	@echo "  7. format-data-ordered - Format dataset with ordered mode → data/openrlhf/ordered/"
-	@echo "  8. format-data-retrieval-only - Format dataset with retrieval only → data/openrlhf/one-category/retrieval/"
-	@echo "  9. format-data-update-only - Format dataset with update only → data/openrlhf/one-category/update/"
-	@echo "  10. train - Run training with mixed mode (default)"
-	@echo "  11. train-mixed - Run training with mixed mode"
-	@echo "  12. train-ordered - Run training with ordered mode" 
-	@echo "  13. train-retrieval-only - Run training with retrieval data only"
-	@echo "  14. train-update-only - Run training with update data only"
+	@echo "  10. train - Run training with mixed mode"
+	@echo "  11. eval - Run evaluation on QA datasets"
 	@echo ""
 	@echo "Training mode variables:"
 	@echo "  MODE - Set training mode (mixed, ordered, one-category)"
 	@echo "  CATEGORY - Set category for one-category mode (retrieval, update)"
 	@echo "  Usage: make train MODE=ordered"
 	@echo "         make train MODE=one-category CATEGORY=update"
+	@echo ""
+	@echo "Evaluation variables:"
+	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
+	@echo "  USE_VLLM - Set to any value to use vLLM for inference"
+	@echo "  ADD_THINK - Set to any value to add '/think' suffix to prompts"
+	@echo "  Usage: make eval MODEL=qwen/qwen3-8b"
+	@echo "         make eval USE_VLLM=1 ADD_THINK=1"
 
 # Check if uv is installed and install if needed
 check-uv:
@@ -112,3 +118,18 @@ train-retrieval-only:
 
 train-update-only:
 	@$(MAKE) train MODE=one-category CATEGORY=update
+
+# Evaluation target
+eval:
+	@echo "Starting evaluation with model: $(MODEL)..."
+	@EVAL_ARGS="--model $(MODEL)"; \
+	if [ -n "$(USE_VLLM)" ]; then \
+		EVAL_ARGS="$$EVAL_ARGS --use-vllm"; \
+		echo "Using vLLM for inference"; \
+	fi; \
+	if [ -n "$(ADD_THINK)" ]; then \
+		EVAL_ARGS="$$EVAL_ARGS --add-think"; \
+		echo "Adding '/think' suffix to prompts"; \
+	fi; \
+	echo "Running: uv run --project agent evaluation/evaluate.py $$EVAL_ARGS"; \
+	uv run --project agent evaluation/evaluate.py $$EVAL_ARGS

@@ -22,6 +22,9 @@ uv.lock
 # memory
 memory/
 
+# tmp
+tmp_work/
+
 # .DS_Store
 .DS_Store
 **/.DS_Store
