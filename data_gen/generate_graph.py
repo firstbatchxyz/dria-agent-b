@@ -185,7 +185,7 @@ class KGBuildDriver:
                     )
                     s_id = [node["id"] for node in nodes if node["name"] == e.subject_id]
                     if not s_id:
-                        print(f"✖ Subject name {e.s} not found in nodes.")
+                        print(f"✖ Subject name {e.subject_id} not found in nodes.")
                         continue
                     s_id = s_id[0]
                 else:
@@ -196,7 +196,7 @@ class KGBuildDriver:
                     )
                     o_id = [node["id"] for node in nodes if node["name"] == e.object_id]
                     if not o_id:
-                        print(f"✖ Object name {e.o} not found in nodes.")
+                        print(f"✖ Object name {e.object_id} not found in nodes.")
                         continue
                     o_id = o_id[0]
                 else:
