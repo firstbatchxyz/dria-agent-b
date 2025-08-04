@@ -7,6 +7,8 @@ dependencies = [
     "pydantic>=2.0.0",
     "python-dotenv",
     "aiofiles",
+    "jinja2",
+    "black",
 ]
 requires-python = ">=3.8"
 
