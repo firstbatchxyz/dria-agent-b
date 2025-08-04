@@ -5,7 +5,6 @@ include .env
 
 # Training mode variables
 MODE ?= mixed
-CATEGORY ?= retrieval
 
 # Evaluation variables
 MODEL ?= qwen/qwen3-8b
@@ -82,18 +81,6 @@ format-data:
 	@echo "Formatting dataset with mixed mode (default)..."
 	uv run --project agent python training/scripts/format_dataset.py --mode mixed
 
-format-data-ordered:
-	@echo "Formatting dataset with ordered mode (retrieval first, then update)..."
-	uv run --project agent python training/scripts/format_dataset.py --mode ordered
-
-format-data-retrieval-only:
-	@echo "Formatting dataset with retrieval data only..."
-	uv run --project agent python training/scripts/format_dataset.py --mode one-category --category retrieval
-
-format-data-update-only:
-	@echo "Formatting dataset with update data only..."
-	uv run --project agent python training/scripts/format_dataset.py --mode one-category --category update
-
 # Run the training script with mode support
 train:
 	@echo "Starting training with mode: $(MODE)..."
@@ -106,18 +93,6 @@ train:
 	chmod +x train_agent.sh; \
 	WANDB_API_KEY=$(WANDB_API_KEY) PROMPT_DATA_PATH=$$PROMPT_DATA_PATH ./train_agent.sh
 
-# Training targets for different modes
-train-mixed:
-	@$(MAKE) train MODE=mixed
-
-train-ordered:
-	@$(MAKE) train MODE=ordered
-
-train-retrieval-only:
-	@$(MAKE) train MODE=one-category CATEGORY=retrieval
-
-train-update-only:
-	@$(MAKE) train MODE=one-category CATEGORY=update
 
 # Evaluation target
 eval:
