@@ -14,13 +14,13 @@ from tqdm import tqdm
 import networkx as nx
 from dotenv import load_dotenv
 
-from data_gen.llm import QuestionReformat
-from data_gen.generate_graph import KGBuildDriver, ConsistencyChecker
-from data_gen.generate_md import generate_markdown_kb_json
-from data_gen.generate_qa import generate_retrieval_attr_qas
-from data_gen.generate_update import select_random_path_attrs, find_neighbor_by_edge
-from data_gen.diff import diff_strings
-from data_gen.configs import CONFIGS
+from llm import QuestionReformat
+from generate_graph import KGBuildDriver, ConsistencyChecker
+from generate_md import generate_markdown_kb_json
+from generate_qa import generate_retrieval_attr_qas
+from generate_update import select_random_path_attrs, find_neighbor_by_edge
+from diff import diff_strings
+from configs import CONFIGS
 
 # --- Constants ---
 NODE_TYPE_PERSON = "person"

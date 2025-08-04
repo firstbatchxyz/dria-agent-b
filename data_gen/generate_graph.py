@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 from jsonschema import validate, ValidationError  # pip install jsonschema
 from pydantic import BaseModel, ValidationError as PydanticValidationError, Field
 from openai import OpenAI  # or any LLM client
-from data_gen.graph import KG
-from data_gen.llm import LLM
+from graph import KG
+from llm import LLM
 
 load_dotenv()
 

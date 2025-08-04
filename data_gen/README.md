@@ -86,6 +86,8 @@ Example world:
 Execute the `run.py` script from the root directory. Using the `-m` flag ensures that Python's module import system works correctly.
 
 ```bash
+cd data_gen
+uv sync
 uv run data_gen.run
 ```
 
