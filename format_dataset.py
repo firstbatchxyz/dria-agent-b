@@ -4,8 +4,8 @@ format_dataset.py
 Convert example_data/ multi-memory structure -> data/openrlhf/train.jsonl and valid.jsonl
 """
 
-import argparse, json, pathlib
-from typing import List, Dict, Any
+import argparse, json, pathlib, random
+from typing import List, Dict, Any, Tuple
 
 from training.utils import TaskType, construct_label
 
@@ -40,11 +40,11 @@ def load_memory_data(memory_dir: pathlib.Path) -> Dict[str, Any]:
         "update": update_data
     }
 
-def process_retrieval_questions(memory_data: Dict[str, Any], sys_prompt: str) -> List[Dict[str, Any]]:
-    """Process retrieval questions for a memory in hop order (0, 1, 2)."""
-    records = []
+def process_retrieval_questions(memory_data: Dict[str, Any], sys_prompt: str) -> Dict[str, List[Dict[str, Any]]]:
+    """Process retrieval questions for a memory, organized by hop level."""
     memory_id = memory_data["memory_id"]
     retrieval_data = memory_data["retrieval"]
+    hop_records = {"0_hop": [], "1_hop": [], "2_hop": []}
     
     # Process in order: 0_hop, 1_hop, 2_hop
     for hop_level in ["0_hop", "1_hop", "2_hop"]:
@@ -76,20 +76,20 @@ def process_retrieval_questions(memory_data: Dict[str, Any], sys_prompt: str) ->
                             ],
                             "label": construct_label(TaskType.RETRIEVAL, item["a"], memory_id)
                         }
-                        records.append(record)
+                        hop_records[hop_level].append(record)
                 except Exception as e:
                     print(f"Error processing {hop_level} item {i} in memory {memory_id}: {e}")
                     print(f"Item type: {type(item)}, Item content: {item}")
                     print(f"Hop data type: {type(hop_data)}, Hop data: {hop_data}")
                     raise
     
-    return records
+    return hop_records
 
-def process_update_queries(memory_data: Dict[str, Any], sys_prompt: str) -> List[Dict[str, Any]]:
-    """Process update queries for a memory in hop order (0, 1, 2)."""
-    records = []
+def process_update_queries(memory_data: Dict[str, Any], sys_prompt: str) -> Dict[str, List[Dict[str, Any]]]:
+    """Process update queries for a memory, organized by hop level."""
     memory_id = memory_data["memory_id"]
     update_data = memory_data["update"]
+    hop_records = {"0_hop": [], "1_hop": [], "2_hop": []}
     
     # Process in order: 0_hop, 1_hop, 2_hop
     for hop_level in ["0_hop", "1_hop", "2_hop"]:
@@ -112,16 +112,71 @@ def process_update_queries(memory_data: Dict[str, Any], sys_prompt: str) -> List
                     ],
                     "label": construct_label(TaskType.UPDATE, item["diff"], memory_id)
                 }
-                records.append(record)
+                hop_records[hop_level].append(record)
     
-    return records
+    return hop_records
+
+def combine_data_mixed(all_retrieval_hops: Dict[str, List[Dict[str, Any]]], 
+                      all_update_hops: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+    """Combine retrieval and update data mixed by hop level (0_hop first, then 1_hop, then 2_hop)."""
+    combined_records = []
+    
+    # Process each hop level in order
+    for hop_level in ["0_hop", "1_hop", "2_hop"]:
+        # Combine retrieval and update records for this hop level
+        hop_records = all_retrieval_hops[hop_level] + all_update_hops[hop_level]
+        # Shuffle the combined records for this hop
+        random.shuffle(hop_records)
+        # Add shuffled records to combined list
+        combined_records.extend(hop_records)
+    
+    return combined_records
+
+def combine_data_ordered(all_retrieval_hops: Dict[str, List[Dict[str, Any]]], 
+                        all_update_hops: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+    """Combine retrieval and update data ordered by category (retrieval first, then update)."""
+    combined_records = []
+    
+    # Add all retrieval records (already in hop order)
+    for hop_level in ["0_hop", "1_hop", "2_hop"]:
+        combined_records.extend(all_retrieval_hops[hop_level])
+    
+    # Add all update records (already in hop order)
+    for hop_level in ["0_hop", "1_hop", "2_hop"]:
+        combined_records.extend(all_update_hops[hop_level])
+    
+    return combined_records
+
+def combine_data_one_category(data_hops: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+    """Combine data from one category only, ordered by hop level."""
+    combined_records = []
+    
+    # Add records in hop order
+    for hop_level in ["0_hop", "1_hop", "2_hop"]:
+        combined_records.extend(data_hops[hop_level])
+    
+    return combined_records
+
+def split_data(records: List[Dict[str, Any]], train_ratio: float = 0.97) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Split data into train and validation sets."""
+    train_size = int(len(records) * train_ratio)
+    return records[:train_size], records[train_size:]
 
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--input_dir", default="data/instances")
     p.add_argument("--prompt", default="agent/system_prompt.txt")
     p.add_argument("--out_dir", default="data/openrlhf")
+    p.add_argument("--mode", default="mixed", choices=["mixed", "ordered", "one-category"],
+                   help="Data generation mode: mixed (interleave by hop), ordered (retrieval first), one-category (single type)")
+    p.add_argument("--category", default=None, choices=["retrieval", "update"],
+                   help="Category to use for one-category mode (required if mode=one-category)")
     args = p.parse_args()
+
+    # Validate arguments
+    if args.mode == "one-category" and args.category is None:
+        print("Error: --category must be specified when using --mode one-category")
+        return
 
     # Load system prompt
     sys_prompt = pathlib.Path(args.prompt).read_text(encoding="utf-8").strip()
@@ -157,9 +212,9 @@ def main():
         print(f"No memory directories found in {args.input_dir}")
         return
     
-    # Collect retrieval and update records separately to ensure even distribution
-    all_retrieval_records = []
-    all_update_records = []
+    # Initialize data structures to collect records by hop level
+    all_retrieval_hops = {"0_hop": [], "1_hop": [], "2_hop": []}
+    all_update_hops = {"0_hop": [], "1_hop": [], "2_hop": []}
     
     # Sort memory directories by name for consistent ordering
     memory_dirs.sort(key=lambda x: x.name)
@@ -172,62 +227,80 @@ def main():
             # Load memory data
             memory_data = load_memory_data(memory_dir)
             
-            # Process retrieval questions first (0, 1, 2 hop order)
-            retrieval_records = process_retrieval_questions(memory_data, sys_prompt)
-            all_retrieval_records.extend(retrieval_records)
+            # Process retrieval questions organized by hop level
+            if args.mode != "one-category" or args.category == "retrieval":
+                retrieval_hops = process_retrieval_questions(memory_data, sys_prompt)
+                for hop_level in ["0_hop", "1_hop", "2_hop"]:
+                    all_retrieval_hops[hop_level].extend(retrieval_hops[hop_level])
+                
+                total_retrieval = sum(len(records) for records in retrieval_hops.values())
+                print(f"  - Added {total_retrieval} retrieval records")
             
-            # Then process update queries (0, 1, 2 hop order)
-            update_records = process_update_queries(memory_data, sys_prompt)
-            all_update_records.extend(update_records)
+            # Process update queries organized by hop level
+            if args.mode != "one-category" or args.category == "update":
+                update_hops = process_update_queries(memory_data, sys_prompt)
+                for hop_level in ["0_hop", "1_hop", "2_hop"]:
+                    all_update_hops[hop_level].extend(update_hops[hop_level])
+                
+                total_update = sum(len(records) for records in update_hops.values())
+                print(f"  - Added {total_update} update records")
             
-            print(f"  - Added {len(retrieval_records)} retrieval records")
-            print(f"  - Added {len(update_records)} update records")
         except FileNotFoundError as e:
             print(f"  - Skipped: {e}")
             skipped_count += 1
             continue
 
-    # Split each task type separately: 90% train, 10% validation
-    retrieval_train_size = int(len(all_retrieval_records) * 0.97)
-    update_train_size = int(len(all_update_records) * 0.97)
-    
-    retrieval_train = all_retrieval_records[:retrieval_train_size]
-    retrieval_valid = all_retrieval_records[retrieval_train_size:]
-    
-    update_train = all_update_records[:update_train_size]
-    update_valid = all_update_records[update_train_size:]
-    
-    # Combine train and validation sets maintaining order: retrieval first, then update
-    train_records = retrieval_train + update_train
-    valid_records = retrieval_valid + update_valid
+    # Combine data based on mode
+    if args.mode == "mixed":
+        all_records = combine_data_mixed(all_retrieval_hops, all_update_hops)
+        print(f"Using mixed mode: interleaving retrieval and update by hop level")
+    elif args.mode == "ordered":
+        all_records = combine_data_ordered(all_retrieval_hops, all_update_hops)
+        print(f"Using ordered mode: retrieval first, then update")
+    elif args.mode == "one-category":
+        if args.category == "retrieval":
+            all_records = combine_data_one_category(all_retrieval_hops)
+            print(f"Using one-category mode: retrieval only")
+        else:  # args.category == "update"
+            all_records = combine_data_one_category(all_update_hops)
+            print(f"Using one-category mode: update only")
 
+    # Split into train and validation sets
+    train_records, valid_records = split_data(all_records)
+
+    # Construct output directory path based on mode
+    if args.mode == "one-category":
+        output_dir = pathlib.Path(args.out_dir) / "one-category" / args.category
+    else:
+        output_dir = pathlib.Path(args.out_dir) / args.mode
+    
     # Create output directory
-    pathlib.Path(args.out_dir).mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
     
     # Write train.jsonl
-    train_path = pathlib.Path(args.out_dir) / "train.jsonl"
+    train_path = output_dir / "train.jsonl"
     with train_path.open("w", encoding="utf-8") as fh:
         for record in train_records:
             fh.write(json.dumps(record, ensure_ascii=False) + "\n")
     
     # Write valid.jsonl
-    valid_path = pathlib.Path(args.out_dir) / "valid.jsonl"
+    valid_path = output_dir / "valid.jsonl"
     with valid_path.open("w", encoding="utf-8") as fh:
         for record in valid_records:
             fh.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-    total_records = len(all_retrieval_records) + len(all_update_records)
+    # Calculate statistics
+    total_retrieval = sum(len(records) for records in all_retrieval_hops.values())
+    total_update = sum(len(records) for records in all_update_hops.values())
     
     print(f"\n✓ wrote {train_path} ({len(train_records)} records)")
-    print(f"  - Retrieval: {len(retrieval_train)} records")
-    print(f"  - Update: {len(update_train)} records")
     print(f"✓ wrote {valid_path} ({len(valid_records)} records)")
-    print(f"  - Retrieval: {len(retrieval_valid)} records")
-    print(f"  - Update: {len(update_valid)} records")
-    print(f"✓ total records processed: {total_records}")
+    print(f"✓ total records processed: {len(all_records)}")
+    if args.mode != "one-category":
+        print(f"  - Retrieval: {total_retrieval} records")
+        print(f"  - Update: {total_update} records")
     print(f"✓ memories processed: {len(memory_dirs) - skipped_count}, skipped: {skipped_count}")
-    print(f"✓ data ordering: retrieval (0,1,2 hop) then update (0,1,2 hop) for each memory")
-    print(f"✓ even distribution maintained in train/validation split")
+    print(f"✓ data ordering: {args.mode} mode" + (f" ({args.category} only)" if args.mode == "one-category" else ""))
 
 if __name__ == "__main__":
     main()

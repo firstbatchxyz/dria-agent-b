@@ -12,7 +12,11 @@ help:
 	@echo "  3. install - Install dependencies using uv"
 	@echo "  4. setup-memory - Setup memory from instances"
 	@echo "  5. remove-vllm-error - Remove vllm error check"
-	@echo "  6. train - Run the training script"
+	@echo "  6. format-data - Format dataset with mixed mode → data/openrlhf/mixed/"
+	@echo "  7. format-data-ordered - Format dataset with ordered mode → data/openrlhf/ordered/"
+	@echo "  8. format-data-retrieval-only - Format dataset with retrieval only → data/openrlhf/one-category/retrieval/"
+	@echo "  9. format-data-update-only - Format dataset with update only → data/openrlhf/one-category/update/"
+	@echo "  10. train - Run the training script"
 
 # Check if uv is installed and install if needed
 check-uv:
@@ -52,6 +56,23 @@ setup-memory:
 
 remove-vllm-error:
 	python3 remove_vllm_error.py
+
+# Format dataset with different modes
+format-data:
+	@echo "Formatting dataset with mixed mode (default)..."
+	uv run --project agent python format_dataset.py --mode mixed
+
+format-data-ordered:
+	@echo "Formatting dataset with ordered mode (retrieval first, then update)..."
+	uv run --project agent python format_dataset.py --mode ordered
+
+format-data-retrieval-only:
+	@echo "Formatting dataset with retrieval data only..."
+	uv run --project agent python format_dataset.py --mode one-category --category retrieval
+
+format-data-update-only:
+	@echo "Formatting dataset with update data only..."
+	uv run --project agent python format_dataset.py --mode one-category --category update
 
 # Run the training script
 train:
