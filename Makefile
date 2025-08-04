@@ -3,6 +3,10 @@
 
 include .env
 
+# Training mode variables
+MODE ?= mixed
+CATEGORY ?= retrieval
+
 # Help command
 help:
 	@echo "Usage: make <target>"
@@ -16,7 +20,17 @@ help:
 	@echo "  7. format-data-ordered - Format dataset with ordered mode → data/openrlhf/ordered/"
 	@echo "  8. format-data-retrieval-only - Format dataset with retrieval only → data/openrlhf/one-category/retrieval/"
 	@echo "  9. format-data-update-only - Format dataset with update only → data/openrlhf/one-category/update/"
-	@echo "  10. train - Run the training script"
+	@echo "  10. train - Run training with mixed mode (default)"
+	@echo "  11. train-mixed - Run training with mixed mode"
+	@echo "  12. train-ordered - Run training with ordered mode" 
+	@echo "  13. train-retrieval-only - Run training with retrieval data only"
+	@echo "  14. train-update-only - Run training with update data only"
+	@echo ""
+	@echo "Training mode variables:"
+	@echo "  MODE - Set training mode (mixed, ordered, one-category)"
+	@echo "  CATEGORY - Set category for one-category mode (retrieval, update)"
+	@echo "  Usage: make train MODE=ordered"
+	@echo "         make train MODE=one-category CATEGORY=update"
 
 # Check if uv is installed and install if needed
 check-uv:
@@ -74,8 +88,27 @@ format-data-update-only:
 	@echo "Formatting dataset with update data only..."
 	uv run --project agent python format_dataset.py --mode one-category --category update
 
-# Run the training script
+# Run the training script with mode support
 train:
-	@echo "Starting training..."
-	chmod +x train_agent.sh
-	WANDB_API_KEY=$(WANDB_API_KEY) ./train_agent.sh
+	@echo "Starting training with mode: $(MODE)..."
+	@if [ "$(MODE)" = "one-category" ]; then \
+		echo "Using category: $(CATEGORY)"; \
+		export PROMPT_DATA_PATH="data/openrlhf/one-category/$(CATEGORY)"; \
+	else \
+		export PROMPT_DATA_PATH="data/openrlhf/$(MODE)"; \
+	fi; \
+	chmod +x train_agent.sh; \
+	WANDB_API_KEY=$(WANDB_API_KEY) PROMPT_DATA_PATH=$$PROMPT_DATA_PATH ./train_agent.sh
+
+# Training targets for different modes
+train-mixed:
+	@$(MAKE) train MODE=mixed
+
+train-ordered:
+	@$(MAKE) train MODE=ordered
+
+train-retrieval-only:
+	@$(MAKE) train MODE=one-category CATEGORY=retrieval
+
+train-update-only:
+	@$(MAKE) train MODE=one-category CATEGORY=update
