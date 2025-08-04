@@ -172,7 +172,7 @@ class KGBuildDriver:
             for n, d in self.kg.g.nodes(data=True)
         ]
         ids = [node["id"] for node in nodes]
-        sys = "Given a world description, plan plausible relations. No self‑loops or duplicates."
+        sys = "Given a world description, plan plausible relations. No self-loops or duplicates."
         sys += f"\n\nWorld: {prompt}\n\n"
         usr = json.dumps(nodes)
         data = self.llm.create_json(sys, usr, EdgeResp)
@@ -183,7 +183,7 @@ class KGBuildDriver:
                     print(
                         f"✖ Subject ID {e.subject_id} not found in nodes. Trying by name."
                     )
-                    s_id = [node["id"] for node in nodes if node["name"] == e.s]
+                    s_id = [node["id"] for node in nodes if node["name"] == e.subject_id]
                     if not s_id:
                         print(f"✖ Subject name {e.s} not found in nodes.")
                         continue
@@ -194,7 +194,7 @@ class KGBuildDriver:
                     print(
                         f"✖ Object ID {e.object_id} not found in nodes. Trying by name."
                     )
-                    o_id = [node["id"] for node in nodes if node["name"] == e.o]
+                    o_id = [node["id"] for node in nodes if node["name"] == e.object_id]
                     if not o_id:
                         print(f"✖ Object name {e.o} not found in nodes.")
                         continue
