@@ -1,0 +1,18 @@
+[project]
+name = "mem-agent-training"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "vllm",
+    "openai",
+    "pydantic>=2.0.0",
+    "python-dotenv",
+    "aiofiles",
+    "torch",
+    "wandb",
+    "ninja",
+    "black",
+    "liger-kernel>=0.3.0"
+]
