@@ -235,8 +235,8 @@ class AgentInstance(AgentInstanceBase):
         label = states["label"]
 
         # Remove all the <think> blocks except the last one
-        observation = remove_all_thinks_except_last(observation_text)
-        #observation = observation_text
+        #observation = remove_all_thinks_except_last(observation_text)
+        observation = observation_text
         
         # Truncate the action after the closing tags
         # This preserves all action blocks (including empty ones) by finding the last closing tag
