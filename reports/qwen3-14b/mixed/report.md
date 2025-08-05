@@ -1,5 +1,8 @@
 # Experiment 1: No /think tokens after prompt in training
 
+Wandb: https://wandb.ai/firstbatchxyz/obsidian-retrieval-openrlhf/runs/hk8utp1z?nw=nwuseratakant
+HF: https://huggingface.co/driaforall/Qwen3-14B-exp3
+
 ## Scores
 | Model | Retrieval | Update | Clarification | Overall |
 |-------|-----------|--------|---------------|---------|
