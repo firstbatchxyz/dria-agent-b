@@ -2,6 +2,7 @@
 name = "obsidian-agent"
 version = "0.1.0"
 description = "Agent module for obsidian-agent project"
+requires-python = ">=3.11,<3.12"
 dependencies = [
     "openai",
     "pydantic>=2.0.0",
@@ -14,7 +15,6 @@ dependencies = [
     "vllm>=0.5.5",
     "setuptools"
 ]
-requires-python = ">=3.8"
 
 [tool.uv]
 dev-dependencies = [
