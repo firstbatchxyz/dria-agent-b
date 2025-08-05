@@ -9,6 +9,10 @@ dependencies = [
     "aiofiles",
     "jinja2",
     "black",
+    "huggingface-hub>=0.34.3",
+    "transformers<4.54.0",
+    "vllm>=0.5.5",
+    "setuptools"
 ]
 requires-python = ">=3.8"
 
