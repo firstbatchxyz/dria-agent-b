@@ -130,7 +130,7 @@ async def evaluate_agents(
                     {
                         "question": entry.question,
                         "answer": model_answer.content,
-                        "conversation": agent.messages,
+                        "conversation": [msg.model_dump() for msg in agent.messages],
                         "correct": entry.answer,
                         "judge": entry.judge,
                         "is_correct": is_correct,

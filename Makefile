@@ -4,7 +4,6 @@
 include .env
 
 # Evaluation variables
-MODEL ?= qwen/qwen3-8b
 USE_VLLM ?= 
 ADD_THINK ?=
 
@@ -91,5 +90,6 @@ eval:
 		EVAL_ARGS="$$EVAL_ARGS --add-think"; \
 		echo "Adding '/think' suffix to prompts"; \
 	fi; \
-	echo "Running: uv run --project agent evaluation/evaluate.py $$EVAL_ARGS"; \
-	uv run --project agent evaluation/evaluate.py $$EVAL_ARGS
+	cd evaluation && uv sync && cd ..; \
+	echo "Running: uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS"; \
+	uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS --data-dir data/eval
