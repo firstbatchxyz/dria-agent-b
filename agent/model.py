@@ -79,7 +79,7 @@ def get_model_response(
         completion = client.chat.completions.create(
             model=model,
             messages=messages,
-            stop=["</reply>", "</python>"]
+            #stop=["</reply>", "</python>"]
         )
             
         return completion.choices[0].message.content
@@ -87,6 +87,6 @@ def get_model_response(
         completion = client.chat.completions.create(
             model=model,
             messages=messages,
-            stop=["</reply>", "</python>"]
+            #stop=["</reply>", "</python>"]
         )
         return completion.choices[0].message.content
