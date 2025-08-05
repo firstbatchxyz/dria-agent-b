@@ -130,6 +130,7 @@ async def evaluate_agents(
                     {
                         "question": entry.question,
                         "answer": model_answer.content,
+                        "conversation": agent.messages,
                         "correct": entry.answer,
                         "judge": entry.judge,
                         "is_correct": is_correct,
@@ -153,7 +154,7 @@ async def evaluate_agents(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate agents on QA datasets.")
-    parser.add_argument("--model", default="qwen/qwen3-8b", help="Model name for agent")
+    parser.add_argument("--model", default="qwen/qwen3-14b", help="Model name for agent")
     parser.add_argument(
         "--judge", default="google/gemini-2.5-pro", help="Judge model name"
     )
