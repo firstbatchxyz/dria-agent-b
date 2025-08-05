@@ -9,4 +9,6 @@ dependencies = [
     "jinja2>=3.1.6",
     "pydantic>=2.11.7",
     "tqdm>=4.67.1",
+    "python-dotenv",
+    "openai",
 ]
