@@ -280,4 +280,136 @@ CONFIGS = [
         "search and rescue operations.",
         "output_base_dir": "instances",
     },
+        {
+    "num_iter_per_graph": 4,
+    "num_qa_per_iter": 24,
+    "num_people": 8,
+    "num_entities": 20,
+    "world_description": "Independent financial planner Jennifer serves middle-class families "
+    "with budgeting, college savings, mortgage refinancing, and retirement planning. "
+    "She maintains client financial profiles, investment tracking spreadsheets, "
+    "educational resources, and works with loan officers and insurance brokers.",
+    "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 5,
+        "num_qa_per_iter": 30,
+        "num_people": 12,
+        "num_entities": 25,
+        "world_description": "Financial advisor Rachel manages portfolios for high-net-worth clients. "
+        "She tracks investment accounts, retirement plans, insurance policies, "
+        "tax documents, market research reports, and coordinates with CPAs, "
+        "estate attorneys, insurance agents, and bank representatives.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 3,
+        "num_qa_per_iter": 16,
+        "num_entities": 25,
+        "num_people": 3,
+        "world_description": "Bob's Hardware where the cashier tracks nuts, bolts, tools, paint supplies, "
+        "gardening equipment, and seasonal items. They use inventory tracking systems, "
+        "reorder point lists, supplier catalogs, and work with the owner "
+        "and part-time helpers during busy seasons.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 4,
+        "num_qa_per_iter": 18,
+        "num_people": 4,
+        "num_entities": 20,
+        "world_description": "Fresh Market grocery store where cashier Amy manages inventory using "
+        "barcode scanners, price checkers, stock level sheets, vendor delivery schedules, "
+        "and coordinates with store manager, stockers, and delivery drivers "
+        "for restocking produce, dairy, and packaged goods.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 3,
+        "num_qa_per_iter": 14,
+        "num_people": 5,
+        "num_entities": 10,
+        "world_description": "An accounting firm where Lisa, who is blind, works as a financial analyst. "
+        "She uses JAWS software, Braille printers, accessible keyboards, "
+        "audio conference systems, and collaborates with colleagues who provide "
+        "visual document descriptions and meeting notes.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 4,
+        "num_qa_per_iter": 16,
+        "num_people": 4,
+        "num_entities": 12,
+        "world_description": "Marcus, who is blind, navigates daily life using screen readers, "
+        "Braille displays, voice assistants, GPS navigation apps, and tactile markers. "
+        "He coordinates with his guide dog trainer, mobility instructor, "
+        "and family members for shopping and appointments.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 4,
+        "num_qa_per_iter": 22,
+        "num_people": 7,
+        "num_entities": 18,
+        "world_description": "ServerCloud enterprise support handling multi-tenant deployments, "
+        "load balancers, container orchestration, and monitoring systems. "
+        "DevOps specialists share runbooks, incident response procedures, "
+        "client configurations, and coordinate with network engineers.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 5,
+        "num_qa_per_iter": 25,
+        "num_people": 8,
+        "num_entities": 15,
+        "world_description": "CloudCRM enterprise support team serving Fortune 500 clients. "
+        "Support engineers handle API integrations, database migrations, custom workflows, "
+        "security configurations, and share escalation procedures, knowledge bases, "
+        "client environment details, and SLA tracking systems.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 3,
+        "num_qa_per_iter": 18,
+        "num_people": 5,
+        "num_entities": 12,
+        "world_description": "AutoParts Plus customer service team handling brake systems, engine components, "
+        "and electrical parts. Representatives use parts catalogs, compatibility databases, "
+        "installation videos, return authorization forms, and work with mechanics "
+        "and DIY customers.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 4,
+        "num_qa_per_iter": 20,
+        "num_people": 6,
+        "num_entities": 10,
+        "world_description": "TechHome customer support center for smart kitchen appliances. "
+        "Support agents handle warranty claims, troubleshooting guides, replacement parts, "
+        "installation manuals, customer complaint tickets, and coordinate with "
+        "field technicians and product engineers.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 3,
+        "num_qa_per_iter": 12,
+        "num_people": 4,
+        "num_entities": 6,
+        "world_description": "Sunnydale Memory Care facility where residents with advanced dementia "
+        "share common areas, activity schedules, meal routines, and personal belongings. "
+        "Nurses, family members, and therapists help maintain daily structure and "
+        "familiar routines for cognitive support.",
+        "output_base_dir": "instances",
+    },
+    {
+        "num_iter_per_graph": 4,
+        "num_qa_per_iter": 15,
+        "num_people": 3,
+        "num_entities": 8,
+        "world_description": "Eleanor, 78, lives in her own apartment with early-stage Alzheimer's. "
+        "She uses daily reminder systems, medication organizers, family photo albums, "
+        "calendar with appointments, emergency contact lists, and receives visits from "
+        "her daughter Sarah and home care aide Maria.",
+        "output_base_dir": "instances",
+    }
 ]

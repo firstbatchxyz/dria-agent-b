@@ -1,23 +1,29 @@
-import asyncio
 import argparse
-
-from pydantic import BaseModel
-import os
-import shutil
+import asyncio
 import json
-from typing import Literal
+import os
+import re
+import shutil
 import sys
+from typing import Literal
 
+
+from dotenv import load_dotenv
+from pydantic import BaseModel
 from tqdm import tqdm
 
-# Add parent directory to path to find evaluation module, then import it to trigger __init__.py
+# Load environment variables early
+load_dotenv()
+
+# Path manipulation for local imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import evaluation
+
+
 from agent.agent import Agent
 from agent.async_agent.async_model import get_model_response
-from judge import JUDGE_PROMPT
-import re
 from agent.utils import extract_reply
+from judge import JUDGE_PROMPT
+
 
 # Pydantic models for JSONL entries
 class QAEntry(BaseModel):
@@ -27,6 +33,7 @@ class QAEntry(BaseModel):
 
     def __str__(self):
         return f"Question: {self.question}\nAnswer: {self.answer}\nJudge: {self.judge}"
+
 
 class UpdateQAEntry(BaseModel):
     question: str
@@ -39,7 +46,9 @@ class UpdateQAEntry(BaseModel):
     def __str__(self):
         return f"Question: {self.question}\nAnswer: {self.answer}\nJudge: {self.judge}\nOriginal: {self.original}\nDiff: {self.diff}\nUpdate: {self.update}"
 
+
 # Helper functions
+
 
 def capture_xml_tag(text, tag):
     pattern = rf"<{tag}([^>]*)>(.*?)</{tag}>"
@@ -51,16 +60,23 @@ def capture_xml_tag(text, tag):
 
 
 def list_folders(path):
-    return [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
+    return [
+        name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))
+    ]
 
 
-def read_jsonl(path, category: Literal["retrieval", "clarification", "update"] = "retrieval"):
+def read_jsonl(
+    path, category: Literal["retrieval", "clarification", "update"] = "retrieval"
+):
     with open(path, "r", encoding="utf-8") as f:
         lines = [json.loads(line) for line in f]
     model = UpdateQAEntry if category == "update" else QAEntry
     return [model(**entry) for entry in lines]
 
-async def evaluate_agents(model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False):
+
+async def evaluate_agents(
+    model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False
+):
     categories = ["retrieval", "clarification", "update"]
     evaluation = {"agent": model_name, "avg": 0.0, "scores": []}
     os.makedirs(tmp_dir, exist_ok=True)
@@ -88,7 +104,9 @@ async def evaluate_agents(model_name, judge_name, use_vllm, tmp_dir, data_dir, a
                 think_suffix = " /think" if add_think else ""
                 if category == "update":
                     agent.chat(entry.update + think_suffix)
-                    retrieval_agent = Agent(model=model_name, memory_path=tmp_folder, use_vllm=use_vllm)
+                    retrieval_agent = Agent(
+                        model=model_name, memory_path=tmp_folder, use_vllm=use_vllm
+                    )
                     retrieval_agent.chat(entry.question + think_suffix)
                     model_answer = retrieval_agent.messages[-1]
                     answer = extract_reply(model_answer.content)
@@ -103,33 +121,42 @@ async def evaluate_agents(model_name, judge_name, use_vllm, tmp_dir, data_dir, a
                     answer=answer,
                     judge=entry.judge,
                 )
-                response = await get_model_response(message=jp, use_vllm=False, model=judge_name)
+                response = await get_model_response(
+                    message=jp, use_vllm=False, model=judge_name
+                )
                 is_correct = capture_xml_tag(response, "judgment")
 
-                evaluation["scores"].append({
-                    "question": entry.question,
-                    "answer": model_answer.content,
-                    "correct": entry.answer,
-                    "judge": entry.judge,
-                    "is_correct": is_correct,
-                    "category": category,
-                })
+                evaluation["scores"].append(
+                    {
+                        "question": entry.question,
+                        "answer": model_answer.content,
+                        "correct": entry.answer,
+                        "judge": entry.judge,
+                        "is_correct": is_correct,
+                        "category": category,
+                    }
+                )
 
             # cleanup for next folder
             shutil.rmtree(tmp_folder)
 
     # compute average
     total = len(evaluation["scores"])
-    correct = sum(1 for s in evaluation["scores"] if str(s.get("is_correct")).lower() == "correct")
+    correct = sum(
+        1 for s in evaluation["scores"] if str(s.get("is_correct")).lower() == "correct"
+    )
     evaluation["avg"] = correct / total if total else 0
 
     with open("evaluation_results.json", "w") as f:
         json.dump(evaluation, f, indent=2)
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate agents on QA datasets.")
     parser.add_argument("--model", default="qwen/qwen3-8b", help="Model name for agent")
-    parser.add_argument("--judge", default="google/gemini-2.5-pro", help="Judge model name")
+    parser.add_argument(
+        "--judge", default="google/gemini-2.5-pro", help="Judge model name"
+    )
     parser.add_argument(
         "--use-vllm", action="store_true", help="Use vLLM for agent inference"
     )
@@ -137,10 +164,14 @@ if __name__ == "__main__":
         "--tmp-dir", default="tmp_work", help="Temporary working directory"
     )
     parser.add_argument(
-        "--data-dir", default="data/eval", help="Base data directory containing categories"
+        "--data-dir",
+        default="../data/eval",
+        help="Base data directory containing categories",
     )
     parser.add_argument(
-        "--add-think", action="store_true", help="Add ' /think' suffix to all agent prompts"
+        "--add-think",
+        action="store_true",
+        help="Add ' /think' suffix to all agent prompts",
     )
     args = parser.parse_args()
 
