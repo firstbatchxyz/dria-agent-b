@@ -3,6 +3,7 @@ import tempfile
 import uuid
 import subprocess
 from pathlib import Path
+from typing import Union
 
 from agent.settings import MEMORY_PATH
 from agent.utils import check_size_limits, create_memory_if_not_exists
@@ -62,24 +63,38 @@ def create_file(file_path: str, content: str = "") -> bool:
     Returns:
         True if the file was created successfully, False otherwise.
     """
+    temp_file_path = None
     try:
-        # Create a unique temporary file name to avoid conflicts
-        temp_file_path = f"temp_{uuid.uuid4().hex[:8]}.txt"
+        # Create parent directories if they don't exist
+        parent_dir = os.path.dirname(file_path)
+        if parent_dir and not os.path.exists(parent_dir):
+            os.makedirs(parent_dir, exist_ok=True)
+        
+        # Create a unique temporary file name in the same directory as the target file
+        # This ensures the temp file is within the sandbox's allowed path
+        target_dir = os.path.dirname(os.path.abspath(file_path)) or "."
+        temp_file_path = os.path.join(target_dir, f"temp_{uuid.uuid4().hex[:8]}.txt")
         
         with open(temp_file_path, "w") as f:
             f.write(content)
         
         if check_size_limits(temp_file_path):
-            # Move the temporary file to the final destination
+            # Move the content to the final destination
             with open(file_path, "w") as f:
                 f.write(content)
             os.remove(temp_file_path)
             return True
         else:
             os.remove(temp_file_path)
-            return False
-    except Exception:
-        return False
+            raise Exception(f"File {file_path} is too large to create")
+    except Exception as e:
+        # Clean up temp file if it exists
+        if temp_file_path and os.path.exists(temp_file_path):
+            try:
+                os.remove(temp_file_path)
+            except Exception as e:
+                raise Exception(f"Error removing temp file {temp_file_path}: {e}")
+        raise Exception(f"Error creating file {file_path}: {e}")
     
 def create_dir(dir_path: str) -> bool:
     """
@@ -97,60 +112,77 @@ def create_dir(dir_path: str) -> bool:
     except Exception:
         return False
 
-def write_to_file(file_path: str, diff: str) -> bool:
+
+def update_file(file_path: str, old_content: str, new_content: str) -> Union[bool, str]:
     """
-    Try to apply a unified git-style diff to `file_path`.
+    Simple find-and-replace update method for files.
+
+    This is an easier alternative to write_to_file() that doesn't require
+    creating git-style diffs. It performs a simple string replacement.
 
     Parameters
     ----------
     file_path : str
-        Absolute or relative path to the file being patched.
-    diff : str
-        Text in standard unified-diff format (what you get from `git diff`).
+        Path to the file to update.
+    old_content : str
+        The exact text to find and replace in the file.
+    new_content : str
+        The text to replace old_content with.
 
     Returns
     -------
-    bool
-        True  – diff applied cleanly.
-        False – any problem (syntax errors, context mismatch, no git in PATH …).
+    Union[bool, str]
+        True if successful, error message string if failed.
+
+    Examples
+    --------
+    # Add a new row to a table
+    old = "| TKT-1056  | 2024-09-25 | Late Delivery   | Resolved |"
+    new = "| TKT-1056  | 2024-09-25 | Late Delivery   | Resolved |\\n| TKT-1057  | 2024-11-11 | Damaged Item    | Open     |"
+    result = update_file("user.md", old, new)
     """
-    # Guarantee we run in the directory that contains the target file.
-    workdir = Path(file_path).expanduser().resolve().parent
-
-    # Create the temp file in the workdir instead of system /tmp
-    # This ensures it's within the sandbox's allowed path
-    temp_file_path = workdir / f"temp_patch_{uuid.uuid4().hex[:8]}.patch"
-
     try:
-        # Write the diff to the temp file
-        with open(temp_file_path, "w") as tmp:
-            tmp.write(diff)
-        patch_file = str(temp_file_path)
+        # Read the current file content
+        if not os.path.exists(file_path):
+            return f"Error: File '{file_path}' does not exist"
 
-        # 1. Dry-run check ─ will fail (non-zero return-code) on any conflict.
-        check = subprocess.run(
-            ["git", "apply", "--check", "--unsafe-paths", patch_file],
-            cwd=workdir,
-            capture_output=True,
-            text=True,
-        )
-        if check.returncode != 0:
-            # Optional: log or surface check.stderr for callers.
-            return False
+        if not os.path.isfile(file_path):
+            return f"Error: '{file_path}' is not a file"
 
-        # 2. Real apply (no --check).
-        apply = subprocess.run(
-            ["git", "apply", "--unsafe-paths", patch_file],
-            cwd=workdir,
-            capture_output=True,
-            text=True,
-        )
-        return apply.returncode == 0
-    finally:
-        # Clean up the temp file
-        if os.path.exists(patch_file):
-            os.remove(patch_file)
-    
+        with open(file_path, "r") as f:
+            current_content = f.read()
+
+        # Check if old_content exists in the file
+        if old_content not in current_content:
+            # Provide helpful context about what wasn't found
+            preview_length = 50
+            preview = old_content[:preview_length] + "..." if len(old_content) > preview_length else old_content
+            return f"Error: Could not find the specified content in the file. Looking for: '{preview}'"
+
+        # Count occurrences to warn about multiple matches
+        occurrences = current_content.count(old_content)
+        if occurrences > 1:
+            # Still proceed but warn the user
+            print(f"Warning: Found {occurrences} occurrences of the content. Replacing only the first one.")
+
+        # Perform the replacement (only first occurrence)
+        updated_content = current_content.replace(old_content, new_content, 1)
+
+        # Check if replacement actually changed anything
+        if updated_content == current_content:
+            return "Error: No changes were made to the file"
+
+        # Write the updated content back
+        with open(file_path, "w") as f:
+            f.write(updated_content)
+
+        return True
+
+    except PermissionError:
+        return f"Error: Permission denied writing to '{file_path}'"
+    except Exception as e:
+        return f"Error: Unexpected error - {str(e)}"
+
 def read_file(file_path: str) -> str:
     """
     Read a file in the memory.
@@ -176,45 +208,75 @@ def read_file(file_path: str) -> str:
     except Exception as e:
         return f"Error: {e}"
     
-def list_files(dir_path: str = None) -> list[str]:
+def list_files() -> str:
     """
-    List all files and directories in the memory. Full paths 
-    are returned and directories are searched recursively. An
-    example of the output is:
-    ["dir/a.txt", "dir/b.txt", "dir/subdir/c.txt", "d.txt"]
-
-    Args:
-        dir_path: The path to the directory. If None, uses the current working directory.
+    Display all files and directories in the current working directory as a tree structure.
+    
+    Example output:
+    ```
+    ./
+    ├── user.md
+    └── entities/
+        ├── 452_willow_creek_dr.md
+        └── frank_miller_plumbing.md
+    ```
 
     Returns:
-        A list of files and directories in the memory.
+        A string representation of the directory tree.
     """
     try:
-        # Use current directory if dir_path is None
-        if dir_path is None:
-            dir_path = os.getcwd()
+        # Always use current working directory
+        dir_path = os.getcwd()
         
-        # Ensure dir_path is absolute for consistent path handling
-        dir_path = os.path.abspath(dir_path)
-        
-        # Check if the directory exists
-        if not os.path.exists(dir_path) or not os.path.isdir(dir_path):
-            return [f"Error: Directory {dir_path} does not exist or is not a directory"]
+        def build_tree(start_path, prefix="", is_last=True):
+            """Recursively build tree structure"""
+            entries = []
+            try:
+                items = sorted(os.listdir(start_path))
+                # Filter out hidden files and __pycache__
+                items = [item for item in items if not item.startswith('.') and item != '__pycache__']
+            except PermissionError:
+                return f"{prefix}[Permission Denied]\n"
             
-        result_files = []
-        for root, _, files_list in os.walk(dir_path):
-            for file in files_list:
-                full_path = os.path.join(root, file)
-                # Make the path relative to the memory directory (dir_path)
-                try:
-                    rel_path = os.path.relpath(full_path, dir_path)
-                    result_files.append(rel_path)
-                except ValueError:
-                    # If paths are on different drives on Windows, use absolute path
-                    result_files.append(full_path)
-        return result_files
+            if not items:
+                return ""
+            
+            for i, item in enumerate(items):
+                item_path = os.path.join(start_path, item)
+                is_last_item = i == len(items) - 1
+                
+                # Choose the right prefix characters
+                if is_last_item:
+                    current_prefix = prefix + "└── "
+                    extension = prefix + "    "
+                else:
+                    current_prefix = prefix + "├── "
+                    extension = prefix + "│   "
+                
+                if os.path.isdir(item_path):
+                    # Check if directory is empty
+                    try:
+                        dir_contents = [f for f in os.listdir(item_path) 
+                                      if not f.startswith('.') and f != '__pycache__']
+                        if not dir_contents:
+                            entries.append(f"{current_prefix}{item}/ (empty)\n")
+                        else:
+                            entries.append(f"{current_prefix}{item}/\n")
+                            # Recursively add subdirectory contents
+                            entries.append(build_tree(item_path, extension, is_last_item))
+                    except PermissionError:
+                        entries.append(f"{current_prefix}{item}/ [Permission Denied]\n")
+                else:
+                    entries.append(f"{current_prefix}{item}\n")
+            
+            return "".join(entries)
+        
+        # Start with the root directory
+        tree = f"./\n{build_tree(dir_path)}"
+        return tree.rstrip()  # Remove trailing newline
+        
     except Exception as e:
-        return [f"Error: {e}"]
+        return f"Error: {e}"
     
 def delete_file(file_path: str) -> bool:
     """
