@@ -77,8 +77,7 @@ def read_jsonl(
 async def evaluate_agents(
     model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False
 ):
-    #categories = ["retrieval", "clarification", "update"]
-    categories = ["update"]
+    categories = ["retrieval", "clarification", "update"]
     evaluation = {"agent": model_name, "avg": 0.0, "scores": []}
     os.makedirs(tmp_dir, exist_ok=True)
 
