@@ -70,8 +70,10 @@ def create_file(file_path: str, content: str = "") -> bool:
         if parent_dir and not os.path.exists(parent_dir):
             os.makedirs(parent_dir, exist_ok=True)
         
-        # Create a unique temporary file name in a temp directory
-        temp_file_path = os.path.join(tempfile.gettempdir(), f"temp_{uuid.uuid4().hex[:8]}.txt")
+        # Create a unique temporary file name in the same directory as the target file
+        # This ensures the temp file is within the sandbox's allowed path
+        target_dir = os.path.dirname(os.path.abspath(file_path)) or "."
+        temp_file_path = os.path.join(target_dir, f"temp_{uuid.uuid4().hex[:8]}.txt")
         
         with open(temp_file_path, "w") as f:
             f.write(content)
@@ -84,15 +86,15 @@ def create_file(file_path: str, content: str = "") -> bool:
             return True
         else:
             os.remove(temp_file_path)
-            return False
-    except Exception:
+            raise Exception(f"File {file_path} is too large to create")
+    except Exception as e:
         # Clean up temp file if it exists
         if temp_file_path and os.path.exists(temp_file_path):
             try:
                 os.remove(temp_file_path)
-            except:
-                pass
-        return False
+            except Exception as e:
+                raise Exception(f"Error removing temp file {temp_file_path}: {e}")
+        raise Exception(f"Error creating file {file_path}: {e}")
     
 def create_dir(dir_path: str) -> bool:
     """
