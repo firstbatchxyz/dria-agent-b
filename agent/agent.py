@@ -135,7 +135,7 @@ class Agent:
         remaining_tool_turns = self.max_tool_turns
         while remaining_tool_turns > 0 and not reply:
             self._add_message(
-                ChatMessage(role=Role.USER, content=format_results(result))
+                ChatMessage(role=Role.USER, content=format_results(result[0], result[1]))
             )
             response = get_model_response(
                 messages=self.messages,
@@ -155,6 +155,9 @@ class Agent:
                     allowed_path=self.memory_path,
                     import_module="agent.tools",
                 )
+            else:
+                # Reset result when no Python code is executed
+                result = ({}, "")
             remaining_tool_turns -= 1
 
         return AgentResponse(thoughts=thoughts, reply=reply, python_block=python_code)

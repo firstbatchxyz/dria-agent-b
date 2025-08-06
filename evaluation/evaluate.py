@@ -77,7 +77,8 @@ def read_jsonl(
 async def evaluate_agents(
     model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False
 ):
-    categories = ["retrieval", "clarification", "update"]
+    #categories = ["retrieval", "clarification", "update"]
+    categories = ["update"]
     evaluation = {"agent": model_name, "avg": 0.0, "scores": []}
     os.makedirs(tmp_dir, exist_ok=True)
 
@@ -125,14 +126,17 @@ async def evaluate_agents(
                     message=jp, use_vllm=False, model=judge_name
                 )
                 is_correct = capture_xml_tag(response, "judgment")
+                reasoning = capture_xml_tag(response, "reasoning")
 
                 evaluation["scores"].append(
                     {
                         "question": entry.question,
                         "answer": model_answer.content,
                         "conversation": [msg.model_dump() for msg in agent.messages],
+                        "retrieval_rollout": [msg.model_dump() for msg in retrieval_agent.messages] if category == "update" else [],
                         "correct": entry.answer,
                         "judge": entry.judge,
+                        "reasoning": reasoning,
                         "is_correct": is_correct,
                         "category": category,
                     }
@@ -154,7 +158,7 @@ async def evaluate_agents(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate agents on QA datasets.")
-    parser.add_argument("--model", default="qwen/qwen3-14b", help="Model name for agent")
+    parser.add_argument("--model", default="google/gemini-2.5-pro", help="Model name for agent") #qwen/qwen3-14b
     parser.add_argument(
         "--judge", default="google/gemini-2.5-pro", help="Judge model name"
     )
