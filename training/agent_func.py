@@ -15,7 +15,7 @@ from agent.schemas import StaticMemory
 from training.action_processor import process_action_base
 from training.retrieval import calculate_retrieval_reply_reward
 from training.update import calculate_update_reply_reward
-from training.utils import Task, TaskType, extract_task_from_label, remove_all_thinks_except_last, MAX_STEPS
+from training.utils import Task, TaskType, extract_task_from_label, remove_all_thinks_except_last, MAX_STEPS, dump_folder
 from training import MEMORY_PATH
 
 # Per-worker lock dictionaries (initialized lazily to avoid Ray serialization issues)
@@ -165,6 +165,7 @@ class AgentInstance(AgentInstanceBase):
     async def __init__(self, *args, **kwargs):
         self.step_idx = 0
         self.max_steps = MAX_STEPS
+        self.mem_ids_dumps_dict = {}
 
     async def reset(self, states: dict, **kwargs):
         """Initialize the environment and return initial observation
@@ -187,6 +188,10 @@ class AgentInstance(AgentInstanceBase):
                 memory_id = task.mem_id
                 
                 if memory_id:
+                    # Capture the initial folder dump
+                    if memory_id not in self.mem_ids_dumps_dict:
+                        self.mem_ids_dumps_dict[memory_id] = dump_folder(memory_id)
+                    
                     # Reset the specific memory to its original state
                     success = reset_memory_for_episode(memory_id)
                     if not success:
@@ -196,6 +201,7 @@ class AgentInstance(AgentInstanceBase):
                         
             except Exception as e:
                 print(f"Warning: Could not extract memory ID from label: {e}")
+        
         
         return {"observation": states["observation"]}
 
@@ -222,8 +228,8 @@ class AgentInstance(AgentInstanceBase):
                 "\n [WARNING] You have reached the maximum number of steps."
             )
             return {
-                "rewards": torch.tensor(-0.2),
-                "scores": torch.tensor(-0.2),
+                "rewards": torch.tensor(-0.1),
+                "scores": torch.tensor(-0.1),
                 "environment_feedback": environment_feedback,
                 "done": done,
                 "sampling_params": kwargs.get("sampling_params", None),
@@ -284,7 +290,8 @@ class AgentInstance(AgentInstanceBase):
             task=task,
             thoughts_min_length=THOUGHTS_MIN_LENGTH,
             step_num=self.step_idx,
-            reply_reward_calculator=reply_reward_calculator
+            reply_reward_calculator=reply_reward_calculator,
+            mem_ids_dumps_dict=self.mem_ids_dumps_dict
         )
             
         self.step_idx += 1

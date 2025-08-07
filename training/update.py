@@ -1,13 +1,24 @@
-from training.utils import Task, extract_python_blocks
+import os
+from training import MEMORY_PATH
+
+from training.utils import Task, extract_python_blocks, dump_folder
 from training.reward import get_update_reward
 
-def calculate_update_reply_reward(observation: str, reply: str, task: Task) -> float:
+def calculate_update_reply_reward(observation: str, reply: str, task: Task, mem_ids_dumps_dict: Dict[str, str]) -> float:
     """Calculate reward for reply actions in update tasks."""
-    python_blocks = extract_python_blocks(observation)
-    diff = task.answer
+    # Get the memory path
+    memory_path = os.path.join(MEMORY_PATH, task.mem_id)
+
+    # Get the initial folder dump
+    initial_folder_dump = mem_ids_dumps_dict[task.mem_id]
+
+    # Get the final folder dump
+    final_folder_dump = dump_folder(memory_path)
+
     reward = get_update_reward(
-        python_blocks=python_blocks,
-        diff=diff,
+        user_query=task.query,
+        initial_folder_dump=initial_folder_dump,
+        final_folder_dump=final_folder_dump,
         debug=True
     )
     return reward

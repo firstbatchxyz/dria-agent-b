@@ -1,5 +1,6 @@
 from enum import Enum
 import re
+import os
 
 from pydantic import BaseModel
 
@@ -166,4 +167,124 @@ def remove_all_thinks_except_last(observation: str) -> str:
     
     # Combine the before and processed after parts
     return before_assistant + result_after
+
+def dump_folder(path: str) -> str:
+    """
+    Create a folder dump with folder structure and file contents.
+    
+    Args:
+        path: The path to the folder to dump.
+        
+    Returns:
+        A string containing the folder structure followed by file paths and contents.
+    """
+    try:
+        if not os.path.exists(path):
+            return f"Error: Path '{path}' does not exist"
+        
+        if not os.path.isdir(path):
+            return f"Error: Path '{path}' is not a directory"
+        
+        # First, build the folder structure
+        def build_tree(start_path, prefix="", is_last=True):
+            """Recursively build tree structure"""
+            entries = []
+            try:
+                items = sorted(os.listdir(start_path))
+                # Filter out hidden files and __pycache__
+                items = [item for item in items if not item.startswith('.') and item != '__pycache__']
+            except PermissionError:
+                return f"{prefix}[Permission Denied]\n"
+            
+            if not items:
+                return ""
+            
+            for i, item in enumerate(items):
+                item_path = os.path.join(start_path, item)
+                is_last_item = i == len(items) - 1
+                
+                # Choose the right prefix characters
+                if is_last_item:
+                    current_prefix = prefix + "└── "
+                    extension = prefix + "    "
+                else:
+                    current_prefix = prefix + "├── "
+                    extension = prefix + "│   "
+                
+                if os.path.isdir(item_path):
+                    # Check if directory is empty
+                    try:
+                        dir_contents = [f for f in os.listdir(item_path) 
+                                      if not f.startswith('.') and f != '__pycache__']
+                        if not dir_contents:
+                            entries.append(f"{current_prefix}{item}/ (empty)\n")
+                        else:
+                            entries.append(f"{current_prefix}{item}/\n")
+                            # Recursively add subdirectory contents
+                            entries.append(build_tree(item_path, extension, is_last_item))
+                    except PermissionError:
+                        entries.append(f"{current_prefix}{item}/ [Permission Denied]\n")
+                else:
+                    entries.append(f"{current_prefix}{item}\n")
+            
+            return "".join(entries)
+        
+        # Build the folder structure
+        folder_name = os.path.basename(path) or path
+        folder_structure = f"{folder_name}/\n{build_tree(path)}"
+        
+        # Collect all files recursively
+        def collect_files(start_path):
+            """Recursively collect all file paths"""
+            file_paths = []
+            try:
+                for root, dirs, files in os.walk(start_path):
+                    # Filter out hidden directories and __pycache__
+                    dirs[:] = [d for d in dirs if not d.startswith('.') and d != '__pycache__']
+                    
+                    for file in files:
+                        # Filter out hidden files
+                        if not file.startswith('.'):
+                            file_path = os.path.join(root, file)
+                            file_paths.append(file_path)
+            except PermissionError:
+                pass
+            
+            return sorted(file_paths)
+        
+        # Get all file paths
+        all_files = collect_files(path)
+        
+        # Build the result string
+        result = [folder_structure.rstrip()]
+        
+        # Add file contents
+        for file_path in all_files:
+            try:
+                # Use relative path from the given path for cleaner display
+                relative_path = os.path.relpath(file_path, path)
+                result.append(f"\n{relative_path}")
+                result.append("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                
+                # Try to read file content
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        result.append(content)
+                except UnicodeDecodeError:
+                    # Handle binary files
+                    result.append("[Binary file - content not shown]")
+                except Exception as e:
+                    result.append(f"[Error reading file: {e}]")
+                    
+            except Exception as e:
+                result.append(f"\n{file_path}")
+                result.append(f"[Error processing file: {e}]")
+            
+            result.append("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        
+        return "\n".join(result)
+        
+    except Exception as e:
+        return f"Error dumping folder: {e}"
         

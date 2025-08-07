@@ -191,7 +191,7 @@ def process_update_queries(memory_data: Dict[str, Any], sys_prompt: str) -> Dict
                         {"role": "system", "content": sys_prompt},
                         {"role": "user", "content": str(item["query"]).strip()}
                     ],
-                    "label": construct_label(TaskType.UPDATE, item["diff"], memory_id)
+                    "label": construct_label(TaskType.UPDATE, str(item["query"]).strip(), memory_id)
                 }
                 hop_records[hop_level].append(record)
                 valid_items += 1

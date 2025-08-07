@@ -28,8 +28,8 @@ class RetrievalJudgeResponse(BaseModel):
     ground_truth_in_reply: bool
 
 class UpdateJudgeResponse(BaseModel):
-    num_correct_diffs_applied: int
-    num_target_diffs: int
+    reasoning: str
+    success: bool
 
 def load_retrieval_judge_prompt(question: str, reply: str, ground_truth: str) -> str:
     """
@@ -46,19 +46,25 @@ def load_retrieval_judge_prompt(question: str, reply: str, ground_truth: str) ->
     judge_prompt = judge_prompt.replace("{{ground_truth}}", ground_truth)
     return judge_prompt
 
-def load_update_judge_prompt(python_blocks: str, diff: str) -> str:
+def load_update_judge_prompt(user_query: str, initial_folder_dump: str, final_folder_dump: str) -> str:
     """
-    Load the update judge prompt and replace the placeholders with the python blocks and diff.
-    """
-    try:
-        with open(UPDATE_JUDGE_PROMPT_PATH, "r") as f:
-            judge_prompt = f.read()
-    except FileNotFoundError:
-        raise FileNotFoundError(f"Judge prompt file not found at {UPDATE_JUDGE_PROMPT_PATH}")
+    Load the update judge prompt from a file and format it with the provided parameters.
     
-    judge_prompt = judge_prompt.replace("{{python_blocks}}", python_blocks)
-    judge_prompt = judge_prompt.replace("{{diff}}", diff)
-    return judge_prompt
+    Args:
+        user_query: The original user request
+        initial_folder_dump: The folder state before any actions
+        final_folder_dump: The folder state after all actions
+    
+    Returns:
+        The formatted prompt string.
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    prompt_file = os.path.join(script_dir, "prompts", "update_judge_prompt.txt")
+    
+    with open(prompt_file, "r") as f:
+        prompt_template = f.read()
+    
+    return prompt_template.replace("{{user_query}}", user_query).replace("{{initial_folder_dump}}", initial_folder_dump).replace("{{final_folder_dump}}", final_folder_dump)
 
 def get_model_response(schema: BaseModel, prompt: str, model: str) -> BaseModel:
     """
@@ -129,48 +135,46 @@ def get_retrieval_reward(
     return 1.0 if judge_response.ground_truth_in_reply else 0.0
 
 def get_update_reward(
-        python_blocks: str,
-        diff: str,
+        user_query: str,
+        initial_folder_dump: str,
+        final_folder_dump: str,
         debug: bool = False
     ) -> float:
     """
-    Get the reward for the given python blocks and diff.
-
+    Get the update reward based on comparing folder states before and after actions.
+    
     Args:
-        python_blocks: The python blocks to evaluate
-        diff: The diff to evaluate
-        debug: Whether to save the debug files
-
+        user_query: The original user request
+        initial_folder_dump: The folder state before any actions
+        final_folder_dump: The folder state after all actions
+        debug: If True, print debug information.
+        
     Returns:
-        float: The reward for the given python blocks and diff
+        1.0 if the updates were correctly applied, 0.0 otherwise.
     """
-    judge_prompt = load_update_judge_prompt(python_blocks, diff)
-    judge_response = get_model_response(
+    
+    # Load the prompt with the provided data
+    prompt = load_update_judge_prompt(
+        user_query=user_query,
+        initial_folder_dump=initial_folder_dump,
+        final_folder_dump=final_folder_dump
+    )
+    
+    # Get the model response
+    response = get_model_response(
         schema=UpdateJudgeResponse,
-        prompt=judge_prompt,
+        prompt=prompt,
         model=GPT_O3
     )
-
-    if judge_response is None:
-        return 0.0
-    if judge_response.num_target_diffs == 0:
-        retries = 3
-        for _ in range(retries):
-            judge_response = get_model_response(
-                schema=UpdateJudgeResponse,
-                prompt=judge_prompt,
-                model=GPT_O3
-            )
-            if judge_response is not None and judge_response.num_target_diffs > 0:
-                break
-
+    
     if debug:
         debug_id = str(uuid.uuid4())
         debug_file = os.path.join(DEBUG_JUDGE_DIR, f"update_judge_response_{debug_id}.json")
         try:
             with open(debug_file, "w") as f:
-                json.dump(judge_response.model_dump(), f)
+                json.dump(response.model_dump(), f)
         except Exception as e:
             print(f"Error saving debug file: {e}")
-        
-    return judge_response.num_correct_diffs_applied / judge_response.num_target_diffs if judge_response is not None else 0.0
+    
+    # Return 1.0 if success, 0.0 otherwise
+    return 1.0 if response.success else 0.0
