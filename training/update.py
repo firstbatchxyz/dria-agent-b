@@ -17,7 +17,7 @@ def calculate_update_reply_reward(observation: str, reply: str, task: Task, mem_
     final_folder_dump = dump_folder(memory_path)
 
     reward = get_update_reward(
-        user_query=task.query,
+        user_query=task.answer,
         initial_folder_dump=initial_folder_dump,
         final_folder_dump=final_folder_dump,
         debug=True
