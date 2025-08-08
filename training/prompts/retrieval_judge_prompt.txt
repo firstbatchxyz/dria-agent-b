@@ -21,10 +21,15 @@ Agent's Reply: {{reply}}
 
 Ground Truth Fact: {{ground_truth}}
 
-Analyze whether the ground truth fact is present in the agent's reply and respond with:
-- reply: The exact text of the agent's reply
-- ground_truth: The exact ground truth fact you were checking for
-- reasoning: Your reasoning for your answer
-- ground_truth_in_reply: true if the fact is present, false if it is not
+Analyze whether the ground truth fact is present in the agent's reply and OUTPUT ONLY a JSON object with exactly these fields (no extra text):
+{
+  "reply": "<the exact text of the agent's reply>",
+  "ground_truth": "<the exact ground truth fact you were checking for>",
+  "reasoning": "<your concise reasoning>",
+  "ground_truth_in_reply": <true or false>
+}
 
-Be objective and precise in your determination.
+Rules:
+- Output ONLY the JSON object. Do not add any backticks, code fences, labels, or explanations.
+- Use strictly the four keys above.
+- Be objective and precise in your determination.

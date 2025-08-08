@@ -24,7 +24,6 @@ DEBUG_JUDGE_DIR = os.path.join(DEBUG_DIR, "judge")
 os.makedirs(DEBUG_JUDGE_DIR, exist_ok=True)
 
 class RetrievalJudgeResponse(BaseModel):
-    question: str
     reply: str
     ground_truth: str
     reasoning: str
@@ -203,6 +202,9 @@ def get_update_reward(
         model=OPENROUTER_GEMINI
     )
     
+    if response is None:
+        return 0.0
+
     if debug:
         debug_id = str(uuid.uuid4())
         debug_file = os.path.join(DEBUG_JUDGE_DIR, f"update_judge_response_{debug_id}.json")
