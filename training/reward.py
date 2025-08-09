@@ -13,8 +13,10 @@ from agent.settings import OPENROUTER_API_KEY, OPENROUTER_BASE_URL
 load_dotenv()
 
 # Constants
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 RETRIEVAL_JUDGE_PROMPT_PATH = os.path.join(OBSIDIAN_ROOT, "training", "prompts", "retrieval_judge_prompt.txt")
 UPDATE_JUDGE_PROMPT_PATH = os.path.join(OBSIDIAN_ROOT, "training", "prompts", "update_judge_prompt.txt")
+GPT_O3 = "o3-2025-04-16"
 
 # Use OpenRouter Gemini to align with agent/evaluation
 OPENROUTER_GEMINI = os.getenv("JUDGE_MODEL", "google/gemini-2.5-pro")
@@ -68,66 +70,33 @@ def load_update_judge_prompt(user_query: str, initial_folder_dump: str, final_fo
     
     return prompt_template.replace("{{user_query}}", user_query).replace("{{initial_folder_dump}}", initial_folder_dump).replace("{{final_folder_dump}}", final_folder_dump)
 
-def _extract_first_json_object(text: str) -> dict | None:
-    """Extract the first JSON object from arbitrary text and return as dict."""
-    if not text:
-        return None
-    # Fast path: trim code fences
-    if "```" in text:
-        try:
-            segment = text.split("```", 1)[1]
-            # If a language tag exists, split again
-            if "\n" in segment:
-                segment = segment.split("\n", 1)[1]
-            candidate = segment.split("```", 1)[0]
-            return json.loads(candidate)
-        except Exception:
-            pass
-    # General scan for a JSON object
-    start = text.find("{")
-    end = text.rfind("}")
-    if start != -1 and end != -1 and end > start:
-        candidate = text[start : end + 1]
-        try:
-            return json.loads(candidate)
-        except Exception:
-            return None
-    return None
-
-
-def get_model_response(schema: BaseModel, prompt: str, model: str = OPENROUTER_GEMINI) -> BaseModel | None:
+def get_model_response(schema: BaseModel, prompt: str, model: str) -> BaseModel:
     """
-    Get a structured response using OpenRouter's OpenAI-compatible Chat Completions.
+    Get a structured response from the OpenAI model
 
-    The judge prompts already enforce a strict JSON output; we parse JSON and
-    validate it against the provided Pydantic schema.
+    Args:
+        schema: The schema of the response
+        prompt: The prompt to send to the model
+        model: The model to use
+
+    Returns:
+        The structured response
     """
-    client = OpenAI(api_key=OPENROUTER_API_KEY, base_url=OPENROUTER_BASE_URL)
-
+    client = OpenAI(api_key=OPENAI_API_KEY)
+    
     for attempt in range(3):
         try:
-            completion = client.chat.completions.create(
+            response = client.responses.parse(
                 model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0,
+                input=[
+                    {"role": "user", "content": prompt}
+                ],
+                text_format=schema
             )
-            content = completion.choices[0].message.content or ""
-            data = _extract_first_json_object(content)
-            if data is None:
-                # Try a best-effort fallback: wrap as JSON if exact keys are found
-                # This helps when model responds with key: value lines
-                try:
-                    # crude normalization
-                    cleaned = content.strip()
-                    data = json.loads(cleaned)
-                except Exception:
-                    pass
-            if data is None:
-                raise ValueError("Model did not return valid JSON")
-            return schema.model_validate(data)
+            return response.output_parsed 
         except Exception as e:
-            print(f"OpenRouter call/parse failed on attempt {attempt + 1}: {e}")
-            if attempt == 2:
+            print(f"OpenAI call failed on attempt {attempt + 1}: {e}")
+            if attempt == 2:  # Last attempt
                 print("All retry attempts failed")
                 return None
 
@@ -202,9 +171,6 @@ def get_update_reward(
         model=OPENROUTER_GEMINI
     )
     
-    if response is None:
-        return 0.0
-
     if debug:
         debug_id = str(uuid.uuid4())
         debug_file = os.path.join(DEBUG_JUDGE_DIR, f"update_judge_response_{debug_id}.json")
