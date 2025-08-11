@@ -110,7 +110,7 @@ def process_action_base(
         
     elif reply_exists:
         # Use the provided reply reward calculator
-        reward += reply_reward_calculator(observation, reply, task, mem_ids_dumps_dict)
+        reward += 2.0 * reply_reward_calculator(observation, reply, task, mem_ids_dumps_dict)
         done = True
 
         next_observation = (
