@@ -41,9 +41,9 @@ check-uv:
 
 install: 
 	sudo apt install ninja-build
-	uv sync \
-	uv pip install --no-build-isolation openrlhf[vllm] \
-	uv pip install liger-kernel>=0.3.0 \
+	uv sync
+	uv pip install --no-build-isolation openrlhf[vllm]
+	uv pip install liger-kernel>=0.3.0
 	@echo "Checking if ninja is installed..."
 	@if ! uv pip freeze | grep -q "^ninja=="; then \
 		echo "ninja not found. Installing ninja..."; \
