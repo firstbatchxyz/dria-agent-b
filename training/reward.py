@@ -122,7 +122,7 @@ def get_retrieval_reward(
     judge_response = get_model_response(
         schema=RetrievalJudgeResponse,
         prompt=judge_prompt,
-        model=OPENROUTER_GEMINI
+        model=GPT_O3
     )
 
     if debug:
@@ -168,7 +168,7 @@ def get_update_reward(
     response = get_model_response(
         schema=UpdateJudgeResponse,
         prompt=prompt,
-        model=OPENROUTER_GEMINI
+        model=GPT_O3
     )
     
     if debug:
