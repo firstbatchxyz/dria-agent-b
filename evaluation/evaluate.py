@@ -75,7 +75,7 @@ def read_jsonl(
 
 
 async def evaluate_agents(
-    model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False
+    model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False, use_openai=False
 ):
     categories = ["retrieval", "clarification", "update"]
     evaluation = {"agent": model_name, "avg": 0.0, "scores": []}
@@ -122,7 +122,7 @@ async def evaluate_agents(
                     judge=entry.judge,
                 )
                 response = await get_model_response(
-                    message=jp, use_vllm=False, model=judge_name
+                    message=jp, use_vllm=False, model=judge_name, use_openai=use_openai
                 )
                 is_correct = capture_xml_tag(response, "judgment")
                 reasoning = capture_xml_tag(response, "reasoning")
@@ -177,6 +177,11 @@ if __name__ == "__main__":
         action="store_true",
         help="Add ' /think' suffix to all agent prompts",
     )
+    parser.add_argument(
+        "--use-openai",
+        action="store_true",
+        help="Use OpenAI API for judge",
+    )
     args = parser.parse_args()
 
     asyncio.run(
@@ -187,5 +192,6 @@ if __name__ == "__main__":
             tmp_dir=args.tmp_dir,
             data_dir=args.data_dir,
             add_think=args.add_think,
+            use_openai=args.use_openai,
         )
     )

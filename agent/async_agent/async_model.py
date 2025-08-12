@@ -2,6 +2,8 @@ from openai import AsyncOpenAI
 from pydantic import BaseModel
 
 from typing import Optional, Union
+import os
+from dotenv import load_dotenv
 
 from agent.settings import (
     OPENROUTER_API_KEY,
@@ -11,6 +13,13 @@ from agent.settings import (
     VLLM_PORT,
 )
 from agent.schemas import ChatMessage, Role
+
+# Load env for OPENAI usage (keeps behavior consistent with training/reward.py)
+load_dotenv()
+
+# Constants for OpenAI path (matching training/reward.py)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GPT_O3 = "o3-2025-04-16"
 
 
 def create_async_openai_client() -> AsyncOpenAI:
@@ -27,6 +36,11 @@ def create_async_vllm_client(host: str = "0.0.0.0", port: int = 8000) -> AsyncOp
         base_url=f"http://{host}:{port}/v1",
         api_key="EMPTY",  # vLLM doesn't require a real API key
     )
+
+
+def create_async_openai_api_client() -> AsyncOpenAI:
+    """Create a new AsyncOpenAI client instance for direct OpenAI API usage."""
+    return AsyncOpenAI(api_key=OPENAI_API_KEY)
 
 
 def _as_dict(msg: Union[ChatMessage, dict]) -> dict:
@@ -49,9 +63,13 @@ async def get_model_response(
     model: str = OPENROUTER_STRONG_MODEL,
     client: Optional[AsyncOpenAI] = None,
     use_vllm: bool = False,
+    use_openai: bool = False,
 ) -> Union[str, BaseModel]:
     """
-    Get a response from a model using OpenRouter or vLLM asynchronously, with optional schema for structured output.
+    Get a response from a model asynchronously using one of:
+    - OpenAI Responses API with GPT-O3 (when use_opena=True)
+    - OpenRouter (default)
+    - vLLM (when use_vllm=True)
 
     Args:
         messages: A list of ChatMessage objects (optional).
@@ -60,6 +78,7 @@ async def get_model_response(
         model: The model to use.
         client: Optional AsyncOpenAI client to use. If None, uses the global client.
         use_vllm: Whether to use vLLM backend instead of OpenRouter.
+        use_opena: Whether to call the OpenAI API directly with GPT-O3.
 
     Returns:
         A string response from the model if schema is None, otherwise a BaseModel object.
@@ -68,8 +87,11 @@ async def get_model_response(
         raise ValueError("Either 'messages' or 'message' must be provided.")
 
     # Use provided clients or fall back to global ones
-    if client is None:
-        if use_vllm:
+    if client is None or use_openai:
+        # For use_opena=True, always use a fresh OpenAI client regardless of provided client
+        if use_openai:
+            client = create_async_openai_api_client()
+        elif use_vllm:
             client = create_async_vllm_client(host=VLLM_HOST, port=VLLM_PORT)
         else:
             client = create_async_openai_client()
@@ -85,7 +107,14 @@ async def get_model_response(
     else:
         messages = [_as_dict(m) for m in messages]
 
-    if use_vllm:
+    if use_openai:
+        # Use OpenAI Responses API with GPT-O3, mirroring training/reward.py
+        completion = await client.responses.create(
+            model=GPT_O3,
+            input=messages,
+        )
+        return completion.output_text
+    elif use_vllm:
         completion = await client.chat.completions.create(
             model=model, messages=messages
         )
