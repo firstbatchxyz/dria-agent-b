@@ -18,6 +18,31 @@ HF
 | 26 | 0.8125 | 0.1250 | 0.2727 | 0.5455 | 0.4311 |
 | 38 | 0.6250 | 0.5000 | 0.2727 | 0.4848 | 0.3092 |
 
+## Plots
+
+### Task Type Metrics and Training Score vs. Overall Score
+
+![Task Type Metrics and Training Score vs. Overall Score](./img/metrics_vs_overall.png)
+
+### Task Type Metrics, Training Score, and Overall Score vs. Step
+
+![Task Type Metrics, Training Score, and Overall Score vs. Step](./img/metrics_vs_step.png)
+
+### Training Step 13
+
+![Training Step 13](./img/step13_training.png)
+
+### Training Step 21
+
+![Training Step 21](./img/step21_training.png)
+
+### Training Step 26
+
+![Training Step 26](./img/step26_training.png)
+
+### Training Step 38
+
+![Training Step 38](./img/step38_training.png)
 
 # Config
 
