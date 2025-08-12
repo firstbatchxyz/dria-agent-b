@@ -20,13 +20,17 @@ HF
 
 ## Plots
 
-### Task Type Metrics and Training Score vs. Overall Score
+### Task Type Metrics and Training Score vs. Overall Eval Score
 
 ![Task Type Metrics and Training Score vs. Overall Score](./img/metrics_vs_overall.png)
 
-### Task Type Metrics, Training Score, and Overall Score vs. Step
+### Task Type Metrics, Training Score, and Overall Eval Score vs. Step
 
-![Task Type Metrics, Training Score, and Overall Score vs. Step](./img/metrics_vs_step.png)
+![Task Type Metrics, Training Score, and Overall Eval Score vs. Step](./img/metrics_vs_step.png)
+
+### Task Type Metrics and Overall Eval Score vs. Training Score
+
+![Task Type Metrics and Overall Eval Score vs. Training Score](./img/metrics_vs_training.png)
 
 ### Training Step 13
 
