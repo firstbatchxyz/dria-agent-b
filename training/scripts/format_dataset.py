@@ -263,6 +263,49 @@ def split_data(records: List[Dict[str, Any]], train_ratio: float = 0.97) -> Tupl
     
     return records[:train_size], records[train_size:]
 
+def print_hop_statistics(all_retrieval_hops: Dict[str, List[Dict[str, Any]]], 
+                        all_update_hops: Dict[str, List[Dict[str, Any]]], 
+                        mode: str, category: str = None):
+    """Print detailed statistics about hop levels per category."""
+    print(f"\n=== HOP LEVEL STATISTICS ===")
+    
+    # Calculate totals for each hop level
+    hop_totals = {"0_hop": 0, "1_hop": 0, "2_hop": 0}
+    
+    # Print retrieval statistics (if applicable)
+    if mode != "one-category" or category == "retrieval":
+        print(f"Retrieval records by hop level:")
+        retrieval_total = 0
+        for hop_level in ["0_hop", "1_hop", "2_hop"]:
+            count = len(all_retrieval_hops[hop_level])
+            print(f"  - {hop_level}: {count:,} records")
+            hop_totals[hop_level] += count
+            retrieval_total += count
+        print(f"  - Total retrieval: {retrieval_total:,} records")
+    
+    # Print update statistics (if applicable)
+    if mode != "one-category" or category == "update":
+        print(f"Update records by hop level:")
+        update_total = 0
+        for hop_level in ["0_hop", "1_hop", "2_hop"]:
+            count = len(all_update_hops[hop_level])
+            print(f"  - {hop_level}: {count:,} records")
+            hop_totals[hop_level] += count
+            update_total += count
+        print(f"  - Total update: {update_total:,} records")
+    
+    # Print overall hop statistics
+    if mode != "one-category":
+        print(f"Overall records by hop level:")
+        grand_total = 0
+        for hop_level in ["0_hop", "1_hop", "2_hop"]:
+            count = hop_totals[hop_level]
+            print(f"  - {hop_level}: {count:,} records")
+            grand_total += count
+        print(f"  - Grand total: {grand_total:,} records")
+    
+    print(f"================================")
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--input_dir", default="data/instances")
@@ -417,6 +460,9 @@ def main():
     except Exception as e:
         print(f"Error writing validation file {valid_path}: {e}")
         return
+
+    # Print detailed hop statistics
+    print_hop_statistics(all_retrieval_hops, all_update_hops, args.mode, args.category)
 
     # Calculate statistics
     total_retrieval = sum(len(records) for records in all_retrieval_hops.values())
