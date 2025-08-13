@@ -63,7 +63,7 @@ echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_e
    --actor_num_gpus_per_node 8 \
    --vllm_num_engines 2 \
    --vllm_tensor_parallel_size 4 \
-   --vllm_gpu_memory_utilization 0.30 \
+   --vllm_gpu_memory_utilization 0.25 \
    --colocate_all_models \
    --init_kl_coef $INIT_KL_COEF \
    --kl_target $KL_TARGET \
@@ -80,11 +80,11 @@ echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_e
    --train_batch_size 32 \
    --micro_rollout_batch_size 2 \
    --rollout_batch_size 32 \
-   --n_samples_per_prompt 4 \
+   --n_samples_per_prompt 16 \
    --max_epochs $MAX_EPOCHS \
    --prompt_max_len 4096 \
    --max_samples 100000 \
-   --generate_max_len 1024 \
+   --generate_max_len 2048 \
    --zero_stage 3 \
    --bf16 \
    --actor_learning_rate $ACTOR_LR \
@@ -107,5 +107,4 @@ echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_e
    --wandb_project obsidian-retrieval-openrlhf \
    --eps_clip 0.1 \
    --policy_loss_type gspo \
-   --use_liger_kernel \
-   --ptx_coef 0.13 
+   --use_liger_kernel 

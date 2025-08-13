@@ -103,10 +103,19 @@ def reset_memory_for_episode(memory_id: str, instances_dir: str = "data/instance
     
     with memory_lock:  # Only one agent can reset this memory at a time
         try:
+            # Ensure absolute paths to avoid working directory issues
+            if not os.path.isabs(instances_dir):
+                # Get the project root directory (parent of training directory)
+                training_dir = pathlib.Path(__file__).parent.absolute()
+                project_root = training_dir.parent
+                instances_dir = os.path.join(project_root, instances_dir)
+            
             # Find the memory directory in instances
             instances_path = pathlib.Path(instances_dir)
             if not instances_path.exists():
                 print(f"Warning: Instances directory not found: {instances_dir}")
+                print(f"Current working directory: {os.getcwd()}")
+                print(f"Resolved instances path: {instances_path.absolute()}")
                 return False
             
             # Search for the memory in all instance folders
