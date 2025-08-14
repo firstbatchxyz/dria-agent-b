@@ -151,7 +151,25 @@ async def evaluate_agents(
     )
     evaluation["avg"] = correct / total if total else 0
 
-    with open("evaluation_results.json", "w") as f:
+    # compute category-wise averages
+    category_totals = {c: 0 for c in categories}
+    category_correct = {c: 0 for c in categories}
+    for s in evaluation["scores"]:
+        cat = s.get("category")
+        if cat in category_totals:
+            category_totals[cat] += 1
+            if str(s.get("is_correct")).lower() == "correct":
+                category_correct[cat] += 1
+
+    evaluation["category_avg"] = {
+        c: (category_correct[c] / category_totals[c] if category_totals[c] else 0)
+        for c in categories
+    }
+
+    # Save using model name tail as filename (e.g., org/model -> model.json)
+    model_basename = model_name.split("/")[-1] if isinstance(model_name, str) else "results"
+    output_filename = f"{model_basename}.json"
+    with open(output_filename, "w") as f:
         json.dump(evaluation, f, indent=2)
 
 
