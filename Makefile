@@ -74,6 +74,9 @@ format-data:
 
 # Run the training script
 train:
+	uv pip install --no-build-isolation openrlhf[vllm]
+	uv pip install liger-kernel>=0.3.0
+	python3 remove_vllm_error.py
 	@echo "Starting training..."
 	chmod +x train_agent.sh
 	WANDB_API_KEY=$(WANDB_API_KEY) ./train_agent.sh
