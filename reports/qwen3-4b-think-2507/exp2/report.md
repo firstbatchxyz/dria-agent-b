@@ -1,6 +1,6 @@
 # Experiment 1
 
-- Wandb: https://wandb.ai/firstbatchxyz/obsidian-retrieval-openrlhf/workspace?nw=nwuseratakant
+- Wandb: https://wandb.ai/firstbatchxyz/obsidian-retrieval-openrlhf/runs/hqrraai9?nw=nwuseratakant
 
 HF
 - Untrained Model: [Qwen/Qwen3-4B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507)
@@ -17,13 +17,13 @@ HF
 | Step | Retrieval | Update | Clarification | Overall | Training Score |
 |-------|-----------|--------|---------------|---------|-----------|
 | 0 | 0.5625 | 0.0000 | 0.3636 | 0.3939 | - |
-| 10 | - | - | - | - | 0.2539 |
-| 13 | - | - | - | - | 0.4428 |
-| 18 | - | - | - | - | 0.5297 |
-| 21 | - | - | - | - | 0.6273 |
-| 26 | - | - | - | - | 0.7594 |
-| 60 | - | - | - | - | 0.7684 |
-| 97 | - | - | - | - | 0.8397 |
+| 10 | 0.75 | 0.1667 | 0.2727 | 0.4848 | 0.2539 |
+| 13 | 0.875 | 0.3333 | 0.1818 | 0.5454 | 0.4428 |
+| 18 | 1 | 0.5000 | 0.2727 | 0.6667 | 0.5297 |
+| 21 | 0.9375 | 0.6667 | 0.2727 | 0.6667 | 0.6273 |
+| 26 | 0.9375 | 0.6667 | 0.0909 | 0.6061 | 0.7594 |
+| 60 | 0.875 | 0.3333 | 0.0000 | 0.4848 | 0.7684 |
+| 97 | 0.9375 | 0.3333 | 0.1818 | 0.5757 | 0.8397 |
 | 129 | - | - | - | - | 0.7559 |
 
 ## Plots
