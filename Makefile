@@ -17,6 +17,7 @@ help:
 	@echo "  4. setup-memory - Setup memory from instances"
 	@echo "  5. remove-vllm-error - Remove vllm error check"
 	@echo "  6. format-data - Format dataset → data/openrlhf/mixed/"
+	@echo "  7. add-filters - Add filters to 50% of retrieval records in data/openrlhf/mixed"
 	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
 	@echo ""
@@ -71,6 +72,24 @@ remove-vllm-error:
 format-data:
 	@echo "Formatting dataset..."
 	uv run --project agent python training/scripts/format_dataset.py --mode mixed
+
+# Add filters to half of retrieval questions in mixed train/valid
+add-filters:
+	@echo "Adding filters to 50% of retrieval records in data/openrlhf/mixed..."
+	@ARGS=""; \
+	if [ -n "$(CONCURRENCY)" ]; then \
+		ARGS="$$ARGS --concurrency $(CONCURRENCY)"; \
+	fi; \
+	if [ -n "$(FRACTION)" ]; then \
+		ARGS="$$ARGS --fraction $(FRACTION)"; \
+	fi; \
+	if [ -n "$(SEED)" ]; then \
+		ARGS="$$ARGS --seed $(SEED)"; \
+	fi; \
+	if [ -n "$(FILTER_MODEL)" ]; then \
+		ARGS="$$ARGS --model $(FILTER_MODEL)"; \
+	fi; \
+	uv run --project agent python data_gen/generate_filters.py --dataset-dir data/openrlhf/mixed --instances-dir data/instances $$ARGS
 
 # Run the training script
 train:
