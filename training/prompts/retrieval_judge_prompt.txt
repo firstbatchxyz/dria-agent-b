@@ -14,6 +14,7 @@ Guidelines:
 - Partial matches do not count as present (e.g., mentioning "Lars" without specifying he's a partner)
 - Do not make assumptions or inferences beyond what is directly stated
 - Be case-insensitive in your matching
+- If a <filter> block is provided below, you MUST enforce it strictly. If the reply violates the filter (e.g., reveals disallowed info), consider that as not satisfying the ground truth and set ground_truth_in_reply to false.
 
 Question: {{question}}
 

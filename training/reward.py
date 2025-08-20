@@ -35,19 +35,30 @@ class UpdateJudgeResponse(BaseModel):
     reasoning: str
     success: bool
 
-def load_retrieval_judge_prompt(question: str, reply: str, ground_truth: str) -> str:
+def load_retrieval_judge_prompt(question: str, reply: str, ground_truth: str, filter_text: str | None = None) -> str:
     """
     Load the retrieval judge prompt and replace the placeholders with the reply and ground truth.
+    If filter_text is provided, append an instruction block for the judge to consider the filter constraints.
     """
     try:
         with open(RETRIEVAL_JUDGE_PROMPT_PATH, "r") as f:
             judge_prompt = f.read()
     except FileNotFoundError:
         raise FileNotFoundError(f"Judge prompt file not found at {RETRIEVAL_JUDGE_PROMPT_PATH}")
-    
+
     judge_prompt = judge_prompt.replace("{{question}}", question)
     judge_prompt = judge_prompt.replace("{{reply}}", reply)
     judge_prompt = judge_prompt.replace("{{ground_truth}}", ground_truth)
+
+    if filter_text is not None and len(filter_text.strip()) > 0:
+        filter_block = (
+            "\n\nAdditional filter constraints (if present, STRICTLY enforce):\n"
+            "<filter>\n" + filter_text.strip() + "\n</filter>\n"
+            "Guidance: If the reply violates explicit filter constraints (e.g., reveals banned info),"
+            " mark ground_truth_in_reply=false even if it includes the fact."
+        )
+        judge_prompt = judge_prompt + filter_block
+
     return judge_prompt
 
 def load_update_judge_prompt(user_query: str, initial_folder_dump: str, final_folder_dump: str) -> str:
@@ -104,6 +115,7 @@ def get_retrieval_reward(
         question: str,
         agent_reply: str,
         ground_truth: str,
+        filter_text: str | None = None,
         debug: bool = False
     ) -> float:
     """
@@ -118,7 +130,7 @@ def get_retrieval_reward(
     Returns:
         float: 1.0 if ground truth is present in reply, 0.0 otherwise
     """
-    judge_prompt = load_retrieval_judge_prompt(question, agent_reply, ground_truth)
+    judge_prompt = load_retrieval_judge_prompt(question, agent_reply, ground_truth, filter_text)
     judge_response = get_model_response(
         schema=RetrievalJudgeResponse,
         prompt=judge_prompt,

@@ -46,6 +46,29 @@ def extract_task_from_label(label: str) -> Task:
     return Task(task_type=TaskType(task_type), mem_id=mem_id, answer=answer)
 
 
+def parse_answer_and_optional_filter(label_tail: str):
+    """
+    Parse retrieval label tail to extract answer and optional filter content.
+
+    Expected forms:
+    - Plain answer without any tags => returns (answer, None)
+    - With tags:
+        <filter>\n...\n</filter>\n<answer>\n...\n</answer>
+      in any order; returns (answer_text, filter_text)
+    """
+    # Try to find tagged blocks
+    filter_match = re.search(r"<filter>\s*([\s\S]*?)\s*</filter>", label_tail, flags=re.IGNORECASE)
+    answer_match = re.search(r"<answer>\s*([\s\S]*?)\s*</answer>", label_tail, flags=re.IGNORECASE)
+
+    if answer_match:
+        answer_text = answer_match.group(1).strip()
+        filter_text = filter_match.group(1).strip() if filter_match else None
+        return answer_text, filter_text
+
+    # Fallback: treat the whole tail as the ground truth answer
+    return label_tail, None
+
+
 def extract_question(observation: str) -> str:
     """
     Extract the question from the observation.

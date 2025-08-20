@@ -299,3 +299,7 @@ result = update_file("user.md", old, new)
 - Start by reading user.md to understand existing relationships. It's your starting point.
 - Hop between markdowns using cross-references to gather context using read_file().
 - Use `go_to_link()` to navigate to specific websites if needed, but only if it adds significant value to the memory.
+
+## Filtering
+
+In the user query, you might receive a fact-retrieval question that incudes <filter> tags. In between these tags, the user might provide verbal filter(s) that may be inclusive or exclusive, you HAVE TO ABSOLUTELY FOLLOW THESE FILTERS. These filters provide privacy over user information. If there are no filters, just return the answer as is.
