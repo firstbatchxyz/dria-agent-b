@@ -18,6 +18,8 @@ help:
 	@echo "  5. remove-vllm-error - Remove vllm error check"
 	@echo "  6. format-data - Format dataset → data/openrlhf/mixed/"
 	@echo "  7. add-filters - Add filters to 50% of retrieval records in data/openrlhf/mixed"
+	@echo "  8. gen-clarification - Generate clarification samples from instances"
+	@echo "  9. sync-mixed-prompt - Sync mixed dataset system prompt from agent/system_prompt.txt"
 	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
 	@echo ""
@@ -90,6 +92,38 @@ add-filters:
 		ARGS="$$ARGS --model $(FILTER_MODEL)"; \
 	fi; \
 	uv run --project agent python data_gen/generate_filters.py --dataset-dir data/openrlhf/mixed --instances-dir data/instances $$ARGS
+
+# Generate clarification dataset (one-category/clarification)
+gen-clarification:
+	@echo "Generating clarification dataset from instances..."
+	@ARGS=""; \
+	if [ -n "$(CONCURRENCY)" ]; then \
+		ARGS="$$ARGS --concurrency $(CONCURRENCY)"; \
+	fi; \
+	if [ -n "$(SEED)" ]; then \
+		ARGS="$$ARGS --seed $(SEED)"; \
+	fi; \
+	if [ -n "$(LIMIT)" ]; then \
+		ARGS="$$ARGS --limit-memories $(LIMIT)"; \
+	fi; \
+	if [ -n "$(MODEL)" ]; then \
+		ARGS="$$ARGS --model $(MODEL)"; \
+	fi; \
+	if [ -n "$(PER_TYPE)" ]; then \
+		ARGS="$$ARGS --per-type $(PER_TYPE)"; \
+	fi; \
+	if [ -n "$(KINDS)" ]; then \
+		ARGS="$$ARGS --kinds $(KINDS)"; \
+	fi; \
+	if [ -n "$(MIX_IN_DATA)" ]; then \
+		ARGS="$$ARGS --mix-in-data"; \
+	fi; \
+	uv run --project agent python data_gen/generate_clarifcation.py $$ARGS
+
+# Sync mixed dataset system prompt from latest file
+sync-mixed-prompt:
+	@echo "Syncing system prompt into data/openrlhf/mixed/{train,valid}.jsonl" 
+	uv run --project agent python training/scripts/update_system_prompt_in_dataset.py --dataset-dir data/openrlhf/mixed --prompt-file agent/system_prompt.txt
 
 # Run the training script
 train:
