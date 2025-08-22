@@ -16,6 +16,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 RETRIEVAL_JUDGE_PROMPT_PATH = os.path.join(OBSIDIAN_ROOT, "training", "prompts", "retrieval_judge_prompt.txt")
 UPDATE_JUDGE_PROMPT_PATH = os.path.join(OBSIDIAN_ROOT, "training", "prompts", "update_judge_prompt.txt")
+CLARIFICATION_JUDGE_PROMPT_PATH = os.path.join(OBSIDIAN_ROOT, "training", "prompts", "clarification_judge_prompt.txt")
 GPT_O3 = "o3-2025-04-16"
 
 # Use OpenRouter Gemini to align with agent/evaluation
@@ -32,6 +33,10 @@ class RetrievalJudgeResponse(BaseModel):
     ground_truth_in_reply: bool
 
 class UpdateJudgeResponse(BaseModel):
+    reasoning: str
+    success: bool
+
+class ClarificationJudgeResponse(BaseModel):
     reasoning: str
     success: bool
 
@@ -80,6 +85,17 @@ def load_update_judge_prompt(user_query: str, initial_folder_dump: str, final_fo
         prompt_template = f.read()
     
     return prompt_template.replace("{{user_query}}", user_query).replace("{{initial_folder_dump}}", initial_folder_dump).replace("{{final_folder_dump}}", final_folder_dump)
+
+def load_clarification_judge_prompt(question: str, agent_reply: str) -> str:
+    """
+    Load the clarification judge prompt and fill placeholders with question and reply.
+    """
+    try:
+        with open(CLARIFICATION_JUDGE_PROMPT_PATH, "r") as f:
+            template = f.read()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Judge prompt file not found at {CLARIFICATION_JUDGE_PROMPT_PATH}")
+    return template.replace("{{question}}", question).replace("{{reply}}", agent_reply)
 
 def get_model_response(schema: BaseModel, prompt: str, model: str) -> BaseModel:
     """
@@ -193,4 +209,31 @@ def get_update_reward(
             print(f"Error saving debug file: {e}")
     
     # Return 1.0 if success, 0.0 otherwise
+    return 1.0 if response.success else 0.0
+
+def get_clarification_reward(
+        question: str,
+        agent_reply: str,
+        debug: bool = False
+    ) -> float:
+    """
+    Get the clarification reward based on whether the reply is an appropriate clarification.
+    Returns 1.0 for success, 0.0 otherwise.
+    """
+    prompt = load_clarification_judge_prompt(question=question, agent_reply=agent_reply)
+    response = get_model_response(
+        schema=ClarificationJudgeResponse,
+        prompt=prompt,
+        model=GPT_O3
+    )
+    if debug and response is not None:
+        debug_id = str(uuid.uuid4())
+        debug_file = os.path.join(DEBUG_JUDGE_DIR, f"clarification_judge_response_{debug_id}.json")
+        try:
+            with open(debug_file, "w") as f:
+                json.dump(response.model_dump(), f)
+        except Exception as e:
+            print(f"Error saving debug file: {e}")
+    if response is None:
+        return 0.0
     return 1.0 if response.success else 0.0

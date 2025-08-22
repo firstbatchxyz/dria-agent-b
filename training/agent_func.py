@@ -15,6 +15,7 @@ from agent.schemas import StaticMemory
 from training.action_processor import process_action_base
 from training.retrieval import calculate_retrieval_reply_reward
 from training.update import calculate_update_reply_reward
+from training.clarification import calculate_clarification_reply_reward
 from training.utils import Task, TaskType, extract_task_from_label, remove_all_thinks_except_last, MAX_STEPS, dump_folder
 from training import MEMORY_PATH
 
@@ -287,7 +288,10 @@ class AgentInstance(AgentInstanceBase):
         elif task.task_type == TaskType.UPDATE:
             reply_reward_calculator = calculate_update_reply_reward
         else:
-            raise ValueError(f"Unknown task type: {task.task_type}")
+            if task.task_type == TaskType.CLARIFICATION:
+                reply_reward_calculator = calculate_clarification_reply_reward
+            else:
+                raise ValueError(f"Unknown task type: {task.task_type}")
 
         # Process the action using the shared base function
         reward, done, next_observation = process_action_base(
