@@ -30,7 +30,7 @@ The filters you generate:
 There are 3 types of filters & answers pairs you can generate:
 1. Complete obfuscation of the answer (complete): Exclusive filter(s) apply to all of the retrieved information, answer should be a rejection to answer
 2. Partial obfuscation of the answer (partial): Exclusive filter(s) apply to a part of the retrieved information, answer should be the part of the answer that is not obfuscated, no indication of obfuscation
-3. No obfuscation of the answer (no): None of the exclusive filter(s) apply to any part of the retrieved information, answer should be the full answer
+3. No obfuscation of the answer (no): None of the exclusive filter(s) apply to any part of the retrieved information, answer should be the full answer. The filters in these examples should be in a different domain than the answer/question. THIS IS VERY IMPORTANT.
 
 You must follow the obfuscation type you are given. THIS IS VERY IMPORTANT.
 
