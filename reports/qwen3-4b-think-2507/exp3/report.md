@@ -1,29 +1,30 @@
-# Experiment 2
+# Experiment 3
 
-- Wandb: https://wandb.ai/firstbatchxyz/obsidian-retrieval-openrlhf/runs/hqrraai9?nw=nwuseratakant
+## Comments
+
+The difference between this experiment and the last one is that we added clarification data & task and retrieval with filters.
+
+- Wandb: https://wandb.ai/firstbatchxyz/obsidian-retrieval-openrlhf/runs/0a3310de?nw=nwuseratakant
 
 HF
 - Untrained Model: [Qwen/Qwen3-4B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507)
-- Step 10:  [driaforall/qwen3-4b-think-2507-exp2-step10](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step10)
-- Step 13:  [driaforall/qwen3-4b-think-2507-exp2-step13](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step13)
-- Step 18:  [driaforall/qwen3-4b-think-2507-exp2-step18](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step18)
-- Step 21:  [driaforall/qwen3-4b-think-2507-exp2-step21](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step21)
-- Step 26:  [driaforall/qwen3-4b-think-2507-exp2-step26](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step26)
-- Step 60:  [driaforall/qwen3-4b-think-2507-exp2-step60](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step60)
-- Step 97:  [driaforall/qwen3-4b-think-2507-exp2-step97](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step97)
-- Step 129: [driaforall/qwen3-4b-think-2507-exp2-step129](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp2-step129)
+- Step 11:  [driaforall/qwen3-4b-think-2507-exp3-step11](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step11)
+- Step 14:  [driaforall/qwen3-4b-think-2507-exp3-step14](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step14)
+- Step 16:  [driaforall/qwen3-4b-think-2507-exp3-step16](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step16)
+- Step 19:  [driaforall/qwen3-4b-think-2507-exp3-step19](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step19)
+- Step 31:  [driaforall/qwen3-4b-think-2507-exp3-step31](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step31)
+- Step 44:  [driaforall/qwen3-4b-think-2507-exp3-step44](https://huggingface.co/driaforall/qwen3-4b-think-2507-exp3-step44)
 
 ## Eval Scores (o3 judge)
 | Step | Retrieval | Update | Clarification | Overall | Training Score |
 |-------|-----------|--------|---------------|---------|-----------|
-| 0 | 0.5625 | 0.0000 | 0.3636 | 0.3939 | - |
-| 10 | 0.75 | 0.1667 | 0.2727 | 0.4848 | 0.2539 |
-| 13 | 0.875 | 0.3333 | 0.1818 | 0.5454 | 0.4428 |
-| 18 | 1 | 0.5000 | 0.2727 | 0.6667 | 0.5297 |
-| 21 | 0.9375 | 0.6667 | 0.2727 | 0.6667 | 0.6273 |
-| 26 | 0.9375 | 0.6667 | 0.0909 | 0.6061 | 0.7594 |
-| 60 | 0.875 | 0.3333 | 0.0000 | 0.4848 | 0.7684 |
-| 97 | 0.9375 | 0.3333 | 0.1818 | 0.5757 | 0.8397 |
+| 0 | 0.4545 | 0 | 0.2727 | 0.2955 | - |
+| 11 | 0.5455 | 0.2727 | 0.2727 | 0.4091 | 0.2708 |
+| 14 | 0.6364 | 0.3636 | 0.1818 | 0.4545 | 0.3327 |
+| 16 | 0.7727 | 0.1818 | 0.3636 | 0.5227 | 0.4492 |
+| 19 | 0.8181 | 0.3636 | 0.2727 | 0.5681 | 0.6738 |
+| 31 | 0.8181 | 0.6363 | 0.3636 | 0.6591 | 0.6624 |
+| 44 | 0.7727 | 0.7272 | 0.5455 | 0.7045 | 0.8023 |
 
 # Config
 
