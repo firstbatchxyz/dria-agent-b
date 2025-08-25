@@ -34,6 +34,7 @@ ATTENTION:
 - Correct answer might be empty, in which case the assistant's answer is subjective and should be evaluated based on the judging preference.
 - Judging preference will emphasize what the assitant should focus on ideally and what kind of information is expected to be used to form an answer that is retrieved from the memory.
 - Judging preference can be empty, in which case the answer should be evaluated based on the question and answer content alone.
+- If the <question> includes a <filter>...</filter> block, STRICTLY enforce those constraints. If the assistant reveals information disallowed by the filter, mark the answer as INCORRECT even if other parts are correct.
 
 In your evaluation, provide a detailed reasoning for your judgment. Consider both the strengths and weaknesses of the answer. If there are any discrepancies or issues, point them out clearly.
 

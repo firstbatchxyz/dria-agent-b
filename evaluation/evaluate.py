@@ -66,7 +66,7 @@ def list_folders(path):
 
 
 def read_jsonl(
-    path, category: Literal["retrieval", "clarification", "update"] = "retrieval"
+    path, category: Literal["retrieval", "clarification", "update", "filter"] = "retrieval"
 ):
     with open(path, "r", encoding="utf-8") as f:
         lines = [json.loads(line) for line in f]
@@ -77,7 +77,8 @@ def read_jsonl(
 async def evaluate_agents(
     model_name, judge_name, use_vllm, tmp_dir, data_dir, add_think=False, use_openai=False
 ):
-    categories = ["retrieval", "clarification", "update"]
+    # Add 'filter' category which behaves like retrieval but with <filter> constraints
+    categories = ["retrieval", "clarification", "update", "filter"]
     evaluation = {"agent": model_name, "avg": 0.0, "scores": []}
     os.makedirs(tmp_dir, exist_ok=True)
 
