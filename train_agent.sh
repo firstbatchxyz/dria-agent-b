@@ -103,7 +103,7 @@ echo "  Hyperparameters: init_kl_coef=$INIT_KL_COEF, kl_target=$KL_TARGET, max_e
    --use_wandb True \
    --num_episodes $NUM_EPISODES \
    --save_steps 1 \
-   --packing_samples --flash_attn \
+   --packing_samples \
    --wandb_project obsidian-retrieval-openrlhf \
    --eps_clip 0.1 \
    --policy_loss_type gspo \
