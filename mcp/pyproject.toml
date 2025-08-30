@@ -15,4 +15,7 @@ dev-dependencies = [
     "pytest",
 ]
 
+[tool.uv.sources]
+obsidian-agent = { workspace = true }
+
 

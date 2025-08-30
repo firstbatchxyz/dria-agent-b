@@ -14,8 +14,9 @@ dependencies = [
     "wandb",
     "ninja",
     "black",
-    "liger-kernel>=0.3.0"
+    "liger-kernel>=0.3.0",
+    "fastmcp"
 ]
 
 [tool.uv.workspace]
-members = ["data_gen", "evaluation", "agent", "mcp"]
+members = ["data_gen", "evaluation", "agent"]

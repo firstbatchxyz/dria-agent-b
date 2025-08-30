@@ -158,6 +158,6 @@ run-agent:
 
 mcp-serve:
 	@echo "Starting MCP server..."
-	@echo "Syncing mcp project dependencies..."
-	cd mcp && uv sync && cd ..
-	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run --project mcp python mcp/server.py
+	@echo "Syncing top-level dependencies..."
+	uv sync
+	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run python mcp/server.py
