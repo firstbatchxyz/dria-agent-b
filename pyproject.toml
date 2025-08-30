@@ -18,4 +18,4 @@ dependencies = [
 ]
 
 [tool.uv.workspace]
-members = ["data_gen", "evaluation", "agent"]
+members = ["data_gen", "evaluation", "agent", "mcp"]

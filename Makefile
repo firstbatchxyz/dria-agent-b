@@ -22,6 +22,7 @@ help:
 	@echo "  9. sync-mixed-prompt - Sync mixed dataset system prompt from agent/system_prompt.txt"
 	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
+	@echo "  12. mcp-serve - Start the MCP server"
 	@echo ""
 	@echo "Evaluation variables:"
 	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
@@ -29,6 +30,7 @@ help:
 	@echo "  ADD_THINK - Set to any value to add '/think' suffix to prompts"
 	@echo "  Usage: make eval MODEL=qwen/qwen3-8b"
 	@echo "         make eval USE_VLLM=1 ADD_THINK=1"
+	@echo "         make mcp-serve MCP_HOST=127.0.0.1 MCP_PORT=8765"
 
 # Check if uv is installed and install if needed
 check-uv:
@@ -150,3 +152,12 @@ eval:
 	cd evaluation && uv sync && cd ..; \
 	echo "Running: uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS"; \
 	uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS --data-dir data/eval
+
+run-agent:
+	uv run --project mcp vllm serve driaforall/mem-agent
+
+mcp-serve:
+	@echo "Starting MCP server..."
+	@echo "Syncing mcp project dependencies..."
+	cd mcp && uv sync && cd ..
+	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run --project mcp python mcp/server.py
