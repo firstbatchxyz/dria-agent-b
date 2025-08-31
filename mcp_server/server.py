@@ -4,7 +4,7 @@ from typing import Optional
 from fastmcp import FastMCP, Context
 
 from agent import Agent
-from mcp.settings import MEMORY_AGENT_NAME
+from mcp_server.settings import MEMORY_AGENT_NAME
 
 
 mcp = FastMCP("Memory Agent Server")
