@@ -39,7 +39,7 @@ async def use_memory_agent(question: str) -> str:
 
 if __name__ == "__main__":
     host = "127.0.0.1"
-    port = "8765"
+    port = 8765
     mcp.run(transport="http", host=host, port=port, path="/mcp-memory-agent")
 
 
