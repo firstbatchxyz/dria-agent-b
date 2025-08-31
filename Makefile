@@ -154,7 +154,7 @@ eval:
 	uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS --data-dir data/eval
 
 run-agent:
-	uv run --project mcp vllm serve driaforall/mem-agent
+	uv run vllm serve driaforall/mem-agent
 
 mcp-serve:
 	@echo "Starting MCP server..."
