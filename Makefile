@@ -160,4 +160,4 @@ mcp-serve:
 	@echo "Starting MCP server..."
 	@echo "Syncing top-level dependencies..."
 	uv sync
-	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run python -m mcp.server
+	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run python -m mcp_server.server
