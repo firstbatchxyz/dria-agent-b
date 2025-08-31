@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
-    "vllm",
+    "vllm; sys_platform != 'darwin'",
     "openai",
     "pydantic>=2.0.0",
     "python-dotenv",
@@ -14,9 +14,10 @@ dependencies = [
     "wandb",
     "ninja",
     "black",
-    "liger-kernel>=0.3.0",
-    "fastmcp"
+    "liger-kernel>=0.3.0; sys_platform != 'darwin'",
+    "fastmcp",
+    "pygments>=2.19.2",
 ]
 
 [tool.uv.workspace]
-members = ["data_gen", "evaluation", "agent"]
+members = ["data_gen", "evaluation", "agent", "mcp_server"]

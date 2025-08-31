@@ -13,6 +13,7 @@ if REPO_ROOT not in sys.path:
 from agent import Agent
 try:
     from mcp_server.settings import MEMORY_AGENT_NAME
+    from mcp_server.settings import MLX_MEMORY_AGENT_NAME
 except Exception:
     # Fallback when executed as a script from inside the package directory
     from settings import MEMORY_AGENT_NAME
@@ -21,8 +22,10 @@ except Exception:
 mcp = FastMCP("Memory Agent Server")
 
 # Initialize the agent
+IS_DARWIN = sys.platform == "darwin"
+
 agent = Agent(
-    model=MEMORY_AGENT_NAME,
+    model=MEMORY_AGENT_NAME if not IS_DARWIN else MLX_MEMORY_AGENT_NAME,
     use_vllm=True,
     predetermined_memory_path=True,
     memory_path="mcp-server",

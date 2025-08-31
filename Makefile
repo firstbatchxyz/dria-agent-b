@@ -23,6 +23,7 @@ help:
 	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
 	@echo "  12. mcp-serve - Start the MCP server"
+	@echo "  13. install-lms - Install LM Studio"
 	@echo ""
 	@echo "Evaluation variables:"
 	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
@@ -45,10 +46,15 @@ check-uv:
 	fi
 
 install: 
-	sudo apt install ninja-build
-	uv sync
-	uv pip install --no-build-isolation openrlhf[vllm]
-	uv pip install liger-kernel>=0.3.0
+	@if [ "$$(uname -s)" = "Darwin" ]; then \
+		echo "macOS detected: skipping apt, vLLM and liger-kernel installs"; \
+		uv sync; \
+	else \
+		sudo apt install ninja-build; \
+		uv sync; \
+		uv pip install --no-build-isolation openrlhf[vllm]; \
+		uv pip install "liger-kernel>=0.3.0"; \
+	fi
 	@echo "Checking if ninja is installed..."
 	@if ! uv pip freeze | grep -q "^ninja=="; then \
 		echo "ninja not found. Installing ninja..."; \
@@ -129,8 +135,12 @@ sync-mixed-prompt:
 
 # Run the training script
 train:
-	uv pip install --no-build-isolation openrlhf[vllm]
-	uv pip install liger-kernel>=0.3.0
+	@if [ "$$(uname -s)" = "Darwin" ]; then \
+		echo "macOS detected: skipping openrlhf[vllm] and liger-kernel installs"; \
+	else \
+		uv pip install --no-build-isolation openrlhf[vllm]; \
+		uv pip install "liger-kernel>=0.3.0"; \
+	fi
 	python3 remove_vllm_error.py
 	@echo "Starting training..."
 	chmod +x train_agent.sh
@@ -154,10 +164,23 @@ eval:
 	uv run --project evaluation evaluation/evaluate.py $$EVAL_ARGS --data-dir data/eval
 
 run-agent:
-	uv run vllm serve driaforall/mem-agent
+	@if [ "$$("uname" -s)" = "Darwin" ]; then \
+		echo "run-agent requires vLLM and is unsupported on macOS. Use 'make run-agent-mlx' instead."; \
+		exit 1; \
+	else \
+		uv run vllm serve driaforall/mem-agent; \
+	fi
+
+run-agent-mlx:
+	lms server start --port 8000;
+	lms load driaforall/mem-agent-MLX;
 
 mcp-serve:
 	@echo "Starting MCP server..."
-	@echo "Syncing top-level dependencies..."
-	uv sync
-	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run python -m mcp_server.server
+	@echo "Syncing mcp_server project dependencies..."
+	cd mcp_server && uv sync && cd ..
+	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run --project mcp_server python -m mcp_server.server
+
+install-lms:
+	chmod +x mcp_server/install_lms.sh
+	./mcp_server/install_lms.sh

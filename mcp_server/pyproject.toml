@@ -6,8 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "fastmcp",
-    "vllm",
+    "vllm; sys_platform != 'darwin'",
     "obsidian-agent",
+    "pygments>=2.19.2",
 ]
 
 [tool.uv]
