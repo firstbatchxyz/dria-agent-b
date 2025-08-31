@@ -7,6 +7,9 @@ include .env
 USE_VLLM ?= 
 ADD_THINK ?=
 
+# Repository root (absolute)
+REPO_ROOT := $(shell git rev-parse --show-toplevel 2>/dev/null || pwd)
+
 # Help command
 help:
 	@echo "Usage: make <target>"
@@ -24,6 +27,7 @@ help:
 	@echo "  11. eval - Run evaluation on QA datasets"
 	@echo "  12. mcp-serve - Start the MCP server"
 	@echo "  13. install-lms - Install LM Studio"
+	@echo "  14. generate-mcp-json - Generate mcp_server/mcp.json with repo root path"
 	@echo ""
 	@echo "Evaluation variables:"
 	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
@@ -184,3 +188,9 @@ mcp-serve:
 install-lms:
 	chmod +x mcp_server/install_lms.sh
 	./mcp_server/install_lms.sh
+
+generate-mcp-json:
+	@echo "Generating mcp_server/mcp.json with repository root path..."
+	@mkdir -p mcp_server
+	@echo '{"mcpServers": {"memory-agent-stdio": {"command": "bash", "args": ["-lc", "cd $(REPO_ROOT) && uv run python mcp_server/server.py"], "env": {"FASTMCP_LOG_LEVEL": "INFO", "MCP_TRANSPORT": "stdio"}, "timeout": 600000}}}' > mcp_server/mcp.json
+	@echo "Wrote mcp_server/mcp.json"
