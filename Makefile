@@ -172,8 +172,8 @@ run-agent:
 	fi
 
 run-agent-mlx:
-	lms server start --port 8000;
 	lms load driaforall/mem-agent-MLX;
+	lms server start --port 8000;
 
 mcp-serve:
 	@echo "Starting MCP server..."
