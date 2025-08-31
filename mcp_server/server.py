@@ -1,6 +1,7 @@
 import os
 import sys
 import socket
+import asyncio
 from typing import Optional
 
 from fastmcp import FastMCP, Context
@@ -19,7 +20,8 @@ except Exception:
     from settings import MEMORY_AGENT_NAME
 
 
-mcp = FastMCP("Memory Agent Server")
+# Initialize FastMCP (the installed version doesn't accept a timeout kwarg)
+mcp = FastMCP("memory-agent-server")
 
 # Initialize the agent
 IS_DARWIN = sys.platform == "darwin"
@@ -32,7 +34,7 @@ agent = Agent(
 )
 
 @mcp.tool
-async def use_memory_agent(question: str) -> str:
+async def use_memory_agent(question: str, ctx: Context) -> str:
     """
     Provide the local memory agent with the user query 
     so that it can (or not) interact with the memory and 
@@ -45,9 +47,18 @@ async def use_memory_agent(question: str) -> str:
         The response from the agent.
     """
     try:
-        result = agent.chat(question)
-        return result.reply or ""
-    except Exception as exc:  
+        loop = asyncio.get_running_loop()
+        fut = loop.run_in_executor(None, agent.chat, question)
+
+        # heartbeat loop: indeterminate progress
+        while not fut.done():
+            await ctx.report_progress(progress=1)   # no total -> indeterminate
+            await asyncio.sleep(2)
+
+        result = await fut
+        await ctx.report_progress(progress=1, total=1)  # 100%
+        return (result.reply or "").strip()
+    except Exception as exc:
         return f"agent_error: {type(exc).__name__}: {exc}"
 
 
