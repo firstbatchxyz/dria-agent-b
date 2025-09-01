@@ -4,7 +4,8 @@
 | Model | Retrieval | Update | Clarification | Filter | Overall |
 |-------|-----------|--------|---------------|--------|---------|
 | Qwen/Qwen3-4B-Thinking-2507 | 0.4545 | 0 | 0.2727 | 0.75 | 0.3929 |
-| driaforall/qwen3-4b-think-2507-exp4-step39 | 0.8636 | 0.7272 | 0.3636 | 0.9167 | 0.75 |
+| driaforall/mem-agent | 0.8636 | 0.7272 | 0.3636 | 0.9167 | 0.75 |
+| driaforall/mem-agent-mlx-quant-4bit | 0.9091 | 0.7272 | 0.4545 | 0.8333 | 0.7679 |
 | qwen/qwen3-235b-a22b-thinking-2507 | 0.9091 | 0.6363 | 0.4545 | 1 | 0.7857 |
 | google/gemini-2.5-flash | 0.7727 | 0.3636 | 0.2727 | 0.9167 | 0.625 |
 | google/gemini-2.5-pro | 0.7273 | 0.4545 | 0.2727 | 1 | 0.6429 |
