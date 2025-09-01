@@ -25,9 +25,7 @@ help:
 	@echo "  9. sync-mixed-prompt - Sync mixed dataset system prompt from agent/system_prompt.txt"
 	@echo "  10. train - Run training"
 	@echo "  11. eval - Run evaluation on QA datasets"
-	@echo "  12. mcp-serve - Start the MCP server"
-	@echo "  13. install-lms - Install LM Studio"
-	@echo "  14. generate-mcp-json - Generate mcp_server/mcp.json with repo root path"
+
 	@echo ""
 	@echo "Evaluation variables:"
 	@echo "  MODEL - Model name for agent (default: qwen/qwen3-8b)"
@@ -35,7 +33,7 @@ help:
 	@echo "  ADD_THINK - Set to any value to add '/think' suffix to prompts"
 	@echo "  Usage: make eval MODEL=qwen/qwen3-8b"
 	@echo "         make eval USE_VLLM=1 ADD_THINK=1"
-	@echo "         make mcp-serve MCP_HOST=127.0.0.1 MCP_PORT=8765"
+
 
 # Check if uv is installed and install if needed
 check-uv:
@@ -176,21 +174,6 @@ run-agent:
 	fi
 
 run-agent-mlx:
-	lms load driaforall/mem-agent-MLX;
+	lms load mem-agent-mlx-quant;
 	lms server start --port 8000;
 
-mcp-serve:
-	@echo "Starting MCP server..."
-	@echo "Syncing mcp_server project dependencies..."
-	cd mcp_server && uv sync && cd ..
-	MCP_HOST=$(MCP_HOST) MCP_PORT=$(MCP_PORT) MCP_TRANSPORT=$(MCP_TRANSPORT) uv run --project mcp_server python -m mcp_server.server
-
-install-lms:
-	chmod +x mcp_server/install_lms.sh
-	./mcp_server/install_lms.sh
-
-generate-mcp-json:
-	@echo "Generating mcp_server/mcp.json with repository root path..."
-	@mkdir -p mcp_server
-	@echo '{"mcpServers": {"memory-agent-stdio": {"command": "bash", "args": ["-lc", "cd $(REPO_ROOT) && uv run python mcp_server/server.py"], "env": {"FASTMCP_LOG_LEVEL": "INFO", "MCP_TRANSPORT": "stdio"}, "timeout": 600000}}}' > mcp_server/mcp.json
-	@echo "Wrote mcp_server/mcp.json"

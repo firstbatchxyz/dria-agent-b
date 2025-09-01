@@ -14,10 +14,8 @@ dependencies = [
     "wandb",
     "ninja",
     "black",
-    "liger-kernel>=0.3.0; sys_platform != 'darwin'",
-    "fastmcp",
-    "pygments>=2.19.2",
+    "liger-kernel>=0.3.0; sys_platform != 'darwin'"
 ]
 
 [tool.uv.workspace]
-members = ["data_gen", "evaluation", "agent", "mcp_server"]
+members = ["data_gen", "evaluation", "agent"]
