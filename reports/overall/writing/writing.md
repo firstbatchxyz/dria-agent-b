@@ -77,20 +77,20 @@ and the `entities/dria.md` file:
 
 The first query to test the model is "I need the exact job title I have in my contract to apply for a raffle for an apartment I want to rent, do you have that information?". The model first checks if the `user.md` file exists and reads it:
 
-<img src="img/c1s1.png" width="650">
+<img src="img/c1s1.png" width="700">
 
 Then, it checks if the `entities/dria.md` file exists and reads it:
 
-<img src="img/c1s2.png" width="650">
-<img src="img/c1s3.png" width="650">
+<img src="img/c1s2.png" width="700">
+<img src="img/c1s3.png" width="700">
 
 After that, it replies to the user asking for clarification on the job title:
 
-<img src="img/c1s4.png" width="650">
+<img src="img/c1s4.png" width="700">
 
 Then, we give the model the query' My job title is "AI Researcher", can you add that please", to which it replies with a long `<think>` block, and the necessary `<python>` block to update the memory, replying to the user in the next turn:
 
-<img src="img/c1s5.png" width="650">
+<img src="img/c1s5.png" width="700">
 
 With the resulting `user.md` file being:
 
