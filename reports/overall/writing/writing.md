@@ -51,6 +51,62 @@ memory/
 - Each entity file follows the same structure as `user.md`.
 - Modifying the memory manually does not require restarting the MCP server.
 
+## Walkthrough
+
+To demonstrate what the model can do, we've crafted a scenario which we can see the model retrieve and update information in the memory system and clarify if the memory does not contain the necessary information to help the user with the task.
+
+Here's the `user.md` file:
+```markdown
+# User Information
+- user_name: Atakan Tekparmak
+- birth_date: 2001-09-27
+- birth_location: Istanbul, Turkey
+- living_location: Groningen, Netherlands
+- zodiac_sign: Libra
+
+## User Relationships
+- employer: [[entities/dria.md]]
+```
+
+and the `entities/dria.md` file:
+```markdown
+# Dria
+- industry: AI Infrastructure & Research
+- description: Dria provides a universal execution layer and decentralized inference network that optimizes and runs AI models across heterogeneous hardware.
+```
+
+The first query to test the model is "I need the exact job title I have in my contract to apply for a raffle for an apartment I want to rent, do you have that information?". The model first checks if the `user.md` file exists and reads it:
+
+<img src="img/c1s1.png" width="500">
+
+Then, it checks if the `entities/dria.md` file exists and reads it:
+
+<img src="img/c1s2.png" width="500">
+<img src="img/c1s3.png" width="500">
+
+After that, it replies to the user asking for clarification on the job title:
+
+<img src="img/c1s4.png" width="500">
+
+Then, we give the model the query' My job title is "AI Researcher", can you add that please", to which it replies with a long `<think>` block, and the necessary `<python>` block to update the memory, replying to the user in the next turn:
+
+<img src="img/c1s5.png" width="500">
+
+With the resulting `user.md` file being:
+
+```markdown
+# User Information
+- user_name: Atakan Tekparmak
+- birth_date: 2001-09-27
+- birth_location: Istanbul, Turkey
+- living_location: Groningen, Netherlands
+- zodiac_sign: Libra
+- job_title: AI Researcher
+
+## User Relationships
+- employer: [[entities/dria.md]]
+```
+
 ## Training
 
 We tried out a variety of different models and RL algorithms to arrive to the "sweet spot" of Qwen3-4B-Thinking-2507 and GSPO. The models we tried are:
@@ -100,19 +156,19 @@ Below are plots showing both the overall scores of the tested models and the sco
 
 #### 1. Overall
 
-<img src="img/overall.png" alt="Overall" width="450">
+<img src="img/overall.png" alt="Overall" width="500">
 
 Our model is rivaled only by the Qwen3-235B-A22B-Thinking-2507, putting on a 35.7% score increase over the base Qwen model, which has a score of 39.3%. A few surprises in terms of performance are Claude Opus 4.1 and Kimi-K2, which perform lower than one would expect from their real-life usage and performance in other benchmarks. 
 
 #### 2. Retrieval
 
-<img src="img/retrieval.png" alt="Retrieval" width="450">
+<img src="img/retrieval.png" alt="Retrieval" width="500">
 
 The retrieval scores align most with the overall scores, with perhaps the only surprise being Gemini 2.5 Flash performing better than Gemini 2.5 Pro. The rest of the scores are very in-line with the overall scores.
 
 #### 3. Update
 
-<img src="img/update.png" alt="Update" width="450">
+<img src="img/update.png" alt="Update" width="500">
 
 Two things to note after looking at the update scores:
 - Claude Opus 4.1 performs correctly for no samples, which might be caused by (which will be further investigated) by a problem with using the scaffold and our `update_file` tool.
@@ -120,13 +176,13 @@ Two things to note after looking at the update scores:
 
 #### 4. Clarification
 
-<img src="img/clarification.png" alt="Clarification" width="450">
+<img src="img/clarification.png" alt="Clarification" width="500">
 
-The clarification task is where we see the "big model smell" the most. This task essentially measures how the model implicitly measure and assesses its confidence on what it does and does not know. Here we see Claude Opus 4.1 leading with a wide margin, much expected given the model's usage, capability and assumed large size. Our tiny 4B modeel, even in this task, is competing with models around 50x its size.
+The clarification task is where we see the "big model smell" the most. This task essentially measures how the model implicitly measure and assesses its confidence on what it does and does not know. Here we see Claude Opus 4.1 leading with a wide margin, much expected given the model's usage, capability and assumed large size. Our tiny 4B model, even in this task, is competing with models around 50x its size.
 
 #### 5. Filter
 
-<img src="img/filter.png" alt="Filter" width="450">
+<img src="img/filter.png" alt="Filter" width="500">
 
 In the filtering task once again Claude Opus 4.1 scores and unexpectedly bad performance, while the Qwen3-235B-A22B-Thinking-2507 and Gemini 2.5 Pro score a perfect score of 100%. Our model also scores a great score of 91.7%, sharing that with 3 other models.
 
