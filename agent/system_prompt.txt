@@ -87,7 +87,7 @@ check_if_dir_exists(dir_path: str) -> bool
 
 # Utilities
 get_size(file_or_dir_path: str) -> int  # Bytes; empty = total memory size
-go_to_link(link_string: str) -> bool
+go_to_link(link_string: str) -> str
 ```
 
 ## File Update Examples
