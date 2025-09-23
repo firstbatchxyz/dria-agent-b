@@ -15,16 +15,17 @@ help:
 	@echo "Usage: make <target>"
 	@echo "Targets:"
 	@echo "  1. help - Show this help message"
-	@echo "  2. check-uv - Check if uv is installed and install if needed"
+	@echo "  2. copy-env - Copy the .env.example to .env if .env does not exist"
+	@echo "  3. check-uv - Check if uv is installed and install if needed"
 	@echo "  3. install - Install dependencies using uv"
 	@echo "  4. setup-memory - Setup memory from instances"
-	@echo "  5. remove-vllm-error - Remove vllm error check"
-	@echo "  6. format-data - Format dataset → data/openrlhf/mixed/"
-	@echo "  7. add-filters - Add filters to 50% of retrieval records in data/openrlhf/mixed"
-	@echo "  8. gen-clarification - Generate clarification samples from instances"
-	@echo "  9. sync-mixed-prompt - Sync mixed dataset system prompt from agent/system_prompt.txt"
-	@echo "  10. train - Run training"
-	@echo "  11. eval - Run evaluation on QA datasets"
+	@echo "  6. remove-vllm-error - Remove vllm error check"
+	@echo "  7. format-data - Format dataset → data/openrlhf/mixed/"
+	@echo "  8. add-filters - Add filters to 50% of retrieval records in data/openrlhf/mixed"
+	@echo "  9. gen-clarification - Generate clarification samples from instances"
+	@echo "  10. sync-mixed-prompt - Sync mixed dataset system prompt from agent/system_prompt.txt"
+	@echo "  11. train - Run training"
+	@echo "  12. eval - Run evaluation on QA datasets"
 
 	@echo ""
 	@echo "Evaluation variables:"
@@ -34,6 +35,11 @@ help:
 	@echo "  Usage: make eval MODEL=qwen/qwen3-8b"
 	@echo "         make eval USE_VLLM=1 ADD_THINK=1"
 
+# copy the .env.example to .env if .env does not exist
+copy-env:
+	@if [ ! -f .env ]; then \
+		cp .env.example .env; \
+	fi
 
 # Check if uv is installed and install if needed
 check-uv:
